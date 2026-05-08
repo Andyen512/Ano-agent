@@ -1,0 +1,460 @@
+<!DOCTYPE html>
+<html lang="zh">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>视频标注平台</title>
+  <link rel="stylesheet" href="/static/styles.css">
+</head>
+<body>
+  <header>
+    <div>
+      <h1>视频标注平台</h1>
+      <p id="stats">加载中...</p>
+    </div>
+    <div class="controls">
+      <select id="dataset"><option value="">全部数据集</option></select>
+      <select id="status">
+        <option value="">全部状态</option>
+        <option value="pending">待标注</option>
+        <option value="annotated">已标注</option>
+        <option value="risk">模型判风险</option>
+        <option value="normal">模型判正常</option>
+      </select>
+      <button id="reload">刷新</button>
+      <button id="export" class="secondary">导出</button>
+      <div class="user-info">
+        <span id="current-user"></span>
+        <button id="manage-users" class="secondary" style="display:none">用户管理</button>
+        <button id="logout" class="secondary">登出</button>
+      </div>
+    </div>
+  </header>
+
+  <main>
+    <aside id="list"></aside>
+    <div class="detail-wrapper" id="detail-wrapper">
+      <div id="detail"><div class="empty">请选择视频</div></div>
+    </div>
+  </main>
+
+  <script>
+    // ================== 状态管理 ==================
+    const state = {
+      videos: [],
+      current: null,
+      taxonomy: {},
+      stats: null,
+      deviceStats: null,
+      currentUsername: null,
+      latestRequestId: 0,
+      currentStep: 0,
+      modelOutputs: null,
+      chineseOutputs: null
+    };
+
+    const $ = (id) => document.getElementById(id);
+
+    // ================== 配置 (可自定义) ==================
+    const STEPS = ["description", "solution_for_person", "solution_for_hazard_source", "solution_prevent_recurrence"];
+    const STEP_LABELS = {
+      description: "正常视频描述或风险描述",
+      solution_for_person: "解决方案-对人",
+      solution_for_hazard_source: "解决方案-对危险源",
+      solution_prevent_recurrence: "解决方案-防止危险复发"
+    };
+
+    const LABEL_MAP = {
+      risk: { Yes: "有风险", No: "无风险" },
+      risk_subtype: { abnormal: "异常行为", risk_only: "仅有异常前兆" },
+      level1_scene: { "dining room": "餐厅", "kitchen": "厨房", "study": "书房", "balcony": "阳台", "living room": "客厅", "bathroom": "浴室", "bedroom": "卧室", "yard": "院子" },
+      level2_subject: { child: "儿童", "older adult": "老年人", "young adult: "年轻人", "middle-aged adult": "中年人", all: "所有人" },
+      level3_risk_type: { "fall/instability": "跌倒/不稳", "heat/fire source": "热源/火灾", "collision/crush injury": "碰撞/挤压伤", "sharp-object danger": "锐器危险", "electrical safety": "电气安全", "poisoning/accidental ingestion": "中毒/误食", "interpersonal conflict": "人际冲突", "animal attack/biosecurity risk": "动物攻击/生物安全风险", "None": "无" },
+    };
+
+    function toChinese(key, val) {
+      return LABEL_MAP[key]?.[val] || val || "-";
+    }
+
+    function getOrCreateDeviceId() {
+      let id = localStorage.getItem("lifebench_device_id");
+      if (!id) {
+        const bytes = new Uint8Array(4);
+        crypto.getRandomValues(bytes);
+        const suffix = [...bytes].map(b => b.toString(16).padStart(2, "0")).join("");
+        id = `device_${suffix}`;
+        localStorage.setItem("lifebench_device_id", id);
+      }
+      return id;
+    }
+
+    function annotator() {
+      return state.currentUsername || getOrCreateDeviceId();
+    }
+
+    // ================== 数据加载 ==================
+    async function loadDatasets() {
+      const res = await fetch("/api/datasets");
+      const datasets = await res.json();
+      $("dataset").innerHTML = `<option value="">全部数据集</option>` + datasets.map(d => `<option value="${d.dataset}">${d.dataset} (${d.count})</option>`).join("");
+    }
+
+    async function loadTaxonomy() {
+      const res = await fetch("/api/taxonomy");
+      state.taxonomy = await res.json();
+    }
+
+    async function loadStats() {
+      const res = await fetch(`/api/stats?annotator=${encodeURIComponent(annotator())}`);
+      const s = await res.json();
+      state.stats = s;
+      $("stats").textContent = `总数 ${s.total} | 已标注 ${s.annotated || 0} | 待标 ${s.pending || s.total} | 我已标 ${s.user_annotated || 0}`;
+    }
+
+    async function loadVideos(append = false) {
+      append = append === true;
+      const requestId = ++state.latestRequestId;
+      const params = new URLSearchParams({
+        annotator: annotator(),
+        dataset: $("dataset").value,
+        status: $("status").value,
+        offset: append ? state.videos.length : 0,
+        limit: "50",
+      });
+      const res = await fetch(`/api/videos?${params}`);
+      if (requestId !== state.latestRequestId) return;
+      const newVideos = await res.json();
+      if (requestId !== state.latestRequestId) return;
+      if (append) {
+        state.videos.push(...newVideos);
+      } else {
+        state.videos = newVideos;
+      }
+      renderList(append);
+      await Promise.all([loadStats(), loadDeviceStats()]);
+    }
+
+    async function loadDeviceStats() {
+      const res = await fetch("/api/device_stats");
+      state.deviceStats = await res.json();
+    }
+
+    // ================== 渲染函数 ==================
+    function renderList(append = false) {
+      const html = state.videos.map((v, i) => {
+        const riskClass = v.model_risk === "Yes" ? "risk-yes" : "risk-no";
+        const annotator = v.annotation?.annotator;
+        return `<div class="item ${state.current?.video_key === v.video_key ? "active" : ""}" data-i="${i}">
+          <strong>${v.video_key}</strong>
+          <span class="badge ${riskClass}">${v.model_risk === "Yes" ? "有风险" : "正常"}</span>
+          ${v.annotation ? `<span class="badge">已标${annotator ? '(' + annotator + ')' : ''}</span>` : ""}
+        </div>`;
+      }).join("");
+      
+      if (append) {
+        $("list").insertAdjacentHTML("beforeend", html);
+      } else {
+        $("list").innerHTML = html + `<button id="load-more" class="secondary" style="width:100%;margin-top:8px">加载更多</button>`;
+        $("load-more").onclick = () => loadVideos(true);
+      }
+      [...document.querySelectorAll(".item")].forEach(el => {
+        el.onclick = () => selectVideo(Number(el.dataset.i));
+      });
+    }
+
+    function progressBar(label, progress) {
+      const total = progress?.total || 0;
+      const annotated = progress?.annotated || 0;
+      const pct = total > 0 ? Math.round((annotated / total) * 100) : 0;
+      return `<div class="progress-row">
+        <div class="progress-label"><span>${label}</span><span>${annotated}/${total} (${pct}%)</span></div>
+        <div class="progress-track"><div class="progress-fill" style="width: ${pct}%"></div></div>
+      </div>`;
+    }
+
+    function progressPanel() {
+      const progress = state.stats?.progress || {};
+      return `<div class="progress-panel">
+        ${progressBar("标注进度", progress.risk)}
+      </div>`;
+    }
+
+    // ================== 选择视频 ==================
+    function selectVideo(index) {
+      const v = state.videos[index];
+      state.current = v;
+      state.currentStep = 0;
+      state.modelOutputs = null;
+      state.chineseOutputs = null;
+      const ann = v.annotation || {};
+      const value = (key) => ann[key] ?? modelValue(v, key);
+      
+      $("detail").innerHTML = `
+        <div class="grid">
+          <div>
+            <video controls loop muted preload="metadata" src="${v.media_url}" onerror="this.outerHTML='<div class=\'video-error\'>视频加载失败</div>'"></video>
+            <div class="video-nav">
+              <button id="prev-video" class="secondary" ${index <= 0 ? "disabled" : ""}>上一条</button>
+              <button id="next-video" class="secondary" ${index >= state.videos.length - 1 ? "disabled" : ""}>下一条</button>
+            </div>
+            ${progressPanel()}
+          </div>
+          <div class="panel">
+            <div class="panel-header">
+              <h2>人工标注</h2>
+              <button id="save" class="save-btn">保存</button>
+            </div>
+            <div class="form">
+              <div class="step-indicator" id="step-indicator"></div>
+              <div id="step-form"></div>
+              <div class="fixed-fields">
+                <label>Risk
+                  <select id="risk">
+                    <option value="Yes" ${value("risk") === "Yes" ? "selected" : ""}>Yes</option>
+                    <option value="No" ${value("risk") === "No" ? "selected" : ""}>No</option>
+                  </select>
+                </label>
+                <label>风险类别
+                  <select id="risk_subtype">
+                    <option value="abnormal" ${value("risk_subtype") === "abnormal" ? "selected" : ""}>异常行为</option>
+                    <option value="risk_only" ${value("risk_subtype") === "risk_only" ? "selected" : ""}>仅有异常前兆</option>
+                  </select>
+                </label>
+                ${selectField("level1_scene", "Level 1 场景", value("level1_scene"), state.taxonomy.level1_scene || [])}
+                ${selectField("level2_subject", "Level 2 主体", value("level2_subject"), state.taxonomy.level2_subject || [])}
+                ${selectField("level3_risk_type", "Level 3 风险类型", value("level3_risk_type"), state.taxonomy.level3_risk_type || [])}
+              </div>
+              <label class="inline-label"><span class="label-title">风险定位 <small>(如: 5,14)</small></span><input id="risk_localization" value="${value("risk_localization") || ""}" /></label>
+              <label class="inline-label">备注<textarea id="notes" class="small-textarea">${ann.notes || ""}</textarea></label>
+            </div>
+          </div>
+        </div>
+      `;
+      
+      $("save").onclick = saveCurrent;
+      $("prev-video").onclick = () => moveSelection(-1);
+      $("next-video").onclick = () => moveSelection(1);
+      
+      $("step-form").onclick = (e) => {
+        if (e.target.id === "prev-step") changeStep(-1);
+        if (e.target.id === "next-step") changeStep(1);
+      };
+      
+      loadModelOutputsForVideo(v.video_key);
+      renderStepForm();
+      renderList();
+    }
+
+    function selectField(name, label, value, options) {
+      const current = value || "";
+      const allOptions = options.includes(current) || !current ? options : [current, ...options];
+      return `<label>${label}<select id="${name}">
+        ${allOptions.map(opt => `<option value="${opt}" ${opt === current ? "selected" : ""}>${toChinese(name, opt)}</option>`).join("")}
+      </select></label>`;
+    }
+
+    function modelValue(video, key) {
+      return video[`model_${key}`] || "";
+    }
+
+    // ================== 模型输出加载 ==================
+    async function loadModelOutputsForVideo(videoKey) {
+      // 可扩展: 从后端加载模型输出
+      state.modelOutputs = null;
+      renderStepForm();
+    }
+
+    // ================== 步骤表单 ==================
+    function renderStepForm() {
+      if (!state.current) return;
+      const step = STEPS[state.currentStep];
+      const ann = state.current.annotation || {};
+      const currentValue = ann[step] || "";
+      
+      let indicatorHtml = `<div class="step-dots">`;
+      STEPS.forEach((s, i) => {
+        indicatorHtml += `<span class="step-dot ${i === state.currentStep ? 'active' : ''} ${ann[s] ? 'completed' : ''}" onclick="jumpToStep(${i})">${STEP_LABELS[s].slice(0, 4)}</span>`;
+      });
+      indicatorHtml += `</div>`;
+      $("step-indicator").innerHTML = indicatorHtml;
+      
+      const prevDisplay = state.currentStep > 0 ? "inline-block" : "none";
+      const nextText = state.currentStep < STEPS.length - 1 ? "下一步" : "完成";
+      
+      let modelAreaHtml = "";
+      if (state.modelOutputs === null) {
+        modelAreaHtml = `<div class="model-loading">加载中...</div>`;
+      } else if (state.modelOutputs && state.modelOutputs.length > 0) {
+        modelAreaHtml = `<div class="model-outputs"><div class="model-outputs-title">模型输出参考:</div>`;
+        state.modelOutputs.forEach((mo, idx) => {
+          const text = mo[step + "_zh"] || mo[step] || "";
+          modelAreaHtml += `<div class="model-output-item">
+            <div class="model-name">${idx + 1}. ${mo.model || "模型" + (idx+1)}</div>
+            <div class="model-text">${text}</div>
+          </div>`;
+        });
+        modelAreaHtml += `</div>`;
+      } else {
+        modelAreaHtml = `<div class="model-no-output">暂无模型输出</div>`;
+      }
+      
+      $("step-form").innerHTML = `
+        <div class="step-content">
+          <div class="step-label">${STEP_LABELS[step]}</div>
+          <textarea id="${step}" placeholder="请输入人工总结...">${currentValue}</textarea>
+          ${modelAreaHtml}
+        </div>
+        <div class="step-nav">
+          <button id="prev-step" class="secondary" style="display:${prevDisplay}">上一步</button>
+          <button id="next-step" class="secondary">${nextText}</button>
+        </div>
+      `;
+    }
+
+    function jumpToStep(targetStep) {
+      if (!state.current) return;
+      if (targetStep < 0 || targetStep >= STEPS.length || targetStep === state.currentStep) return;
+      saveCurrentStep();
+      state.currentStep = targetStep;
+      renderStepForm();
+    }
+
+    function changeStep(delta) {
+      const newStep = state.currentStep + delta;
+      if (newStep < 0 || newStep >= STEPS.length) return;
+      saveCurrentStep();
+      state.currentStep = newStep;
+      renderStepForm();
+    }
+
+    function saveCurrentStep() {
+      if (!state.current) return;
+      const step = STEPS[state.currentStep];
+      const textarea = document.getElementById(step);
+      if (textarea) {
+        if (!state.current.annotation) state.current.annotation = {};
+        state.current.annotation[step] = textarea.value;
+      }
+    }
+
+    function currentIndex() {
+      return state.videos.findIndex(v => v.video_key === state.current?.video_key);
+    }
+
+    function moveSelection(delta) {
+      const index = currentIndex();
+      if (index < 0) return;
+      const nextIndex = index + delta;
+      if (nextIndex < 0 || nextIndex >= state.videos.length) return;
+      selectVideo(nextIndex);
+    }
+
+    // ================== 保存 ==================
+    async function saveCurrent() {
+      if (!state.current) return;
+      saveCurrentStep();
+      
+      const payload = { annotator: annotator() };
+      STEPS.forEach(s => {
+        payload[s] = (state.current.annotation && state.current.annotation[s]) ? state.current.annotation[s] : "";
+      });
+      ["risk", "risk_subtype", "level1_scene", "level2_subject", "level3_risk_type", "risk_localization", "notes"].forEach(k => {
+        payload[k] = $(k) ? $(k).value : "";
+      });
+      
+      const res = await fetch(`/api/videos/${state.current.video_key}/annotation`, {
+        method: "POST",
+        headers: { "Content-Type": "application/json" },
+        body: JSON.stringify(payload),
+      });
+      if (!res.ok) {
+        alert(await res.text());
+        return;
+      }
+      state.current.annotation = { ...state.current.annotation, ...payload, annotator: annotator(), updated_at: new Date().toISOString() };
+      renderList();
+      const nextIndex = Math.min(currentIndex() + 1, state.videos.length - 1);
+      if (nextIndex >= 0) selectVideo(nextIndex);
+    }
+
+    // ================== 导出 ==================
+    async function exportAnnotations() {
+      const res = await fetch(`/api/export?annotator=${encodeURIComponent(annotator())}`);
+      const data = await res.json();
+      const blob = new Blob([data.content], { type: "application/jsonl" });
+      const url = URL.createObjectURL(blob);
+      const a = document.createElement("a");
+      a.href = url;
+      a.download = data.filename;
+      a.click();
+      URL.revokeObjectURL(url);
+    }
+
+    // ================== 用户管理 ==================
+    $("manage-users").onclick = async () => {
+      const res = await fetch("/api/users");
+      const users = await res.json();
+      const modal = document.createElement("div");
+      modal.style.cssText = "position:fixed;top:0;left:0;width:100%;height:100%;background:rgba(0,0,0,0.5);display:flex;justify-content:center;align-items:center;z-index:1000";
+      modal.innerHTML = `
+        <div style="background:#fff;padding:24px;border-radius:8px;width:400px;max-height:80vh;overflow:auto">
+          <h3 style="margin:0 0 16px">用户管理</h3>
+          <div id="user-list" style="margin-bottom:16px">
+            ${users.map(u => `<div style="display:flex;justify-content:space-between;align-items:center;padding:8px 0;border-bottom:1px solid #eee">
+              <span>${u.username}</span>
+              ${u.username !== 'admin' ? `<button onclick="deleteUser(${u.id}, this)" style="font-size:12px;padding:2px 8px;background:#dc2626;color:#fff;border:none;border-radius:4px;cursor:pointer">删除</button>` : ''}
+            </div>`).join('')}
+          </div>
+          <h4 style="margin:0 0 8px">添加用户</h4>
+          <input id="new-username" placeholder="用户名" style="width:100%;padding:8px;margin-bottom:8px;border:1px solid #ccc;border-radius:4px" />
+          <input id="new-password" type="password" placeholder="密码(至少6位)" style="width:100%;padding:8px;margin-bottom:8px;border:1px solid #ccc;border-radius:4px" />
+          <div style="display:flex;gap:8px;justify-content:flex-end">
+            <button onclick="this.closest('div[style*=fixed]').remove()" class="secondary">关闭</button>
+            <button onclick="addUser()">添加</button>
+          </div>
+        </div>
+      `;
+      document.body.appendChild(modal);
+      window.addUser = async () => {
+        const username = $("new-username").value.trim();
+        const password = $("new-password").value;
+        if (!username || !password) { alert("请输入用户名和密码"); return; }
+        const res = await fetch("/api/users", { method: "POST", headers: { "Content-Type": "application/json" }, body: JSON.stringify({ username, password }) });
+        if (res.ok) {
+          document.querySelector("div[style*=fixed]").remove();
+          $("manage-users").click();
+        } else {
+          alert((await res.json()).error);
+        }
+      };
+      window.deleteUser = async (userId, btn) => {
+        if (!confirm("确定删除?")) return;
+        await fetch(`/api/users/${userId}`, { method: "DELETE" });
+        btn.parentElement.remove();
+      };
+    };
+
+    // ================== 事件绑定 ==================
+    $("reload").onclick = () => loadVideos();
+    $("export").onclick = exportAnnotations;
+    $("dataset").onchange = () => loadVideos();
+    $("status").onchange = () => loadVideos();
+    $("logout").onclick = async () => { await fetch("/api/logout", { method: "POST" }); window.location.href = "/login"; };
+
+    // ================== 初始化 ==================
+    async function loadUserInfo() {
+      const res = await fetch("/api/me");
+      const data = await res.json();
+      if (data.logged_in) {
+        state.currentUsername = data.username;
+        $("current-user").textContent = data.username;
+        $("manage-users").style.display = data.username === "admin" ? "inline-block" : "none";
+      } else {
+        window.location.href = "/login";
+      }
+    }
+
+    Promise.all([loadTaxonomy(), loadDatasets()]).then(loadVideos).then(loadUserInfo);
+  </script>
+</body>
+</html>

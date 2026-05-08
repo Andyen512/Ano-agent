@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="zh">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>登录 - 视频标注平台</title>
+  <style>
+    * { box-sizing: border-box; margin: 0; padding: 0; }
+    body { font-family: Arial, "Microsoft YaHei", sans-serif; background: #f6f7f9; min-height: 100vh; display: flex; align-items: center; justify-content: center; }
+    .login-box { background: #fff; padding: 40px; border-radius: 8px; box-shadow: 0 2px 12px rgba(0,0,0,0.1); width: 360px; }
+    h1 { font-size: 24px; margin-bottom: 24px; color: #1f2933; text-align: center; }
+    label { display: block; margin-bottom: 16px; font-size: 14px; color: #475569; }
+    input { width: 100%; padding: 10px 12px; margin-top: 6px; border: 1px solid #cbd5e1; border-radius: 6px; font-size: 14px; }
+    button { width: 100%; padding: 12px; margin-top: 24px; background: #0f766e; color: #fff; border: none; border-radius: 6px; font-size: 16px; cursor: pointer; }
+    button:hover { background: #0d655c; }
+    .error { color: #dc2626; font-size: 13px; margin-top: 8px; text-align: center; }
+  </style>
+</head>
+<body>
+  <div class="login-box">
+    <h1>视频标注平台</h1>
+    <form id="login-form">
+      <label>用户名<input type="text" id="username" autocomplete="username" required /></label>
+      <label>密码<input type="password" id="password" autocomplete="current-password" required /></label>
+      <button type="submit">登录</button>
+      <div id="error" class="error"></div>
+    </form>
+  </div>
+  <script>
+    document.getElementById("login-form").onsubmit = async (e) => {
+      e.preventDefault();
+      const res = await fetch("/api/login", {
+        method: "POST",
+        headers: { "Content-Type": "application/json" },
+        body: JSON.stringify({
+          username: document.getElementById("username").value,
+          password: document.getElementById("password").value
+        })
+      });
+      const data = await res.json();
+      if (res.ok) {
+        window.location.href = "/";
+      } else {
+        document.getElementById("error").textContent = data.error || "登录失败";
+      }
+    };
+  </script>
+</body>
+</html>
