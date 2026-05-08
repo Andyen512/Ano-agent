@@ -1,0 +1,40 @@
+{
+  "video_key": "SmartHome-Bench/videos/smartbench_0099",
+  "translations": {
+    "0": {
+      "risk_description": "一名年轻人正在爬进一辆红色皮卡的货厢，如果失去平衡或卡车意外移动，可能会导致跌倒或受伤。",
+      "normal_video_description": "",
+      "solution_for_person": "应有看护人员协助，以确保此人安全稳固地爬进卡车。",
+      "solution_for_hazard_source": "卡车应安全停放，在此人爬上去之前应检查货厢是否有任何危险物品。",
+      "solution_to_prevent_recurrence": "应指导此人正确的爬车方法，看护人员应监督整个过程以防止未来发生事故。"
+    },
+    "1": {
+      "risk_description": "熊正在与红色皮卡的开放式后挡板互动，如果车辆意外移动，存在碰撞或被挤压的风险。",
+      "normal_video_description": "一只熊接近并与停在夜间车道上的红色皮卡车打开的后挡板互动。",
+      "solution_for_person": "",
+      "solution_for_hazard_source": "",
+      "solution_to_prevent_recurrence": ""
+    },
+    "2": {
+      "risk_description": "一只黑熊接近停在车道上的车辆并爬到卡车后部，对动物或可能的乘员造成高度碰撞或挤压伤害风险。",
+      "normal_video_description": "一只黑熊在夜间走进车道，接近一辆红色皮卡并爬到车辆后部。",
+      "solution_for_person": "",
+      "solution_for_hazard_source": "",
+      "solution_to_prevent_recurrence": ""
+    },
+    "3": {
+      "risk_description": "一只熊正在与车辆互动，如果它在人或该区域易受伤害的对象附近不可预测地移动，可能会造成碰撞或挤压伤害风险。",
+      "normal_video_description": "",
+      "solution_for_person": "",
+      "solution_for_hazard_source": "确保该区域安全，并与熊保持安全距离。",
+      "solution_to_prevent_recurrence": "安装防熊容器并安全存放食物以阻止野生动物。"
+    },
+    "4": {
+      "risk_description": "",
+      "normal_video_description": "视频显示夜间院子里的一幕，一个人走向停在一辆白色汽车旁边的红色皮卡后面，打开后挡板，似乎在查看货厢内部。此场景中没有可见的风险或危险。",
+      "solution_for_person": "",
+      "solution_for_hazard_source": "",
+      "solution_to_prevent_recurrence": ""
+    }
+  }
+}

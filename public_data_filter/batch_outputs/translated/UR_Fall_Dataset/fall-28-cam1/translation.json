@@ -1,0 +1,40 @@
+{
+  "video_key": "UR_Fall_Dataset/fall-28-cam1",
+  "translations": {
+    "0": {
+      "risk_description": "视频中的年轻人可以看到倒在地上，这可能导致受伤的风险。摔倒似乎是突然且意外的，表明缺乏稳定性或控制。",
+      "normal_video_description": "",
+      "solution_for_person": "应帮助该人站起并检查是否有受伤。还应建议他们在移动时更加小心，以防止以后再跌倒。",
+      "solution_for_hazard_source": "危险来源是年轻人在移动时缺乏稳定性或控制。环境看起来是客厅，有家具和物品可能会增加跌倒风险。",
+      "solution_to_prevent_recurrence": "应建议该人缓慢而谨慎地移动，特别是在不熟悉或杂乱的空间。如果必要，还应鼓励使用助行器（如拐杖或步行架）。应对环境进行评估，识别潜在危险并加以改造，如清除绊倒危险或改善照明，以降低跌倒风险。"
+    },
+    "1": {
+      "risk_description": "该人躺在办公室或学习环境的地面上，这可能导致摔倒或无法站起的受伤风险。",
+      "normal_video_description": "视频显示一个人在办公室或学习区域站立后倒在铺有地毯的地板上，旁边有椅子和桌子。",
+      "solution_for_person": "应鼓励该人在此环境中坐着或站立，而不是躺在地板上。",
+      "solution_for_hazard_source": "",
+      "solution_to_prevent_recurrence": "确保该人意识到在办公室/学习环境中躺在地板上的风险，并在需要时提供帮助。"
+    },
+    "2": {
+      "risk_description": "该人在站立时失去平衡，向后倒在地上，这表明明显的失衡事件，已超出正常活动范围。",
+      "normal_video_description": "",
+      "solution_for_person": "该人应立即站起并检查是否受伤，必要时寻求医疗帮助。",
+      "solution_for_hazard_source": "确保地面没有障碍物并提供更好的照明，以防止类似事件再次发生。",
+      "solution_to_prevent_recurrence": "实施安全措施，如防滑地板，并定期检查环境中潜在的危害。"
+    },
+    "3": {
+      "risk_description": "该人坐在地上然后向后倒下，可能造成受伤风险，尤其在行动不便或平衡问题的情况下。",
+      "normal_video_description": "",
+      "solution_for_person": "确保该人坐得安全，并在其尝试站立或移动时提供支撑。",
+      "solution_for_hazard_source": "清除地面上的障碍物或绊倒危险，以防止跌倒。",
+      "solution_to_prevent_recurrence": "使用垫子或防滑垫提供更安全的坐卧区域，并确保地面没有可能导致失衡的物品。"
+    },
+    "4": {
+      "risk_description": "该人从椅子上向后倒下，可能因高度和撞击地面的力量导致严重伤害。",
+      "normal_video_description": "视频显示一个人在办公室环境中坐在桌子旁，随后突然向后倒在地板上。",
+      "solution_for_person": "确保椅子稳固并提供足够的支撑；考虑使用带有扶手或靠背的椅子以提高稳定性。",
+      "solution_for_hazard_source": "",
+      "solution_to_prevent_recurrence": "定期检查和维护家具，确保其状况良好且使用安全。"
+    }
+  }
+}

@@ -1,0 +1,40 @@
+{
+  "video_key": "SmartHome-Bench/videos/smartbench_0993",
+  "translations": {
+    "0": {
+      "risk_description": "孩子们在婴儿床上爬，这可能导致摔倒并受伤。",
+      "normal_video_description": "孩子们在婴儿床里玩耍，这对于他们的年龄是正常活动。",
+      "solution_for_person": "需要成人监督以防止摔倒并确保儿童安全。",
+      "solution_for_hazard_source": "婴儿床应设计有安全功能，以防止爬行并降低跌倒风险。",
+      "solution_to_prevent_recurrence": "在婴儿床周围安装安全门，并提供定期监督，以防止将来发生类似事故。"
+    },
+    "1": {
+      "risk_description": "孩子在婴儿床侧边攀爬，有跌出并受伤的风险。",
+      "normal_video_description": "两个孩子在一间有两张婴儿床的卧室里玩耍。一个孩子从婴儿床侧边爬过去，另一个孩子在观看。",
+      "solution_for_person": "应对孩子进行监督，并提醒他们待在婴儿床内。",
+      "solution_for_hazard_source": "婴儿床的侧面应更高或安装安全护栏，以防止孩子爬出。",
+      "solution_to_prevent_recurrence": "在婴儿床上安装安全护栏，以防止孩子爬出。"
+    },
+    "2": {
+      "risk_description": "",
+      "normal_video_description": "视频显示两个穿着相同睡衣的幼儿在卧室的婴儿床里玩耍。一个孩子从婴儿床分隔板爬过去加入另一个孩子，他们站在床垫上并四处走动。此活动对醒着的幼儿来说是典型的，并不构成明显的安全隐患。",
+      "solution_for_person": "",
+      "solution_for_hazard_source": "",
+      "solution_to_prevent_recurrence": ""
+    },
+    "3": {
+      "risk_description": "孩子们正在攀爬婴儿床栏杆，有从婴儿床跌出的风险。",
+      "normal_video_description": "",
+      "solution_for_person": "确保婴儿床始终有人监督，并考虑使用栏杆较低的婴儿床或安全门以防止攀爬。",
+      "solution_for_hazard_source": "在婴儿床台阶顶部安装安全门，以防止进入更高层。",
+      "solution_to_prevent_recurrence": "使用栏杆间距较小的婴儿床，或安装额外的安全屏障以防止攀爬。"
+    },
+    "4": {
+      "risk_description": "由于孩子的姿势和婴儿床的高度，孩子有从婴儿床跌落的危险。这可能导致严重伤害。",
+      "normal_video_description": "视频显示一个孩子在婴儿床里，没有明显的风险或危险。",
+      "solution_for_person": "确保婴儿床放在稳固的表面上，并考虑使用安全护栏以防止孩子爬出。",
+      "solution_for_hazard_source": "",
+      "solution_to_prevent_recurrence": "定期检查婴儿床是否有损坏或不稳定，并进行必要的维修。"
+    }
+  }
+}

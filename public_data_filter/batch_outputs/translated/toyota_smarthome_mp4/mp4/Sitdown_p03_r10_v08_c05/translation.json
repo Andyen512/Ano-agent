@@ -1,0 +1,40 @@
+{
+  "video_key": "toyota_smarthome_mp4/mp4/Sitdown_p03_r10_v08_c05",
+  "translations": {
+    "0": {
+      "risk_description": "",
+      "normal_video_description": "视频显示一名年轻成年人坐在客厅的沙发上，一边看电视一边吃零食。场景很正常，描绘的是典型的日常活动。",
+      "solution_for_person": "",
+      "solution_for_hazard_source": "",
+      "solution_to_prevent_recurrence": ""
+    },
+    "1": {
+      "risk_description": "",
+      "normal_video_description": "一个年轻成年人在客厅的茶几上整理物品，然后坐下来看电视。环境看起来整洁且安全。",
+      "solution_for_person": "",
+      "solution_for_hazard_source": "",
+      "solution_to_prevent_recurrence": ""
+    },
+    "2": {
+      "risk_description": "",
+      "normal_video_description": "在客厅中可以看到一名年轻人从站立姿势移动到坐在绿色沙发上。房间里有一台正在播放网球比赛的电视、摆放着各种物品的茶几以及一把白色扶手椅。该人的动作平静而日常，没有表现出任何痛苦、不稳或与危险物品互动的迹象。",
+      "solution_for_person": "",
+      "solution_for_hazard_source": "",
+      "solution_to_prevent_recurrence": ""
+    },
+    "3": {
+      "risk_description": "",
+      "normal_video_description": "一个人在客厅的茶几上整理物品，电视正播放体育比赛。房间光线充足，配备了沙发、扶手椅和装饰性植物。",
+      "solution_for_person": "",
+      "solution_for_hazard_source": "",
+      "solution_to_prevent_recurrence": ""
+    },
+    "4": {
+      "risk_description": "",
+      "normal_video_description": "视频显示一个人坐在客厅的沙发上，手里拿着一个物品专注其中。场景中没有可见的风险或危险活动。",
+      "solution_for_person": "",
+      "solution_for_hazard_source": "",
+      "solution_to_prevent_recurrence": ""
+    }
+  }
+}

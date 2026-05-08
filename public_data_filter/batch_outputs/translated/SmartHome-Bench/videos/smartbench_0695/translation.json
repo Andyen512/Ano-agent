@@ -1,0 +1,40 @@
+{
+  "video_key": "SmartHome-Bench/videos/smartbench_0695",
+  "translations": {
+    "0": {
+      "risk_description": "狗正站在厨房台面上，这不是一个安全的地方。狗可能会滑倒并摔下来，导致自身受伤。",
+      "normal_video_description": "狗正站在厨房台面上，这不是一个安全的地方。狗可能会滑倒并摔下来，导致自身受伤。",
+      "solution_for_person": "应该把狗从台面上移开，放到一个安全的地方。",
+      "solution_for_hazard_source": "厨房台面应让狗无法进入，以防止以后发生类似事件。",
+      "solution_to_prevent_recurrence": "应随时监督狗，确保它无法进入家中潜在的危险区域。"
+    },
+    "1": {
+      "risk_description": "狗正在接触标有“益生菌狗粮”的容器，如果容器被撞倒或狗试图打开，存在误食的风险。",
+      "normal_video_description": "视频显示一只狗在厨房台面上探索并接触物品，包括一罐益生菌狗粮。",
+      "solution_for_person": "在厨房里监督狗，确保宠物食品容器安全存放在够不到的地方。",
+      "solution_for_hazard_source": "把益生菌容器移到更高的架子或柜子里，使狗无法触及。",
+      "solution_to_prevent_recurrence": "不使用时，把所有宠物食品和补品放在封闭的柜子里或高架子上。"
+    },
+    "2": {
+      "risk_description": "",
+      "normal_video_description": "一只狗跳上厨房台面，嗅了嗅容器，然后跳回地面。这种行为是典型的玩耍探索，不构成危险。",
+      "solution_for_person": "",
+      "solution_for_hazard_source": "",
+      "solution_to_prevent_recurrence": ""
+    },
+    "3": {
+      "risk_description": "狗站在厨房台面上，存在摔倒或失去平衡导致碰撞的风险，可能导致受伤。",
+      "normal_video_description": "",
+      "solution_for_person": "确保狗受到监督，远离高架表面，以防跌落。",
+      "solution_for_hazard_source": "安装安全护栏或隔板，防止宠物进入台面。",
+      "solution_to_prevent_recurrence": "使用宠物防护措施，如婴儿门或固定台面，以保护宠物安全。"
+    },
+    "4": {
+      "risk_description": "可以看到狗在厨房台面上舔杯子，如果杯子里装的东西不适合宠物，可能会含有有害物质。这种行为存在误食和中毒的风险。",
+      "normal_video_description": "",
+      "solution_for_person": "确保厨房里的所有物质都安全存放在宠物够不到的地方，以防误食。",
+      "solution_for_hazard_source": "",
+      "solution_to_prevent_recurrence": "将所有潜在有害物质安全存放在宠物够不到的地方，并确保宠物无法进入厨房台面或可能存在此类物质的区域。"
+    }
+  }
+}

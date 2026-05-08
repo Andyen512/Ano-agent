@@ -1,0 +1,40 @@
+{
+  "video_key": "toyota_smarthome_mp4/mp4/Getup_p06_r00_v01_c04",
+  "translations": {
+    "0": {
+      "risk_description": "这位老年人由于从沙发上站起的方式，有跌倒的风险。他们可能在保持平衡方面有困难，或者平衡感减弱，这可能导致跌倒。",
+      "normal_video_description": "",
+      "solution_for_person": "护理人员应通过提供支撑和稳定来帮助老年人从沙发上站起。他们也可以帮助老年人使用辅助器具，如助行器或拐杖，以改善平衡并降低跌倒风险。",
+      "solution_for_hazard_source": "护理人员应确保客厅没有绊倒危险，如电线、地毯和其他可能导致老年人绊倒并跌倒的物品。",
+      "solution_to_prevent_recurrence": "护理人员应定期检查老年人的平衡状况，并提供改善平衡和稳定性的锻炼。他们还应确保老年人的居住环境安全，无可能导致跌倒的危险。"
+    },
+    "1": {
+      "risk_description": "",
+      "normal_video_description": "一位老年人在客厅的绿色 L 形沙发上坐着，随后站起并走开。房间光线充足，摆放有植物、一个小桌子和书籍，遥控器清晰可见。",
+      "solution_for_person": "",
+      "solution_for_hazard_source": "",
+      "solution_to_prevent_recurrence": ""
+    },
+    "2": {
+      "risk_description": "",
+      "normal_video_description": "一位老年人在客厅的绿色沙发上坐着，随后站起并整理衣物。场景平静，表现出正常的日常活动，没有危险或不稳定的迹象。",
+      "solution_for_person": "",
+      "solution_for_hazard_source": "",
+      "solution_to_prevent_recurrence": ""
+    },
+    "3": {
+      "risk_description": "这位老年人似乎在从沙发上站起时费力，可能会因不稳定而导致跌倒。",
+      "normal_video_description": "",
+      "solution_for_person": "确保老年人在站起时有支撑，例如使用椅子或他人帮助。",
+      "solution_for_hazard_source": "移除沙发附近可能导致绊倒的障碍物。",
+      "solution_to_prevent_recurrence": "使用稳固的支撑物，如扶手杆，或确保沙发有扶手，以便更容易站起。"
+    },
+    "4": {
+      "risk_description": "这位老年人从沙发上跌倒的风险很高，可能导致严重伤害。其平衡和行动能力似乎受到了影响。",
+      "normal_video_description": "",
+      "solution_for_person": "确保此人在从沙发上站起时有适当的支撑或帮助，以防止跌倒。",
+      "solution_for_hazard_source": "",
+      "solution_to_prevent_recurrence": "在沙发附近安装扶手杆或抓握杆，以提供额外的支撑帮助老年人。"
+    }
+  }
+}

@@ -1,0 +1,40 @@
+{
+  "video_key": "toyota_smarthome_mp4/mp4/Walk_p10_r02_v12_c03",
+  "translations": {
+    "0": {
+      "risk_description": "",
+      "normal_video_description": "视频显示一位老年人在厨房里与抽屉和橱柜互动。该人似乎在抽屉里找东西，然后关上抽屉。厨房是现代化的，配有水槽、咖啡机和墙上挂着的电视。随后该人离开操作台，视频结束。",
+      "solution_for_person": "",
+      "solution_for_hazard_source": "",
+      "solution_to_prevent_recurrence": ""
+    },
+    "1": {
+      "risk_description": "该人正在操作烤箱，如果烤箱是热的或装有热食物，则存在烫伤风险。",
+      "normal_video_description": "画面中看到一位老年人在厨房里打开烤箱门，在厨房里走动，然后离开画面。",
+      "solution_for_person": "在靠近之前，确保烤箱未在使用中或已冷却。",
+      "solution_for_hazard_source": "打开烤箱前，确认烤箱已关闭且安全操作。",
+      "solution_to_prevent_recurrence": "在打开或触摸烤箱前务必检查其状态。"
+    },
+    "2": {
+      "risk_description": "",
+      "normal_video_description": "画面中看到一位老年人在现代化厨房里与橱柜和抽屉互动。该人在厨房里走动，打开一个抽屉，然后离开，表现出典型的家庭活动，没有危险或不稳定的迹象。",
+      "solution_for_person": "",
+      "solution_for_hazard_source": "",
+      "solution_to_prevent_recurrence": ""
+    },
+    "3": {
+      "risk_description": "该老人弯腰去够下层橱柜，这可能因潜在的不稳定性或站起困难而增加跌倒风险。",
+      "normal_video_description": "",
+      "solution_for_person": "在老人伸手够下层橱柜时，确保附近有支撑物或椅子，以防止跌倒。",
+      "solution_for_hazard_source": "在下层橱柜附近安装额外的照明或扶手，以提供更好的可视性和支撑。",
+      "solution_to_prevent_recurrence": "考虑使用抽屉式搁板或可调式台面，以减少弯腰的需求。"
+    },
+    "4": {
+      "risk_description": "该老人弯腰去捡起地板上的小物件，若不注意可能导致跌倒。此动作因可能滑倒或失去平衡而具有受伤风险。",
+      "normal_video_description": "",
+      "solution_for_person": "确保地面没有障碍物，并在老人捡起地上的物品时提供支撑或帮助。",
+      "solution_for_hazard_source": "",
+      "solution_to_prevent_recurrence": "鼓励老人使用抓取器或其他工具捡起地上的物品，以避免弯腰并降低跌倒风险。"
+    }
+  }
+}

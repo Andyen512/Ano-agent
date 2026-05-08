@@ -1,0 +1,40 @@
+{
+  "video_key": "SmartHome-Bench/videos/smartbench_0191",
+  "translations": {
+    "0": {
+      "risk_description": "",
+      "normal_video_description": "视频显示一头驼鹿在住宅院子里四处走动，这是一种不常见但不一定是危险的行为。驼鹿似乎在探索该区域，并未造成任何伤害或干扰。",
+      "solution_for_person": "",
+      "solution_for_hazard_source": "",
+      "solution_to_prevent_recurrence": ""
+    },
+    "1": {
+      "risk_description": "一头大型驼鹿正在住宅门廊和门附近徘徊，如果它进入屋内或受到惊吓，可能会造成碰撞或被压伤的风险。",
+      "normal_video_description": "可以看到一头驼鹿在住宅门廊区域走动，背景中还有另一头驼鹿出现。",
+      "solution_for_person": "关紧所有门窗，防止驼鹿进入屋内。",
+      "solution_for_hazard_source": "联系当地野生动物管理部门，安全地将驼鹿引导离开住宅区域。",
+      "solution_to_prevent_recurrence": "在门廊上安装动作感应驱赶装置或障碍物，以阻止野生动物靠近。"
+    },
+    "2": {
+      "risk_description": "",
+      "normal_video_description": "视频显示一头大型驼鹿走进住宅前院，靠近前门，随后出现人们在门廊上的短暂场景。这种行为不常见，但并不涉及对人员或财产的直接危险或伤害。",
+      "solution_for_person": "",
+      "solution_for_hazard_source": "",
+      "solution_to_prevent_recurrence": ""
+    },
+    "3": {
+      "risk_description": "视频显示住宅院子里有一头驼鹿，可能会对在该区域玩耍的儿童造成碰撞或压伤风险。",
+      "normal_video_description": "",
+      "solution_for_person": "当驼鹿出现时，确保儿童留在室内或受到密切监督。",
+      "solution_for_hazard_source": "联系野生动物管理部门，安全地将驼鹿迁移出住宅区域。",
+      "solution_to_prevent_recurrence": "安装动作感应驱赶装置或围栏，以防将来野生动物靠近院子。"
+    },
+    "4": {
+      "risk_description": "视频显示一名年轻成年人站在阳台上，因高度和缺乏安全防护措施而有坠落风险。这可能导致严重伤害甚至死亡。",
+      "normal_video_description": "",
+      "solution_for_person": "确保该人意识到潜在危险，并采取必要的预防措施，如使用栏杆或不要站得太靠近边缘。",
+      "solution_for_hazard_source": "在阳台上安装栏杆或屏障以防止坠落。",
+      "solution_to_prevent_recurrence": "定期检查阳台的结构问题，确保其使用安全。"
+    }
+  }
+}

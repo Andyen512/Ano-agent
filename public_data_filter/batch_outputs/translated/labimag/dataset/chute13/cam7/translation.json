@@ -1,0 +1,40 @@
+{
+  "video_key": "labimag/dataset/chute13/cam7",
+  "translations": {
+    "0": {
+      "risk_description": "看到年轻人躺在地板上，如果他们在没有适当支撑的情况下起身走动，可能会导致跌倒或不稳定。",
+      "normal_video_description": "",
+      "solution_for_person": "应鼓励该人在从地板起身时利用沙发或椅子作为支撑，以防止跌倒。",
+      "solution_for_hazard_source": "未发现具体危险来源。",
+      "solution_to_prevent_recurrence": "应提醒该人在客厅走动时要小心，必要时请人帮助。"
+    },
+    "1": {
+      "risk_description": "该人先躺在沙发上，然后躺在地板上的床垫上，这两者都不是安全或稳定的睡眠表面。该人还从沙发上滚落，可能导致跌倒。",
+      "normal_video_description": "一个人四处活动，先躺在沙发上，然后躺在地板上的床垫，而背景中其他人在工作台工作。",
+      "solution_for_person": "使用带有护栏的正规床铺或睡眠表面，以防止滚落。",
+      "solution_for_hazard_source": "确保沙发和床垫放置在稳固、平整的表面上，且不作为睡眠用途。",
+      "solution_to_prevent_recurrence": "将睡眠表面移到配有正规床铺的指定卧室。"
+    },
+    "2": {
+      "risk_description": "",
+      "normal_video_description": "一位年轻人走进客厅，坐在沙发上，然后跳到放在地板上的床垫上，再起身离开。动作是玩耍的，没有危险。",
+      "solution_for_person": "",
+      "solution_for_hazard_source": "",
+      "solution_to_prevent_recurrence": ""
+    },
+    "3": {
+      "risk_description": "该人躺在地板上的床垫上，这可能不稳定，存在跌倒风险，尤其对行动不便者更危险。",
+      "normal_video_description": "",
+      "solution_for_person": "躺下前要确保床垫放置稳固且稳定。",
+      "solution_for_hazard_source": "在床垫下加设额外支撑以防止其移动。",
+      "solution_to_prevent_recurrence": "使用稳固平整的表面躺下，以避免可能的跌倒。"
+    },
+    "4": {
+      "risk_description": "该人在地板上躺着，有跌倒或失去平衡的风险，可能导致严重伤害。房间中央有一个大型白色物体，进一步增加绊倒或滑倒的风险。",
+      "normal_video_description": "",
+      "solution_for_person": "确保该人躺在稳固且防滑的表面上，最好将脚靠墙或其他稳固物体，以防止滚落。",
+      "solution_for_hazard_source": "清除该区域的潜在绊倒危险，例如那个大型白色物体，以降低跌倒风险。",
+      "solution_to_prevent_recurrence": "鼓励该人躺在坚固且有支撑的表面上，如床垫或软垫，以减少跌倒和受伤的风险。"
+    }
+  }
+}

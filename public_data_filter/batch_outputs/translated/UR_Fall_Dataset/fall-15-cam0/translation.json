@@ -1,0 +1,40 @@
+{
+  "video_key": "UR_Fall_Dataset/fall-15-cam0",
+  "translations": {
+    "0": {
+      "risk_description": "视频中的年轻人走向学习室的一把椅子，但突然失去平衡摔倒在地。这种行为明显偏离了年轻人在学习室的正常日常行为，而且摔倒存在受伤风险。",
+      "normal_video_description": "视频显示一个年轻人走向学习室的一把椅子，但突然失去平衡摔倒在地。",
+      "solution_for_person": "应该帮助这个人从地上站起来，并检查是否有受伤。应该建议他们在学习室里走路时更加小心，以防止将来跌倒。",
+      "solution_for_hazard_source": "应该检查学习室里的椅子是否有稳定性问题，并移除任何潜在危险，以防止将来跌倒。",
+      "solution_to_prevent_recurrence": "应该提醒年轻人在学习室里走路时更加谨慎，并识别并移除任何潜在危险，以防止将来跌倒。"
+    },
+    "1": {
+      "risk_description": "这个年轻人趴在地板上，这增加了在突然移动或失去平衡时摔倒或无法快速站起的风险。",
+      "normal_video_description": "视频显示一个年轻人站在学习室里，然后趴在地上。",
+      "solution_for_person": "年轻人应避免在有家具或尖锐物体附近的地方趴在地上。",
+      "solution_for_hazard_source": "确保学习区域没有绊倒危险，并有清晰的空间以便快速移动。",
+      "solution_to_prevent_recurrence": "鼓励年轻人在潜在危险区域保持对周围环境的警觉并避免趴卧姿势。"
+    },
+    "2": {
+      "risk_description": "",
+      "normal_video_description": "一个年轻人进入学习室，向前走，然后做了一个嬉戏式的扑向地板的动作。这个动作看起来是故意的、可控的动作，而不是意外摔倒或失去平衡。",
+      "solution_for_person": "",
+      "solution_for_hazard_source": "",
+      "solution_to_prevent_recurrence": ""
+    },
+    "3": {
+      "risk_description": "这个年轻人在地板上做了一个前滚翻，如果着地姿势不当可能会造成伤害风险，尤其是对行动能力或平衡问题有限的人。",
+      "normal_video_description": "",
+      "solution_for_person": "确保年轻人在进行身体活动时意识到周围环境并保持平衡。",
+      "solution_for_hazard_source": "清除地板上的任何障碍物，以减少绊倒或跌倒的风险。",
+      "solution_to_prevent_recurrence": "在安全开阔的区域练习，如果平衡或协调能力有问题，考虑监督。"
+    },
+    "4": {
+      "risk_description": "视频中看到一个年轻人在办公环境中跑步，然后摔倒在地，这可能导致严重伤害。由于动作的性质，摔倒的风险很高。",
+      "normal_video_description": "",
+      "solution_for_person": "确保年轻人意识到周围环境，并以安全的速度跑步，以避免绊倒或滑倒。",
+      "solution_for_hazard_source": "",
+      "solution_to_prevent_recurrence": "鼓励年轻人在办公室跑步时更加小心，以防止将来跌倒。"
+    }
+  }
+}

@@ -1,0 +1,40 @@
+{
+  "video_key": "SmartHome-Bench/videos/smartbench_0653",
+  "translations": {
+    "0": {
+      "risk_description": "视频中的人正在使用助行器在院子里走动，这可能表明有跌倒或不稳定的风险。该人可能需要帮助或支持以防止跌倒。",
+      "normal_video_description": "",
+      "solution_for_person": "该人可能受益于使用拐杖或其他行动辅助工具，以及有护理人员或家庭成员在旁边提供支持和帮助。",
+      "solution_for_hazard_source": "可能需要对院子进行评估，找出潜在危险，如不平坦的地形或光滑表面，并需要进行改造以降低跌倒风险。",
+      "solution_to_prevent_recurrence": "该人可能受益于定期锻炼和物理治疗来改善平衡和行动能力，以及定期与医疗保健提供者进行检查以监测其状况的任何变化。"
+    },
+    "1": {
+      "risk_description": "该人正在使用助行器穿过前廊和人行道，这可能增加跌倒或失去平衡的风险，特别是在表面不平坦或光滑的情况下。",
+      "normal_video_description": "一位使用助行器的年长者走向前廊，调整助行器，然后开始从房子走向人行道。",
+      "solution_for_person": "确保该人正确使用助行器，并在不平坦或可能光滑的表面上移动时在需要时提供帮助。",
+      "solution_for_hazard_source": "",
+      "solution_to_prevent_recurrence": "在门廊上安装防滑垫，并确保人行道没有障碍物。"
+    },
+    "2": {
+      "risk_description": "",
+      "normal_video_description": "一位使用助行器的年长者走上门廊，然后离开镜头。这个场景描绘了一个正常的日常活动，没有任何可见的风险或异常。",
+      "solution_for_person": "",
+      "solution_for_hazard_source": "",
+      "solution_to_prevent_recurrence": ""
+    },
+    "3": {
+      "risk_description": "该人正在使用助行器，但看起来不稳定，这可能导致跌倒，尤其是在入口附近不平坦的地面上。",
+      "normal_video_description": "",
+      "solution_for_person": "确保该人正确使用助行器，并考虑让某人在入口附近协助他们以增加稳定性。",
+      "solution_for_hazard_source": "清除入口区域的任何障碍物，并确保地面平整均匀。",
+      "solution_to_prevent_recurrence": "在入口附近安装额外的支撑栏杆或防滑垫，并确保助行器调整到适合使用者的正确高度。"
+    },
+    "4": {
+      "risk_description": "该人正在使用助行器，这增加了跌倒的风险，特别是如果他们不小心或地面不平坦。",
+      "normal_video_description": "",
+      "solution_for_person": "确保该人穿着具有良好抓地力的合适鞋子，并考虑在门廊台阶上添加扶手以提供额外支撑。",
+      "solution_for_hazard_source": "",
+      "solution_to_prevent_recurrence": "定期检查助行器是否有任何损坏，并确保其处于正常工作状态。"
+    }
+  }
+}

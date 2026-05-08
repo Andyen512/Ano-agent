@@ -1,0 +1,40 @@
+{
+  "video_key": "toyota_smarthome_mp4/mp4/Cook.Usestove_p10_r00_v13_c03",
+  "translations": {
+    "0": {
+      "risk_description": "",
+      "normal_video_description": "视频显示一位老年人在厨房里操作厨房电器，可能是咖啡机或其他厨房小工具。此人似乎专注于当前任务，没有表现出不适或异常行为。厨房光线充足，环境看起来安全且稳定。",
+      "solution_for_person": "",
+      "solution_for_hazard_source": "",
+      "solution_to_prevent_recurrence": ""
+    },
+    "1": {
+      "risk_description": "该老年人正在操作烤箱，若烤箱很热或装有热食物，则存在烫伤风险。",
+      "normal_video_description": "一位老年人在厨房里打开和关闭烤箱门，似乎在检查或取出里面的东西。",
+      "solution_for_person": "在打开并处理烤箱内容物之前，确保烤箱已充分冷却，以防止烫伤。",
+      "solution_for_hazard_source": "确认已遵守烤箱安全规程，例如使用隔热手套并检查表面是否仍然烫手。",
+      "solution_to_prevent_recurrence": "定期提醒老年人安全使用烤箱的做法，确保他们了解潜在的危害。"
+    },
+    "2": {
+      "risk_description": "",
+      "normal_video_description": "一位老年人站在厨房里操作嵌入式烤箱，打开门并伸手进去。该行为似乎是正常的日常活动，未表现出任何危险或不稳定的迹象。",
+      "solution_for_person": "",
+      "solution_for_hazard_source": "",
+      "solution_to_prevent_recurrence": ""
+    },
+    "3": {
+      "risk_description": "该老年人把手伸进烤箱，存在烫伤或接触高温的风险。",
+      "normal_video_description": "",
+      "solution_for_person": "在打开烤箱前确保其已完全冷却，并使用隔热手套防止烫伤。",
+      "solution_for_hazard_source": "安装安全装置，如自动烤箱灯或防烫把手，以降低风险。",
+      "solution_to_prevent_recurrence": "使用计时器提醒关闭烤箱，并在处理前确保其已充分冷却。"
+    },
+    "4": {
+      "risk_description": "该人把手伸进墙壁插座，存在电击风险。如果插座带电，此举可能导致严重伤害甚至死亡。",
+      "normal_video_description": "",
+      "solution_for_person": "在未确认墙壁插座已在断路器处关闭或使用非接触式电压测试仪确认安全之前，切勿将手伸入墙壁插座。",
+      "solution_for_hazard_source": "确保所有墙壁插座采用双重绝缘并带有防护盖，以防止意外接触。",
+      "solution_to_prevent_recurrence": "在儿童和老年人可触及的区域安装防篡改插座，以降低电击风险。"
+    }
+  }
+}

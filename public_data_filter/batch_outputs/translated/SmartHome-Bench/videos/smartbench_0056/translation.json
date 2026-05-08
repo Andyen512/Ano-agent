@@ -1,0 +1,40 @@
+{
+  "video_key": "SmartHome-Bench/videos/smartbench_0056",
+  "translations": {
+    "0": {
+      "risk_description": "",
+      "normal_video_description": "两只熊在夜间院子里玩耍，一只熊爬上房子侧面，另一只熊在玩球。场景照明良好，似乎是熊在住宅区的典型互动行为。",
+      "solution_for_person": "",
+      "solution_for_hazard_source": "",
+      "solution_to_prevent_recurrence": ""
+    },
+    "1": {
+      "risk_description": "熊靠近前门和门廊区域，可能会与门或彼此发生碰撞，从而造成伤害。",
+      "normal_video_description": "两只熊在夜间探索前门廊，与门和周围环境互动。",
+      "solution_for_person": "",
+      "solution_for_hazard_source": "",
+      "solution_to_prevent_recurrence": ""
+    },
+    "2": {
+      "risk_description": "",
+      "normal_video_description": "视频显示两只熊在夜间接近一所房子，在门廊周围嗅探，并与南瓜互动后离开。这种行为符合野生动物探索行为，不构成异常风险。",
+      "solution_for_person": "",
+      "solution_for_hazard_source": "",
+      "solution_to_prevent_recurrence": ""
+    },
+    "3": {
+      "risk_description": "熊正在与南瓜互动，如果它们变得具有攻击性或南瓜破裂，可能会造成碰撞或挤压伤害风险。",
+      "normal_video_description": "",
+      "solution_for_person": "",
+      "solution_for_hazard_source": "固定南瓜并确保宠物无法触及，以防止潜在的伤害。",
+      "solution_to_prevent_recurrence": "让宠物远离易碎物品，并在玩耍时确保有人监督。"
+    },
+    "4": {
+      "risk_description": "熊试图进入房子的行为以及它与孩子的接近程度构成了严重的碰撞或挤压伤害风险，可能导致严重伤害。",
+      "normal_video_description": "",
+      "solution_for_person": "确保孩子安全地远离该区域，并始终与熊保持距离。",
+      "solution_for_hazard_source": "固定门和窗户以防止熊进入房子。",
+      "solution_to_prevent_recurrence": "在房产周围安装动作感应灯和威慑装置，以阻止熊靠近房子。"
+    }
+  }
+}

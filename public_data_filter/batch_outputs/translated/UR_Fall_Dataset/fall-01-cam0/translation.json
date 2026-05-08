@@ -1,0 +1,40 @@
+{
+  "video_key": "UR_Fall_Dataset/fall-01-cam0",
+  "translations": {
+    "0": {
+      "risk_description": "视频中的年轻人走向书房的椅子，但突然失去平衡摔倒在地。这种行为明显偏离了正常行走和坐椅子的日常活动，且因跌倒存在受伤风险。",
+      "normal_video_description": "",
+      "solution_for_person": "行走时应更加小心，避免急躁或做出可能导致失去平衡的突然动作。",
+      "solution_for_hazard_source": "危险源是椅子，可能不稳定或光滑。在坐下前应确保椅子稳固安全。",
+      "solution_to_prevent_recurrence": "应更加注意周围环境，慢慢行走以避免失去平衡。坐下时也应确保椅子稳固安全。"
+    },
+    "1": {
+      "risk_description": "该人在地毯上赤脚突然摔倒，存在因撞击而受伤的风险。",
+      "normal_video_description": "一个人走进房间，然后摔倒在地板上。",
+      "solution_for_person": "赤脚在室内时避免可能导致失去平衡的突然动作或行为。",
+      "solution_for_hazard_source": "",
+      "solution_to_prevent_recurrence": "室内穿鞋可提供更好的支撑，降低滑倒或跌倒的风险。"
+    },
+    "2": {
+      "risk_description": "个人行走时失去平衡摔倒在地板上，表明明显超出正常活动的失衡事件。",
+      "normal_video_description": "",
+      "solution_for_person": "应立即起身检查受伤情况，若感到头晕或无法站立则坐下或躺下。",
+      "solution_for_hazard_source": "确保地面无障碍物，检查是否有光滑表面或不平地面。",
+      "solution_to_prevent_recurrence": "改善照明，清除通道杂物，考虑使用防滑鞋。"
+    },
+    "3": {
+      "risk_description": "该人摔倒在地，可能造成伤害风险，尤其是行动不便或正在康复的人。",
+      "normal_video_description": "",
+      "solution_for_person": "应确保该人注意周围环境，避免匆忙以防止跌倒。",
+      "solution_for_hazard_source": "消除绊倒危险，确保地面清洁平整。",
+      "solution_to_prevent_recurrence": "进行平衡练习，必要时使用辅助设备以提高稳定性。"
+    },
+    "4": {
+      "risk_description": "该人进入办公室时被地板上的物体绊倒而导致跌倒，可能造成瘀伤或扭伤等轻微伤害。",
+      "normal_video_description": "",
+      "solution_for_person": "确保办公室保持无障碍物和无绊倒危险以防止跌倒。",
+      "solution_for_hazard_source": "清除地板上任何可能导致绊倒的物体。",
+      "solution_to_prevent_recurrence": "定期检查办公室是否存在潜在危险并及时处理。"
+    }
+  }
+}

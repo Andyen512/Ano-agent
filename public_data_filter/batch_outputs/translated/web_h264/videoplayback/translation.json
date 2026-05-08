@@ -1,0 +1,40 @@
+{
+  "video_key": "web_h264/videoplayback",
+  "translations": {
+    "0": {
+      "risk_description": "这个孩子正在沙发附近玩耍，可能会摔倒导致受伤。",
+      "normal_video_description": "",
+      "solution_for_person": "确保孩子有人监督，并提供适合其年龄的玩具供其玩耍。",
+      "solution_for_hazard_source": "在沙发附近放置柔软的垫子或靠垫，以减轻任何摔倒的冲击。",
+      "solution_to_prevent_recurrence": "在客厅周围安装安全门，防止孩子无人监督时进入该区域。"
+    },
+    "1": {
+      "risk_description": "这个孩子正在攀爬一个大型的升高式组合沙发，这有从高处坠落的风险。",
+      "normal_video_description": "一个孩子正在客厅的大型组合沙发上玩耍，而背景中有一位成年人坐在餐桌旁。",
+      "solution_for_person": "应该监督孩子并指示其远离升高的家具以防止摔倒。",
+      "solution_for_hazard_source": "沙发的摆放方式应能最大限度地降低孩子无人监督时攀爬的风险。",
+      "solution_to_prevent_recurrence": "在客厅周围安装安全门或障碍物，以限制孩子在无人监督时接近沙发区域。"
+    },
+    "2": {
+      "risk_description": "看到一个幼儿在大型沙发上跳跃时失去平衡，从边缘摔到地板上。这种行为超出了正常玩耍的范围，因为涉及从高处明显跌落，存在明显的受伤风险。",
+      "normal_video_description": "",
+      "solution_for_person": "成年人应该立即干预，防止孩子在沙发上跳跃，并确保孩子摔倒后安全。",
+      "solution_for_hazard_source": "应该让孩子不容易接触到沙发，或者安装安全护栏以防止此类跌落。",
+      "solution_to_prevent_recurrence": "教育孩子了解在家具上跳跃的危险，并更密切地监督他们的玩耍。"
+    },
+    "3": {
+      "risk_description": "孩子正在沙发上攀爬和跳跃，这有摔倒和受伤的风险。",
+      "normal_video_description": "",
+      "solution_for_person": "确保密切监督孩子，并温和地阻止其攀爬家具以防止摔倒。",
+      "solution_for_hazard_source": "移除或固定任何可能被攀爬的家具，以减少跌倒的风险。",
+      "solution_to_prevent_recurrence": "在家具周围安装安全门或护栏，以防止进入并确保持续监督。"
+    },
+    "4": {
+      "risk_description": "孩子有从沙发跌落的风险，这可能导致严重伤害。如果孩子撞到坚硬表面或尖锐物体，摔倒可能特别危险。",
+      "normal_video_description": "背景中，成年人正在办公桌前工作，而孩子在客厅的沙发上玩耍。",
+      "solution_for_person": "确保监督孩子，并在其从沙发跌落时提供帮助。",
+      "solution_for_hazard_source": "",
+      "solution_to_prevent_recurrence": "将沙发固定在墙上或在其下方添加垫子，以减少跌倒风险。"
+    }
+  }
+}

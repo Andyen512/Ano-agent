@@ -1,0 +1,40 @@
+{
+  "video_key": "toyota_smarthome_mp4/mp4/Walk_p25_r19_v14_c07",
+  "translations": {
+    "0": {
+      "risk_description": "",
+      "normal_video_description": "一个人站在厨房里，手里拿着一个厨房电器。他在厨房里走动，使用电器并与柜台上的各种物品互动，比如一个红色马克杯和一张纸。这个人看起来在从事正常的厨房活动，比如烹饪或准备食物。",
+      "solution_for_person": "",
+      "solution_for_hazard_source": "",
+      "solution_to_prevent_recurrence": ""
+    },
+    "1": {
+      "risk_description": "这个人手里拿着一个黑色物体靠近炉灶，看起来像是一个加热板或电磁炉。如果表面很热，有烫伤的风险。",
+      "normal_video_description": "一个人在厨房里拿着一个黑色物体靠近炉灶区域。",
+      "solution_for_person": "在接近或放置物品在炉灶上之前，确保炉灶已关闭且冷却。",
+      "solution_for_hazard_source": "确认炉灶不在使用中，不使用时保持关闭状态。",
+      "solution_to_prevent_recurrence": "在与炉灶互动之前，始终检查其状态。"
+    },
+    "2": {
+      "risk_description": "",
+      "normal_video_description": "一位老年人出现在厨房里，手里拿着一个小家电，可能是咖啡机或搅拌机，并在空间里走动。这个人看起来在从事日常活动，比如准备饮料或整理，没有表现出任何痛苦或不寻常的行为。环境光线充足、井井有条，没有可见的危险或风险。",
+      "solution_for_person": "",
+      "solution_for_hazard_source": "",
+      "solution_to_prevent_recurrence": ""
+    },
+    "3": {
+      "risk_description": "老年人手里拿着一个电动工具，如果不正确使用，可能有触电或受伤的风险。",
+      "normal_video_description": "",
+      "solution_for_person": "确保老年人正确使用电动工具，并意识到潜在的电气危险。",
+      "solution_for_hazard_source": "不使用时拔掉电动工具的电源，以防止意外启动。",
+      "solution_to_prevent_recurrence": "提供清晰的电动工具安全使用说明，并确保在紧急情况下易于获取。"
+    },
+    "4": {
+      "risk_description": "这个人正在厨房里使用吹风机，如果接触到水或电器有任何电气问题，可能会带来电气安全风险。",
+      "normal_video_description": "",
+      "solution_for_person": "确保吹风机远离任何水源，并让使用者意识到厨房中潜在的电气危险。",
+      "solution_for_hazard_source": "",
+      "solution_to_prevent_recurrence": "将电气设备远离水源，确保安全使用以防止事故。"
+    }
+  }
+}

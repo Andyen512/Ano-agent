@@ -1,0 +1,40 @@
+{
+  "video_key": "toyota_smarthome_mp4/mp4/Getup_p02_r00_v07_c04",
+  "translations": {
+    "0": {
+      "risk_description": "看到这位老年人正试图从沙发上站起来，如果失去平衡可能会导致摔倒。由于这个人正在用毯子帮助自己站起来，而毯子可能无法提供足够的支撑，因此风险更高。",
+      "normal_video_description": "",
+      "solution_for_person": "护理人员应帮助老年人从沙发上站起来，使用正确的技术以防止摔倒。他们还应确保此人获得适当的支持，如助行器或拐杖，以帮助行动。",
+      "solution_for_hazard_source": "护理人员应确保客厅没有绊倒危险，如电线或杂物，且地板不滑。",
+      "solution_to_prevent_recurrence": "护理人员应定期检查老年人的活动能力和平衡情况，并根据需要提供支持。他们还应确保此人配备适当的安全设备，如沙发旁的扶手，以帮助起身。"
+    },
+    "1": {
+      "risk_description": "",
+      "normal_video_description": "看到一位老年人躺在沙发上，调整姿势，拿掉毯子，坐起来，然后站起来。场景发生在光线充足的客厅，里面有典型的家庭家具和植物。",
+      "solution_for_person": "",
+      "solution_for_hazard_source": "",
+      "solution_to_prevent_recurrence": ""
+    },
+    "2": {
+      "risk_description": "",
+      "normal_video_description": "看到一位老年人躺在客厅的绿色转角沙发上，盖着毯子。此人坐起来，调整毯子，然后从沙发上站起来，没有任何不稳定或危险的迹象。",
+      "solution_for_person": "",
+      "solution_for_hazard_source": "",
+      "solution_to_prevent_recurrence": ""
+    },
+    "3": {
+      "risk_description": "这位老年人坐在沙发边缘，在调整毯子或移动时若失去平衡可能会导致摔倒。",
+      "normal_video_description": "",
+      "solution_for_person": "确保老年人在调整毯子时能安全坐着，并利用沙发靠背支撑。",
+      "solution_for_hazard_source": "提供额外的支撑，如坐垫或扶手，以防止摔倒。",
+      "solution_to_prevent_recurrence": "在沙发边缘使用防滑垫或坐垫以提供稳定性。"
+    },
+    "4": {
+      "risk_description": "这位老年人由于姿势不稳定且缺乏坐垫支撑，有从沙发上摔下来的风险。这可能导致严重伤害。",
+      "normal_video_description": "一位老年人坐在绿色沙发上，盖着毯子，看起来似乎在努力站起来。他们最终设法站起来，但仍然不稳定。",
+      "solution_for_person": "确保老年人在沙发上坐着时有适当的支撑，例如在他们身后使用坐垫或枕头以保持稳定性。",
+      "solution_for_hazard_source": "",
+      "solution_to_prevent_recurrence": "重新排列沙发上的坐垫，为老年人在坐下时提供更好的支撑。"
+    }
+  }
+}

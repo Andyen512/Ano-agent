@@ -1,0 +1,40 @@
+{
+  "video_key": "toyota_smarthome_mp4/mp4/Sitdown_p25_r09_v06_c04",
+  "translations": {
+    "0": {
+      "risk_description": "",
+      "normal_video_description": "视频中一名中年成年人站在客厅里，然后坐在一张绿色沙发上。客厅里有一张白色茶几，上面放着几件物品，铺着白色地毯，还放着一盏落地灯。背景中有植物和一扇门。这位成年人看起来正在放松并观看某些内容。",
+      "solution_for_person": "",
+      "solution_for_hazard_source": "",
+      "solution_to_prevent_recurrence": ""
+    },
+    "1": {
+      "risk_description": "该人站在茶几上，茶几是一个不稳的表面。这种行为增加了失去平衡和跌倒的风险，可能导致受伤。",
+      "normal_video_description": "可以看到一位老年人在客厅里站在茶几上，然后坐下。",
+      "solution_for_person": "应避免站在家具上，以防止跌倒。",
+      "solution_for_hazard_source": "茶几不应被用作站立表面。",
+      "solution_to_prevent_recurrence": "确保家具仅用于其预定用途，并提供稳固的坐具选项。"
+    },
+    "2": {
+      "risk_description": "",
+      "normal_video_description": "可以看到一位老年人坐在客厅的绿色沙发上，调整姿势并休息。场景描绘了一种平静的日常家庭活动，没有明显的危险或不稳定的迹象。",
+      "solution_for_person": "",
+      "solution_for_hazard_source": "",
+      "solution_to_prevent_recurrence": ""
+    },
+    "3": {
+      "risk_description": "这位老年人在使用踏脚凳时方式可能导致不稳定和跌倒，因其可能的行动受限而存在风险。",
+      "normal_video_description": "",
+      "solution_for_person": "确保老年人使用稳固的家具或合适的踏脚凳，并在附近有支撑。",
+      "solution_for_hazard_source": "移除或固定任何可能用作临时踏脚的不稳定物品。",
+      "solution_to_prevent_recurrence": "提供稳固安全的踏脚凳，并确保客厅没有绊倒危险。"
+    },
+    "4": {
+      "risk_description": "此人坐在沙发边缘，如果失去平衡可能会导致跌倒。跌倒可能导致严重伤害，尤其是对老年人。",
+      "normal_video_description": "一位老年人坐在客厅绿色沙发的边缘，面前有一张茶几。",
+      "solution_for_person": "确保此人在沙发上舒适且安全地坐着，远离边缘，以防止跌倒。",
+      "solution_for_hazard_source": "",
+      "solution_to_prevent_recurrence": "鼓励此人坐在沙发中间或在移动时提供支撑，以降低跌倒风险。"
+    }
+  }
+}

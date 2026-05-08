@@ -1,0 +1,40 @@
+{
+  "video_key": "UR_Fall_Dataset/adl-33-cam0",
+  "translations": {
+    "0": {
+      "risk_description": "这位年轻人正弯腰，姿势显得不稳定，可能导致摔倒或失衡。",
+      "normal_video_description": "这位年轻人站在书房里，然后弯腰捡起地上的东西。",
+      "solution_for_person": "应帮助此人站直，并在行动时更加谨慎，以防止跌倒。",
+      "solution_for_hazard_source": "危害来源是这位年轻人在动作中缺乏适当的支撑或稳定性。",
+      "solution_to_prevent_recurrence": "应鼓励这位年轻人适时休息和伸展，以防止肌肉疲劳，因为疲劳可能导致不稳。"
+    },
+    "1": {
+      "risk_description": "此人正在椅子和桌子附近弯腰，如果椅子或桌子不稳，或者此人失去平衡，可能会导致摔倒。",
+      "normal_video_description": "一个人走进书房，弯腰靠近椅子和桌子，似乎在与地板上的某物互动。",
+      "solution_for_person": "确保此人保持稳定的姿势，避免在家具附近突然移动。",
+      "solution_for_hazard_source": "固定椅子和桌子，防止倾倒。",
+      "solution_to_prevent_recurrence": "在接近家具时对人员进行监督，确保该区域没有绊倒危险。"
+    },
+    "2": {
+      "risk_description": "",
+      "normal_video_description": "一位年轻人走进办公室，走向椅子并坐下。该场景展示的是正常日常活动，未见明显风险或异常。",
+      "solution_for_person": "",
+      "solution_for_hazard_source": "",
+      "solution_to_prevent_recurrence": ""
+    },
+    "3": {
+      "risk_description": "此人正弯腰并跪在地上，这可能增加跌倒或受伤的风险，特别是对行动不便或平衡有障碍的人。",
+      "normal_video_description": "",
+      "solution_for_person": "确保在弯腰或跪地时，必要时使用支撑或帮助。",
+      "solution_for_hazard_source": "清理地面，防止绊倒危险。",
+      "solution_to_prevent_recurrence": "在弯腰时提供稳固的椅子或凳子作为支撑。"
+    },
+    "4": {
+      "risk_description": "可以看到此人行走不稳，随后跌倒在地，可能导致严重伤害。摔倒似乎是由于不稳定或失去平衡所致。",
+      "normal_video_description": "视频展示了一个办公室环境，其中一人进入房间后跌倒，凸显了安全措施在防止此类事件中的重要性。",
+      "solution_for_person": "确保此人穿有良好抓地力的合适鞋履，并考虑在行走时提供支撑或帮助，以防止跌倒。",
+      "solution_for_hazard_source": "未发现其他危险；关注点在于个人的行为。",
+      "solution_to_prevent_recurrence": "鼓励定期锻炼以提高平衡感和力量，并提供安全步行技巧的指导。"
+    }
+  }
+}

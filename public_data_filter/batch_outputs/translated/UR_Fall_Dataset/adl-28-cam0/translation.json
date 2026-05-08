@@ -1,0 +1,40 @@
+{
+  "video_key": "UR_Fall_Dataset/adl-28-cam0",
+  "translations": {
+    "0": {
+      "risk_description": "这位年轻人正弯腰，似乎要失去平衡，可能导致跌倒并造成潜在伤害。",
+      "normal_video_description": "这位年轻人站在客厅里，姿势看起来很稳。",
+      "solution_for_person": "应由护理人员协助该人，以确保其稳定和安全。",
+      "solution_for_hazard_source": "应检查环境，排除可能导致平衡失调的绊倒危险或障碍物。",
+      "solution_to_prevent_recurrence": "在执行需要弯腰或伸手取物的活动时，应为该人提供支撑和帮助，以防止未来跌倒。"
+    },
+    "1": {
+      "risk_description": "该人弯腰捡起地板上的东西，如果失去平衡或滑倒，可能会导致跌倒。",
+      "normal_video_description": "一个人在房间里站着，然后弯腰捡起地板上的一个物体。",
+      "solution_for_person": "确保该人了解潜在的绊倒危险，并在弯腰时保持平衡。",
+      "solution_for_hazard_source": "",
+      "solution_to_prevent_recurrence": ""
+    },
+    "2": {
+      "risk_description": "",
+      "normal_video_description": "一个年轻人在空荡的房间里站着，然后弯腰触摸地板，完成一个简单的身体动作，没有任何可见的危险或不稳定。",
+      "solution_for_person": "",
+      "solution_for_hazard_source": "",
+      "solution_to_prevent_recurrence": ""
+    },
+    "3": {
+      "risk_description": "该人正在弯腰并跪下，这可能会增加跌倒或受伤的风险，尤其是对于行动不便或平衡有问题的人。",
+      "normal_video_description": "",
+      "solution_for_person": "在弯腰或跪下时，如有必要，确保该人获得支撑或帮助。",
+      "solution_for_hazard_source": "清除地面上的障碍物或绊倒危险。",
+      "solution_to_prevent_recurrence": "练习安全的弯腰技巧，确保环境清晰、稳定。"
+    },
+    "4": {
+      "risk_description": "",
+      "normal_video_description": "视频采用分屏视图，一边显示一个黑白画面，一个人物穿过墙壁；另一边显示一个人在办公环境中弯腰。",
+      "solution_for_person": "",
+      "solution_for_hazard_source": "",
+      "solution_to_prevent_recurrence": ""
+    }
+  }
+}

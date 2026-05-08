@@ -1,0 +1,40 @@
+{
+  "video_key": "labimag/dataset/chute09/cam4",
+  "translations": {
+    "0": {
+      "risk_description": "这位年轻人正在奔跑并跳到桌子上，桌子不稳定，可能导致跌倒和潜在伤害。",
+      "normal_video_description": "视频中显示一名年轻人走进自习室，四处张望，然后奔跑并跳到桌子上。随后该人躺在桌子上，似乎很疲惫。",
+      "solution_for_person": "建议当事人在进行涉及跳跃或跌落的活动时使用适当的安全装备，如安全带或安全网。",
+      "solution_for_hazard_source": "应将该桌子从自习区搬走，以防止进一步事故。",
+      "solution_to_prevent_recurrence": "应当对当事人进行安全重要性以及在进行体育活动时采用正确技巧的教育。"
+    },
+    "1": {
+      "risk_description": "",
+      "normal_video_description": "一个人在实验室环境中操作设备。另一个人进来，坐在沙发上，然后躺在柔软的垫子上。房间里有多人。",
+      "solution_for_person": "",
+      "solution_for_hazard_source": "",
+      "solution_to_prevent_recurrence": ""
+    },
+    "2": {
+      "risk_description": "",
+      "normal_video_description": "视频显示一个人在实验室或自习环境中走到地板上的床垫，躺下后起身。另一位人在背景中操作电脑。动作平静且受控，没有危险或不稳定的迹象。",
+      "solution_for_person": "",
+      "solution_for_hazard_source": "",
+      "solution_to_prevent_recurrence": ""
+    },
+    "3": {
+      "risk_description": "有人躺在办公室的床垫上，这可能在起床时构成跌倒风险，特别是对于行动不便的人。",
+      "normal_video_description": "",
+      "solution_for_person": "确保当事人在从床垫起身时有支撑或帮助。",
+      "solution_for_hazard_source": "移除或固定床垫，以防止在办公区域被误用。",
+      "solution_to_prevent_recurrence": "为休息提供一个稳固且无障碍的指定区域。"
+    },
+    "4": {
+      "risk_description": "穿红色衬衫的人走过房间后倒在椅子上，可能导致受伤。此行为存在跌倒/不稳定的风险。",
+      "normal_video_description": "",
+      "solution_for_person": "确保当事人在穿越房间前了解周围环境及潜在危险，以防止跌倒。",
+      "solution_for_hazard_source": "",
+      "solution_to_prevent_recurrence": "鼓励当事人缓慢而小心地行走，尤其是在不熟悉的区域或地面有障碍物时。"
+    }
+  }
+}

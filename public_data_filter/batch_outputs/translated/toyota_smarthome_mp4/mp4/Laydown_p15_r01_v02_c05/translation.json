@@ -1,0 +1,40 @@
+{
+  "video_key": "toyota_smarthome_mp4/mp4/Laydown_p15_r01_v02_c05",
+  "translations": {
+    "0": {
+      "risk_description": "老年人试图从沙发上站起，若失去平衡可能导致跌倒。由于此人独自在客厅，风险更大。",
+      "normal_video_description": "",
+      "solution_for_person": "护理人员应确保老年人在客厅时有人监护，以防跌倒。",
+      "solution_for_hazard_source": "护理人员应确保客厅没有绊倒危险，如电线或杂物，以降低跌倒风险。",
+      "solution_to_prevent_recurrence": "护理人员应定期检查老年人并在需要时帮助他们从沙发上站起。还应确保客厅光线充足并排除潜在危险。"
+    },
+    "1": {
+      "risk_description": "此人躺在沙发上双腿抬高，可能导致失衡和跌倒，可能造成伤害。",
+      "normal_video_description": "看到一个人弯腰在客厅的茶几上，然后躺在绿色沙发上，双腿抬高，看起来在放松。",
+      "solution_for_person": "确保此人坐稳或平躺在沙发上，以保持稳定并降低跌倒风险。",
+      "solution_for_hazard_source": "",
+      "solution_to_prevent_recurrence": "鼓励此人坐好或正确躺在沙发上，而不是躺下时抬高双腿。"
+    },
+    "2": {
+      "risk_description": "",
+      "normal_video_description": "一位中年人在客厅从站立姿势躺到绿色沙发上。该人看起来在放松或休息，没有表现出痛苦或危险的迹象。环境宁静，属于典型的家庭场景。",
+      "solution_for_person": "",
+      "solution_for_hazard_source": "",
+      "solution_to_prevent_recurrence": ""
+    },
+    "3": {
+      "risk_description": "老年人坐在沙发边缘后向后靠，若失去平衡可能导致跌倒。",
+      "normal_video_description": "",
+      "solution_for_person": "确保老年人在向后靠之前坐直并使用靠垫支撑。",
+      "solution_for_hazard_source": "提供额外支撑或脚凳以防止跌倒。",
+      "solution_to_prevent_recurrence": "使用稳固的座椅安排并确保区域没有绊倒危险。"
+    },
+    "4": {
+      "risk_description": "",
+      "normal_video_description": "一位老年人坐在现代化客厅的绿色沙发上读书。房间光线充足，自然光透过窗户射入，墙上有挂壁式电视。房间里有盆栽和茶几。",
+      "solution_for_person": "",
+      "solution_for_hazard_source": "",
+      "solution_to_prevent_recurrence": ""
+    }
+  }
+}

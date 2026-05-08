@@ -1,0 +1,40 @@
+{
+  "video_key": "web_h264/bilibili__BV1EcDNYLEhq",
+  "translations": {
+    "0": {
+      "risk_description": "可以看到这位年轻成年人在使用拐杖时努力保持平衡，这可能导致跌倒和潜在伤害。楼梯的存在也带来跌倒的风险。",
+      "normal_video_description": "",
+      "solution_for_person": "应由护理人员协助或使用额外支撑（如助行器）来在使用拐杖时保持稳定。",
+      "solution_for_hazard_source": "危害源在于使用拐杖时缺乏适当的支撑和平衡。应修改环境，在楼梯上安装扶手以防止跌倒。",
+      "solution_to_prevent_recurrence": "应为使用拐杖的人提供正确的使用和保持平衡的培训，并修改环境，在楼梯上安装扶手等安全设施。"
+    },
+    "1": {
+      "risk_description": "这位年轻成年人在木屑地面上爬行，地面可能不平整，容易导致绊倒或滑倒，增加跌倒风险。",
+      "normal_video_description": "可以看到一位年轻成年人在游乐场的木屑地面上爬行。",
+      "solution_for_person": "穿上具有良好抓地力的适当鞋类，以防止在木屑上滑倒。",
+      "solution_for_hazard_source": "确保木屑区域平整且无杂物，以最大程度减少绊倒危险。",
+      "solution_to_prevent_recurrence": "在木屑区域活动时，应监督儿童或行动不便的人员。"
+    },
+    "2": {
+      "risk_description": "主题在游乐场玩耍时跌倒至地面，造成明显受伤，需要石膏和拐杖才能移动。这表明存在超出正常玩耍的重大身体风险。",
+      "normal_video_description": "",
+      "solution_for_person": "受伤后应寻求医疗救助并遵循规定的康复方案。",
+      "solution_for_hazard_source": "确保游乐设施维护良好且无危险。",
+      "solution_to_prevent_recurrence": "使用适当的安全装备并在玩耍时注意周围环境。"
+    },
+    "3": {
+      "risk_description": "可以看到这位年轻成年人正在地面上翻滚，这可能导致跌倒或受伤，尤其是当其活动能力受限或正在康复时。",
+      "normal_video_description": "",
+      "solution_for_person": "在进行地面锻炼或活动时，应为年轻成年人提供支撑和监督，以防止跌倒。",
+      "solution_for_hazard_source": "为年轻成年人提供稳定安全的表面进行锻炼，避免不平整或湿滑的地面。",
+      "solution_to_prevent_recurrence": "在体育活动中使用适当的支撑和监督，并确保环境安全稳固，以最大程度降低跌倒风险。"
+    },
+    "4": {
+      "risk_description": "",
+      "normal_video_description": "视频显示一位中年成年人在餐厅环境中进行各种活动，例如使用拐杖行走和与物体互动。提供的场景中未出现可见的风险或危险。",
+      "solution_for_person": "",
+      "solution_for_hazard_source": "",
+      "solution_to_prevent_recurrence": ""
+    }
+  }
+}

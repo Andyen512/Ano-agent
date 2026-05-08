@@ -1,0 +1,40 @@
+{
+  "video_key": "toyota_smarthome_mp4/mp4/Getup_p02_r00_v11_c01",
+  "translations": {
+    "0": {
+      "risk_description": "老年人因使用助行器且餐桌放置在房间中央而有跌倒风险。",
+      "normal_video_description": "老年人在餐厅的餐桌旁坐着吃饭，使用助行器四处移动。",
+      "solution_for_person": "照护者应协助老年人使用助行器，并确保餐桌放置在安全的位置以防止跌倒。",
+      "solution_for_hazard_source": "照护者应确保地面没有任何障碍物，且助行器状况良好。",
+      "solution_to_prevent_recurrence": "照护者应定期检查老年人的平衡能力和活动能力，以防止跌倒，并确保环境安全，便于老年人活动。"
+    },
+    "1": {
+      "risk_description": "",
+      "normal_video_description": "一位老年人坐在餐桌旁，桌上有食物，然后扶着椅子站起来。环境看起来稳定，是典型的餐厅场景。",
+      "solution_for_person": "",
+      "solution_for_hazard_source": "",
+      "solution_to_prevent_recurrence": ""
+    },
+    "2": {
+      "risk_description": "",
+      "normal_video_description": "一位老年人坐在餐桌旁，从盘子里吃东西。然后站起来并把椅子从桌旁移开。这个场景描述了餐厅环境中的正常日常活动。",
+      "solution_for_person": "",
+      "solution_for_hazard_source": "",
+      "solution_to_prevent_recurrence": ""
+    },
+    "3": {
+      "risk_description": "老年人在坐着时身体前倾，看起来难以保持平衡，这可能导致跌倒。",
+      "normal_video_description": "",
+      "solution_for_person": "老年人应确保坐在稳固的椅子上，如果感觉不稳定，应考虑使用支撑或寻求帮助。",
+      "solution_for_hazard_source": "餐桌应保持畅通无阻，以便于活动和保持稳定。",
+      "solution_to_prevent_recurrence": "老年人应使用带扶手的椅子以获得更好的支撑，坐着时避免身体过度前倾。"
+    },
+    "4": {
+      "risk_description": "老年人因站在不稳固的椅子上而有跌倒风险。这可能导致严重伤害，尤其是考虑到他们的年龄。",
+      "normal_video_description": "",
+      "solution_for_person": "在进行任何需要站立的活动之前，确保此人坐在稳固的椅子上。",
+      "solution_for_hazard_source": "将不稳固的椅子从用餐区移走以防止事故。",
+      "solution_to_prevent_recurrence": "定期检查和更换家具，以确保其安全稳固。"
+    }
+  }
+}

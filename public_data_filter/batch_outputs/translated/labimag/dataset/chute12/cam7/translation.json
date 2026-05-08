@@ -1,0 +1,40 @@
+{
+  "video_key": "labimag/dataset/chute12/cam7",
+  "translations": {
+    "0": {
+      "risk_description": "看到这个年轻人在走向那个白色物体（看起来像一个大靠垫或软垫表面），然后突然倒在上面。这种行为偏离了正常的日常活动，可能会导致受伤或不稳定。",
+      "normal_video_description": "视频显示一个年轻人在学习室里走向一个大白色物体，看起来像是软垫表面。然后这个人突然倒在这个物体上，仰面着地。",
+      "solution_for_person": "此人在接近不熟悉的物体时应更加小心，并且应该有人监督以确保其安全。",
+      "solution_for_hazard_source": "危险源是那个大靠垫或软垫表面，它可能不稳定或不安全。",
+      "solution_to_prevent_recurrence": "应该改变环境，移除靠垫或软垫表面，或者应该为此人提供额外的支持来防止跌倒和监督。"
+    },
+    "1": {
+      "risk_description": "一个年轻人躺在一个铺有地板网格线标记的房间中央的大型柔软物体上。周围有网格线标记，如果物体意外移动或者此人在上下时失去平衡，可能会导致跌倒。",
+      "normal_video_description": "一个年轻人躺在一个铺有地板网格线标记的房间中央的大型柔软物体上，而其他人在房间里走动。",
+      "solution_for_person": "此人在躺下之前应确保物体安全放置且稳定。他们在上下时也应小心以避免滑倒。",
+      "solution_for_hazard_source": "应该检查物体的稳定性，必要时进行固定以防止移动。",
+      "solution_to_prevent_recurrence": "在物体下方使用防滑垫，并确保周围区域没有绊倒危险。"
+    },
+    "2": {
+      "risk_description": "",
+      "normal_video_description": "一个年轻人走进房间，走向地板上的床垫，然后做后空翻落在上面。这个人然后起身离开。环境看起来是一个受控的测试或训练区域，动作是有意的和安全的。",
+      "solution_for_person": "",
+      "solution_for_hazard_source": "",
+      "solution_to_prevent_recurrence": ""
+    },
+    "3": {
+      "risk_description": "此人倒在床垫上，如果他们不能轻易起身或有活动受限，这可能会令人担忧，因为这可能表明该区域存在绊倒危险或不稳定。",
+      "normal_video_description": "",
+      "solution_for_person": "确保该区域没有障碍物以防止绊倒和跌倒。",
+      "solution_for_hazard_source": "移除或固定任何可能导致绊倒的物体。",
+      "solution_to_prevent_recurrence": "放置防滑垫或标记物以突出潜在的绊倒危险。"
+    },
+    "4": {
+      "risk_description": "此人正试图跳上一张未固定的床垫，这可能导致跌倒和潜在伤害。",
+      "normal_video_description": "",
+      "solution_for_person": "确保床垫固定妥当，或提供关于如何安全落在上面的正确指导。",
+      "solution_for_hazard_source": "固定床垫以防止在着陆时移动。",
+      "solution_to_prevent_recurrence": "提供关于安全跳跃技术的适当培训，并确保床垫在这种活动使用时始终固定。"
+    }
+  }
+}

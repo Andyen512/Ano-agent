@@ -1,0 +1,40 @@
+{
+  "video_key": "UR_Fall_Dataset/fall-17-cam0",
+  "translations": {
+    "0": {
+      "risk_description": "年轻人站在书房里，然后突然摔倒在地，表明存在不稳定或失去平衡的风险。",
+      "normal_video_description": "年轻人站在书房里，然后突然摔倒在地，表明存在不稳定或失去平衡的风险。",
+      "solution_for_person": "确保年轻人在必要时接受医疗关注，并提供支持以防止再次跌倒。",
+      "solution_for_hazard_source": "检查书房是否有绊倒危险或光滑表面，并采取必要的预防措施防止跌倒。",
+      "solution_to_prevent_recurrence": "在书房安装扶手或抓杆，清理杂物，确保适当照明以降低跌倒风险。"
+    },
+    "1": {
+      "risk_description": "看到这个人躺在地板上，这可能导致跌倒受伤或难以站起。",
+      "normal_video_description": "视频显示一个年轻人走进书房，然后躺在地板上。",
+      "solution_for_person": "确保这个人在房间内移动时受到监督和帮助以防止跌倒。",
+      "solution_for_hazard_source": "",
+      "solution_to_prevent_recurrence": "保持地板畅通无障碍物，确保此人注意周围环境。"
+    },
+    "2": {
+      "risk_description": "",
+      "normal_video_description": "一个年轻人站在书房里，然后向前走并在地板上做前滚翻，完成动作而没有受伤。",
+      "solution_for_person": "",
+      "solution_for_hazard_source": "",
+      "solution_to_prevent_recurrence": ""
+    },
+    "3": {
+      "risk_description": "年轻人做了一个前空翻，如果落地姿势不当可能会造成受伤风险，尤其是对于行动不便或协调性较差的人来说。",
+      "normal_video_description": "",
+      "solution_for_person": "确保年轻人有安全的着陆区域，并在进行杂技活动时考虑监督。",
+      "solution_for_hazard_source": "清除附近的任何障碍物，以防止翻跟头时绊倒或受伤。",
+      "solution_to_prevent_recurrence": "在宽敞清晰的区域练习，以减少翻跟头时碰撞或受伤的风险。"
+    },
+    "4": {
+      "risk_description": "这个人正在做前滚翻，如果执行不当可能会导致摔倒，可能造成轻微伤害如擦伤或扭伤。",
+      "normal_video_description": "",
+      "solution_for_person": "确保在前滚翻时保持适当的身体控制和周围环境意识以防止跌倒。",
+      "solution_for_hazard_source": "",
+      "solution_to_prevent_recurrence": "在有适当监督的受控环境中练习前滚翻，直到熟练掌握。"
+    }
+  }
+}

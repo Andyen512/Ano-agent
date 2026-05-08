@@ -1,0 +1,40 @@
+{
+  "video_key": "SmartHome-Bench/videos/smartbench_0688",
+  "translations": {
+    "0": {
+      "risk_description": "该人看起来脚步不稳，存在跌倒风险。",
+      "normal_video_description": "可以看到该人走向门口，脚步不稳，随后跌倒在地。",
+      "solution_for_person": "应让护理人员帮助该人，以确保其稳定和安全。",
+      "solution_for_hazard_source": "应为该人提供支撑，如拐杖或助行器，以帮助其保持平衡。",
+      "solution_to_prevent_recurrence": "应监测该人是否出现不稳迹象，并提供适当支持，以防止未来跌倒。"
+    },
+    "1": {
+      "risk_description": "",
+      "normal_video_description": "一个穿白色T恤、白色短裤、背白色背包的年轻人在夜间走向门口，检查手中的东西，短暂弯腰，然后离开摄像头走向院子。",
+      "solution_for_person": "",
+      "solution_for_hazard_source": "",
+      "solution_to_prevent_recurrence": ""
+    },
+    "2": {
+      "risk_description": "",
+      "normal_video_description": "一个背背包的年轻人在夜间走上门廊，靠近摄像头，看了看，然后离开。这种行为属于正常日常活动，不存在风险。",
+      "solution_for_person": "",
+      "solution_for_hazard_source": "",
+      "solution_to_prevent_recurrence": ""
+    },
+    "3": {
+      "risk_description": "该年轻人动作显得不稳定，可能会因不稳的动作导致碰撞或压伤自己或他人。",
+      "normal_video_description": "",
+      "solution_for_person": "该年轻人应谨慎并稳定动作，以避免碰撞。",
+      "solution_for_hazard_source": "确保门廊区域没有障碍物，以降低绊倒或碰撞的风险。",
+      "solution_to_prevent_recurrence": "应建议该年轻人更慎重地移动，留意周围环境，以防止事故。"
+    },
+    "4": {
+      "risk_description": "该人脚步不稳，看起来像是醉酒，增加了跌倒和受伤的风险。阳台的环境会使跌倒的潜在严重性更大。",
+      "normal_video_description": "",
+      "solution_for_person": "确保该人坐在或躺在安全的地方，以防止进一步受伤。",
+      "solution_for_hazard_source": "",
+      "solution_to_prevent_recurrence": "向该人提供帮助，使其避免再次跌倒并确保安全。"
+    }
+  }
+}

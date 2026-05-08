@@ -1,0 +1,40 @@
+{
+  "video_key": "labimag/dataset/chute21/cam4",
+  "translations": {
+    "0": {
+      "risk_description": "视频中的年轻人被看到穿过办公室时跑动，绊倒在椅子上，然后摔倒在地。这种行为偏离了正常的日常活动（如走路或坐在椅子上），存在伤害风险。",
+      "normal_video_description": "视频显示一个人在办公室走动，坐在椅子上，然后跑过办公室。此人随后绊倒在椅子上，摔倒在地。",
+      "solution_for_person": "此人在办公室走动时应更加小心，确保其路径上没有障碍物或绊倒危险。",
+      "solution_for_hazard_source": "办公室应定期检查是否存在潜在危险或绊倒危险，如松散的电缆或不平的地板，并及时处理。",
+      "solution_to_prevent_recurrence": "应提醒此人注意周围环境并在办公室走动时小心谨慎的重要性，以防止将来跌倒。"
+    },
+    "1": {
+      "risk_description": "穿红色衬衫的人脸朝下躺在地板上，这存在跌倒或无法站起来的伤害风险。",
+      "normal_video_description": "视频显示一间设有桌子、椅子和设备的办公室或书房。一位穿红色衬衫的人进入，坐在椅子上，然后脸朝下躺在地板上。其他人正在桌子旁工作。",
+      "solution_for_person": "确保此人在有人监督和帮助下，避免长时间躺在地板上。",
+      "solution_for_hazard_source": "",
+      "solution_to_prevent_recurrence": "实施跌倒预防策略，例如确保通道清晰并在需要时提供帮助。"
+    },
+    "2": {
+      "risk_description": "一个人试图坐在扶手椅上，但失去平衡，向后倒在地板上，这表明是一个明显的不稳定事件。",
+      "normal_video_description": "",
+      "solution_for_person": "此人应立即起身检查是否有受伤，椅子应检查其稳定性。",
+      "solution_for_hazard_source": "确保扶手椅稳定且放置在平坦的表面上，以防止倾倒。",
+      "solution_to_prevent_recurrence": "将椅子放置在更稳定的位置或使用底座更宽的椅子，以防止将来跌倒。"
+    },
+    "3": {
+      "risk_description": "穿红色衬衫的人在试图坐在椅子上时摔倒在地板上，这可能造成伤害风险，特别是对行动不便或平衡问题的人。",
+      "normal_video_description": "",
+      "solution_for_person": "确保此人坐姿正确，必要时提供帮助以防止跌倒。",
+      "solution_for_hazard_source": "整理家具以创建清晰的通道并确保稳定性，以防止倾倒或跌倒。",
+      "solution_to_prevent_recurrence": "实施安全措施，例如防滑垫，并确保适当的照明以提高能见度。"
+    },
+    "4": {
+      "risk_description": "孩子正在地板上玩玩具，如果不小心可能会导致跌倒。也有被玩具或房间里的其他物体绊倒的风险。",
+      "normal_video_description": "",
+      "solution_for_person": "确保孩子在玩耍时有人监督，并提供如何安全玩耍的指导。",
+      "solution_for_hazard_source": "从孩子玩耍的区域移除任何潜在危险。",
+      "solution_to_prevent_recurrence": "建立明确的游戏时间和界限规则，以减少事故风险。"
+    }
+  }
+}

@@ -1,0 +1,40 @@
+{
+  "video_key": "SmartHome-Bench/videos/smartbench_0108",
+  "translations": {
+    "0": {
+      "risk_description": "",
+      "normal_video_description": "在夜间，一只大型鳄鱼出现在房屋的门廊上行走。从监控摄像头的视角看，它看起来平静地在门廊上行走。视频带有时间戳，显示鳄鱼从门廊的一侧移动到另一侧。鳄鱼是从远处拍摄的，视频中没有人或其他动物可见。该视频似乎是一次性事件，没有显示任何危险或伤害的迹象。",
+      "solution_for_person": "",
+      "solution_for_hazard_source": "",
+      "solution_to_prevent_recurrence": ""
+    },
+    "1": {
+      "risk_description": "一条鳄鱼正在房屋入口附近的混凝土道路上行走，对附近任何人都构成碰撞或压伤的风险。",
+      "normal_video_description": "视频显示一条鳄鱼在夜间于房屋入口附近的混凝土道路上行走。",
+      "solution_for_person": "与鳄鱼保持安全距离，避免靠近它。",
+      "solution_for_hazard_source": "应将鳄鱼从住宅区移除，以防事故。",
+      "solution_to_prevent_recurrence": "安装屏障或围栏，以阻止野生动物靠近房产。"
+    },
+    "2": {
+      "risk_description": "一条鳄鱼走上门廊并靠近摄像头，对现场的任何人都造成直接的身体威胁。该动物靠近门且体型庞大，明显存在碰撞或攻击导致伤害的危险。",
+      "normal_video_description": "",
+      "solution_for_person": "不要靠近该动物；立即退回室内，并联系当地野生动物管理部门进行安全移除。",
+      "solution_for_hazard_source": "危害物是一只野生动物；应由专业人士移除，而非直接处理。",
+      "solution_to_prevent_recurrence": "安装动作感应灯或警报器，以阻止野生动物在夜间靠近门廊。"
+    },
+    "3": {
+      "risk_description": "视频显示一条鳄鱼在房屋入口附近的混凝土道路上行走，对儿童、宠物或行动不便者可能造成碰撞或压伤的风险。",
+      "normal_video_description": "",
+      "solution_for_person": "确保儿童和宠物远离鳄鱼行走的路径，并在院子里提供监护。",
+      "solution_for_hazard_source": "联系野生动物管理部门，将鳄鱼安全地从房产中移除。",
+      "solution_to_prevent_recurrence": "安装屏障或围栏，防止野生动物进入院子，并确保该地区定期进行野生动物检查。"
+    },
+    "4": {
+      "risk_description": "",
+      "normal_video_description": "视频显示夜间门廊上有人走向房屋，踩在迎宾垫上，然后离开。该场景没有任何风险或潜在危险的迹象。",
+      "solution_for_person": "",
+      "solution_for_hazard_source": "",
+      "solution_to_prevent_recurrence": ""
+    }
+  }
+}

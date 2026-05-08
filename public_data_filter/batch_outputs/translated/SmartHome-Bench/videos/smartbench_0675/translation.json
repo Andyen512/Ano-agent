@@ -1,0 +1,40 @@
+{
+  "video_key": "SmartHome-Bench/videos/smartbench_0675",
+  "translations": {
+    "0": {
+      "risk_description": "视频显示一名年轻成年人在夜晚的院子里爬一段楼梯。灯光昏暗，楼梯看起来是湿的，这可能增加滑倒和跌倒的风险。该年轻人没有穿戴任何防护装备，例如具有良好抓地力的鞋子或支撑用的扶手。",
+      "normal_video_description": "",
+      "solution_for_person": "此人在爬楼梯时应穿具有良好抓地力的鞋子，并使用扶手提供支撑。还应对湿滑的表面保持警惕，慢慢行走以避免滑倒。",
+      "solution_for_hazard_source": "危险源是湿滑的楼梯。此人在爬楼梯时应更加小心，并使用扶手提供支撑。楼梯也应该被擦干或进行防滑处理，以降低滑倒风险。",
+      "solution_to_prevent_recurrence": "应提醒此人在爬楼梯时穿具有良好抓地力的鞋子，并使用扶手提供支撑。应定期检查楼梯并进行防滑处理，以降低滑倒风险。"
+    },
+    "1": {
+      "risk_description": "可以看到土狼爬上楼梯并在一个围栏区域内四处走动，这可能导致它们跌倒或与物体或其他土狼碰撞。",
+      "normal_video_description": "在后院观察到土狼与环境及其他土狼互动。",
+      "solution_for_person": "",
+      "solution_for_hazard_source": "",
+      "solution_to_prevent_recurrence": "安装安全的围栏并清除诱因，以阻止野生动物进入院子。"
+    },
+    "2": {
+      "risk_description": "",
+      "normal_video_description": "视频显示野生动物，可能是土狼，在夜间穿过后院。它们穿过院子，跨过围栏，爬上楼梯，表现出自然的探索行为，没有对人员或财产造成危险的迹象。",
+      "solution_for_person": "",
+      "solution_for_hazard_source": "",
+      "solution_to_prevent_recurrence": ""
+    },
+    "3": {
+      "risk_description": "视频显示一只宠物，可能是狗，在院子区域爬楼梯。宠物在爬楼梯时有跌倒或受伤的风险，特别是如果它活动能力或协调性受限。",
+      "normal_video_description": "",
+      "solution_for_person": "确保宠物在爬楼梯时有人监督，并在需要时提供支撑。",
+      "solution_for_hazard_source": "安装坡道或安全的扶手，以帮助宠物安全地通过楼梯。",
+      "solution_to_prevent_recurrence": "为宠物创建更安全的路径，例如坡道，以避免在爬楼梯时跌倒。"
+    },
+    "4": {
+      "risk_description": "",
+      "normal_video_description": "视频显示一个有各种植物和围栏的花园。视频中没有可见的风险或危险。",
+      "solution_for_person": "",
+      "solution_for_hazard_source": "",
+      "solution_to_prevent_recurrence": ""
+    }
+  }
+}

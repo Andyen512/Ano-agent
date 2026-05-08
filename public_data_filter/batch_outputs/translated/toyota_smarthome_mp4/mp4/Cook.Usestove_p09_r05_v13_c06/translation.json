@@ -1,0 +1,40 @@
+{
+  "video_key": "toyota_smarthome_mp4/mp4/Cook.Usestove_p09_r05_v13_c06",
+  "translations": {
+    "0": {
+      "risk_description": "",
+      "normal_video_description": "一个男人站在现代化厨房里，操作一台嵌入式烤箱。他似乎在检查或调节烤箱内部的东西。厨房光线充足，采用时尚设计，设有中央岛台，背景有餐饮区。墙上挂着一台电视，正在播放新闻节目。男子穿着一件格子衬衫和深色裤子。",
+      "solution_for_person": "",
+      "solution_for_hazard_source": "",
+      "solution_to_prevent_recurrence": ""
+    },
+    "1": {
+      "risk_description": "该人正在操作烤箱，烤箱是热源/火源。如果烤箱过热或出现故障，存在烫伤或火灾相关伤害的风险。",
+      "normal_video_description": "一个人站在厨房里，靠近烤箱，似乎在与烤箱互动，背景中电视正在播放。",
+      "solution_for_person": "在操作前确保烤箱已正确维护并已冷却。打开烤箱门时请使用烤箱手套或其他防护装备。",
+      "solution_for_hazard_source": "定期检查和维护烤箱，以防止故障。让易燃材料远离烤箱。",
+      "solution_to_prevent_recurrence": "打开门前务必确认烤箱已关闭且已冷却。厨房中应备有灭火器，并放在近处。"
+    },
+    "2": {
+      "risk_description": "",
+      "normal_video_description": "一位年长者站在现代化厨房里，操作烤箱，背景中电视正在播放。该场景展示了日常家务活动，没有明显的危险或异常行为。",
+      "solution_for_person": "",
+      "solution_for_hazard_source": "",
+      "solution_to_prevent_recurrence": ""
+    },
+    "3": {
+      "risk_description": "这位年长者站在打开的烤箱附近，存在烫伤或意外接触热量的风险。",
+      "normal_video_description": "",
+      "solution_for_person": "年长者应与打开的烤箱保持安全距离，如需处理热的物品，请使用烤箱手套。",
+      "solution_for_hazard_source": "确保烤箱通风良好，并考虑安装儿童锁等安全装置以防止意外打开。",
+      "solution_to_prevent_recurrence": "安装计时器以提醒人员关闭烤箱，并确保他们在使用烤箱时了解安全做法。"
+    },
+    "4": {
+      "risk_description": "该人站在烤箱前，如果不注意可能导致烫伤。若烤箱无人看管或附近有易燃材料，也有火灾风险。",
+      "normal_video_description": "一位年长者站在现代化厨房里，在炉子上用锅烹饪。他/她穿着条纹衬衫和黑色裤子。背景中电视开着，旁边还有一盆植物。",
+      "solution_for_person": "处理热锅和热盘时务必使用烤箱手套，切勿在烤箱开启时离开。",
+      "solution_for_hazard_source": "确保烤箱定期维护和清洁，以防止油脂或其他易燃物质的积聚。",
+      "solution_to_prevent_recurrence": "在烤箱附近安装烟雾探测器，以便在发生火灾时提醒您，并确保厨房中随时可取的灭火器。"
+    }
+  }
+}

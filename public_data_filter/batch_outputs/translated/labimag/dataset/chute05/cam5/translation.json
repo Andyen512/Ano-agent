@@ -1,0 +1,40 @@
+{
+  "video_key": "labimag/dataset/chute05/cam5",
+  "translations": {
+    "0": {
+      "risk_description": "可以看到这名年轻人在垫子上尝试进行一项体育活动，可能是体操动作。他们失去平衡并跌倒，可能导致受伤。跌倒可能是因为对该活动缺乏适当的训练或经验。",
+      "normal_video_description": "",
+      "solution_for_person": "建议该人在更安全的环境中练习此活动，并在有适当的监督和训练的情况下进行，以降低受伤风险。",
+      "solution_for_hazard_source": "垫子应放置在稳固、平坦的表面上，以防止滑动或不平。",
+      "solution_to_prevent_recurrence": "应鼓励该人在活动时佩戴适当的安全装备，如头盔和护膝。还应建议他们从简单的动作开始，逐步进阶到更高级的技巧。"
+    },
+    "1": {
+      "risk_description": "一个人正跳到放置在地板上的床垫上，这可能因高度和落地表面而导致跌倒和潜在受伤。",
+      "normal_video_description": "视频显示一个教室场景，人们正在进行涉及地板上床垫的活动。",
+      "solution_for_person": "确保有适当的监督，并考虑使用更安全的落地表面或降低跳跃的高度。",
+      "solution_for_hazard_source": "",
+      "solution_to_prevent_recurrence": "为课堂上的体育活动制定安全规程，如使用防护垫或限制跳跃的高度。"
+    },
+    "2": {
+      "risk_description": "",
+      "normal_video_description": "视频显示一群成年人在一个地面有网格的房间里。其中一人穿过房间，然后跳到中间的床垫上安全落地。其他人进入房间并观看这项活动。",
+      "solution_for_person": "",
+      "solution_for_hazard_source": "",
+      "solution_to_prevent_recurrence": ""
+    },
+    "3": {
+      "risk_description": "可以看到孩子在升高的表面上爬行，如果失去平衡或滑倒，可能会导致跌倒风险。",
+      "normal_video_description": "",
+      "solution_for_person": "确保孩子在升高的表面上时受到密切监督，以防止跌倒。",
+      "solution_for_hazard_source": "降低或固定升高的表面，以减少跌倒风险。",
+      "solution_to_prevent_recurrence": "在升高表面周围安装安全护栏或护垫，以防跌倒。"
+    },
+    "4": {
+      "risk_description": "",
+      "normal_video_description": "视频显示一间办公室空间，里面有各种物品和家具，包括一块格子地面。一个人进入房间，走向中央，地面上有大型物体。",
+      "solution_for_person": "",
+      "solution_for_hazard_source": "",
+      "solution_to_prevent_recurrence": ""
+    }
+  }
+}

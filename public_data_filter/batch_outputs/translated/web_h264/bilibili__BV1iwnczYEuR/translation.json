@@ -1,0 +1,40 @@
+{
+  "video_key": "web_h264/bilibili__BV1iwnczYEuR",
+  "translations": {
+    "0": {
+      "risk_description": "孩子正在卧室里玩玩具枪，如果不妥善看护，可能会导致事故。",
+      "normal_video_description": "",
+      "solution_for_person": "玩玩具枪时需要成人监督以确保孩子的安全。",
+      "solution_for_hazard_source": "玩具枪不使用时应远离孩子，以防止事故发生。",
+      "solution_to_prevent_recurrence": "应该教育孩子安全的重要性以及玩玩具枪的潜在危险。"
+    },
+    "1": {
+      "risk_description": "卧室的天花板灯正在冒烟和起火，存在火灾隐患。",
+      "normal_video_description": "视频显示一间卧室，天花板灯突然起火，冒出烟雾和火焰。",
+      "solution_for_person": "应立即撤离房间并拨打紧急救援电话。",
+      "solution_for_hazard_source": "如果安全的话，应关闭燃烧的灯具，并撤离该区域。",
+      "solution_to_prevent_recurrence": "在卧室安装烟雾探测器和灭火器，并确保其正常工作。"
+    },
+    "2": {
+      "risk_description": "卧室的天花板灯具突然起火并冒烟，燃烧的碎片落下。抱着婴儿的年轻人反应迅速扑灭了火焰，表明这是一个即时且危险的火灾隐患。",
+      "normal_video_description": "",
+      "solution_for_person": "立即使用灭火器或其他可用方法灭火，如果火灾无法迅速控制，应撤离该区域。",
+      "solution_for_hazard_source": "更换故障灯具并检查电气线路，以防止再次发生。",
+      "solution_to_prevent_recurrence": "定期检查和维护电气设备，确保烟雾探测器已安装且正常工作。"
+    },
+    "3": {
+      "risk_description": "视频显示卧室灯具起火，这对烧伤或吸入烟雾构成重大风险，尤其是对于反应不够迅速无法逃离危险的孩子。",
+      "normal_video_description": "",
+      "solution_for_person": "确保儿童远离潜在火灾隐患，并在紧急情况下密切监督。",
+      "solution_for_hazard_source": "安装烟雾探测器并确保其正常工作；准备好灭火器以备急用。",
+      "solution_to_prevent_recurrence": "定期进行消防安全检查，并教育家庭成员了解火灾预防和紧急应对程序。"
+    },
+    "4": {
+      "risk_description": "孩子正在桌子边缘附近玩耍，可能会导致跌倒和受伤。",
+      "normal_video_description": "",
+      "solution_for_person": "确保孩子受到监督并远离桌子边缘。",
+      "solution_for_hazard_source": "移除孩子可能在桌子边缘碰倒的任何物品。",
+      "solution_to_prevent_recurrence": "用防倾倒支架固定桌子或将其移至更安全的位置。"
+    }
+  }
+}

@@ -1,0 +1,40 @@
+{
+  "video_key": "web_h264/dailymotion__x9qloji",
+  "translations": {
+    "0": {
+      "risk_description": "视频显示一名消防员爬着穿过一扇门进入一所房子，房子看起来年久失修。消防员穿着全套装备，包括头盔、外套和裤子。房子外部是灰色的，背景中可以看到树木和草坪。消防员正在小心地穿过那扇半开的门。视频还显示一名穿着灰色连帽衫和短裤的男子站在房子外面，朝门里看。男子似乎对情况感到担忧。视频没有显示任何火灾或烟雾的迹象，但消防员的动作表明房子里可能有跌倒或绊倒的风险。视频没有提供关于失修原因或消防员在场原因的任何信息。视频没有显示场景中的其他人员或动物。视频没有提供关于时间或天气条件的任何信息。视频没有显示房子有任何损坏或毁坏的迹象，但消防员的动作表明可能有跌倒的风险。",
+      "normal_video_description": "",
+      "solution_for_person": "",
+      "solution_for_hazard_source": "",
+      "solution_to_prevent_recurrence": ""
+    },
+    "1": {
+      "risk_description": "消防员穿过烟雾和碎玻璃营救一位老人免受火灾伤害，使其暴露在极端高温和潜在的有毒烟雾吸入中。",
+      "normal_video_description": "一名消防员从房屋火灾中营救一名老年男子，警察和其他救援人员在现场协助。",
+      "solution_for_person": "这位老人在火灾发生前应该已经安装有效的烟雾探测器和制定紧急逃生计划。",
+      "solution_for_hazard_source": "需要识别并消除火灾源以防止未来事故。",
+      "solution_to_prevent_recurrence": "安装和维护有效的烟雾探测器和灭火器，并对所有居住者进行定期消防安全演练。"
+    },
+    "2": {
+      "risk_description": "一所房子正在着火，烟雾从窗户和门中涌出，为里面的任何人创造了危及生命的环境。场景描述了一场救援行动，消防员正在进入燃烧的建筑以拯救一个人。",
+      "normal_video_description": "",
+      "solution_for_person": "里面的人应该在听到警报或看到烟雾时立即撤离，沿着阻力最小的路线到外面。",
+      "solution_for_hazard_source": "必须立即拨打火警电话来扑灭火灾并防止其蔓延。",
+      "solution_to_prevent_recurrence": "安装烟雾探测器，确保正确的电气维护，永远不要无人看管烹饪以防止未来火灾。"
+    },
+    "3": {
+      "risk_description": "消防员和警察正在从房屋火灾中营救一名老年人，使他们暴露在烟雾和碎玻璃中，这构成了严重的伤害风险。",
+      "normal_video_description": "",
+      "solution_for_person": "确保老年人安全撤离并立即获得医疗救治，以处理烧伤和烟雾吸入。",
+      "solution_for_hazard_source": "消防员应优先灭火以减少烟雾和热暴露，并确保该区域对救援行动安全。",
+      "solution_to_prevent_recurrence": "进行彻底调查以确定火灾原因，并实施安全措施以防止未来事故，例如安装烟雾探测器和火灾警报器。"
+    },
+    "4": {
+      "risk_description": "视频显示一名消防员进入燃烧的房屋营救一名老年人，表明火灾有严重烧伤和伤害的风险。",
+      "normal_video_description": "视频显示一名消防员从燃烧的房屋中营救一名老年人。",
+      "solution_for_person": "",
+      "solution_for_hazard_source": "",
+      "solution_to_prevent_recurrence": "定期进行家庭安全检查，确保所有居民了解消防安全措施。"
+    }
+  }
+}

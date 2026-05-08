@@ -1,0 +1,40 @@
+{
+  "video_key": "labimag/dataset/chute07/cam4",
+  "translations": {
+    "0": {
+      "risk_description": "可以看到这位年轻人跑向垫子并摔到上面，这可能会在他们着陆姿势不当或垫子滑动时导致受伤。",
+      "normal_video_description": "",
+      "solution_for_person": "应鼓励该人在跑步时保持适当的谨慎，并确保垫子在使用前已固定稳妥。",
+      "solution_for_hazard_source": "应检查垫子是否有松动或损坏区域，并妥善固定以防止滑动。",
+      "solution_to_prevent_recurrence": "应提醒该人在跑步时保持适当谨慎，并确保垫子在使用前已固定稳妥。此外，应定期检查以确保垫子保持固定且状态良好。"
+    },
+    "1": {
+      "risk_description": "穿红色衬衫的人躺在房间中央的一个大垫子上，垫子上有网格线标记，四周环绕着设备。这种行为存在从垫子上跌落的风险，尤其是如果垫子移动或该人突然起身。",
+      "normal_video_description": "视频显示一个配有多个工作台和设备的实验室环境。一位穿红色衬衫的人进入，躺在房间中央的大垫子上，随后其他人加入，与垫子及周围设备互动。",
+      "solution_for_person": "在躺下之前确保垫子放置稳固且稳定，起身时要避免突然的动作。",
+      "solution_for_hazard_source": "固定垫子以防止其意外移动。",
+      "solution_to_prevent_recurrence": "进行安全简报，讲解实验室内的正确设备使用方法和指定区域。"
+    },
+    "2": {
+      "risk_description": "",
+      "normal_video_description": "视频显示一群成年人在实验室或办公环境中。一人走向地板上的床垫并躺下，其他人则在房间走动。该活动似乎是一场受控的实验或演示，并不涉及危险行为。",
+      "solution_for_person": "",
+      "solution_for_hazard_source": "",
+      "solution_to_prevent_recurrence": ""
+    },
+    "3": {
+      "risk_description": "一位穿红色衬衫的人躺在地板上，这对行动不便或平衡有问题的人可能构成跌倒风险。",
+      "normal_video_description": "",
+      "solution_for_person": "确保该人了解周围环境，若显得不稳则提供帮助。",
+      "solution_for_hazard_source": "清理地面空间，以防止绊倒或跌倒危险。",
+      "solution_to_prevent_recurrence": "制定政策保持地面整洁，并确保办公室有定期监督。"
+    },
+    "4": {
+      "risk_description": "穿红色衬衫的人躺在地板上，这可能表明有跌倒或不稳定的风险。若不及时处理，这种情况可能导致严重伤害。",
+      "normal_video_description": "一位穿红色衬衫的人走过标有地面线条的办公区域，然后躺在地板上。其他人进入房间并照看地板上的人。",
+      "solution_for_person": "确保穿红色衬衫的人未受伤，必要时提供帮助。",
+      "solution_for_hazard_source": "未发现任何问题。",
+      "solution_to_prevent_recurrence": "监测该区域是否存在绊倒危险或可能导致跌落的不稳定表面。"
+    }
+  }
+}

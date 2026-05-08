@@ -1,0 +1,40 @@
+{
+  "video_key": "labimag/dataset/chute21/cam5",
+  "translations": {
+    "0": {
+      "risk_description": "视频中的年轻人试图坐在椅子上，但失去平衡摔倒在地上。这种行为偏离了正常的坐椅子的日常活动，可能会造成伤害风险。",
+      "normal_video_description": "",
+      "solution_for_person": "应该帮助这个人找到更稳定的座位选择或提供支持，以防止未来跌倒。",
+      "solution_for_hazard_source": "视频中的椅子可能不够稳固。可以提供更稳定的椅子或额外支持以防止跌倒。",
+      "solution_to_prevent_recurrence": "这个人在尝试坐在椅子或其他家具上时应该被监督，并应提供额外支持或稳定的座位选择以防止未来跌倒。"
+    },
+    "1": {
+      "risk_description": "穿红色衬衫的人躺在椅子附近的地板上，这可能表明摔倒或失去平衡。这种行为可能导致实际的伤害，如撞到地板受伤或被卡在椅子下面。",
+      "normal_video_description": "视频展示了一个配有各种家具和设备的房间。一个穿红色衬衫的人进入房间，移动椅子，坐下来，然后躺在椅子附近的地板上。稍后另一个人进入房间。",
+      "solution_for_person": "确保这个人穿着合适的鞋子以防止滑倒，并意识到周围环境以避免绊倒危险。",
+      "solution_for_hazard_source": "移除或固定房间中任何绊倒危险，例如电线或地板上的小物件。",
+      "solution_to_prevent_recurrence": "在高流量区域安装防滑垫，并确保充足的照明以提高能见度。"
+    },
+    "2": {
+      "risk_description": "",
+      "normal_video_description": "一个人走进办公室，坐在椅子上，然后向后倒在地上，然后站起来。另一个人进入房间。",
+      "solution_for_person": "",
+      "solution_for_hazard_source": "",
+      "solution_to_prevent_recurrence": ""
+    },
+    "3": {
+      "risk_description": "这个人从扶手椅上摔下来，可能会造成伤害风险，特别是对于行动不便或平衡问题的人。",
+      "normal_video_description": "",
+      "solution_for_person": "确保这个人在使用可能导致跌倒的家具时受到监督。",
+      "solution_for_hazard_source": "固定家具以防止倾倒或提供稳定的座位选择。",
+      "solution_to_prevent_recurrence": "使用防滑垫或垫子来稳定椅子并防止跌倒。"
+    },
+    "4": {
+      "risk_description": "这个人正坐在办公室的豆袋椅上，如果椅子翻倒或这个人失去平衡，可能会导致跌倒。这可能导致轻微伤害，如瘀伤或扭伤。",
+      "normal_video_description": "",
+      "solution_for_person": "确保豆袋椅放置在稳定的表面上，并远离任何潜在的危害。还要确保这个人坐姿正确，不要过度向后倾斜。",
+      "solution_for_hazard_source": "",
+      "solution_to_prevent_recurrence": "定期检查豆袋椅是否有任何磨损迹象，并在必要时更换。"
+    }
+  }
+}

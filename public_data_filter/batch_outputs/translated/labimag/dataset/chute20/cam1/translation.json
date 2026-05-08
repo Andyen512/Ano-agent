@@ -1,0 +1,40 @@
+{
+  "video_key": "labimag/dataset/chute20/cam1",
+  "translations": {
+    "0": {
+      "risk_description": "视频中的年轻人被看到穿过客厅时突然跌倒，这可能会导致受伤。",
+      "normal_video_description": "",
+      "solution_for_person": "这个人在客厅走动时应该更加小心，以避免绊倒或跌倒。",
+      "solution_for_hazard_source": "客厅地板可能存在绊倒危险，比如电线或不平整的表面，需要处理。",
+      "solution_to_prevent_recurrence": "这个人应该更加注意周围环境，并采取措施降低绊倒或跌倒的风险，比如清除地板上的绊倒危险物。"
+    },
+    "1": {
+      "risk_description": "穿红衬衫的人失去平衡跌倒在地板上，可能会因撞击而受伤或无法迅速起身。",
+      "normal_video_description": "房间里有两个人，有各种家具和设备。穿红衬衫的一个人走向棕色椅子，失去平衡跌倒在地板上，而另一个人坐在办公桌前。",
+      "solution_for_person": "确保穿合适的鞋子以防止滑倒，并保持对周围环境的警觉以避免突然跌倒。",
+      "solution_for_hazard_source": "",
+      "solution_to_prevent_recurrence": ""
+    },
+    "2": {
+      "risk_description": "一个年轻人试图举起一把沉重的扶手椅，失去平衡跌倒在地板上。这个动作明显展示了失去稳定性导致的跌倒。",
+      "normal_video_description": "",
+      "solution_for_person": "这个人应该避免独自搬运沉重的家具，应该寻求帮助或使用正确的搬运技巧。",
+      "solution_for_hazard_source": "确保沉重的家具不会在没有适当设备或帮助的情况下由单人搬运。",
+      "solution_to_prevent_recurrence": "提供安全搬运实践的培训，并确保搬运重物时有足够的帮助。"
+    },
+    "3": {
+      "risk_description": "穿红衬衫的人跌倒在地板上，这可能会造成受伤风险，特别是对于行动不便或平衡有问题的人。",
+      "normal_video_description": "",
+      "solution_for_person": "确保这个人意识到周围环境，并谨慎行动以避免绊倒或跌倒。",
+      "solution_for_hazard_source": "清除地板上的任何障碍物或绊倒危险物，以减少跌倒风险。",
+      "solution_to_prevent_recurrence": "安装额外的照明或防滑地板，以增强客厅的安全性。"
+    },
+    "4": {
+      "risk_description": "穿红衬衫的人正在走过一个地板上有标记线的房间，这可能会打滑或不稳定。他们失去平衡跌倒在地，可能会导致严重伤害。",
+      "normal_video_description": "",
+      "solution_for_person": "确保地板干燥且没有任何滑溜物质，然后再在上面行走。",
+      "solution_for_hazard_source": "清除地板上任何潜在的危害，如湿的地方或可能导致绊倒的物品。",
+      "solution_to_prevent_recurrence": "提供具有良好抓地力的合适鞋子，并考虑在容易打滑的区域使用防滑垫。"
+    }
+  }
+}

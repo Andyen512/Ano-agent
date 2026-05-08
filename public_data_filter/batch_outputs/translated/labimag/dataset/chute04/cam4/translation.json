@@ -1,0 +1,40 @@
+{
+  "video_key": "labimag/dataset/chute04/cam4",
+  "translations": {
+    "0": {
+      "risk_description": "可以看到年轻人跑向垫子，这在学习室里并不常见。随后他们倒在垫子上，若未穿戴适当的安全装备，可能会导致受伤。",
+      "normal_video_description": "视频显示一名年轻人走进学习室，这是学习室的典型行为。随后他们进行跑步或玩耍等体育活动，而这在学习室里并不是典型行为。",
+      "solution_for_person": "应提醒人员在学习室里走动时保持谨慎，并在进行体育活动时穿戴适当的安全装备。",
+      "solution_for_hazard_source": "垫子应放置在更合适的位置，例如指定的游戏区，以防止事故。",
+      "solution_to_prevent_recurrence": "应鼓励人员在指定的区域内进行体育活动，并穿戴适当的安全装备，以防止事故。"
+    },
+    "1": {
+      "risk_description": "一个人在有标记线和设备的房间里躺在地板上，可能会增加滑倒、绊倒或与家具或设备碰撞的风险，从而导致跌倒或受伤。",
+      "normal_video_description": "视频显示一个房间，地板上有标记线、桌子和设备。一个人进来后躺在地板上，随后其他人陆续在桌子旁工作。",
+      "solution_for_person": "除非是指定的安全区域，否则应避免在有标记线和设备的区域躺在地板上。",
+      "solution_for_hazard_source": "确保地板上没有绊倒危险，并且设备已妥善固定，以防碰撞。",
+      "solution_to_prevent_recurrence": "指定专门的躺卧区域，并确保这些区域没有设备和绊倒危险。"
+    },
+    "2": {
+      "risk_description": "",
+      "normal_video_description": "一个人走进房间，跳到中间的床垫上，翻滚，然后站起来。另一个人从右侧进入房间。",
+      "solution_for_person": "",
+      "solution_for_hazard_source": "",
+      "solution_to_prevent_recurrence": ""
+    },
+    "3": {
+      "risk_description": "年轻人倒在地板上并仰面滚倒，这对行动受限或正在康复的人可能会令人担忧。",
+      "normal_video_description": "",
+      "solution_for_person": "确保年轻人了解周围环境，以防止跌倒，并考虑在容易滑倒的情况下使用防滑垫。",
+      "solution_for_hazard_source": "清除地板上的任何障碍物或绊倒危险，以降低跌倒风险。",
+      "solution_to_prevent_recurrence": "实施安全措施，如改善照明、防滑地板，以及定期提醒在办公室走动时保持谨慎。"
+    },
+    "4": {
+      "risk_description": "该人正在进行一种高度不稳定的运动，可能导致严重跌倒和潜在伤害。视频中可见该人在地板上放置的木板上尝试保持平衡，风险贯穿整个视频。",
+      "normal_video_description": "",
+      "solution_for_person": "在进行不稳定性体育活动时，应提供适当的监督和帮助，以防止跌倒和受伤。",
+      "solution_for_hazard_source": "移除可能在活动区域增加跌倒风险的任何物体或障碍。",
+      "solution_to_prevent_recurrence": "提供关于不稳定体育活动安全做法的培训和指导，以降低事故发生的可能性。"
+    }
+  }
+}

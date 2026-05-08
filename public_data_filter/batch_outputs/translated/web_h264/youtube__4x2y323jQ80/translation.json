@@ -1,0 +1,40 @@
+{
+  "video_key": "web_h264/youtube__4x2y323jQ80",
+  "translations": {
+    "0": {
+      "risk_description": "孩子正在爬梯子去够天花板，这是一个潜在的坠落危险。",
+      "normal_video_description": "",
+      "solution_for_person": "护理人员应该监督孩子，确保他们不会在无人监督的情况下爬梯子。",
+      "solution_for_hazard_source": "应该将梯子从厨房移除，以防止孩子接触到它。",
+      "solution_to_prevent_recurrence": "护理人员应该教育孩子爬高的危险性，并在所有时间监督他们。"
+    },
+    "1": {
+      "risk_description": "孩子在没有适当监督的情况下爬梯子，这存在坠落和受伤的风险。",
+      "normal_video_description": "可以看到一个孩子在爬固定在建筑物上的梯子，旁边的成年人正在试图帮助。",
+      "solution_for_person": "当孩子在梯子附近或在上面时，确保有成年人持续监督。",
+      "solution_for_hazard_source": "不使用时，移除或固定梯子以防止无人监督的接触。",
+      "solution_to_prevent_recurrence": "在梯子区域周围安装安全屏障，并教育孩子关于攀爬不安全结构的危险。"
+    },
+    "2": {
+      "risk_description": "看到一个孩子正在爬靠墙放置的高大、不稳定的木梯。孩子失去平衡从高处坠落，掉进附近的敞口窨井或排水沟，这是一个严重的坠落危险。",
+      "normal_video_description": "",
+      "solution_for_person": "成年人应该立即干预，阻止孩子爬梯子，并确保孩子安全地离开危险区域。",
+      "solution_for_hazard_source": "应该固定或移除梯子，并覆盖敞口的窨井/排水沟以防止进入。",
+      "solution_to_prevent_recurrence": "在敞口坑周围安装安全屏障，确保梯子只在成年人监督下使用。"
+    },
+    "3": {
+      "risk_description": "孩子在建筑物附近爬梯子，如果梯子不稳定或孩子失去平衡，就有坠落的风险。",
+      "normal_video_description": "",
+      "solution_for_person": "确保孩子在爬梯子时受到密切监督，并教育他们保持平衡和牢固抓住梯子。",
+      "solution_for_hazard_source": "将梯子固定在稳定表面上，或使用专为儿童设计的稳定梯子。",
+      "solution_to_prevent_recurrence": "安装安全栏杆或屏障以防止无人监督的攀爬，并为儿童提供稳定的攀爬设施。"
+    },
+    "4": {
+      "risk_description": "视频显示一个孩子在阳台爬梯子，这有坠落和潜在受伤的风险。孩子在离地面很高的地方，增加了潜在后果的严重性。",
+      "normal_video_description": "",
+      "solution_for_person": "确保孩子在爬梯子时有成年人监督以防止坠落。",
+      "solution_for_hazard_source": "移除梯子上任何可用作额外踏步或脚支撑的物体，以减少滑倒的风险。",
+      "solution_to_prevent_recurrence": "在阳台周围安装栏杆或护栏以防止意外坠落。"
+    }
+  }
+}

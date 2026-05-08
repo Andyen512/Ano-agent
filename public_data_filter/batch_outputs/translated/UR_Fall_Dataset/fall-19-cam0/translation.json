@@ -1,0 +1,40 @@
+{
+  "video_key": "UR_Fall_Dataset/fall-19-cam0",
+  "translations": {
+    "0": {
+      "risk_description": "这位年轻人没有注意到周围环境，有绊倒或被椅子绊倒的风险。",
+      "normal_video_description": "这位年轻人正在书房里走动，但突然被椅子绊倒摔倒了。",
+      "solution_for_person": "应该提醒这位年轻人多注意周围环境，在书房走动时慢慢来。",
+      "solution_for_hazard_source": "椅子应该移到一个更安全的位置，以防止它成为绊倒的危险物。",
+      "solution_to_prevent_recurrence": "应该鼓励这位年轻人多注意周围环境，并定期休息和伸展双腿。"
+    },
+    "1": {
+      "risk_description": "可以看到一个孩子在有办公椅和桌子的房间里爬行，这可能导致摔倒或与家具碰撞。",
+      "normal_video_description": "视频显示一个孩子在有办公椅和桌子的房间里爬行。",
+      "solution_for_person": "密切监督孩子，防止摔倒或与家具碰撞。",
+      "solution_for_hazard_source": "确保办公椅和其他家具的摆放尽量减少绊倒危险。",
+      "solution_to_prevent_recurrence": "保持该区域畅通无障碍，并在孩子玩耍时进行监督。"
+    },
+    "2": {
+      "risk_description": "此人在移动时失去平衡摔倒在地，表明其稳定性下降，可能导致受伤。",
+      "normal_video_description": "",
+      "solution_for_person": "此人应立即起身检查是否有受伤。如果疼痛或不适持续存在，应寻求医疗帮助。",
+      "solution_for_hazard_source": "确保地板上没有障碍物，并确保此人穿着合适的鞋子以防止滑倒。",
+      "solution_to_prevent_recurrence": "鼓励此人在移动时更加小心并保持平衡。如果地板容易打滑，可考虑安装防滑垫。"
+    },
+    "3": {
+      "risk_description": "视频中的年轻人似乎被绊倒并摔倒，如果他们行动不便或正在康复，可能会造成受伤风险。",
+      "normal_video_description": "",
+      "solution_for_person": "确保此人了解周围环境，避免绊倒危险。",
+      "solution_for_hazard_source": "清除或固定办公环境中的绊倒危险物。",
+      "solution_to_prevent_recurrence": "改善照明并保持通道畅通，以减少绊倒的可能性。"
+    },
+    "4": {
+      "risk_description": "可以看到孩子走路不稳然后摔倒在地，这可能导致严重伤害。摔倒似乎是由于孩子协调性或平衡性不足造成的。",
+      "normal_video_description": "视频显示一个孩子走进办公空间然后摔倒在地。",
+      "solution_for_person": "确保孩子受到监督，如果他们看起来站不稳或有摔倒风险，应提供帮助。",
+      "solution_for_hazard_source": "",
+      "solution_to_prevent_recurrence": "教孩子正确的走路技巧，并确保该区域没有可能导致绊倒或摔倒的障碍物。"
+    }
+  }
+}

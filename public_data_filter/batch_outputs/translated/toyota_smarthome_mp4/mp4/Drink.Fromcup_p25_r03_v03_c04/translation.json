@@ -1,0 +1,40 @@
+{
+  "video_key": "toyota_smarthome_mp4/mp4/Drink.Fromcup_p25_r03_v03_c04",
+  "translations": {
+    "0": {
+      "risk_description": "这位老年人坐在沙发边缘，这不是安全的姿势。他们还在伸手去够茶几上的东西，这可能导致他们失去平衡而跌倒。",
+      "normal_video_description": "这位老年人坐在沙发边缘，伸手去够茶几上的东西。",
+      "solution_for_person": "护理人员应该帮助这位老年人坐回沙发上安全的姿势，并确保他们稳定后再允许他们去够茶几上的物品。",
+      "solution_for_hazard_source": "茶几应该重新摆放，靠近沙发，以减少这位老年人伸手的需要。",
+      "solution_to_prevent_recurrence": "护理人员应该监测这位老年人的动作，并在需要时提供帮助，以防止跌倒和其他安全隐患。"
+    },
+    "1": {
+      "risk_description": "",
+      "normal_video_description": "一位老年人坐在客厅的绿色组合沙发上，调整姿势伸手去够白色茶几上的遥控器。房间光线充足，装饰现代，摆放着植物。",
+      "solution_for_person": "",
+      "solution_for_hazard_source": "",
+      "solution_to_prevent_recurrence": ""
+    },
+    "2": {
+      "risk_description": "",
+      "normal_video_description": "一位老年人坐在客厅的绿色组合沙发上，端着杯子喝水，与旁边茶几上的物品互动。环境看起来平静安全，没有可见的危险或危险行为。",
+      "solution_for_person": "",
+      "solution_for_hazard_source": "",
+      "solution_to_prevent_recurrence": ""
+    },
+    "3": {
+      "risk_description": "这位老年人坐在沙发边缘，如果失去平衡可能会摔倒。由于他们可能行动受限，这会带来受伤风险。",
+      "normal_video_description": "",
+      "solution_for_person": "确保这位老年人坐得稳固且有支撑，可以使用坐垫或带扶手的椅子来防止跌倒。",
+      "solution_for_hazard_source": "移除沙发附近的障碍物，确保该区域畅通，以减少绊倒风险。",
+      "solution_to_prevent_recurrence": "在沙发边缘使用防滑垫或坐垫，保持客厅整洁无杂物，以增强稳定性和安全性。"
+    },
+    "4": {
+      "risk_description": "这位老年人由于在沙发上姿势不稳定，有跌倒风险。这可能导致严重伤害，尤其是考虑到他们的年龄。",
+      "normal_video_description": "",
+      "solution_for_person": "确保这位老年人坐得稳固，并在他们从沙发上站起时考虑提供支撑或帮助。",
+      "solution_for_hazard_source": "",
+      "solution_to_prevent_recurrence": "鼓励这位老年人在从沙发上站起时使用助行器或拐杖以保持稳定。"
+    }
+  }
+}

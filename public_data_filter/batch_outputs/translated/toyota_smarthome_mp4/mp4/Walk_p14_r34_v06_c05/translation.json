@@ -1,0 +1,40 @@
+{
+  "video_key": "toyota_smarthome_mp4/mp4/Walk_p14_r34_v06_c05",
+  "translations": {
+    "0": {
+      "risk_description": "",
+      "normal_video_description": "视频中显示一位年轻人站在客厅里，面向电视。该人似乎在看电视，偶尔会调整桌上的物品。客厅光线充足，配有绿色沙发、白色茶几以及电视柜上摆放的电视。房间里还有一些植物和灯。该人似乎在进行正常的活动，没有迹象表明存在任何风险或危险。",
+      "solution_for_person": "",
+      "solution_for_hazard_source": "",
+      "solution_to_prevent_recurrence": ""
+    },
+    "1": {
+      "risk_description": "",
+      "normal_video_description": "有一个人站在客厅里，面向正在播放内容的电视。该人轻微移动并弯腰去操作电视柜附近地板上的某物。客厅配备了沙发、茶几、植物和灯。",
+      "solution_for_person": "",
+      "solution_for_hazard_source": "",
+      "solution_to_prevent_recurrence": ""
+    },
+    "2": {
+      "risk_description": "",
+      "normal_video_description": "一位中年人站在客厅里，面向挂在墙上的电视。房间里有绿色沙发、白色扶手椅、茶几和落地灯。该人似乎在观看电视或与其互动，没有任何危险或异常行为的迹象。",
+      "solution_for_person": "",
+      "solution_for_hazard_source": "",
+      "solution_to_prevent_recurrence": ""
+    },
+    "3": {
+      "risk_description": "该人正弯腰去拿茶几上的东西，这可能会导致跌倒的风险，特别是当他们行动不便或平衡能力受限的情况下。",
+      "normal_video_description": "",
+      "solution_for_person": "确保该人站得稳，并在伸手去拿桌上的物品时考虑使用椅子提供支撑。",
+      "solution_for_hazard_source": "将常用的物品放在容易够到的高度，以减少弯腰和伸手的次数。",
+      "solution_to_prevent_recurrence": "将必需品放在容易够到的地方，并确保客厅布局有助于安全移动。"
+    },
+    "4": {
+      "risk_description": "",
+      "normal_video_description": "一名男子站在客厅里，面向正在播放节目的电视。他似乎在观看节目，偶尔弯腰从地板上捡起东西。",
+      "solution_for_person": "",
+      "solution_for_hazard_source": "",
+      "solution_to_prevent_recurrence": ""
+    }
+  }
+}

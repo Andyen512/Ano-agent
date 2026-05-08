@@ -1,0 +1,40 @@
+{
+  "video_key": "web_h264/youtube__hCuu5fh8wnY",
+  "translations": {
+    "0": {
+      "risk_description": "视频中的年轻人正在跑步并摔倒在地，这可能导致受伤。背景中的火灾也增加了潜在伤害的风险。",
+      "normal_video_description": "",
+      "solution_for_person": "应检查此人是否有任何受伤，并在必要时提供急救。还应建议他们在院子里跑步时更加小心，以防止摔倒。",
+      "solution_for_hazard_source": "背景中的火灾应尽快扑灭，以防止进一步的损坏或伤害风险。",
+      "solution_to_prevent_recurrence": "应提醒此人在院子里跑步时要更加小心，并注意周围环境以防止摔倒。应定期检查和维护火源，以防止再次发生。"
+    },
+    "1": {
+      "risk_description": "一个人正躺在火堆附近的地面上，可能有摔倒或被烧伤的风险。消防员和警察在场，表明这是一个紧急情况。",
+      "normal_video_description": "视频显示消防员在夜间应对房屋火灾，包括火灾现场、现场的急救人员以及新闻主播讨论该事件。",
+      "solution_for_person": "确保此人被安全控制并远离火源，以防止烧伤或进一步受伤。",
+      "solution_for_hazard_source": "消防员应保持安全距离并使用适当的防护装备来控制火灾并保护附近的人。",
+      "solution_to_prevent_recurrence": "急救人员应接受培训，以便在涉及火灾的危险情况中快速评估并保护个人。"
+    },
+    "2": {
+      "risk_description": "视频显示了一场肢体冲突，一个人被多人压制并被制服在地，表明局势明显升级为身体暴力并失去控制。",
+      "normal_video_description": "",
+      "solution_for_person": "涉及的各方应立即停止肢体冲突并分开，以防止进一步受伤。",
+      "solution_for_hazard_source": "执法人员或安保人员应介入以缓和局势并确保公共安全。",
+      "solution_to_prevent_recurrence": "实施冲突解决策略并提供心理健康支持可以帮助预防未来事件。"
+    },
+    "3": {
+      "risk_description": "视频显示一场大火，对近距离的任何人都构成严重的烧伤或吸入烟雾的风险，特别是可能难以快速撤离的弱势群体。",
+      "normal_video_description": "",
+      "solution_for_person": "与火保持安全距离，并遵循急救人员的疏散指示。",
+      "solution_for_hazard_source": "消防员应继续灭火，以降低对附近人员的风险。",
+      "solution_to_prevent_recurrence": "在夜间火灾期间确保适当的监督和快速获得急救服务。"
+    },
+    "4": {
+      "risk_description": "消防员在搬运重物时有摔倒或失去平衡的风险，这可能导致严重伤害。",
+      "normal_video_description": "视频显示一名消防员在火灾事件中搬运重物。",
+      "solution_for_person": "确保消防员有适当的支撑和培训以安全搬运重物。",
+      "solution_for_hazard_source": "提供额外的支撑或设备以帮助均匀分布重量。",
+      "solution_to_prevent_recurrence": "定期检查和维护消防装备和设备，确保它们处于良好状态。"
+    }
+  }
+}

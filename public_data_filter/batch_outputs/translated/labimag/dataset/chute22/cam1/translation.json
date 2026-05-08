@@ -1,0 +1,40 @@
+{
+  "video_key": "labimag/dataset/chute22/cam1",
+  "translations": {
+    "0": {
+      "risk_description": "看到年轻人朝沙发跑去然后倒在上面，如果他们撞到头部或身体其他部位在硬地板上，可能会造成伤害。",
+      "normal_video_description": "",
+      "solution_for_person": "此人在客厅走动时应更加小心，以避免摔倒或绊倒。",
+      "solution_for_hazard_source": "沙发可以移到一个更安全的位置，或者在前面放一块地毯以防止摔倒。",
+      "solution_to_prevent_recurrence": "应提醒此人在客厅走动时更加小心，并在靠近沙发时保持谨慎。"
+    },
+    "1": {
+      "risk_description": "此人趴在地上，这可能导致起身困难，如果没有人及时帮助，可能会造成潜在伤害。",
+      "normal_video_description": "有人进入房间，坐在椅子上，然后趴在地上。",
+      "solution_for_person": "确保此人知道如何从趴在地上的姿势安全地起身。",
+      "solution_for_hazard_source": "",
+      "solution_to_prevent_recurrence": ""
+    },
+    "2": {
+      "risk_description": "一名年轻人试图坐在一个低矮柔软的扶手椅上，但失去平衡，向后倒在地板上。这个动作明显表现出稳定性丧失导致摔倒，超过了正常活动的阈值。",
+      "normal_video_description": "",
+      "solution_for_person": "此人应立即起身并检查是否有受伤。",
+      "solution_for_hazard_source": "确保家具稳固，适合使用者的体型和体重。",
+      "solution_to_prevent_recurrence": "选择能为预期活动提供足够支撑和稳定性的家具。"
+    },
+    "3": {
+      "risk_description": "穿红衬衫的人向后从扶手椅上摔下来，这可能会造成受伤风险，如果他们撞到地板或其他物品。",
+      "normal_video_description": "",
+      "solution_for_person": "确保此人小心地坐下，并在移动时保持平衡。",
+      "solution_for_hazard_source": "移除扶手椅附近的任何障碍物以防止绊倒。",
+      "solution_to_prevent_recurrence": "提供稳定的座位选择，并确保该区域没有危险物品。"
+    },
+    "4": {
+      "risk_description": "视频中的人通过试图坐在放在地板上的气垫上而从事冒险行为，这可能导致摔倒和潜在伤害。气垫不是为坐着或站着设计的，而且没有提供支撑或稳定性。",
+      "normal_video_description": "视频显示一个人进入一个房间，地板上有一个气垫，试图坐在上面，然后摔下来。",
+      "solution_for_person": "避免坐在或站在气垫上；将其用于睡觉或休息的预期目的。",
+      "solution_for_hazard_source": "",
+      "solution_to_prevent_recurrence": "将气垫从地板上移开，按预期目的使用，或者如果用于坐着或站着，则提供适当的支撑和稳定性。"
+    }
+  }
+}

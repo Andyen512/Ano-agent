@@ -1,0 +1,40 @@
+{
+  "video_key": "SmartHome-Bench/videos/smartbench_0395",
+  "translations": {
+    "0": {
+      "risk_description": "",
+      "normal_video_description": "视频显示一名年轻成年人夜间站在阳台上，俯瞰城市景观。此人看起来正在欣赏风景，没有从事任何危险行为。阳台照明良好，栏杆坚固，场景中没有可见的危险。",
+      "solution_for_person": "",
+      "solution_for_hazard_source": "",
+      "solution_to_prevent_recurrence": ""
+    },
+    "1": {
+      "risk_description": "一只大型野生动物，可能是山狮，站在阳台栏杆上，存在坠落或失去平衡的风险，可能导致受伤。",
+      "normal_video_description": "一只野生动物在夜间接近并爬上阳台栏杆，背景中可见城市灯光。",
+      "solution_for_person": "",
+      "solution_for_hazard_source": "",
+      "solution_to_prevent_recurrence": "安装运动感应驱赶装置或加固阳台栏杆，以防止野生动物进入。"
+    },
+    "2": {
+      "risk_description": "一只大型野生动物爬上住宅阳台栏杆并沿顶部边缘行走，造成高坠落风险或结构损坏。这一行为明显超出正常活动范围，对房产和潜在居住者构成直接安全威胁。",
+      "normal_video_description": "",
+      "solution_for_person": "",
+      "solution_for_hazard_source": "",
+      "solution_to_prevent_recurrence": ""
+    },
+    "3": {
+      "risk_description": "狗正在攀爬狭窄的栏杆，如果失去平衡则有坠落风险。",
+      "normal_video_description": "",
+      "solution_for_person": "确保宠物在阳台上时有人监督，以防坠落。",
+      "solution_for_hazard_source": "安装额外的安全屏障或栏杆，防止宠物攀爬。",
+      "solution_to_prevent_recurrence": "采取宠物防护措施，如在阳台上安装安全围栏或屏障。"
+    },
+    "4": {
+      "risk_description": "猫正在阳台的狭窄边缘上行走，这有坠落并可能受伤的风险。这个边缘不是为行走设计的，缺乏安全设施。",
+      "normal_video_description": "视频显示夜间阳台的景象，有一只猫在狭窄的边缘上行走。",
+      "solution_for_person": "",
+      "solution_for_hazard_source": "在边缘处安装栏杆或屏障，防止猫意外坠落。",
+      "solution_to_prevent_recurrence": "定期检查阳台结构，确保其稳定安全，防止事故发生。"
+    }
+  }
+}

@@ -1,0 +1,40 @@
+{
+  "video_key": "SmartHome-Bench/videos/smartbench_0811",
+  "translations": {
+    "0": {
+      "risk_description": "这个年轻人被看到在阳台上跑步和跳跃，这是不安全的活动。跌倒和受伤的风险很高。",
+      "normal_video_description": "视频显示一个年轻人在晚上的阳台上跑步和跳跃，这是不安全的活动。",
+      "solution_for_person": "应该建议这个人避免在阳台上跑步和跳跃，以防止跌倒和受伤。",
+      "solution_for_hazard_source": "应该通过添加栏杆或其他安全措施来使阳台更安全，以防止跌倒。",
+      "solution_to_prevent_recurrence": "应该教育这个人关于在阳台上跑步和跳跃的危险，并鼓励他使用更安全的移动方式。"
+    },
+    "1": {
+      "risk_description": "两只熊在门廊灯和喂鸟器附近进行激烈互动，有可能发生碰撞或相互挤压伤害。",
+      "normal_video_description": "监控摄像头在晚上捕捉到后院里的两只熊，在门廊灯和喂鸟器附近进行攻击性行为。",
+      "solution_for_person": "",
+      "solution_for_hazard_source": "",
+      "solution_to_prevent_recurrence": "在院子周围安装防熊围栏或威慑装置，以防止野生动物进入。"
+    },
+    "2": {
+      "risk_description": "",
+      "normal_video_description": "视频显示一只熊在晚上爬杆子去拿后院里的喂鸟器。熊成功拿到喂鸟器后离开了，这是野生动物寻找食物的常见自然行为。",
+      "solution_for_person": "",
+      "solution_for_hazard_source": "",
+      "solution_to_prevent_recurrence": ""
+    },
+    "3": {
+      "risk_description": "视频显示一只狗从阳台上跳下来，如果宠物或行动不便的人尝试类似动作，可能会造成跌倒风险。",
+      "normal_video_description": "",
+      "solution_for_person": "确保宠物在边缘附近时有人监督，并考虑安装安全屏障。",
+      "solution_for_hazard_source": "在阳台上安装安全栏杆或屏障，以防止跌倒。",
+      "solution_to_prevent_recurrence": "使用运动传感器或摄像头监控并在动物接近边缘时发出警报。"
+    },
+    "4": {
+      "risk_description": "这个人正在一个狭窄的、有明显落差的高处表面上行走，如果失去平衡可能会导致跌倒。",
+      "normal_video_description": "",
+      "solution_for_person": "确保这个人穿着具有良好抓地力的合适鞋子，并考虑在这样的表面上行走时使用扶手或其他安全措施。",
+      "solution_for_hazard_source": "在阳台边缘安装护栏或屏障，以防止跌倒。",
+      "solution_to_prevent_recurrence": "定期检查阳台的结构和维护，以确保其使用安全。"
+    }
+  }
+}

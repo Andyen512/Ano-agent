@@ -1,0 +1,40 @@
+{
+  "video_key": "labimag/dataset/chute19/cam4",
+  "translations": {
+    "0": {
+      "risk_description": "视频中的年轻人走过办公室，然后突然摔倒，头部撞到地板。这种行为明显偏离了正常的行走日常活动，应被视为风险异常。",
+      "normal_video_description": "",
+      "solution_for_person": "应检查该人是否有受伤，并在必要时提供急救。还应建议其在办公室行走时更加小心，以防止今后再次跌倒。",
+      "solution_for_hazard_source": "应检查办公室地板是否存在绊倒危险，例如电线或不平整表面，并进行处理，以防止今后跌倒。",
+      "solution_to_prevent_recurrence": "应提醒该人在办公室行走时更加小心，遇到危险时要向办公室管理人员报告。应定期进行安全检查，确保环境对所有员工安全。"
+    },
+    "1": {
+      "risk_description": "穿红色衬衫的人走过瓷砖地板时突然跌倒，可能是由于绊倒或失去平衡。这种行为有跌倒导致受伤的风险。",
+      "normal_video_description": "视频中显示一间办公室或学习区，里面有桌子、电脑和一张沙发。穿红色衬衫的人走过房间时绊倒，跌倒在沙发附近的地板上。其他人在场并对该跌倒作出反应。",
+      "solution_for_person": "应建议该人行走时更加小心，避免突然改变方向或速度，以防跌倒。",
+      "solution_for_hazard_source": "",
+      "solution_to_prevent_recurrence": "在地板上安装防滑垫并确保充足照明，以减少绊倒危险。"
+    },
+    "2": {
+      "risk_description": "一个年轻成年人跑过房间，失去平衡，跌倒在地板上。该动作涉及明显的失稳导致跌倒。",
+      "normal_video_description": "",
+      "solution_for_person": "应帮助该人站起并检查是否有受伤。",
+      "solution_for_hazard_source": "确保地面没有障碍物并提供更好的照明。",
+      "solution_to_prevent_recurrence": "鼓励更安全的行动模式，并考虑在高流量区域安装安全垫或护栏。"
+    },
+    "3": {
+      "risk_description": "穿红色衬衫的人跌倒在地板上，可能导致受伤风险，尤其是对行动不便或平衡有问题的人。",
+      "normal_video_description": "",
+      "solution_for_person": "确保该人注意周围环境，以避免绊倒和跌倒。",
+      "solution_for_hazard_source": "清除通道中的障碍物或绊倒危险。",
+      "solution_to_prevent_recurrence": "实施安全措施，例如更好的照明和清晰的通道，以降低跌倒风险。"
+    },
+    "4": {
+      "risk_description": "穿红色衬衫的人倒在地板上，可能表示跌倒或失去平衡。这种情况存在因与物体或地板碰撞而导致受伤的风险。",
+      "normal_video_description": "在办公室环境中，人们四处走动，其中一人穿红色衬衫倒在地板上，暗示可能发生了跌倒或事故。",
+      "solution_for_person": "确保该人没有受伤，如有需要提供帮助。检查是否有受伤，并在需要时呼叫医疗救助。",
+      "solution_for_hazard_source": "未发现异常；但应确保该区域没有绊倒危险，以防止今后跌倒。",
+      "solution_to_prevent_recurrence": "实施安全措施，例如防滑垫、适当的照明以及对办公室环境进行定期维护，以降低跌倒风险。"
+    }
+  }
+}

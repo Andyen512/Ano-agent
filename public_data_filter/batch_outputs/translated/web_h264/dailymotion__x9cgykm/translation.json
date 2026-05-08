@@ -1,0 +1,40 @@
+{
+  "video_key": "web_h264/dailymotion__x9cgykm",
+  "translations": {
+    "0": {
+      "risk_description": "画面中看到这位年轻人手里拿着饮料，然后突然摔倒在地，可能是因为身体不稳或失去平衡。这种行为与在门廊站立或行走的日常活动不同。",
+      "normal_video_description": "",
+      "solution_for_person": "确保该年轻人接受检查，确认是否有受伤，并在需要时提供帮助。同时，考虑提供支撑或扶手，以帮助防止以后跌倒。",
+      "solution_for_hazard_source": "未发现具体的危险来源，但请确保门廊区域没有绊倒的隐患。",
+      "solution_to_prevent_recurrence": "鼓励该年轻人更加注意周围环境，必要时使用扶手或其他支撑。定期检查门廊区域是否存在潜在危险，并及时处理。"
+    },
+    "1": {
+      "risk_description": "这个人绊倒并摔倒在地，可能导致受伤。",
+      "normal_video_description": "一个人在夜间走出车棚，绊倒并摔倒在地。",
+      "solution_for_person": "行走时要更加小心，特别是在光线不足的情况下。",
+      "solution_for_hazard_source": "",
+      "solution_to_prevent_recurrence": "穿合适的鞋子，并确保该区域光线充足。"
+    },
+    "2": {
+      "risk_description": "一个人在夜间行走于车道时失去平衡并摔倒在地上，表明这是一次明显的失衡事件，超出了正常活动的范围。",
+      "normal_video_description": "",
+      "solution_for_person": "这个人应小心地起身，检查是否受伤，并避免在没有适当照明的情况下在黑暗或不平坦的地面上行走。",
+      "solution_for_hazard_source": "改善车道区域的照明，提高能见度，降低绊倒或跌倒的风险。",
+      "solution_to_prevent_recurrence": "在车道安装更好的照明或反光标志，以提升夜间活动的安全性。"
+    },
+    "3": {
+      "risk_description": "画面中的人在离开车库时似乎绊倒并摔倒，这可能会造成受伤风险，特别是对行动不便或平衡有问题的人。",
+      "normal_video_description": "",
+      "solution_for_person": "确保该区域光线充足且没有障碍物，以降低绊倒的风险。",
+      "solution_for_hazard_source": "清除车库入口处潜在的绊倒危险。",
+      "solution_to_prevent_recurrence": "在入口处安装额外照明或使用防滑垫，以提高能见度和稳定性。"
+    },
+    "4": {
+      "risk_description": "",
+      "normal_video_description": "视频显示一个人在夜间站在车库里，手里拿着一个红色物品并四处走动。画面中没有明确的风险或潜在危险的迹象。",
+      "solution_for_person": "",
+      "solution_for_hazard_source": "",
+      "solution_to_prevent_recurrence": ""
+    }
+  }
+}

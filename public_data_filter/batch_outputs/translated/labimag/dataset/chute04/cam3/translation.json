@@ -1,0 +1,40 @@
+{
+  "video_key": "labimag/dataset/chute04/cam3",
+  "translations": {
+    "0": {
+      "risk_description": "这名年轻人躺在床垫旁边的地板上，这是一种不寻常且有潜在风险的行为。如果不小心，可能会导致跌倒或受伤。",
+      "normal_video_description": "视频显示一个人在书房里，与放在地板上的床垫互动。该人站着、走着，并躺在床垫旁边的地板上。房间光线充足，架子和桌子上有各种物品。",
+      "solution_for_person": "应鼓励此人小心地坐起来或站起来，避免躺在床垫旁边的地板上。",
+      "solution_for_hazard_source": "此场景中没有特定危险源，但此人应注意周围环境，避免跌倒或受伤。",
+      "solution_to_prevent_recurrence": "应教育此人正确的姿势和动作技巧，以防止在接触床垫或书房中任何其他家具时发生跌倒或受伤。"
+    },
+    "1": {
+      "risk_description": "此人进行后空翻落在地板上的床垫上，可能会失去控制或落地不当，增加跌倒或不稳定相关受伤的风险。",
+      "normal_video_description": "书房里有两个人。一个人在地上的床垫上进行后空翻，另一个人在一旁观看。",
+      "solution_for_person": "确保在此类活动中提供适当的监督和指导，以防止落地不当。",
+      "solution_for_hazard_source": "",
+      "solution_to_prevent_recurrence": "在更安全的环境中，在有适当垫子和监督的情况下进行类似活动。"
+    },
+    "2": {
+      "risk_description": "一个人试图跳到放在地板上的床垫上，但失去平衡重重摔到地上，表明跌倒有明显的受伤风险。",
+      "normal_video_description": "",
+      "solution_for_person": "此人应避免跳到升高或不稳定的表面上，并应使用适当的设备进行体育活动以防止跌倒。",
+      "solution_for_hazard_source": "移除或固定任何可能被用于跳跃或攀爬的物体在人们行走或活动的区域。",
+      "solution_to_prevent_recurrence": "在可能发生体育活动的区域安装安全垫，并确保环境没有可能导致绊倒或跌倒的障碍物。"
+    },
+    "3": {
+      "risk_description": "此人躺在床垫上，然后滚到地板上，如果他们在滚动过程中无法正确保护自己，可能会造成受伤风险。",
+      "normal_video_description": "",
+      "solution_for_person": "确保此人了解周围环境，能够安全滚动而不受伤。",
+      "solution_for_hazard_source": "移除地板上任何尖锐或坚硬的物体以减少受伤风险。",
+      "solution_to_prevent_recurrence": "练习安全的滚动技巧，并确保环境没有危险物。"
+    },
+    "4": {
+      "risk_description": "此人躺在地板上的床垫上，如果他们移动或滚下床垫，可能会导致跌倒或不稳定，从而造成受伤。",
+      "normal_video_description": "看到一个人走进办公室房间，躺在放在地板上的床垫上。",
+      "solution_for_person": "确保床垫放置在稳定安全的位置，以防止任何跌倒或不稳定的风险。",
+      "solution_for_hazard_source": "",
+      "solution_to_prevent_recurrence": "将床垫放在坚固平整的表面上，以尽量减少跌倒或不稳定的风险。"
+    }
+  }
+}

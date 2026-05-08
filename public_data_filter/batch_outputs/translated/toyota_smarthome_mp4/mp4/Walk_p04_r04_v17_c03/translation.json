@@ -1,0 +1,40 @@
+{
+  "video_key": "toyota_smarthome_mp4/mp4/Walk_p04_r04_v17_c03",
+  "translations": {
+    "0": {
+      "risk_description": "老年人弯腰打开抽屉，如果失去平衡或抽屉不稳，可能会导致跌倒。",
+      "normal_video_description": "",
+      "solution_for_person": "护理人员应帮助老年人打开抽屉，以确保他们的安全。",
+      "solution_for_hazard_source": "应检查抽屉的稳定性，并移除任何潜在的危险。",
+      "solution_to_prevent_recurrence": "应鼓励老年人在厨房移动时使用助行器，如拐杖或助行架，以保持平衡和稳定。"
+    },
+    "1": {
+      "risk_description": "",
+      "normal_video_description": "老年人出现在厨房，绕着厨房走动，打开抽屉，取出物品，然后在水槽洗手。",
+      "solution_for_person": "",
+      "solution_for_hazard_source": "",
+      "solution_to_prevent_recurrence": ""
+    },
+    "2": {
+      "risk_description": "",
+      "normal_video_description": "老年人在厨房里走到抽屉前，打开抽屉，取出物品，然后走向水槽。该行为属于正常的日常家务活动。",
+      "solution_for_person": "",
+      "solution_for_hazard_source": "",
+      "solution_to_prevent_recurrence": ""
+    },
+    "3": {
+      "risk_description": "老年人弯腰去拿低柜中的物品，这可能增加跌倒风险，因为可能出现不稳或保持平衡困难。",
+      "normal_video_description": "",
+      "solution_for_person": "确保老年人使用踏脚凳来够到低柜，以保持稳定并降低跌倒风险。",
+      "solution_for_hazard_source": "将低柜安装在不需要老年人过度弯腰或伸手的高度。",
+      "solution_to_prevent_recurrence": "使用符合人体工程学的辅助工具（如踏脚凳），并确保厨房布局能够安全移动和便于老年人取物。"
+    },
+    "4": {
+      "risk_description": "孩子站在厨房的椅子上，这存在跌倒受伤的风险。椅子可能不够稳固，无法承受孩子的重量。",
+      "normal_video_description": "孩子在厨房站在椅子上，然后爬下来打开抽屉。",
+      "solution_for_person": "将椅子从厨房区域移走，以防止孩子爬上椅子。",
+      "solution_for_hazard_source": "",
+      "solution_to_prevent_recurrence": "确保儿童受到监督，且无法接触到不稳定的家具或可能导致跌倒的物品。"
+    }
+  }
+}

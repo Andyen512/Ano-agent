@@ -1,0 +1,40 @@
+{
+  "video_key": "SmartHome-Bench/videos/smartbench_0617",
+  "translations": {
+    "0": {
+      "risk_description": "",
+      "normal_video_description": "一个年轻人在夜晚的院子里散步，然后一只熊出现并在院子里走动。",
+      "solution_for_person": "",
+      "solution_for_hazard_source": "",
+      "solution_to_prevent_recurrence": ""
+    },
+    "1": {
+      "risk_description": "一只大型黑熊在夜晚出现在住宅院子里，靠近并检查棚屋附近和户外家具的区域。熊的存在对附近的任何人或宠物都构成碰撞或碾压伤害的风险。",
+      "normal_video_description": "一只黑熊在夜晚的住宅院子里被看到，正在检查棚屋附近和户外家具的区域。熊四处走动，嗅着地面，在安保摄像头的灯光下探索周围环境。",
+      "solution_for_person": "如果已知该地区熊很活跃，应避免在夜晚待在院子里。",
+      "solution_for_hazard_source": "固定好室外的食物来源并清除吸引物，以减少熊的遭遇。",
+      "solution_to_prevent_recurrence": "在房产周围安装防熊围栏，并使用动作感应灯来阻止熊。"
+    },
+    "2": {
+      "risk_description": "",
+      "normal_video_description": "一只黑熊在夜晚走上露台，靠近一把白色椅子，嗅了嗅，然后走开消失在黑暗中。熊的行为符合自然探索，不会对财产或其居住者构成风险。",
+      "solution_for_person": "",
+      "solution_for_hazard_source": "",
+      "solution_to_prevent_recurrence": ""
+    },
+    "3": {
+      "risk_description": "一只熊在院子里接近并与椅子互动，对附近的人构成碰撞或碾压伤害的风险，尤其是儿童或宠物等弱势群体。",
+      "normal_video_description": "",
+      "solution_for_person": "确保儿童、宠物或弱势个体留在室内，或与熊出现的区域保持安全距离。",
+      "solution_for_hazard_source": "固定好户外家具和物品，防止它们被野生动物接触。",
+      "solution_to_prevent_recurrence": "安装动作感应灯或警报器，以阻止野生动物在夜晚进入院子。"
+    },
+    "4": {
+      "risk_description": "熊在阳台上，如果它失去平衡或试图跳下，可能会导致坠落风险。这可能导致严重伤害甚至死亡。",
+      "normal_video_description": "",
+      "solution_for_person": "确保阳台有安全的护栏，且儿童在阳台附近时始终受到监督。",
+      "solution_for_hazard_source": "从阳台上清除任何潜在危险物品，如可能被撞倒的花盆或家具。",
+      "solution_to_prevent_recurrence": "在阳台上安装儿童安全门或屏障，防止儿童在无人监督的情况下进入。"
+    }
+  }
+}

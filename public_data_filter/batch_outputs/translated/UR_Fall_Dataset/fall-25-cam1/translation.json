@@ -1,0 +1,40 @@
+{
+  "video_key": "UR_Fall_Dataset/fall-25-cam1",
+  "translations": {
+    "0": {
+      "risk_description": "这位年轻人在客厅里做后空翻，这是一项高风险活动，可能导致跌倒和受伤。",
+      "normal_video_description": "",
+      "solution_for_person": "应建议该人在安全可控的环境中进行此类活动，例如健身房或蹦床公园。",
+      "solution_for_hazard_source": "客厅应清除任何可能在跌倒时导致受伤的物品或家具。",
+      "solution_to_prevent_recurrence": "应鼓励此人从事更安全的体育活动，如瑜伽或举重，避免在没有适当监督和安全设备的情况下进行危险特技。"
+    },
+    "1": {
+      "risk_description": "此人趴在地板上，存在跌倒或无法快速站起的风险，可能导致受伤。",
+      "normal_video_description": "可以看到一人趴在铺有地毯的地板上，背景中有椅子和桌子，似乎是书房或办公区域。",
+      "solution_for_person": "该人应避免趴在地板上，而应坐在或站在安全的位置。",
+      "solution_for_hazard_source": "",
+      "solution_to_prevent_recurrence": "确保此人了解趴在硬表面上可能导致的风险，并鼓励其保持更安全的姿势。"
+    },
+    "2": {
+      "risk_description": "",
+      "normal_video_description": "一人进入办公空间后在地板上做前滚，从站立姿势变为平躺。该动作看起来是有意的体育活动或锻炼，而非意外跌倒。",
+      "solution_for_person": "",
+      "solution_for_hazard_source": "",
+      "solution_to_prevent_recurrence": ""
+    },
+    "3": {
+      "risk_description": "可以看到一个孩子跌倒在地板上，可能导致受伤，特别是如果落地姿势不稳。",
+      "normal_video_description": "",
+      "solution_for_person": "确保对儿童进行密切监督，以防止跌倒。",
+      "solution_for_hazard_source": "清除地板上的任何障碍物或绊倒危险物。",
+      "solution_to_prevent_recurrence": "安装安全门或护栏，以阻止进入高风险区域。"
+    },
+    "4": {
+      "risk_description": "可以看到此人从椅子上向后跌倒，由于高度和可能的撞击地板，可能导致严重伤害。",
+      "normal_video_description": "",
+      "solution_for_person": "确保此人坐得稳固，没有从椅子上跌倒的风险。",
+      "solution_for_hazard_source": "清除椅子周围可能造成绊倒或不稳定的物品。",
+      "solution_to_prevent_recurrence": "提供适当的坐姿和站姿安全培训，以防止跌倒。"
+    }
+  }
+}

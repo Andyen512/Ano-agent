@@ -1,0 +1,40 @@
+{
+  "video_key": "SmartHome-Bench/videos/smartbench_0912",
+  "translations": {
+    "0": {
+      "risk_description": "",
+      "normal_video_description": "一只狗正在与一辆银色轿车和一辆停在院子里的白色皮卡车互动。狗似乎在嗅或调查车辆周围的区域。",
+      "solution_for_person": "",
+      "solution_for_hazard_source": "",
+      "solution_to_prevent_recurrence": ""
+    },
+    "1": {
+      "risk_description": "熊正在与住宅区的车辆互动，这构成了碰撞风险，或者如果车辆意外移动可能会被压伤。",
+      "normal_video_description": "在夜间，一辆熊被看到在车道上检查一辆银色轿车，然后检查一辆白色皮卡车。",
+      "solution_for_person": "",
+      "solution_for_hazard_source": "",
+      "solution_to_prevent_recurrence": ""
+    },
+    "2": {
+      "risk_description": "一只熊被看到在车道上与停放的车辆互动，先是抓挠一辆轿车，然后打开一辆皮卡车门。这种行为对车辆构成了明显的碰撞或压伤风险，对任何乘员或附近的人也有潜在危险。",
+      "normal_video_description": "",
+      "solution_for_person": "",
+      "solution_for_hazard_source": "",
+      "solution_to_prevent_recurrence": ""
+    },
+    "3": {
+      "risk_description": "狗站在汽车的驾驶座侧门上，如果车门意外打开可能会导致碰撞或压伤。",
+      "normal_video_description": "",
+      "solution_for_person": "确保车门安全锁上，并在使用车辆时考虑使用宠物隔栏或牵引绳。",
+      "solution_for_hazard_source": "安装宠物友好的门锁或使用宠物门，以防止狗接触车门。",
+      "solution_to_prevent_recurrence": "在无人看管时，使用车座椅或宠物隔栏让狗远离车门。"
+    },
+    "4": {
+      "risk_description": "",
+      "normal_video_description": "视频展示了一个夜间场景，院子里停着两辆车，一辆银色轿车和一辆白色皮卡车。一个人被看到在车辆之间行走，但场景中没有可见的风险或危险。",
+      "solution_for_person": "",
+      "solution_for_hazard_source": "",
+      "solution_to_prevent_recurrence": ""
+    }
+  }
+}

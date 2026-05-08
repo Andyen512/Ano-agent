@@ -1,0 +1,40 @@
+{
+  "video_key": "labimag/dataset/chute20/cam3",
+  "translations": {
+    "0": {
+      "risk_description": "视频中看到这位年轻人冲向椅子后倒在地上，这可能会导致受伤。摔倒可能是由于缺乏稳定性或突然的动作。",
+      "normal_video_description": "",
+      "solution_for_person": "应帮助该人从地上站起，并检查是否有受伤。还应建议他在房间内移动时更加小心，以防止再次跌倒。",
+      "solution_for_hazard_source": "应检查椅子和地面是否存在可能导致摔倒的潜在危险。务必确保地面清洁且无障碍物。",
+      "solution_to_prevent_recurrence": "应建议这位年轻人在房间里缓慢而小心地走动，并注意潜在的危害。如有需要，还应鼓励他们使用助行器，如拐杖或助行架。"
+    },
+    "1": {
+      "risk_description": "穿红色衬衫的人俯卧在地上，若不及时处理，可能导致呼吸困难或活动受限。",
+      "normal_video_description": "视频显示一间办公室/书房，里面有各种家具和设备。穿红色衬衫的人搬动了一张棕色扶手椅，然后俯卧在地上。另一位穿深色衣服的人走向桌子。",
+      "solution_for_person": "应将穿红色衬衫的人移至更舒适、更安全的位置，以避免可能的窒息或受伤。",
+      "solution_for_hazard_source": "",
+      "solution_to_prevent_recurrence": ""
+    },
+    "2": {
+      "risk_description": "一个年轻人走进房间，被椅子绊倒后摔倒在地。这明显是因不稳定导致的跌倒。",
+      "normal_video_description": "",
+      "solution_for_person": "应立即检查该人是否有受伤。",
+      "solution_for_hazard_source": "应将椅子移至更安全的位置或固定，以防止绊倒。",
+      "solution_to_prevent_recurrence": "确保通道畅通无阻，家具摆放应尽量减少绊倒危险。"
+    },
+    "3": {
+      "risk_description": "该人摔倒在地板上，可能造成伤害，尤其是对行动不便或平衡较差的人风险更大。",
+      "normal_video_description": "",
+      "solution_for_person": "应确保该人了解周围环境，必要时考虑使用辅助设备。",
+      "solution_for_hazard_source": "清除地面上的任何障碍物或绊倒危险。",
+      "solution_to_prevent_recurrence": "进行平衡练习，并保持居住空间无障碍。"
+    },
+    "4": {
+      "risk_description": "视频中的人因地面不稳而面临跌倒风险，地面有红色线条和标记。如果他们绊倒或失去平衡，可能导致严重伤害。",
+      "normal_video_description": "",
+      "solution_for_person": "在步行通过之前，确保地面稳固且没有绊倒危险。",
+      "solution_for_hazard_source": "清除地面上可能导致绊倒的任何物品。",
+      "solution_to_prevent_recurrence": "定期检查地面是否存在潜在危险，并及时处理。"
+    }
+  }
+}

@@ -1,0 +1,40 @@
+{
+  "video_key": "toyota_smarthome_mp4/mp4/Sitdown_p02_r02_v07_c05",
+  "translations": {
+    "0": {
+      "risk_description": "这位老年人正在尝试坐到沙发上，这可能导致他们失去平衡而跌倒，可能造成伤害。",
+      "normal_video_description": "这位老年人正试图坐在客厅的沙发上。",
+      "solution_for_person": "护理人员应帮助老年人安全坐下，并确保他们在沙发上得到适当的支撑。",
+      "solution_for_hazard_source": "护理人员应确保沙发稳固，区域没有绊倒危险。",
+      "solution_to_prevent_recurrence": "护理人员应监测老年人的动作，并根据需要提供帮助，以防止未来跌倒。"
+    },
+    "1": {
+      "risk_description": "此人正在爬上沙发，这可能导致失去平衡而跌倒，可能造成伤害。",
+      "normal_video_description": "可以看到一个人在客厅里爬上沙发，然后坐下。",
+      "solution_for_person": "避免攀爬家具，以降低跌倒风险。",
+      "solution_for_hazard_source": "确保家具稳固，不要将其用作攀爬结构。",
+      "solution_to_prevent_recurrence": "教育人们攀爬家具的危险，并提供替代的座位安排。"
+    },
+    "2": {
+      "risk_description": "",
+      "normal_video_description": "可以看到一个孩子在客厅里四处活动，坐在绿色沙发上，进行正常的玩耍行为，没有明显的风险或危险。",
+      "solution_for_person": "",
+      "solution_for_hazard_source": "",
+      "solution_to_prevent_recurrence": ""
+    },
+    "3": {
+      "risk_description": "孩子正在爬上沙发，如果失去平衡或滑倒，可能会导致跌倒。",
+      "normal_video_description": "",
+      "solution_for_person": "确保孩子在攀爬家具时受到密切监督，以防止跌倒。",
+      "solution_for_hazard_source": "提供稳固、儿童友好的家具，让孩子更容易、更安全地攀爬。",
+      "solution_to_prevent_recurrence": "在家具边缘使用防滑垫或垫子，以降低滑倒风险。"
+    },
+    "4": {
+      "risk_description": "",
+      "normal_video_description": "视频显示一个人坐在客厅的沙发上看电视，场景中没有可见的风险或危险。",
+      "solution_for_person": "",
+      "solution_for_hazard_source": "",
+      "solution_to_prevent_recurrence": ""
+    }
+  }
+}

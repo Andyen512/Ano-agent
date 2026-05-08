@@ -1,0 +1,40 @@
+{
+  "video_key": "web_h264/bilibili__BV1vy411i7oo",
+  "translations": {
+    "0": {
+      "risk_description": "在画面中，年轻人走在人行道上突然摔倒，这可能导致不稳定的潜在风险。",
+      "normal_video_description": "",
+      "solution_for_person": "应检查该人是否有受伤，并在安全的情况下提供帮助使其站立。",
+      "solution_for_hazard_source": "危险源是人行道不平整的表面，应使其更稳固以防止跌倒。",
+      "solution_to_prevent_recurrence": "应检查该区域是否存在潜在危险并进行修复或标记，以防止将来跌倒。"
+    },
+    "1": {
+      "risk_description": "老年人失去平衡摔倒在地，表明存在跌倒导致伤害的风险。",
+      "normal_video_description": "一位老人在铺砌的小路上靠近停放的自行车时绊倒并摔倒。",
+      "solution_for_person": "确保老年人穿具有良好抓地力的合适鞋履，以防止滑倒。",
+      "solution_for_hazard_source": "",
+      "solution_to_prevent_recurrence": ""
+    },
+    "2": {
+      "risk_description": "一位老人在人行道上行走时失去平衡摔倒在地，头部出现可见出血。情况升级，因为该人无法站起，需要立即帮助。",
+      "normal_video_description": "",
+      "solution_for_person": "旁观者立即停下，检查老人情况并拨打急救电话（120）。",
+      "solution_for_hazard_source": "环境（人行道）看起来是普通的公共空间，除跌倒本身外未发现具体危险源。",
+      "solution_to_prevent_recurrence": "鼓励老年人在不平路面或炎热天气行走时使用辅助器具，以防止跌倒。"
+    },
+    "3": {
+      "risk_description": "老年人在试图站起时摔倒，可能导致进一步伤害。",
+      "normal_video_description": "",
+      "solution_for_person": "确保老年人在站起时有支撑或帮助，以防止跌倒。",
+      "solution_for_hazard_source": "",
+      "solution_to_prevent_recurrence": "安装扶手或确保通道畅通，以减少绊倒危险。"
+    },
+    "4": {
+      "risk_description": "画面中看到年轻人从自行车上摔下，可能导致严重伤害。由于该人正在骑自行车，整个视频中风险一直存在。",
+      "normal_video_description": "",
+      "solution_for_person": "确保年轻人佩戴适当的安全装备，如头盔和防护垫，以降低受伤风险。",
+      "solution_for_hazard_source": "在年轻人骑自行车时提供指导或监督，以防止摔倒。",
+      "solution_to_prevent_recurrence": "鼓励年轻人练习安全骑行技巧并注意周围环境，以减少事故发生的可能性。"
+    }
+  }
+}

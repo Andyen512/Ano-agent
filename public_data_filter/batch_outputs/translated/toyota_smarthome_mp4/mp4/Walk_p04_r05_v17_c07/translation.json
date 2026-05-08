@@ -1,0 +1,40 @@
+{
+  "video_key": "toyota_smarthome_mp4/mp4/Walk_p04_r05_v17_c07",
+  "translations": {
+    "0": {
+      "risk_description": "",
+      "normal_video_description": "一个人正在厨房里搅拌炉子上的锅。他们穿着条纹衬衫，看起来专注于烹饪。厨房现代化、设备齐全，有各种厨具和电器。",
+      "solution_for_person": "",
+      "solution_for_hazard_source": "",
+      "solution_to_prevent_recurrence": ""
+    },
+    "1": {
+      "risk_description": "这个人拿着大刀在厨房里走动，如果不仔细操作，可能会造成意外割伤自己或他人的风险。",
+      "normal_video_description": "一位老年人出现在厨房里，拿着大刀走动，旁边的炉子上有一口锅。",
+      "solution_for_person": "这个人应该确保牢牢握住刀，并注意周围环境，避免意外碰到自己或他人。",
+      "solution_for_hazard_source": "",
+      "solution_to_prevent_recurrence": "这个人应该始终谨慎处理尖锐物品，并考虑在不使用时使用刀套或将刀放入安全的容器中。"
+    },
+    "2": {
+      "risk_description": "",
+      "normal_video_description": "一位老年人在厨房里拿着刀在柜台区域走动。这个场景显示的是正常日常活动，没有明显的危险或风险迹象。",
+      "solution_for_person": "",
+      "solution_for_hazard_source": "",
+      "solution_to_prevent_recurrence": ""
+    },
+    "3": {
+      "risk_description": "老年人在炉子上的锅附近拿着一把大刀，如果不仔细操作，可能会造成割伤风险。",
+      "normal_video_description": "",
+      "solution_for_person": "确保老年人使用稳定的握法，并考虑如果可能的话使用带保护套的刀。",
+      "solution_for_hazard_source": "不使用时将刀安全存放，例如放在磁性刀架或抽屉里。",
+      "solution_to_prevent_recurrence": "处理尖锐物品时始终需要监督，并确保厨房环境对老年人是安全的。"
+    },
+    "4": {
+      "risk_description": "这个人站在有锅的炉子旁边拿着刀，如果不仔细操作，可能会导致意外割伤或受伤。",
+      "normal_video_description": "",
+      "solution_for_person": "确保这个人使用正确的刀处理技术，并专注于任务以避免事故。",
+      "solution_for_hazard_source": "",
+      "solution_to_prevent_recurrence": "提供安全刀处理培训，并确保这个人在厨房工作时保持专注。"
+    }
+  }
+}

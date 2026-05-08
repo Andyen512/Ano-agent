@@ -1,0 +1,40 @@
+{
+  "video_key": "toyota_smarthome_mp4/mp4/Sitdown_p12_r07_v03_c05",
+  "translations": {
+    "0": {
+      "risk_description": "视频中的人正弯腰伸手去拿地板上的东西，这可能导致他们失去平衡而跌倒或失去稳定性。",
+      "normal_video_description": "",
+      "solution_for_person": "在弯腰伸手去拿地板上的东西时，人应保持谨慎，以避免跌倒或失去平衡。",
+      "solution_for_hazard_source": "危险源是地板，可能湿滑或不平，导致人失去平衡。",
+      "solution_to_prevent_recurrence": "人应确保地面清洁且没有可能导致绊倒或失去平衡的障碍物。还应考虑使用防滑垫或地毯，以提供额外的抓地力。"
+    },
+    "1": {
+      "risk_description": "",
+      "normal_video_description": "一个人从站立转为坐在客厅的沙发上，电视正开着。",
+      "solution_for_person": "",
+      "solution_for_hazard_source": "",
+      "solution_to_prevent_recurrence": ""
+    },
+    "2": {
+      "risk_description": "",
+      "normal_video_description": "一位中年人出现在客厅里走动，坐在绿色沙发上，在平静可控的环境中与物品互动。该场景展示了普通的日常行为，未见明显的风险或异常。",
+      "solution_for_person": "",
+      "solution_for_hazard_source": "",
+      "solution_to_prevent_recurrence": ""
+    },
+    "3": {
+      "risk_description": "老年人在坐在沙发上时弯腰，这可能因不稳而导致跌倒。",
+      "normal_video_description": "",
+      "solution_for_person": "确保老年人在伸手取物时坐直并在需要时使用支撑。",
+      "solution_for_hazard_source": "提供稳固的支撑表面或帮助老年人安全地取物。",
+      "solution_to_prevent_recurrence": "在伸手取物时使用脚凳或椅子作为支撑，以降低跌倒风险。"
+    },
+    "4": {
+      "risk_description": "人正弯腰越过沙发，若失去平衡可能导致跌倒。从这个高度跌落可能造成严重伤害。",
+      "normal_video_description": "视频显示一个人在客厅场景中弯腰越过沙发。",
+      "solution_for_person": "确保人在弯腰越过沙发时抓住稳固的物体或有他人在旁协助。",
+      "solution_for_hazard_source": "",
+      "solution_to_prevent_recurrence": "鼓励人在从地板捡起物品时屈膝并保持背部挺直，以降低跌倒风险。"
+    }
+  }
+}

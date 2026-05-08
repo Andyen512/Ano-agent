@@ -1,0 +1,40 @@
+{
+  "video_key": "web_h264/tiktok__7561022283280698654",
+  "translations": {
+    "0": {
+      "risk_description": "可以看到这位年轻人在院子里多次跌倒，如果撞到硬表面或在湿滑表面摔倒，可能会导致受伤。",
+      "normal_video_description": "视频显示一位年轻人在院子里与一个孩子和一只狗一起行走。",
+      "solution_for_person": "此人在院子里行走时应更加小心，尤其是在湿滑的表面上，并应考虑使用扶手或其他支撑以防止跌倒。",
+      "solution_for_hazard_source": "危险源是院子里不平整且湿滑的地面。此人在院子里行走时应更加小心，并应考虑使用扶手或其他支撑以防止跌倒。",
+      "solution_to_prevent_recurrence": "此人在院子里行走时应更加小心，尤其是在湿滑的表面上，并应考虑使用扶手或其他支撑以防止跌倒。院子应保持清除任何可能导致跌倒的障碍物或危险。"
+    },
+    "1": {
+      "risk_description": "可以看到这位年轻人在多种表面上多次滑倒和跌倒，包括雪、冰和台阶，存在因跌倒而导致受伤的风险。",
+      "normal_video_description": "视频显示不同的人在不同的户外和室内环境中滑倒和跌倒，往往在积雪或结冰的表面上。",
+      "solution_for_person": "穿着具有良好抓地力的合适鞋子，并对湿滑表面保持警惕。",
+      "solution_for_hazard_source": "清除走道和台阶上的积雪和结冰，以减少滑倒危险。",
+      "solution_to_prevent_recurrence": "在台阶上安装扶手，并在结冰表面上使用防滑垫。"
+    },
+    "2": {
+      "risk_description": "可以看到一个人在携带物品时在积雪或结冰的表面上滑倒并跌倒，表明由于地面危险条件导致明显的平衡和稳定性失衡。",
+      "normal_video_description": "",
+      "solution_for_person": "此人在湿滑表面上行走时应放慢速度，若有扶手应使用，并考虑使用助行器或寻求帮助。",
+      "solution_for_hazard_source": "清除走道上的积雪和结冰，并安装防滑垫或牵引辅助装置以提升地面安全性。",
+      "solution_to_prevent_recurrence": "定期清除室外区域的积雪和结冰，并考虑使用防滑处理以防止将来跌倒。"
+    },
+    "3": {
+      "risk_description": "可以看到孩子在草地上奔跑和跌倒，如果跌倒在硬表面上或活动能力受限，可能会导致受伤。",
+      "normal_video_description": "",
+      "solution_for_person": "确保孩子在户外玩耍时有监督，以防止跌倒和受伤。",
+      "solution_for_hazard_source": "清除院子里的任何障碍物，以降低绊倒或跌倒的风险。",
+      "solution_to_prevent_recurrence": "提供安全的游戏区域，排除危险，并确保持续监督。"
+    },
+    "4": {
+      "risk_description": "孩子有从阳台跌落的风险，可能导致严重伤害甚至死亡。",
+      "normal_video_description": "视频显示一个孩子在阳台上和一只狗玩耍，而一名男子坐在附近的地上。场景中没有明显的风险或危险。",
+      "solution_for_person": "确保孩子在阳台上有人看护，不要让其单独留在阳台上。安装栏杆或屏障以防止跌落。",
+      "solution_for_hazard_source": "",
+      "solution_to_prevent_recurrence": "定期检查阳台是否存在潜在危险，并确保其安全稳固。"
+    }
+  }
+}

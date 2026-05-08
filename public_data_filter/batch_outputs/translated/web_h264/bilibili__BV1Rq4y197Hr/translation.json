@@ -1,0 +1,40 @@
+{
+  "video_key": "web_h264/bilibili__BV1Rq4y197Hr",
+  "translations": {
+    "0": {
+      "risk_description": "视频中的人在走路时努力保持平衡，最终摔倒在地。这种行为与正常无障碍行走的日常活动不符。",
+      "normal_video_description": "",
+      "solution_for_person": "此人应在行走时由护理人员或家属协助，以确保安全。",
+      "solution_for_hazard_source": "应检查环境是否存在可能导致失衡的潜在危险，例如不平的地面或路径上的障碍物。",
+      "solution_to_prevent_recurrence": "应鼓励此人定期休息，并根据需要使用辅助器具，如拐杖或助行器。护理人员或家属也应监测其平衡情况，必要时提供支撑。"
+    },
+    "1": {
+      "risk_description": "老年人跌倒后无法站起，存在长时间不动和潜在受伤的风险。",
+      "normal_video_description": "老年人在院子里跌倒后无法站起，邻居前来帮助。",
+      "solution_for_person": "确保在老年人有跌倒风险时能立即提供帮助。",
+      "solution_for_hazard_source": "",
+      "solution_to_prevent_recurrence": "定期检查老年人的情况，尤其当他们独居时，确保他们有稳定的行走辅具（如有需要）。"
+    },
+    "2": {
+      "risk_description": "老年人在院子里走路时失去平衡摔倒，无法立即站起。这是一起明显的身体不稳事件，可能导致受伤。",
+      "normal_video_description": "",
+      "solution_for_person": "目击跌倒的邻居应帮助老年人站起，并确保他们在移动前已站稳。",
+      "solution_for_hazard_source": "检查地面是否有障碍物或不平表面导致跌倒。",
+      "solution_to_prevent_recurrence": "鼓励老年人放慢步伐，必要时考虑使用行走辅具。确保院子没有绊倒危险。"
+    },
+    "3": {
+      "risk_description": "老年人跌倒后无法站起，导致长时间不动，存在受伤风险。",
+      "normal_video_description": "",
+      "solution_for_person": "确保定期探望老年人并在跌倒时提供帮助。",
+      "solution_for_hazard_source": "清除绊倒危险并确保区域无障碍物。",
+      "solution_to_prevent_recurrence": "安装安全设施，如扶手，并进行定期的家庭维护以防止跌倒。"
+    },
+    "4": {
+      "risk_description": "孩子在院子里玩滑板，增加了跌倒和受伤的风险。",
+      "normal_video_description": "",
+      "solution_for_person": "确保孩子在玩滑板时佩戴适当的安全装备，如头盔和护膝/护肘。",
+      "solution_for_hazard_source": "清除院子里可能导致孩子绊倒或跌倒的障碍物或危险。",
+      "solution_to_prevent_recurrence": "教孩子正确使用滑板并保持平衡，以降低跌倒风险。"
+    }
+  }
+}

@@ -1,0 +1,40 @@
+{
+  "video_key": "web_h264/tiktok__7609013684068797710",
+  "translations": {
+    "0": {
+      "risk_description": "这位年轻人正在纵火点燃房屋，这是一种危险且可能危及生命的行为。该行为严重偏离日常行为，并对个人和他人构成重大风险。",
+      "normal_video_description": "",
+      "solution_for_person": "应立即制止此人，并提供适当的支持和资源，以解决可能导致该行为的任何根本问题。",
+      "solution_for_hazard_source": "应尽快确定火源并扑灭，以防止对个人和他人造成进一步的损害和风险。",
+      "solution_to_prevent_recurrence": "该个人应接受辅导和支持，以解决导致该行为的潜在问题，并应对环境进行监测，排查可能促成该行为的潜在危险。"
+    },
+    "1": {
+      "risk_description": "此人正在使用易燃液体和点燃的火柴，造成直接的火灾风险和潜在的烧伤。",
+      "normal_video_description": "视频显示一个人在车库里使用易燃液体和点燃的火柴纵火。",
+      "solution_for_person": "停止在没有适当安全防护和监督的情况下处理易燃材料。",
+      "solution_for_hazard_source": "清除该区域的易燃液体和明火。",
+      "solution_to_prevent_recurrence": "进行消防安全教育和正确处理危险物质的培训。"
+    },
+    "2": {
+      "risk_description": "可以看到有人把红色容器中的液体倒在地板上，然后点燃火柴引燃，造成明确且直接的火灾危险。",
+      "normal_video_description": "",
+      "solution_for_person": "立即使用灭火器或用重物覆盖窒息的方式扑灭火焰，并撤离该区域。",
+      "solution_for_hazard_source": "清除该区域的所有易燃液体和点火源，以防止以后发生事故。",
+      "solution_to_prevent_recurrence": "实施严格的易燃材料处理安全规程，并确保所有人员了解其相关危险。"
+    },
+    "3": {
+      "risk_description": "这位年轻人正在纵火，这会显著增加火势蔓延的风险，尤其在狭窄的走廊里，对弱势人群的疏散可能更加困难。",
+      "normal_video_description": "",
+      "solution_for_person": "该个人应立即扑灭火焰并撤离该区域，以确保安全。",
+      "solution_for_hazard_source": "清除所有易燃材料，确保走廊中配备可用的灭火器。",
+      "solution_to_prevent_recurrence": "安装烟雾探测器和火灾警报，并提供消防安全教育，以防止以后事故的发生。"
+    },
+    "4": {
+      "risk_description": "此人正在使用打火机，似乎在尝试点燃某物，存在火灾或烧伤风险。如果不小心处理，这种行为可能导致严重伤害或财产损失。",
+      "normal_video_description": "视频显示一个人在厨房里，戴着头带和背心，手持打火机。他们似乎在演示或解释与打火机相关的内容。",
+      "solution_for_person": "确保该人了解潜在风险，并在处理易燃材料时采取必要的预防措施。",
+      "solution_for_hazard_source": "",
+      "solution_to_prevent_recurrence": "对此人进行易燃材料安全处理方法的培训，并确保他们在使用此类物品时有监督。"
+    }
+  }
+}

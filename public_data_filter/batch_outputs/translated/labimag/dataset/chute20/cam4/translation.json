@@ -1,0 +1,40 @@
+{
+  "video_key": "labimag/dataset/chute20/cam4",
+  "translations": {
+    "0": {
+      "risk_description": "视频中的年轻人穿过办公室，然后突然摔倒在地。这种行为偏离了正常的日常活动（行走和坐在椅子上），且由于跌倒存在受伤风险。",
+      "normal_video_description": "",
+      "solution_for_person": "应帮助此人站起来并检查是否有受伤。还应建议他们在办公室行走时更加小心。",
+      "solution_for_hazard_source": "应检查办公室环境是否存在可能导致跌倒的潜在危险，例如松散的电线或不平整的地板。",
+      "solution_to_prevent_recurrence": "应提醒此人在办公室行走时更加小心，并应处理和消除任何潜在危险以防止未来跌倒。"
+    },
+    "1": {
+      "risk_description": "穿红衬衫的人平躺在地板上呈俯卧姿势，如果不及时处理，可能导致呼吸困难或受伤。",
+      "normal_video_description": "一个穿绿色衬衫的人穿过一个放满各种家具和设备的房间。另一个穿红衬衫的人进来，挪动了一张沙发，然后平躺在地板上呈俯卧姿势。穿绿色衬衫的人返回并走向地板上的人。",
+      "solution_for_person": "确保穿红衬衫的人接受检查以确认反应能力，并在必要时转移到更安全的位置。",
+      "solution_for_hazard_source": "",
+      "solution_to_prevent_recurrence": ""
+    },
+    "2": {
+      "risk_description": "一个人走进房间，走向一把椅子，然后向后倒在地上。这个动作明显超出了正常活动范围，代表了一次直接的肢体不稳事件。",
+      "normal_video_description": "",
+      "solution_for_person": "此人应立即起身并检查伤势。",
+      "solution_for_hazard_source": "确保地板上没有障碍物且家具稳固。",
+      "solution_to_prevent_recurrence": "通过清除绊倒危险并确保家具放置稳固来改善环境安全。"
+    },
+    "3": {
+      "risk_description": "穿红衬衫的人摔倒在地板上，可能会造成伤害风险，特别是对于行动不便或正在康复的人。",
+      "normal_video_description": "",
+      "solution_for_person": "确保此人安全起身并评估伤势。如有需要，提供帮助。",
+      "solution_for_hazard_source": "清除地板区域的障碍物以防止未来跌倒。",
+      "solution_to_prevent_recurrence": "实施政策保持通道畅通，并确保工作场所定期进行安全检查。"
+    },
+    "4": {
+      "risk_description": "穿红衬衫的人在房间里走动时突然摔倒在地，这可能导致严重伤害。这种风险存在于可能存在障碍物或不平整地面的办公环境中。",
+      "normal_video_description": "",
+      "solution_for_person": "确保此人穿合适的鞋子，鞋底抓地力强，以降低滑倒和跌倒的风险。",
+      "solution_for_hazard_source": "清除地板上的任何障碍物或绊倒危险，以创造更安全的行走环境。",
+      "solution_to_prevent_recurrence": "为员工实施定期安全培训，教导他们如何安全地在办公空间行走并保持平衡。"
+    }
+  }
+}

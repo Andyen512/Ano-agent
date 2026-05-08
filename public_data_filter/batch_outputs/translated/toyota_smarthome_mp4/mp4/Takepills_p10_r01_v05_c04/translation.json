@@ -1,0 +1,40 @@
+{
+  "video_key": "toyota_smarthome_mp4/mp4/Takepills_p10_r01_v05_c04",
+  "translations": {
+    "0": {
+      "risk_description": "这位老年人手持 Wii 手柄，似乎正在玩电子游戏。他站在绿色沙发和白色茶几前。老人穿着绿色衬衫和白色裤子，还戴着眼镜。老人站立并似乎在走动。老人手持 Wii 手柄。老人站立并似乎在走动。老人手持 Wii 手柄。老人站立并似乎在走动。老人手持 Wii 手柄。老人站立并似乎在走动。老人手持 Wii 手柄。老人站立并似乎在走动。老人手持 Wii 手柄。老人站立并似乎在走动。老人手持 Wii 手柄。老人站立并似乎在走动。老人手持 Wii 手柄。老人站立并似乎在走动。老人手持 Wii 手柄。",
+      "normal_video_description": "",
+      "solution_for_person": "",
+      "solution_for_hazard_source": "",
+      "solution_to_prevent_recurrence": ""
+    },
+    "1": {
+      "risk_description": "",
+      "normal_video_description": "一位老年人正在客厅里处理一个物体并在空间里走动。",
+      "solution_for_person": "",
+      "solution_for_hazard_source": "",
+      "solution_to_prevent_recurrence": ""
+    },
+    "2": {
+      "risk_description": "",
+      "normal_video_description": "一位老年人站在客厅里，手里拿着一个白色小物件，低头看着它。随后他微微前倾，可能是要把物件放在附近的桌子上或调整自己的姿势。场景安静，看起来是家庭环境中的日常活动。",
+      "solution_for_person": "",
+      "solution_for_hazard_source": "",
+      "solution_to_prevent_recurrence": ""
+    },
+    "3": {
+      "risk_description": "这位老年人在弯腰的同时处理物件，可能会因失去平衡而增加跌倒的风险。",
+      "normal_video_description": "",
+      "solution_for_person": "确保老年人在处理物件时坐着或得到支撑，以防跌倒。",
+      "solution_for_hazard_source": "清理老年人周围的区域，提供一个稳固安全的工作空间。",
+      "solution_to_prevent_recurrence": "使用稳固的表面处理物件，并确保适当照明以提高能见度。"
+    },
+    "4": {
+      "risk_description": "这个人站在客厅里，手里拿着一个可能是球的小物件。他在外衣上套着一件透明塑料衣服，这可能限制其活动，增加跌倒或失去平衡的风险。此人的姿势和专注于物件表明他可能并未完全意识到周围环境，可能导致跌倒。",
+      "normal_video_description": "",
+      "solution_for_person": "确保此人穿着合适的衣物和鞋子以保持稳定；如果他显得不稳或被物件分散注意力，请提供帮助。",
+      "solution_for_hazard_source": "",
+      "solution_to_prevent_recurrence": "鼓励此人穿着舒适、不受限制的衣物，并在需要集中注意力的物件处理时留意周围环境。"
+    }
+  }
+}

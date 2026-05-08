@@ -1,0 +1,40 @@
+{
+  "video_key": "toyota_smarthome_mp4/mp4/Getup_p25_r06_v05_c04",
+  "translations": {
+    "0": {
+      "risk_description": "老年人由于客厅杂乱和使用助行器而有跌倒风险。",
+      "normal_video_description": "老年人在客厅的沙发上坐着，然后站起来使用助行器在房间里走动。",
+      "solution_for_person": "护理人员应协助老年人清理杂物，确保客厅没有绊倒危险。",
+      "solution_for_hazard_source": "护理人员应确保老年人的助行器状况良好，并根据其需求适当调整。",
+      "solution_to_prevent_recurrence": "护理人员应定期检查客厅是否存在潜在危险，并确保老年人的助行器始终处于良好状态。"
+    },
+    "1": {
+      "risk_description": "",
+      "normal_video_description": "一位老年人在客厅的沙发上坐着，然后站起来。",
+      "solution_for_person": "",
+      "solution_for_hazard_source": "",
+      "solution_to_prevent_recurrence": ""
+    },
+    "2": {
+      "risk_description": "",
+      "normal_video_description": "一位老年人在客厅的沙发上坐着，然后站起来。环境显得平静安全，没有可见的危险或危险行为。",
+      "solution_for_person": "",
+      "solution_for_hazard_source": "",
+      "solution_to_prevent_recurrence": ""
+    },
+    "3": {
+      "risk_description": "老年人站在沙发和茶几之间的狭窄表面上，由于稳定性和支撑有限，有跌倒风险。",
+      "normal_video_description": "",
+      "solution_for_person": "老年人应使用稳定的家具或台阶，避免站在狭窄表面上。",
+      "solution_for_hazard_source": "确保家具之间没有可能发生绊倒或跌倒的狭窄缝隙。",
+      "solution_to_prevent_recurrence": "重新布置家具，创造更安全的通道，并提供稳定的站立或移动表面。"
+    },
+    "4": {
+      "risk_description": "老年人弯腰俯身于茶几上方，如果失去平衡可能导致跌倒。跌倒是老年人常见的伤害原因，可能导致骨折或头部外伤等严重后果。",
+      "normal_video_description": "视频显示一位老年人在客厅环境中弯腰俯身于茶几上方。",
+      "solution_for_person": "确保老年人在拿取茶几上的物品时紧握稳定的支撑物。",
+      "solution_for_hazard_source": "",
+      "solution_to_prevent_recurrence": "在茶几附近安装扶手或抓握杆，为老年人站立或坐下时提供额外支撑。"
+    }
+  }
+}

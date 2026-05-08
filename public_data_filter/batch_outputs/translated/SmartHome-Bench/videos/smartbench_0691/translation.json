@@ -1,0 +1,40 @@
+{
+  "video_key": "SmartHome-Bench/videos/smartbench_0691",
+  "translations": {
+    "0": {
+      "risk_description": "",
+      "normal_video_description": "一个人坐在门廊的秋千上，另一个人走向门廊并与坐在秋千上的人互动。",
+      "solution_for_person": "",
+      "solution_for_hazard_source": "",
+      "solution_to_prevent_recurrence": ""
+    },
+    "1": {
+      "risk_description": "该男子在门廊上使用电线，如果电线接触到水或线路出现故障，就有触电风险。",
+      "normal_video_description": "一个穿着红色衬衫的人坐在门廊的秋千上，而另一个穿着灰色衬衫和蓝色短裤的人拿着电线走向门廊，并与秋千上的人互动。",
+      "solution_for_person": "该男子应确保电线远离水源，并小心操作，避免湿手或潮湿表面接触电线。",
+      "solution_for_hazard_source": "应检查电线是否有损坏，并妥善固定，以防意外接触。",
+      "solution_to_prevent_recurrence": "确保所有电线保持干燥且远离水，并定期检查是否有磨损或损坏的迹象。"
+    },
+    "2": {
+      "risk_description": "",
+      "normal_video_description": "一名男子走进一个门廊，那里有一位女士坐在椅子上，他随后调皮地摇动一根绳子，然后离开画面。场景展现了轻松的日常互动，没有任何危险或异常行为的迹象。",
+      "solution_for_person": "",
+      "solution_for_hazard_source": "",
+      "solution_to_prevent_recurrence": ""
+    },
+    "3": {
+      "risk_description": "在阳台上的那个人坐在椅子上，如果被干扰或失去平衡，可能会有跌倒的风险。站在附近的男子正伸手向上，可能会分散或惊吓到坐着的人。",
+      "normal_video_description": "",
+      "solution_for_person": "确保坐着的人坐得稳当并注意周围环境，以防突然动作或分心。",
+      "solution_for_hazard_source": "该男子应避免在坐着的人附近做突然动作或伸手，以免惊吓到他们。",
+      "solution_to_prevent_recurrence": "安装额外的安全措施，如防滑地面或安全栏杆，以减少阳台上的跌倒风险。"
+    },
+    "4": {
+      "risk_description": "这位年轻人站在阳台上，抓着柱子支撑。存在从阳台坠落的风险，可能导致重伤甚至死亡。",
+      "normal_video_description": "一位年轻人站在阳台上，抓着柱子支撑。另一人坐在阳台的椅子上。",
+      "solution_for_person": "应鼓励这位年轻人坐下来，避免在没有适当安全措施的情况下站在阳台上。",
+      "solution_for_hazard_source": "",
+      "solution_to_prevent_recurrence": "阳台应安装栏杆或护栏，以防止坠落。"
+    }
+  }
+}

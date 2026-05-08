@@ -1,0 +1,40 @@
+{
+  "video_key": "SmartHome-Bench/videos/smartbench_0031",
+  "translations": {
+    "0": {
+      "risk_description": "这位年轻人被看到在院子里奔跑和跳跃，这可能会导致跌倒或失去平衡。",
+      "normal_video_description": "视频显示一位年轻人在院子里奔跑和跳跃，这对年轻人来说是正常的活动。",
+      "solution_for_person": "应鼓励该人从事更安全的活动，并注意周围环境，以防止跌倒。",
+      "solution_for_hazard_source": "应检查院子是否存在可能导致跌倒的潜在危险，如不平的地面或障碍物。",
+      "solution_to_prevent_recurrence": "应教育该人注意安全的重要性，并鼓励其从事更安全的活动，以防止跌倒再次发生。"
+    },
+    "1": {
+      "risk_description": "这位年轻人赤膊，似乎很匆忙，在狭窄的小巷里行走时可能会失去平衡，从而导致跌倒。",
+      "normal_video_description": "视频显示一位年轻人在夜间穿过狭窄的小巷，似乎很匆忙。",
+      "solution_for_person": "这位年轻人应更小心地行走，保持对周围环境的警觉，以避免绊倒或跌倒。",
+      "solution_for_hazard_source": "确保小巷光线充足且没有障碍物，以减少绊倒危险。",
+      "solution_to_prevent_recurrence": "鼓励年轻人在可能存在危险的区域行走时穿合适的衣服和鞋子。"
+    },
+    "2": {
+      "risk_description": "视频中一位赤膊的年轻人正对着门口进行激烈的互动，随后一名男子大声喊叫让另一人离开门口，明显显示出人际冲突。",
+      "normal_video_description": "",
+      "solution_for_person": "应建议该人缓和局势，避免身体对抗。",
+      "solution_for_hazard_source": "确保门口周围的区域干净安全，以防止冲突进一步升级。",
+      "solution_to_prevent_recurrence": "采取措施降低紧张氛围，确保现场人员之间的沟通畅通。"
+    },
+    "3": {
+      "risk_description": "视频中一位年轻人正端着托盘与另一人进行对抗性互动，这可能会升级为肢体冲突，对双方构成风险。",
+      "normal_video_description": "",
+      "solution_for_person": "这位年轻人应避免对抗性互动，寻求和平解决或离开现场。",
+      "solution_for_hazard_source": "确保小巷区域光线充足并进行监控，以遏制对抗行为。",
+      "solution_to_prevent_recurrence": "安装更好的照明和监控摄像头，以监视该区域并阻止对抗行为。"
+    },
+    "4": {
+      "risk_description": "视频显示一位年轻人在阳台的狭窄边缘行走，存在跌倒风险，可能导致严重伤害。",
+      "normal_video_description": "",
+      "solution_for_person": "确保该人在阳台边缘行走时佩戴适当的安全装备，如安全带或护栏。",
+      "solution_for_hazard_source": "在阳台边缘安装栏杆或护栏，以防止跌倒。",
+      "solution_to_prevent_recurrence": "定期检查并维护阳台结构，确保其使用安全。"
+    }
+  }
+}

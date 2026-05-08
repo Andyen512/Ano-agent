@@ -1,0 +1,42 @@
+{
+  "run_id": "20260424T092315Z",
+  "data_root": "/data_4/liuyuan/lifebench/data/public_data",
+  "datasets": [],
+  "output_root": "/data_4/liuyuan/lifebench/public_data_filter/batch_outputs/persistent_full",
+  "prompt_language": "en",
+  "output_schema_version": "risk_full_en_v2",
+  "gpu_ids": [
+    "0",
+    "1",
+    "2",
+    "3",
+    "4",
+    "5",
+    "6",
+    "7"
+  ],
+  "worker_backends": [
+    "qwen35vl",
+    "mplugowl3",
+    "tarsier2",
+    "internvl35",
+    "videollama3",
+    "qwen35vl",
+    "mplugowl3",
+    "tarsier2"
+  ],
+  "worker_plan": {
+    "qwen35vl": 2,
+    "mplugowl3": 2,
+    "tarsier2": 2,
+    "internvl35": 1,
+    "videollama3": 1
+  },
+  "seed": 0,
+  "task_count": 21948,
+  "skipped_existing_count": 0,
+  "reuse_agent_outputs": true,
+  "early_stop_majority": false,
+  "persistent_runner": true,
+  "dry_run": false
+}

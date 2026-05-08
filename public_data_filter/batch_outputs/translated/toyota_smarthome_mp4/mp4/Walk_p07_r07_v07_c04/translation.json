@@ -1,0 +1,40 @@
+{
+  "video_key": "toyota_smarthome_mp4/mp4/Walk_p07_r07_v07_c04",
+  "translations": {
+    "0": {
+      "risk_description": "视频中的人看起来很匆忙，没有注意周围环境，这可能导致跌倒或失去平衡。",
+      "normal_video_description": "视频中的人正快速穿过客厅，经过沙发、咖啡桌和一些植物。他们看起来很匆忙，没有注意周围环境。",
+      "solution_for_person": "这个人应该放慢脚步，更加注意周围环境，以防止跌倒或失去平衡。",
+      "solution_for_hazard_source": "场景中没有明显的可能导致跌倒或失去平衡的危险。",
+      "solution_to_prevent_recurrence": "应该提醒这个人在客厅行走时要更加小心，注意周围环境。"
+    },
+    "1": {
+      "risk_description": "",
+      "normal_video_description": "一个人穿过客厅，客厅里有绿色组合沙发、植物和咖啡桌。这个人走出画面，客厅空无一人。",
+      "solution_for_person": "",
+      "solution_for_hazard_source": "",
+      "solution_to_prevent_recurrence": ""
+    },
+    "2": {
+      "risk_description": "",
+      "normal_video_description": "一位老年人被看到在客厅里走动，走过绿色沙发和咖啡桌。这个人在一个安全整洁的环境中从事正常的日常活动。",
+      "solution_for_person": "",
+      "solution_for_hazard_source": "",
+      "solution_to_prevent_recurrence": ""
+    },
+    "3": {
+      "risk_description": "这个人似乎移动得很快且不稳定，这可能会增加跌倒的风险，特别是对于可能有较弱的平衡能力或行动能力的老年人。",
+      "normal_video_description": "",
+      "solution_for_person": "确保这个人缓慢而小心地移动以保持平衡。",
+      "solution_for_hazard_source": "清除客厅中的任何障碍物以减少绊倒危险。",
+      "solution_to_prevent_recurrence": "使用防滑垫并确保良好的照明以提高稳定性和可见度。"
+    },
+    "4": {
+      "risk_description": "这个人在行走时不稳定，这增加了跌倒和可能受伤的风险。客厅里沙发和其他家具的存在，如果他们跌倒，可能会导致严重的碰撞。",
+      "normal_video_description": "视频显示一位老年人穿过客厅，客厅里有绿色沙发、咖啡桌和一些盆栽植物。",
+      "solution_for_person": "确保这个人行走时扶着稳定的东西支撑，或考虑提供护理人员的协助。",
+      "solution_for_hazard_source": "",
+      "solution_to_prevent_recurrence": "鼓励这个人穿有良好抓地力的适当鞋类，并考虑在客厅安装扶手或抓杆以帮助稳定。"
+    }
+  }
+}

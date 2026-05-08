@@ -1,0 +1,40 @@
+{
+  "video_key": "toyota_smarthome_mp4/mp4/Drink.Fromcan_p04_r08_v03_c04",
+  "translations": {
+    "0": {
+      "risk_description": "老年人因客厅杂乱以及使用助行器，有跌倒风险。",
+      "normal_video_description": "老年人坐在客厅的绿色沙发上，使用助行器移动。随后他们弯腰捡起地板上的一件物品。",
+      "solution_for_person": "护理人员应帮助老年人清除杂物，确保客厅没有绊倒危险。",
+      "solution_for_hazard_source": "护理人员应确保老年人的助行器状况良好，并根据其需求适当调节。",
+      "solution_to_prevent_recurrence": "护理人员应定期检查客厅是否存在潜在危险，并确保老年人的助行器得到正确维护和使用。"
+    },
+    "1": {
+      "risk_description": "",
+      "normal_video_description": "一位老年人坐在客厅的绿色沙发上，伸手去够茶几。",
+      "solution_for_person": "",
+      "solution_for_hazard_source": "",
+      "solution_to_prevent_recurrence": ""
+    },
+    "2": {
+      "risk_description": "",
+      "normal_video_description": "一位老年人坐在客厅的绿色沙发上，手托下巴。随后他们向前倾身，将一件物品放在面前的茶几上。该场景表现出平静的日常生活，没有明显的危险或不稳定迹象。",
+      "solution_for_person": "",
+      "solution_for_hazard_source": "",
+      "solution_to_prevent_recurrence": ""
+    },
+    "3": {
+      "risk_description": "老年人伸手去够茶几，这可能导致他们在起身或够取时失去平衡而跌倒。",
+      "normal_video_description": "",
+      "solution_for_person": "确保老年人在够取物品时坐得稳固，且附近有支撑。",
+      "solution_for_hazard_source": "将常用物品放在易于够到的地方，以减少伸手或站起的需要。",
+      "solution_to_prevent_recurrence": "摆放家具以提供稳固支撑，并将必需品放在近处，以降低跌倒风险。"
+    },
+    "4": {
+      "risk_description": "老年人因坐姿及靠近沙发边缘而有跌倒风险。从该高度跌落可能导致严重伤害。",
+      "normal_video_description": "",
+      "solution_for_person": "确保老年人坐得稳固，并获得适当的支撑或帮助以防止跌倒。",
+      "solution_for_hazard_source": "",
+      "solution_to_prevent_recurrence": "在沙发上提供额外的支撑或垫子，以降低跌倒风险。"
+    }
+  }
+}

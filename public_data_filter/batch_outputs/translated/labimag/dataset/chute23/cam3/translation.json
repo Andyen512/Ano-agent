@@ -1,0 +1,40 @@
+{
+  "video_key": "labimag/dataset/chute23/cam3",
+  "translations": {
+    "0": {
+      "risk_description": "一个年轻人被看到在客厅里走来走去,拿着一个盒子和一个塑料袋。然后他们绊倒摔倒在沙发上,盒子也掉了下来。年轻人很快站起来,继续在房间里走动。",
+      "normal_video_description": "",
+      "solution_for_person": "年轻人在客厅走动时应该更加小心,尤其是在拿着东西的时候。他们也应该注意房间里任何可能的绊倒危险。",
+      "solution_for_hazard_source": "应该检查客厅是否有任何可能的绊倒危险,比如电线或松动的地毯,并相应地处理。",
+      "solution_to_prevent_recurrence": "应该提醒年轻人在客厅走动时更加小心,并且应该处理任何可能的绊倒危险,以防止将来摔倒。"
+    },
+    "1": {
+      "risk_description": "这个人反复跪下并躺在地板上,这增加了滑倒或失去平衡摔倒的风险,可能会导致受伤。",
+      "normal_video_description": "一个穿红衬衫的人在客厅里走来走去,拿着一个盒子,调整家具,反复躺在地板上。",
+      "solution_for_person": "除非必要,否则应避免躺在地板上或跪在地板上,并确保地板上没有绊倒危险。",
+      "solution_for_hazard_source": "",
+      "solution_to_prevent_recurrence": "确保地板干净且不滑,并在需要时提供稳定的表面供坐着或躺着。"
+    },
+    "2": {
+      "risk_description": "",
+      "normal_video_description": "一个年轻人走进客厅,搬动一个盒子,把一个包放在椅子上,然后躺在沙发上。这个人后来站起来,走动了一下,坐在一把扶手椅上。这些动作符合在家环境中的正常日常活动。",
+      "solution_for_person": "",
+      "solution_for_hazard_source": "",
+      "solution_to_prevent_recurrence": ""
+    },
+    "3": {
+      "risk_description": "视频中的人在房间里走动时似乎绊倒并摔倒了,这可能会造成受伤风险,尤其是对于行动不便或平衡问题的人。",
+      "normal_video_description": "",
+      "solution_for_person": "这个人应该小心地在房间里走动,尤其是在家具附近,以避免绊倒。",
+      "solution_for_hazard_source": "确保客厅光线充足且没有障碍物,以减少绊倒的风险。",
+      "solution_to_prevent_recurrence": "这个人应该采取措施改善自己的平衡和活动能力,房间应该整理好以最大程度地减少绊倒危险。"
+    },
+    "4": {
+      "risk_description": "",
+      "normal_video_description": "视频显示一个穿红衬衫和黑裤子的人在铺着瓷砖的地板的房间里搬动一把椅子。房间里还有其他物品,比如一张桌子、一张沙发和一些墙上的相框。这个人似乎在整理或清洁这个空间。",
+      "solution_for_person": "",
+      "solution_for_hazard_source": "",
+      "solution_to_prevent_recurrence": ""
+    }
+  }
+}

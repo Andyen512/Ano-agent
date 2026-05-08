@@ -1,0 +1,40 @@
+{
+  "video_key": "labimag/dataset/chute15/cam6",
+  "translations": {
+    "0": {
+      "risk_description": "视频中可以看到这位年轻人走向沙发，然后突然摔倒在地上。这种行为偏离了正常的日常活动——走路和坐在沙发上。重要的是确保该年轻人没有受伤，并调查摔倒的原因。",
+      "normal_video_description": "视频显示一位年轻人走向餐厅的沙发，然后突然摔倒在地上。视频的其余部分显示这位年轻人坐在沙发上，没有进一步的事故。",
+      "solution_for_person": "检查这位年轻人的状况，确保他们没有受伤，并在必要时提供帮助。",
+      "solution_for_hazard_source": "找出摔倒的原因，并采取措施防止再次发生，例如清除绊倒危险或改善该区域的照明。",
+      "solution_to_prevent_recurrence": "定期检查这位年轻人的安全和健康，并在必要时提供支持或帮助，以防止未来再摔倒。"
+    },
+    "1": {
+      "risk_description": "可以看到穿红色衬衫的人从沙发上摔到地板上，这因撞击而有受伤的风险。",
+      "normal_video_description": "视频显示一间客厅，里面有沙发、茶几和椅子。一位穿红色衬衫的人走进来，坐在沙发上，然后摔到地上。另一个人短暂与他们互动。",
+      "solution_for_person": "确保此人正确坐在沙发上，避免可能导致摔倒的突然动作。",
+      "solution_for_hazard_source": "",
+      "solution_to_prevent_recurrence": ""
+    },
+    "2": {
+      "risk_description": "",
+      "normal_video_description": "一个人走进客厅，坐在沙发上，然后起身在房间里走动。稍后另一个人进入房间。环境看起来是一个标准的室内场景，里面有家具和设备。",
+      "solution_for_person": "",
+      "solution_for_hazard_source": "",
+      "solution_to_prevent_recurrence": ""
+    },
+    "3": {
+      "risk_description": "可以看到穿红色衬衫的人弯腰并在茶几周围移动，这可能导致摔倒或碰撞，特别是如果他们失去平衡。",
+      "normal_video_description": "",
+      "solution_for_person": "确保此人了解周围环境，移动时要小心，以避免绊倒或摔倒。",
+      "solution_for_hazard_source": "清理茶几周围的区域，以减少障碍物和潜在危险。",
+      "solution_to_prevent_recurrence": "重新布置家具以创建更安全的行走路径，并确保该区域光线充足，以提高可见性。"
+    },
+    "4": {
+      "risk_description": "",
+      "normal_video_description": "视频显示客厅里有人进来坐在沙发上，然后站起来走开。场景中没有明显的风险或危险。",
+      "solution_for_person": "",
+      "solution_for_hazard_source": "",
+      "solution_to_prevent_recurrence": ""
+    }
+  }
+}

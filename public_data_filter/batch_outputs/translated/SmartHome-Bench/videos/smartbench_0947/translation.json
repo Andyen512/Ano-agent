@@ -1,0 +1,40 @@
+{
+  "video_key": "SmartHome-Bench/videos/smartbench_0947",
+  "translations": {
+    "0": {
+      "risk_description": "熊正在攀爬阳台的栏杆，如果它失去抓力或平衡可能会导致跌落。",
+      "normal_video_description": "",
+      "solution_for_person": "视频中没有可见的人，所以没有人可以提供帮助。但是，如果有人在场，他们应该远离熊，避免任何可能惊吓到熊的突然动作。",
+      "solution_for_hazard_source": "视频中没有可见的危险源，但熊的行为对阳台上任何人的安全都构成风险。",
+      "solution_to_prevent_recurrence": "确保阳台栏杆牢固安全以防止动物攀爬非常重要。此外，建议保持阳台区域没有食物和其他引诱物，以阻止动物靠近。"
+    },
+    "1": {
+      "risk_description": "熊正以后腿站立，靠在阳台的木制栏杆上，这存在熊失去平衡并从平台跌落的风险。",
+      "normal_video_description": "一只熊在木制平台上，可以看到它在和栏杆及鸟食器互动。",
+      "solution_for_person": "",
+      "solution_for_hazard_source": "",
+      "solution_to_prevent_recurrence": ""
+    },
+    "2": {
+      "risk_description": "",
+      "normal_video_description": "一只黑熊走到木制平台上，用后腿站立望向栏杆，然后绕过露台家具后离开。这种行为与自然探索相符，没有表现出明显或直接的危险。",
+      "solution_for_person": "",
+      "solution_for_hazard_source": "",
+      "solution_to_prevent_recurrence": ""
+    },
+    "3": {
+      "risk_description": "熊正在攀爬并站在阳台栏杆上，如果它失去平衡则有跌落的风险，尤其是附近可能有脆弱的个体。",
+      "normal_video_description": "",
+      "solution_for_person": "确保脆弱个体与阳台保持安全距离并密切监督。",
+      "solution_for_hazard_source": "加固阳台栏杆以防止攀爬，必要时安装防熊屏障。",
+      "solution_to_prevent_recurrence": "安装运动感应灯或警报器以阻止野生动物靠近阳台区域。"
+    },
+    "4": {
+      "risk_description": "熊正在攀爬阳台的栏杆，这可能导致跌落并造成严重伤害。",
+      "normal_video_description": "",
+      "solution_for_person": "与熊保持安全距离，避免靠近它。",
+      "solution_for_hazard_source": "清除任何熊可能用来攀爬的潜在危险物品或物体。",
+      "solution_to_prevent_recurrence": "在阳台周围安装牢固的围栏或屏障，以防止熊将来进入。"
+    }
+  }
+}

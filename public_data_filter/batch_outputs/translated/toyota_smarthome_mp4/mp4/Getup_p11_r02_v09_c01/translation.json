@@ -1,0 +1,40 @@
+{
+  "video_key": "toyota_smarthome_mp4/mp4/Getup_p11_r02_v09_c01",
+  "translations": {
+    "0": {
+      "risk_description": "老年人把椅子当作脚凳使用，以够到桌上的笔记本电脑，这存在潜在的跌倒危险。",
+      "normal_video_description": "老年人在餐厅里把椅子当作脚凳使用，以够到桌上的笔记本电脑。",
+      "solution_for_person": "护理人员应协助老年人使用合适的脚凳或带有扶手和防滑底的椅子，以确保其稳定。",
+      "solution_for_hazard_source": "护理人员应确保用作脚凳的椅子稳固，并配有扶手和防滑底。",
+      "solution_to_prevent_recurrence": "护理人员应定期检查椅子的稳定性，确保其状况良好，以防再次跌倒。"
+    },
+    "1": {
+      "risk_description": "老年人站在高桌边缘附近，这会增加失去平衡和跌倒的风险，可能导致受伤。",
+      "normal_video_description": "一位老人在书房区域的高桌上使用笔记本电脑，随后离开桌子。",
+      "solution_for_person": "确保老年人坐在离高家具边缘较远的位置，以降低跌倒风险。",
+      "solution_for_hazard_source": "降低桌子高度或提供带扶手的椅子以支撑稳定性。",
+      "solution_to_prevent_recurrence": "在地板上安装防滑垫，并在需要时确保老年人使用辅助器具。"
+    },
+    "2": {
+      "risk_description": "",
+      "normal_video_description": "一位老人坐在餐桌旁使用笔记本电脑，随后起身离开。该场景展示的是在家居环境中的正常日常活动，未见明显风险或异常。",
+      "solution_for_person": "",
+      "solution_for_hazard_source": "",
+      "solution_to_prevent_recurrence": ""
+    },
+    "3": {
+      "risk_description": "老年人在使用助行器，在餐桌区域移动时若失去平衡存在不稳或跌倒的风险。",
+      "normal_video_description": "",
+      "solution_for_person": "确保老年人在使用时正确操作助行器，必要时提供支持。",
+      "solution_for_hazard_source": "清理餐桌区域，以提供更多空间并减少绊倒危险。",
+      "solution_to_prevent_recurrence": "在餐桌附近放置防滑垫，并确保助行器始终在触手可及的地方。"
+    },
+    "4": {
+      "risk_description": "老年人正弯腰俯在桌子上，若不小心可能导致跌倒。跌倒尤其对老年人可能导致严重伤害。",
+      "normal_video_description": "",
+      "solution_for_person": "确保该人在从桌子起身前具有良好的平衡和支撑。可考虑使用带扶手的椅子提供额外支撑。",
+      "solution_for_hazard_source": "",
+      "solution_to_prevent_recurrence": "鼓励需要时使用助行器或拐杖等辅助器具，并确保桌子周围区域无绊倒危险。"
+    }
+  }
+}

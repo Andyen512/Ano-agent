@@ -1,0 +1,40 @@
+{
+  "video_key": "labimag/dataset/chute20/cam7",
+  "translations": {
+    "0": {
+      "risk_description": "视频中的年轻人试图搬动沙发，结果失去平衡摔倒在地板上。这种行为偏离了正常的搬家具活动，且因跌倒存在受伤风险。",
+      "normal_video_description": "",
+      "solution_for_person": "应建议该人使用正确的搬运技巧，并在搬运重物时寻求帮助，以防止跌倒和受伤。",
+      "solution_for_hazard_source": "危险源是沙发，搬动时应小心谨慎，必要时寻求帮助。",
+      "solution_to_prevent_recurrence": "应教育该人掌握正确的搬运技巧，以及在搬运重物时寻求帮助的重要性，以防止将来跌倒和受伤。"
+    },
+    "1": {
+      "risk_description": "该人躺在沙发旁边的瓷砖地板上，这不是稳定的或指定的睡眠区域。这种行为增加了滑倒、跌倒或因坚硬表面和缺乏支撑而受伤的风险。",
+      "normal_video_description": "视频显示了一个办公室或学习区域，有桌子、椅子和沙发。一位穿红衬衫的人进入，走过沙发，躺在旁边的瓷砖地板上，而另一个人在背景中的桌子前工作。",
+      "solution_for_person": "避免在办公室或学习环境中躺在地板上，因为那里的稳定性和安全性无法保证。",
+      "solution_for_hazard_source": "移除或固定沙发，防止其成为障碍物或造成困住。",
+      "solution_to_prevent_recurrence": "指定安全的睡眠或休息区域，远离坚硬表面和潜在的绊倒危险。"
+    },
+    "2": {
+      "risk_description": "一个年轻人走进房间，试图坐在一张低矮的扶手椅上，失去平衡摔倒在地板上。这个动作清楚地展示了失稳导致的跌倒。",
+      "normal_video_description": "",
+      "solution_for_person": "该人应立即起身并检查是否受伤。如果疼痛或头晕持续，应寻求医疗帮助。",
+      "solution_for_hazard_source": "确保家具稳固，并以尽量减少坐下时倾倒或跌倒风险的方式放置。",
+      "solution_to_prevent_recurrence": "通过锻炼提高平衡和协调能力，并在与可能无法提供足够支撑的家具互动时保持谨慎。"
+    },
+    "3": {
+      "risk_description": "年轻人在试图与豆袋椅互动时摔倒在地板上，这可能造成受伤风险，特别是对行动不便或平衡问题的人。",
+      "normal_video_description": "",
+      "solution_for_person": "确保年轻人意识到周围环境，并考虑使用更稳定的座位选项以防止跌倒。",
+      "solution_for_hazard_source": "移除或固定豆袋椅，防止其倾倒。",
+      "solution_to_prevent_recurrence": "在地板上放置防滑垫或垫子，以降低滑倒和跌倒的风险。"
+    },
+    "4": {
+      "risk_description": "穿红衬衫的人试图坐在豆袋椅上，但向后摔倒，表明因不稳定存在受伤风险。如果不小心，这种行为可能导致瘀伤或扭伤等轻微伤害。",
+      "normal_video_description": "视频显示一个办公室环境，一个人坐在桌前使用电脑。另一人进入房间，试图坐在豆袋椅上，但向后摔倒。",
+      "solution_for_person": "确保豆袋椅放置在稳固的表面上，并考虑使用靠背支撑以增加稳定性。",
+      "solution_for_hazard_source": "",
+      "solution_to_prevent_recurrence": "定期检查豆袋椅是否有磨损或不稳定的迹象，必要时更换。"
+    }
+  }
+}

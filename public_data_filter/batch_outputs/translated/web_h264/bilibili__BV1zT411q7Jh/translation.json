@@ -1,0 +1,40 @@
+{
+  "video_key": "web_h264/bilibili__BV1zT411q7Jh",
+  "translations": {
+    "0": {
+      "risk_description": "孩子被成年人抱着，且孩子在四处移动，可能导致不稳定并可能跌倒。",
+      "normal_video_description": "",
+      "solution_for_person": "成人应确保孩子被牢牢抱住，且不允许其过度活动。",
+      "solution_for_hazard_source": "餐桌和椅子的摆放应防止孩子够到它们并导致不稳定。",
+      "solution_to_prevent_recurrence": "成人应始终保持警惕，确保孩子在进餐时安全地被抱住，不被允许过度活动。"
+    },
+    "1": {
+      "risk_description": "孩子在进餐时噎到食物，可能导致呼吸困难或窒息。",
+      "normal_video_description": "一家人在餐厅一起用餐时，孩子开始噎到食物，促使看护者进行紧急应对。",
+      "solution_for_person": "当孩子出现噎食迹象时，看护者立即实施海姆利克急救法。",
+      "solution_for_hazard_source": "",
+      "solution_to_prevent_recurrence": "确保在用餐期间有适当的监督，并向所有家庭成员传授防噎技巧。"
+    },
+    "2": {
+      "risk_description": "孩子在餐桌旁进食时噎到食物，这是一种危及生命的紧急情况，需要立即干预。",
+      "normal_video_description": "",
+      "solution_for_person": "立即执行海姆利克急救法以解除阻塞。",
+      "solution_for_hazard_source": "确保将食物切成适合孩子的小块，以防止噎食。",
+      "solution_to_prevent_recurrence": "对看护者进行防噎和急救教育，并在用餐时密切监督孩子。"
+    },
+    "3": {
+      "risk_description": "孩子试图站起来求助，这可能导致跌倒或不稳定，尤其是在看护者不能立即提供帮助时。",
+      "normal_video_description": "",
+      "solution_for_person": "确保孩子在尝试站立或移动时受到密切监督和支撑。",
+      "solution_for_hazard_source": "重新布置餐厅区域，提供更稳定的座位选择，并确保孩子有畅通的通道。",
+      "solution_to_prevent_recurrence": "为孩子制定在尝试独立站立或移动前发出求助信号的常规流程。"
+    },
+    "4": {
+      "risk_description": "视频中显示一个孩子在餐桌旁，存在孩子在高脚椅上跌倒或失去平衡的风险，可能导致严重伤害。",
+      "normal_video_description": "",
+      "solution_for_person": "确保孩子在高脚椅中坐得稳固，且椅子稳固且位置恰当。",
+      "solution_for_hazard_source": "",
+      "solution_to_prevent_recurrence": "定期检查高脚椅的稳定性，确保其状况良好。"
+    }
+  }
+}

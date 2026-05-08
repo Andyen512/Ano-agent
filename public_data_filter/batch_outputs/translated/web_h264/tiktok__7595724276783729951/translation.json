@@ -1,0 +1,40 @@
+{
+  "video_key": "web_h264/tiktok__7595724276783729951",
+  "translations": {
+    "0": {
+      "risk_description": "可以看到一只猫跳到厨房的炉子上，这可能造成火灾隐患。炉子正在开着，台面上有各种物品，包括锅和水壶，如果无人看管也可能构成火灾风险。",
+      "normal_video_description": "",
+      "solution_for_person": "应立即关闭炉子，并将台面上任何易燃物品移走，以防止火灾。",
+      "solution_for_hazard_source": "不使用时应关闭炉子，并将所有易燃物品从台面上清除。",
+      "solution_to_prevent_recurrence": "应提醒人员在烹饪结束后关闭炉子并将台面上的易燃物品移走。"
+    },
+    "1": {
+      "risk_description": "猫与炉子互动，可能将其打开并引发火灾，导致烧伤、吸入烟雾和财产损失的风险。",
+      "normal_video_description": "视频显示一只猫在凌乱的厨房里与炉子互动，最终引发火灾。",
+      "solution_for_person": "确保在无人看管时，将宠物远离炉子及其他热源/火源。",
+      "solution_for_hazard_source": "安装炉子锁或在不使用时将炉子置于关闭状态，以防止意外启动。",
+      "solution_to_prevent_recurrence": "教育家庭成员注意让宠物无人看管靠近烹饪设备的危险，并安装安全装置。"
+    },
+    "2": {
+      "risk_description": "一只猫跳上炉子并打开燃烧器，引燃附近的易燃材料并导致火灾。这种行为明显超出正常宠物活动，构成了危险的火灾隐患。",
+      "normal_video_description": "",
+      "solution_for_person": "立即关闭炉子，使用灭火器或小苏打扑灭火源，如果火势蔓延则撤离该区域。",
+      "solution_for_hazard_source": "安装炉子护栏或儿童/宠物安全锁，防止动物接触炉子控制装置。",
+      "solution_to_prevent_recurrence": "在无人看管时保持炉子旋钮被覆盖或不可触及，并在烹饪时确保宠物受到监督或限制进入厨房区域。"
+    },
+    "3": {
+      "risk_description": "可以看到一只猫打开炉子，导致火灾。这对现场的任何人都构成了显著的火灾暴露风险和潜在伤害，尤其是儿童或宠物等脆弱对象。",
+      "normal_video_description": "",
+      "solution_for_person": "确保不使用时关闭炉子，并将易燃物品远离炉子。",
+      "solution_for_hazard_source": "安装炉子护栏或互锁系统，以防止在未检测到宠物的情况下打开炉子。",
+      "solution_to_prevent_recurrence": "采取防宠物措施，如在烹饪时将宠物关在厨房外，或使用炉子护栏，以防止意外火灾。"
+    },
+    "4": {
+      "risk_description": "视频显示厨房中的炉子起火，可能导致严重烧伤或财产损失，现场人员面临被火灾伤害的风险。",
+      "normal_video_description": "",
+      "solution_for_person": "立即撤离该区域并拨打紧急救援电话。",
+      "solution_for_hazard_source": "关闭炉子，如可能则拔掉电源插头。",
+      "solution_to_prevent_recurrence": "定期检查和维护厨房电器，以防止火灾。"
+    }
+  }
+}

@@ -1,0 +1,40 @@
+{
+  "video_key": "labimag/dataset/chute19/cam1",
+  "translations": {
+    "0": {
+      "risk_description": "视频中看到这位年轻人试图搬动一张沉重的棕色扶手椅，结果失去平衡摔倒在地。这种行为偏离了搬动家具的日常正常活动，且有受伤风险。",
+      "normal_video_description": "",
+      "solution_for_person": "建议当事人在搬动重型家具时寻求他人帮助，以防止跌倒和受伤。",
+      "solution_for_hazard_source": "不需要对危险源采取具体解决方案，但个人在搬动重物时应保持谨慎。",
+      "solution_to_prevent_recurrence": "应向个人传授正确的搬运技巧以及在搬动重物时寻求帮助的重要性，以防止将来跌倒和受伤。"
+    },
+    "1": {
+      "risk_description": "穿红衬衫的人撞到并倒在一把大棕色扶手椅上，可能会因撞击或被困在椅子下而受伤。",
+      "normal_video_description": "一名穿红衬衫的人走进客厅，撞到一把大棕色扶手椅，摔倒在地，并在其他人来回走动的背景下艰难站起。",
+      "solution_for_person": "避免以可能导致碰撞或跌倒的方式靠近或与家具互动。",
+      "solution_for_hazard_source": "确保大型家具摆放在人流量大的区域之外，以防止意外碰撞。",
+      "solution_to_prevent_recurrence": "将扶手椅移到更安全的位置，使其不易被意外撞到。"
+    },
+    "2": {
+      "risk_description": "一个年轻人走进房间，走向低矮的沙发，失去平衡向后摔倒在地。该动作表明明显的失稳导致跌倒。",
+      "normal_video_description": "",
+      "solution_for_person": "当事人应立即站起并检查是否受伤。如果疼痛或头晕持续，应就医。",
+      "solution_for_hazard_source": "确保地面没有障碍物，家具稳固。",
+      "solution_to_prevent_recurrence": "通过锻炼改善平衡和协调能力。在走动时要格外小心，尤其在不熟悉的环境中。"
+    },
+    "3": {
+      "risk_description": "穿红衬衫的人在家具周围移动时似乎失去平衡而跌倒，这可能导致受伤风险，尤其对行动不便或平衡有问题的人更为危险。",
+      "normal_video_description": "",
+      "solution_for_person": "行人应确保在家具周围移动时保持稳定的姿势，以防止跌倒。",
+      "solution_for_hazard_source": "重新布置家具，创造更畅通的通道，减少绊倒危险。",
+      "solution_to_prevent_recurrence": "实施安全措施，如改善照明和使用防滑地板，以降低跌倒风险。"
+    },
+    "4": {
+      "risk_description": "视频中的人正站在椅子上尝试保持平衡，这是一种危险行为，可能导致跌倒和潜在伤害。",
+      "normal_video_description": "",
+      "solution_for_person": "确保该人不尝试在椅子等不稳固的家具上保持平衡或进行任何危险行为。",
+      "solution_for_hazard_source": "将椅子移离该区域以防止事故。",
+      "solution_to_prevent_recurrence": "教育个人了解在不稳固家具上保持平衡的危险，并在办公环境中推广安全行为。"
+    }
+  }
+}

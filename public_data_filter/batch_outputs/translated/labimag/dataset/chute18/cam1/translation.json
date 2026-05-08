@@ -1,0 +1,40 @@
+{
+  "video_key": "labimag/dataset/chute18/cam1",
+  "translations": {
+    "0": {
+      "risk_description": "视频中的年轻人被看到走过房间，然后突然摔倒。这种行为在正常的办公室活动中并不典型，可能会导致受伤。",
+      "normal_video_description": "",
+      "solution_for_person": "此人在穿过房间时应更加小心，以避免绊倒或滑倒。",
+      "solution_for_hazard_source": "应检查办公室环境是否存在可能导致绊倒或滑倒的潜在危险，例如电线或松动的地板。",
+      "solution_to_prevent_recurrence": "应提醒此人在穿过房间时要更加小心，并向办公室管理人员报告他们发现的任何危险。"
+    },
+    "1": {
+      "risk_description": "此人趴伏在瓷砖地板上，这增加了滑倒、进一步跌倒或因坚硬表面而受伤的风险。",
+      "normal_video_description": "一个穿红衬衫的人走进教室，坐在地板上，趴下，然后拿起一个物体站起来走开。",
+      "solution_for_person": "避免在光滑、坚硬的地面上无人监督地趴伏。",
+      "solution_for_hazard_source": "确保地面没有障碍物并有防滑表面。",
+      "solution_to_prevent_recurrence": "监督涉及躺在地板上的活动，并在必要时提供缓冲垫。"
+    },
+    "2": {
+      "risk_description": "",
+      "normal_video_description": "一个年轻人走进一个地板上有网格的房间，坐在椅子上，然后躺在地板上再站起来。该环境似乎是配有桌子和设备的学习室或实验室。",
+      "solution_for_person": "",
+      "solution_for_hazard_source": "",
+      "solution_to_prevent_recurrence": ""
+    },
+    "3": {
+      "risk_description": "视频中的人被看到躺在地板上，然后试图站起来，如果他们失去平衡或在瓷砖地板上滑倒，可能会造成跌倒风险。",
+      "normal_video_description": "",
+      "solution_for_person": "此人应确保有一个稳定的表面来支撑自己起身，并避免可能导致跌倒的突然动作。",
+      "solution_for_hazard_source": "地面应保持没有障碍物，并可能覆盖防滑垫以减少滑倒危险。",
+      "solution_to_prevent_recurrence": "实施防滑地板，并确保该区域没有潜在的绊倒危险，以最大程度地减少跌倒风险。"
+    },
+    "4": {
+      "risk_description": "穿红衬衫的人被看到跑过房间，然后摔倒在地上，这可能会导致严重伤害。这次跌倒看起来是意外而非故意的。",
+      "normal_video_description": "",
+      "solution_for_person": "确保此人穿着具有良好抓地力的合适鞋类，以防止滑倒和跌倒。",
+      "solution_for_hazard_source": "清除地面上任何潜在的绊倒危险，例如电线或松散的物体。",
+      "solution_to_prevent_recurrence": "鼓励此人缓慢而小心地行走，尤其是在光滑的表面上，并在可用时使用扶手。"
+    }
+  }
+}

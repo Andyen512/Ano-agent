@@ -1,0 +1,40 @@
+{
+  "video_key": "UR_Fall_Dataset/fall-21-cam1",
+  "translations": {
+    "0": {
+      "risk_description": "年轻人在餐厅里行走，看起来不稳定，可能会导致跌倒并受伤。",
+      "normal_video_description": "年轻人在餐厅里行走，看起来很稳定。",
+      "solution_for_person": "护理人员应确保年轻人状态稳定，并在需要时提供帮助。",
+      "solution_for_hazard_source": "护理人员应确保餐厅地面没有任何绊倒危险。",
+      "solution_to_prevent_recurrence": "护理人员应监测年轻人的行动，必要时提供帮助，以防止再次跌倒。"
+    },
+    "1": {
+      "risk_description": "该人躺在有家具的房间里，这增加了跌入或卡在物体之间的风险，可能导致受伤。",
+      "normal_video_description": "视频显示一个人躺在有椅子和桌子的房间里，由于家具的存在，存在跌倒危险。",
+      "solution_for_person": "避免在有家具的房间里躺在地板上，以防止绊倒或跌入物体下方。",
+      "solution_for_hazard_source": "移除或重新摆放家具，以腾出更多空间，降低碰撞或卡住的风险。",
+      "solution_to_prevent_recurrence": "确保该人了解在杂乱区域躺在地板上的风险，并鼓励他们转移到更安全的地方。"
+    },
+    "2": {
+      "risk_description": "视频中看到一个孩子在奔跑后倒在地板上，表明失去平衡并跌倒。",
+      "normal_video_description": "",
+      "solution_for_person": "应检查孩子是否受伤并给予安慰。",
+      "solution_for_hazard_source": "确保该区域没有可能导致孩子绊倒或跌倒的障碍物和危险。",
+      "solution_to_prevent_recurrence": "密切看护孩子，并清除游乐区域中的任何潜在危险。"
+    },
+    "3": {
+      "risk_description": "视频中看到一个孩子倒在地板上，可能导致受伤，尤其是如果落地姿势不稳。",
+      "normal_video_description": "",
+      "solution_for_person": "确保孩子得到密切看护，以防止跌倒。",
+      "solution_for_hazard_source": "清除地面上的任何障碍物或绊倒危险。",
+      "solution_to_prevent_recurrence": "创建一个没有绊倒危险的安全游戏区域，并确保持续看护。"
+    },
+    "4": {
+      "risk_description": "",
+      "normal_video_description": "视频显示一个办公室环境，有桌子、椅子和桌子上的一些物品。场景中没有可见的风险或危险活动。",
+      "solution_for_person": "",
+      "solution_for_hazard_source": "",
+      "solution_to_prevent_recurrence": ""
+    }
+  }
+}

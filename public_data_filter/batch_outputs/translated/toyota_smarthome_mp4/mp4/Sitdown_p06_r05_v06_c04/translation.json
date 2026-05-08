@@ -1,0 +1,40 @@
+{
+  "video_key": "toyota_smarthome_mp4/mp4/Sitdown_p06_r05_v06_c04",
+  "translations": {
+    "0": {
+      "risk_description": "老年人弯腰伸手去拿地板上的物品，这可能导致他们失去平衡而摔倒。客厅里有一块地毯，也可能增加滑倒的风险。",
+      "normal_video_description": "",
+      "solution_for_person": "护理人员应帮助老年人站起来并提供支撑，以防止跌倒。",
+      "solution_for_hazard_source": "客厅的地毯应移除或使其不易滑动，以降低跌倒风险。",
+      "solution_to_prevent_recurrence": "护理人员应定期检查客厅是否有潜在危险，并确保老年人在房间内移动时有适当的支撑。"
+    },
+    "1": {
+      "risk_description": "",
+      "normal_video_description": "老年人在客厅的茶几上整理物品，然后坐在绿色的大号沙发上，手里拿着一个小物件。",
+      "solution_for_person": "",
+      "solution_for_hazard_source": "",
+      "solution_to_prevent_recurrence": ""
+    },
+    "2": {
+      "risk_description": "",
+      "normal_video_description": "在客厅里可以看到一位老年人先弯腰在绿色沙发上，然后坐下。环境显得平静整洁，没有可见的危险或危险活动。",
+      "solution_for_person": "",
+      "solution_for_hazard_source": "",
+      "solution_to_prevent_recurrence": ""
+    },
+    "3": {
+      "risk_description": "老年人在弯腰时手握杯子，这可能因不稳或失去平衡而导致摔倒。",
+      "normal_video_description": "",
+      "solution_for_person": "确保老年人在握着杯子时坐下，以防止跌倒。",
+      "solution_for_hazard_source": "移除地面上的障碍物以减少绊倒危险。",
+      "solution_to_prevent_recurrence": "当老年人需要弯腰去拿地板上的物品时，提供支撑或帮助。"
+    },
+    "4": {
+      "risk_description": "老年人弯腰去捡卷纸，这如果失去平衡可能导致摔倒。该动作存在滑倒或绊倒的风险，可能导致受伤。",
+      "normal_video_description": "视频显示一位老年人在客厅里弯腰捡起地板上的卷纸。",
+      "solution_for_person": "确保区域无障碍物，并在老年人捡东西时提供支撑或帮助，以帮助他们保持平衡。",
+      "solution_for_hazard_source": "",
+      "solution_to_prevent_recurrence": "在老年人可能跌倒的区域鼓励使用扶手或防滑垫。"
+    }
+  }
+}

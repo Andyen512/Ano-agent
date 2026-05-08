@@ -1,0 +1,40 @@
+{
+  "video_key": "web_h264/1岁女童摔倒对着监控喊爸爸，父亲看后难受一下午～～～ 1岁留守女童摔倒对着监控喊爸爸，远在他乡的父亲隔着屏幕红了眼。这一声“爸爸”，是孩子最无助的呼唤，也是父母最深",
+  "translations": {
+    "0": {
+      "risk_description": "视频中的孩子正坐在升高的平台边缘，这是一个潜在的跌落危险。孩子似乎有失去平衡并从平台边缘掉落的风险。",
+      "normal_video_description": "",
+      "solution_for_person": "看护人应确保孩子受到监督，且在升高的平台边缘附近不被单独留下。他们还应为孩子提供支撑和帮助，以防止跌落。",
+      "solution_for_hazard_source": "升高的平台应通过安装屏障或栏杆来提升安全性，以防止跌落。平台的表面也应采用防滑处理，以降低滑倒和跌倒的风险。",
+      "solution_to_prevent_recurrence": "看护人应定期检查升高平台的安全性，确保其稳固可靠。他们还应教育孩子坐在平台边缘的危险以及远离潜在跌落危险的重要性。"
+    },
+    "1": {
+      "risk_description": "一名幼儿正躺在倾斜的混凝土表面上，无法自行站起，若无人帮助，长时间不动会带来潜在受伤风险。",
+      "normal_video_description": "可以看到一名幼儿躺在倾斜的混凝土表面上，无法站起，文字叠加描述了情况以及孩子无法移动的状态。",
+      "solution_for_person": "应为孩子配备成人监督和帮助，以防止在斜面上长时间不动。",
+      "solution_for_hazard_source": "应监测倾斜的混凝土表面，确保儿童不在无人监督的情况下攀爬或躺在上面。",
+      "solution_to_prevent_recurrence": "在儿童靠近斜坡或不平坦表面时，确保有持续的成人监护，并教育儿童了解在这些表面上攀爬或躺卧的危险。"
+    },
+    "2": {
+      "risk_description": "看到一名幼儿在跌倒后无法站立，仍留在地面上，显示出跌倒和不稳定的风险。孩子在院子里被单独留下，没有及时帮助，这增加了危险程度。",
+      "normal_video_description": "",
+      "solution_for_person": "成人应立即检查孩子的情况，确保他们没有受伤，并提供安慰和支持。",
+      "solution_for_hazard_source": "移除任何可能导致孩子绊倒或跌倒的物体，并确保院子没有危险物品。",
+      "solution_to_prevent_recurrence": "在儿童可以进入的区域安装栏杆或屏障等安全措施，并密切监督儿童，以防止跌落。"
+    },
+    "3": {
+      "risk_description": "孩子反复跌倒并挣扎站起，可能因反复跌倒而导致受伤。",
+      "normal_video_description": "",
+      "solution_for_person": "确保对孩子进行密切监督以防止跌倒，并在需要时提供帮助。",
+      "solution_for_hazard_source": "清除该区域中任何可能导致孩子绊倒或跌倒的障碍物。",
+      "solution_to_prevent_recurrence": "创建一个没有绊倒危险的儿童安全玩耍区，并确保持续的监督。"
+    },
+    "4": {
+      "risk_description": "孩子有从阳台跌落的危险，可能导致严重伤害甚至死亡。",
+      "normal_video_description": "视频显示一个孩子在阳台上玩耍，文字叠加提供了与该行为相关的潜在风险的说明。",
+      "solution_for_person": "确保孩子在阳台上始终受到监督，绝不被单独留在阳台。安装坚固的栏杆或屏障以防止跌落。",
+      "solution_for_hazard_source": "",
+      "solution_to_prevent_recurrence": "定期检查阳台的安全设施并进行必要的维修或升级，以防止未来事故的发生。"
+    }
+  }
+}

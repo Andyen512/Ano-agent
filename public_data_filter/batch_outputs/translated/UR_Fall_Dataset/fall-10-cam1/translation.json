@@ -1,0 +1,40 @@
+{
+  "video_key": "UR_Fall_Dataset/fall-10-cam1",
+  "translations": {
+    "0": {
+      "risk_description": "视频中的年轻人正在进行高能量活动，如跳跃或翻转，地点在客厅。这种行为偏离了正常坐着或稳定站立的日常活动。跌倒或失去平衡的风险很高，特别是如果此人没有穿合适的鞋子或地板很滑。",
+      "normal_video_description": "",
+      "solution_for_person": "应建议此人在客厅进行低冲击活动，以降低跌倒或受伤的风险。",
+      "solution_for_hazard_source": "应通过移除任何绊倒危险（如电线或杂物）并确保地板干净干燥来使客厅更安全。",
+      "solution_to_prevent_recurrence": "应鼓励此人在更合适的场所（如健身房或公园）进行体育活动，因为那里的跌倒或受伤风险较低。此外，应建议此人穿合适的鞋子，并在进行体育活动时注意周围环境。"
+    },
+    "1": {
+      "risk_description": "此人正躺在办公室或书房的地板上，这不是躺着睡觉的典型或安全的地方。这种行为可能导致摔倒或难以站起，可能造成伤害。",
+      "normal_video_description": "一个穿蓝色衬衫的人从站立变为躺在铺有地毯的地板上，看起来是在办公室或书房，可以看到桌子和椅子。",
+      "solution_for_person": "此人应避免躺在办公室或书房的地板上，而应使用合适的家具坐着或休息。",
+      "solution_for_hazard_source": "确保地板没有绊倒危险，并提供椅子或床供坐着或躺下。",
+      "solution_to_prevent_recurrence": "教育此人关于在办公室/书房环境中躺在地板上的风险，并鼓励使用指定的座位区域。"
+    },
+    "2": {
+      "risk_description": "此人在站立时失去平衡，向后倒在地上，表明发生了明显的不稳定事件，超过了正常活动。",
+      "normal_video_description": "",
+      "solution_for_person": "此人应立即起身，检查是否受伤，如有头晕应坐下或躺下。",
+      "solution_for_hazard_source": "确保地板没有障碍物，并在需要时提供稳定的座位或扶手。",
+      "solution_to_prevent_recurrence": "如果此人有潜在的行动问题，应改善平衡训练或使用辅助设备。"
+    },
+    "3": {
+      "risk_description": "此人似乎正在失去平衡并倒在地板上，这可能构成伤害风险，特别是如果他们行动受限或正在从疾病中恢复。",
+      "normal_video_description": "",
+      "solution_for_person": "确保此人在摔倒后得到支撑，并检查是否有伤害。",
+      "solution_for_hazard_source": "清除地板上任何可能造成绊倒的危险物品。",
+      "solution_to_prevent_recurrence": "改善照明，确保通道清晰，以减少绊倒风险。"
+    },
+    "4": {
+      "risk_description": "此人正坐在地板上，这可能表明摔倒或稳定性风险。附近还有一把椅子，可能会增加摔倒风险。",
+      "normal_video_description": "",
+      "solution_for_person": "确保此人坐得稳定安全，防止摔倒。",
+      "solution_for_hazard_source": "从该区域移除任何潜在的绊倒危险或不稳定的家具。",
+      "solution_to_prevent_recurrence": "提供关于安全坐立技巧的适当培训，以减少摔倒风险。"
+    }
+  }
+}

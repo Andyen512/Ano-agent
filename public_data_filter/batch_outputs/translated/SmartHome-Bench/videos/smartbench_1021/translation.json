@@ -1,0 +1,40 @@
+{
+  "video_key": "SmartHome-Bench/videos/smartbench_1021",
+  "translations": {
+    "0": {
+      "risk_description": "由于孩子的位置和缺乏安全措施，孩子有从床上摔下来的风险。",
+      "normal_video_description": "",
+      "solution_for_person": "确保孩子受到监督，并采取适当的安全措施，如安装护栏或安全网。",
+      "solution_for_hazard_source": "在床周围安装护栏或安全网，防止孩子坠落。",
+      "solution_to_prevent_recurrence": "定期检查现有的安全措施，确保其正常运行，以防止未来发生坠落。"
+    },
+    "1": {
+      "risk_description": "孩子坐在床边，有坠落受伤的风险。",
+      "normal_video_description": "一个孩子躺在床上，旁边有一只狗，然后孩子坐到床边。",
+      "solution_for_person": "确保孩子受到监督，并轻轻将他们移到远离床边更安全的位置。",
+      "solution_for_hazard_source": "",
+      "solution_to_prevent_recurrence": "安装床栏以防止孩子从床上滚落。"
+    },
+    "2": {
+      "risk_description": "",
+      "normal_video_description": "视频显示一个孩子躺在床上，一只大狗与他们互动。狗在孩子周围移动，孩子坐起来环顾四周。这个场景似乎是孩子和宠物在卧室里的正常互动。",
+      "solution_for_person": "",
+      "solution_for_hazard_source": "",
+      "solution_to_prevent_recurrence": ""
+    },
+    "3": {
+      "risk_description": "孩子坐在床上，床可能不稳定，存在坠落风险，尤其是当他们试图站立或突然移动时。",
+      "normal_video_description": "",
+      "solution_for_person": "确保孩子在床上时受到监督，并教导他们小心移动以防止坠落。",
+      "solution_for_hazard_source": "使用稳定安全的表面供孩子玩耍，必要时考虑使用床栏。",
+      "solution_to_prevent_recurrence": "保持床周围没有障碍物，确保孩子无法接触到不稳定的表面。"
+    },
+    "4": {
+      "risk_description": "",
+      "normal_video_description": "视频显示一个孩子躺在床上，盖着一条花卉图案的毯子，似乎在睡觉。场景中没有可见的风险或危险行为。",
+      "solution_for_person": "",
+      "solution_for_hazard_source": "",
+      "solution_to_prevent_recurrence": ""
+    }
+  }
+}

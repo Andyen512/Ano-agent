@@ -1,0 +1,40 @@
+{
+  "video_key": "toyota_smarthome_mp4/mp4/Getup_p04_r02_v13_c01",
+  "translations": {
+    "0": {
+      "risk_description": "老年人因姿势不稳定且椅子缺乏支撑而有跌倒风险。",
+      "normal_video_description": "老年人坐在餐桌旁，似乎感到不适。随后他们站起来开始离开餐桌，但姿势不稳定，似乎有跌倒风险。",
+      "solution_for_person": "护理人员应协助老年人正确坐下，并提供支撑以防止跌倒。",
+      "solution_for_hazard_source": "餐桌和椅子的摆放应能够为老年人提供更好的支撑和稳定性。",
+      "solution_to_prevent_recurrence": "护理人员应定期检查老年人的稳定性，并根据需要提供支撑以防止未来跌倒。"
+    },
+    "1": {
+      "risk_description": "这个人从椅子上站起来时一只手扶着椅背，另一只手靠近脸部，这可能导致失去平衡而跌倒。",
+      "normal_video_description": "老年人在办公室/学习区的桌旁坐着，然后从椅子上站起来。",
+      "solution_for_person": "确保此人缓慢且安全地站起来，必要时用双手支撑。",
+      "solution_for_hazard_source": "",
+      "solution_to_prevent_recurrence": "鼓励站立时使用扶手，并确保椅子稳定。"
+    },
+    "2": {
+      "risk_description": "",
+      "normal_video_description": "老年人坐在现代房间的餐桌旁，似乎在打电话或交谈。然后此人从椅子上站起来并离开餐桌。环境整洁，没有可见的危险或危险活动。",
+      "solution_for_person": "",
+      "solution_for_hazard_source": "",
+      "solution_to_prevent_recurrence": ""
+    },
+    "3": {
+      "risk_description": "老年人在打电话时严重倚靠桌子，如果失去平衡可能会导致跌倒。",
+      "normal_video_description": "",
+      "solution_for_person": "老年人应坐直或使用支撑更好的椅子，避免倚靠桌子。",
+      "solution_for_hazard_source": "确保餐桌和椅子稳定，并在桌子周围提供清晰的行走通道。",
+      "solution_to_prevent_recurrence": "应提醒老年人在坐着时保持稳定姿势，必要时考虑使用支撑性椅子。"
+    },
+    "4": {
+      "risk_description": "",
+      "normal_video_description": "视频显示老年人在餐厅的桌子旁站着打电话。场景中没有可见的风险或危险。",
+      "solution_for_person": "",
+      "solution_for_hazard_source": "",
+      "solution_to_prevent_recurrence": ""
+    }
+  }
+}

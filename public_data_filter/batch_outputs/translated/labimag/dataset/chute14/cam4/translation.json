@@ -1,0 +1,40 @@
+{
+  "video_key": "labimag/dataset/chute14/cam4",
+  "translations": {
+    "0": {
+      "risk_description": "视频中的年轻人试图在沙发上坐起，但失去平衡摔倒在地上。这种行为偏离了正常的日常坐起活动，可能导致受伤风险。",
+      "normal_video_description": "",
+      "solution_for_person": "此人应由护理人员协助，以确保其坐得安全稳妥。",
+      "solution_for_hazard_source": "沙发应加固额外的支撑，以防止再次跌倒。",
+      "solution_to_prevent_recurrence": "在试图坐起或四处走动时，应对该人员进行监护和协助，以防跌倒和受伤。"
+    },
+    "1": {
+      "risk_description": "穿红色衬衫的人被看到先躺在沙发上，随后躺在地板上，这可能导致因跌倒或无法起身而受伤。",
+      "normal_video_description": "视频显示一间配有桌子、沙发和地板上床垫的房间。穿红色衬衫的人在房间里走动，先躺在沙发上，随后躺在地板上的床垫上。其他人进入房间并与电脑工作站互动。",
+      "solution_for_person": "确保该人在房间走动时受到监护，必要时提供帮助，以防跌倒。",
+      "solution_for_hazard_source": "",
+      "solution_to_prevent_recurrence": "在座位区域附近安装扶手杆，确保地面没有绊倒危险。"
+    },
+    "2": {
+      "risk_description": "",
+      "normal_video_description": "视频展示了一群年轻人在客厅环境中的情景。一个人从右侧走到沙发，躺下，然后起身。另一人进入房间站在桌子附近。该场景描绘的是正常的日常活动，未见明显的风险或危险行为。",
+      "solution_for_person": "",
+      "solution_for_hazard_source": "",
+      "solution_to_prevent_recurrence": ""
+    },
+    "3": {
+      "risk_description": "穿红色衬衫的人倒在床垫上，这可能对行动不便或平衡有问题的人构成担忧。",
+      "normal_video_description": "",
+      "solution_for_person": "确保该人在使用床垫时受到监护，以防跌倒。",
+      "solution_for_hazard_source": "固定床垫，防止其轻易被翻倒。",
+      "solution_to_prevent_recurrence": "在床垫周围使用防滑垫或额外支撑，以稳定床垫。"
+    },
+    "4": {
+      "risk_description": "穿红色衬衫的人在蹦床上做翻转动作，这可能导致跌倒和潜在伤害。房间里还有其他人存在，增加了碰撞或被跳者意外击中的风险。",
+      "normal_video_description": "",
+      "solution_for_person": "确保进行翻转的人员接受适当训练并受到监护，以最大程度降低受伤风险。",
+      "solution_for_hazard_source": "移除任何如果人从蹦床跌落可能导致伤害的物品或家具。",
+      "solution_to_prevent_recurrence": "鼓励使用安全装备，如蹦床垫和防护垫，以降低受伤风险。"
+    }
+  }
+}

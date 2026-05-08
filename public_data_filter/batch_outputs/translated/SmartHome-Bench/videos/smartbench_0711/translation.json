@@ -1,0 +1,40 @@
+{
+  "video_key": "SmartHome-Bench/videos/smartbench_0711",
+  "translations": {
+    "0": {
+      "risk_description": "这个孩子在阳台上做侧手翻，这是一项高风险活动，可能导致跌倒和潜在伤害。",
+      "normal_video_description": "",
+      "solution_for_person": "看护者应密切监督孩子，确保他们不在阳台上尝试任何危险活动。",
+      "solution_for_hazard_source": "看护者应确保阳台安全，且没有可能被孩子用作危险活动道具的物品。",
+      "solution_to_prevent_recurrence": "看护者应为孩子在阳台上的活动制定明确的规则和界限，并提供适当的监督，以防止危险行为的再次发生。"
+    },
+    "1": {
+      "risk_description": "孩子在门廊上进行杂技动作，可能导致跌倒或失去平衡，可能造成伤害。",
+      "normal_video_description": "一个孩子精力充沛地在门廊上四处走动并做翻转，旁边有另一个人坐着。",
+      "solution_for_person": "应监督孩子并阻止他们在门廊上进行杂技动作，以防止跌倒。",
+      "solution_for_hazard_source": "",
+      "solution_to_prevent_recurrence": "确保门廊区域没有绊倒危险，如果继续进行杂技动作，可考虑安装安全护栏。"
+    },
+    "2": {
+      "risk_description": "",
+      "normal_video_description": "视频中看到一个孩子在门廊上跳舞并做手倒立。该活动充满活力且有趣，但在该环境下属于孩子正常、安全的行为范围。",
+      "solution_for_person": "",
+      "solution_for_hazard_source": "",
+      "solution_to_prevent_recurrence": ""
+    },
+    "3": {
+      "risk_description": "孩子在阳台上做侧手翻和翻转，存在从边缘掉落的风险，尤其是如果他们失去平衡。",
+      "normal_video_description": "",
+      "solution_for_person": "应密切监督孩子，并考虑在阳台上安装安全栏杆或护栏以防止跌倒。",
+      "solution_for_hazard_source": "在阳台上安装额外的安全栏杆或护栏以防止跌倒。",
+      "solution_to_prevent_recurrence": "安装安全栏杆或护栏，并在孩子进行杂技动作时确保持续监督。"
+    },
+    "4": {
+      "risk_description": "",
+      "normal_video_description": "视频显示一个年轻成年人在门廊上跳舞，现场没有明显的风险或危险。",
+      "solution_for_person": "",
+      "solution_for_hazard_source": "",
+      "solution_to_prevent_recurrence": ""
+    }
+  }
+}

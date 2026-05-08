@@ -1,0 +1,40 @@
+{
+  "video_key": "toyota_smarthome_mp4/mp4/Drink.Fromcan_p13_r04_v23_c06",
+  "translations": {
+    "0": {
+      "risk_description": "视频中的人站在椅子或凳子上以够到高架上的物品，这可能存在跌倒危险。",
+      "normal_video_description": "视频中的人站在厨房里，拿着杯子喝水并看着柜台上的东西。",
+      "solution_for_person": "该人应请求帮助或使用带防滑脚垫的踏脚凳安全地够到高架。",
+      "solution_for_hazard_source": "厨房应配备合适的收纳方案，以避免需要向上够东西。",
+      "solution_to_prevent_recurrence": "应提醒该人在向上够东西时采取适当的安全措施，必要时请求帮助。"
+    },
+    "1": {
+      "risk_description": "该人正站在放有锅的炉灶旁用玻璃杯喝水，可能会接触到热表面或溅出物。",
+      "normal_video_description": "有一个人站在厨房的炉灶旁，炉灶上放着一口锅，正在用玻璃杯喝水。",
+      "solution_for_person": "使用时与炉灶保持安全距离，以免烫伤或溅出物造成伤害。",
+      "solution_for_hazard_source": "确保不在使用时关闭炉灶，以最大限度地降低意外烫伤的风险。",
+      "solution_to_prevent_recurrence": "提醒该人在烹饪时远离炉灶，并在处理热锅时使用隔热手套。"
+    },
+    "2": {
+      "risk_description": "",
+      "normal_video_description": "一位中年成年人站在现代化的厨房里，站在有锅的炉灶旁用玻璃杯喝水。环境看起来安全整洁，没有明显的危险或危险活动。",
+      "solution_for_person": "",
+      "solution_for_hazard_source": "",
+      "solution_to_prevent_recurrence": ""
+    },
+    "3": {
+      "risk_description": "该人正把瓶子举到嘴边，如果内容物有害或意外洒出，可能会带来风险，尤其是附近有可能会误食的儿童或宠物。",
+      "normal_video_description": "",
+      "solution_for_person": "确保瓶子有明确标签并放在儿童或宠物够不到的地方。",
+      "solution_for_hazard_source": "将潜在有害物质存放在安全的、儿童防护的容器中。",
+      "solution_to_prevent_recurrence": "将所有危险物质安全存放，并放在弱势人群够不到的地方。"
+    },
+    "4": {
+      "risk_description": "",
+      "normal_video_description": "一位中年成年人站在现代化的厨房里，用杯子喝水。厨房配有炉灶，灶台上有一口锅，柜台上摆放着各种厨房用品。没有明显的风险或危险活动。",
+      "solution_for_person": "",
+      "solution_for_hazard_source": "",
+      "solution_to_prevent_recurrence": ""
+    }
+  }
+}

@@ -1,0 +1,40 @@
+{
+  "video_key": "toyota_smarthome_mp4/mp4/Sitdown_p10_r14_v10_c01",
+  "translations": {
+    "0": {
+      "risk_description": "这位老年人在试图坐到椅子上时存在跌倒风险。椅子看起来不稳定，而且这个人可能没有足够的平衡力或力量来维持自己的姿势。",
+      "normal_video_description": "这位老年人在餐厅里，站在一张摆满各种物品的桌子旁边。她试图坐到椅子上，但看起来难以保持平衡。",
+      "solution_for_person": "护理人员应该帮助这位老年人找到更稳定的座位选择，并确保提供适当的支撑以防止跌倒。",
+      "solution_for_hazard_source": "护理人员应确保椅子稳定且适合这位老年人的需求。",
+      "solution_to_prevent_recurrence": "护理人员应定期检查家具的稳定性，并通过锻炼和物理治疗帮助老年人保持平衡和力量。"
+    },
+    "1": {
+      "risk_description": "",
+      "normal_video_description": "一位老年人站在餐桌旁，然后坐下。桌上有各种物品，包括一个黄色杯子和一些食品容器。",
+      "solution_for_person": "",
+      "solution_for_hazard_source": "",
+      "solution_to_prevent_recurrence": ""
+    },
+    "2": {
+      "risk_description": "",
+      "normal_video_description": "一位老年人在餐厅里，站在一张白色桌子旁，然后坐到椅子上。环境看起来平静有序，没有危险或不寻常活动的迹象。",
+      "solution_for_person": "",
+      "solution_for_hazard_source": "",
+      "solution_to_prevent_recurrence": ""
+    },
+    "3": {
+      "risk_description": "这位老年人站在桌子边缘附近，如果失去平衡就有跌倒的风险。桌子的高度和靠近边缘的位置增加了跌倒的可能性。",
+      "normal_video_description": "",
+      "solution_for_person": "确保这位老年人小心坐下，并利用椅子或桌子支撑来保持平衡。",
+      "solution_for_hazard_source": "降低桌子高度或添加椅子护栏以防止跌倒。",
+      "solution_to_prevent_recurrence": "在桌子边缘附近放置防滑垫或垫子以提供额外的稳定性。"
+    },
+    "4": {
+      "risk_description": "这位老年女性由于她的姿势和双脚的位置而面临跌倒风险，她的脚没有稳稳地踩在地板上。如果她失去平衡，还可能与桌子发生碰撞。",
+      "normal_video_description": "一位老年女性在餐厅里从椅子上站起来。",
+      "solution_for_person": "确保这位女性在从椅子上站起来之前坐姿正确，双脚平放在地板上。",
+      "solution_for_hazard_source": "",
+      "solution_to_prevent_recurrence": "鼓励这位女性在站起来时使用有扶手的椅子提供支撑，并在坐着时保持正确的姿势。"
+    }
+  }
+}

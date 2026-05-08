@@ -1,0 +1,40 @@
+{
+  "video_key": "web_h264/dailymotion__x9lh54q",
+  "translations": {
+    "0": {
+      "risk_description": "这位年轻人正试图搬动一个大型、顶部沉重的猫爬架，它看起来不稳定，可能会倒下，对人或猫造成伤害。",
+      "normal_video_description": "",
+      "solution_for_person": "在再次尝试搬动猫爬架之前，此人应后退一步，评估情况，确保自己对如何安全搬运该物品有清晰的认识。",
+      "solution_for_hazard_source": "猫爬架应放置在更稳固的位置，远离被宠物或人撞倒的风险。",
+      "solution_to_prevent_recurrence": "在搬运大型、顶部沉重的物品时，应保持谨慎，确保自己清楚如何安全搬运，并在必要时考虑寻求帮助。"
+    },
+    "1": {
+      "risk_description": "猫爬架和柜子倒下，造成环境杂乱且不稳定。物品散落在地板上，增加了绊倒或跌倒的风险。人员正在处理倒下的物品，这可能导致进一步的失衡或伤害。",
+      "normal_video_description": "视频显示客厅里猫爬架和柜子倒下，物品散落在地板上。一个人进入现场处理该情况。",
+      "solution_for_person": "此人应小心绕过倒下的物品，以免绊倒或碰撞。",
+      "solution_for_hazard_source": "将猫爬架和柜子固定住，防止再次倾倒，并清理散落在地板上的物品以减少绊倒危险。",
+      "solution_to_prevent_recurrence": "不使用时，应妥善存放猫爬架和柜子，并监督宠物，防止它们导致不稳定。"
+    },
+    "2": {
+      "risk_description": "一只猫跳上高处的墙上挂柜，导致柜子倾倒掉落，物品散落，形成危险环境。",
+      "normal_video_description": "",
+      "solution_for_person": "立即固定倒下的柜子，并移除任何可能造成伤害的尖锐或重物。",
+      "solution_for_hazard_source": "在墙上固定的家具上安装安全锁扣或支架，以防止倾倒。",
+      "solution_to_prevent_recurrence": "确保所有墙上固定的家具已牢固锚定，并考虑使用宠物围栏或训练，以防止宠物进入高处表面。"
+    },
+    "3": {
+      "risk_description": "视频显示一只猫在已倒下的猫爬架上攀爬，地板上的尖锐物品可能造成伤害风险。",
+      "normal_video_description": "",
+      "solution_for_person": "确保猫爬架稳固放置，防止其倒下。",
+      "solution_for_hazard_source": "移除或固定地板上的尖锐物品，以防止伤害。",
+      "solution_to_prevent_recurrence": "定期检查并固定家具和物品，防止它们掉落造成伤害。"
+    },
+    "4": {
+      "risk_description": "此人正试图抬起一个重物，如果处理不当，可能导致跌倒或失衡，可能造成严重伤害。",
+      "normal_video_description": "视频显示一个人在客厅环境中尝试抬起一个重物。",
+      "solution_for_person": "确保使用正确的举重技巧，并在搬运重物时考虑使用手推车或请求帮助。",
+      "solution_for_hazard_source": "",
+      "solution_to_prevent_recurrence": "练习安全的举重技巧，必要时使用适当的设备。"
+    }
+  }
+}

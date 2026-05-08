@@ -1,0 +1,40 @@
+{
+  "video_key": "SmartHome-Bench/videos/smartbench_0586",
+  "translations": {
+    "0": {
+      "risk_description": "",
+      "normal_video_description": "视频中呈现出一幅宁静的后院场景，背景是一片湖泊。一只熊在露台上走动，一个人坐在椅子上欣赏风景。此人看起来很放松，且没有直接危险。",
+      "solution_for_person": "",
+      "solution_for_hazard_source": "",
+      "solution_to_prevent_recurrence": ""
+    },
+    "1": {
+      "risk_description": "熊与平台上的人距离很近，如果熊变得具有攻击性或受惊，可能造成碰撞或压伤的风险。",
+      "normal_video_description": "视频显示一只熊在码头附近的后院探索，随后有一个人出现在露台上。",
+      "solution_for_person": "人员应与熊保持安全距离，避免突然动作，以免激怒它。",
+      "solution_for_hazard_source": "应将熊远离住宅区，以防止此类遭遇。",
+      "solution_to_prevent_recurrence": "在房产周围安装防熊围栏或驱赶装置，使野生动物保持安全距离。"
+    },
+    "2": {
+      "risk_description": "一只熊进入住宅阳台区域，靠近老年人，造成直接的物理威胁，可能导致碰撞或受伤。野生动物出现在私人居住空间明显超出正常活动范围。",
+      "normal_video_description": "",
+      "solution_for_person": "该人员应立即退回室内并锁好门，以防止动物进一步进入。",
+      "solution_for_hazard_source": "应让熊自行离开该区域而不与其对峙；如果动物仍未离开，应联系专业野生动物控制部门。",
+      "solution_to_prevent_recurrence": "在阳台和庭院周围安装安全的围栏或障碍物，以防止野生动物进入住宅区。"
+    },
+    "3": {
+      "risk_description": "老年人在靠近栏杆的阳台上站立，若失去平衡或抓握不稳，可能会导致跌倒风险。",
+      "normal_video_description": "",
+      "solution_for_person": "确保老年人在靠近栏杆站立时握住稳固的支撑面。",
+      "solution_for_hazard_source": "安装额外的安全栏杆或防护栏以防止跌落。",
+      "solution_to_prevent_recurrence": "定期检查并维护阳台栏杆的稳定性，并确保老年人了解潜在的跌倒危险。"
+    },
+    "4": {
+      "risk_description": "老年人出现在阳台上，如果失去平衡，可能会导致跌倒风险。这是一个应予以处理的安全隐患。",
+      "normal_video_description": "",
+      "solution_for_person": "确保该人穿着具有良好抓地力的合适鞋子，并考虑在阳台上使用扶手或其他支撑。",
+      "solution_for_hazard_source": "在阳台上安装扶手或其他安全设施，以防止跌落。",
+      "solution_to_prevent_recurrence": "定期检查阳台是否存在结构问题或安全隐患，并及时处理。"
+    }
+  }
+}

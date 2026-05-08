@@ -1,0 +1,40 @@
+{
+  "video_key": "SmartHome-Bench/videos/smartbench_0275",
+  "translations": {
+    "0": {
+      "risk_description": "",
+      "normal_video_description": "视频显示一个人走向车库，打开门，然后跪下捡起地上的东西。随后该人站起来离开。视频还展示了人们与Ring门铃互动的多个场景，包括一个人抱着一只狗，一群人在门廊上站立，以及一个穿着军装的人。",
+      "solution_for_person": "",
+      "solution_for_hazard_source": "",
+      "solution_to_prevent_recurrence": ""
+    },
+    "1": {
+      "risk_description": "该人在车道上爬行，存在滑倒或跌倒的风险，可能导致受伤。",
+      "normal_video_description": "视频显示夜间场景，车道上有两辆停放的汽车。一个穿灰色连帽衫和蓝色牛仔裤的人进入画面，靠近蓝色汽车，开始在白色SUV和蓝色汽车之间的地面上爬行。该人似乎在蓝色汽车下方寻找什么东西，随后站起来离开。",
+      "solution_for_person": "该人应避免在车道上爬行，而应步行或跪下，以降低跌倒的风险。",
+      "solution_for_hazard_source": "",
+      "solution_to_prevent_recurrence": "在车道表面安装防滑垫或防滑涂层，以降低滑倒的风险。"
+    },
+    "2": {
+      "risk_description": "在夜间，车道上两辆停放的汽车之间，有一个人跪在地上，似乎处于痛苦或冲突状态。该人的姿势暗示可能受伤或涉及严重的争吵，这超出了正常日常行为，表明存在潜在的安全风险。",
+      "normal_video_description": "",
+      "solution_for_person": "应立即谨慎地接近该人以评估其状况并确保其安全。如果他们看起来受伤或处于困境，应联系紧急服务。",
+      "solution_for_hazard_source": "确保该区域安全且没有直接威胁。如果有可能进一步冲突，考虑将此人转移至更安全的位置。",
+      "solution_to_prevent_recurrence": "实施防止未来冲突的措施，例如改进沟通或冲突解决策略。如果情况涉及已知个人，可考虑寻求法律或社区支持。"
+    },
+    "3": {
+      "risk_description": "孩子出现在车辆附近，这构成了如果他们靠近汽车或其周围区域，可能跌倒或被撞的风险。",
+      "normal_video_description": "",
+      "solution_for_person": "确保孩子与车辆保持安全距离，并受到密切监督。",
+      "solution_for_hazard_source": "保持车道畅通无阻，并确保孩子始终在安全区域内。",
+      "solution_to_prevent_recurrence": "安装障碍物或围栏，以防止孩子无人看管时进入车道。"
+    },
+    "4": {
+      "risk_description": "孩子被看到在停放的汽车附近玩耍，这可能导致在车道上跌倒或绊倒。孩子还有可能意外打开车门并走到街道上。",
+      "normal_video_description": "",
+      "solution_for_person": "确保孩子在靠近汽车玩耍时受到监督，并教育他们打开车门和走到街道的危险性。",
+      "solution_for_hazard_source": "",
+      "solution_to_prevent_recurrence": "在车道周围安装安全门或障碍物，以防止孩子无人看管时接触汽车。"
+    }
+  }
+}

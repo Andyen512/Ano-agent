@@ -1,0 +1,40 @@
+{
+  "video_key": "toyota_smarthome_mp4/mp4/Sitdown_p12_r09_v05_c04",
+  "translations": {
+    "0": {
+      "risk_description": "老年人正在弯腰从地板上捡东西，这可能会导致他们失去平衡而摔倒。咖啡桌也很低矮，如果这个人摔倒，可能会增加受伤的风险。",
+      "normal_video_description": "",
+      "solution_for_person": "护理人员应该帮助老年人从地板上捡东西，以降低摔倒的风险。他们还可以通过握住此人的手臂或肩膀来提供支撑和稳定性。",
+      "solution_for_hazard_source": "可以将咖啡桌略微抬高，以便老年人更容易拿取物品，而不需要弯腰那么多。",
+      "solution_to_prevent_recurrence": "护理人员应定期检查客厅中可能使老年人摔倒的任何潜在危险，例如松动的地毯或地板上的杂物。他们还应确保老年人穿着具有良好抓地力的适当鞋子，以降低在地板上滑倒的风险。"
+    },
+    "1": {
+      "risk_description": "这个人正弯腰在咖啡桌上方拿着一个物体，这可能导致失去平衡和摔倒。",
+      "normal_video_description": "一位老年人站在客厅里，弯腰在咖啡桌上方拿着一个物体。",
+      "solution_for_person": "这个人应该避免在客厅里弯腰拿着物体，以防止摔倒。",
+      "solution_for_hazard_source": "",
+      "solution_to_prevent_recurrence": "确保此人在客厅里处理物体时坐着或直立站立。"
+    },
+    "2": {
+      "risk_description": "",
+      "normal_video_description": "可以看到一位老年人在客厅里弯腰，然后坐在一张绿色组合沙发上。环境平静，没有可见的危险或危险活动发生。",
+      "solution_for_person": "",
+      "solution_for_hazard_source": "",
+      "solution_to_prevent_recurrence": ""
+    },
+    "3": {
+      "risk_description": "老年人正在弯腰在咖啡桌上方，由于他们的姿势和可能有限的活动能力，这可能导致摔倒或拉伤。",
+      "normal_video_description": "",
+      "solution_for_person": "老年人在弯腰时应确保有稳定的支撑，并考虑在伸手去拿桌上的物品之前先坐下。",
+      "solution_for_hazard_source": "咖啡桌应该摆放在容易够到的高度，以防止弯腰或别扭地伸手去够。",
+      "solution_to_prevent_recurrence": "使用边缘较低的桌子，或在沙发旁边放一个边桌，以便更容易拿取物品。"
+    },
+    "4": {
+      "risk_description": "",
+      "normal_video_description": "视频显示一位老年人在客厅里弯腰在咖啡桌上方，可能是在捡起或放置物品。场景中没有可见的严重后果风险。",
+      "solution_for_person": "",
+      "solution_for_hazard_source": "",
+      "solution_to_prevent_recurrence": ""
+    }
+  }
+}

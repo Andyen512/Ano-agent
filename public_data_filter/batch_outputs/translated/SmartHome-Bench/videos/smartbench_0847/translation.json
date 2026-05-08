@@ -1,0 +1,40 @@
+{
+  "video_key": "SmartHome-Bench/videos/smartbench_0847",
+  "translations": {
+    "0": {
+      "risk_description": "在门廊上看到一只熊，这对房主来说是一种异常且潜在危险的情况。",
+      "normal_video_description": "",
+      "solution_for_person": "房主应待在室内并拨打相关部门电话来处理此事。",
+      "solution_for_hazard_source": "应安全地将熊从物业中移除。",
+      "solution_to_prevent_recurrence": "房主应采取防范措施保护物业并防止野生动物进入，如安装围栏或锁好食物来源。"
+    },
+    "1": {
+      "risk_description": "一只大熊在住宅门廊上，靠近门口并与门铃摄像头互动。熊的体型和靠近门的距离，若门意外打开，存在碰撞或被压伤的风险。",
+      "normal_video_description": "夜间在前门廊上看到一只熊，它四处走动并与门铃摄像头互动。",
+      "solution_for_person": "",
+      "solution_for_hazard_source": "",
+      "solution_to_prevent_recurrence": ""
+    },
+    "2": {
+      "risk_description": "",
+      "normal_video_description": "夜间，熊走上住宅门廊，嗅闻门口区域，短暂坐下后离开。这种行为是异常的野生动物遭遇，但不涉及人类风险或破坏。",
+      "solution_for_person": "",
+      "solution_for_hazard_source": "",
+      "solution_to_prevent_recurrence": ""
+    },
+    "3": {
+      "risk_description": "一只大型动物，可能是熊，出现在门廊上，若没有监护，可能会对宠物或儿童造成碰撞或压伤的风险。",
+      "normal_video_description": "",
+      "solution_for_person": "确保当动物靠近时，宠物或儿童待在室内或安全监护下。",
+      "solution_for_hazard_source": "当预计会出现此类动物时，应封锁区域并让宠物或儿童远离入口。",
+      "solution_to_prevent_recurrence": "安装感应灯或警报器以阻止野生动物靠近住宅。"
+    },
+    "4": {
+      "risk_description": "",
+      "normal_video_description": "视频显示夜间门廊的景象，画面中有狗接近门口。狗似乎在等候或四处张望，但没有出现任何风险或潜在危险的迹象。",
+      "solution_for_person": "",
+      "solution_for_hazard_source": "",
+      "solution_to_prevent_recurrence": ""
+    }
+  }
+}

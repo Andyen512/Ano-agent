@@ -1,0 +1,40 @@
+{
+  "video_key": "web_h264/bilibili__BV1Wp4y187Ft",
+  "translations": {
+    "0": {
+      "risk_description": "视频中的孩子站在椅子上，看起来不稳定，可能会导致摔倒。成人没有密切关注孩子的动作，这增加了事故的风险。",
+      "normal_video_description": "",
+      "solution_for_person": "成人应立即站起，确保孩子安全稳固。",
+      "solution_for_hazard_source": "应将椅子移到更安全的位置或从用餐区移除，以防止孩子站在上面。",
+      "solution_to_prevent_recurrence": "成人应始终密切关注孩子，尤其当他们处于可能危险的情况下，如站在椅子上。"
+    },
+    "1": {
+      "risk_description": "孩子站在餐桌旁的椅子上，由于不稳，有跌倒和受伤的风险。",
+      "normal_video_description": "一家人在餐桌旁一起用餐，孩子穿着黄色围兜，正在与食物和餐具互动。",
+      "solution_for_person": "确保孩子在用餐时坐在桌子旁，而不是站在椅子上。",
+      "solution_for_hazard_source": "移除或固定椅子，防止孩子将其作为站立平台。",
+      "solution_to_prevent_recurrence": "在用餐时密切监督孩子，并提供合适的座位。"
+    },
+    "2": {
+      "risk_description": "",
+      "normal_video_description": "一家人围坐在桌旁用餐。一位男子、一位系着围兜的小男孩和另一个人坐在座位上，用筷子从碗和盘子中吃饭。小男孩站起来离开椅子，而男子继续吃饭。",
+      "solution_for_person": "",
+      "solution_for_hazard_source": "",
+      "solution_to_prevent_recurrence": ""
+    },
+    "3": {
+      "risk_description": "孩子把手伸进碗里，与食物亲密接触，这可能导致窒息或与碗、餐具碰撞的风险。",
+      "normal_video_description": "",
+      "solution_for_person": "确保孩子在用餐时受到密切监督，并安全使用餐具。",
+      "solution_for_hazard_source": "将碗和餐具放在离孩子安全距离的地方，以防止意外碰撞。",
+      "solution_to_prevent_recurrence": "教导孩子正确使用餐具，并在用餐期间进行持续监督。"
+    },
+    "4": {
+      "risk_description": "",
+      "normal_video_description": "视频中显示一个孩子和一个成年人坐在桌旁，用筷子吃饭。他们都专注于食物，看起来在享受用餐。",
+      "solution_for_person": "",
+      "solution_for_hazard_source": "",
+      "solution_to_prevent_recurrence": ""
+    }
+  }
+}

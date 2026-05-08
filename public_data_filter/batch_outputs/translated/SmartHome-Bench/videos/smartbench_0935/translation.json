@@ -1,0 +1,40 @@
+{
+  "video_key": "SmartHome-Bench/videos/smartbench_0935",
+  "translations": {
+    "0": {
+      "risk_description": "此人手持饮料和手机，这可能导致失去平衡并有可能摔倒。",
+      "normal_video_description": "此人在手持饮料和手机的情况下走过走廊。",
+      "solution_for_person": "此人在行走时应更加小心，避免使用手机。",
+      "solution_for_hazard_source": "此人在行走时应更加注意周围环境，避免分心。",
+      "solution_to_prevent_recurrence": "应提醒此人在行走时更加小心，避免分心。"
+    },
+    "1": {
+      "risk_description": "此人在行走时手持多个容器并做手势，这增加了绊倒或撞到物体或墙壁的风险，可能导致碰撞或挤压伤害。",
+      "normal_video_description": "一名穿绿色衬衫的人在走廊里行走，一手握着多个容器，另一只手做手势。",
+      "solution_for_person": "此人在行走时应双手牢牢握住容器，避免突然动作或分心。",
+      "solution_for_hazard_source": "确保走廊畅通无障碍，以降低碰撞风险。",
+      "solution_to_prevent_recurrence": "此人在携带物品时应专注路线和周围环境，护理人员应提醒他们小心行走。"
+    },
+    "2": {
+      "risk_description": "",
+      "normal_video_description": "一名穿绿色衬衫的年轻成年人手持两杯饮料走过走廊，靠近一扇门敲了敲门，然后转身返回。此行为属于正常日常活动，未构成任何风险。",
+      "solution_for_person": "",
+      "solution_for_hazard_source": "",
+      "solution_to_prevent_recurrence": ""
+    },
+    "3": {
+      "risk_description": "此人手持多个容器且似乎走得很快，这可能增加掉落或溢出的风险，可能导致滑倒或对自己或他人造成伤害。",
+      "normal_video_description": "",
+      "solution_for_person": "此人应放慢脚步、更加小心，确保牢牢握住容器，防止溢出或掉落。",
+      "solution_for_hazard_source": "确保走廊无任何障碍，以降低绊倒或碰撞的风险。",
+      "solution_to_prevent_recurrence": "此人应注意周围环境，保持稳定步伐以避免事故。"
+    },
+    "4": {
+      "risk_description": "",
+      "normal_video_description": "视频显示一名穿绿色衬衫、深色裤子的年轻成年人手持饮料走在光线充足的走廊里。他们似乎处于随意场景，可能是住宅或办公大楼。",
+      "solution_for_person": "",
+      "solution_for_hazard_source": "",
+      "solution_to_prevent_recurrence": ""
+    }
+  }
+}

@@ -1,0 +1,40 @@
+{
+  "video_key": "toyota_smarthome_mp4/mp4/Walk_p15_r08_v16_c07",
+  "translations": {
+    "0": {
+      "risk_description": "",
+      "normal_video_description": "一个人在厨房里站着，手里拿着刀，看着炉子上的锅。然后他们转身离开炉子。",
+      "solution_for_person": "",
+      "solution_for_hazard_source": "",
+      "solution_to_prevent_recurrence": ""
+    },
+    "1": {
+      "risk_description": "这个人手里拿着刀，站在炉子上的一锅沸水旁边，存在被刀意外割伤的风险，以及被热锅或炉子烫伤的可能性。",
+      "normal_video_description": "一个人在厨房里，手里拿着刀，站在炉子上的一锅沸水旁边。",
+      "solution_for_person": "不准备食物时，不要把刀放在炉子附近。",
+      "solution_for_hazard_source": "不使用炉子时，确保炉子已关闭，以防止意外接触热表面。",
+      "solution_to_prevent_recurrence": "做饭时，始终保持锋利物品和热源之间的安全距离。"
+    },
+    "2": {
+      "risk_description": "",
+      "normal_video_description": "一位老年人在厨房里站着，手里拿着刀和小物件，在有锅的炉灶附近的柜台区域走动。这个行为看起来是正常的日常活动，没有明显的风险或异常。",
+      "solution_for_person": "",
+      "solution_for_hazard_source": "",
+      "solution_to_prevent_recurrence": ""
+    },
+    "3": {
+      "risk_description": "老年人在炉子附近拿着刀，如果他们意外割伤自己或孩子接触到锋利的物品，可能会造成风险。",
+      "normal_video_description": "",
+      "solution_for_person": "老年人不使用刀时，应确保刀安全存放或放下，并注意周围环境，防止意外接触。",
+      "solution_for_hazard_source": "将锋利的物品放在儿童接触不到的地方，并确保不使用时安全存放。",
+      "solution_to_prevent_recurrence": "使用刀架或磁性刀条安全存放刀，并在厨房密切监督儿童。"
+    },
+    "4": {
+      "risk_description": "男子站在炉子附近时手持刀，存在意外受伤风险。炉子上的锅若被触碰或碰倒，可能导致烫伤。",
+      "normal_video_description": "男子站在现代厨房里，手里拿着刀，看着镜头外的东西。炉子上有一口锅，里面正在煮食物。",
+      "solution_for_person": "处理刀时要小心，确保刀不无人看管地放在炉子附近，以防止事故。",
+      "solution_for_hazard_source": "",
+      "solution_to_prevent_recurrence": "不使用时，将刀存放在安全的地方，并放在儿童接触不到的地方。"
+    }
+  }
+}

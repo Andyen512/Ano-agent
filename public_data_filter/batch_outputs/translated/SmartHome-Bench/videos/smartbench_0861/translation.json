@@ -1,0 +1,40 @@
+{
+  "video_key": "SmartHome-Bench/videos/smartbench_0861",
+  "translations": {
+    "0": {
+      "risk_description": "熊正在攀爬阳台的栏杆，这可能导致坠落并造成伤害。",
+      "normal_video_description": "",
+      "solution_for_person": "视频中看不到人，所以没有人能给出解决方案。",
+      "solution_for_hazard_source": "解决方案是确保阳台栏杆足够坚固和安全，以防止熊攀爬。",
+      "solution_to_prevent_recurrence": "防止再次发生的解决方案是安装更安全的栏杆或让熊无法进入阳台区域。"
+    },
+    "1": {
+      "risk_description": "熊正在木栏杆上攀爬和跳跃，这可能导致坠落或失去平衡，可能会造成伤害。",
+      "normal_video_description": "晚上可以看到一只熊在房子外面的木栏杆上攀爬和跳跃。",
+      "solution_for_person": "",
+      "solution_for_hazard_source": "",
+      "solution_to_prevent_recurrence": ""
+    },
+    "2": {
+      "risk_description": "",
+      "normal_video_description": "一只熊在晚上爬上一棵木甲板旁的树，然后沿着栏杆移动并离开。这种行为是自然的野生动物活动，对人或财产不构成风险。",
+      "solution_for_person": "",
+      "solution_for_hazard_source": "",
+      "solution_to_prevent_recurrence": ""
+    },
+    "3": {
+      "risk_description": "一只熊正在攀爬并沿着木栏杆移动，如果有的人接近或与熊互动，可能会造成坠落风险。",
+      "normal_video_description": "",
+      "solution_for_person": "避免接近熊，确保儿童或弱势人群与熊的路径保持安全距离。",
+      "solution_for_hazard_source": "加固栏杆或安装屏障以防止攀爬的动物进入高处区域。",
+      "solution_to_prevent_recurrence": "安装动作感应灯或警报器以阻止野生动物在夜间进入该区域。"
+    },
+    "4": {
+      "risk_description": "熊正在攀爬阳台的木栏杆，这存在坠落和伤害自己或下方人员的风险。熊的行为可能导致严重事故。",
+      "normal_video_description": "一只熊在晚上攀爬阳台的木栏杆。",
+      "solution_for_person": "",
+      "solution_for_hazard_source": "",
+      "solution_to_prevent_recurrence": "安装坚固的栏杆并固定阳台上任何松动的物品，以防止熊攀爬和坠落。"
+    }
+  }
+}

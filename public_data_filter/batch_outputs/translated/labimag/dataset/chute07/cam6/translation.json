@@ -1,0 +1,40 @@
+{
+  "video_key": "labimag/dataset/chute07/cam6",
+  "translations": {
+    "0": {
+      "risk_description": "视频中的年轻人试图跳到放在地板上的床垫上，这不是安全或稳定的落地方式。这种行为有跌倒和可能受伤的风险。",
+      "normal_video_description": "",
+      "solution_for_person": "应建议此人在尝试涉及跳跃或跌落的活动时使用适当的安全装备，例如垫子或缓冲表面。",
+      "solution_for_hazard_source": "本案例的危险源是缺乏安全的着陆表面。应修改环境以包含缓冲表面，以降低受伤风险。",
+      "solution_to_prevent_recurrence": "为防止再次发生，应教育此人在进行涉及跳跃或跌落的活动时使用适当的安全装备和技术。还应定期进行安全检查，以确保环境安全且无危险。"
+    },
+    "1": {
+      "risk_description": "穿红色衬衫的人躺在似乎是测试或实验装置的垫子上。设备的存在和控制的环境表明在活动期间可能出现跌倒或失控，可能导致受伤。",
+      "normal_video_description": "视频显示一个配有各种设备和垫子的实验室环境。一位穿红色衬衫的人进入，躺在垫子上，房间里的其他人观察他。",
+      "solution_for_person": "确保在进行活动时配备适当的监督和安全规程。",
+      "solution_for_hazard_source": "验证垫子及周围区域是否稳固且无绊倒危险。",
+      "solution_to_prevent_recurrence": "在活动前进行安全简报，并确保所有参与者了解应急程序。"
+    },
+    "2": {
+      "risk_description": "",
+      "normal_video_description": "一个年轻人走进实验室，靠近地板上的床垫并躺在上面。另一人进入房间并站在附近，而第一人仍留在床垫上。",
+      "solution_for_person": "",
+      "solution_for_hazard_source": "",
+      "solution_to_prevent_recurrence": ""
+    },
+    "3": {
+      "risk_description": "穿红色衬衫的人试图滚到地板上的床垫上，如果失去平衡可能导致跌倒或不稳定。",
+      "normal_video_description": "",
+      "solution_for_person": "确保此人有支撑或更安全的表面可以滚动，并在需要时提供帮助。",
+      "solution_for_hazard_source": "将床垫固定以防止滑动，并确保地面无障碍物。",
+      "solution_to_prevent_recurrence": "在稳固的表面上练习滚动技巧，并在此类活动期间确保适当的监督。"
+    },
+    "4": {
+      "risk_description": "穿红色衬衫的人躺在垫子上，这可能表明跌倒或不稳定的风险。垫子的存在表明尝试缓冲可能的跌倒，但此人的姿势和周围环境表明受伤风险仍然存在。",
+      "normal_video_description": "另一位穿红色衬衫的人躺在配有各种家具和设备的房间里的垫子上。另一人进入房间并靠近垫子上的人。",
+      "solution_for_person": "在垫子上进行练习或动作时，确保有适当的监督和帮助，以防止跌倒和受伤。",
+      "solution_for_hazard_source": "",
+      "solution_to_prevent_recurrence": "为安全使用器材和正确的练习技巧提供适当的培训和指导，最大限度地降低跌倒和受伤的风险。"
+    }
+  }
+}

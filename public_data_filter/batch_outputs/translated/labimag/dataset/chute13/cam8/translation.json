@@ -1,0 +1,40 @@
+{
+  "video_key": "labimag/dataset/chute13/cam8",
+  "translations": {
+    "0": {
+      "risk_description": "可以看到这位年轻人跳到沙发上，这是不安全的做法，可能导致跌倒和受伤。",
+      "normal_video_description": "",
+      "solution_for_person": "应建议此人避免此类危险活动，选择更安全的娱乐方式。",
+      "solution_for_hazard_source": "沙发应放置在更安全的位置，远离潜在危险。",
+      "solution_to_prevent_recurrence": "应对此人进行安全教育，使其认识到此类活动的潜在风险。定期监督和监测也有助于防止再次发生。"
+    },
+    "1": {
+      "risk_description": "此人以不恰当的姿势躺在沙发上，可能导致肌肉拉伤或起身困难。随后，此人从沙发上滚落到地面，进一步增加跌倒受伤的风险。",
+      "normal_video_description": "某人进入房间，先以不恰当的姿势躺在沙发上，坐起后移动到垫子上再次躺下，起来后从沙发上滚落到地面。",
+      "solution_for_person": "确保在沙发上躺下时保持正确的姿势，以避免不恰当的姿势和可能的跌倒。",
+      "solution_for_hazard_source": "",
+      "solution_to_prevent_recurrence": "鼓励此人在使用沙发时注意姿势，并小心起身，以免滚落。"
+    },
+    "2": {
+      "risk_description": "",
+      "normal_video_description": "一位年轻人走进房间，坐在沙发上，然后跳到房间中央的床垫上，随后起身离开。房间里有家具和设备，活动看起来是嬉戏性的且在正常范围内。",
+      "solution_for_person": "",
+      "solution_for_hazard_source": "",
+      "solution_to_prevent_recurrence": ""
+    },
+    "3": {
+      "risk_description": "此人从沙发上跌落到地面，这对行动不便或平衡差的人尤其危险。",
+      "normal_video_description": "",
+      "solution_for_person": "确保此人使用稳固的家具，避免突然的动作以防止跌倒。",
+      "solution_for_hazard_source": "清除或固定地面上可能导致绊倒的松散物品。",
+      "solution_to_prevent_recurrence": "在家具附近安装扶手或防滑垫，以提供额外的稳定性。"
+    },
+    "4": {
+      "risk_description": "此人试图跳到地板上的床垫上，可能导致跌倒和潜在受伤。在整个动作序列中风险始终存在。",
+      "normal_video_description": "",
+      "solution_for_person": "在尝试跳上床垫前，确保床垫已妥善固定且稳固，以防止跌倒。",
+      "solution_for_hazard_source": "",
+      "solution_to_prevent_recurrence": "在涉及跳跃或高冲击动作的体育活动时，提供适当的训练或监督以确保安全。"
+    }
+  }
+}

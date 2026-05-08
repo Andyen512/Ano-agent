@@ -1,0 +1,40 @@
+{
+  "video_key": "UR_Fall_Dataset/fall-30-cam1",
+  "translations": {
+    "0": {
+      "risk_description": "年轻成年人正在客厅里做后空翻，这是一项高风险活动，可能导致摔倒和受伤。",
+      "normal_video_description": "视频显示一名年轻成年人坐在客厅的地板上，然后做后空翻并背部落着地。",
+      "solution_for_person": "应建议该人避免在客厅进行后空翻等高风险活动，以防止摔倒和受伤。",
+      "solution_for_hazard_source": "应通过清除绊倒危险物品并确保地板上没有可能导致摔倒的物体，使客厅更加安全。",
+      "solution_to_prevent_recurrence": "应向该人普及高风险活动的风险，并鼓励其参与不会导致摔倒或受伤的更安全活动。"
+    },
+    "1": {
+      "risk_description": "该人在办公室或书房环境中平躺在地板上，这不是一个稳定或安全的姿势。这种行为可能导致摔倒或难以站起，可能造成伤害。",
+      "normal_video_description": "视频显示一个人站着，然后平躺在似乎是办公室或书房的地方，里面有椅子和桌子。",
+      "solution_for_person": "该人应避免平躺在地板上，而应采取坐姿或站姿保持稳定。",
+      "solution_for_hazard_source": "",
+      "solution_to_prevent_recurrence": "确保该人了解在办公室/书房环境平躺在地板上的风险，并鼓励其使用家具进行坐或站。"
+    },
+    "2": {
+      "risk_description": "该人在站立时失去平衡，向后摔倒在地上，这表明明显的失衡事件，超出正常活动范围。",
+      "normal_video_description": "",
+      "solution_for_person": "该人应立即起身检查是否受伤，如有需要及时就医。",
+      "solution_for_hazard_source": "检查环境以找出导致摔倒的潜在原因，如光滑的地板或障碍物，并加以处理。",
+      "solution_to_prevent_recurrence": "实施安全措施，如使用防滑地板、清除障碍物并确保适当照明，以防止将来跌倒。"
+    },
+    "3": {
+      "risk_description": "该人似乎失去平衡并摔倒在地上，这可能造成受伤风险，尤其是当其行动能力受限或正在康复时。",
+      "normal_video_description": "",
+      "solution_for_person": "确保该人在摔倒后得到支撑并检查是否受伤。",
+      "solution_for_hazard_source": "清除地板上的绊倒危险物品，确保该区域畅通无阻。",
+      "solution_to_prevent_recurrence": "改善照明，确保地板清洁、无障碍，以防止将来跌倒。"
+    },
+    "4": {
+      "risk_description": "该人从椅子上向后倒下，可能因高度及对头部或背部的潜在冲击而导致严重伤害。",
+      "normal_video_description": "",
+      "solution_for_person": "确保该人坐姿稳固，附近没有可能导致其摔倒的危险因素。",
+      "solution_for_hazard_source": "清除任何可能导致该人绊倒或失去平衡的物体。",
+      "solution_to_prevent_recurrence": "提供适当的培训，教导如何安全使用办公室环境中的椅子和其他家具。"
+    }
+  }
+}

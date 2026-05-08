@@ -1,0 +1,40 @@
+{
+  "video_key": "web_h264/tiktok__7617990769592306974",
+  "translations": {
+    "0": {
+      "risk_description": "这个孩子正拿着助行器在客厅里走来走去，这不是安全的移动方式。孩子有跌倒和受伤的风险。",
+      "normal_video_description": "",
+      "solution_for_person": "护理人员应该协助孩子使用助行器，并确保孩子在家中走动时不被单独留下。",
+      "solution_for_hazard_source": "护理人员应清除客厅中的任何障碍物或危险物品，以防止孩子绊倒和跌倒。",
+      "solution_to_prevent_recurrence": "护理人员在孩子使用助行器时应进行监督，确保孩子在家中走动时不被单独留下。"
+    },
+    "1": {
+      "risk_description": "这个孩子正在使用拐杖，看起来是从一次导致急诊就诊的跌倒中恢复。拐杖的存在表明存在不稳定性和潜在跌倒的风险，尤其是在可能有障碍物或不平整表面的走廊里。",
+      "normal_video_description": "视频显示一个孩子在走廊里使用拐杖，之前因跌倒需要急诊就诊。",
+      "solution_for_person": "确保孩子正确使用适当的辅助器具（拐杖），并在走廊等潜在危险区域监督其行动。",
+      "solution_for_hazard_source": "清除走廊中的障碍物，确保地面平整且防滑，以减少绊倒危险。",
+      "solution_to_prevent_recurrence": "在走廊安装扶手，并教育孩子安全使用拐杖行走的方法。"
+    },
+    "2": {
+      "risk_description": "这个孩子正用拐杖下楼梯，这表明存在严重的行动障碍和很高的跌倒风险。在楼梯上使用拐杖而没有明确监督或帮助的情况下，存在明显的不稳定性和潜在伤害危险。",
+      "normal_video_description": "",
+      "solution_for_person": "孩子在楼梯上使用拐杖时应由成人或护理人员陪同，以确保安全并防止跌倒。",
+      "solution_for_hazard_source": "在楼梯顶部安装扶手或安全门，以提供额外支撑并防止孩子跌倒。",
+      "solution_to_prevent_recurrence": "为孩子提供正确使用拐杖的培训和监督，并考虑使用更适合楼梯通行的替代行动辅助器具。"
+    },
+    "3": {
+      "risk_description": "视频中看到孩子从楼梯上跌下来，跌倒存在伤害风险。",
+      "normal_video_description": "",
+      "solution_for_person": "确保孩子在靠近楼梯时被密切监督以防止跌倒。",
+      "solution_for_hazard_source": "在楼梯顶部和底部安装安全门以防止进入。",
+      "solution_to_prevent_recurrence": "用安全门固定楼梯，并在孩子靠近楼梯时确保持续监督。"
+    },
+    "4": {
+      "risk_description": "这个孩子有从阳台跌落的风险，可能导致严重伤害甚至死亡。",
+      "normal_video_description": "",
+      "solution_for_person": "确保孩子被监督，绝不单独留在阳台上。",
+      "solution_for_hazard_source": "安装坚固的栏杆或屏障以防止跌落。",
+      "solution_to_prevent_recurrence": "定期检查阳台的安全设施并进行必要的维修或升级。"
+    }
+  }
+}

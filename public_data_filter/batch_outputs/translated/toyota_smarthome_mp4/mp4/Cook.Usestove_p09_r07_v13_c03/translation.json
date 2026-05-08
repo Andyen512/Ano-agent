@@ -1,0 +1,40 @@
+{
+  "video_key": "toyota_smarthome_mp4/mp4/Cook.Usestove_p09_r07_v13_c03",
+  "translations": {
+    "0": {
+      "risk_description": "",
+      "normal_video_description": "视频显示一名中年人在厨房里，打开橱柜取出物品。该行为正常，不表明任何风险。",
+      "solution_for_person": "",
+      "solution_for_hazard_source": "",
+      "solution_to_prevent_recurrence": ""
+    },
+    "1": {
+      "risk_description": "此人与烤箱互动，如果烤箱是热的或存在故障，则存在烫伤风险。",
+      "normal_video_description": "一个人站在厨房里，将手伸入烤箱。",
+      "solution_for_person": "在接近烤箱之前，确保烤箱未在使用中或已冷却。",
+      "solution_for_hazard_source": "定期检查和维护烤箱以防止故障。",
+      "solution_to_prevent_recurrence": "与烤箱保持安全距离，直到确认其关闭且冷却。"
+    },
+    "2": {
+      "risk_description": "",
+      "normal_video_description": "一名中年人站在厨房里，与烤箱互动。他打开烤箱门，向内看了一下，然后关上。环境看起来是一个标准厨房设置，没有可见的危险或不寻常的活动。",
+      "solution_for_person": "",
+      "solution_for_hazard_source": "",
+      "solution_to_prevent_recurrence": ""
+    },
+    "3": {
+      "risk_description": "这位老年人正在将手伸入烤箱，存在烫伤或接触热表面的风险，特别是如果他们行动不便或灵活度有限。",
+      "normal_video_description": "",
+      "solution_for_person": "在打开烤箱之前确保其完全冷却，并考虑使用隔热手套以防止烫伤。",
+      "solution_for_hazard_source": "安装隔热烤箱把手或使用计时器来提醒在烹饪后检查烤箱。",
+      "solution_to_prevent_recurrence": "使用计时器确保在打开烤箱前它是冷的，并在处理热电器时始终佩戴防护手套。"
+    },
+    "4": {
+      "risk_description": "这个人正在弯腰靠近烤箱，如果不小心可能会因热量而烫伤。这个动作存在受伤风险，因为有可能接触到热表面或蒸汽。",
+      "normal_video_description": "",
+      "solution_for_person": "在打开烤箱门之前确保其牢固关闭，以避免突然接触到热量。",
+      "solution_for_hazard_source": "安装隔热手套或耐热手套以在打开烤箱时保护双手。",
+      "solution_to_prevent_recurrence": "在处理烤箱和其他热源时始终使用适当的防护装备，以防止意外烫伤。"
+    }
+  }
+}

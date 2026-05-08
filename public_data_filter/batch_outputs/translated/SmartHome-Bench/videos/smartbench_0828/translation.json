@@ -1,0 +1,40 @@
+{
+  "video_key": "SmartHome-Bench/videos/smartbench_0828",
+  "translations": {
+    "0": {
+      "risk_description": "孩子在阳台边缘附近玩耍，如果失去平衡，可能会跌倒。",
+      "normal_video_description": "",
+      "solution_for_person": "看护人应确保孩子始终受到监督，并为其提供安全栏杆或防护屏障以防止跌落。",
+      "solution_for_hazard_source": "阳台栏杆应检查其稳定性，并在必要时进行加固，以防止事故。",
+      "solution_to_prevent_recurrence": "看护人应教育孩子关于在阳台边缘玩耍的危险，并确保他们理解安全措施的重要性。"
+    },
+    "1": {
+      "risk_description": "",
+      "normal_video_description": "一位年轻人在链环围栏附近铲雪，旁边有一只狗。该地区被雪覆盖，背景中停着一辆车。",
+      "solution_for_person": "",
+      "solution_for_hazard_source": "",
+      "solution_to_prevent_recurrence": ""
+    },
+    "2": {
+      "risk_description": "一个孩子站在围栏旁的雪地上，失去平衡，向后倒在雪中。光滑的条件和不平的地面导致失去稳定性。",
+      "normal_video_description": "",
+      "solution_for_person": "在雪地环境中应密切监督孩子，并建议他们穿防滑鞋。",
+      "solution_for_hazard_source": "清除走道上的积雪，并使用盐或沙子来增加牵引力。",
+      "solution_to_prevent_recurrence": "在围栏附近安装扶手，并确保地面没有冰雪。"
+    },
+    "3": {
+      "risk_description": "孩子在门附近和狗玩耍，如果狗突然移动或孩子跌倒，可能会造成碰撞或挤压伤害。",
+      "normal_video_description": "",
+      "solution_for_person": "确保孩子在门和狗附近玩耍时受到密切监督，并教育孩子靠近门以防止狗逃跑。",
+      "solution_for_hazard_source": "将狗系上牵引绳或放在封闭区域，以防止可能危及孩子的突然动作。",
+      "solution_to_prevent_recurrence": "安装安全的门，并确保狗在户外时始终受到监督，以降低风险。"
+    },
+    "4": {
+      "risk_description": "",
+      "normal_video_description": "视频显示一个积雪的后院，孩子在车旁和狗玩耍。没有明显的风险或危险活动。",
+      "solution_for_person": "",
+      "solution_for_hazard_source": "",
+      "solution_to_prevent_recurrence": ""
+    }
+  }
+}

@@ -1,0 +1,40 @@
+{
+  "video_key": "labimag/dataset/chute17/cam8",
+  "translations": {
+    "0": {
+      "risk_description": "视频中的年轻人试图坐在沙发上，但失去平衡摔倒在地上。这种行为偏离了正常坐沙发的日常活动，可能会造成伤害风险。",
+      "normal_video_description": "",
+      "solution_for_person": "应该协助此人正确坐下，以避免未来跌倒。",
+      "solution_for_hazard_source": "应该检查沙发是否有任何可能导致跌倒的潜在危险，例如松动的腿或不平的表面。",
+      "solution_to_prevent_recurrence": "应该提醒此人慢慢小心地坐下以避免跌倒，并应处理任何潜在危险以防止未来跌倒。"
+    },
+    "1": {
+      "risk_description": "穿红衬衫的人正在地板上爬行，这增加了滑倒或跌倒的风险，可能会伤害自己。",
+      "normal_video_description": "穿红衬衫的人进入客厅，在桌子下爬行，并与地板上的物品互动，而其他人在一旁观察。",
+      "solution_for_person": "此人应该避免在地板上爬行，而应该站立或跪下完成任务。",
+      "solution_for_hazard_source": "确保地板没有障碍物且表面防滑。",
+      "solution_to_prevent_recurrence": "监督类似活动，并提供更安全移动技术的指导。"
+    },
+    "2": {
+      "risk_description": "",
+      "normal_video_description": "一个人进入客厅，坐在沙发上，然后起身移动咖啡桌，而背景中有其他人。这个活动看起来是正常的日常行为，没有任何危险或不稳定的迹象。",
+      "solution_for_person": "",
+      "solution_for_hazard_source": "",
+      "solution_to_prevent_recurrence": ""
+    },
+    "3": {
+      "risk_description": "穿红衬衫的人正在弯腰跪在地上，如果失去平衡可能会造成跌倒风险，特别是对于行动不便的人来说。",
+      "normal_video_description": "",
+      "solution_for_person": "确保此人在弯腰时使用稳定的家具或支撑物以减少跌倒风险。",
+      "solution_for_hazard_source": "清除地板上的任何障碍物或杂物，以创造更安全的环境。",
+      "solution_to_prevent_recurrence": "鼓励使用椅子或凳子进行需要弯腰的任务，并保持客厅没有障碍物。"
+    },
+    "4": {
+      "risk_description": "此人正在搬动沙发，如果处理不当可能会导致跌倒。家具的锋利边缘也存在伤害风险。",
+      "normal_video_description": "一个人在客厅里搬动沙发，而另一个人在背景中工作。",
+      "solution_for_person": "确保此人在搬动沙发时握紧它，并缓慢小心地移动以避免绊倒或跌倒。",
+      "solution_for_hazard_source": "",
+      "solution_to_prevent_recurrence": "提供正确搬运技巧的培训，并鼓励使用手推车或绑带等设备来搬运重型家具。"
+    }
+  }
+}

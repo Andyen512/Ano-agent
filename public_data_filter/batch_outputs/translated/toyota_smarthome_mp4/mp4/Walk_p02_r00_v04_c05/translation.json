@@ -1,0 +1,40 @@
+{
+  "video_key": "toyota_smarthome_mp4/mp4/Walk_p02_r00_v04_c05",
+  "translations": {
+    "0": {
+      "risk_description": "",
+      "normal_video_description": "视频显示一名年轻人走进客厅，站在茶几前，观看电视。客厅光线充足，有一张绿色沙发、一张白色茶几和一盏白色落地灯。有两盆盆栽，一盆在茶几上，一盆在边桌上。电视挂在墙上，还有一个白色电视柜，上面摆放着各种物品。场景平静正常，没有发现任何风险或异常。",
+      "solution_for_person": "",
+      "solution_for_hazard_source": "",
+      "solution_to_prevent_recurrence": ""
+    },
+    "1": {
+      "risk_description": "",
+      "normal_video_description": "一位年长者进入客厅，走近茶几，弯腰与桌上的东西互动。",
+      "solution_for_person": "",
+      "solution_for_hazard_source": "",
+      "solution_to_prevent_recurrence": ""
+    },
+    "2": {
+      "risk_description": "",
+      "normal_video_description": "一个年轻人穿过客厅，经过茶几，走向挂在墙上的电视。环境看起来平静有序，没有可见的危险或不安全行为。",
+      "solution_for_person": "",
+      "solution_for_hazard_source": "",
+      "solution_to_prevent_recurrence": ""
+    },
+    "3": {
+      "risk_description": "孩子正在茶几上行走，这会因桌子高度和孩子可能的失衡而导致跌倒风险。",
+      "normal_video_description": "",
+      "solution_for_person": "确保孩子不要爬家具，提供监督以防止跌倒。",
+      "solution_for_hazard_source": "移除或固定可以攀爬的物品，如茶几。",
+      "solution_to_prevent_recurrence": "将家具远离通道，确保客厅对儿童安全，消除潜在的攀爬表面。"
+    },
+    "4": {
+      "risk_description": "",
+      "normal_video_description": "视频显示一名年轻人在客厅里操作电视。场景中没有可见的风险或危险。",
+      "solution_for_person": "",
+      "solution_for_hazard_source": "",
+      "solution_to_prevent_recurrence": ""
+    }
+  }
+}

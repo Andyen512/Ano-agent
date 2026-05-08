@@ -1,0 +1,40 @@
+{
+  "video_key": "toyota_smarthome_mp4/mp4/Getup_p07_r06_v06_c05",
+  "translations": {
+    "0": {
+      "risk_description": "这位年轻人从沙发上跳下来，可能导致跌倒并造成潜在伤害。",
+      "normal_video_description": "",
+      "solution_for_person": "应建议此人安全地坐着或站着，避免跳跃或做出可能导致跌倒的突然动作。",
+      "solution_for_hazard_source": "沙发应放置在远离硬质表面或物体的位置，以免人员在跌倒时受伤。",
+      "solution_to_prevent_recurrence": "应提醒此人在客厅中保持谨慎，注意自己的动作，以防止再次跌倒。"
+    },
+    "1": {
+      "risk_description": "",
+      "normal_video_description": "一个人正坐在客厅的绿色沙发上看电视。随后他站起来离开沙发。房间光线充足，摆放着植物和茶几。",
+      "solution_for_person": "",
+      "solution_for_hazard_source": "",
+      "solution_to_prevent_recurrence": ""
+    },
+    "2": {
+      "risk_description": "",
+      "normal_video_description": "一位老年人坐在客厅的绿色沙发上观看电视。随后他站起来，朝房间中心方向离开沙发。环境看起来平静安全，没有明显的危险或危险活动。",
+      "solution_for_person": "",
+      "solution_for_hazard_source": "",
+      "solution_to_prevent_recurrence": ""
+    },
+    "3": {
+      "risk_description": "此人在抱枕的同时试图爬上沙发，这可能导致跌倒或失去平衡，尤其是如果他们滑倒或失去对枕头的抓握。",
+      "normal_video_description": "",
+      "solution_for_person": "确保此人在爬上沙发时抓住稳固的家具或支撑物。",
+      "solution_for_hazard_source": "移除任何可能导致失衡的松散物品，例如枕头。",
+      "solution_to_prevent_recurrence": "提供一个稳固的踏板或平台，以帮助安全地爬上沙发。"
+    },
+    "4": {
+      "risk_description": "老年人有从沙发上跌倒的风险，可能会因年龄因素和撞击地板的强烈冲击而导致严重伤害。",
+      "normal_video_description": "",
+      "solution_for_person": "确保老年人在从沙发上站起时有适当的支撑，例如用手臂保持平衡或有人协助。",
+      "solution_for_hazard_source": "移除沙发附近可能导致绊倒的物品，例如茶几上的红色杯子。",
+      "solution_to_prevent_recurrence": "考虑在沙发周围的地面上铺设防滑垫，以降低滑倒的风险。"
+    }
+  }
+}

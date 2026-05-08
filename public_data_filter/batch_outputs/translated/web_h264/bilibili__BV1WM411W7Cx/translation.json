@@ -1,0 +1,40 @@
+{
+  "video_key": "web_h264/bilibili__BV1WM411W7Cx",
+  "translations": {
+    "0": {
+      "risk_description": "孩子有从高脚椅上摔落的危险，可能导致受伤。",
+      "normal_video_description": "",
+      "solution_for_person": "确保孩子在高脚椅中牢固系好，并始终受到监护。",
+      "solution_for_hazard_source": "检查高脚椅的稳定性，确保其安装正确。",
+      "solution_to_prevent_recurrence": "定期检查高脚椅及儿童坐位的潜在危险，确保正确使用安全约束装置。"
+    },
+    "1": {
+      "risk_description": "婴儿被放置在高脚椅上时没有适当的安全约束装置，导致跌倒并可能受伤。",
+      "normal_video_description": "视频显示，孩子在未被系好安全带的情况下被放在高脚椅上后跌落，随后父母对孩子进行照顾。",
+      "solution_for_person": "将孩子放置在高处时，必须始终使用适当的安全约束装置。",
+      "solution_for_hazard_source": "",
+      "solution_to_prevent_recurrence": "将孩子放入高脚椅或类似的高座时，必须始终使用安全背带或绑带。"
+    },
+    "2": {
+      "risk_description": "看护者将孩子放入高脚椅但未系好安全带，导致孩子摔出。这是一起明显的安全失误，孩子在不够稳固的家具上没有被约束。",
+      "normal_video_description": "",
+      "solution_for_person": "看护者必须立即用安全带将孩子固定好，并确保孩子在离开前已正确坐好。",
+      "solution_for_hazard_source": "使用高脚椅时应启用所有安全功能，如果当前的高脚椅不可靠，应考虑更换为更安全的型号。",
+      "solution_to_prevent_recurrence": "看护者在将孩子放入任何高座之前应始终再次检查安全带是否系好，并且永远不要在高脚椅中留下孩子无人看管。"
+    },
+    "3": {
+      "risk_description": "孩子从高脚椅跌落，存在因跌倒而导致受伤的风险。",
+      "normal_video_description": "",
+      "solution_for_person": "确保孩子在坐进高脚椅时始终有人监护并系好安全背带。",
+      "solution_for_hazard_source": "在高脚椅周围安装安全护栏，以防止跌落。",
+      "solution_to_prevent_recurrence": "将孩子放入高脚椅时务必使用儿童安全装置或安全背带，并保持持续监护。"
+    },
+    "4": {
+      "risk_description": "孩子在地板上玩玩具，可能会因摔倒而受伤。此外，周围有各种可触及的物品，如果孩子快速移动可能被撞倒或造成危险。",
+      "normal_video_description": "视频显示，孩子在餐厅里玩耍，周围有各种玩具和物品。",
+      "solution_for_person": "确保孩子在玩耍时有人监护，并通过移除潜在危险物来提供安全环境。",
+      "solution_for_hazard_source": "",
+      "solution_to_prevent_recurrence": "定期检查该区域是否存在潜在危险，确保孩子的游戏区域安全且无障碍物。"
+    }
+  }
+}

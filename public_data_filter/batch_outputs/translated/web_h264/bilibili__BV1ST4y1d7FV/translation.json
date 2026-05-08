@@ -1,0 +1,40 @@
+{
+  "video_key": "web_h264/bilibili__BV1ST4y1d7FV",
+  "translations": {
+    "0": {
+      "risk_description": "视频显示一位年轻人与另一个人发生肢体冲突，这是一种明显的人际冲突风险。该行为偏离了年轻人通常以和平互动和社交为特征的日常行为。",
+      "normal_video_description": "",
+      "solution_for_person": "参与冲突的人应与对方分开，并给予冷静的机会。护理人员或调解人应介入以缓解局势，确保所有相关人员的安全。",
+      "solution_for_hazard_source": "应评估冲突发生地点的环境，寻找可能的触发因素或冲突来源，如噪音、压力或个人问题。这些因素应加以处理，以防止未来发生类似事件。",
+      "solution_to_prevent_recurrence": "为防止再次发生，涉事人员应进行开放式沟通并采用冲突解决技巧。定期检查和监测情况也有助于在问题升级为肢体冲突之前发现潜在问题。"
+    },
+    "1": {
+      "risk_description": "两个孩子在玩旋转玻璃门，其中一个孩子在门转动时试图出去，存在被夹住而受伤的风险。",
+      "normal_video_description": "视频显示两个孩子在大厅的旋转玻璃门前玩耍，其中一个孩子在门转动时试图离开。",
+      "solution_for_person": "儿童应受监督，并被告知不要在没有成人看管的情况下玩旋转门。",
+      "solution_for_hazard_source": "旋转门在不使用时应当上锁或限制，以防止儿童玩耍。",
+      "solution_to_prevent_recurrence": "安装安全屏障或标识牌，以防止儿童在无人看管的情况下接近旋转门。"
+    },
+    "2": {
+      "risk_description": "一个孩子在玩旋转门时把头卡在旋转机构中，导致明显的严重伤害风险。",
+      "normal_video_description": "",
+      "solution_for_person": "成人或看护者应立即介入，阻止孩子继续玩旋转门并确保其安全。",
+      "solution_for_hazard_source": "旋转门应被监控或限制，以防止儿童在无人看管的情况下进入。",
+      "solution_to_prevent_recurrence": "在旋转门附近安装安全屏障或警示标志，以防止儿童玩耍。"
+    },
+    "3": {
+      "risk_description": "孩子正在玩旋转门，若被运动部件卡住，存在碰撞或挤压伤害的风险。",
+      "normal_video_description": "",
+      "solution_for_person": "确保儿童在靠近或玩耍旋转门时受到密切监督，以防止事故。",
+      "solution_for_hazard_source": "安装安全设施或屏障，以防止儿童在无人看管的情况下进入如旋转门之类的危险区域。",
+      "solution_to_prevent_recurrence": "向家庭和员工宣传在旋转门附近玩耍的危险，并严格执行监督。"
+    },
+    "4": {
+      "risk_description": "可以看到孩子在攀爬阳台栏杆，这有坠落和潜在受伤的风险。",
+      "normal_video_description": "",
+      "solution_for_person": "确保儿童始终受到监督，防止其攀爬阳台栏杆。",
+      "solution_for_hazard_source": "在阳台上安装安全屏障或门，以防止儿童接近栏杆。",
+      "solution_to_prevent_recurrence": "定期检查阳台是否存在潜在危险，并确保安全措施已到位且正常运行。"
+    }
+  }
+}

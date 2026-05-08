@@ -1,0 +1,40 @@
+{
+  "video_key": "web_h264/bilibili__BV1Te4y1L7io",
+  "translations": {
+    "0": {
+      "risk_description": "这位中年成年人正躺在卧室的地板上，这对于一个人来说是一个不寻常的地方。该成年人看起来处于困境中，可能是从床或椅子上摔下来的。这种情况存在受伤风险，需要立即关注。",
+      "normal_video_description": "",
+      "solution_for_person": "拨打急救服务电话或联系医疗专业人员，以评估该成年人的状况并提供适当的护理。",
+      "solution_for_hazard_source": "确保卧室没有绊倒危险物，如电线或松动的地毯，并且家具稳定安全。",
+      "solution_to_prevent_recurrence": "在床和椅子上安装安全栏杆或护栏以防止跌倒。定期检查成年人的居住空间是否存在潜在危险，并及时处理任何问题。"
+    },
+    "1": {
+      "risk_description": "这位老年成年人在跌倒后难以从地板上站起来，表明其不稳定性和行动困难，这存在长时间无法活动和潜在的低体温或受伤风险。",
+      "normal_video_description": "一位老年成年人跌倒在杂乱的卧室里，难以站起来，在地板上躺了几个小时才被家人发现。",
+      "solution_for_person": "确保为老年成年人提供立即帮助，以防止长时间躺在地板上。",
+      "solution_for_hazard_source": "",
+      "solution_to_prevent_recurrence": "在卧室安装扶手杆或辅助设备，以帮助站立并减少跌倒风险。"
+    },
+    "2": {
+      "risk_description": "一位老年成年人失去平衡跌倒在卧室的地板上，长时间无法站立。画面显示该人躺在地上，表明存在明显的跌倒风险以及潜在的受伤或健康并发症。",
+      "normal_video_description": "",
+      "solution_for_person": "需要立即帮助该人站起来并评估是否受伤。",
+      "solution_for_hazard_source": "清除或固定房间中可能导致跌倒的障碍物。",
+      "solution_to_prevent_recurrence": "实施定期探视和监控，以确保如果他们再次跌倒时能够及时提供帮助。"
+    },
+    "3": {
+      "risk_description": "这位老年成年人跌倒后难以站起来，表明存在因不稳定性和潜在自我保护困难而导致的受伤风险。",
+      "normal_video_description": "",
+      "solution_for_person": "确保老年成年人在站立或移动时有支撑或帮助，以防止跌倒。",
+      "solution_for_hazard_source": "清除绊倒危险物，确保居住区域整洁稳定。",
+      "solution_to_prevent_recurrence": "安装扶手杆或辅助设备以帮助行动和保持稳定。"
+    },
+    "4": {
+      "risk_description": "孩子躺在地板上，这可能表明存在跌倒或不稳定风险。重要的是确保孩子的安全且没有受伤。",
+      "normal_video_description": "视频显示一个孩子躺在卧室的地板上。",
+      "solution_for_person": "检查孩子的状况并在需要时提供帮助。",
+      "solution_for_hazard_source": "",
+      "solution_to_prevent_recurrence": "确保孩子受到监督且环境安全，以防止将来发生跌倒或不稳事件。"
+    }
+  }
+}

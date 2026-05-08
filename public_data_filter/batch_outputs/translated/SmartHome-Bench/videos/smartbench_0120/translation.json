@@ -1,0 +1,40 @@
+{
+  "video_key": "SmartHome-Bench/videos/smartbench_0120",
+  "translations": {
+    "0": {
+      "risk_description": "孩子正在阳台栏杆上玩耍，如果失去平衡可能会导致坠落。",
+      "normal_video_description": "孩子正在阳台栏杆上玩耍，如果失去平衡可能会导致坠落。",
+      "solution_for_person": "看护者应密切监督孩子，确保他们不要在栏杆上爬得太高。",
+      "solution_for_hazard_source": "栏杆应配备额外的安全设施加固，如安全网或更高的护栏。",
+      "solution_to_prevent_recurrence": "看护者应教育孩子玩耍栏杆的危险性，并确保他们理解安全的重要性。"
+    },
+    "1": {
+      "risk_description": "一个年轻人赤膊站在带有黑色金属栏杆的阳台边缘。他的姿势和靠近栏杆的距离表明有坠落或失去平衡的风险。",
+      "normal_video_description": "一个年轻人站在阳台栏杆附近，做着手势并四处张望。",
+      "solution_for_person": "确保年轻人与阳台边缘保持安全距离，并穿合适的衣服以防止滑倒。",
+      "solution_for_hazard_source": "在阳台上安装额外的安全护栏或警告标志，以提醒人们注意边缘。",
+      "solution_to_prevent_recurrence": "当年轻人在阳台上时进行监督，并教育他离栏杆太近的危险性。"
+    },
+    "2": {
+      "risk_description": "",
+      "normal_video_description": "一个赤膊的男孩在潮湿的阳台上玩耍，四处走动并以有趣的方式与栏杆互动。该场景描述的是正常的日常活动，没有任何危险或风险的迹象。",
+      "solution_for_person": "",
+      "solution_for_hazard_source": "",
+      "solution_to_prevent_recurrence": ""
+    },
+    "3": {
+      "risk_description": "孩子正在攀爬阳台栏杆，由于高度和可能降低抓握力的潮湿条件，这构成了严重的坠落风险。",
+      "normal_video_description": "",
+      "solution_for_person": "确保孩子受到密切监督，不要试图攀爬栏杆。",
+      "solution_for_hazard_source": "安装安全护栏或门以防止接近阳台栏杆。",
+      "solution_to_prevent_recurrence": "安装额外的安全措施，如婴儿门，并确保当孩子在阳台附近时进行持续监督。"
+    },
+    "4": {
+      "risk_description": "年轻人正站在阳台栏杆上，这存在坠落和潜在严重伤害的风险。阳台的高度和与地面的接近程度增加了潜在后果的严重性。",
+      "normal_video_description": "",
+      "solution_for_person": "确保年轻人在阳台栏杆上时不被单独留下，并提供支持或帮助以防止他们坠落。",
+      "solution_for_hazard_source": "在阳台沿线安装栏杆或屏障以防止坠落。",
+      "solution_to_prevent_recurrence": "教育年轻人站在阳台栏杆上的危险性，并制定阳台安全行为规则。"
+    }
+  }
+}

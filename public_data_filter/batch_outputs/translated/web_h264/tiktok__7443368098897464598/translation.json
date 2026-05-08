@@ -1,0 +1,40 @@
+{
+  "video_key": "web_h264/tiktok__7443368098897464598",
+  "translations": {
+    "0": {
+      "risk_description": "这位年轻人正在走廊里奔跑，看起来快要失去平衡，可能导致跌倒。",
+      "normal_video_description": "",
+      "solution_for_person": "此人应放慢脚步，小心行走以防止跌倒。",
+      "solution_for_hazard_source": "走廊地板可能湿滑或不平整，导致此人失去平衡。",
+      "solution_to_prevent_recurrence": "此人应更加注意周围环境，以安全的速度行走，特别是在跌倒风险较高的地方。"
+    },
+    "1": {
+      "risk_description": "",
+      "normal_video_description": "视频显示一条走廊，通向另一间房间的门敞开着。一位穿蓝色衬衫的人走过走廊，随后跟着一名穿黑色衬衫的人。穿黑色衬衫的人通过敞开的门进入房间，门随后在其身后关闭。",
+      "solution_for_person": "",
+      "solution_for_hazard_source": "",
+      "solution_to_prevent_recurrence": ""
+    },
+    "2": {
+      "risk_description": "一个人冲进玻璃封闭的楼梯间，失去平衡，摔倒在地。该行为显然超出正常活动范围，因为高速移动导致在受限空间内跌倒。",
+      "normal_video_description": "",
+      "solution_for_person": "此人应立即起身并检查是否受伤，必要时及时就医。",
+      "solution_for_hazard_source": "在楼梯间入口处安装安全护栏或警示标志，以防止未经授权的人员进入。",
+      "solution_to_prevent_recurrence": "采取安全措施，例如安装扶手或护栏，以防止类似情况下跌倒。"
+    },
+    "3": {
+      "risk_description": "这位年轻人冲进走廊后摔倒，这可能会造成受伤风险，尤其对行动不便或平衡有问题的人更为危险。",
+      "normal_video_description": "",
+      "solution_for_person": "这位年轻人在奔跑时应保持谨慎，确保前方道路畅通，以避免绊倒或跌倒。",
+      "solution_for_hazard_source": "在走廊安装额外的照明或标识，以突出可能的绊倒危险。",
+      "solution_to_prevent_recurrence": "应提醒这位年轻人保持对周围环境的警觉，以安全的速度行走，以防止再次跌倒。"
+    },
+    "4": {
+      "risk_description": "可以看到该人先奔跑后失去平衡，可能导致跌倒。跌倒可能导致严重伤害，尤其是撞到硬表面或从高处坠落时。",
+      "normal_video_description": "",
+      "solution_for_person": "确保该区域无障碍物，若此人显得不稳，应提供帮助。",
+      "solution_for_hazard_source": "",
+      "solution_to_prevent_recurrence": "鼓励此人以安全的速度行走，并注意周围环境。"
+    }
+  }
+}

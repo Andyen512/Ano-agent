@@ -1,0 +1,40 @@
+{
+  "video_key": "SmartHome-Bench/videos/smartbench_0501",
+  "translations": {
+    "0": {
+      "risk_description": "孩子正在院子里玩玩具，看起来脚步不稳，可能会摔倒。",
+      "normal_video_description": "",
+      "solution_for_person": "看护者应该密切关注孩子，确保他们不要在院子边缘附近玩耍。",
+      "solution_for_hazard_source": "看护者应该确保院子里没有任何可能导致孩子绊倒或摔倒的危险物品。",
+      "solution_to_prevent_recurrence": "看护者应该在孩子玩耍时进行监督，确保他们不要在院子边缘附近玩耍。"
+    },
+    "1": {
+      "risk_description": "年轻人反复弯腰从车道上捡起小物件，这可能导致失去平衡而摔倒。",
+      "normal_video_description": "一个年轻人站在车道上，反复弯腰捡起地上的小物件。",
+      "solution_for_person": "年轻人在捡东西时要小心，确保站立前有稳定的姿势。",
+      "solution_for_hazard_source": "",
+      "solution_to_prevent_recurrence": "确保车道上没有容易被绊倒的小物品。"
+    },
+    "2": {
+      "risk_description": "",
+      "normal_video_description": "一个背着背包的孩子沿着车道走，停下来看地上的一件小东西，然后继续走。这个场景描述了一个居民区的正常日常活动，没有危险或风险的迹象。",
+      "solution_for_person": "",
+      "solution_for_hazard_source": "",
+      "solution_to_prevent_recurrence": ""
+    },
+    "3": {
+      "risk_description": "孩子试图踢地上的小物件，这可能导致失去平衡而摔倒，特别是如果他们行动能力或协调能力有限的话。",
+      "normal_video_description": "",
+      "solution_for_person": "应该监督孩子以确保他们在玩耍时保持平衡。",
+      "solution_for_hazard_source": "确保该区域没有可能导致绊倒或摔倒的小物件。",
+      "solution_to_prevent_recurrence": "保持游戏区域没有小物件，并提供一个稳定的表面用于活动。"
+    },
+    "4": {
+      "risk_description": "这个人在斜坡上玩滑板，增加了失去平衡和摔倒的风险。从高处摔落可能导致严重伤害。",
+      "normal_video_description": "一个人在斜坡车道上玩滑板，在整个下坡过程中保持平衡和控制。",
+      "solution_for_person": "佩戴防护装备，如头盔、护膝和护肘，以减少摔倒的影响。",
+      "solution_for_hazard_source": "",
+      "solution_to_prevent_recurrence": "在尝试斜坡之前，先在平地上练习滑板，以提高平衡和控制能力。"
+    }
+  }
+}

@@ -1,0 +1,40 @@
+{
+  "video_key": "labimag/dataset/chute09/cam1",
+  "translations": {
+    "0": {
+      "risk_description": "年轻人躺在地板上，双腿抬高，这不是一种稳定的躺姿，可能导致跌倒或失去平衡。",
+      "normal_video_description": "年轻人躺在地板上，双腿抬高，这不是一种稳定的躺姿，可能导致跌倒或失去平衡。",
+      "solution_for_person": "应鼓励该人采用更稳定的躺姿，例如仰卧并将双腿平放在地板上。",
+      "solution_for_hazard_source": "此场景中没有危险源。",
+      "solution_to_prevent_recurrence": "应提醒该人在地板上休息时采用稳定的躺姿，以防止此类风险再次发生。"
+    },
+    "1": {
+      "risk_description": "该人躺在直接放在瓷砖地板上的床垫上，若未固定好或突然移动，可能导致滑倒或从床垫上跌落。",
+      "normal_video_description": "一个穿红色衬衫的人进入房间，先坐在一把棕色椅子上，然后躺在地板上的白色床垫上，而背景中其他人正在工作。",
+      "solution_for_person": "确保床垫牢固固定，以防止其移动或翻倒。",
+      "solution_for_hazard_source": "在床垫下方放置防滑垫或缓冲垫，以降低滑倒风险。",
+      "solution_to_prevent_recurrence": "定期检查床垫是否稳固，并考虑使用绑带将其固定在地板上。"
+    },
+    "2": {
+      "risk_description": "",
+      "normal_video_description": "一个年轻人走进房间，跳到一把棕色扶手椅上，然后滚到地板上的白色床垫上。该动作在家居环境中显得是玩耍且受控的。",
+      "solution_for_person": "",
+      "solution_for_hazard_source": "",
+      "solution_to_prevent_recurrence": ""
+    },
+    "3": {
+      "risk_description": "该人试图跳上沙发，由于沙发的高度和不稳定，可能会导致跌倒或受伤。",
+      "normal_video_description": "",
+      "solution_for_person": "确保该人使用稳固的表面或小心踏到沙发上，以防止跌倒。",
+      "solution_for_hazard_source": "移除或固定沙发，以降低跌倒风险。",
+      "solution_to_prevent_recurrence": "使用坐垫或垫子提供更安全的落地区域，并确保沙发稳固。"
+    },
+    "4": {
+      "risk_description": "该人正躺在办公室中央的豆袋椅上，如果在没有适当支撑的情况下起身或移动，可能会导致跌倒。由于可能突然失去平衡，这种情况存在受伤风险。",
+      "normal_video_description": "",
+      "solution_for_person": "确保该人在从豆袋椅上起身时有适当的支撑，以防止跌倒。",
+      "solution_for_hazard_source": "",
+      "solution_to_prevent_recurrence": "提供具有靠背和扶手的适当座位，以降低办公室环境中的跌倒风险。"
+    }
+  }
+}

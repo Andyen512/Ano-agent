@@ -1,0 +1,40 @@
+{
+  "video_key": "SmartHome-Bench/videos/smartbench_0231",
+  "translations": {
+    "0": {
+      "risk_description": "一头熊被发现正在接近住宅区并进入屋内，这对居民构成潜在安全风险。",
+      "normal_video_description": "视频显示一名年轻人从房子里走出来，在院子里遇到了一头熊。此人迅速返回屋内，熊则被看到正在离开。",
+      "solution_for_person": "该人员应待在屋内，避免外出，直到熊离开该区域。",
+      "solution_for_hazard_source": "房主应向当地有关部门报告此次目击事件，并采取必要的预防措施以防止未来再次发生遭遇。",
+      "solution_to_prevent_recurrence": "房主应安装防熊围栏，并妥善保管任何可能的食物来源，以阻止熊接近该房产。"
+    },
+    "1": {
+      "risk_description": "一头熊正在住宅车道上与一辆车互动，打开和关闭驾驶座一侧的车门。这种行为对熊或靠近车辆的任何人员构成碰撞或挤压伤害风险。",
+      "normal_video_description": "一头熊接近停在住宅车道上的车辆，打开驾驶座一侧的车门，然后关上它，之后走开。",
+      "solution_for_person": "与熊保持安全距离，避免靠近它。",
+      "solution_for_hazard_source": "不使用时务必关好车门，尤其是在有野生动物存在的地区。",
+      "solution_to_prevent_recurrence": "安装感应式驱赶装置或防熊容器，以减少野生动物对住宅区的吸引。"
+    },
+    "2": {
+      "risk_description": "一头熊接近一辆停放的汽车，打开驾驶座一侧的车门并进入车内。这种行为对车内乘客构成直接碰撞或挤压伤害风险。",
+      "normal_video_description": "一头熊走到停在车道上的一辆汽车旁，打开驾驶座一侧的车门，进入车内后才走开。",
+      "solution_for_person": "",
+      "solution_for_hazard_source": "",
+      "solution_to_prevent_recurrence": ""
+    },
+    "3": {
+      "risk_description": "一头熊被发现正在接近一辆车门打开的车辆，这对附近可能存在的儿童构成碰撞或挤压伤害风险。",
+      "normal_video_description": "",
+      "solution_for_person": "确保儿童与车辆和熊保持安全距离。",
+      "solution_for_hazard_source": "关好车门并监测野生动物活动，防止动物接近。",
+      "solution_to_prevent_recurrence": "安装感应式驱赶装置或防熊容器，以使野生动物远离住宅区。"
+    },
+    "4": {
+      "risk_description": "一头熊被发现正在接近住宅区的一辆汽车，如果熊进入车内，可能会导致碰撞或挤压伤害。",
+      "normal_video_description": "视频显示一头熊在住宅区接近一辆停放的汽车，在拍摄过程中没有发生明显的伤害或损坏。",
+      "solution_for_person": "与熊保持安全距离，避免任何可能惊吓到它的突然动作。",
+      "solution_for_hazard_source": "确保车门关好锁紧，防止熊进入车内。",
+      "solution_to_prevent_recurrence": "安装感应灯或其他驱赶装置，以阻止熊接近该房产。"
+    }
+  }
+}

@@ -1,0 +1,40 @@
+{
+  "video_key": "web_h264/youtube__-7kOuwVH8PE",
+  "translations": {
+    "0": {
+      "risk_description": "视频显示在一间餐厅里，有一群人，其中一位老年人被其他人约束。老年人显得激动，被几个人压住。这种行为明显是人际冲突的迹象，可能会升级为危险局面。",
+      "normal_video_description": "",
+      "solution_for_person": "护理人员或家庭成员应为老年人寻求专业帮助，以解决可能导致其激动和攻击行为的根本问题。",
+      "solution_for_hazard_source": "护理人员或家庭成员应确保老年人在安全、受控的环境中接受监护和照料。",
+      "solution_to_prevent_recurrence": "护理人员或家庭成员应为老年人建立规律，包括定期活动和社交互动，以帮助减轻其激动和攻击行为。他们也应寻求专业帮助，以解决可能导致老年人行为的根本问题。"
+    },
+    "1": {
+      "risk_description": "老年人似乎处于痛苦状态，被多人进行身体约束，这可能导致身体伤害或情绪困扰。现场有多人在近距离，易增加在冲突过程中意外跌倒或碰撞的风险。",
+      "normal_video_description": "一群人聚集在餐厅区域，打麻将。一位老妇人显得痛苦，被周围的人试图帮助或约束，导致场面混乱。",
+      "solution_for_person": "确保老年人坐在稳固、舒适的椅子上，以防止跌倒，并提供情感支持以缓解局势。",
+      "solution_for_hazard_source": "移除现场任何尖锐物品或不稳固的家具，以最大程度降低事件期间的潜在伤害风险。",
+      "solution_to_prevent_recurrence": "制定明确的冲突解决规程，并为所有在场人员提供冲突降级技巧培训，以确保安全处理此类情况。"
+    },
+    "2": {
+      "risk_description": "一位老年人在打牌时突然失去平衡，从椅子上向后跌倒，造成明显的受伤风险。随着该人撞到地面并需要他人帮助起身，情况进一步恶化。",
+      "normal_video_description": "",
+      "solution_for_person": "应立即帮助该人进入稳固的姿势，最好是坐下，以防止进一步受伤。",
+      "solution_for_hazard_source": "确保椅子稳固，地面无障碍物，以防止未来跌倒。",
+      "solution_to_prevent_recurrence": "在老年人进行可能需要平衡的活动时提供支持或监督，并考虑使用更具稳定性的椅子。"
+    },
+    "3": {
+      "risk_description": "老年人正在被拉拽和推挤，可能导致跌倒或不稳，尤其是考虑到其年龄和可能较弱的平衡能力。",
+      "normal_video_description": "",
+      "solution_for_person": "确保他人在互动时老年人已坐下或得到支撑，以防止突然的动作。",
+      "solution_for_hazard_source": "提供稳固的座位，并确保与老年人的互动温和且受控。",
+      "solution_to_prevent_recurrence": "密切监督互动，确保环境对老年人安全，以防止跌倒。"
+    },
+    "4": {
+      "risk_description": "由于椅子位置不稳，孩子有从椅子上跌落的危险。",
+      "normal_video_description": "",
+      "solution_for_person": "在离开孩子之前，确保其已安全坐在椅子上，且椅子稳固。",
+      "solution_for_hazard_source": "移除任何不稳固的椅子或可能在餐厅区域造成跌倒风险的物品。",
+      "solution_to_prevent_recurrence": "定期检查餐厅区域的家具和物品，确保它们稳固安全。"
+    }
+  }
+}

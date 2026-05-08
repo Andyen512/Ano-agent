@@ -1,0 +1,40 @@
+{
+  "video_key": "labimag/dataset/chute23/cam7",
+  "translations": {
+    "0": {
+      "risk_description": "视频中的人看到在客厅里走来走去，捡起地上的物品，并搬动家具。这种行为可能表明不稳定或跌倒风险，特别是如果该人是老年人或有行动障碍。",
+      "normal_video_description": "",
+      "solution_for_person": "应该由护理人员或家庭成员协助此人，以确保他们在搬动家具和捡起地上物品时的安全。",
+      "solution_for_hazard_source": "应该重新布置客厅，去除任何绊倒危险，确保地板上没有杂物。",
+      "solution_to_prevent_recurrence": "在搬动家具和捡起地上物品时应对此人进行监督，以防止跌倒和受伤。定期锻炼和物理治疗也可以帮助改善平衡和稳定性。"
+    },
+    "1": {
+      "risk_description": "此人躺在地板上，以不稳的方式试图站起来，这可能导致跌倒和潜在伤害。",
+      "normal_video_description": "一个人进入书房，放下一个盒子，躺在地板上并挣扎站起。",
+      "solution_for_person": "避免以不稳的姿势躺在地板上，如无法安全站起，请寻求帮助。",
+      "solution_for_hazard_source": "",
+      "solution_to_prevent_recurrence": "确保此人意识到躺在地板上的跌倒风险，并在需要时提供支持。"
+    },
+    "2": {
+      "risk_description": "",
+      "normal_video_description": "一个年轻人进入客厅，搬动椅子，捡起背包，然后躺在沙发上，随后坐在扶手椅上。这些动作是玩耍和探索性的，属于正常家庭环境，没有危险或不稳定的迹象。",
+      "solution_for_person": "",
+      "solution_for_hazard_source": "",
+      "solution_to_prevent_recurrence": ""
+    },
+    "3": {
+      "risk_description": "此人在试图捡起物品时倒在沙发上，这可能对行动受限或平衡有问题的人造成担忧。",
+      "normal_video_description": "",
+      "solution_for_person": "确保该区域没有障碍物，考虑使用稳固的椅子或凳子来捡起物品。",
+      "solution_for_hazard_source": "移除或固定任何可能导致绊倒或跌落的松散物品。",
+      "solution_to_prevent_recurrence": "练习安全的移动方式，并考虑使用拾取工具（如取物器）来捡起地上的物品。"
+    },
+    "4": {
+      "risk_description": "此人被看到向后倒在地板上，可能会导致严重伤害。",
+      "normal_video_description": "",
+      "solution_for_person": "确保此人穿着合适的鞋子，并且在行走时不被分心，以防止跌倒。",
+      "solution_for_hazard_source": "移除地板上的绊倒危险或障碍物，以降低跌倒风险。",
+      "solution_to_prevent_recurrence": "鼓励此人休息并活动双腿，以避免疲劳并保持平衡。"
+    }
+  }
+}

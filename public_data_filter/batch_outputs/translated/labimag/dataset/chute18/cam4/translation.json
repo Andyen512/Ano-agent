@@ -1,0 +1,40 @@
+{
+  "video_key": "labimag/dataset/chute18/cam4",
+  "translations": {
+    "0": {
+      "risk_description": "视频中看到这位年轻人在办公室奔跑，然后突然倒地，可能会导致受伤。",
+      "normal_video_description": "",
+      "solution_for_person": "此人在办公室走动时应更加小心，以免绊倒或滑倒。",
+      "solution_for_hazard_source": "办公室地面应保持清洁，无任何可能导致绊倒或跌倒的障碍物。",
+      "solution_to_prevent_recurrence": "应提醒此人在办公室走动时更加小心，并保持地面清洁、无障碍物。"
+    },
+    "1": {
+      "risk_description": "穿红衣的人正面朝下俯卧在瓷砖地板上，存在跌倒或无法快速站起的伤害风险。若不及时处理，此行为可能导致跌倒或被设备困住。",
+      "normal_video_description": "视频显示一间实验室或学习室，设有多个工作站和设备。穿红衣的人走进房间，在地板上进行俯卧动作，并被旁边的人观察。",
+      "solution_for_person": "确保穿红衣的人受到监督并在安全的情况下被帮助站起。",
+      "solution_for_hazard_source": "",
+      "solution_to_prevent_recurrence": "在工作场所制定明确的俯卧姿势安全规程，并在观察到此类行为时提供即时帮助。"
+    },
+    "2": {
+      "risk_description": "穿红衣的人走进房间，坐在椅子上，然后向后倒在地上。此行为明显超出正常活动范围，因不稳而导致严重的受伤风险。",
+      "normal_video_description": "",
+      "solution_for_person": "应帮助此人站起来并检查是否有受伤。",
+      "solution_for_hazard_source": "确保椅子和其他家具稳固，放置在安全位置，以防倾倒或跌落。",
+      "solution_to_prevent_recurrence": "为可能有平衡问题的人提供稳定辅助或监督，并确保环境无绊倒危险。"
+    },
+    "3": {
+      "risk_description": "视频中此人进行前滚翻，若姿势不稳可能造成伤害，特别是对于行动受限或平衡不佳的人。",
+      "normal_video_description": "",
+      "solution_for_person": "确保此人了解周围环境，并有柔软安全的表面用于翻滚。",
+      "solution_for_hazard_source": "",
+      "solution_to_prevent_recurrence": "在受控环境中练习该动作，并确保有适当的监督。"
+    },
+    "4": {
+      "risk_description": "穿红衣的人走在标有线标记的地面上，这些线可能光滑或不稳定。他们失去平衡跌倒，可能导致严重伤害。",
+      "normal_video_description": "",
+      "solution_for_person": "确保地面干燥且无障碍物，以防滑倒。",
+      "solution_for_hazard_source": "清除地面上标线处的潜在危险。",
+      "solution_to_prevent_recurrence": "定期检查和维护地面状况，确保行走安全。"
+    }
+  }
+}

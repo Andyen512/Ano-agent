@@ -1,0 +1,40 @@
+{
+  "video_key": "UR_Fall_Dataset/fall-16-cam0",
+  "translations": {
+    "0": {
+      "risk_description": "这位年轻人正在进行一种高强度运动，包括跳跃和弯腰，这可能会增加跌倒或失去平衡的风险。这项运动是在一项研究中进行的，该研究可能没有适当的地板或家具来支撑此类活动。",
+      "normal_video_description": "这位年轻人正在一项研究中进行涉及跳跃和弯腰的高强度运动。这项运动是在一个安全可控的环境中进行的，配备有适当的地板和设备。",
+      "solution_for_person": "应建议该人在更合适的环境中进行此类运动，例如健身房或设有适当地板和设备的指定运动区域。",
+      "solution_for_hazard_source": "应重新安排研究，以消除任何潜在危险，例如松散的电缆或可能导致该人绊倒或失去平衡的家具。",
+      "solution_to_prevent_recurrence": "应鼓励该人在适合其运动环境的低冲击运动。"
+    },
+    "1": {
+      "risk_description": "看到这个人坐在椅子上然后摔到地上，这存在跌倒本身造成伤害的风险。",
+      "normal_video_description": "一位年轻人坐在研究室里，然后摔到地上。",
+      "solution_for_person": "确保此人坐姿正确并注意周围环境，以避免可能导致跌倒的突然动作。",
+      "solution_for_hazard_source": "",
+      "solution_to_prevent_recurrence": "在研究区域安装防滑垫或确保地板上没有绊倒危险。"
+    },
+    "2": {
+      "risk_description": "",
+      "normal_video_description": "一位年轻人坐在研究室的椅子上，然后站起来，弯腰向前，并过渡到地板上的爬行姿势。这个动作看起来是在一个安全的室内环境中进行的有意身体锻炼或玩耍活动。",
+      "solution_for_person": "",
+      "solution_for_hazard_source": "",
+      "solution_to_prevent_recurrence": ""
+    },
+    "3": {
+      "risk_description": "可以看到这位年轻人弯腰向前然后摔到地上，这可能会造成伤害风险，特别是如果他们行动不便或正在从疾病中恢复。",
+      "normal_video_description": "",
+      "solution_for_person": "确保这位年轻人坐在或站在稳定的位置以防止跌倒。",
+      "solution_for_hazard_source": "清除地板上的任何障碍物或绊倒危险，以减少跌倒风险。",
+      "solution_to_prevent_recurrence": "在这位年轻人移动或弯腰时提供支持或监督，以防止未来跌倒。"
+    },
+    "4": {
+      "risk_description": "此人正在从椅子上进行高跳，这可能导致严重跌倒和潜在伤害。由于此人正在准备和执行跳跃，整个视频中都存在这种风险。",
+      "normal_video_description": "",
+      "solution_for_person": "确保此人佩戴适当的安全装备，例如头盔，并有一名保护人员在跌倒时接住他们。",
+      "solution_for_hazard_source": "清除此人跳跃区域中可能造成绊倒危险的任何物体或家具。",
+      "solution_to_prevent_recurrence": "提供安全跳跃技术的适当培训，并确保此人了解此活动中涉及的潜在风险。"
+    }
+  }
+}

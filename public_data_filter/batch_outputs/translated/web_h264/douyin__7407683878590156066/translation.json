@@ -1,0 +1,40 @@
+{
+  "video_key": "web_h264/douyin__7407683878590156066",
+  "translations": {
+    "0": {
+      "risk_description": "青少年正在滑板时摔倒，可能导致受伤。",
+      "normal_video_description": "",
+      "solution_for_person": "确保青少年穿戴防护装备，并在受控环境中练习。",
+      "solution_for_hazard_source": "通过增加垫子和适当的地面来提高滑板区的安全性。",
+      "solution_to_prevent_recurrence": "鼓励青少年安全练习，并考虑参加专业滑板教练的课程。"
+    },
+    "1": {
+      "risk_description": "视频显示多名青少年从事高风险跌倒或失去平衡的活动，如滑板、跑酷和从高处跳下。这些动作因跌倒或失控而导致伤害的可能性很高。",
+      "normal_video_description": "该视频是各种青少年尝试并失败于不同体育活动的合集，常以跌倒或尴尬场面告终。",
+      "solution_for_person": "青少年应避免在缺乏适当安全装备和监督的情况下进行冒险特技。",
+      "solution_for_hazard_source": "",
+      "solution_to_prevent_recurrence": "佩戴适当的安全装备，如头盔和护具，并在有监督的受控环境中练习。"
+    },
+    "2": {
+      "risk_description": "视频显示多名青少年在健身房环境中失去平衡并跌倒，这表明由于活动中的不稳定会导致明显的身体风险。",
+      "normal_video_description": "",
+      "solution_for_person": "在进行体育活动时保持正确的身体姿势和专注，以防止跌倒。",
+      "solution_for_hazard_source": "确保健身器材得到适当维护并合理摆放，以减少绊倒危险。",
+      "solution_to_prevent_recurrence": "在体育活动期间提供安全培训和监督，以降低跌倒的可能性。"
+    },
+    "3": {
+      "risk_description": "视频中看到一个孩子从阳台跌落，由于高度和潜在冲击，存在严重的受伤风险。",
+      "normal_video_description": "",
+      "solution_for_person": "确保阳台有牢固的护栏，并在儿童靠近边缘时进行密切监督。",
+      "solution_for_hazard_source": "安装安全护栏或门，以防止进入阳台。",
+      "solution_to_prevent_recurrence": "在儿童靠近高处时始终进行监督，并确保安全措施到位。"
+    },
+    "4": {
+      "risk_description": "视频显示一名青少年在客厅进行高踢，如果动作不当可能导致跌倒或失衡。",
+      "normal_video_description": "视频展示了不同场景中高踢的画面，其中一些人在踢腿时跌倒或失去平衡。",
+      "solution_for_person": "在进行高踢时确保姿势平衡和技术正确，以防止跌倒或失衡。",
+      "solution_for_hazard_source": "",
+      "solution_to_prevent_recurrence": "在进行高踢前练习正确的技术和热身动作，以降低跌倒或失衡的风险。"
+    }
+  }
+}

@@ -1,0 +1,40 @@
+{
+  "video_key": "web_h264/bilibili__BV1ZT411a7GV",
+  "translations": {
+    "0": {
+      "risk_description": "中年成人正在使用耙子，似乎失去平衡，导致跌倒。这种情况由于跌倒而存在受伤风险。",
+      "normal_video_description": "",
+      "solution_for_person": "此人应在护理人员的协助下使用可能引起不稳的工具，以确保其稳定和安全。",
+      "solution_for_hazard_source": "危险源是使用耙子，这可能导致使用者失去平衡。解决方案是使用风险较低的工具，或在使用此类工具时提供支撑。",
+      "solution_to_prevent_recurrence": "应为此人提供安全工具使用培训，并在使用可能引起不稳的工具时由护理人员协助。还应定期检查其平衡和稳定性，以防止将来跌倒。"
+    },
+    "1": {
+      "risk_description": "老年人在行走时失去平衡并跌倒在地上，存在跌倒导致受伤的风险。",
+      "normal_video_description": "老年人在手持耙子行走时滑倒跌倒。路人帮助其站起并提供进一步帮助。",
+      "solution_for_person": "在不平或可能湿滑的地面上行走时，应给予老年人帮助。",
+      "solution_for_hazard_source": "确保行走区域畅通无阻，地面平整稳固。",
+      "solution_to_prevent_recurrence": "鼓励老年人在需要时使用辅助设备，并在潜在危险区域行走时有人陪同。"
+    },
+    "2": {
+      "risk_description": "老年人握着耙子失去平衡跌倒在地上，显示出因不稳而造成的明显受伤风险。",
+      "normal_video_description": "",
+      "solution_for_person": "此人应立即停止活动，检查受伤情况，如无法站立则寻求帮助。",
+      "solution_for_hazard_source": "确保该区域无障碍物，并为老年人提供支撑或监督。",
+      "solution_to_prevent_recurrence": "鼓励使用辅助设备，并确保环境对老年人安全。"
+    },
+    "3": {
+      "risk_description": "老年人在行走时跌倒，且一段时间未被注意，如果不能及时处理，可能导致进一步受伤。",
+      "normal_video_description": "",
+      "solution_for_person": "确保有人员陪伴或监控老年人，以便在其跌倒或绊倒时提供即时帮助。",
+      "solution_for_hazard_source": "清除院子里的绊倒危险，如不平坦表面或障碍物，以防止跌倒。",
+      "solution_to_prevent_recurrence": "在该区域安装额外的支撑或扶手，必要时鼓励使用助行器具。"
+    },
+    "4": {
+      "risk_description": "老年人弯腰从地面捡起物体，若不注意可能导致跌倒。地面不平也存在不稳风险。",
+      "normal_video_description": "",
+      "solution_for_person": "确保老年人穿着抓地力良好的合适鞋履，弯腰捡东西时要小心谨慎。",
+      "solution_for_hazard_source": "清除老年人行走区域的障碍物或危险物。",
+      "solution_to_prevent_recurrence": "鼓励老年人在不平坦地面上行走时使用拐杖或助行器以获得支撑。"
+    }
+  }
+}

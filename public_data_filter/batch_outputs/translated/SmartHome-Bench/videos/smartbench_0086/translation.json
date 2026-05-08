@@ -1,0 +1,40 @@
+{
+  "video_key": "SmartHome-Bench/videos/smartbench_0086",
+  "translations": {
+    "0": {
+      "risk_description": "这位年轻人正在两辆停放的汽车之间行走，如果不注意，可能会导致碰撞或挤压伤害。",
+      "normal_video_description": "视频显示一名年轻人在夜间在院子里两辆停放的汽车之间行走。",
+      "solution_for_person": "该人在两辆停放的汽车之间行走时应更加小心，以避免任何潜在的事故。",
+      "solution_for_hazard_source": "",
+      "solution_to_prevent_recurrence": "该人在院子里行走时应更加注意周围环境，以防止此类风险再次发生。"
+    },
+    "1": {
+      "risk_description": "",
+      "normal_video_description": "夜间，两辆车停在车道上。一个穿深色连帽衫和浅色裤子的人走向白色汽车，打开驾驶员侧车门，放进一个物品，关上车门，然后走向黑色汽车。",
+      "solution_for_person": "",
+      "solution_for_hazard_source": "",
+      "solution_to_prevent_recurrence": ""
+    },
+    "2": {
+      "risk_description": "一个人在打开白色汽车的驾驶员侧车门时，黑色汽车紧邻停放，导致高风险的碰撞或挤压伤害。",
+      "normal_video_description": "",
+      "solution_for_person": "在相邻车辆已经移动或有足够间隙之前，不要打开车门。",
+      "solution_for_hazard_source": "停车时要保持足够间距，以防止开门时意外接触。",
+      "solution_to_prevent_recurrence": "在狭窄空间操作车门时要增强对周围环境的警觉。"
+    },
+    "3": {
+      "risk_description": "视频显示一个孩子在车门打开的情况下靠近车辆，这会带来碰撞或挤压伤害的风险，如果孩子意外踏入车辆的行驶路径或车辆意外移动。",
+      "normal_video_description": "",
+      "solution_for_person": "确保孩子远离打开的车门并密切监督，以防止意外进入车辆。",
+      "solution_for_hazard_source": "安全关闭车门，并考虑在车门上安装儿童安全锁。",
+      "solution_to_prevent_recurrence": "始终安全关闭车门，并使用儿童安全锁，以防止在车辆使用过程中意外打开。"
+    },
+    "4": {
+      "risk_description": "",
+      "normal_video_description": "视频显示夜间住宅区的场景，一个人走向一辆停放的汽车，打开车门并进入车内。此情景中没有明显的风险或危险。",
+      "solution_for_person": "",
+      "solution_for_hazard_source": "",
+      "solution_to_prevent_recurrence": ""
+    }
+  }
+}

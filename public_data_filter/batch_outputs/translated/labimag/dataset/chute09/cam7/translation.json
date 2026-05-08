@@ -1,0 +1,40 @@
+{
+  "video_key": "labimag/dataset/chute09/cam7",
+  "translations": {
+    "0": {
+      "risk_description": "这个年轻人正躺在地板上的一个大白色垫子上，这不是稳定或安全的地方。如果他们突然起身或垫子移动，可能会导致摔倒或受伤。",
+      "normal_video_description": "",
+      "solution_for_person": "应该鼓励这个人躺在稳定表面上，例如床或沙发，如果需要躺下，可以使用枕头或垫子支撑。",
+      "solution_for_hazard_source": "垫子应该从地板上移除并存放在安全的地方。",
+      "solution_to_prevent_recurrence": "应该提醒这个人始终躺在稳定表面上，如需要应使用适当的支撑。垫子应该放在这个人够不到的地方，以防止他们再次使用。"
+    },
+    "1": {
+      "risk_description": "这个人躺在放在瓷砖地板上的床垫上，这不是稳定的睡眠表面。这可能会导致滑倒或从床垫上滚落，可能造成伤害。",
+      "normal_video_description": "一个穿红衬衫的人进入一个房间，坐在椅子上，然后躺在一个放在瓷砖地板上的床垫上，这看起来像是一个办公室或学习区域。",
+      "solution_for_person": "确保床垫放在稳定的、有缓冲的、专为躺卧设计的表面上。",
+      "solution_for_hazard_source": "将床垫从瓷砖地板上移走，放在合适的床或有缓冲的区域上。",
+      "solution_to_prevent_recurrence": "将床垫移至指定的睡眠区域，例如有床的卧室。"
+    },
+    "2": {
+      "risk_description": "",
+      "normal_video_description": "一个人进入一个房间，坐在椅子上，然后躺在地板上的床垫上。另一个人在背景中走过。这个场景描述了家庭环境中的正常、非危险活动。",
+      "solution_for_person": "",
+      "solution_for_hazard_source": "",
+      "solution_to_prevent_recurrence": ""
+    },
+    "3": {
+      "risk_description": "这个人躺在地板上的一个大垫子物体上，如果他们试图移动或滚落，可能会造成不稳定风险，特别是对于行动不便的人。",
+      "normal_video_description": "",
+      "solution_for_person": "确保这个人在躺在垫子物体上时处于安全位置并得到支撑。",
+      "solution_for_hazard_source": "固定垫子物体以防止其移动或滚动。",
+      "solution_to_prevent_recurrence": "使用更稳定安全的表面躺卧，例如床或沙发。"
+    },
+    "4": {
+      "risk_description": "这个人正躺在地板上的床垫上，如果他们移动或从床垫上滚落，可能会造成跌倒或不稳定风险。这可能会导致伤害。",
+      "normal_video_description": "",
+      "solution_for_person": "确保床垫放置在稳定安全的位置，以防止任何跌倒或不稳定的风险。",
+      "solution_for_hazard_source": "",
+      "solution_to_prevent_recurrence": "将床垫放置在稳定安全的表面上，例如床架或坚固平台，以防止任何跌倒或不稳定的风险。"
+    }
+  }
+}

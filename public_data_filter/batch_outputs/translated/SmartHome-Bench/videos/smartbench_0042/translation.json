@@ -1,0 +1,40 @@
+{
+  "video_key": "SmartHome-Bench/videos/smartbench_0042",
+  "translations": {
+    "0": {
+      "risk_description": "这个人站在一个不稳定的狭窄 ledge 上，手里拿着一个盒子，如果突然移动可能会失去平衡。",
+      "normal_video_description": "这个人站在一个狭窄的 ledge 上，手里拿着一个盒子，似乎正在移动它。",
+      "solution_for_person": "应建议这个人站在稳固的表面上，不要拿任何可能导致失去平衡的东西。",
+      "solution_for_hazard_source": "阳台应配备安全栏杆以防止坠落。",
+      "solution_to_prevent_recurrence": "应提醒这个人在站在狭窄 ledges 上时要小心，并在可获得时使用安全栏杆。"
+    },
+    "1": {
+      "risk_description": "",
+      "normal_video_description": "可以看到一个年轻成年人正在将物品从纸箱放入门廊上的粉色储存单元，背景中可见住宅街道和停放的汽车。",
+      "solution_for_person": "",
+      "solution_for_hazard_source": "",
+      "solution_to_prevent_recurrence": ""
+    },
+    "2": {
+      "risk_description": "",
+      "normal_video_description": "一个人走向门廊上的粉色储存箱，打开它，将纸箱放入其中，然后关闭它后走开。场景显示正常的日常活动，没有可见的危险或风险。",
+      "solution_for_person": "",
+      "solution_for_hazard_source": "",
+      "solution_to_prevent_recurrence": ""
+    },
+    "3": {
+      "risk_description": "这个人弯腰在一个粉色箱子上，同时拿着一个纸箱，这可能导致跌倒或拉伤，特别是如果他们行动不便或平衡有问题的话。",
+      "normal_video_description": "",
+      "solution_for_person": "确保他们使用正确的支撑和弯腰技巧以避免拉伤或跌倒。",
+      "solution_for_hazard_source": "提供一个稳固的表面或平台放置物品，以减少弯腰的需要。",
+      "solution_to_prevent_recurrence": "使用坚固的桌子或长凳放置物品，减少弯腰的需要。"
+    },
+    "4": {
+      "risk_description": "这个人由于其位置和 ledge 的高度，有从阳台坠落的危险。这可能导致严重伤害甚至死亡。",
+      "normal_video_description": "",
+      "solution_for_person": "确保这个人安全地在建筑物内，远离阳台边缘。",
+      "solution_for_hazard_source": "在阳台上安装栏杆或屏障以防止坠落。",
+      "solution_to_prevent_recurrence": "定期检查阳台的结构问题或可能导致坠落的危险。"
+    }
+  }
+}

@@ -1,0 +1,40 @@
+{
+  "video_key": "labimag/dataset/chute05/cam4",
+  "translations": {
+    "0": {
+      "risk_description": "这位年轻人跪在地上，姿势不稳，可能会导致摔倒或失衡。",
+      "normal_video_description": "这位年轻人在学习室里跪在地上工作，四周是桌椅。他们似乎专注于手头任务，但姿势不稳。",
+      "solution_for_person": "应帮助该人找到一个更安全的跪地工作姿势。",
+      "solution_for_hazard_source": "危险来源是年轻人工作时缺乏适当的支撑或稳固的表面。",
+      "solution_to_prevent_recurrence": "应为这位年轻人提供稳固的工作表面或支撑，并给予适当指导，以防止今后出现类似情况。"
+    },
+    "1": {
+      "risk_description": "一个人趴在一个铺有垫子的表面上，房间地板上画有网格线，可能表明这是一个测试或实验装置。如果垫子未固定好或该人缺乏监督，这种行为可能导致跌倒或失控。",
+      "normal_video_description": "视频显示一个配有多个工作站和设备的房间。一个人进入，趴在一个垫子上，随后被房间里的其他人观察。",
+      "solution_for_person": "在垫子上进行活动时，应确保有适当的监督和安全规程。",
+      "solution_for_hazard_source": "确认垫子已牢固固定在地板上，以防止移动。",
+      "solution_to_prevent_recurrence": "制定明确的安全使用指南，包括监督和固定设备。"
+    },
+    "2": {
+      "risk_description": "",
+      "normal_video_description": "视频显示一群成年人位于实验室或办公环境中。一个人穿过房间，跪在中间的白色垫子上，另一个人在右侧的桌子周围走动。环境显得井然有序且安全，没有明显的危险或危险活动。",
+      "solution_for_person": "",
+      "solution_for_hazard_source": "",
+      "solution_to_prevent_recurrence": ""
+    },
+    "3": {
+      "risk_description": "该人在跪姿时跌倒，可能会造成伤害风险，尤其是对行动不便或平衡能力较差的人。",
+      "normal_video_description": "",
+      "solution_for_person": "确保该人了解周围环境，跪地或在地上移动时考虑使用支撑或帮助。",
+      "solution_for_hazard_source": "清除任何障碍物或确保地面畅通，以防止绊倒或跌倒。",
+      "solution_to_prevent_recurrence": "提供关于办公室环境中安全移动实践的培训或提醒。"
+    },
+    "4": {
+      "risk_description": "该人正试图在一个圆柱形物体上保持平衡，这可能导致跌倒和潜在伤害。办公室环境中有多种危险，如电线和家具，若此人跌倒可能带来额外风险。",
+      "normal_video_description": "",
+      "solution_for_person": "在尝试在圆柱形物体上保持平衡之前，确保有适当的支撑点和平衡；考虑使用监督者或支撑。",
+      "solution_for_hazard_source": "固定松散的电线，清理该区域中可能导致绊倒或跌倒的障碍物。",
+      "solution_to_prevent_recurrence": "提供安全平衡技巧的培训，确保工作空间无危险。"
+    }
+  }
+}

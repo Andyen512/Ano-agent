@@ -1,0 +1,40 @@
+{
+  "video_key": "toyota_smarthome_mp4/mp4/Walk_p25_r10_v14_c06",
+  "translations": {
+    "0": {
+      "risk_description": "此事人看起来很匆忙，没有注意周围的环境，这可能导致跌倒或失去平衡。",
+      "normal_video_description": "此事人在厨房里准备饮料，似乎很匆忙。他们拿起一个黑色物品后离开柜台。",
+      "solution_for_person": "此事人应在继续任务前花点时间评估周围环境并确保自己站稳。",
+      "solution_for_hazard_source": "厨房地板应保持清洁且没有任何可能使人绊倒或滑倒的障碍物。",
+      "solution_to_prevent_recurrence": "应提醒此人在厨房进行任务时要留意周围环境，慢慢来。"
+    },
+    "1": {
+      "risk_description": "",
+      "normal_video_description": "一个人在厨房里站在柜台附近，柜台上摆放着各种物品，包括一个红色杯子与一本书。此人似乎正在与柜台上的某物互动。",
+      "solution_for_person": "",
+      "solution_for_hazard_source": "",
+      "solution_to_prevent_recurrence": ""
+    },
+    "2": {
+      "risk_description": "",
+      "normal_video_description": "一位年长女性站在现代化的厨房里，手里拿着一个黑色物品，可能是咖啡机或小型家电。她似乎在进行日常活动，例如准备饮料或检查设备。厨房光线充足，摆放整齐，柜台上还有红色杯子和食谱。该女性轻微移动，调整握持姿势，但没有出现任何风险或异常行为的迹象。整体场景展示了一个典型的、安全的家庭环境。",
+      "solution_for_person": "",
+      "solution_for_hazard_source": "",
+      "solution_to_prevent_recurrence": ""
+    },
+    "3": {
+      "risk_description": "这位老年人正在柜台附近操作咖啡机，如果在厨房走动时失去平衡或滑倒，可能会造成碰撞风险。",
+      "normal_video_description": "",
+      "solution_for_person": "确保老年人在操作咖啡机时使用稳固的支撑，并保持通道畅通，以防绊倒。",
+      "solution_for_hazard_source": "固定柜台上的松散物品，以降低碰撞风险。",
+      "solution_to_prevent_recurrence": "保持厨房区域光线充足且无杂物，以最大程度减少绊倒危险。"
+    },
+    "4": {
+      "risk_description": "此事人手持一个看起来像是锅或平底锅的黑色物品，如果处理不当可能导致烫伤。背景中还有炉子，暗示可能存在火灾隐患。",
+      "normal_video_description": "",
+      "solution_for_person": "确保此人使用隔热手套或厚布来端锅或平底锅，并与炉子保持安全距离。",
+      "solution_for_hazard_source": "安装带有适当通风系统的炉子，以防止热量和烟雾积聚。",
+      "solution_to_prevent_recurrence": "定期检查炉子及其部件是否有磨损或损坏的迹象，以防事故发生。"
+    }
+  }
+}

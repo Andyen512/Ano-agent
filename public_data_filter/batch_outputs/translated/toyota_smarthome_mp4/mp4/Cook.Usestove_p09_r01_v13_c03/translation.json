@@ -1,0 +1,40 @@
+{
+  "video_key": "toyota_smarthome_mp4/mp4/Cook.Usestove_p09_r01_v13_c03",
+  "translations": {
+    "0": {
+      "risk_description": "",
+      "normal_video_description": "视频显示一名中年成年人正在厨房里把碗放进微波炉。画面正常，没有显示任何风险或异常。",
+      "solution_for_person": "",
+      "solution_for_hazard_source": "",
+      "solution_to_prevent_recurrence": ""
+    },
+    "1": {
+      "risk_description": "该人在手持碗的情况下打开烤箱门，如果烤箱是热的，可能会导致烫伤。",
+      "normal_video_description": "一个人在厨房里手持碗打开烤箱门。",
+      "solution_for_person": "在手持碗打开烤箱门之前，确保烤箱未在使用中或已冷却。",
+      "solution_for_hazard_source": "",
+      "solution_to_prevent_recurrence": "打开烤箱门之前一定要检查烤箱温度，尤其在携带物品时。"
+    },
+    "2": {
+      "risk_description": "",
+      "normal_video_description": "一位中年成年人在厨房里手持碗与烤箱互动。该人打开烤箱门，把碗放入烤箱，然后关闭门。场景展示的是日常厨房活动，没有可见的风险或异常行为。",
+      "solution_for_person": "",
+      "solution_for_hazard_source": "",
+      "solution_to_prevent_recurrence": ""
+    },
+    "3": {
+      "risk_description": "老年人在处理食物时靠近烤箱站立，如果烤箱是热的，可能会导致烫伤或热暴露风险。",
+      "normal_video_description": "",
+      "solution_for_person": "在从烤箱中取物之前，确保烤箱已冷却，并使用防热手套防止烫伤。",
+      "solution_for_hazard_source": "不使用时保持烤箱门关闭，以防止意外烫伤。",
+      "solution_to_prevent_recurrence": "打开烤箱门或取出物品前一定要确认烤箱完全冷却，并使用防热手套等防护装备。"
+    },
+    "4": {
+      "risk_description": "该人正在把碗放入烤箱，如果烤箱是热的或该人未小心操作碗，可能会导致烫伤。",
+      "normal_video_description": "",
+      "solution_for_person": "在把碗放入烤箱前确保烤箱已关闭，并使用防热手套保护手部免受烫伤。",
+      "solution_for_hazard_source": "",
+      "solution_to_prevent_recurrence": "处理热物品时一定要检查烤箱温度，并使用适当的防护装备。"
+    }
+  }
+}

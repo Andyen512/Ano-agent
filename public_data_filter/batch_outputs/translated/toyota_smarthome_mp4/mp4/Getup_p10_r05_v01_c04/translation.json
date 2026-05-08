@@ -1,0 +1,40 @@
+{
+  "video_key": "toyota_smarthome_mp4/mp4/Getup_p10_r05_v01_c04",
+  "translations": {
+    "0": {
+      "risk_description": "老年人正在尝试举起一个重物，这可能导致他们失去平衡而跌倒，造成潜在伤害。",
+      "normal_video_description": "老年人在客厅里，尝试举起一个重物。他们难以举起这个物体，似乎有跌倒的风险。",
+      "solution_for_person": "护理人员应该帮助老年人举起重物或提供支撑以防止跌倒。",
+      "solution_for_hazard_source": "护理人员应确保物体对老年人来说不会太重而无法举起，并提供正确的举重技巧。",
+      "solution_to_prevent_recurrence": "护理人员应监测老年人的活动，并在需要时提供帮助，以防止跌倒和受伤。"
+    },
+    "1": {
+      "risk_description": "这个人正从沙发上站起来，这可能涉及一个笨拙或不稳的动作，可能导致跌倒。",
+      "normal_video_description": "一位老年人坐在客厅的绿色沙发上，然后站起来。",
+      "solution_for_person": "确保人在站起来时使用扶手支撑，并慢慢移动以保持平衡。",
+      "solution_for_hazard_source": "",
+      "solution_to_prevent_recurrence": "鼓励在座位区域附近使用扶手，并确保地面没有绊倒危险物。"
+    },
+    "2": {
+      "risk_description": "",
+      "normal_video_description": "视频中看到一位老年人从客厅的绿色沙发上站起来。这个人整理了一下衣服并站立起来，显示出正常的日常活动，没有任何不稳定或危险的迹象。",
+      "solution_for_person": "",
+      "solution_for_hazard_source": "",
+      "solution_to_prevent_recurrence": ""
+    },
+    "3": {
+      "risk_description": "老年人大幅度弯腰，这可能会因潜在的不稳定性或活动受限而增加跌倒风险。",
+      "normal_video_description": "",
+      "solution_for_person": "确保老年人在弯腰时坐着或有支撑以降低跌倒风险。",
+      "solution_for_hazard_source": "清除座位区域周围的障碍物，为安全移动创造清晰的路径。",
+      "solution_to_prevent_recurrence": "使用支撑垫或椅子来帮助弯腰或站立时的平衡。"
+    },
+    "4": {
+      "risk_description": "老年人正在弯腰靠近茶几，如果失去平衡可能会导致跌倒。跌倒是老年人受伤的常见原因，可能导致骨折或头部外伤等严重后果。",
+      "normal_video_description": "视频显示一位老年人在客厅环境中弯腰靠近茶几。没有迹象表明存在任何直接风险或危险活动。",
+      "solution_for_person": "确保老年人有良好的照明并穿防滑鞋以降低跌倒风险。鼓励他们在从坐姿站起来时使用扶手。",
+      "solution_for_hazard_source": "",
+      "solution_to_prevent_recurrence": "在茶几等家具上安装扶手，以便在站起来时提供支撑。定期检查地面是否有绊倒危险物并保持该区域整洁。"
+    }
+  }
+}

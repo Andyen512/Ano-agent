@@ -1,0 +1,40 @@
+{
+  "video_key": "toyota_smarthome_mp4/mp4/Cook.Cleanup_p04_r02_v18_c06",
+  "translations": {
+    "0": {
+      "risk_description": "那位老人正俯身在厨房的操作台上，这可能会导致摔倒或不稳定，特别是在伸手取东西或使用需要平衡的工具时。",
+      "normal_video_description": "",
+      "solution_for_person": "确保老年人在需要时获得适当的支撑和帮助，并考虑在厨房安装安全设施，如扶手或防滑垫。",
+      "solution_for_hazard_source": "",
+      "solution_to_prevent_recurrence": "定期检查厨房区域的潜在危险，确保老年人具备必要的支撑和帮助，以安全完成各项任务。"
+    },
+    "1": {
+      "risk_description": "这个人正弯腰靠近炉灶，而炉灶是热/火源，增加了烫伤或意外接触高温表面的风险。",
+      "normal_video_description": "老年人在现代厨房里准备食物，在操作台和炉灶区域活动。",
+      "solution_for_person": "在不主动烹饪时，人应与炉灶保持安全距离，以免烫伤。",
+      "solution_for_hazard_source": "不使用时确保炉灶已关闭，并保持其周围没有障碍物。",
+      "solution_to_prevent_recurrence": "在炉灶上安装防烫装置，并向老年人宣传安全烹饪做法。"
+    },
+    "2": {
+      "risk_description": "",
+      "normal_video_description": "老年人在现代厨房里俯身在岛式操作台上，似乎在检查或清洁台面。该人在这片区域走动时显得平静，没有出现任何痛苦或危险行为的迹象。",
+      "solution_for_person": "",
+      "solution_for_hazard_source": "",
+      "solution_to_prevent_recurrence": ""
+    },
+    "3": {
+      "risk_description": "老年人正俯身在洗手池上方，这可能导致滑倒或摔倒，特别是当他们行动不便或平衡有困难时。",
+      "normal_video_description": "",
+      "solution_for_person": "确保老年人在俯身于洗手池时使用适当的支撑并保持谨慎。",
+      "solution_for_hazard_source": "在厨房铺设防滑垫，以降低滑倒的风险。",
+      "solution_to_prevent_recurrence": "定期检查并维护洗手池区域的稳定性，确保良好的照明，以防止事故。"
+    },
+    "4": {
+      "risk_description": "",
+      "normal_video_description": "视频中显示一个穿条纹衬衫、戴黑色帽子的人站在厨房操作台旁，似乎在进行某种活动。环境光线充足且装修现代，未见明显的危险或风险。",
+      "solution_for_person": "",
+      "solution_for_hazard_source": "",
+      "solution_to_prevent_recurrence": ""
+    }
+  }
+}

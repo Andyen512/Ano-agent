@@ -1,0 +1,40 @@
+{
+  "video_key": "web_h264/youtube__uR2OzXQQBy4",
+  "translations": {
+    "0": {
+      "risk_description": "可以看到年轻人在客厅里跑来跑去，这增加了摔倒或绊倒物品的风险。",
+      "normal_video_description": "",
+      "solution_for_person": "看护者应确保客厅没有绊倒危险，并监督年轻人以防止跌倒。",
+      "solution_for_hazard_source": "看护者应移除任何可能导致年轻人绊倒或摔倒的物品。",
+      "solution_to_prevent_recurrence": "看护者应定期检查客厅是否存在潜在危险，并确保该空间对年轻人的活动是安全的。"
+    },
+    "1": {
+      "risk_description": "孩子用打火机点燃干燥的蒲苇，造成火灾隐患，可能导致烧伤或更大的火灾。",
+      "normal_video_description": "客厅里的孩子玩打火机，不小心点燃了干燥的蒲苇，导致小火。成年人迅速介入扑灭了火焰。",
+      "solution_for_person": "应对孩子进行监督，防止其在无人看管的情况下使用易燃材料。",
+      "solution_for_hazard_source": "将干燥的蒲苇等易燃材料从客厅移除。",
+      "solution_to_prevent_recurrence": "对孩子进行消防安全教育，并将打火机和易燃材料安全存放在孩子够不到的地方。"
+    },
+    "2": {
+      "risk_description": "孩子用打火机点燃大型装饰植物，引起迅速蔓延的大火。这种行为明显超出正常玩耍的范围，造成直接的、现实的财产损失和潜在伤害危险。",
+      "normal_video_description": "",
+      "solution_for_person": "成年人立刻冲向现场灭火，并移除燃烧的植物以防止火势进一步蔓延。",
+      "solution_for_hazard_source": "打火机应放在孩子够不到的地方，并将高度易燃的装饰植物放置在更安全的位置或从客厅移除。",
+      "solution_to_prevent_recurrence": "父母应严格监督孩子，确保打火机等引火工具放在孩子够不到的地方，以防止意外火灾。"
+    },
+    "3": {
+      "risk_description": "孩子正在玩火源，这构成严重的烧伤或火灾风险。",
+      "normal_video_description": "",
+      "solution_for_person": "密切监督孩子，确保他们远离明火或火源。",
+      "solution_for_hazard_source": "固定火源，并将其放在孩子够不到的地方。",
+      "solution_to_prevent_recurrence": "安装儿童安全防护措施，防止孩子接触火源，并对孩子进行消防安全教育。"
+    },
+    "4": {
+      "risk_description": "视频显示孩子在玩一种会喷出火焰的玩具，这存在烧伤或火灾事故的风险。孩子没有得到足够的监督，以防止潜在伤害。",
+      "normal_video_description": "",
+      "solution_for_person": "在孩子玩该玩具时，确保有成年人的密切监督，以防止烧伤或火灾事故。",
+      "solution_for_hazard_source": "将玩具从孩子够不到的地方移除，或用更安全的替代品替换。",
+      "solution_to_prevent_recurrence": "定期检查玩具的安全性，确保它们适合年龄且不存在火灾风险。"
+    }
+  }
+}

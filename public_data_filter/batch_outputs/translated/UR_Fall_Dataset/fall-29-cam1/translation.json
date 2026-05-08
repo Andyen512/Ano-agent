@@ -1,0 +1,40 @@
+{
+  "video_key": "UR_Fall_Dataset/fall-29-cam1",
+  "translations": {
+    "0": {
+      "risk_description": "可以看到这位年轻成年人在客厅向后倒在地上，若撞到头部或其他身体部位在硬表面上，可能会受伤。",
+      "normal_video_description": "视频显示一名年轻人走进客厅后向后倒在地板上。",
+      "solution_for_person": "应帮助此人坐起并检查是否有受伤。还应建议他在客厅活动时更加小心，以防止再次跌倒。",
+      "solution_for_hazard_source": "应检查客厅是否存在绊倒危险，例如电线或松动的地毯，并加以固定以防止跌倒。",
+      "solution_to_prevent_recurrence": "应鼓励此人在上下楼梯时使用扶手，并在客厅走动时避免分心，以降低跌倒风险。"
+    },
+    "1": {
+      "risk_description": "此人俯卧在地板上，存在跌倒或难以自行站起的受伤风险。",
+      "normal_video_description": "一个人俯卧在铺有地毯的地板上，看起来像是书房或办公区域，可以看到椅子和桌子。",
+      "solution_for_person": "此人不应在无人看管的地方俯卧在地板上。",
+      "solution_for_hazard_source": "",
+      "solution_to_prevent_recurrence": "确保在俯卧于地板时有监督或帮助可用。"
+    },
+    "2": {
+      "risk_description": "一个人在办公室环境中失去平衡，向后倒在地板上。跌倒看起来突然且失控，表明失去稳定性，可能导致受伤。",
+      "normal_video_description": "",
+      "solution_for_person": "此人应立即站起并检查是否有受伤。如果疼痛或眩晕持续，应寻求医疗帮助。",
+      "solution_for_hazard_source": "检查地板上是否有障碍物或光滑表面可能导致跌倒。确保该区域干净且安全，便于行走。",
+      "solution_to_prevent_recurrence": "建议此人在办公室环境中移动时保持小心。考虑安装防滑垫或改善照明以提升安全性。"
+    },
+    "3": {
+      "risk_description": "可以看到一个孩子跌倒在地板上，可能导致受伤，尤其是如果落地姿势不当。",
+      "normal_video_description": "",
+      "solution_for_person": "确保对儿童进行密切监督，以防止跌倒。",
+      "solution_for_hazard_source": "清除地板上的任何障碍物或绊倒危险。",
+      "solution_to_prevent_recurrence": "安装安全门或护栏以防止进入高危区域。"
+    },
+    "4": {
+      "risk_description": "可以看到此人向后倒在地板上，由于硬表面以及可能与附近物体碰撞，可能会导致严重受伤。",
+      "normal_video_description": "",
+      "solution_for_person": "确保此人穿着具有良好抓地力的合适鞋类，以防止滑倒，并在办公室走动时提供支持或帮助。",
+      "solution_for_hazard_source": "清除地板上的绊倒危险或障碍物，以降低跌倒风险。",
+      "solution_to_prevent_recurrence": "开展定期的安全培训和意识提升项目，教育员工关于跌倒预防和正确的工作场所安全做法。"
+    }
+  }
+}

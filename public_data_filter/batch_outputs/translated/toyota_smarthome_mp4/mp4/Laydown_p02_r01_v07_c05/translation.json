@@ -1,0 +1,40 @@
+{
+  "video_key": "toyota_smarthome_mp4/mp4/Laydown_p02_r01_v07_c05",
+  "translations": {
+    "0": {
+      "risk_description": "看到这位老年人试图爬到沙发上，这对他们的年龄来说是不安全的行为。这可能导致跌倒并造成潜在伤害。",
+      "normal_video_description": "",
+      "solution_for_person": "护理人员应帮助这位老年人找到一个更安全、更合适的地方坐下或休息。",
+      "solution_for_hazard_source": "沙发应变得更稳固、更安全，以防止事故。",
+      "solution_to_prevent_recurrence": "护理人员应监测老年人的活动，必要时提供帮助，以防止跌倒和受伤。"
+    },
+    "1": {
+      "risk_description": "此人坐在沙发上姿势别扭，可能导致跌倒或失去平衡，可能造成伤害。",
+      "normal_video_description": "老年人在客厅的沙发上坐着。",
+      "solution_for_person": "确保该人正确坐在沙发上，必要时提供支撑。",
+      "solution_for_hazard_source": "",
+      "solution_to_prevent_recurrence": "鼓励正确的坐姿，并在从沙发上起身时提供帮助。"
+    },
+    "2": {
+      "risk_description": "",
+      "normal_video_description": "看到一位老年人在客厅里走动，捡起一件物品，然后坐在绿色沙发上。环境看起来平静安全，没有明显的危险或危险活动。",
+      "solution_for_person": "",
+      "solution_for_hazard_source": "",
+      "solution_to_prevent_recurrence": ""
+    },
+    "3": {
+      "risk_description": "老年人正在爬上沙发，这可能导致跌倒或不稳定，尤其是如果他们失去平衡。",
+      "normal_video_description": "",
+      "solution_for_person": "确保老年人在坐上沙发时小心，并使用稳固的支撑。",
+      "solution_for_hazard_source": "提供稳固的踏步或椅子，以帮助老年人安全地过渡到沙发上。",
+      "solution_to_prevent_recurrence": "在沙发上使用防滑垫或坐垫，以提供更好的稳定性。"
+    },
+    "4": {
+      "risk_description": "老年人因姿势和沙发的高度而有从沙发上跌落的风险。这可能导致严重伤害。",
+      "normal_video_description": "老年人在客厅的绿色沙发上坐着，调整自己的姿势。",
+      "solution_for_person": "确保老年人正确坐在沙发上，双脚稳稳放在地上，或考虑提供支撑，如坐垫或靠背。",
+      "solution_for_hazard_source": "",
+      "solution_to_prevent_recurrence": "定期检查沙发的稳定性，确保其放在平坦的表面上。考虑在沙发腿下添加防滑垫。"
+    }
+  }
+}

@@ -1,0 +1,40 @@
+{
+  "video_key": "labimag/dataset/chute22/cam6",
+  "translations": {
+    "0": {
+      "risk_description": "视频中可以看到这位年轻人走向办公室的棕色椅子，坐下后向后倒在地上。这种行为偏离了正常坐椅子的日常活动，可能导致受伤风险。",
+      "normal_video_description": "",
+      "solution_for_person": "应帮助此人从地上站起来，并检查是否有受伤。还应建议他们在坐椅子时更加小心，以防止跌倒。",
+      "solution_for_hazard_source": "应评估办公室环境，找出可能导致跌倒的潜在危险，如地面不平或光滑表面。应消除这些危险，以防止以后跌倒。",
+      "solution_to_prevent_recurrence": "应提醒此人在坐椅子时更加小心，并在发生跌倒或受伤时向上级或医疗专业人员报告。应定期在办公室进行安全检查，以发现并处理潜在的危害。"
+    },
+    "1": {
+      "risk_description": "此人平躺在地板上，姿势可能很别扭，如果突然移动可能会导致站起困难或受伤。",
+      "normal_video_description": "一个人进入房间，与另一个人短暂交流后，躺倒在椅子旁边的地板上，而另一个人在办公桌前工作。",
+      "solution_for_person": "确保此人了解周围环境，能够轻松从地上站起，避免长时间躺着。",
+      "solution_for_hazard_source": "",
+      "solution_to_prevent_recurrence": ""
+    },
+    "2": {
+      "risk_description": "一个年轻人试图坐在扶手椅上，却失去平衡向后倒在地上，显示出明显的失衡事件。",
+      "normal_video_description": "",
+      "solution_for_person": "此人应立即站起并检查是否受伤，并考虑使用有扶手的椅子或更稳固的坐具。",
+      "solution_for_hazard_source": "确保家具稳固，放置方式能够最大程度降低倾倒或跌落的风险。",
+      "solution_to_prevent_recurrence": "建议此人在坐下时格外小心，特别是对于可能无法提供足够支撑的椅子。"
+    },
+    "3": {
+      "risk_description": "此人从椅子上摔到地上，可能导致受伤风险，尤其是对行动不便或平衡有问题的人。",
+      "normal_video_description": "",
+      "solution_for_person": "确保此人安全站起，并在跌倒后检查是否受伤。",
+      "solution_for_hazard_source": "移除或固定家具，以防止倾倒或跌落。",
+      "solution_to_prevent_recurrence": "在家具下方使用防滑垫，并确保地面没有障碍物。"
+    },
+    "4": {
+      "risk_description": "穿红色衬衫的人坐在椅子上时有跌倒或失去平衡的风险，可能导致严重伤害。椅子的位置和此人的姿势表明他们可能不够稳固。",
+      "normal_video_description": "视频显示一间空荡荡的房间，里面有各种家具和设备。一个人进入房间，坐在椅子上，然后向后倒在地上。随后不久另一个人进入房间。",
+      "solution_for_person": "确保此人坐姿正确，背部靠在椅子上，双脚平放在地面上，以保持稳定。",
+      "solution_for_hazard_source": "",
+      "solution_to_prevent_recurrence": "定期检查和维护椅子，确保其状态良好，并提供关于安全坐姿的正确培训。"
+    }
+  }
+}

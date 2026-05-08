@@ -1,0 +1,40 @@
+{
+  "video_key": "toyota_smarthome_mp4/mp4/Cook.Usestove_p06_r00_v12_c03",
+  "translations": {
+    "0": {
+      "risk_description": "",
+      "normal_video_description": "视频显示一位老年人在厨房里操作微波炉。该人似乎正在使用微波炉，可能用于加热或烹饪食物。厨房配备了各种电器和用具。该人似乎专注于当前的任务，没有明显的困扰或危险迹象。视频未显示任何异常或危险行为。",
+      "solution_for_person": "",
+      "solution_for_hazard_source": "",
+      "solution_to_prevent_recurrence": ""
+    },
+    "1": {
+      "risk_description": "该人正在操作烤箱，如果烤箱是热的或装有热食物，则有烫伤风险。",
+      "normal_video_description": "一位老年人在厨房里打开和关闭烤箱门。",
+      "solution_for_person": "在打开烤箱门之前，确保烤箱未在使用中或已冷却。",
+      "solution_for_hazard_source": "在靠近之前，确认烤箱可以安全打开。",
+      "solution_to_prevent_recurrence": "在打开烤箱门之前，务必检查烤箱温度。"
+    },
+    "2": {
+      "risk_description": "",
+      "normal_video_description": "一位老年人站在厨房里，打开并关闭烤箱门，同时检查其内容。环境看起来安全，动作与日常家务活动相一致。",
+      "solution_for_person": "",
+      "solution_for_hazard_source": "",
+      "solution_to_prevent_recurrence": ""
+    },
+    "3": {
+      "risk_description": "老年人正把手伸入烤箱，有烫伤或接触热表面的风险。",
+      "normal_video_description": "",
+      "solution_for_person": "在打开烤箱前确保其完全冷却，并使用隔热手套保护手部。",
+      "solution_for_hazard_source": "安装防烫烤箱把手，或使用计时器提醒烹饪后检查烤箱。",
+      "solution_to_prevent_recurrence": "使用计时器确保烤箱冷却后再打开，处理热物品时务必佩戴隔热手套。"
+    },
+    "4": {
+      "risk_description": "老年人站在烤箱前，如果烤箱开启且未妥善监控，可能会导致烫伤或其他热相关伤害。",
+      "normal_video_description": "一位老年人站在厨房里面对烤箱。",
+      "solution_for_person": "确保不使用时关闭烤箱，使用时则随时监控，以防止事故。",
+      "solution_for_hazard_source": "",
+      "solution_to_prevent_recurrence": "定期检查和维护烤箱，确保其功能正常且安全。"
+    }
+  }
+}

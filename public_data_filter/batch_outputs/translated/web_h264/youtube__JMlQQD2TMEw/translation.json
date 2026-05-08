@@ -1,0 +1,40 @@
+{
+  "video_key": "web_h264/youtube__JMlQQD2TMEw",
+  "translations": {
+    "0": {
+      "risk_description": "年轻成年人正在仓库里处理电气面板，若操作不当，有触电或火灾风险。该人未佩戴任何防护装备，面板也未固定，增加了事故风险。",
+      "normal_video_description": "",
+      "solution_for_person": "该人应佩戴防护装备，如手套和安全眼镜，并确保面板在处理前已固定。还应接受电气安全程序的培训。",
+      "solution_for_hazard_source": "仓库应配备适当的安全措施，如灭火器和应急照明，电气面板应存放在安全且通风良好的区域。",
+      "solution_to_prevent_recurrence": "应提醒该人电气安全的重要性以及处理电气面板时应遵循的正确程序。应进行定期安全检查，确保仓库安全、电气面板已固定并得到维护。"
+    },
+    "1": {
+      "risk_description": "该人在配电间处理电气面板，存在触电或高压设备意外启动的风险。",
+      "normal_video_description": "画面中的人在配电间处理电气面板，随后发生爆炸。",
+      "solution_for_person": "处理电气面板时确保接受过适当培训并使用个人防护装备。",
+      "solution_for_hazard_source": "在高压设备周围安装明显的警示标志和物理隔离屏障。",
+      "solution_to_prevent_recurrence": "对电气面板进行定期安全审计并严格执行锁定/挂牌程序。"
+    },
+    "2": {
+      "risk_description": "一个人在满是电气面板的房间里正在打开大型电气柜门。该人似乎在费力搬运沉重的门，随后门倒下砸中他们，造成严重的人身伤害和潜在的电气危险。",
+      "normal_video_description": "",
+      "solution_for_person": "该人应立即停止操作设备，若受伤应立即就医，并向相关安全部门报告该事故。",
+      "solution_for_hazard_source": "电气柜门应正确固定，以防倾倒。应定期进行安全检查和维护，确保电气设备处于良好工作状态。",
+      "solution_to_prevent_recurrence": "对处理电气设备的人员实施安全培训。确保所有电气柜均已正确固定，并遵循安全规程以防止类似事故再次发生。"
+    },
+    "3": {
+      "risk_description": "该人正在处理电气设备，若处理不当，可能导致触电或火灾。",
+      "normal_video_description": "",
+      "solution_for_person": "确保该人在处理电气设备时佩戴适当的防护装备并遵守安全规程。",
+      "solution_for_hazard_source": "安装安全锁或监控系统，防止未经授权的人员接触电气面板。",
+      "solution_to_prevent_recurrence": "定期进行安全培训和检查电气设备，以降低风险。"
+    },
+    "4": {
+      "risk_description": "该人以可能危险的方式操作电气设备，可能导致触电或电击。",
+      "normal_video_description": "",
+      "solution_for_person": "确保接受适当培训并在处理电气设备时使用个人防护装备。",
+      "solution_for_hazard_source": "定期检查和维护电气设备，以防止故障。",
+      "solution_to_prevent_recurrence": "为电气系统作业人员制定严格的安全规程，并定期进行安全演练。"
+    }
+  }
+}

@@ -1,0 +1,40 @@
+{
+  "video_key": "web_h264/bilibili__BV1SZj7zsEJT",
+  "translations": {
+    "0": {
+      "risk_description": "孩子坐在装满水和泡沫的浴缸里，这对于无人看管的孩子来说是不安全的环境。孩子似乎有摔倒或滑倒的风险，可能导致受伤。",
+      "normal_video_description": "",
+      "solution_for_person": "当孩子在浴缸中时，护理人员应在场并积极监督孩子。",
+      "solution_for_hazard_source": "浴缸应配备防滑垫或其他安全措施，以防止孩子滑倒。",
+      "solution_to_prevent_recurrence": "护理人员应确保孩子在浴缸中始终受到监督，并且浴缸配备安全措施以防止摔倒。"
+    },
+    "1": {
+      "risk_description": "孩子在装满水的浴缸中玩耍、泼水和移动，这增加了滑倒和跌倒的风险，可能导致受伤。",
+      "normal_video_description": "孩子在装满水的浴缸中玩耍、泼水和移动，旁边有成人监督。",
+      "solution_for_person": "确保在洗澡期间始终有成人密切监督孩子。",
+      "solution_for_hazard_source": "使用防滑浴椅或浴垫将孩子固定在浴缸中。",
+      "solution_to_prevent_recurrence": "在浴室安装扶手，不使用时保持浴缸地板干燥。"
+    },
+    "2": {
+      "risk_description": "孩子在浴缸中向后滑倒跌入水中，这有溺水和误吸的风险。这是家庭环境中明显的安全隐患。",
+      "normal_video_description": "",
+      "solution_for_person": "立即支撑孩子防止其沉入水中，确保他们不会吸入水。",
+      "solution_for_hazard_source": "降低浴缸中的水位，为孩子使用防滑垫或浴椅。",
+      "solution_to_prevent_recurrence": "在洗澡期间始终密切监督孩子，并考虑使用防滑垫或浴椅等安全设备。"
+    },
+    "3": {
+      "risk_description": "孩子坐在装满水和肥皂的浴缸中，这可能导致不稳定和滑倒，带来摔倒和受伤的风险。",
+      "normal_video_description": "",
+      "solution_for_person": "确保有成人密切监督孩子，并在孩子开始滑倒或跌倒时随时准备提供帮助。",
+      "solution_for_hazard_source": "使用防滑浴椅或浴垫在浴缸中提供稳定性。",
+      "solution_to_prevent_recurrence": "安装防滑浴椅并确保孩子在浴缸中时进行持续监督。"
+    },
+    "4": {
+      "risk_description": "视频显示一个婴儿坐在装满水的浴缸中，这有婴儿摔倒或失去平衡的风险，可能导致受伤。如果监督不当，婴儿还面临溺水风险。",
+      "normal_video_description": "视频显示一个婴儿坐在装满水的浴缸中，周围都是泡沫。婴儿看起来在水中玩耍和移动。",
+      "solution_for_person": "确保在浴缸中始终监督婴儿，防止任何跌倒或事故。",
+      "solution_for_hazard_source": "",
+      "solution_to_prevent_recurrence": "保持婴儿洗澡时间简短，并始终密切监督他们，以最大程度减少事故风险。"
+    }
+  }
+}

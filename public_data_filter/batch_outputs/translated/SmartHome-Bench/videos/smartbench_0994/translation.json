@@ -1,0 +1,40 @@
+{
+  "video_key": "SmartHome-Bench/videos/smartbench_0994",
+  "translations": {
+    "0": {
+      "risk_description": "孩子在婴儿门上攀爬，婴儿门并非为攀爬设计，存在坠落受伤的风险。",
+      "normal_video_description": "孩子在婴儿门玩耍并攀爬，但有成年人介入，防止孩子坠落。",
+      "solution_for_person": "必须有成人监护，以防止孩子攀爬婴儿门。",
+      "solution_for_hazard_source": "应拆除婴儿门或更换为更具儿童防护功能的门。",
+      "solution_to_prevent_recurrence": "安装一个儿童防护门，该门设计用于攀爬，并配有安全锁定装置，以防止孩子接触。"
+    },
+    "1": {
+      "risk_description": "孩子在婴儿门上攀爬并保持平衡，婴儿门并非为支撑儿童体重设计，容易倾斜或失稳，导致跌落。",
+      "normal_video_description": "在走廊中看到有孩子尝试在婴儿门上攀爬并保持平衡。",
+      "solution_for_person": "密切监护孩子，一旦发现其尝试在门上攀爬或保持平衡，立即干预。",
+      "solution_for_hazard_source": "确保婴儿门安装正确，仅用于其预定用途，而不要作为攀爬结构。",
+      "solution_to_prevent_recurrence": "将婴儿门上锁，防止孩子将其作为攀爬区域。"
+    },
+    "2": {
+      "risk_description": "孩子正翻越安全门并悬挂在顶部横杆上，存在从较高位置坠落的高风险。",
+      "normal_video_description": "",
+      "solution_for_person": "成人应立即介入，抓住孩子并防止其坠落。",
+      "solution_for_hazard_source": "应检查安全门是否牢固，确保其不能被翻越。",
+      "solution_to_prevent_recurrence": "安装更高的安全门或使用孩子无法翻越的其他类型隔离装置。"
+    },
+    "3": {
+      "risk_description": "孩子正在翻越婴儿门，存在跌落或卡住的风险，可能导致受伤。",
+      "normal_video_description": "",
+      "solution_for_person": "确保对孩子进行密切监护，并考虑使用更安全或更容易让孩子安全翻越的门。",
+      "solution_for_hazard_source": "安装更难以让孩子翻越的婴儿门，或如果不必要，考虑拆除该门。",
+      "solution_to_prevent_recurrence": "使用专门设计防止攀爬的门，或在使用门时确保持续监护。"
+    },
+    "4": {
+      "risk_description": "孩子有从阳台坠落的风险，可能导致严重伤害甚至死亡。",
+      "normal_video_description": "",
+      "solution_for_person": "确保孩子受到监护，绝不单独留在阳台附近。安装坚固的栏杆或门，以防止孩子爬出。",
+      "solution_for_hazard_source": "",
+      "solution_to_prevent_recurrence": "定期检查阳台的安全设施，必要时进行维修或升级，确保其安全可靠。"
+    }
+  }
+}

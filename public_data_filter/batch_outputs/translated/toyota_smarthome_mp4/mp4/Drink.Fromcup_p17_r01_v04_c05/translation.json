@@ -1,0 +1,40 @@
+{
+  "video_key": "toyota_smarthome_mp4/mp4/Drink.Fromcup_p17_r01_v04_c05",
+  "translations": {
+    "0": {
+      "risk_description": "",
+      "normal_video_description": "视频显示一位老年人站在客厅里，看电视并用杯子喝水。随后将杯子放在桌子上，继续看电视。客厅光线充足，配有绿色沙发、白色茶几以及挂在墙上的电视。场景中没有可见的危险或风险。",
+      "solution_for_person": "",
+      "solution_for_hazard_source": "",
+      "solution_to_prevent_recurrence": ""
+    },
+    "1": {
+      "risk_description": "这个人站在沙发上喝水，增加了失去平衡和跌倒的风险，可能导致受伤。",
+      "normal_video_description": "一个人在客厅里站在沙发上喝饮料，同时看电视。",
+      "solution_for_person": "避免站在家具上喝酒，以防跌倒。",
+      "solution_for_hazard_source": "",
+      "solution_to_prevent_recurrence": "确保人员在饮用饮料时坐着。"
+    },
+    "2": {
+      "risk_description": "",
+      "normal_video_description": "一位老年人站在客厅里，手里拿着杯子喝水，同时看电视。随后把杯子放在茶几上，微微弯腰，整个过程在平静、正常的家庭环境中进行。",
+      "solution_for_person": "",
+      "solution_for_hazard_source": "",
+      "solution_to_prevent_recurrence": ""
+    },
+    "3": {
+      "risk_description": "老年人站在沙发上，因潜在的不稳定性而存在跌倒风险。这对行动不便或平衡受限的人尤其危险。",
+      "normal_video_description": "",
+      "solution_for_person": "老年人应避免站在家具上，而应使用稳定的表面以防止跌倒。",
+      "solution_for_hazard_source": "确保客厅有稳固的座位选择，并清除沙发周围的绊倒危险物。",
+      "solution_to_prevent_recurrence": "在老年人位于客厅时提供额外的支撑或监护，以确保安全。"
+    },
+    "4": {
+      "risk_description": "老年人站在沙发上，一旦失去平衡就可能导致跌倒。跌倒是老年人受伤的常见原因，可能导致骨折或头部创伤等严重后果。",
+      "normal_video_description": "老年人站在客厅的绿色沙发上，正把手机贴在耳边。他们似乎在沙发上站着时正在进行通话。",
+      "solution_for_person": "确保老年人在站在沙发上时有适当的支撑或帮助，以防止跌倒。",
+      "solution_for_hazard_source": "",
+      "solution_to_prevent_recurrence": "为老年人提供稳固的站立表面，例如椅子或地板，而不是沙发。"
+    }
+  }
+}

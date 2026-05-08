@@ -1,0 +1,40 @@
+{
+  "video_key": "labimag/dataset/chute18/cam8",
+  "translations": {
+    "0": {
+      "risk_description": "视频中的年轻人被看到跑过房间然后摔倒在地上，这可能会造成伤害。摔倒可能是由于注意力不集中或地面湿滑。",
+      "normal_video_description": "",
+      "solution_for_person": "此人在办公室走动时应更加小心以避免摔倒。还应确保地面干净，没有任何可能导致滑倒的危险因素。",
+      "solution_for_hazard_source": "办公室应保持清洁，无任何可能导致摔倒的危险因素。地面应定期清洁，任何溢出或潮湿处应立即擦拭干净。",
+      "solution_to_prevent_recurrence": "应提醒此人注意在办公室走动时保持谨慎的重要性，并鼓励他们报告遇到的任何危险。办公室还应制定定期清洁计划，以确保地面保持清洁且无任何危险因素。"
+    },
+    "1": {
+      "risk_description": "穿红衬衫的人趴在瓷砖地面上，这种俯卧姿势可能导致摔倒或起身困难，尤其是在地面坚硬或湿滑的情况下。",
+      "normal_video_description": "视频显示一个教室环境，配备各种桌椅和设备。穿红衬衫的人走进房间，趴在地上，随后被看到站在柜台附近与其他人在一起。",
+      "solution_for_person": "应确保此人受到监督并获得帮助，以从硬地面上的俯卧姿势安全地起身。",
+      "solution_for_hazard_source": "",
+      "solution_to_prevent_recurrence": ""
+    },
+    "2": {
+      "risk_description": "实验室环境中有人失去平衡并摔倒在地上，这表明发生了明显的失衡事件，超出了正常活动范围。",
+      "normal_video_description": "",
+      "solution_for_person": "此人应立即起身检查伤势，然后向主管报告这起事故。",
+      "solution_for_hazard_source": "检查地面状况，确保该区域没有障碍物或易滑物质。",
+      "solution_to_prevent_recurrence": "在实验室实施正确移动的安全培训，并考虑安装防滑地板或地垫。"
+    },
+    "3": {
+      "risk_description": "此人摔倒在地板上，可能会造成伤害风险，特别是对行动不便或平衡问题的人。",
+      "normal_video_description": "",
+      "solution_for_person": "确保此人注意周围环境，并采取措施避免滑倒或绊倒。",
+      "solution_for_hazard_source": "检查地面是否存在潜在危险，如潮湿处或障碍物，并及时处理。",
+      "solution_to_prevent_recurrence": "安装防滑地板或改善照明以降低摔倒风险。"
+    },
+    "4": {
+      "risk_description": "穿红衬衫的人被看到走过标记区域的地板，这表明这可能是一项需要平衡或协调的活动。然后他们绊倒仰面摔倒，表明由于失衡存在伤害风险。",
+      "normal_video_description": "",
+      "solution_for_person": "确保此人穿着具有良好抓地力的适当鞋类以防止滑倒。",
+      "solution_for_hazard_source": "清除标记区域中的任何障碍物或绊倒危险。",
+      "solution_to_prevent_recurrence": "在标记区域进行活动时，提供有关保持平衡和稳定的培训或指导。"
+    }
+  }
+}

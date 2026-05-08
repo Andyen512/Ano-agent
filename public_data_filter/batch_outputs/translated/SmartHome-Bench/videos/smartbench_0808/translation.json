@@ -1,0 +1,40 @@
+{
+  "video_key": "SmartHome-Bench/videos/smartbench_0808",
+  "translations": {
+    "0": {
+      "risk_description": "",
+      "normal_video_description": "视频显示一名年轻人在夜晚的院子里行走，并与一只正在翻找垃圾桶的熊互动。年轻人似乎在试图驱赶这只熊。场景不寻常且有潜在危险，但年轻人似乎没有受到任何伤害地处理了情况。",
+      "solution_for_person": "",
+      "solution_for_hazard_source": "",
+      "solution_to_prevent_recurrence": ""
+    },
+    "1": {
+      "risk_description": "一只大熊在住宅车道的垃圾桶里翻找，如果它在车辆或人附近不可预知地移动，可能会对自己或他人造成伤害。",
+      "normal_video_description": "夜间在住宅车道上可以看到一只熊掀翻垃圾桶并翻找其中的内容。",
+      "solution_for_person": "",
+      "solution_for_hazard_source": "",
+      "solution_to_prevent_recurrence": ""
+    },
+    "2": {
+      "risk_description": "",
+      "normal_video_description": "夜间在车道上可以看到一只熊在翻找垃圾桶，撞倒一个垃圾箱并从里面吃东西。场景发生在住宅区，停放的汽车可见。",
+      "solution_for_person": "",
+      "solution_for_hazard_source": "",
+      "solution_to_prevent_recurrence": ""
+    },
+    "3": {
+      "risk_description": "熊在住宅车道上，若该区域出现熊，可能会对儿童或宠物等弱势群体造成碰撞或碾压伤害的风险。",
+      "normal_video_description": "",
+      "solution_for_person": "确保儿童、宠物或弱势人员留在室内或安全远离车道区域。",
+      "solution_for_hazard_source": "固定垃圾桶和其他可能吸引野生动物的物品，并考虑安装感应灯或报警器以驱赶动物。",
+      "solution_to_prevent_recurrence": "安装防熊垃圾桶，并考虑联系野生动物管理部门获取在该地区管理野生动物的建议。"
+    },
+    "4": {
+      "risk_description": "狗在院子里奔跑，似乎在追逐或玩耍一辆白色汽车。如果狗跳到汽车引擎盖或车顶，存在碰撞或碾压伤害的风险。",
+      "normal_video_description": "",
+      "solution_for_person": "看住狗，确保它不跳到汽车上。",
+      "solution_for_hazard_source": "",
+      "solution_to_prevent_recurrence": ""
+    }
+  }
+}

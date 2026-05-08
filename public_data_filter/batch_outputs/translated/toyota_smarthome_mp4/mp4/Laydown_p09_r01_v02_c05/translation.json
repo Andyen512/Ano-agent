@@ -1,0 +1,40 @@
+{
+  "video_key": "toyota_smarthome_mp4/mp4/Laydown_p09_r01_v02_c05",
+  "translations": {
+    "0": {
+      "risk_description": "视频中的人以不寻常的姿势躺在沙发上，这可能导致跌倒或失去平衡。此人可能需要帮助才能安全起身。",
+      "normal_video_description": "视频中的人以正常姿势坐在沙发上看电视。",
+      "solution_for_person": "此人应该由护理人员或朋友帮助安全地从沙发上起身。",
+      "solution_for_hazard_source": "应该重新排列沙发，为此人提供更好的支撑和稳定性。",
+      "solution_to_prevent_recurrence": "此人在从沙发上起身时应该被监护和帮助，以防止未来发生跌倒和失去平衡的情况。"
+    },
+    "1": {
+      "risk_description": "此人以别扭的姿势躺在沙发上，可能会增加从沙发上滑落或摔下来的风险，这可能导致受伤。",
+      "normal_video_description": "一个人坐在沙发上，然后在看电视时以伸展的姿势躺下。",
+      "solution_for_person": "确保此人在沙发上保持稳定和安全的姿势，避免平躺时双腿伸出边缘。",
+      "solution_for_hazard_source": "",
+      "solution_to_prevent_recurrence": ""
+    },
+    "2": {
+      "risk_description": "",
+      "normal_video_description": "一个年轻成年人坐在客厅的绿色沙发上，看电视。然后此人躺在沙发上放松。房间里有电视、茶几、立式灯和几盆植物，营造出一个宁静而典型的家居环境。",
+      "solution_for_person": "",
+      "solution_for_hazard_source": "",
+      "solution_to_prevent_recurrence": ""
+    },
+    "3": {
+      "risk_description": "沙发上的人以一种如果移动或失去平衡可能导致跌倒的方式斜躺着，这对行动受限的老年人构成风险。",
+      "normal_video_description": "",
+      "solution_for_person": "确保此人坐得安稳，并能够轻松够到支撑物以防止跌倒。",
+      "solution_for_hazard_source": "重新排列家具以提供更稳定的座位选择，并确保通道清晰以防止绊倒。",
+      "solution_to_prevent_recurrence": "使用额外的垫子支撑，并考虑在沙发上使用防滑垫以增加稳定性。"
+    },
+    "4": {
+      "risk_description": "",
+      "normal_video_description": "视频显示一个年轻成年人躺在客厅的绿色沙发上，看电视。场景中没有明显的风险或危险。",
+      "solution_for_person": "",
+      "solution_for_hazard_source": "",
+      "solution_to_prevent_recurrence": ""
+    }
+  }
+}

@@ -1,0 +1,30 @@
+{
+  "backend": "tarsier2",
+  "description": "Bytedance Tarsier2 single-video inference",
+  "model_id": "omni-research/Tarsier2-7b-0115",
+  "model_path": "/data_4/liuyuan/lifebench/models/Tarsier2-7b-0115",
+  "video_path": "/data_4/liuyuan/lifebench/data/public_data/SmartHome-Bench/videos/smartbench_0943.mp4",
+  "prompt": "You are acting as a conservative safety reviewer.\nYour task is to minimize missed risks. If a candidate behavior has a realistic possibility of injury, loss of control, or accident triggering, it may be kept as a risk anomaly.\n\nFollow these principles:\n- Apply a cautious safety standard, prioritizing behaviors that may lead to falls, collisions, burns, electric shock, accidental ingestion, cuts, or other household injuries.\n- Even if harm has not occurred yet, keep the behavior if it already contains a clear risk trigger or is in an accident-prone state.\n- For borderline cases, focus on whether the behavior deserves early intervention rather than waiting for harm to happen.\n- If a behavior would commonly be stopped or warned against by family members, guardians, or caregivers, lean toward keeping it.\n- The goal is to reduce false negatives, so ambiguous cases may be judged slightly conservatively.\n\nOutput requirements for this perspective:\n- Explain what realistic harm the behavior may trigger and why it should or should not be kept under a conservative safety standard.\n- You do not need to prove that harm will definitely occur.\n- Do not exaggerate beyond an ordinary household context.\n\nTask addendum:\nReview the input video and first decide whether the video contains a risk.\nBase your judgment only on the video content. Do not assume facts outside the video, and do not invent extra events.\nJudge the main visible behavior and scene in the video.\nYou must answer based on the provided video input. Do not say that you cannot watch or inspect the video.\nOutput exactly the following English-labeled fields, with no markdown and no extra text:\nRisk presence: Yes / No\nLevel 1 scene: output one scene keyword. Prefer one of: dining room, kitchen, study, balcony, living room, bathroom, yard. If none fits, output your own concise scene keyword.\nLevel 2 subject: output one subject keyword. Prefer one of: child, older adult, young adult, middle-aged adult. If none fits, output your own concise subject keyword.\nLevel 3 risk type: if Risk presence is Yes, output one risk keyword. Prefer one of: fall/instability, heat/fire source, collision/crush injury, sharp-object danger, electrical safety, poisoning/accidental ingestion, interpersonal conflict. If none fits, output your own concise risk keyword. If Risk presence is No, output None.\nRisk description: if Risk presence is Yes, describe the risk in 1-3 sentences. If Risk presence is No, output None.\nRisk time interval: if Risk presence is Yes, localize the risk as seconds like [start,end]. If there are multiple intervals, separate them with semicolons. If the exact interval is unclear, output Unknown. If Risk presence is No, output None.\nSolution for person: if Risk presence is Yes, give a concrete action for the person or caregiver. If Risk presence is No, output None.\nSolution for hazard source: if Risk presence is Yes, give a concrete action for the hazard source or environment. If Risk presence is No, output None.\nSolution to prevent recurrence: if Risk presence is Yes, give a prevention measure to reduce recurrence. If Risk presence is No, output None.\nNormal video description: if Risk presence is No, describe the normal video content in 1-3 sentences. If Risk presence is Yes, output None.",
+  "response": "At night, a group of animals, likely wild boars, walk along a pathway in a residential area, moving from left to right. The animals continue to move forward, with more of them appearing in the frame. As they progress, they start to gather and interact with each other near some potted plants. The animals seem to be playing or engaging in some form of social behavior, with some of them standing on their hind legs. The group continues to interact, with some animals moving around the potted plants. The animals remain in the same area, still engaged in their interaction. The scene remains consistent with the animals interacting and moving around the potted plants.",
+  "parsed_response": {
+    "risk_status": "abnormal",
+    "has_risk": true,
+    "risk_type": "unknown",
+    "video_description": "",
+    "safe_segment_desc": "",
+    "risk_description": "",
+    "solution": "",
+    "time_spans": []
+  },
+  "generation": {
+    "temperature": 0.0,
+    "top_p": 0.9,
+    "max_new_tokens": 256,
+    "fps": 1.0,
+    "max_frames": 16,
+    "merge_size": 2
+  },
+  "elapsed_seconds": 33.661,
+  "format_retry_used": true,
+  "first_response_before_format_retry": "At night, a group of animals, likely wild boars, walk along a pathway in a residential area, moving from left to right. The animals continue to move forward, with more of them becoming visible as they progress. The group of animals, including adults and juveniles, gather near some potted plants and a column, interacting with each other. The animals appear to be socializing and moving around the area, with some of them standing on their hind legs. The scene remains consistent with the animals continuing their interaction and movement around the potted plants and column. The animals maintain their social behavior, with some of them moving closer to the camera. The animals continue to interact and move around the area, with no significant changes in their behavior. The animals remain in the same general area, continuing their social interactions and movements."
+}

@@ -1,0 +1,40 @@
+{
+  "video_key": "UR_Fall_Dataset/fall-26-cam1",
+  "translations": {
+    "0": {
+      "risk_description": "年轻人从椅子上摔下来倒在地板上，这存在受伤的潜在风险。",
+      "normal_video_description": "视频显示一名年轻人坐在客厅的椅子上，然后从椅子上摔下来倒在地板上。",
+      "solution_for_person": "确保对年轻人进行监督并提供适当的支撑以防止跌倒。",
+      "solution_for_hazard_source": "检查家具的稳定性，确保其不会成为绊倒的危险物。",
+      "solution_to_prevent_recurrence": "在容易发生跌倒的区域安装扶手或抓杆，并提供定期的锻炼和平衡训练以提高稳定性。"
+    },
+    "1": {
+      "risk_description": "这个人躺在办公室/学习区域的地板上，这存在跌倒或难以轻松站起的风险，可能导致受伤。",
+      "normal_video_description": "视频显示一个穿着格子衬衫的人躺在似乎是办公室或学习区域的铺有地毯的地板上，周围环绕着椅子和家具。",
+      "solution_for_person": "确保此人了解周围环境，并有一条清晰的安全站立路径。",
+      "solution_for_hazard_source": "清除或固定地板上的绊倒危险物。",
+      "solution_to_prevent_recurrence": "鼓励此人避免在这样的环境中躺在地板上。"
+    },
+    "2": {
+      "risk_description": "这个人站立时失去平衡向后倒在地板上，表明发生了明显的不稳定事件，超出了正常活动范围。",
+      "normal_video_description": "",
+      "solution_for_person": "此人应立即起身检查是否受伤，并在必要时寻求医疗救助。",
+      "solution_for_hazard_source": "确保地板上没有障碍物并提供更好的照明以防止类似事件发生。",
+      "solution_to_prevent_recurrence": "实施安全措施，如防滑地板，并对个人进行定期健康检查。"
+    },
+    "3": {
+      "risk_description": "孩子正试图爬到椅子上，如果失去平衡则有跌倒的风险。",
+      "normal_video_description": "",
+      "solution_for_person": "确保对孩子进行密切监督，并为他们提供一个稳定的站立表面。",
+      "solution_for_hazard_source": "移除或固定椅子以防止攀爬。",
+      "solution_to_prevent_recurrence": "教育孩子在试图爬上家具前寻求帮助，并确保环境对儿童安全。"
+    },
+    "4": {
+      "risk_description": "看到这个人走路不稳然后摔倒在地，可能导致严重伤害。这次跌倒似乎是由于不稳定或失去平衡造成的。",
+      "normal_video_description": "视频显示一个人在办公室环境中似乎行走困难，最终跌倒。",
+      "solution_for_person": "确保此人穿着具有良好抓地力的适当鞋子，并在行走时考虑提供支撑或帮助以防止跌倒。",
+      "solution_for_hazard_source": "未发现明显问题；然而，确保地板上没有障碍物并有充足的照明可以帮助防止跌倒。",
+      "solution_to_prevent_recurrence": "实施定期的工作场所危险安全培训，并在必要时提供人体工程学支持。"
+    }
+  }
+}

@@ -1,0 +1,40 @@
+{
+  "video_key": "toyota_smarthome_mp4/mp4/Walk_p19_r10_v11_c06",
+  "translations": {
+    "0": {
+      "risk_description": "老年人在拿着杯子，看起来处于运动中，这可能增加跌倒或杯子内容物洒出的风险。",
+      "normal_video_description": "老年人在厨房里，拿着杯子，看起来处于运动中。",
+      "solution_for_person": "护理人员应确保老年人在厨房里处理物品时坐着或站着保持稳定姿势。",
+      "solution_for_hazard_source": "护理人员应确保厨房地板没有可能导致老年人滑倒的任何湿滑或不平整的表面。",
+      "solution_to_prevent_recurrence": "护理人员应在老年人在厨房处理物品时提供支持和帮助，以降低跌倒和事故的风险。"
+    },
+    "1": {
+      "risk_description": "这个人拿着杯子靠近厨房岛台边缘，可能导致杯子洒出或失去平衡，从而引发跌倒或与岛台碰撞。",
+      "normal_video_description": "老年人在厨房里，拿着杯子，正在厨房岛台周围移动。",
+      "solution_for_person": "确保这个人在拿着杯子时与厨房岛台边缘保持安全距离。",
+      "solution_for_hazard_source": "",
+      "solution_to_prevent_recurrence": ""
+    },
+    "2": {
+      "risk_description": "",
+      "normal_video_description": "一位穿着粉色衬衫的老年人站在现代厨房里，手里拿着一个深色杯子。他们转身离开厨房岛台，走向画面的左侧。环境整洁明亮，没有可见的危险或危险活动。",
+      "solution_for_person": "",
+      "solution_for_hazard_source": "",
+      "solution_to_prevent_recurrence": ""
+    },
+    "3": {
+      "risk_description": "老年人拿着杯子，看起来正在快速移动，这可能增加碰撞或洒出的风险，可能导致滑倒或跌倒。",
+      "normal_video_description": "",
+      "solution_for_person": "老年人在拿着杯子时应缓慢小心地移动，以避免洒出或跌倒。",
+      "solution_for_hazard_source": "确保厨房台面保持整洁，减少绊倒危险。",
+      "solution_to_prevent_recurrence": "老年人应使用防滑垫，并确保厨房照明良好，以提高稳定性和可见度。"
+    },
+    "4": {
+      "risk_description": "",
+      "normal_video_description": "一位老年人出现在现代厨房里，将饮料从水壶倒入杯子中。然后这个人将杯子放在台面上并转身离开，表示任务完成。",
+      "solution_for_person": "",
+      "solution_for_hazard_source": "",
+      "solution_to_prevent_recurrence": ""
+    }
+  }
+}

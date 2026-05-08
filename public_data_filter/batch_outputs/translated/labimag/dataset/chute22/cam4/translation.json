@@ -1,0 +1,40 @@
+{
+  "video_key": "labimag/dataset/chute22/cam4",
+  "translations": {
+    "0": {
+      "risk_description": "视频中的人走向沙发，坐下，然后从沙发上摔下来。这种行为偏离了正常坐在沙发上的日常活动，可能会造成伤害风险。",
+      "normal_video_description": "",
+      "solution_for_person": "应帮助该人找到一个更安全的坐位，例如有更好支撑的椅子或另一张沙发。",
+      "solution_for_hazard_source": "应检查沙发的稳定性，并移除任何潜在危险。",
+      "solution_to_prevent_recurrence": "当该人坐在沙发上时应进行监督，并提醒其使用正确的坐姿以防止跌倒。"
+    },
+    "1": {
+      "risk_description": "穿红色衬衫的人俯卧在地上，这种姿势可能导致跌倒或起身困难，可能造成伤害。",
+      "normal_video_description": "一个穿黑色衬衫的人在桌子旁工作后离开，另一位穿红色衬衫的人进入后移动沙发，然后俯卧在地上，随后起身。",
+      "solution_for_person": "该人应在无人帮助的情况下避免俯卧在地上。",
+      "solution_for_hazard_source": "",
+      "solution_to_prevent_recurrence": "确保个人了解俯卧在地上的跌倒风险，并在需要时提供帮助。"
+    },
+    "2": {
+      "risk_description": "",
+      "normal_video_description": "一个人走进房间，坐在椅子上，然后向后倒下在地上，起身离开。背景中另一个人在桌子旁工作。",
+      "solution_for_person": "",
+      "solution_for_hazard_source": "",
+      "solution_to_prevent_recurrence": ""
+    },
+    "3": {
+      "risk_description": "穿红色衬衫的人倒在地板上，可能造成伤害，特别是对行动不便或平衡有问题的人。",
+      "normal_video_description": "",
+      "solution_for_person": "确保该人了解周围环境，谨慎移动以防止滑倒或跌倒。",
+      "solution_for_hazard_source": "办公室地板应保持畅通，减少绊倒风险。",
+      "solution_to_prevent_recurrence": "在人们经常走动的区域使用防滑地板或增加照明，以提高安全性。"
+    },
+    "4": {
+      "risk_description": "穿红色衬衫的人穿过房间后摔倒在地，可能导致严重伤害。整段视频中此人都出现走路后跌倒的风险。",
+      "normal_video_description": "",
+      "solution_for_person": "确保该人穿有良好抓地力的合适鞋子，以防止在地板上滑倒。",
+      "solution_for_hazard_source": "移除该人行走区域中的绊倒危险或光滑表面。",
+      "solution_to_prevent_recurrence": "为有可能跌倒的个人提供正确的步行技巧和防跌倒策略的培训。"
+    }
+  }
+}

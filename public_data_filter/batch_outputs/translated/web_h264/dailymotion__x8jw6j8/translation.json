@@ -1,0 +1,40 @@
+{
+  "video_key": "web_h264/dailymotion__x8jw6j8",
+  "translations": {
+    "0": {
+      "risk_description": "这名年轻人从沙发上跳下来摔到地板上，可能会造成伤害。",
+      "normal_video_description": "",
+      "solution_for_person": "人员在客厅走动时应更加小心，以避免摔倒。",
+      "solution_for_hazard_source": "应检查沙发及周围区域是否存在绊倒危险或可能造成摔倒的障碍物。",
+      "solution_to_prevent_recurrence": "应提醒年轻人在客厅走动时更加小心，任何潜在危险都应移除或标记，以避免日后摔倒。"
+    },
+    "1": {
+      "risk_description": "梯子上的人有坠落风险，尤其是在被玩具枪击中后失去平衡时。梯子靠在窗户旁边，如果人滑倒或受到惊吓可能导致坠落。",
+      "normal_video_description": "一个人站在窗边的梯子上，另一个人用玩具枪嬉闹地打他，导致梯子上的人向后倒到沙发上。",
+      "solution_for_person": "确保梯子上的人始终保持三点接触（两只手一只脚，或两只脚一只手），并避免突然动作。",
+      "solution_for_hazard_source": "移除或固定玩具枪，防止其被用来惊吓或分散梯子上人员的注意力。",
+      "solution_to_prevent_recurrence": "始终监督使用梯子的人员，确保他们了解环境中潜在的干扰或危险。"
+    },
+    "2": {
+      "risk_description": "一个人站在梯子上拿着调色盘，被拿玩具枪的孩子惊吓，导致失去平衡向后从梯子上摔下来。该人落在沙发上，满身洒出的颜料，明显存在安全隐患，因不稳定和分心所致。",
+      "normal_video_description": "",
+      "solution_for_person": "人员应立即安全地从梯子上下来，然后再进行任何可能导致分心或失去平衡的活动。",
+      "solution_for_hazard_source": "应更密切地监督孩子，并移除该区域的玩具枪以防止惊吓他人。",
+      "solution_to_prevent_recurrence": "制定明确的室内玩具使用规则，确保绘画等活动在干扰最小受控的环境中进行。"
+    },
+    "3": {
+      "risk_description": "年轻人从梯子上摔到沙发上，可能因撞击以及沙发上可能存在的碎玻璃或尖锐物品而受伤。",
+      "normal_video_description": "",
+      "solution_for_person": "确保年轻人在高处作业时佩戴适当的安全装备，如安全带。",
+      "solution_for_hazard_source": "正确固定梯子，确保下方区域没有易碎物品。",
+      "solution_to_prevent_recurrence": "使用稳固的梯子并清理下方区域，以防止坠落和伤害。"
+    },
+    "4": {
+      "risk_description": "孩子在试图够窗户时有从梯子上坠落的危险。这可能导致严重伤害。",
+      "normal_video_description": "",
+      "solution_for_person": "确保孩子有人监督，并在需要爬梯子时提供帮助。",
+      "solution_for_hazard_source": "移除该区域的梯子或将其固定以防止意外移动。",
+      "solution_to_prevent_recurrence": "为孩子提供不需使用梯子即可够到窗户的其他方式，例如踏凳或调整窗帘。"
+    }
+  }
+}

@@ -1,0 +1,40 @@
+{
+  "video_key": "toyota_smarthome_mp4/mp4/Enter_p10_r00_v02_c04",
+  "translations": {
+    "0": {
+      "risk_description": "这位老年人正试图使用一张小桌子，这张桌子可能不够稳固，无法承受其体重，可能导致跌倒或失衡。",
+      "normal_video_description": "",
+      "solution_for_person": "确保老年人在使用时能够倚靠稳固、结实的桌子或平面，以支撑其体重。",
+      "solution_for_hazard_source": "将小桌子更换为更稳固、结实的平面。",
+      "solution_to_prevent_recurrence": "定期检查客厅中家具和平面的稳固性，以防止以后发生类似事故。"
+    },
+    "1": {
+      "risk_description": "",
+      "normal_video_description": "老年人走进客厅，在咖啡桌旁弯腰，似乎在拾取或调整桌上的东西。",
+      "solution_for_person": "",
+      "solution_for_hazard_source": "",
+      "solution_to_prevent_recurrence": ""
+    },
+    "2": {
+      "risk_description": "",
+      "normal_video_description": "老年人走进客厅，经过一张绿色分体沙发后，弯腰从咖啡桌附近的地面上捡起一个物体。环境宁静，未见明显危险。",
+      "solution_for_person": "",
+      "solution_for_hazard_source": "",
+      "solution_to_prevent_recurrence": ""
+    },
+    "3": {
+      "risk_description": "老年人在低矮的咖啡桌上操作物品，若失去平衡可能导致碰撞或挤压风险。",
+      "normal_video_description": "",
+      "solution_for_person": "确保老年人在操作桌上的物品时坐在沙发或有支撑的位置，以防跌倒。",
+      "solution_for_hazard_source": "将咖啡桌升高或提供稳固的操作平面，以降低碰撞风险。",
+      "solution_to_prevent_recurrence": "使用防滑垫或保持地面整洁，以防绊倒和跌倒。"
+    },
+    "4": {
+      "risk_description": "由于咖啡桌表面不稳，老年人有跌倒风险，可能导致严重伤害。",
+      "normal_video_description": "",
+      "solution_for_person": "确保老年人坐在沙发上，而不是站在咖啡桌上。",
+      "solution_for_hazard_source": "移除咖啡桌上可能导致不稳的物品。",
+      "solution_to_prevent_recurrence": "对咖啡桌周围区域进行安全防护，以防止将来发生意外。"
+    }
+  }
+}

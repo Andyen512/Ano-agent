@@ -1,0 +1,40 @@
+{
+  "video_key": "web_h264/bilibili__BV12E411i7uE",
+  "translations": {
+    "0": {
+      "risk_description": "孩子正在地板上玩耍，看起来不太稳定，可能会导致摔倒。",
+      "normal_video_description": "",
+      "solution_for_person": "看护者应确保孩子得到监督，并提供支持以防止摔倒。",
+      "solution_for_hazard_source": "看护者应清除地板上的任何危险物，确保孩子不在可能有危险的区域玩耍。",
+      "solution_to_prevent_recurrence": "看护者应建立孩子的玩耍时间常规，并确保环境安全可靠。"
+    },
+    "1": {
+      "risk_description": "孩子在陡峭的楼梯上爬行，这存在明显的跌倒和受伤风险。",
+      "normal_video_description": "一个孩子正在爬下陡峭的楼梯，旁边有一只猫在观看。",
+      "solution_for_person": "当孩子在楼梯附近或楼梯上时，确保有成人持续监督。",
+      "solution_for_hazard_source": "在楼梯顶部和底部安装安全门，以防止无人监督的进入。",
+      "solution_to_prevent_recurrence": "教育看护者关于让孩子无人看管靠近楼梯的危险性。"
+    },
+    "2": {
+      "risk_description": "看到孩子在楼梯附近的地板上爬行，这存在明显的跌倒风险。孩子无人看管且靠近楼梯边缘，表明存在潜在安全隐患。",
+      "normal_video_description": "",
+      "solution_for_person": "看护者应立即进行干预，防止孩子靠近楼梯，并确保孩子始终受到监督。",
+      "solution_for_hazard_source": "在楼梯顶部和底部安装安全门或屏障，以防止无人监督的进入。",
+      "solution_to_prevent_recurrence": "教育孩子了解靠近楼梯的危险，并通过持续的监督和指导强化安全行为。"
+    },
+    "3": {
+      "risk_description": "看到孩子正在爬下陡峭的楼梯，由于楼梯不稳定，存在跌倒风险。",
+      "normal_video_description": "",
+      "solution_for_person": "确保孩子在爬楼梯时受到密切监督，并提供支持以防止摔倒。",
+      "solution_for_hazard_source": "在楼梯上安装安全扶手以防止跌倒。",
+      "solution_to_prevent_recurrence": "定期检查和维护楼梯的稳定性，确保其对儿童使用安全。"
+    },
+    "4": {
+      "risk_description": "看到老年人坐在椅子上，椅子可能不稳定，可能导致摔倒。整个视频中都有这种风险。",
+      "normal_video_description": "",
+      "solution_for_person": "确保椅子在坐之前是稳定和安全的。",
+      "solution_for_hazard_source": "",
+      "solution_to_prevent_recurrence": "定期检查和维护家具以确保稳定性和安全性。"
+    }
+  }
+}

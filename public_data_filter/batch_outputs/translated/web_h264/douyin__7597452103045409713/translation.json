@@ -1,0 +1,40 @@
+{
+  "video_key": "web_h264/douyin__7597452103045409713",
+  "translations": {
+    "0": {
+      "risk_description": "视频中可以看到一个人在餐厅里走动，餐厅里似乎堆满了各种物品。该人还被看到坐在椅子上然后站起来，如果失去平衡可能会导致跌倒。此外，杂乱的环境可能会增加绊倒或跌倒的风险。",
+      "normal_video_description": "",
+      "solution_for_person": "应协助该人在餐厅里走动以防止跌倒。还应鼓励他们清理杂物以降低绊倒或跌倒的风险。",
+      "solution_for_hazard_source": "应清理餐厅中的杂物以降低绊倒或跌倒的风险。",
+      "solution_to_prevent_recurrence": "应监测并协助该人在餐厅里走动以防止跌倒。应定期清理环境中的杂物以降低绊倒或跌倒的风险。"
+    },
+    "1": {
+      "risk_description": "老年人正在室内使用燃烧的炭炉，这存在烧伤、吸入烟雾和潜在火灾蔓延的风险。",
+      "normal_video_description": "一位老年人坐在杂乱的客厅里，在地板上照看一个小炭炉，周围散落着各种家居用品。",
+      "solution_for_person": "应提醒老年人将炭炉移到室外或通风良好的区域，远离易燃材料。",
+      "solution_for_hazard_source": "确保炭炉在安全的位置使用，并配备适当的通风和消防安全措施。",
+      "solution_to_prevent_recurrence": "在客厅安装烟雾探测器和灭火器，并教育老年人安全使用炭炉。"
+    },
+    "2": {
+      "risk_description": "一位老年人在门窗关闭的室内烧炭，这因通风不良造成了极高的一氧化碳中毒和火灾风险。",
+      "normal_video_description": "",
+      "solution_for_person": "立即打开门窗通风并扑灭炭火。",
+      "solution_for_hazard_source": "将炭和任何易燃材料从室内移走。",
+      "solution_to_prevent_recurrence": "教育该人室内烧炭的危险，并确保使用此类热源时始终保持适当的通风。"
+    },
+    "3": {
+      "risk_description": "老年人正在水桶附近弯腰，这可能因潜在滑倒或失衡而导致跌倒或不稳定。",
+      "normal_video_description": "",
+      "solution_for_person": "确保老年人在弯腰时使用支撑或辅助，并保持区域畅通无障碍物。",
+      "solution_for_hazard_source": "不使用时，应清除地板上的绊倒危险物如水桶。",
+      "solution_to_prevent_recurrence": "不使用时，应将水桶固定在稳定位置，并确保地板上没有障碍物。"
+    },
+    "4": {
+      "risk_description": "孩子在厨房台面上玩玩具，如果失去平衡可能会导致跌倒。厨房环境中有各种物品，如果孩子跌倒可能会造成伤害。",
+      "normal_video_description": "",
+      "solution_for_person": "确保孩子受到监督，并保持厨房台面清洁，无可能造成绊倒危险的物品。",
+      "solution_for_hazard_source": "通过清除任何潜在危险并在水槽和抽屉上安装安全护栏或锁来确保厨房台面周围区域的安全。",
+      "solution_to_prevent_recurrence": "定期检查厨房区域是否有任何新危险，并为孩子保持安全环境。"
+    }
+  }
+}

@@ -1,0 +1,40 @@
+{
+  "video_key": "toyota_smarthome_mp4/mp4/Walk_p06_r02_v14_c02",
+  "translations": {
+    "0": {
+      "risk_description": "",
+      "normal_video_description": "视频显示一位老年人在餐厅的餐桌旁走动。该老人似乎在进行某种活动，可能是摆放餐具或寻找什么东西。房间光线充足，看起来很整洁。随后老人离开了画面，视频以餐厅空无一人的场景结束。",
+      "solution_for_person": "",
+      "solution_for_hazard_source": "",
+      "solution_to_prevent_recurrence": ""
+    },
+    "1": {
+      "risk_description": "",
+      "normal_video_description": "可以看到一位老年人在餐厅里走动，从厨房区域走向窗户，然后踏上柜台或较高的台面后再下来。房间光线充足，有自然光，描述的动作中没有明显的直接危险。",
+      "solution_for_person": "",
+      "solution_for_hazard_source": "",
+      "solution_to_prevent_recurrence": ""
+    },
+    "2": {
+      "risk_description": "",
+      "normal_video_description": "可以看到一位老年人在现代餐厅里从一个白色橱柜走向厨房柜台。该人动作平静而目标明确，似乎在取回或放置某件物品在柜台上，随后转身返回。环境整洁、光线充足，没有紧张、失衡或危险活动的迹象。",
+      "solution_for_person": "",
+      "solution_for_hazard_source": "",
+      "solution_to_prevent_recurrence": ""
+    },
+    "3": {
+      "risk_description": "这位老人正站在椅子上，由于椅子可能不稳，存在潜在的跌倒风险。",
+      "normal_video_description": "",
+      "solution_for_person": "确保老人安全地从椅子上下来，并避免站在家具上。",
+      "solution_for_hazard_source": "移除或固定任何可能被用作踏脚的家具。",
+      "solution_to_prevent_recurrence": "使用稳固的表面站立，必要时提供帮助。"
+    },
+    "4": {
+      "risk_description": "",
+      "normal_video_description": "可以看到一位老年人在现代餐厅里走向厨房柜台，似乎在准备什么。环境平静，没有可见的危险或风险。",
+      "solution_for_person": "",
+      "solution_for_hazard_source": "",
+      "solution_to_prevent_recurrence": ""
+    }
+  }
+}

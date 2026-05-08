@@ -1,0 +1,40 @@
+{
+  "video_key": "labimag/dataset/chute14/cam6",
+  "translations": {
+    "0": {
+      "risk_description": "这位年轻人正躺在地板上，这可能是一个潜在的跌倒危险。该人处于弱势位置，若摔倒时没有人在旁协助。",
+      "normal_video_description": "",
+      "solution_for_person": "应鼓励该人坐起来并移动到更安全的地方，以降低跌倒风险。",
+      "solution_for_hazard_source": "应检查地板是否有绊倒危险，并使该区域更安全以防止跌倒。",
+      "solution_to_prevent_recurrence": "在客厅时应对该人进行监督，并移除或尽量减少任何潜在危险，以防止将来跌倒。"
+    },
+    "1": {
+      "risk_description": "该人躺在没有护栏的升平台上，若滚动或失去平衡可能导致跌倒。",
+      "normal_video_description": "一个人进入书房，躺在升起的平台上，然后起身在房间里走动。",
+      "solution_for_person": "确保平台已装上护栏或障碍物，防止滚落。",
+      "solution_for_hazard_source": "在升平台周围安装护栏或障碍物。",
+      "solution_to_prevent_recurrence": "在书房区域进行关于使用升平台的安全简报。"
+    },
+    "2": {
+      "risk_description": "",
+      "normal_video_description": "一个人进入房间，跳到沙发上，然后倒在放在地板上的床垫上。另一人进入房间并观察情况。",
+      "solution_for_person": "",
+      "solution_for_hazard_source": "",
+      "solution_to_prevent_recurrence": ""
+    },
+    "3": {
+      "risk_description": "该人躺在地板上的床垫上，床垫可能不稳定并构成跌倒风险，特别是对行动不便或平衡有问题的人。",
+      "normal_video_description": "",
+      "solution_for_person": "确保床垫放在稳固、平坦的表面上，并在需要时提供支撑。",
+      "solution_for_hazard_source": "将床垫固定，防止其移动或倾斜。",
+      "solution_to_prevent_recurrence": "使用稳固且有适当支撑的表面躺卧，并确保该区域没有绊倒危险。"
+    },
+    "4": {
+      "risk_description": "穿红衬衫的人正在跳在放在地板上的床垫上，这可能导致跌倒和潜在受伤。床垫未固定，增加了不稳定的风险。",
+      "normal_video_description": "",
+      "solution_for_person": "确保床垫已正确固定在地板上，或使用更稳固的表面进行跳跃。",
+      "solution_for_hazard_source": "移除床垫周围可能导致绊倒或跌倒的物品。",
+      "solution_to_prevent_recurrence": "提供正确的安全跳跃技巧培训，并确保使用适当的设备。"
+    }
+  }
+}

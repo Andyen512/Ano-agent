@@ -1,0 +1,40 @@
+{
+  "video_key": "toyota_smarthome_mp4/mp4/Walk_p02_r00_v14_c03",
+  "translations": {
+    "0": {
+      "risk_description": "老年人在厨房里走动，动作显得缓慢且不稳。他们伸手去拿高架上的物品，这可能导致他们失去平衡而跌倒。",
+      "normal_video_description": "",
+      "solution_for_person": "护理人员应在厨房中为老年人提供支撑和指导，以防止跌倒。也可以考虑安装扶手或防滑垫来提高安全性。",
+      "solution_for_hazard_source": "厨房的高架可能是一个危险源。护理人员应考虑重新布置厨房，减少老年人需要伸手去取高架物品的情况。",
+      "solution_to_prevent_recurrence": "护理人员应定期检查老年人的平衡和活动能力，以便在风险出现之前发现问题。也可以考虑让老年人参加物理治疗或锻炼项目，以增强平衡和力量。"
+    },
+    "1": {
+      "risk_description": "该人正在伸手去开烤箱门，烤箱门可能很热或内部有热食，存在烫伤风险。",
+      "normal_video_description": "一位老年人走进厨房，靠近烤箱。",
+      "solution_for_person": "在打开烤箱门之前，确保烤箱未在使用或已冷却。",
+      "solution_for_hazard_source": "不使用烤箱时保持烤箱门关闭，以防止意外触碰高温表面。",
+      "solution_to_prevent_recurrence": "打开烤箱门前一定要检查烤箱是否已关闭且已冷却。"
+    },
+    "2": {
+      "risk_description": "",
+      "normal_video_description": "一位短卷发的老年人穿过现代厨房，从水槽区域向房间右侧的烤箱移动。该人步伐稳健，正从事正常的家务活动，没有表现出不稳或危险的迹象。",
+      "solution_for_person": "",
+      "solution_for_hazard_source": "",
+      "solution_to_prevent_recurrence": ""
+    },
+    "3": {
+      "risk_description": "老年人在厨房里走动，如果地板湿滑或他们难以保持平衡，可能会导致跌倒风险。",
+      "normal_video_description": "",
+      "solution_for_person": "确保老年人穿合适的鞋子，并考虑安装抓握杆以增加稳定性。",
+      "solution_for_hazard_source": "检查地板是否有溢漏或松动物品等潜在危险，并及时清理。",
+      "solution_to_prevent_recurrence": "在厨房安装额外的照明和防滑垫，以降低跌倒风险。"
+    },
+    "4": {
+      "risk_description": "",
+      "normal_video_description": "一位老年人穿过现代厨房，走向烤箱。",
+      "solution_for_person": "",
+      "solution_for_hazard_source": "",
+      "solution_to_prevent_recurrence": ""
+    }
+  }
+}

@@ -1,0 +1,30 @@
+{
+  "backend": "tarsier2",
+  "description": "Bytedance Tarsier2 single-video inference",
+  "model_id": "omni-research/Tarsier2-7b-0115",
+  "model_path": "/data_4/liuyuan/lifebench/models/Tarsier2-7b-0115",
+  "video_path": "/data_4/liuyuan/lifebench/data/public_data/toyota_smarthome_mp4/mp4/Eat.Attable_p03_r03_v10_c01.mp4",
+  "prompt": "You are acting as a conservative safety reviewer.\nYour task is to minimize missed risks. If a candidate behavior has a realistic possibility of injury, loss of control, or accident triggering, it may be kept as a risk anomaly.\n\nFollow these principles:\n- Apply a cautious safety standard, prioritizing behaviors that may lead to falls, collisions, burns, electric shock, accidental ingestion, cuts, or other household injuries.\n- Even if harm has not occurred yet, keep the behavior if it already contains a clear risk trigger or is in an accident-prone state.\n- For borderline cases, focus on whether the behavior deserves early intervention rather than waiting for harm to happen.\n- If a behavior would commonly be stopped or warned against by family members, guardians, or caregivers, lean toward keeping it.\n- The goal is to reduce false negatives, so ambiguous cases may be judged slightly conservatively.\n\nOutput requirements for this perspective:\n- Explain what realistic harm the behavior may trigger and why it should or should not be kept under a conservative safety standard.\n- You do not need to prove that harm will definitely occur.\n- Do not exaggerate beyond an ordinary household context.\n\nTask addendum:\nReview the input video and first decide whether the video contains a risk.\nBase your judgment only on the video content. Do not assume facts outside the video, and do not invent extra events.\nJudge the main visible behavior and scene in the video.\nYou must answer based on the provided video input. Do not say that you cannot watch or inspect the video.\nOutput exactly the following English-labeled fields, with no markdown and no extra text:\nRisk presence: Yes / No\nLevel 1 scene: output one scene keyword. Prefer one of: dining room, kitchen, study, balcony, living room, bathroom, yard. If none fits, output your own concise scene keyword.\nLevel 2 subject: output one subject keyword. Prefer one of: child, older adult, young adult, middle-aged adult. If none fits, output your own concise subject keyword.\nLevel 3 risk type: if Risk presence is Yes, output one risk keyword. Prefer one of: fall/instability, heat/fire source, collision/crush injury, sharp-object danger, electrical safety, poisoning/accidental ingestion, interpersonal conflict. If none fits, output your own concise risk keyword. If Risk presence is No, output None.\nRisk description: if Risk presence is Yes, describe the risk in 1-3 sentences. If Risk presence is No, output None.\nRisk time interval: if Risk presence is Yes, localize the risk as seconds like [start,end]. If there are multiple intervals, separate them with semicolons. If the exact interval is unclear, output Unknown. If Risk presence is No, output None.\nSolution for person: if Risk presence is Yes, give a concrete action for the person or caregiver. If Risk presence is No, output None.\nSolution for hazard source: if Risk presence is Yes, give a concrete action for the hazard source or environment. If Risk presence is No, output None.\nSolution to prevent recurrence: if Risk presence is Yes, give a prevention measure to reduce recurrence. If Risk presence is No, output None.\nNormal video description: if Risk presence is No, describe the normal video content in 1-3 sentences. If Risk presence is Yes, output None.",
+  "response": "A man is sitting at a modern dining table in a well-furnished room, eating food from a plate. The table has various items on it, including a loaf of bread, a can of food, a small container, and a smartphone. The man is using his hands to eat, which may increase the risk of choking. The room has a mix of modern furniture, including a white table with red and white chairs, a wooden cabinet, and a shelf with books and decorative items. The background includes a window with curtains, a television, and a coffee machine. The man continues to eat, occasionally pausing and looking around. The risk of choking remains present throughout the video.",
+  "parsed_response": {
+    "risk_status": "abnormal",
+    "has_risk": true,
+    "risk_type": "collision_or_struck",
+    "video_description": "",
+    "safe_segment_desc": "",
+    "risk_description": "",
+    "solution": "",
+    "time_spans": []
+  },
+  "generation": {
+    "temperature": 0.0,
+    "top_p": 0.9,
+    "max_new_tokens": 256,
+    "fps": 1.0,
+    "max_frames": 16,
+    "merge_size": 2
+  },
+  "elapsed_seconds": 19.381,
+  "format_retry_used": true,
+  "first_response_before_format_retry": "A man is sitting at a modern dining table in a well-furnished room, eating food from a plate. The table has various items including a loaf of bread, a can of soda, a small container, and some utensils. The man is using his hands to eat, which is not recommended as it increases the risk of choking. The room has a contemporary design with a mix of white and wooden furniture, and there are shelves and cabinets in the background. The man continues to eat in the same manner throughout the video. The risk of choking is present due to the man's eating method. The solution for the person would be to use utensils to eat, and the solution for the hazard source is to provide appropriate eating tools. To prevent recurrence, the man should be encouraged to use utensils for eating. The normal video content includes the man eating at the table in a modern, well-furnished room."
+}

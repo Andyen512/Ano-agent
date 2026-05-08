@@ -1,0 +1,40 @@
+{
+  "video_key": "labimag/dataset/chute10/cam5",
+  "translations": {
+    "0": {
+      "risk_description": "视频中的人看到跑向一把椅子然后摔到地上，这可能导致受伤。此人可能试图快速坐下或没有注意周围环境，导致摔倒。",
+      "normal_video_description": "",
+      "solution_for_person": "人们应该更加注意周围环境，在办公室走动时慢慢来，以避免摔倒。",
+      "solution_for_hazard_source": "应该使办公环境更安全，消除绊倒危险，确保地面清洁且无障碍物。",
+      "solution_to_prevent_recurrence": "应该提醒人们注意在办公室走动时小心谨慎，并鼓励他们慢慢来以避免摔倒。应该定期进行安全检查，以确保办公环境安全且无危险。"
+    },
+    "1": {
+      "risk_description": "穿红色衬衫的人倒在椅子和地板上，可能会因撞击或卡在椅子下而受伤。",
+      "normal_video_description": "一个穿红色衬衫的人进入教室，跑过房间，然后倒在椅子和地板上，随后被人扶起来。",
+      "solution_for_person": "避免在有家具的区域跑步或快速移动，因为这可能导致绊倒或摔倒。",
+      "solution_for_hazard_source": "确保椅子和其他可移动物体放置牢固，远离人流量大的区域。",
+      "solution_to_prevent_recurrence": "实施在共享空间移动的安全协议，如缓慢行走并注意周围环境。"
+    },
+    "2": {
+      "risk_description": "一个年轻人走进房间，被地板上的电缆绊倒，然后摔倒在地。这种行为明显超出正常活动范围，因为直接失去了平衡并导致摔倒。",
+      "normal_video_description": "",
+      "solution_for_person": "这个人应该立即站起来，检查受伤情况，并避免将来再踩到电缆。",
+      "solution_for_hazard_source": "将电缆固定在地板上或将其从行走路径中移除，以防止绊倒危险。",
+      "solution_to_prevent_recurrence": "实施定期整理电缆的常规，确保通道畅通无障碍物。"
+    },
+    "3": {
+      "risk_description": "穿红色衬衫的人在试图坐到椅子上时摔到地上，这可能会造成受伤风险，特别是对于行动不便或平衡问题的人来说。",
+      "normal_video_description": "",
+      "solution_for_person": "确保椅子稳定，坐下时用双手支撑自己。",
+      "solution_for_hazard_source": "移除房间中任何可能导致绊倒或摔倒的障碍物。",
+      "solution_to_prevent_recurrence": "练习小心坐下，考虑使用带扶手的椅子以增加稳定性。"
+    },
+    "4": {
+      "risk_description": "视频中的人由于椅子在棋盘格地板上的不稳定位置，有从椅子上摔下来的危险。这可能导致严重伤害。",
+      "normal_video_description": "",
+      "solution_for_person": "确保椅子放置在稳定的表面上，而不是棋盘格地板上，以防止摔倒。",
+      "solution_for_hazard_source": "将椅子从棋盘格地板上移走，或为其提供稳定的放置表面。",
+      "solution_to_prevent_recurrence": "定期检查和维护家具，以确保稳定性和安全性。"
+    }
+  }
+}

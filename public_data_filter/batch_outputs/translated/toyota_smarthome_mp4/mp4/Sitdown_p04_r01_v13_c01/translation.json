@@ -1,0 +1,40 @@
+{
+  "video_key": "toyota_smarthome_mp4/mp4/Sitdown_p04_r01_v13_c01",
+  "translations": {
+    "0": {
+      "risk_description": "老年人在尝试坐到椅子上时，有跌倒或失去稳定性的风险。椅子可能不够稳固，或者老年人从椅子上站起可能有困难。",
+      "normal_video_description": "老年人正在餐厅里尝试坐到椅子上。老人穿着一件条纹衬衫和米色...（原文未完整）",
+      "solution_for_person": "护理人员应协助老年人坐到椅子上，并确保椅子在让老年人坐下之前是稳固的。护理人员还应监测老年人的动作，必要时提供支撑。",
+      "solution_for_hazard_source": "护理人员应确保椅子稳固安全，方可让老年人坐下。护理人员还应检查地面是否有任何可能使老年人绊倒或跌倒的障碍物或危险。",
+      "solution_to_prevent_recurrence": "护理人员应定期检查老年人所坐的椅子及其周围环境，排除潜在的危害或不稳定因素。护理人员还应为老年人提供常规的帮助和支撑，以防跌倒或失去平衡。"
+    },
+    "1": {
+      "risk_description": "老年人坐在桌旁的高脚椅上，如果椅子不稳或本人失去平衡，就有跌倒的风险。",
+      "normal_video_description": "看到一位老年人在桌旁站着，然后坐到桌子旁的高脚椅上。",
+      "solution_for_person": "确保椅子稳固，人员坐姿正确，双脚平放在地面上。",
+      "solution_for_hazard_source": "",
+      "solution_to_prevent_recurrence": "使用座高较低的椅子，或在坐下或站立时提供帮助。"
+    },
+    "2": {
+      "risk_description": "",
+      "normal_video_description": "在现代的办公室或居家环境中，看到一位老年人坐在餐桌旁。老人从站立姿势缓慢而稳健地坐到桌子旁的椅子上，桌上有笔记本电脑、笔记本和咖啡杯。动作缓慢且慎重，未表现出不稳或危险。",
+      "solution_for_person": "",
+      "solution_for_hazard_source": "",
+      "solution_to_prevent_recurrence": ""
+    },
+    "3": {
+      "risk_description": "老年人重心严重倚靠在桌子上，这可能导致跌倒或失去平衡，尤其在他们滑倒或失去立足点时更为危险。",
+      "normal_video_description": "",
+      "solution_for_person": "老年人应小心坐下，并确保在倚靠桌子之前有稳固的支撑。",
+      "solution_for_hazard_source": "确保餐桌和椅子稳固，清理任何可能导致绊倒的障碍物。",
+      "solution_to_prevent_recurrence": "老年人在坐时应使用椅子提供支撑，避免过度倚靠桌子。"
+    },
+    "4": {
+      "risk_description": "老年人因步态不稳且靠近桌边而有跌倒风险，这可能导致严重伤害，尤其考虑到他们的年龄。",
+      "normal_video_description": "",
+      "solution_for_person": "确保人员坐姿安全，必要时提供支撑或帮助以保持平衡。",
+      "solution_for_hazard_source": "",
+      "solution_to_prevent_recurrence": "鼓励人员缓慢而小心地移动，并考虑清除该区域内任何潜在的绊倒危险。"
+    }
+  }
+}

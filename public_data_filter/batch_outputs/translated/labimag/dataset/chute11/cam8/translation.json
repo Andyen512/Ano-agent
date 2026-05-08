@@ -1,0 +1,40 @@
+{
+  "video_key": "labimag/dataset/chute11/cam8",
+  "translations": {
+    "0": {
+      "risk_description": "年轻人在床垫上尝试表演特技，这是不安全的活动。该人从床垫上摔下来，落在地板上，可能导致受伤。",
+      "normal_video_description": "视频显示一名年轻人在书房中的床垫上尝试表演特技。该人从床垫上摔下来，落在地板上，可能导致受伤。",
+      "solution_for_person": "应建议该人避免在没有适当监督和安全设备的情况下表演特技或进行危险活动。",
+      "solution_for_hazard_source": "床垫应放置在安全的位置，远离任何可能导致受伤的危险或障碍物。",
+      "solution_to_prevent_recurrence": "应教育该人了解安全的重要性以及表演特技或进行危险活动相关的风险。"
+    },
+    "1": {
+      "risk_description": "该人躺在房间中央的一个大白物体上，看起来像是碰撞测试假人或类似的实验装置。如果该物体意外移动或该人没有得到适当固定，这种姿势可能导致跌倒或失控。",
+      "normal_video_description": "一个人走进实验室或教室环境，接近房间中央的一个大白物体，然后躺上去，其他人则在观察。",
+      "solution_for_person": "确保该人被安全固定或定位，以防止可能导致跌倒的移动。",
+      "solution_for_hazard_source": "验证该白色物体稳定且正确固定在地板上，以防止意外移动。",
+      "solution_to_prevent_recurrence": "在允许任何人躺下或与实验设备互动之前进行安全检查，以确认稳定性和适当的约束装置。"
+    },
+    "2": {
+      "risk_description": "",
+      "normal_video_description": "视频显示一个人走进房间，跳到地板上的床垫上，然后躺下。背景中可以看到其他人走动并与物体互动。这个场景看起来是一个随意的室内环境，没有明显的危险或异常行为迹象。",
+      "solution_for_person": "",
+      "solution_for_hazard_source": "",
+      "solution_to_prevent_recurrence": ""
+    },
+    "3": {
+      "risk_description": "年轻人躺在地板上的床垫上，这可能不稳定，存在跌倒的风险，特别是如果他们试图突然起身或移动。",
+      "normal_video_description": "",
+      "solution_for_person": "确保床垫放置在稳定的表面上，并在需要时提供起身的帮助。",
+      "solution_for_hazard_source": "固定床垫以防止其移动或倾斜。",
+      "solution_to_prevent_recurrence": "使用稳定安全的表面躺下，并在移动时确保适当的监督。"
+    },
+    "4": {
+      "risk_description": "该人躺在地板上的床垫上，如果他们滚落或被困在床垫下，可能会造成受伤风险。房间周围也存在绊倒的危险。",
+      "normal_video_description": "",
+      "solution_for_person": "确保床垫放置在安全的位置，不会造成绊倒危险，并且在人躺在上面时有人监督。",
+      "solution_for_hazard_source": "清除床垫周围的绊倒危险物，并确保该区域光线充足。",
+      "solution_to_prevent_recurrence": "考虑使用更稳定的表面供人躺下，例如床或地板上边缘有缓冲的硬床垫。"
+    }
+  }
+}

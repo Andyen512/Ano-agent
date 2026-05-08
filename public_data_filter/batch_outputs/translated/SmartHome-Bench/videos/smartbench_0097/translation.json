@@ -1,0 +1,40 @@
+{
+  "video_key": "SmartHome-Bench/videos/smartbench_0097",
+  "translations": {
+    "0": {
+      "risk_description": "这位年轻人正在阳台上奔跑，这是一项不安全的行为。跌倒或绊倒的风险很高。",
+      "normal_video_description": "视频显示一名年轻人在夜间于阳台上奔跑。阳台灯光昏暗，且没有栏杆或其他安全防护措施。年轻人似乎很匆忙，并未留意周围环境。",
+      "solution_for_person": "应提醒该人保持警惕，不要在阳台上奔跑。",
+      "solution_for_hazard_source": "应通过安装栏杆或其他安全措施来提升阳台的安全性。",
+      "solution_to_prevent_recurrence": "应向该人进行安全重要性的教育，告知其在阳台上奔跑的风险。"
+    },
+    "1": {
+      "risk_description": "该人在不平坦且有障碍物的区域行走，这增加了绊倒和跌倒的风险。",
+      "normal_video_description": "视频显示一个人在光线昏暗的户外区域行走，周围散落着物品且地面不平。",
+      "solution_for_person": "在该区域行走时要小心谨慎，避免分心。",
+      "solution_for_hazard_source": "确保院子光线充足且无障碍物，以降低绊倒危险。",
+      "solution_to_prevent_recurrence": "定期检查和维护院子，以最大限度地减少绊倒危险。"
+    },
+    "2": {
+      "risk_description": "",
+      "normal_video_description": "视频显示一个人在夜间穿过后院区域，经过垃圾桶和一道矮墙。该场景由监控摄像头拍摄，似乎是正常活动，未见明显风险或异常。",
+      "solution_for_person": "",
+      "solution_for_hazard_source": "",
+      "solution_to_prevent_recurrence": ""
+    },
+    "3": {
+      "risk_description": "视频显示一个人走在蹦床附近，若意外绊倒或失足，可能会造成跌倒风险，尤其是对于平衡感或对周围环境感知较弱的儿童。",
+      "normal_video_description": "",
+      "solution_for_person": "确保该人在监督下并留意周围环境，以防止意外跌倒。",
+      "solution_for_hazard_source": "在蹦床周围安装额外的安全网或防护栏，以防止跌落。",
+      "solution_to_prevent_recurrence": "定期检查蹦床区域是否存在危险，并确保始终在监督下使用。"
+    },
+    "4": {
+      "risk_description": "该人在狭窄的檐口上行走，一旦失去平衡可能导致跌落。该檐口似乎是阳台或类似结构的一部分。",
+      "normal_video_description": "",
+      "solution_for_person": "确保该人穿具有良好抓地力的合适鞋子，并在狭窄檐口行走时考虑使用扶手提供支撑。",
+      "solution_for_hazard_source": "沿檐口安装护栏或防护栏，以防止跌落。",
+      "solution_to_prevent_recurrence": "定期检查并维护檐口的结构完整性，确保其能够承受行走其上的人员重量。"
+    }
+  }
+}

@@ -1,0 +1,40 @@
+{
+  "video_key": "toyota_smarthome_mp4/mp4/Cook.Cleandishes_p16_r11_v12_c07",
+  "translations": {
+    "0": {
+      "risk_description": "",
+      "normal_video_description": "视频展示了一间厨房，配备炉灶和台面。没有可见的人或物体表明任何风险或异常。",
+      "solution_for_person": "",
+      "solution_for_hazard_source": "",
+      "solution_to_prevent_recurrence": ""
+    },
+    "1": {
+      "risk_description": "",
+      "normal_video_description": "视频展示了一个厨房区域，配备感应灶具、一扇白色门以及部分起居空间，有窗帘和家具。没有可见的人或动作构成直接风险。",
+      "solution_for_person": "",
+      "solution_for_hazard_source": "",
+      "solution_to_prevent_recurrence": ""
+    },
+    "2": {
+      "risk_description": "",
+      "normal_video_description": "视频展示了一个现代化厨房，配备不锈钢台面和黑色感应灶。场景中看不到任何活动、动作或人物，环境看起来安全且未受干扰。",
+      "solution_for_person": "",
+      "solution_for_hazard_source": "",
+      "solution_to_prevent_recurrence": ""
+    },
+    "3": {
+      "risk_description": "",
+      "normal_video_description": "视频展示了一间配有炉灶、橱柜和一扇关闭的门的厨房。没有可见的动作或移动，环境看起来安全且静止。",
+      "solution_for_person": "",
+      "solution_for_hazard_source": "",
+      "solution_to_prevent_recurrence": ""
+    },
+    "4": {
+      "risk_description": "",
+      "normal_video_description": "视频展示了一间空荡荡的厨房，没有可见的动作或潜在危险。",
+      "solution_for_person": "",
+      "solution_for_hazard_source": "",
+      "solution_to_prevent_recurrence": ""
+    }
+  }
+}

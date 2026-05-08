@@ -1,0 +1,40 @@
+{
+  "video_key": "toyota_smarthome_mp4/mp4/Cook.Cleanup_p07_r10_v20_c06",
+  "translations": {
+    "0": {
+      "risk_description": "视频中的人正在伸手去够高架子上的东西，如果失去平衡可能会导致跌倒或不稳定。",
+      "normal_video_description": "视频中的人在厨房里准备食物，伸手去够高架子上的东西。",
+      "solution_for_person": "如果需要够高架子上的东西，应该使用脚凳或请求帮助。",
+      "solution_for_hazard_source": "厨房应该有适当的存储解决方案，以避免需要伸手去够高架子。",
+      "solution_to_prevent_recurrence": "应该提醒人们在伸手去够高架子上的东西时采取适当的安全措施，以防止跌倒和不稳定。"
+    },
+    "1": {
+      "risk_description": "这个人坐在厨房岛台上，这不是稳定的或设计用作座位的区域，增加了跌倒的风险。",
+      "normal_video_description": "一个人坐在厨房岛台上，然后站起来。",
+      "solution_for_person": "离开厨房岛台，使用合适的座位。",
+      "solution_for_hazard_source": "确保厨房岛台不被用作座位区域。",
+      "solution_to_prevent_recurrence": "指定远离厨房岛台的安全座位区域。"
+    },
+    "2": {
+      "risk_description": "",
+      "normal_video_description": "一位老年人站在厨房岛台旁，正在用碗搅拌东西。人在烹饪时移动手臂和身体，但动作幅度有限，没有危险或不稳定。",
+      "solution_for_person": "",
+      "solution_for_hazard_source": "",
+      "solution_to_prevent_recurrence": ""
+    },
+    "3": {
+      "risk_description": "这个人伸手去够咖啡研磨机，如果意外打翻或溅出热内容物，可能会造成烫伤或其他伤害。",
+      "normal_video_description": "一个人在现代厨房里准备咖啡，伸手去够咖啡研磨机，并与台面上的物品互动。",
+      "solution_for_person": "在处理咖啡研磨机之前，确保其稳定并已冷却，小心不要打翻物品。",
+      "solution_for_hazard_source": "为咖啡研磨机使用稳定的表面，确保它不放在台面边缘附近。",
+      "solution_to_prevent_recurrence": "将咖啡研磨机放在远离边缘的地方，确保其固定妥当，以防止意外溢出或倾倒。"
+    },
+    "4": {
+      "risk_description": "",
+      "normal_video_description": "视频显示一名穿着彩色衬衫的年轻人站在厨房台面前，伸手去够一个物品。厨房是现代风格，有一个大的岛台，背景中有一台电视。这个场景中没有可见的风险或危险。",
+      "solution_for_person": "",
+      "solution_for_hazard_source": "",
+      "solution_to_prevent_recurrence": ""
+    }
+  }
+}

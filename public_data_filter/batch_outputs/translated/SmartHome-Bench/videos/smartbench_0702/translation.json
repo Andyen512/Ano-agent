@@ -1,0 +1,40 @@
+{
+  "video_key": "SmartHome-Bench/videos/smartbench_0702",
+  "translations": {
+    "0": {
+      "risk_description": "",
+      "normal_video_description": "视频显示一只狗从车上下到院子里，这是一个正常的行为。",
+      "solution_for_person": "",
+      "solution_for_hazard_source": "",
+      "solution_to_prevent_recurrence": ""
+    },
+    "1": {
+      "risk_description": "一只黑熊在一辆车里，驾驶座门开着。熊从车里出来走开了。在住宅区出现野生动物存在碰撞或挤压伤害的风险，如果熊重新进入汽车或与人们意外互动的话。",
+      "normal_video_description": "看到一只黑熊在住宅区的车道上进出停放的汽车。",
+      "solution_for_person": "在有野生动物存在的地区，确保无人看管时所有车门都关闭并锁好。",
+      "solution_for_hazard_source": "锁好车门，移除任何可能吸引野生动物靠近车辆的诱饵（如食物、垃圾）。",
+      "solution_to_prevent_recurrence": "在物业周围安装动作感应灯或警报器以威慑野生动物；教育邻居正确的野生动物安全措施。"
+    },
+    "2": {
+      "risk_description": "一只黑熊进入住宅区的车道，靠近一辆开着门的停放车辆，对车内任何人员直接造成碰撞或伤害的威胁。动物出现在人类居住空间中构成了明确的安全隐患。",
+      "normal_video_description": "",
+      "solution_for_person": "立即从车辆中撤离并确保安全区域，防止动物进入房屋。",
+      "solution_for_hazard_source": "联系当地野生动物管理部门进行安全清除动物。",
+      "solution_to_prevent_recurrence": "妥善处理垃圾和食物来源，避免吸引野生动物进入住宅区。"
+    },
+    "3": {
+      "risk_description": "大型动物从车辆中出现在住宅区，如果无人看管，可能对宠物或儿童造成碰撞或挤压伤害。",
+      "normal_video_description": "",
+      "solution_for_person": "当大型动物靠近或从车辆中出来时，确保宠物或儿童有人看管。",
+      "solution_for_hazard_source": "锁好车门，防止意外离开。",
+      "solution_to_prevent_recurrence": "安装运动传感器或警报器，在车门意外打开时发出警报。"
+    },
+    "4": {
+      "risk_description": "",
+      "normal_video_description": "视频显示一个年轻人在车道上打开一辆停放的车的门，旁边有一只黑狗在走动。场景中没有明显的风险或危险。",
+      "solution_for_person": "",
+      "solution_for_hazard_source": "",
+      "solution_to_prevent_recurrence": ""
+    }
+  }
+}

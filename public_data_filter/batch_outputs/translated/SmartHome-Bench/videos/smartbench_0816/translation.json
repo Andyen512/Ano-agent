@@ -1,0 +1,40 @@
+{
+  "video_key": "SmartHome-Bench/videos/smartbench_0816",
+  "translations": {
+    "0": {
+      "risk_description": "",
+      "normal_video_description": "视频显示一个车库里并排停着两辆白色SUV，后面停着一辆蓝色汽车，一只棕色猫在右侧SUV的车顶上行走。场景是静止的，没有可见的风险或异常。",
+      "solution_for_person": "",
+      "solution_for_hazard_source": "",
+      "solution_to_prevent_recurrence": ""
+    },
+    "1": {
+      "risk_description": "一只大型野生动物，可能是美洲狮，正在住宅车道的车辆车顶上行走，存在跌倒导致伤害或损害的风险。",
+      "normal_video_description": "夜间可以看到一只美洲狮在住宅车道的车辆车顶上行走。",
+      "solution_for_person": "",
+      "solution_for_hazard_source": "",
+      "solution_to_prevent_recurrence": ""
+    },
+    "2": {
+      "risk_description": "一只大型野生动物正在住宅车道中停放的车辆车顶上行走，存在跌落到车辆或附近人员上的潜在风险。",
+      "normal_video_description": "夜间可以看到一只大型野生动物在住宅车道中停放的白色皮卡车车顶上行走。动物在车顶移动后跳到地面，消失在视野中。",
+      "solution_for_person": "",
+      "solution_for_hazard_source": "",
+      "solution_to_prevent_recurrence": ""
+    },
+    "3": {
+      "risk_description": "狗站在车辆车顶上，如果失去平衡就有跌倒的风险，尤其是对判断力或保持稳定能力不佳的宠物而言。",
+      "normal_video_description": "",
+      "solution_for_person": "确保宠物在高处时得到安全固定或监督。",
+      "solution_for_hazard_source": "提供一个稳定的平台或阻止宠物进入高处表面。",
+      "solution_to_prevent_recurrence": "使用宠物护栏或防护网阻止宠物进入车辆车顶。"
+    },
+    "4": {
+      "risk_description": "",
+      "normal_video_description": "视频显示一个静止场景，一辆白色汽车和一辆白色SUV停在车库里，狗站在SUV的车顶上。没有明显的风险或动作发生。",
+      "solution_for_person": "",
+      "solution_for_hazard_source": "",
+      "solution_to_prevent_recurrence": ""
+    }
+  }
+}

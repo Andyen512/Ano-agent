@@ -1,0 +1,40 @@
+{
+  "video_key": "UR_Fall_Dataset/adl-38-cam0",
+  "translations": {
+    "0": {
+      "risk_description": "可以看到这位年轻人弯腰并伸手向地面，如果他们失去平衡或脚滑，可能会导致跌倒或不稳定。",
+      "normal_video_description": "",
+      "solution_for_person": "确保这位年轻人了解周围环境，并拥有畅通无阻的移动路径。鼓励他们在弯腰或伸手向地面时保持谨慎。",
+      "solution_for_hazard_source": "清除地面上的潜在危险或障碍物，如电线或杂物，以防止跌倒。",
+      "solution_to_prevent_recurrence": "鼓励这位年轻人注意自己的动作，并在执行可能存在跌倒或不稳定风险的任务时请求帮助。定期检查房间是否有潜在危险并及时处理。"
+    },
+    "1": {
+      "risk_description": "此人弯腰坐在地板上，这可能导致跌倒或起身困难，特别是如果他们失去平衡或无法快速站立。",
+      "normal_video_description": "一个人进入卧室，弯腰并背对摄像机坐在地板上。",
+      "solution_for_person": "确保此人意识到跌倒的风险，并在需要时有邻近的帮助。",
+      "solution_for_hazard_source": "",
+      "solution_to_prevent_recurrence": "鼓励此人坐在更安全的位置，如床或椅子上，并避免在地板上突然动作。"
+    },
+    "2": {
+      "risk_description": "",
+      "normal_video_description": "一位年轻人进入卧室，走到房间中央并躺在地板上。动作平静，看起来是正常的日常活动，没有危险或不稳定的迹象。",
+      "solution_for_person": "",
+      "solution_for_hazard_source": "",
+      "solution_to_prevent_recurrence": ""
+    },
+    "3": {
+      "risk_description": "此人在门附近弯腰，这可能导致跌倒或受伤，尤其是对行动不便或平衡有问题的人。",
+      "normal_video_description": "",
+      "solution_for_person": "确保此人在弯腰时有支撑或使用稳固的家具。",
+      "solution_for_hazard_source": "清除地面附近的障碍物，防止绊倒或跌倒。",
+      "solution_to_prevent_recurrence": "在门附近放置防滑垫，并确保该区域没有危险物品。"
+    },
+    "4": {
+      "risk_description": "",
+      "normal_video_description": "视频显示房间的分屏画面，左侧为黑白热成像，右侧为彩色。一个人从屏幕右侧的门进入房间并走向床。",
+      "solution_for_person": "",
+      "solution_for_hazard_source": "",
+      "solution_to_prevent_recurrence": ""
+    }
+  }
+}

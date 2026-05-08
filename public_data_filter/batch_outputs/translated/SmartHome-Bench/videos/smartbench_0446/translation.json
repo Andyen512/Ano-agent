@@ -1,0 +1,40 @@
+{
+  "video_key": "SmartHome-Bench/videos/smartbench_0446",
+  "translations": {
+    "0": {
+      "risk_description": "",
+      "normal_video_description": "一个穿黄色衬衫的孩子站在门口附近，而一个穿着蓝色连帽衫、戴帽子的成人正弯腰，可能在与孩子互动。背景是一条住宅街道，路边停着汽车，草坪养护得很好。",
+      "solution_for_person": "",
+      "solution_for_hazard_source": "",
+      "solution_to_prevent_recurrence": ""
+    },
+    "1": {
+      "risk_description": "孩子站在门廊边缘，如果失去平衡或被轻推，可能会摔倒。",
+      "normal_video_description": "一个穿黄色衬衫的孩子站在门廊边缘附近，而一个成人正蹲在旁边。",
+      "solution_for_person": "确保对孩子进行严密看护，并使其远离门廊边缘。",
+      "solution_for_hazard_source": "",
+      "solution_to_prevent_recurrence": "在门廊边缘安装护栏或门以防止进入。"
+    },
+    "2": {
+      "risk_description": "",
+      "normal_video_description": "一个穿黄色衬衫的幼儿站在石制门廊上，旁边是一个穿蓝色连帽衫的男子。孩子在门框附近活泼地走动，男子蹲在旁边，画面呈现一种平静的日常互动，没有任何危险或不稳定的迹象。",
+      "solution_for_person": "",
+      "solution_for_hazard_source": "",
+      "solution_to_prevent_recurrence": ""
+    },
+    "3": {
+      "risk_description": "孩子站在阳台边缘，有跌落的危险。成人就在旁边，但孩子有可能挣脱他们的掌控。",
+      "normal_video_description": "",
+      "solution_for_person": "成人应确保对孩子进行安全看护，并始终使其远离阳台边缘。",
+      "solution_for_hazard_source": "在阳台边缘安装安全门或栏杆，以防止跌落。",
+      "solution_to_prevent_recurrence": "在靠近高出或危险表面的地方，一定要监督幼儿，并安装安全护栏以防止进入。"
+    },
+    "4": {
+      "risk_description": "孩子有从门廊坠落的危险，可能导致严重伤害。成人采取防止孩子坠落的措施对于确保安全是必要的。",
+      "normal_video_description": "",
+      "solution_for_person": "确保孩子被安全抱住或受到监督，以防止跌落。",
+      "solution_for_hazard_source": "",
+      "solution_to_prevent_recurrence": "当孩子在门廊边缘附近时，提供适当的监督与支撑。"
+    }
+  }
+}

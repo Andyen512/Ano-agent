@@ -1,0 +1,40 @@
+{
+  "video_key": "web_h264/dailymotion__x52fyk1",
+  "translations": {
+    "0": {
+      "risk_description": "由于该人爬进婴儿床后离开，导致儿童无人看管，存在从婴儿床掉落的风险。",
+      "normal_video_description": "该人在婴儿床里照顾孩子，确保孩子安全且稳固。",
+      "solution_for_person": "该人不应爬进婴儿床，离开前应确保孩子已安全固定在婴儿床内。",
+      "solution_for_hazard_source": "",
+      "solution_to_prevent_recurrence": "该人应始终确保孩子已安全固定在婴儿床中，且不爬进去，以防止跌倒和受伤。"
+    },
+    "1": {
+      "risk_description": "该人站在小凳子上够婴儿床，增加了失去平衡跌倒的风险，可能导致受伤。",
+      "normal_video_description": "一个人在婴儿床旁使用小凳子与婴儿互动。",
+      "solution_for_person": "避免站在家具上取东西，尤其在光线昏暗、深度感知可能受损的环境中。",
+      "solution_for_hazard_source": "确保凳子稳固，并考虑使用梯子而不是小凳子来增高。",
+      "solution_to_prevent_recurrence": "在婴儿床附近安装扶手杆，并确保房间光线充足。"
+    },
+    "2": {
+      "risk_description": "",
+      "normal_video_description": "一个穿白色睡衣的人站在婴儿床旁的小凳子上，俯身查看里面的婴儿，然后自己爬进婴儿床。随后他爬出婴儿床再次站在凳子上。",
+      "solution_for_person": "",
+      "solution_for_hazard_source": "",
+      "solution_to_prevent_recurrence": ""
+    },
+    "3": {
+      "risk_description": "孩子爬上婴儿床，如果试图爬出或婴儿床不稳，则有跌倒风险。",
+      "normal_video_description": "",
+      "solution_for_person": "确保婴儿床稳固安全，孩子在婴儿床内或附近时必须始终监督。",
+      "solution_for_hazard_source": "在婴儿床台阶顶部安装安全门，并确保婴儿床符合安全标准。",
+      "solution_to_prevent_recurrence": "使用台阶较低或有侧护栏的婴儿床以防止攀爬，并定期检查婴儿床的稳定性。"
+    },
+    "4": {
+      "risk_description": "孩子在婴儿床上攀爬，若失去平衡可能导致跌倒，这是一种潜在的伤害风险。",
+      "normal_video_description": "",
+      "solution_for_person": "确保孩子在婴儿床附近时有人监督，不应让其无人看管。",
+      "solution_for_hazard_source": "移除孩子可以用来攀爬婴儿床或在其周围攀爬的任何物品。",
+      "solution_to_prevent_recurrence": "将婴儿床固定在墙上，以防倾倒。"
+    }
+  }
+}

@@ -1,0 +1,40 @@
+{
+  "video_key": "SmartHome-Bench/videos/smartbench_0908",
+  "translations": {
+    "0": {
+      "risk_description": "视频显示两名年轻人在院子里发生肢体冲突，这是一种人际冲突的风险。",
+      "normal_video_description": "视频显示两名年轻人在院子里行走，一人穿着连帽衫，另一人穿着夹克。冲突发生前，他们似乎在进行对话。",
+      "solution_for_person": "卷入冲突的人员应向看护者或权威人士寻求帮助，以和平方式解决冲突。",
+      "solution_for_hazard_source": "应对环境进行监控，排查可能导致冲突的潜在危险，例如湿滑地面或可用作武器的物品。",
+      "solution_to_prevent_recurrence": "应鼓励涉事人员有效沟通，以和平方式解决冲突。定期进行冲突解决培训也可能有所帮助。"
+    },
+    "1": {
+      "risk_description": "两名人员陷入肢体对抗，其中一人追逐另一人，双方均表现出攻击性行为。这可能升级为身体伤害或受伤。",
+      "normal_video_description": "在车道区域看到两人，其中一人在追逐另一人，双方均表现出攻击性行为，导致肢体冲突。",
+      "solution_for_person": "涉事人员应立即分开并缓和局势，以防止进一步的攻击或身体伤害。",
+      "solution_for_hazard_source": "",
+      "solution_to_prevent_recurrence": "在公共区域安装监控摄像头，以监测潜在冲突，并确保执法部门或家庭成员能及时介入。"
+    },
+    "2": {
+      "risk_description": "两名戴口罩和连帽衫的人靠近房屋，表现出攻击性行为，包括敲门和大声威胁，这是一种明确的安全威胁，可能导致人身危险。",
+      "normal_video_description": "",
+      "solution_for_person": "屋内人员应立即报警并锁好所有门窗以确保安全。",
+      "solution_for_hazard_source": "涉事人员应由执法部门识别并处理。",
+      "solution_to_prevent_recurrence": "安装额外的安保措施，如摄像头、报警器和更好的照明，以阻止未来的入侵。"
+    },
+    "3": {
+      "risk_description": "视频显示两名人员在阳台上进行肢体冲突，这可能升级为危险局面，尤其是当其中一人行动不便或是弱势成年人时。",
+      "normal_video_description": "",
+      "solution_for_person": "确保涉事人员采用冲突解决策略或寻求调解，以避免肢体冲突。",
+      "solution_for_hazard_source": "安装安全的屏障或门，以在冲突期间阻止进入阳台。",
+      "solution_to_prevent_recurrence": "开展冲突解决培训，并确保在潜在冲突期间对阳台区域进行监控或监督。"
+    },
+    "4": {
+      "risk_description": "",
+      "normal_video_description": "视频显示一名年轻人在院子里行走，投掷一个物体后离开。画面中没有可见的风险或危险。",
+      "solution_for_person": "",
+      "solution_for_hazard_source": "",
+      "solution_to_prevent_recurrence": ""
+    }
+  }
+}

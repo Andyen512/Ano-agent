@@ -1,0 +1,40 @@
+{
+  "video_key": "toyota_smarthome_mp4/mp4/Cook.Usestove_p10_r03_v12_c03",
+  "translations": {
+    "0": {
+      "risk_description": "老年人站在椅子或凳子上够到厨房橱柜的顶部，这是一种潜在的跌倒危险。该人可能失去平衡而跌倒，导致受伤。",
+      "normal_video_description": "",
+      "solution_for_person": "请让护理人员或家庭成员帮助老年人够取橱柜顶部的物品。或者，考虑安装扶手或带有更高平台的脚凳，以便老年人安全站立。",
+      "solution_for_hazard_source": "安装扶手或带有更高平台的脚凳，以减少老年人站在椅子或凳子上的需要。",
+      "solution_to_prevent_recurrence": "定期检查厨房区域是否存在潜在的跌倒危险，并采取措施加以解决。鼓励老年人在需要时请求帮助，并使用适当的设备安全地够取高处。"
+    },
+    "1": {
+      "risk_description": "该人正在使用烤箱，如果烤箱很热或该人对热物品不够小心，可能会导致烫伤风险。",
+      "normal_video_description": "一位老年人站在厨房里，正在使用烤箱。柜台上可见各种厨房用品。",
+      "solution_for_person": "在打开烤箱门之前确保烤箱不热，处理热物品时使用隔热手套。",
+      "solution_for_hazard_source": "确保烤箱维护得当，安全功能正常运作。",
+      "solution_to_prevent_recurrence": "定期检查烤箱安全并教育正确使用烤箱的方法。"
+    },
+    "2": {
+      "risk_description": "",
+      "normal_video_description": "一位老年人站在厨房里，正在使用嵌入式烤箱，似乎在检查或调节内部的东西。环境整洁，个人动作平静而受控，没有表现出不稳定或危险的迹象。",
+      "solution_for_person": "",
+      "solution_for_hazard_source": "",
+      "solution_to_prevent_recurrence": ""
+    },
+    "3": {
+      "risk_description": "老年人正把手伸入烤箱，这可能会导致烫伤或接触高温表面的风险。",
+      "normal_video_description": "",
+      "solution_for_person": "在打开烤箱前确保其完全冷却，并考虑使用隔热手套保护双手。",
+      "solution_for_hazard_source": "安装防烫式烤箱把手，或使用计时器提醒在烹饪后检查烤箱。",
+      "solution_to_prevent_recurrence": "使用计时器确保烤箱在打开前降温，并随手准备隔热手套以提供保护。"
+    },
+    "4": {
+      "risk_description": "该人正在烤箱附近使用手持设备，如果设备绝缘不良或烤箱电气系统出现故障，可能会导致电击风险。",
+      "normal_video_description": "一位老年人站在现代厨房里，正在使用烤箱。",
+      "solution_for_person": "确保使用的手持设备绝缘良好，且在烤箱附近使用是安全的。使用设备时与烤箱保持安全距离。",
+      "solution_for_hazard_source": "",
+      "solution_to_prevent_recurrence": "定期检查烤箱及其电气部件，确保其正常、安全运行。使用电气设备时，只使用经过批准且安全的设备。"
+    }
+  }
+}

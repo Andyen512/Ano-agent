@@ -1,0 +1,40 @@
+{
+  "video_key": "SmartHome-Bench/videos/smartbench_0169",
+  "translations": {
+    "0": {
+      "risk_description": "视频显示一群年轻人在院子里发生肢体冲突，这存在人际冲突的风险。",
+      "normal_video_description": "视频显示一群年轻人在停有汽车的院子里走动，这是一种正常活动。",
+      "solution_for_person": "参与冲突的人应该向相关部门或调解人寻求帮助，和平解决冲突。",
+      "solution_for_hazard_source": "应该对现场环境进行监控，排查可能导致冲突的潜在危险因素，如酒精或武器。",
+      "solution_to_prevent_recurrence": "应该对涉事人员进行冲突解决方面的教育，鼓励他们在诉诸暴力之前寻求帮助。"
+    },
+    "1": {
+      "risk_description": "",
+      "normal_video_description": "视频显示人们在夜间停放的汽车之间昏暗的区域内行走，随后在车道上出现类似的场景，有汽车和人来回走动。",
+      "solution_for_person": "",
+      "solution_for_hazard_source": "",
+      "solution_to_prevent_recurrence": ""
+    },
+    "2": {
+      "risk_description": "夜间车道上可以看到多人一起行走，其中一人走向一辆停放的汽车。他们的协调行动和聚集行为表明这可能是可疑活动或冲突，而非正常日常行为。",
+      "normal_video_description": "",
+      "solution_for_person": "密切监控情况，如可疑行为持续，应考虑联系相关部门。",
+      "solution_for_hazard_source": "确保该区域有适当的照明和监控设备，以遏制潜在的犯罪活动。",
+      "solution_to_prevent_recurrence": "安装额外的安全措施，如运动感应灯或报警器。"
+    },
+    "3": {
+      "risk_description": "视频显示一个人在两辆停放的汽车之间行走，如果他们绊倒或跌倒，可能会造成碰撞或挤压伤害，尤其在夜间能见度有限的情况下。",
+      "normal_video_description": "",
+      "solution_for_person": "人们应该保持警惕并注意周围环境，尤其是在光线昏暗的条件下。",
+      "solution_for_hazard_source": "确保车道有良好的照明以提高能见度。",
+      "solution_to_prevent_recurrence": "在车道上安装额外的照明设备以提高夜间的能见度。"
+    },
+    "4": {
+      "risk_description": "",
+      "normal_video_description": "视频显示夜间停车场场景，两个人正远离镜头行走，经过停放的汽车。场景中没有显示任何风险或潜在危险。",
+      "solution_for_person": "",
+      "solution_for_hazard_source": "",
+      "solution_to_prevent_recurrence": ""
+    }
+  }
+}

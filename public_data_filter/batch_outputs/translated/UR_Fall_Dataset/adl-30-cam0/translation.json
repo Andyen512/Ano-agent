@@ -1,0 +1,40 @@
+{
+  "video_key": "UR_Fall_Dataset/adl-30-cam0",
+  "translations": {
+    "0": {
+      "risk_description": "年轻人弯腰伸手够地板,可能会因失去平衡或站稳而摔倒或不稳定。",
+      "normal_video_description": "",
+      "solution_for_person": "确保年轻人在尝试够地板上的东西之前,了解周围环境并站稳。",
+      "solution_for_hazard_source": "移除地板上的绊倒危险物或障碍物以降低摔倒风险。",
+      "solution_to_prevent_recurrence": "鼓励年轻人在需要帮助够或捡起地板上的物品时请求帮助。"
+    },
+    "1": {
+      "risk_description": "这个人弯腰躺在地板上,可能会导致摔倒或起身困难,尤其是当他们失去平衡或姿势别扭时。",
+      "normal_video_description": "一个人进入卧室,弯腰躺在地毯附近的地板上。",
+      "solution_for_person": "这个人应该避免直接躺在地板上,而是坐在床边或使用附近的家具支撑起身。",
+      "solution_for_hazard_source": "",
+      "solution_to_prevent_recurrence": "确保这个人了解弯腰或躺在地板上的摔倒风险,并鼓励他们使用家具支撑。"
+    },
+    "2": {
+      "risk_description": "",
+      "normal_video_description": "一个年轻人进入卧室,走到房间中央,跪在地毯上。这个动作看起来是正常的日常活动,没有危险或不稳定的迹象。",
+      "solution_for_person": "",
+      "solution_for_hazard_source": "",
+      "solution_to_prevent_recurrence": ""
+    },
+    "3": {
+      "risk_description": "这个人在进入房间时摔倒在地上,这可能会造成伤害风险,尤其是对于行动不便或平衡有问题的人。",
+      "normal_video_description": "",
+      "solution_for_person": "确保这个人在进出房间时抓住稳定的物体支撑以防止摔倒。",
+      "solution_for_hazard_source": "移除地板上的绊倒危险物(如电缆),以创造更安全的环境。",
+      "solution_to_prevent_recurrence": "在门口安装扶手或改善照明,以帮助防止未来摔倒。"
+    },
+    "4": {
+      "risk_description": "视频中这个人走路不稳,最终摔倒在地上,这可能导致严重伤害。这种行为存在摔倒/不稳定的风险。",
+      "normal_video_description": "",
+      "solution_for_person": "确保这个人在尝试在房间内走动之前站稳且能够行走。",
+      "solution_for_hazard_source": "",
+      "solution_to_prevent_recurrence": "为这个人提供支持或帮助,帮助他们在房间内移动时保持平衡。"
+    }
+  }
+}

@@ -1,0 +1,40 @@
+{
+  "video_key": "web_h264/douyin__7569073381283936138",
+  "translations": {
+    "0": {
+      "risk_description": "视频中的人跑着跳上阳台，这可能导致跌倒或不稳定。狗也在四处跑动，可能会增加绊倒或跌倒的风险。",
+      "normal_video_description": "",
+      "solution_for_person": "在阳台上走动时应更加小心，尤其是在狗四处跑动的时候。还应考虑使用扶手或其他支撑来帮助保持平衡。",
+      "solution_for_hazard_source": "应将狗用牵引绳拴住或控制在一定区域内，防止它四处跑动而增加绊倒或跌倒的风险。",
+      "solution_to_prevent_recurrence": "在阳台上活动时应更加注意，狗应该被控制好，以防止将来发生类似的事件。"
+    },
+    "1": {
+      "risk_description": "洗衣机漏电，对靠近的老年人构成电击风险。",
+      "normal_video_description": "一只狗在洗衣机旁持续吠叫，促使老年人去查看，结果发现洗衣机正在漏电。",
+      "solution_for_person": "老年人在确认安全之前，应避免触碰或过于靠近洗衣机。",
+      "solution_for_hazard_source": "应立即拔掉洗衣机电源插头，并请专业人员检查以修复漏电问题。",
+      "solution_to_prevent_recurrence": "确保所有电器定期检查安全性，并远离水源。"
+    },
+    "2": {
+      "risk_description": "视频显示一只狗对着洗衣机持续吠叫，随后确认洗衣机存在漏电问题。这对附近的老年人和狗都构成了直接的电气安全威胁。",
+      "normal_video_description": "",
+      "solution_for_person": "应立即停止使用该电器，如果可能的话拔掉电源插头，并关闭断路器以切断电源。",
+      "solution_for_hazard_source": "洗衣机应由合格的技师进行检查，修复电气故障并防止未来漏电。",
+      "solution_to_prevent_recurrence": "为户外电器安装漏电保护器(GFCI)，并确保定期维护电气设备。"
+    },
+    "3": {
+      "risk_description": "狗正在提醒老年人注意洗衣机的潜在电气危险，如果不及时处理可能会造成风险。",
+      "normal_video_description": "",
+      "solution_for_person": "老年人应保持警惕，并通过关闭电源来立即处理电气问题。",
+      "solution_for_hazard_source": "确保洗衣机得到适当的维护，并定期检查电气问题。",
+      "solution_to_prevent_recurrence": "定期检查和维护电气设备，以防止未来可能出现的危险。"
+    },
+    "4": {
+      "risk_description": "老年人因台阶表面不稳定而面临跌倒风险，可能导致严重伤害。",
+      "normal_video_description": "",
+      "solution_for_person": "确保老年人在下台阶时小心谨慎，并考虑使用扶手或他人的帮助。",
+      "solution_for_hazard_source": "用防滑材料固定台阶或安装扶手，以防止滑倒。",
+      "solution_to_prevent_recurrence": "定期检查和维护户外建筑结构，以确保其稳定性和安全性。"
+    }
+  }
+}

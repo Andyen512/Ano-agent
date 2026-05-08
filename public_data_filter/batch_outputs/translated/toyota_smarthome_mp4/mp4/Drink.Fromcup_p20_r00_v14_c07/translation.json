@@ -1,0 +1,40 @@
+{
+  "video_key": "toyota_smarthome_mp4/mp4/Drink.Fromcup_p20_r00_v14_c07",
+  "translations": {
+    "0": {
+      "risk_description": "",
+      "normal_video_description": "一个人手里拿着杯子站在厨房里。他正低头看着杯子，似乎准备喝。厨房灯光充足，看起来干净整洁。",
+      "solution_for_person": "",
+      "solution_for_hazard_source": "",
+      "solution_to_prevent_recurrence": ""
+    },
+    "1": {
+      "risk_description": "该人将小杯子靠近嘴边，如果杯子里有不安全的东西，可能会导致误食有害物质。",
+      "normal_video_description": "一位老年人正站在厨房里，手里拿着小杯子靠近嘴边。",
+      "solution_for_person": "在饮用之前，确保杯子里的内容是已知且安全的。",
+      "solution_for_hazard_source": "使用前检查杯子里的内容。",
+      "solution_to_prevent_recurrence": "将潜在危险物质放在够不到的地方或明确标注。"
+    },
+    "2": {
+      "risk_description": "",
+      "normal_video_description": "一位老年人站在厨房里，手里拿着两个小杯子，似乎在喝其中一个。此场景展示的是正常的日常活动，没有可见的危险或危险行为。",
+      "solution_for_person": "",
+      "solution_for_hazard_source": "",
+      "solution_to_prevent_recurrence": ""
+    },
+    "3": {
+      "risk_description": "该人把杯子靠近电源插座，如果杯子是导电的或弄湿，可能会造成触电风险。",
+      "normal_video_description": "",
+      "solution_for_person": "确保杯子是非导电的，并远离电源插座，以防止触电风险。",
+      "solution_for_hazard_source": "不使用时，用保护盖盖住电源插座。",
+      "solution_to_prevent_recurrence": "使用非导电杯子，并且不使用时始终盖好电源插座。"
+    },
+    "4": {
+      "risk_description": "孩子手里拿着一个红色物体，可能是锋利的工具或餐具，如果使用不当会造成伤害。孩子的位置靠近炉子且可能移动，这增加了风险。",
+      "normal_video_description": "",
+      "solution_for_person": "确保孩子有监护，并远离炉子和任何锋利物体。",
+      "solution_for_hazard_source": "将锋利物品从孩子能够触及的地方移除。",
+      "solution_to_prevent_recurrence": "将锋利物品存放在孩子够不到的安全位置。"
+    }
+  }
+}

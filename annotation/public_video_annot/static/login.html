@@ -1,0 +1,71 @@
+<!doctype html>
+<html lang="zh-CN">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>LifeBench 标注 - 登录</title>
+    <style>
+      * { box-sizing: border-box; margin: 0; padding: 0; }
+      body { font-family: Arial, "Microsoft YaHei", sans-serif; background: #f6f7f9; display: flex; justify-content: center; align-items: center; min-height: 100vh; }
+      .login-card { background: #fff; padding: 40px; border-radius: 12px; box-shadow: 0 2px 12px rgba(0,0,0,0.08); width: 100%; max-width: 360px; }
+      h1 { font-size: 22px; color: #1f2933; margin-bottom: 8px; text-align: center; }
+      p.subtitle { font-size: 13px; color: #64748b; text-align: center; margin-bottom: 24px; }
+      label { display: block; font-size: 13px; color: #475569; margin-bottom: 6px; }
+      input { width: 100%; padding: 10px 12px; border: 1px solid #cbd5e1; border-radius: 6px; font-size: 14px; margin-bottom: 16px; }
+      input:focus { outline: none; border-color: #0f766e; }
+      button { width: 100%; padding: 10px; background: #0f766e; color: #fff; border: none; border-radius: 6px; font-size: 14px; cursor: pointer; }
+      button:hover { background: #0d6560; }
+      button:disabled { opacity: 0.6; cursor: not-allowed; }
+      .error { color: #dc2626; font-size: 13px; text-align: center; margin-bottom: 12px; display: none; }
+    </style>
+  </head>
+  <body>
+    <div class="login-card">
+      <h1>LifeBench 标注</h1>
+      <p class="subtitle">请登录以继续</p>
+      <div id="error" class="error"></div>
+      <form id="login-form">
+        <label for="username">用户名</label>
+        <input type="text" id="username" name="username" autocomplete="username" autofocus />
+        <label for="password">密码</label>
+        <input type="password" id="password" name="password" autocomplete="current-password" />
+        <button type="submit" id="btn">登录</button>
+      </form>
+    </div>
+    <script>
+      const form = document.getElementById("login-form");
+      const errorEl = document.getElementById("error");
+      const btn = document.getElementById("btn");
+
+      form.addEventListener("submit", async (e) => {
+        e.preventDefault();
+        errorEl.style.display = "none";
+        btn.disabled = true;
+        btn.textContent = "登录中...";
+        try {
+          const res = await fetch("/api/login", {
+            method: "POST",
+            headers: { "Content-Type": "application/json" },
+            body: JSON.stringify({
+              username: document.getElementById("username").value.trim(),
+              password: document.getElementById("password").value,
+            }),
+          });
+          const data = await res.json();
+          if (res.ok) {
+            window.location.href = "/";
+          } else {
+            errorEl.textContent = data.error || "登录失败";
+            errorEl.style.display = "block";
+          }
+        } catch (err) {
+          errorEl.textContent = "网络错误";
+          errorEl.style.display = "block";
+        } finally {
+          btn.disabled = false;
+          btn.textContent = "登录";
+        }
+      });
+    </script>
+  </body>
+</html>

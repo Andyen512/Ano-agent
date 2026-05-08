@@ -1,0 +1,40 @@
+{
+  "video_key": "SmartHome-Bench/videos/smartbench_0863",
+  "translations": {
+    "0": {
+      "risk_description": "视频显示一名年轻人站在一块狭窄的木板上，木板不稳定，很容易翻倒，导致这个人摔倒。这个人对木板的抓握也不牢固，增加了摔倒的风险。",
+      "normal_video_description": "视频显示一名年轻人站在一块狭窄的木板上，木板不稳定，很容易翻倒，导致这个人摔倒。这个人对木板的抓握也不牢固，增加了摔倒的风险。",
+      "solution_for_person": "应建议此人站在稳定的表面上，并使用适当的安全设备，如安全带或安全网，以防止摔倒。",
+      "solution_for_hazard_source": "应该移除木板或将其更换为稳定安全的表面。",
+      "solution_to_prevent_recurrence": "应该对此人进行适当安全程序和安全设备使用的培训，以防止未来发生坠落。"
+    },
+    "1": {
+      "risk_description": "熊正与摄像机密切互动，如果它突然或攻击性地移动，可能会造成碰撞或挤压伤害。",
+      "normal_video_description": "一只黑熊在户外围栏中与摄像机互动，将爪子和头部靠近镜头。",
+      "solution_for_person": "与熊保持安全距离，避免突然移动，以免惊吓它。",
+      "solution_for_hazard_source": "固定摄像机以防止被熊撞倒或损坏。",
+      "solution_to_prevent_recurrence": "安装屏障或围栏，使熊与人类操作的设备保持安全距离。"
+    },
+    "2": {
+      "risk_description": "一只大熊接近安装在一木质结构上的安全摄像机，最终爬上去导致摄像机被撞倒和遮挡。这种行为对设备造成直接损坏风险，如果动物掉落或被困，也可能造成伤害。",
+      "normal_video_description": "",
+      "solution_for_person": "将摄像机固定在更坚固的位置，或使用保护笼防止动物接触。",
+      "solution_for_hazard_source": "将摄像机重新安置在更高或更难接近的位置，或在其周围安装防护屏障。",
+      "solution_to_prevent_recurrence": "安装动作激活的威慑装置，或使用更安全的安装系统，防止未来与野生动物的互动。"
+    },
+    "3": {
+      "risk_description": "视频显示一只大型动物，可能是熊，正在接近摄像机并与其互动。如果附近有人员或宠物，可能会造成碰撞或挤压伤害。",
+      "normal_video_description": "",
+      "solution_for_person": "保持安全距离，避免与动物互动。",
+      "solution_for_hazard_source": "确保该区域安全，防止动物接近人类或宠物。",
+      "solution_to_prevent_recurrence": "安装屏障或围栏，使动物远离住宅区。"
+    },
+    "4": {
+      "risk_description": "视频显示一名幼童站在阳台边缘，这存在坠落的重大风险，可能导致严重伤害。孩子在狭窄边缘的位置非常危险，很容易导致致命事故。",
+      "normal_video_description": "",
+      "solution_for_person": "立即将孩子从阳台带走，防止任何潜在的跌落或事故。",
+      "solution_for_hazard_source": "在阳台上安装安全屏障或栏杆，防止儿童靠近边缘。",
+      "solution_to_prevent_recurrence": "确保所有阳台都配备适当的安全措施，防止儿童攀爬上去。"
+    }
+  }
+}

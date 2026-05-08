@@ -1,0 +1,40 @@
+{
+  "video_key": "toyota_smarthome_mp4/mp4/Drink.Fromcup_p06_r03_v01_c04",
+  "translations": {
+    "0": {
+      "risk_description": "老年人坐在沙发上，似乎在努力保持平衡。他们身体前倾，伸手去够茶几上的东西，这可能会导致他们摔倒。",
+      "normal_video_description": "",
+      "solution_for_person": "护理人员应在必要时帮助老年人保持平衡并提供支撑。",
+      "solution_for_hazard_source": "应将茶几移至更安全的位置，以防止老年人伸手去够它。",
+      "solution_to_prevent_recurrence": "护理人员应监测老年人的动作并提供支持，以防止以后跌倒。"
+    },
+    "1": {
+      "risk_description": "老年人正伸手从茶几上拿起一个红色物品，这可能导致失去平衡而跌倒。",
+      "normal_video_description": "一位老人坐在客厅的绿色沙发上，正在和茶几上的物品互动。",
+      "solution_for_person": "确保老年人在伸手去拿地板或低处物品时保持稳定的姿势。",
+      "solution_for_hazard_source": "将常用物品放在容易够到的地方，以减少弯腰或伸展的需要。",
+      "solution_to_prevent_recurrence": "在座位附近安装扶手杆，确保地面没有障碍物。"
+    },
+    "2": {
+      "risk_description": "",
+      "normal_video_description": "一位老人坐在客厅的绿色沙发上，手里握着红色杯子。老人似乎在喝杯子里的饮料，然后把杯子放在面前的茶几上。场景宁静，展现了家庭环境中典型的日常活动。",
+      "solution_for_person": "",
+      "solution_for_hazard_source": "",
+      "solution_to_prevent_recurrence": ""
+    },
+    "3": {
+      "risk_description": "老年人正伸手向前把杯子放在桌子上，因身体控制力减弱，可能导致失去平衡而跌倒。",
+      "normal_video_description": "",
+      "solution_for_person": "确保老年人坐直并用双手把杯子放在桌子上，以保持稳定。",
+      "solution_for_hazard_source": "提供易于够到的稳固表面，以减少向前伸手的需要。",
+      "solution_to_prevent_recurrence": "将常用物品放在容易够到的地方，并确保座位区域没有障碍物。"
+    },
+    "4": {
+      "risk_description": "老年人因姿势不稳且靠近茶几而有跌倒风险，可能导致严重伤害。",
+      "normal_video_description": "",
+      "solution_for_person": "鼓励老年人靠在沙发背上，避免在没有支撑的情况下站立。",
+      "solution_for_hazard_source": "",
+      "solution_to_prevent_recurrence": "当老年人需要站立或在房间里走动时，提供帮助或支撑。"
+    }
+  }
+}

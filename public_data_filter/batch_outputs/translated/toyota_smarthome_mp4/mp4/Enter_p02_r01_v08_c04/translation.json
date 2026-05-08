@@ -1,0 +1,40 @@
+{
+  "video_key": "toyota_smarthome_mp4/mp4/Enter_p02_r01_v08_c04",
+  "translations": {
+    "0": {
+      "risk_description": "",
+      "normal_video_description": "视频显示一间客厅，配有绿色L形沙发、白色茶几和白色地毯。角落里有两盆盆栽，还有一幅白色条纹窗帘。一个穿着花纹衬衫和深色裤子的人从画面右侧的门进入，走向门口并离开。场景平静，没有任何风险或危险的迹象。",
+      "solution_for_person": "",
+      "solution_for_hazard_source": "",
+      "solution_to_prevent_recurrence": ""
+    },
+    "1": {
+      "risk_description": "",
+      "normal_video_description": "一位老人进入客厅，走向一扇门并离开。房间光线充足，摆放着绿色分段式沙发、盆栽和茶几。",
+      "solution_for_person": "",
+      "solution_for_hazard_source": "",
+      "solution_to_prevent_recurrence": ""
+    },
+    "2": {
+      "risk_description": "",
+      "normal_video_description": "一位老人通过门进入客厅，走过绿色分段式沙发向房间深处走去。环境整洁，没有可见的危险或危险活动。",
+      "solution_for_person": "",
+      "solution_for_hazard_source": "",
+      "solution_to_prevent_recurrence": ""
+    },
+    "3": {
+      "risk_description": "",
+      "normal_video_description": "视频显示客厅配有绿色沙发和茶几。一位老人进入房间，稍作停顿后站在门附近。",
+      "solution_for_person": "",
+      "solution_for_hazard_source": "",
+      "solution_to_prevent_recurrence": ""
+    },
+    "4": {
+      "risk_description": "",
+      "normal_video_description": "视频显示客厅配有绿色沙发、茶几和盆栽。一个人从背景中的门进入房间。",
+      "solution_for_person": "",
+      "solution_for_hazard_source": "",
+      "solution_to_prevent_recurrence": ""
+    }
+  }
+}

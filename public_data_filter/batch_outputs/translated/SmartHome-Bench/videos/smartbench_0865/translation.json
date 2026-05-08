@@ -1,0 +1,40 @@
+{
+  "video_key": "SmartHome-Bench/videos/smartbench_0865",
+  "translations": {
+    "0": {
+      "risk_description": "",
+      "normal_video_description": "视频展示了一个带露台、餐桌、椅子和蹦床的后院。院子里有两个人，一个坐在椅子上，另一个躺在地上。场景平静，没有痛苦或危险的迹象。",
+      "solution_for_person": "",
+      "solution_for_hazard_source": "",
+      "solution_to_prevent_recurrence": ""
+    },
+    "1": {
+      "risk_description": "孩子正坐在一把不适合坐的椅子上玩耍，这可能会导致椅子倾倒，使孩子摔倒。孩子还在蹦床附近，若跑得太近，可能会发生碰撞危险。",
+      "normal_video_description": "视频显示了一个后院场景，人们在放松，孩子在院子里玩耍。",
+      "solution_for_person": "确保孩子不爬或不坐在不适合坐的家具上，并在蹦床附近玩耍时进行监督。",
+      "solution_for_hazard_source": "将椅子移到更稳固的位置，远离活跃的玩耍区域。",
+      "solution_to_prevent_recurrence": "在蹦床周围设置安全围栏，并固定所有家具以防止倾倒。"
+    },
+    "2": {
+      "risk_description": "",
+      "normal_video_description": "一个孩子在后院和一只狗玩耍，奔跑并与坐在椅子上的人互动。场景展现了住宅后院中正常的嬉戏活动。",
+      "solution_for_person": "",
+      "solution_for_hazard_source": "",
+      "solution_to_prevent_recurrence": ""
+    },
+    "3": {
+      "risk_description": "看到孩子在爬越栏杆，这有跌倒的风险，尤其是对可能缺乏力量或意识来防止跌倒的孩子来说。",
+      "normal_video_description": "",
+      "solution_for_person": "确保孩子受到密切监督，并远离栏杆，以防止跌倒。",
+      "solution_for_hazard_source": "在楼梯顶部安装安全门或障碍物，以防止进入栏杆区域。",
+      "solution_to_prevent_recurrence": "安装额外的安全措施（如门），并确保孩子在栏杆附近时有持续的监督。"
+    },
+    "4": {
+      "risk_description": "该人有可能从升高的露台区域跌落到草地上，这可能导致严重伤害。",
+      "normal_video_description": "",
+      "solution_for_person": "确保该人穿着具有良好抓地力的合适鞋子，以防止滑倒和跌倒。",
+      "solution_for_hazard_source": "在露台台阶上安装扶手或其他安全设施，以提供支撑并防止跌倒。",
+      "solution_to_prevent_recurrence": "定期检查露台区域是否存在潜在危险，例如松动或损坏的台阶，并及时处理。"
+    }
+  }
+}

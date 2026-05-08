@@ -1,0 +1,40 @@
+{
+  "video_key": "web_h264/bilibili__BV1wGtozSEth",
+  "translations": {
+    "0": {
+      "risk_description": "视频显示一名年轻人躺在客厅的地板上，这是一种不寻常且令人担忧的行为。该人似乎处于痛苦中，可能已经摔倒或正在经历某种不稳定的情况。",
+      "normal_video_description": "",
+      "solution_for_person": "应检查该人是否受伤，并在必要时提供医疗护理。护理人员还应确保对该人进行监控和支持，以防止进一步的跌倒或不稳定。",
+      "solution_for_hazard_source": "护理人员应调查跌倒或不稳定的的原因，例如光滑的地板、绊倒危险或其他环境因素。他们还应确保生活空间安全且无危险。",
+      "solution_to_prevent_recurrence": "护理人员应采取措施防止未来的跌倒或不稳定，例如安装扶手或防滑垫、清除绊倒危险，并确保生活空间光线充足且无杂物。他们还应监测该人的状况并根据需要提供支持。"
+    },
+    "1": {
+      "risk_description": "老年人多次出现在地板上的场景，表明存在跌倒风险或跌倒后无法站起，这可能导致受伤或长时间无法移动。",
+      "normal_video_description": "视频展示了各种跌倒检测技术及其在监测和帮助老年人预防跌倒并确保及时帮助方面的应用。",
+      "solution_for_person": "确保老年人配备跌倒检测设备并制定即时援助方案。",
+      "solution_for_hazard_source": "安装跌倒检测摄像头和智能设备，以便在检测到跌倒时向护理人员发出警报。",
+      "solution_to_prevent_recurrence": "定期查看老年人情况，确保他们能够轻松获得帮助。"
+    },
+    "2": {
+      "risk_description": "视频显示一个人在跌倒后一动不动地躺在地板上，表明存在严重的跌倒风险，需要立即关注。",
+      "normal_video_description": "",
+      "solution_for_person": "立即检查该人的状况，如有需要，呼叫医疗帮助。",
+      "solution_for_hazard_source": "确保地板上没有障碍物，并提供充足的照明以防止未来的跌倒。",
+      "solution_to_prevent_recurrence": "安装安全设备如跌倒检测报警器，并确保该人的环境安全。"
+    },
+    "3": {
+      "risk_description": "老年人在院子里跌倒两次，很长时间才有人注意到并提供帮助，存在严重受伤的风险。",
+      "normal_video_description": "",
+      "solution_for_person": "安装跌倒检测系统，以便在检测到跌倒时立即向护理人员发出警报。",
+      "solution_for_hazard_source": "确保院子里没有绊倒危险，并安装安全摄像头进行持续监控。",
+      "solution_to_prevent_recurrence": "使用智能监控设备，可以检测跌倒并自动通知紧急联系人。"
+    },
+    "4": {
+      "risk_description": "视频显示一个人躺在地板上，这可能表明存在跌倒或不稳定风险。该人没有移动，没有明确迹象表明他们是如何到达那个位置的。",
+      "normal_video_description": "视频展示了智能家居安全系统的各种场景，包括Wi-Fi摄像头、一个类似机器人的设备和一个人躺在地板上。",
+      "solution_for_person": "检查该人的情况并确保他们的安全。如果他们没有反应或受伤，立即呼叫紧急服务。",
+      "solution_for_hazard_source": "未发现",
+      "solution_to_prevent_recurrence": "确保该区域没有绊倒危险，并为可能面临跌倒风险的个人提供支持或帮助。"
+    }
+  }
+}

@@ -1,0 +1,40 @@
+{
+  "video_key": "UR_Fall_Dataset/adl-31-cam0",
+  "translations": {
+    "0": {
+      "risk_description": "这个年轻人正在弯腰捡地板上的东西，如果失去平衡或站稳可能会导致摔倒或不稳定。",
+      "normal_video_description": "",
+      "solution_for_person": "确保这个年轻人穿着具有良好抓地力的合适鞋子，并注意周围环境以避免潜在的摔倒。",
+      "solution_for_hazard_source": "未发现特定危险源。",
+      "solution_to_prevent_recurrence": "鼓励年轻人在学习区域活动时保持谨慎，与任何潜在的绊倒危险保持安全距离。"
+    },
+    "1": {
+      "risk_description": "这个人正在办公室地板上爬行，这会带来摔倒或被家具或地板表面伤害的风险。",
+      "normal_video_description": "看到一个年轻人站着，然后弯腰在有桌椅的办公室地板上爬行。",
+      "solution_for_person": "这个人应该避免在办公室环境中爬行以防止摔倒或受伤。",
+      "solution_for_hazard_source": "",
+      "solution_to_prevent_recurrence": "确保这个人了解在办公室地板上爬行的潜在危险，并劝阻这种行为。"
+    },
+    "2": {
+      "risk_description": "",
+      "normal_video_description": "一个年轻人在办公室环境中从门口走进房间中央，然后在地板上做了一个前滚翻后再站起来。环境是标准的办公室，有桌子和椅子，这个动作看起来是有意的身体锻炼或嬉戏，没有任何危险或不稳定的迹象。",
+      "solution_for_person": "",
+      "solution_for_hazard_source": "",
+      "solution_to_prevent_recurrence": ""
+    },
+    "3": {
+      "risk_description": "这个人正在弯腰将手放在地板上，这可能导致摔倒或不稳定，特别是如果他们失去平衡的话。",
+      "normal_video_description": "",
+      "solution_for_person": "确保这个人在弯腰时保持平衡，必要时考虑使用支撑。",
+      "solution_for_hazard_source": "清理地板区域以防止绊倒危险。",
+      "solution_to_prevent_recurrence": "练习安全的弯腰技巧，确保环境没有障碍物。"
+    },
+    "4": {
+      "risk_description": "这个人看到正在摔倒到地板上，这可能导致严重伤害。这次摔倒看起来是意外发生的，如果更好地注意周围环境本来可以预防。",
+      "normal_video_description": "",
+      "solution_for_person": "确保这个人了解周围环境以及办公室环境中的任何潜在危险。",
+      "solution_for_hazard_source": "",
+      "solution_to_prevent_recurrence": "提供工作场所安全培训，确保办公室没有绊倒危险。"
+    }
+  }
+}

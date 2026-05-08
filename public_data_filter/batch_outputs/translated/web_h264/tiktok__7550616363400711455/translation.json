@@ -1,0 +1,40 @@
+{
+  "video_key": "web_h264/tiktok__7550616363400711455",
+  "translations": {
+    "0": {
+      "risk_description": "可以看到年轻人在院子里多次摔倒，如果撞到坚硬表面或与物体碰撞，可能会导致受伤。",
+      "normal_video_description": "视频显示一位年轻人和一位年长者在院子里互动，年轻人多次摔倒。年长者似乎很担心，并试图帮助年轻人站起来。",
+      "solution_for_person": "应该帮助此人站立并小心行走，以避免再次摔倒。",
+      "solution_for_hazard_source": "应该检查院子里是否存在潜在危险因素，如不平整的表面、松动的物体或湿滑区域，这些都可能导致摔倒。",
+      "solution_to_prevent_recurrence": "应该鼓励此人在行走时使用扶手或其他支撑，并慢慢来避免匆忙。定期锻炼和平衡训练也有助于在未来防止摔倒。"
+    },
+    "1": {
+      "risk_description": "多个场景显示个人在户外地面绊倒、摔倒或失去平衡，如果不加以适当支撑，可能会导致擦伤、瘀伤或更严重的伤害。",
+      "normal_video_description": "视频展示了各种有趣的场景，人们在不同的户外环境中绊倒或摔倒。",
+      "solution_for_person": "在不平整或可能有滑倒危险的表面上行走时，应穿具有良好抓地力的适当鞋类。",
+      "solution_for_hazard_source": "确保走道畅通无障碍物，表面平整稳固。",
+      "solution_to_prevent_recurrence": "在容易潮湿或不平整的走道上安装防滑垫或涂层。"
+    },
+    "2": {
+      "risk_description": "视频显示一场身体冲突，一人在地上，另一人站在其上方，表明存在明显的身体伤害和人际冲突风险。",
+      "normal_video_description": "",
+      "solution_for_person": "在地上的人如果受伤应立即就医，站着的人应被建议停止冲突并寻求帮助。",
+      "solution_for_hazard_source": "应确保环境安全以防止进一步的身体伤害，并分开涉及的双方。",
+      "solution_to_prevent_recurrence": "实施冲突解决策略并在必要时寻求专业帮助，以防止未来的冲突。"
+    },
+    "3": {
+      "risk_description": "看到一名儿童躺在门廊附近的地面上，如果他们在没有适当支撑的情况下试图起身，可能会带来风险。",
+      "normal_video_description": "",
+      "solution_for_person": "确保儿童受到监督，并提供支撑帮助他们安全地起身。",
+      "solution_for_hazard_source": "安装扶手或确保门廊附近区域没有障碍物，以防止摔倒。",
+      "solution_to_prevent_recurrence": "始终监督院子里的儿童，确保该区域安全且没有危险。"
+    },
+    "4": {
+      "risk_description": "",
+      "normal_video_description": "视频显示了一系列户外场景，人们进行各种活动，如散步、坐着和与自行车等物品互动。场景中没有明显的风险或危险。",
+      "solution_for_person": "",
+      "solution_for_hazard_source": "",
+      "solution_to_prevent_recurrence": ""
+    }
+  }
+}

@@ -1,0 +1,40 @@
+{
+  "video_key": "SmartHome-Bench/videos/smartbench_0797",
+  "translations": {
+    "0": {
+      "risk_description": "可以看到这位年轻人做出从阳台跳下的危险行为，这可能导致跌倒和潜在的伤害。",
+      "normal_video_description": "视频显示一名年轻人在阳台上行走，然后突然跳下，这是一种可能导致受伤的危险行为。",
+      "solution_for_person": "应提醒该人从阳台跳下的危险，并鼓励他寻找更安全的方式享受户外空间。",
+      "solution_for_hazard_source": "应检查阳台栏杆是否有任何可能导致跌倒的潜在危险，如松动或破损的栏杆。",
+      "solution_to_prevent_recurrence": "该人在阳台上时应被监督，并应安装安全网或护栏等安全措施，以防止再次跌落。"
+    },
+    "1": {
+      "risk_description": "可以看到该人躺在地上神情恍惚，这可能表明发生了跌倒或失去平衡，可能导致受伤。",
+      "normal_video_description": "视频显示夜晚阳台上有各种物品散落。起初一个人躺在地上，随后站起并四处走动，显得不稳。",
+      "solution_for_person": "确保该人立即得到帮助，以检查是否有受伤并提供支持，防止进一步跌倒。",
+      "solution_for_hazard_source": "",
+      "solution_to_prevent_recurrence": "在阳台上安装防滑垫或确保地面没有绊倒危险，以降低跌倒风险。"
+    },
+    "2": {
+      "risk_description": "视频中有人对门廊上的另一个人进行身体攻击，涉及扭打并使用武器，构成明显且严重的安全威胁。",
+      "normal_video_description": "",
+      "solution_for_person": "该人应立即逃离现场以确保自身安全，并报警报告袭击。",
+      "solution_for_hazard_source": "在袭击中使用的武器应被执法部门没收。",
+      "solution_to_prevent_recurrence": "在该区域安装监控摄像头并改善照明，以遏制未来的犯罪活动。"
+    },
+    "3": {
+      "risk_description": "视频中有人从阳台跌落，这对行动不便或平衡能力差的人尤其有伤害风险。",
+      "normal_video_description": "",
+      "solution_for_person": "确保阳台拥有牢固的栏杆，并考虑安装额外的安全措施以防止跌落。",
+      "solution_for_hazard_source": "在阳台上安装牢固的栏杆或障碍物，以防止人们跌落。",
+      "solution_to_prevent_recurrence": "定期检查和维护阳台上的安全设施，确保其稳固且功能正常。"
+    },
+    "4": {
+      "risk_description": "该人有从阳台跌落的风险，可能导致严重伤害甚至死亡。",
+      "normal_video_description": "",
+      "solution_for_person": "确保该人不要站得太靠近阳台边缘，并意识到潜在的危险。",
+      "solution_for_hazard_source": "在阳台上安装栏杆或障碍物，以防止跌落。",
+      "solution_to_prevent_recurrence": "定期检查阳台是否存在结构问题或可能导致跌倒的危险。"
+    }
+  }
+}

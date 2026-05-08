@@ -1,0 +1,40 @@
+{
+  "video_key": "toyota_smarthome_mp4/mp4/Cook.Usestove_p10_r04_v12_c03",
+  "translations": {
+    "0": {
+      "risk_description": "",
+      "normal_video_description": "视频显示一位老年人在厨房里操作厨房电器。该人似乎正在使用该电器，可能是准备或取用某物。厨房配备了现代化的电器和水槽。该人身穿绿色衬衫和白色裤子。视频中没有出现任何痛苦或风险的迹象。",
+      "solution_for_person": "",
+      "solution_for_hazard_source": "",
+      "solution_to_prevent_recurrence": ""
+    },
+    "1": {
+      "risk_description": "该人正在操作烤箱，烤箱可能很热或装有热食，存在烫伤风险。",
+      "normal_video_description": "一位老年人在厨房里使用烤箱。",
+      "solution_for_person": "处理热的表面或盘子时，请使用隔热手套或毛巾。",
+      "solution_for_hazard_source": "打开和处理前，请确保烤箱温度在安全范围内。",
+      "solution_to_prevent_recurrence": "与热电器交互时，请务必佩戴防护装备。"
+    },
+    "2": {
+      "risk_description": "",
+      "normal_video_description": "一位老年人站在厨房里，用布从烤箱中取出盘子。该人动作缓慢且仔细，环境看起来安全且受控。",
+      "solution_for_person": "",
+      "solution_for_hazard_source": "",
+      "solution_to_prevent_recurrence": ""
+    },
+    "3": {
+      "risk_description": "该老年人正用布伸入烤箱，若烤箱很热或布着火可能造成危险。另外，如果烤箱门未正确关闭或烤箱温度不安全，也可能存在烫伤风险。",
+      "normal_video_description": "",
+      "solution_for_person": "在处理烤箱内部物品前，请确保烤箱完全冷却。使用隔热手套或长柄工具，以避免直接接触热表面。",
+      "solution_for_hazard_source": "安装安全功能，例如烤箱警报器或计时器，以提醒使用者在打开前检查烤箱温度。",
+      "solution_to_prevent_recurrence": "打开前请务必确认烤箱已冷却，处理热物品时使用适当的防护装备。"
+    },
+    "4": {
+      "risk_description": "该人正在使用微波炉，微波炉是热源和火源。如果微波炉发生故障或过热，可能导致烫伤或火灾。",
+      "normal_video_description": "",
+      "solution_for_person": "请确保微波炉维护良好且未过度装载食物。将易燃物品远离微波炉。",
+      "solution_for_hazard_source": "定期检查微波炉是否有磨损或损坏迹象。如果出现任何故障迹象，请勿使用微波炉。",
+      "solution_to_prevent_recurrence": "在微波炉附近安装烟雾探测器并确保其正常工作。在紧急情况下，请在手边准备灭火器。"
+    }
+  }
+}

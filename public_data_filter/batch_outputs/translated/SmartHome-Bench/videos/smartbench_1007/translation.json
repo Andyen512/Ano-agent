@@ -1,0 +1,40 @@
+{
+  "video_key": "SmartHome-Bench/videos/smartbench_1007",
+  "translations": {
+    "0": {
+      "risk_description": "这位老年人正在院子里用高尔夫球杆击球，这种活动对老年人来说可能不稳定且有潜在危险。该人还穿着不适合该活动的鞋子，这增加了滑倒或绊倒的风险。",
+      "normal_video_description": "",
+      "solution_for_person": "此人应考虑选择更适合其年龄和能力、更稳定的活动，如散步或园艺。他们还应该穿着适合该活动的鞋子。",
+      "solution_for_hazard_source": "应将高尔夫球杆和球从院子里移走，以防止进一步的潜在危险。",
+      "solution_to_prevent_recurrence": "应鼓励此人参与适合其年龄和能力的活动，并为其选择的任何活动穿着合适的鞋子。"
+    },
+    "1": {
+      "risk_description": "这位老年人在与狗玩耍时失去平衡并摔倒，可能因年龄相关的脆弱性以及与地面或附近物体的碰撞而造成伤害。",
+      "normal_video_description": "一位老年人在院子里与一只小白狗玩耍，进行轻度体育活动并使用园艺工具。",
+      "solution_for_person": "确保老年人在进行体育活动时，特别是与宠物互动时有人监督，以防止跌倒。",
+      "solution_for_hazard_source": "清除或固定院子里的绊倒危险物，如园艺工具或水管，以降低跌倒风险。",
+      "solution_to_prevent_recurrence": "鼓励老年人在院子里走动时使用拐杖或助行器等辅助设备，并考虑训练狗避免可能惊吓老年人的突然动作。"
+    },
+    "2": {
+      "risk_description": "",
+      "normal_video_description": "一位老年人在后院练习高尔夫挥杆。他练习了几次挥杆，然后在草地上坐了一会儿，之后起身继续活动。院子里还有一只小白狗。",
+      "solution_for_person": "",
+      "solution_for_hazard_source": "",
+      "solution_to_prevent_recurrence": ""
+    },
+    "3": {
+      "risk_description": "这位老年人向后倒在草地上，如果他们落地姿势不稳或已有健康问题，可能会造成伤害风险。",
+      "normal_video_description": "",
+      "solution_for_person": "这位老年人应在活动时确保保持平衡，必要时考虑使用支撑。",
+      "solution_for_hazard_source": "应保持该区域畅通无障碍物，以降低绊倒或跌倒的风险。",
+      "solution_to_prevent_recurrence": "这位老年人应进行稳定性练习，并确保院子没有绊倒危险。"
+    },
+    "4": {
+      "risk_description": "",
+      "normal_video_description": "视频显示一位老年人在院子里与狗互动，捡起一根棍子并扔出去。场景中没有明显的风险或危险。",
+      "solution_for_person": "",
+      "solution_for_hazard_source": "",
+      "solution_to_prevent_recurrence": ""
+    }
+  }
+}

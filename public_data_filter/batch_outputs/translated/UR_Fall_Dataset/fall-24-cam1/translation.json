@@ -1,0 +1,40 @@
+{
+  "video_key": "UR_Fall_Dataset/fall-24-cam1",
+  "translations": {
+    "0": {
+      "risk_description": "这位年轻成年人坐在客厅的椅子上，姿势和平衡似乎不稳定。可能有从椅子上跌落的危险。",
+      "normal_video_description": "这位年轻成年人坐在客厅的椅子上，姿势和平衡看起来稳定。没有从椅子上跌落的危险。",
+      "solution_for_person": "护理人员应确保这位年轻人坐稳，必要时提供支撑，以防止跌倒。",
+      "solution_for_hazard_source": "护理人员应确保椅子坚固并放置在稳固的表面上，以防止不稳。",
+      "solution_to_prevent_recurrence": "护理人员应监测这位年轻人的活动，必要时提供支撑，以防止将来跌倒。"
+    },
+    "1": {
+      "risk_description": "此人以坐姿躺在地板上，存在跌倒或难以自行站起的风险，可能导致受伤。",
+      "normal_video_description": "视频显示一个人躺在似乎是办公室或学习区的地板上，旁边有椅子和桌子。",
+      "solution_for_person": "确保有人在附近，以便在需要起身时提供帮助。",
+      "solution_for_hazard_source": "",
+      "solution_to_prevent_recurrence": "鼓励此人坐在椅子上，而不是直接躺在地板上。"
+    },
+    "2": {
+      "risk_description": "该人在站立时失去平衡，向后倒在地上，表明这是一次明显的失稳事件，超出正常活动范围。",
+      "normal_video_description": "",
+      "solution_for_person": "此人应立即起身并检查是否受伤，如有头晕则坐下或躺下。",
+      "solution_for_hazard_source": "确保地面无障碍物，必要时提供稳固的座位或扶手。",
+      "solution_to_prevent_recurrence": "必要时进行平衡训练或使用辅助器具。"
+    },
+    "3": {
+      "risk_description": "此人似乎正在失去平衡并向后倒下，若撞到地板或家具可能导致受伤。",
+      "normal_video_description": "",
+      "solution_for_person": "确保有人支撑或引导此人安全坐下，以防止跌倒。",
+      "solution_for_hazard_source": "清除该区域的家具或障碍物，以降低跌倒受伤的风险。",
+      "solution_to_prevent_recurrence": "提供稳固的椅子或座位选择，以防止将来跌倒。"
+    },
+    "4": {
+      "risk_description": "由于椅子位置不稳，孩子有从椅子上跌落的危险，可能导致严重受伤。",
+      "normal_video_description": "",
+      "solution_for_person": "确保孩子坐稳且椅子稳固后再让其站起。",
+      "solution_for_hazard_source": "移除任何可能造成跌倒风险的不稳固家具或物品。",
+      "solution_to_prevent_recurrence": "定期检查和维护家具，确保其稳固性和安全性。"
+    }
+  }
+}

@@ -1,0 +1,40 @@
+{
+  "video_key": "SmartHome-Bench/videos/smartbench_0998",
+  "translations": {
+    "0": {
+      "risk_description": "孩子正在攀爬楼梯而没有适当的支撑，这可能导致跌倒和潜在伤害。",
+      "normal_video_description": "孩子正在攀爬楼梯，扶着扶手作为支撑。",
+      "solution_for_person": "确保孩子受到监督并获得适当的支撑，例如扶着扶手或使用楼梯门。",
+      "solution_for_hazard_source": "",
+      "solution_to_prevent_recurrence": "安装楼梯门或在孩子攀爬楼梯时提供适当的支撑。"
+    },
+    "1": {
+      "risk_description": "孩子在没有成人监督的情况下攀爬楼梯，失去平衡导致跌倒。这种行为存在从楼梯跌落的伤害风险。",
+      "normal_video_description": "一个小孩正试图扶着栏杆攀爬铺有地毯的楼梯，失去平衡后从楼梯上摔下来。",
+      "solution_for_person": "确保当孩子靠近楼梯时有持续的成人监督。",
+      "solution_for_hazard_source": "在楼梯的顶部和底部安装安全门，以防止无人监督的进入。",
+      "solution_to_prevent_recurrence": "教育孩子了解无人监督攀爬楼梯的危险，并执行适合其年龄的安全规则。"
+    },
+    "2": {
+      "risk_description": "孩子正扶着栏杆攀爬楼梯，这对于正在学习走台阶的幼儿来说是常见的行为。然而，孩子失去平衡向后摔倒，表明存在可能导致受伤的不稳定时刻。",
+      "normal_video_description": "",
+      "solution_for_person": "确保孩子在攀爬楼梯时受到密切监督，并考虑在楼梯的顶部和底部使用安全门。",
+      "solution_for_hazard_source": "在楼梯上安装防滑踏板，并确保扶手安全且高度适合孩子。",
+      "solution_to_prevent_recurrence": "提供定期监督，并考虑使用楼梯安全装置以防止无人监督地接近楼梯。"
+    },
+    "3": {
+      "risk_description": "孩子正在攀爬楼梯，看起来不稳定，存在跌倒的风险，尤其是当他们试图爬得更高时。",
+      "normal_video_description": "",
+      "solution_for_person": "确保孩子受到密切监督，并通过握住孩子的手或引导他们下楼梯来提供支撑。",
+      "solution_for_hazard_source": "安装额外的安全栏杆或楼梯门以防止跌倒。",
+      "solution_to_prevent_recurrence": "当幼儿攀爬楼梯时始终监督他们，并教他们扶着栏杆以获得支撑。"
+    },
+    "4": {
+      "risk_description": "孩子有从楼梯跌落的风险，这可能导致严重伤害。孩子的位置和对栏杆的抓握表明可能会失去平衡。",
+      "normal_video_description": "",
+      "solution_for_person": "确保孩子受到监督，并在上楼梯时提供帮助以保持平衡。",
+      "solution_for_hazard_source": "在楼梯的顶部和底部安装安全门或障碍物，以防止无人监督的进入。",
+      "solution_to_prevent_recurrence": "教孩子如何正确使用扶手并在攀爬楼梯时保持平衡。"
+    }
+  }
+}

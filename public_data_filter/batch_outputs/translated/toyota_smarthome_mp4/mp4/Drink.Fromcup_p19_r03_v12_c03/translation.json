@@ -1,0 +1,40 @@
+{
+  "video_key": "toyota_smarthome_mp4/mp4/Drink.Fromcup_p19_r03_v12_c03",
+  "translations": {
+    "0": {
+      "risk_description": "这位老年人正站在厨房的椅子或凳子上，这可能导致跌倒危险。他们可能会失去平衡而跌倒，造成伤害。",
+      "normal_video_description": "这位老年人站在厨房里，正在台面上准备饮料。他穿着橙色衬衫和黑色裤子，似乎专注于手头的任务。",
+      "solution_for_person": "让老年人在厨房的桌子或台面上坐着完成任务，而不是站在椅子或凳子上。",
+      "solution_for_hazard_source": "将厨房中的椅子或凳子搬走，以消除跌倒危险。",
+      "solution_to_prevent_recurrence": "在厨房安装扶手或抓杆，为老年人提供支撑和稳定。"
+    },
+    "1": {
+      "risk_description": "此人正手拿一个红色杯子靠近微波炉，微波炉里可能装有热的食物或液体，如果内容物是热的，就有烫伤的风险。",
+      "normal_video_description": "一位老年人站在厨房里，手里拿着一个红色杯子靠近微波炉。",
+      "solution_for_person": "此人应确保杯子里的内容物不烫手，再把它靠近自己的脸部。",
+      "solution_for_hazard_source": "微波炉应谨慎使用，热物品应小心处理，以防烫伤。",
+      "solution_to_prevent_recurrence": "在进食或饮用前务必检查食物或饮料的温度，尤其是在微波炉等热源附近。"
+    },
+    "2": {
+      "risk_description": "",
+      "normal_video_description": "一位老年人站在厨房台面旁，似乎在用玻璃杯或杯子喝东西。环境是一个配有水槽、炉灶以及台面上各种物品的标准厨房，动作平稳且属于正常的日常行为。",
+      "solution_for_person": "",
+      "solution_for_hazard_source": "",
+      "solution_to_prevent_recurrence": ""
+    },
+    "3": {
+      "risk_description": "这位老年人站在水槽附近，水槽里有刀等锋利物品。存在意外触碰这些锋利物品的风险，可能导致受伤。",
+      "normal_video_description": "",
+      "solution_for_person": "确保老年人了解这些锋利物品的存在，并在不使用时将它们安全存放。",
+      "solution_for_hazard_source": "将锋利物品存放在安全、够不着的地方，以防意外触碰。",
+      "solution_to_prevent_recurrence": "制定例行程序，定期检查并固定厨房中的锋利物品，以降低受伤风险。"
+    },
+    "4": {
+      "risk_description": "",
+      "normal_video_description": "一位老年人站在现代厨房里，背对镜头，似乎在用杯子喝东西。厨房配备了现代家电，外观整洁有序。",
+      "solution_for_person": "",
+      "solution_for_hazard_source": "",
+      "solution_to_prevent_recurrence": ""
+    }
+  }
+}

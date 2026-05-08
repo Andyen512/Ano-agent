@@ -1,0 +1,40 @@
+{
+  "video_key": "toyota_smarthome_mp4/mp4/Drink.Fromcan_p15_r02_v10_c02",
+  "translations": {
+    "0": {
+      "risk_description": "老年人因缺乏适当的支撑或帮助从椅子上站起来而存在跌倒风险。",
+      "normal_video_description": "",
+      "solution_for_person": "护理人员应协助老年人从椅子上站起来以防止跌倒。",
+      "solution_for_hazard_source": "应检查餐厅地面是否有可能导致跌倒的湿滑或不平整表面。",
+      "solution_to_prevent_recurrence": "老年人从椅子上站起来时应获得适当的支撑和帮助，以防止未来跌倒。"
+    },
+    "1": {
+      "risk_description": "此人坐在一张高餐桌旁，这增加了失去平衡和跌倒的风险，可能会导致受伤。",
+      "normal_video_description": "一位老年人坐在餐桌旁吃喝。",
+      "solution_for_person": "确保此人坐在适合桌子高度的位置，以最大限度地降低跌倒风险。",
+      "solution_for_hazard_source": "",
+      "solution_to_prevent_recurrence": "使用较低的餐桌，或在此人坐着时提供额外的支撑。"
+    },
+    "2": {
+      "risk_description": "",
+      "normal_video_description": "一位老年人在光线充足的房间里坐在餐桌旁，从瓶子里喝水，然后靠在椅背上。这种行为似乎是正常的日常活动，没有任何风险或异常的迹象。",
+      "solution_for_person": "",
+      "solution_for_hazard_source": "",
+      "solution_to_prevent_recurrence": ""
+    },
+    "3": {
+      "risk_description": "老年人将杯子举得离面部过近，这可能导致溢出或意外倾倒，带来碰撞桌面或溢出的风险。",
+      "normal_video_description": "",
+      "solution_for_person": "老年人应将杯子保持在离面部安全距离以防止溢出。",
+      "solution_for_hazard_source": "确保桌面没有可能被溢出物弄乱的尖锐或易碎物品。",
+      "solution_to_prevent_recurrence": "使用稳定的杯架或杯垫以最大限度地降低溢出风险。"
+    },
+    "4": {
+      "risk_description": "",
+      "normal_video_description": "一位中年成年人坐在现代餐厅的餐桌旁，手里拿着智能手机，似乎正在专注地使用。桌上摆放着各种物品，包括盘子、玻璃杯和一个瓶子。房间有大窗户配窗帘，墙边有一个木制橱柜。",
+      "solution_for_person": "",
+      "solution_for_hazard_source": "",
+      "solution_to_prevent_recurrence": ""
+    }
+  }
+}

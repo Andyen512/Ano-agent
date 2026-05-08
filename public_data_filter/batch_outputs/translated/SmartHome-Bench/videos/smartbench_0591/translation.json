@@ -1,0 +1,40 @@
+{
+  "video_key": "SmartHome-Bench/videos/smartbench_0591",
+  "translations": {
+    "0": {
+      "risk_description": "看到年轻成年人在院子里跑步和跳跃，这可能会导致跌倒或失去平衡。",
+      "normal_video_description": "",
+      "solution_for_person": "应该建议这个人在院子里玩耍时更加小心，以防止跌倒或受伤。",
+      "solution_for_hazard_source": "未发现具体危险源。",
+      "solution_to_prevent_recurrence": "应该提醒这个人在院子里玩耍时要更加小心，以防止跌倒或受伤。"
+    },
+    "1": {
+      "risk_description": "熊与年轻成年人距离很近，如果熊意外移动或人靠得太近，会造成碰撞或挤压伤害的风险。",
+      "normal_video_description": "看到一只熊在夜间出现在住宅院子里，随后有一名年轻成年人从安全距离外观察熊。",
+      "solution_for_person": "与熊保持安全距离，避免突然移动以防止惊吓到熊。",
+      "solution_for_hazard_source": "",
+      "solution_to_prevent_recurrence": ""
+    },
+    "2": {
+      "risk_description": "一只熊进入院子并接近房屋，对出现在门廊上的人造成直接的物理碰撞或伤害威胁。野生动物出现在住宅区域明显超出了正常活动范围。",
+      "normal_video_description": "",
+      "solution_for_person": "立即退回室内并锁好门；不要试图接近或与熊互动。",
+      "solution_for_hazard_source": "清除院子中所有可触及的食物来源，以防止吸引野生动物。",
+      "solution_to_prevent_recurrence": "安装动作感应灯或警报器，并确保垃圾和宠物食品妥善存放以防止动物接近。"
+    },
+    "3": {
+      "risk_description": "看到一只熊进入院子，可能会造成碰撞或挤压伤害风险，特别是对可能无法快速躲避的儿童或宠物。",
+      "normal_video_description": "",
+      "solution_for_person": "确保儿童和宠物留在室内或安全地远离熊的路径。",
+      "solution_for_hazard_source": "妥善存放食物和垃圾以防止吸引野生动物。",
+      "solution_to_prevent_recurrence": "安装防熊容器，并考虑使用动作感应灯来防止野生动物。"
+    },
+    "4": {
+      "risk_description": "视频显示一只熊在院子里接近一个人，如果人不远离熊，可能会导致潜在的碰撞或挤压伤害。",
+      "normal_video_description": "视频显示一只熊在夜间于院子中走动，被户外灯照明。",
+      "solution_for_person": "远离熊并确保保持安全距离。",
+      "solution_for_hazard_source": "",
+      "solution_to_prevent_recurrence": "与熊保持安全距离，避免接近它们。"
+    }
+  }
+}

@@ -1,0 +1,40 @@
+{
+  "video_key": "toyota_smarthome_mp4/mp4/Pour.Frombottle_p25_r03_v05_c04",
+  "translations": {
+    "0": {
+      "risk_description": "",
+      "normal_video_description": "视频中显示一名中年人在客厅里，站在茶几旁。该人似乎在进行日常活动，可能是整理或清洁该区域。客厅光线充足，配有绿色沙发、白色茶几和落地灯。房间里有一些植物和装饰物品。该人穿着无袖上衣和白色裤子。",
+      "solution_for_person": "",
+      "solution_for_hazard_source": "",
+      "solution_to_prevent_recurrence": ""
+    },
+    "1": {
+      "risk_description": "此人站在茶几上，存在失去平衡、跌倒的风险，可能导致受伤。",
+      "normal_video_description": "一位老年人在客厅的茶几上站着，似乎要够取或调整桌子上的东西。",
+      "solution_for_person": "避免站在家具上，以防跌倒。",
+      "solution_for_hazard_source": "确保家具稳固，不作为踏板使用。",
+      "solution_to_prevent_recurrence": "提醒此人站在家具上的危险，并提供够取物品的替代方案。"
+    },
+    "2": {
+      "risk_description": "",
+      "normal_video_description": "一位老年人站在客厅里，弯腰从茶几上捡起一件物品，然后再站直。环境看起来平静安全，没有明显的危险或危险行为。",
+      "solution_for_person": "",
+      "solution_for_hazard_source": "",
+      "solution_to_prevent_recurrence": ""
+    },
+    "3": {
+      "risk_description": "该老年人弯腰靠在茶几上，可能因滑倒或失去平衡而导致跌倒或不稳定。",
+      "normal_video_description": "",
+      "solution_for_person": "确保老年人在弯腰时保持稳定姿势，必要时可考虑使用椅子支撑。",
+      "solution_for_hazard_source": "清理茶几周围区域，减少绊倒危险，确保表面稳固且防滑。",
+      "solution_to_prevent_recurrence": "在经常弯腰或够取的区域放置防滑垫，以防止未来跌倒。"
+    },
+    "4": {
+      "risk_description": "此人在小凳子上站立时存在跌倒或失去平衡的风险，可能导致严重伤害。对于可能已出现稳定性和力量下降的老年人来说，尤其令人担忧。",
+      "normal_video_description": "",
+      "solution_for_person": "确保此人在站在凳子上时有适当的支撑或帮助，以防止跌倒。",
+      "solution_for_hazard_source": "将凳子从现场移除，以消除跌倒的风险。",
+      "solution_to_prevent_recurrence": "为此人提供不使用凳子够取物品的替代方式，例如使用梯子或他人帮助。"
+    }
+  }
+}

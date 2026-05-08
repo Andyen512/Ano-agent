@@ -1,0 +1,40 @@
+{
+  "video_key": "labimag/dataset/chute17/cam2",
+  "translations": {
+    "0": {
+      "risk_description": "视频中的年轻人试图移动桌子，结果失去平衡摔倒在地。这种行为偏离了重新摆放家具的正常日常活动，存在受伤风险。",
+      "normal_video_description": "",
+      "solution_for_person": "应由他人协助搬运重型家具，以防止摔倒和受伤。",
+      "solution_for_hazard_source": "危险源是桌子和地板，地板可能湿滑或不平整。",
+      "solution_to_prevent_recurrence": "应为人员提供关于如何安全搬运重型家具的适当培训，必要时由他人协助。应检查地板是否存在可能导致滑倒或跌倒的危险。"
+    },
+    "1": {
+      "risk_description": "穿红色衬衫的人脸朝下趴在桌子上，存在坠落受伤的风险。多人在周围走动会增加碰撞或被家具意外挤压的风险。",
+      "normal_video_description": "视频显示一群人在客厅环境中互动，一人趴在桌子上，其他人在空间里走动。",
+      "solution_for_person": "人员应避免趴在家具上脸朝下，以防止坠落和受伤。",
+      "solution_for_hazard_source": "确保家具稳固且无杂物，以减少绊倒或碰撞危险。",
+      "solution_to_prevent_recurrence": "监督房间内的互动，防止可能导致跌倒或碰撞的突然动作。"
+    },
+    "2": {
+      "risk_description": "",
+      "normal_video_description": "一个人走进客厅，坐在沙发上，然后移到地板上玩茶几上的物品。其他人进入房间与地上的人互动。该场景展示了家庭环境中的正常社交互动和游戏。",
+      "solution_for_person": "",
+      "solution_for_hazard_source": "",
+      "solution_to_prevent_recurrence": ""
+    },
+    "3": {
+      "risk_description": "穿红色衬衫的人在试图坐到沙发上时摔倒，后来在房间里走动时也摔倒，这可能带来受伤风险，尤其是对行动不便或平衡问题的人。",
+      "normal_video_description": "",
+      "solution_for_person": "确保人员在房间里走动时受到监督和支撑，以防止跌倒。",
+      "solution_for_hazard_source": "清除或固定地板上的松散物品，以防绊倒。",
+      "solution_to_prevent_recurrence": "清除障碍物，确保家具布局允许安全通行。"
+    },
+    "4": {
+      "risk_description": "穿红色衬衫的人因与茶几相关的动作而有跌倒或导致不稳定的风险。这可能导致严重伤害。",
+      "normal_video_description": "一个穿红色衬衫的人在客厅里移动茶几，然后坐在上面，这可能导致不稳定和潜在伤害。",
+      "solution_for_person": "确保穿红色衬衫的人在移动茶几时小心，考虑使用更稳固的表面坐下。",
+      "solution_for_hazard_source": "",
+      "solution_to_prevent_recurrence": "将茶几固定在地板上或使用更稳固的表面坐下。"
+    }
+  }
+}

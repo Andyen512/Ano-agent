@@ -1,0 +1,40 @@
+{
+  "video_key": "toyota_smarthome_mp4/mp4/Drink.Fromcup_p17_r06_v14_c06",
+  "translations": {
+    "0": {
+      "risk_description": "视频中的人站在椅子或凳子上，够取高处的物品，这可能会导致跌倒危险。此外，此人手里拿着杯子并似乎在饮用，这可能导致失去平衡而跌倒。",
+      "normal_video_description": "视频中的人站在厨房里，手里拿着杯子并饮用。随后他伸手去够高处的架子取东西，似乎是站在椅子或凳子上完成的。",
+      "solution_for_person": "这个人应该请他人帮助从高处取物，或使用带防滑脚的踏脚凳以确保稳定。",
+      "solution_for_hazard_source": "应重新整理高处的架子，把物品放在容易够到的地方，避免需要使用椅子或凳子。",
+      "solution_to_prevent_recurrence": "应提醒此人在够取够不到的物品时请求帮助，并使用合适的工具以确保安全。"
+    },
+    "1": {
+      "risk_description": "此人正在炉灶上端锅，锅内可能装有热食或液体，若处理不当会造成烫伤风险。",
+      "normal_video_description": "一位年长者位于现代厨房，站在炉灶旁，锅在炉灶上，似乎正在烹饪或准备食物。",
+      "solution_for_person": "确保此人保持与锅的安全距离，并使用合适的炊具避免直接接触高温表面。",
+      "solution_for_hazard_source": "",
+      "solution_to_prevent_recurrence": "端热锅时要使用防烫手套或锅垫，并在烹饪时保持与炉灶的安全距离。"
+    },
+    "2": {
+      "risk_description": "",
+      "normal_video_description": "一位年长者站在现代厨房里，手里拿着杯子或瓶子并把手机贴在耳边饮水。环境整洁，看不到明显的危险或不安全情况。",
+      "solution_for_person": "",
+      "solution_for_hazard_source": "",
+      "solution_to_prevent_recurrence": ""
+    },
+    "3": {
+      "risk_description": "这位年长者正在柜台附近的锅旁使用刀具，如果不妥善操作可能会造成割伤风险。",
+      "normal_video_description": "",
+      "solution_for_person": "确保该年长者安全使用刀具，必要时考虑使用带防护套的刀具。",
+      "solution_for_hazard_source": "将尖锐物品放在易受伤害对象的触及范围之外，或使用安全的刀具存放方式。",
+      "solution_to_prevent_recurrence": "实施尖锐物品的安全存放方案，并提供安全使用刀具的培训。"
+    },
+    "4": {
+      "risk_description": "",
+      "normal_video_description": "视频中显示一位中年成年人位于厨房，似乎正在打电话。现场没有明显的风险或危险。",
+      "solution_for_person": "",
+      "solution_for_hazard_source": "",
+      "solution_to_prevent_recurrence": ""
+    }
+  }
+}

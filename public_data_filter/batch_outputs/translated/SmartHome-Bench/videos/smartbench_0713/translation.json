@@ -1,0 +1,40 @@
+{
+  "video_key": "SmartHome-Bench/videos/smartbench_0713",
+  "translations": {
+    "0": {
+      "risk_description": "",
+      "normal_video_description": "视频显示一名年轻成年人夜间在阳台上行走，经过一个秋千和一张桌子。随后此人翻越栏杆消失。场景平静，没有出现紧张或危险的迹象。",
+      "solution_for_person": "",
+      "solution_for_hazard_source": "",
+      "solution_to_prevent_recurrence": ""
+    },
+    "1": {
+      "risk_description": "此人正在翻越阳台栏杆，存在明显的坠落和受伤风险。",
+      "normal_video_description": "可见一名人在夜间在瓷砖阳台上行走，靠近栏杆并试图翻越。",
+      "solution_for_person": "在没有适当安全措施的情况下，此人不应翻越阳台栏杆。",
+      "solution_for_hazard_source": "安装安全屏障或警示标志，以防止未经授权进入阳台边缘。",
+      "solution_to_prevent_recurrence": "向此人宣传教育翻越栏杆的危险，并严格执行禁止此类行为的规定。"
+    },
+    "2": {
+      "risk_description": "可见一人夜间在屋顶露台边缘行走，随后翻越低矮墙体离开该区域。此行为涉及靠近无保护的落差，存在明显的坠落风险。",
+      "normal_video_description": "",
+      "solution_for_person": "应建议此人远离屋顶边缘，使用正规通道或指定的出口。",
+      "solution_for_hazard_source": "在屋顶边缘安装安全栏杆或屏障，以防止意外坠落。",
+      "solution_to_prevent_recurrence": "实行定期安全检查，并安装额外的安全措施（如报警器或摄像头）来监控该区域。"
+    },
+    "3": {
+      "risk_description": "此人正在阳台边缘附近行走，存在坠落风险，尤其对行动受限或平衡能力差的人更为危险。",
+      "normal_video_description": "",
+      "solution_for_person": "确保此人在靠近阳台边缘时有人监督，并使用扶手提供支撑。",
+      "solution_for_hazard_source": "在阳台边缘安装额外的安全屏障或栏杆。",
+      "solution_to_prevent_recurrence": "定期检查并维护阳台的安全设施，以防止坠落事故。"
+    },
+    "4": {
+      "risk_description": "此人正在阳台边缘行走，存在坠落风险。此行为可能导致严重伤害甚至死亡。",
+      "normal_video_description": "",
+      "solution_for_person": "远离阳台边缘，以避免坠落风险。",
+      "solution_for_hazard_source": "",
+      "solution_to_prevent_recurrence": "避免在阳台边缘行走，并确保该区域安全，以防事故发生。"
+    }
+  }
+}

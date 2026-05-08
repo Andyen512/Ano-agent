@@ -1,0 +1,40 @@
+{
+  "video_key": "web_h264/bilibili__BV1uW4y1Q73X",
+  "translations": {
+    "0": {
+      "risk_description": "孩子在地板上玩耍，存在潜在的跌倒危险。孩子还穿着绿色衬衫和短裤，如果跌倒可能会增加受伤的风险。",
+      "normal_video_description": "",
+      "solution_for_person": "看护者应密切监督孩子，确保他们不在高风险区域玩耍。",
+      "solution_for_hazard_source": "看护者应清除客厅中的潜在危险物品，如尖锐物体或可能被孩子捡起并投掷的小物件。",
+      "solution_to_prevent_recurrence": "看护者应为孩子制定游戏时间的常规安排，并确保他们始终受到监督。还应教育孩子远离高风险区域的重要性。"
+    },
+    "1": {
+      "risk_description": "一个孩子把气球投向电风扇，导致爆炸，造成母亲被烫伤。",
+      "normal_video_description": "孩子们在客厅里玩耍，发生了电风扇与气球的事故。",
+      "solution_for_person": "应监督孩子，并告诫他们不要向电器投掷物品。",
+      "solution_for_hazard_source": "不使用时应拔掉电源或关闭电风扇，以防止意外启动。",
+      "solution_to_prevent_recurrence": "让儿童远离电器，并确保他们了解向电器投掷物品的危险性。"
+    },
+    "2": {
+      "risk_description": "一个孩子把气球扔到发烫的电吹风上，导致气球爆裂并烫伤了母亲的手和脚。这是一起涉及热源的明显直接危险。",
+      "normal_video_description": "",
+      "solution_for_person": "看护者应立即将孩子从发烫的电器旁移开，并对烫伤进行急救。",
+      "solution_for_hazard_source": "电吹风应拔掉电源并完全冷却后再进行收纳或移动。",
+      "solution_to_prevent_recurrence": "将热电器放在儿童够不到的地方，并在儿童玩可能投掷的物品时密切监督。"
+    },
+    "3": {
+      "risk_description": "一个孩子把气球投向电风扇，随后气球爆炸，导致附近的成年人受伤。爆炸对该成年人构成碰撞风险。",
+      "normal_video_description": "",
+      "solution_for_person": "确保儿童在玩耍可能造成伤害的物品时受到密切监督。",
+      "solution_for_hazard_source": "移除或固定电风扇，以防止意外爆炸。",
+      "solution_to_prevent_recurrence": "教育儿童了解向电器投掷物品的危险，并确保所有电器都得到安全维护。"
+    },
+    "4": {
+      "risk_description": "可以看到孩子在地板上玩玩具，可能有跌倒或绊倒的风险。另外，孩子可能靠墙上的电源插座太近，存在潜在危险。",
+      "normal_video_description": "视频显示孩子在客厅里玩耍，客厅里有桌子、椅子、电视以及墙上的装饰品。背景中还能看到餐厅。",
+      "solution_for_person": "确保孩子受到监督，并保持与电源插座的安全距离。",
+      "solution_for_hazard_source": "",
+      "solution_to_prevent_recurrence": "保持电源插座周围区域清洁，清除玩具和其他可能造成绊倒危险的物品。"
+    }
+  }
+}

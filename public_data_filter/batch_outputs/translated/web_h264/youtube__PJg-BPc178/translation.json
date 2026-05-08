@@ -1,0 +1,40 @@
+{
+  "video_key": "web_h264/youtube__PJg-BPc178",
+  "translations": {
+    "0": {
+      "risk_description": "视频中的年轻人正在沙发上跑步和跳跃，这在客厅环境中是不安全的行为。可能导致跌倒或受伤。",
+      "normal_video_description": "视频显示一名年轻人在客厅里，但他们的行为不正常，因为他们正在沙发上跑步和跳跃。",
+      "solution_for_person": "应建议该人在客厅里进行更安全的活动，例如坐下或行走。",
+      "solution_for_hazard_source": "客厅应重新布置，以消除潜在的危害，例如尖锐物品或绊倒危险。",
+      "solution_to_prevent_recurrence": "应教育该人关于客厅中的安全行为，并鼓励其从事更安全的活动。定期监督和监控也有助于防止再次发生。"
+    },
+    "1": {
+      "risk_description": "客厅中有多人参与肢体冲突，其中一人手持可能用作武器的长形物体。场景的混乱以及武器的存在带来受伤或冲突升级的风险。",
+      "normal_video_description": "视频显示客厅中一个混乱的场景，多人在进行肢体冲突，其中一人手持长形物体。",
+      "solution_for_person": "将参与冲突的人员分开，以防止进一步升级或受伤。",
+      "solution_for_hazard_source": "将可能用作武器的物品固定安全并确保在冲突期间不在可触及范围内。",
+      "solution_to_prevent_recurrence": "安装监控摄像头以监控潜在冲突，并在出现扰乱时制定明确的执法介入计划。"
+    },
+    "2": {
+      "risk_description": "视频显示一起暴力入室抢劫案件，戴面罩的人员正在地板上对一人进行身体攻击并挥舞武器，这对人身安全构成严重威胁。",
+      "normal_video_description": "",
+      "solution_for_person": "在地上的人员应保持冷静，在等待执法部门到达时尽量保护自己。",
+      "solution_for_hazard_source": "执法部门应立即介入以消除威胁并确保现场安全。",
+      "solution_to_prevent_recurrence": "业主应安装安全系统和制定紧急应对计划，以更好地防范此类事件。"
+    },
+    "3": {
+      "risk_description": "视频显示一名穿连帽衫的人靠近地上的孩子，这可能给孩子带来冲突或身体伤害的风险。",
+      "normal_video_description": "",
+      "solution_for_person": "确保孩子受到密切监护，并与其保持安全距离，避免与陌生人接触。",
+      "solution_for_hazard_source": "屋主应通过口头对抗入侵者以阻止他们，并确保孩子的安全。",
+      "solution_to_prevent_recurrence": "安装门铃摄像头以监控入口，并考虑采取额外安全措施防止未经授权进入。"
+    },
+    "4": {
+      "risk_description": "",
+      "normal_video_description": "视频显示客厅的监控录像，其中一人四处走动并与另一人互动。场景中没有明显的风险或危险。",
+      "solution_for_person": "",
+      "solution_for_hazard_source": "",
+      "solution_to_prevent_recurrence": ""
+    }
+  }
+}

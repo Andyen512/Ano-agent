@@ -1,0 +1,40 @@
+{
+  "video_key": "web_h264/1863971054483091",
+  "translations": {
+    "0": {
+      "risk_description": "孩子在墙边玩耍时有摔倒或失去平衡的风险。",
+      "normal_video_description": "",
+      "solution_for_person": "成人应当监督孩子，确保他们不要离墙太近玩耍。",
+      "solution_for_hazard_source": "墙壁应加装软垫或低矮护栏，使其更安全，防止孩子跌倒。",
+      "solution_to_prevent_recurrence": "应教育孩子安全玩耍，并鼓励他们在客厅的指定游戏区域玩耍。"
+    },
+    "1": {
+      "risk_description": "孩子在墙边玩耍时，狗从沙发上跳向孩子，可能导致碰撞或挤压伤害。",
+      "normal_video_description": "一个孩子在客厅的墙边玩耍，狗在沙发上。狗从沙发上跳向孩子，两名成年人介入将狗与孩子分开。",
+      "solution_for_person": "当狗活跃或跳跃时，应监督孩子并保持其与狗的安全距离。",
+      "solution_for_hazard_source": "应训练狗不要扑向孩子，并教育孩子在狗附近避免突然动作。",
+      "solution_to_prevent_recurrence": "安装屏障或门，以限制狗进入孩子独自玩耍的区域。"
+    },
+    "2": {
+      "risk_description": "",
+      "normal_video_description": "一个婴儿在地板上爬行，靠近墙上的插座，狗坐在旁边的沙发上。随后狗跳下沙发，跑向婴儿，成年人急忙赶来干预。该场景描绘了典型的家庭活动，出现了短暂的担忧但很快得到化解。",
+      "solution_for_person": "",
+      "solution_for_hazard_source": "",
+      "solution_to_prevent_recurrence": ""
+    },
+    "3": {
+      "risk_description": "孩子正伸手去够地板上的灯开关，这可能导致碰撞或跌倒，尤其是当狗突然移动时。",
+      "normal_video_description": "",
+      "solution_for_person": "在孩子伸手去拿物品时，应密切监督并保持其与狗的安全距离。",
+      "solution_for_hazard_source": "当孩子伸手去拿物品时，应把狗拴上绳子或放在单独的区域内。",
+      "solution_to_prevent_recurrence": "应安装防儿童装置，防止孩子在无人看管时接触危险区域。"
+    },
+    "4": {
+      "risk_description": "",
+      "normal_video_description": "一个蹒跚学步的小孩蹲在地上，似乎专注于墙边的某物。一只金毛猎犬躺在铺有毯子的沙发上，一位女士进入画面抚摸狗。随后一名男子进入并蹲下与狗互动。",
+      "solution_for_person": "",
+      "solution_for_hazard_source": "",
+      "solution_to_prevent_recurrence": ""
+    }
+  }
+}

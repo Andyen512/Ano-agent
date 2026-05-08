@@ -1,0 +1,40 @@
+{
+  "video_key": "labimag/dataset/chute02/cam4",
+  "translations": {
+    "0": {
+      "risk_description": "可以看到这位年轻人跑动并跳到桌子上，这是不安全的行为，可能导致跌倒或受伤。",
+      "normal_video_description": "视频显示一名年轻人在研究室里使用电脑并与同事互动。",
+      "solution_for_person": "应建议该人避免从事危险活动，并优先考虑安全。",
+      "solution_for_hazard_source": "研究室应重新布置，以消除潜在危险（例如桌子），营造安全环境。",
+      "solution_to_prevent_recurrence": "应向该人普及安全的重要性，并鼓励其从事安全活动。"
+    },
+    "1": {
+      "risk_description": "可以看到有人在房间里跑动并跳到中间的床垫上，如果跳跃失误或表面不稳，可能导致跌倒或失控。",
+      "normal_video_description": "视频显示一间实验室或研究室，墙上有各种设备和海报。一个人跑过房间，跳到中间的床垫上，然后躺下。另一个人走向电脑工作站，更多人进入房间观看此景。",
+      "solution_for_person": "在不熟悉或潜在危险的环境中从事体育活动时，应确保有适当的监督和指导。",
+      "solution_for_hazard_source": "在进行此类活动之前，应检查床垫及其周围区域的稳定性和安全性。",
+      "solution_to_prevent_recurrence": "应在实验室制定体育活动的安全协议，包括监督和风险评估。"
+    },
+    "2": {
+      "risk_description": "",
+      "normal_video_description": "视频显示一群年轻人在实验室或研究室里。一个人跑过房间并躺在中间的床垫上，其他人则在桌子附近走动并互动。该行为看起来是玩耍或实验的一部分，没有危险或不稳定的迹象。",
+      "solution_for_person": "",
+      "solution_for_hazard_source": "",
+      "solution_to_prevent_recurrence": ""
+    },
+    "3": {
+      "risk_description": "有人在办公室里躺在床垫上，这可能会给其他人带来绊倒危险，尤其是行动不便或平衡有问题的人。",
+      "normal_video_description": "",
+      "solution_for_person": "应将床垫靠墙放置或固定，以防被绊倒。",
+      "solution_for_hazard_source": "应移除或固定床垫，以消除绊倒危险。",
+      "solution_to_prevent_recurrence": "应在床垫周围设置明显的标识，提醒此处有障碍物。"
+    },
+    "4": {
+      "risk_description": "视频中可见该人走过房间后倒在垫子上，可能导致受伤。这种行为有跌倒/不稳定的风险。",
+      "normal_video_description": "",
+      "solution_for_person": "在穿过房间前，应确保该人了解周围环境及潜在危险。",
+      "solution_for_hazard_source": "应清除地板上的障碍物或绊倒危险，以降低跌倒风险。",
+      "solution_to_prevent_recurrence": "应鼓励该人缓慢小心地行走，特别是在不熟悉的区域。"
+    }
+  }
+}

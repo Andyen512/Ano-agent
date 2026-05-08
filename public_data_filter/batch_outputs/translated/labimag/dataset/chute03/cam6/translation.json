@@ -1,0 +1,40 @@
+{
+  "video_key": "labimag/dataset/chute03/cam6",
+  "translations": {
+    "0": {
+      "risk_description": "这位年轻人躺在一个不稳定的大型白色物体上，存在跌落受伤的风险。",
+      "normal_video_description": "这位年轻人躺在书房里的大型白色物体上，没有跌落或受伤的风险。",
+      "solution_for_person": "应将此人移至更安全的地方并提供支撑，以防止跌倒。",
+      "solution_for_hazard_source": "应将该物体从房间移除，以防止进一步的事故。",
+      "solution_to_prevent_recurrence": "在使用不稳定的物体时，应对人员进行监督并提供支撑。"
+    },
+    "1": {
+      "risk_description": "",
+      "normal_video_description": "一个人在实验室环境中躺在软垫上，其他人在旁边的桌子工作或观察。",
+      "solution_for_person": "",
+      "solution_for_hazard_source": "",
+      "solution_to_prevent_recurrence": ""
+    },
+    "2": {
+      "risk_description": "",
+      "normal_video_description": "一个人走进房间，躺下在地板上的床垫，然后起身。另一人从右侧进入房间。该环境看起来像是实验室或办公室，里面有各种设备和家具。",
+      "solution_for_person": "",
+      "solution_for_hazard_source": "",
+      "solution_to_prevent_recurrence": ""
+    },
+    "3": {
+      "risk_description": "这位年轻人躺在地板上的床垫上，如果在没有支撑的情况下试图起身，可能会导致跌倒，尤其是行动能力或力量受限的情况下。",
+      "normal_video_description": "",
+      "solution_for_person": "确保这位年轻人有稳固的平面或有人帮助，以便安全地从地板上起身。",
+      "solution_for_hazard_source": "在附近提供稳固的椅子或支撑，以防止起身时跌倒。",
+      "solution_to_prevent_recurrence": "在床垫周围放置防滑垫或垫子，以提供更好的支撑和稳定性。"
+    },
+    "4": {
+      "risk_description": "这个人正在尝试在地板上的床垫上进行身体活动，由于缺乏适当的支撑或安全措施，可能导致跌倒和受伤。",
+      "normal_video_description": "",
+      "solution_for_person": "确保床垫放在稳固的平面上，并配备足够的缓冲和支撑，以防止跌倒和受伤。",
+      "solution_for_hazard_source": "",
+      "solution_to_prevent_recurrence": "提供正确的训练和指导，教授安全的运动技巧，并使用适当的设备，以最大限度地降低跌倒和受伤的风险。"
+    }
+  }
+}

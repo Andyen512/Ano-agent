@@ -1,0 +1,40 @@
+{
+  "video_key": "toyota_smarthome_mp4/mp4/Getup_p10_r07_v03_c04",
+  "translations": {
+    "0": {
+      "risk_description": "老人坐在沙发边缘，这可能增加跌倒的风险。咖啡桌在沙发前方也存在潜在的绊倒危险。",
+      "normal_video_description": "",
+      "solution_for_person": "确保老人安全地坐在沙发上，必要时提供支撑。清除咖啡桌上可能的绊倒危险。",
+      "solution_for_hazard_source": "将咖啡桌固定在墙上，防止其倾倒。",
+      "solution_to_prevent_recurrence": "定期检查家具的稳定性，并清除任何潜在危险，以防跌倒和受伤。"
+    },
+    "1": {
+      "risk_description": "",
+      "normal_video_description": "老人躺在客厅的绿色沙发上，然后坐起来。房间里有植物、放置有物品的咖啡桌，背景有一扇门。",
+      "solution_for_person": "",
+      "solution_for_hazard_source": "",
+      "solution_to_prevent_recurrence": ""
+    },
+    "2": {
+      "risk_description": "",
+      "normal_video_description": "老人在客厅的绿色沙发上躺着，随后坐起身并将双腿摆到沙发侧面。环境宁静居家，没有可见的危险或危险行为。",
+      "solution_for_person": "",
+      "solution_for_hazard_source": "",
+      "solution_to_prevent_recurrence": ""
+    },
+    "3": {
+      "risk_description": "老人躺在沙发上，部分覆盖着毯子，这可能会在他们试图坐起或突然移动时增加滑倒或跌倒的风险。",
+      "normal_video_description": "",
+      "solution_for_person": "确保老人慢慢而小心地坐起，以避免可能导致跌倒的突然动作。",
+      "solution_for_hazard_source": "清除可能引起绊倒或滑倒的毯子或松散物品。",
+      "solution_to_prevent_recurrence": "在沙发上放置防滑垫或坐垫，以提供稳定性并降低滑倒风险。"
+    },
+    "4": {
+      "risk_description": "老人有从沙发上跌落的风险，这可能导致严重伤害。人的姿势和沙发的高度增加了跌倒的可能性。",
+      "normal_video_description": "",
+      "solution_for_person": "在老人从沙发上站立之前，确保其坐直并保持稳定，以降低跌倒风险。",
+      "solution_for_hazard_source": "",
+      "solution_to_prevent_recurrence": "鼓励他人在站立时使用侧桌或扶手提供支撑。"
+    }
+  }
+}

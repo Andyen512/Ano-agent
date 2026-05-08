@@ -1,0 +1,40 @@
+{
+  "video_key": "labimag/dataset/chute17/cam1",
+  "translations": {
+    "0": {
+      "risk_description": "视频中的年轻人试图坐在沙发上，但失去平衡摔倒在地。这种行为偏离了正常的坐沙发日常活动，可能会造成伤害风险。",
+      "normal_video_description": "",
+      "solution_for_person": "应协助该人坐起来并安全地放到沙发上，以防止再次跌倒。",
+      "solution_for_hazard_source": "应检查沙发是否有潜在危险因素导致跌倒，例如沙发腿松动或表面不平。",
+      "solution_to_prevent_recurrence": "该人试图坐在沙发上时应有人监督，并应解决任何潜在危险以防止未来跌倒。"
+    },
+    "1": {
+      "risk_description": "穿红衬衫的人躺在地板上，姿势别扭，可能会导致跌倒或受伤。随后，多人聚集在咖啡桌周围，方式拥挤，增加了碰撞或有人被意外压伤的风险。",
+      "normal_video_description": "视频显示一群人在客厅环境中互动，一些人在走动，另一些人坐着或在桌子旁工作。",
+      "solution_for_person": "穿红衬衫的人应避免以这种别扭的姿势躺在地板上，以防止跌倒或受伤。",
+      "solution_for_hazard_source": "确保咖啡桌周围有足够的空间容纳多人而不拥挤。",
+      "solution_to_prevent_recurrence": "鼓励安全就座习惯并保持通道清晰，以减少跌倒和碰撞的风险。"
+    },
+    "2": {
+      "risk_description": "",
+      "normal_video_description": "一个穿红衬衫的人走进客厅，坐在沙发上，然后起身搬动咖啡桌。其他人在背景中，场景描述的是正常的日常活动，没有任何危险或异常行为的迹象。",
+      "solution_for_person": "",
+      "solution_for_hazard_source": "",
+      "solution_to_prevent_recurrence": ""
+    },
+    "3": {
+      "risk_description": "穿红衬衫的人躺在地板上然后试图站起来，这可能会造成跌倒的风险，特别是如果他们行动不便或平衡问题。",
+      "normal_video_description": "",
+      "solution_for_person": "确保该人从地板上站起来时有支撑或帮助，以防止跌倒。",
+      "solution_for_hazard_source": "清除任何可能绊倒或跌倒的障碍物或家具。",
+      "solution_to_prevent_recurrence": "实施安全措施，例如防滑垫并确保通道清晰，以减少跌倒风险。"
+    },
+    "4": {
+      "risk_description": "穿红衬衫的人由于沙发在标记区域位置不稳，有从沙发上跌落的危险。这可能导致严重伤害。",
+      "normal_video_description": "",
+      "solution_for_person": "确保沙发放置在稳定的表面上或将其从标记区域移走，以防止跌倒。",
+      "solution_for_hazard_source": "将沙发固定在地板上或在下面添加支撑以稳定它。",
+      "solution_to_prevent_recurrence": "定期检查家具放置，确保所有物品稳定安全，以防止事故。"
+    }
+  }
+}

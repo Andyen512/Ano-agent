@@ -1,0 +1,40 @@
+{
+  "video_key": "UR_Fall_Dataset/fall-23-cam0",
+  "translations": {
+    "0": {
+      "risk_description": "",
+      "normal_video_description": "视频显示一名年轻成年人在自习室里走向一张桌子，然后坐在椅子上。场景正常，没有显示任何风险或危险的迹象。",
+      "solution_for_person": "",
+      "solution_for_hazard_source": "",
+      "solution_to_prevent_recurrence": ""
+    },
+    "1": {
+      "risk_description": "可以看到该人在房间里跌倒到地上，这可能导致与地板或家具碰撞而受伤的风险。",
+      "normal_video_description": "一个人走进学习室，然后跌倒在地。",
+      "solution_for_person": "避免可能导致失去平衡的突然动作或行为。",
+      "solution_for_hazard_source": "",
+      "solution_to_prevent_recurrence": "确保房间内没有绊倒危险，且地面采用防滑材料。"
+    },
+    "2": {
+      "risk_description": "该人在移动时失去平衡并跌倒在地板上，表明其稳定性下降，可能导致受伤。",
+      "normal_video_description": "",
+      "solution_for_person": "该人应立即起身并检查是否有受伤。如疼痛或不适持续，请就医。",
+      "solution_for_hazard_source": "确保地面没有障碍物，并提供足够的照明，以防止类似事件再次发生。",
+      "solution_to_prevent_recurrence": "鼓励该人在移动时更加小心，并考虑在地面湿滑时安装防滑垫等安全设施。"
+    },
+    "3": {
+      "risk_description": "视频中的人似乎正在失去平衡并跌倒在地，这可能会造成受伤风险，尤其在他们行动受限或正在康复时。",
+      "normal_video_description": "",
+      "solution_for_person": "确保该人了解周围环境并保持平衡，以防止跌倒。",
+      "solution_for_hazard_source": "清除任何绊倒危险，确保地面干净且稳固。",
+      "solution_to_prevent_recurrence": "进行平衡训练，必要时使用支撑，以防止将来跌倒。"
+    },
+    "4": {
+      "risk_description": "该年轻人走路不稳，似乎有跌倒的风险，可能导致严重伤害。办公室环境中有椅子和桌子，可能造成绊倒危险。",
+      "normal_video_description": "",
+      "solution_for_person": "确保该年轻人走路时小心，避开路上的障碍物，以防跌倒。",
+      "solution_for_hazard_source": "清除办公室地面上任何可能的绊倒危险，以降低跌倒风险。",
+      "solution_to_prevent_recurrence": "定期检查办公室环境是否存在潜在危险，并及时处理，以降低事故发生的可能性。"
+    }
+  }
+}

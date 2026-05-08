@@ -1,0 +1,40 @@
+{
+  "video_key": "toyota_smarthome_mp4/mp4/Drink.Fromcup_p03_r00_v10_c02",
+  "translations": {
+    "0": {
+      "risk_description": "这个人坐在桌旁，似乎在努力保持平衡，可能会摔倒。",
+      "normal_video_description": "这个人正坐在餐厅的桌旁吃饭，看起来很稳定。",
+      "solution_for_person": "应该让护理人员协助这个人坐在桌旁以确保其安全。",
+      "solution_for_hazard_source": "应该检查桌子及周围区域是否存在可能导致这个人失稳的潜在危险。",
+      "solution_to_prevent_recurrence": "坐在桌旁时应该密切监视这个人，并提供必要的支持或便利条件以防止未来跌倒。"
+    },
+    "1": {
+      "risk_description": "这个人正在桌旁用一个红色杯子喝水，桌上摆放着食物，如果杯中装有不当物质，可能存在误食有害物质的风险。",
+      "normal_video_description": "一个人坐在餐桌旁，用红色杯子喝水，并与桌上的物品互动。",
+      "solution_for_person": "在饮用前确保杯中内容物可以安全摄入。",
+      "solution_for_hazard_source": "验证桌上的所有饮料和食品都已正确贴标签并妥善存放。",
+      "solution_to_prevent_recurrence": "将潜在危险物质放在够不到的地方，并为所有食品和饮料容器贴上清晰标签。"
+    },
+    "2": {
+      "risk_description": "",
+      "normal_video_description": "一个中年人正坐在光线充足的房间里的餐桌旁吃饭。这个人拿着一个杯子，看起来坐在那里很舒服地喝水。环境平静有序，没有危险或不寻常活动的迹象。",
+      "solution_for_person": "",
+      "solution_for_hazard_source": "",
+      "solution_to_prevent_recurrence": ""
+    },
+    "3": {
+      "risk_description": "这个人正在从碗里吃东西，如果碗里的东西有害，或者这个人没有得到适当的监督，特别是如果他们正在从疾病中恢复或行动受限，可能会带来风险。",
+      "normal_video_description": "",
+      "solution_for_person": "确保这个人在安全地进食，必要时进行监督，特别是在他们有健康问题的情况下。",
+      "solution_for_hazard_source": "将食物和餐具放在够得到的地方，以防止溢出或事故。",
+      "solution_to_prevent_recurrence": "保持餐厅区域清洁有序，最大限度地减少事故风险。"
+    },
+    "4": {
+      "risk_description": "",
+      "normal_video_description": "视频显示一个中年人坐在餐桌旁吃喝。环境看起来安全，没有可见的危险或风险。",
+      "solution_for_person": "",
+      "solution_for_hazard_source": "",
+      "solution_to_prevent_recurrence": ""
+    }
+  }
+}

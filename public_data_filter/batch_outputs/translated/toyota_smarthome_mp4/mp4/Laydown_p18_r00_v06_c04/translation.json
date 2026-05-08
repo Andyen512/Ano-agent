@@ -1,0 +1,40 @@
+{
+  "video_key": "toyota_smarthome_mp4/mp4/Laydown_p18_r00_v06_c04",
+  "translations": {
+    "0": {
+      "risk_description": "老年人由于在沙发上的姿势——腿部悬挂在边缘、身体向后倾斜——而面临跌倒的风险。这可能导致跌倒和潜在伤害。",
+      "normal_video_description": "",
+      "solution_for_person": "护理人员应帮助老年人找到更安全的坐姿，例如直立坐姿、双脚平放在地面，或使用支撑物防止跌倒。",
+      "solution_for_hazard_source": "沙发设计低背且缺乏支撑，增加了风险。护理人员可以考虑重新布置家具或添加靠垫以提供更好的支撑。",
+      "solution_to_prevent_recurrence": "定期检查老年人的安全，确保其居住环境没有绊倒危险。必要时鼓励使用助行器或扶手等辅助设备。"
+    },
+    "1": {
+      "risk_description": "该人踏上咖啡桌，造成不稳定的姿势，可能导致跌倒。以不舒适的姿势躺在沙发上也会增加滑倒或失去平衡的风险。",
+      "normal_video_description": "一位老年人踏上咖啡桌，然后在不舒适的姿势下躺在沙发上，手里还握着遥控器。",
+      "solution_for_person": "避免以不稳的方式站在或躺在家具上。",
+      "solution_for_hazard_source": "确保家具稳固且无障碍物，以防止绊倒或跌倒。",
+      "solution_to_prevent_recurrence": "提醒该人安全使用家具，避免危险的姿势。"
+    },
+    "2": {
+      "risk_description": "",
+      "normal_video_description": "可以看到一位老年人坐在客厅的绿色沙发上，然后躺下休息。该人整个动作中看起来稳定且舒适，没有不稳或危险的迹象。",
+      "solution_for_person": "",
+      "solution_for_hazard_source": "",
+      "solution_to_prevent_recurrence": ""
+    },
+    "3": {
+      "risk_description": "老年人以放松的姿势躺在沙发上，若其移动或失去平衡，可能导致跌倒。",
+      "normal_video_description": "",
+      "solution_for_person": "确保老年人坐得稳固且有支撑，考虑使用坐垫或支撑枕防止滑落。",
+      "solution_for_hazard_source": "重新布置家具以提供更安全的坐卧区域，并确保沙发稳固。",
+      "solution_to_prevent_recurrence": "在沙发上使用防滑垫或防滑毯，并确保老年人在休息时有人看护。"
+    },
+    "4": {
+      "risk_description": "",
+      "normal_video_description": "视频中显示一名中年人坐在客厅的绿色沙发上，显得放松，可能是看电视。场景中没有可见的风险或危险。",
+      "solution_for_person": "",
+      "solution_for_hazard_source": "",
+      "solution_to_prevent_recurrence": ""
+    }
+  }
+}

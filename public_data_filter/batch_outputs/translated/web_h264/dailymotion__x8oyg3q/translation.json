@@ -1,0 +1,40 @@
+{
+  "video_key": "web_h264/dailymotion__x8oyg3q",
+  "translations": {
+    "0": {
+      "risk_description": "这位年轻人正试图从阳台的梯子上爬下来，但失去平衡摔倒在地上，导致受伤。",
+      "normal_video_description": "视频显示一名年轻人正试图从阳台的梯子上爬下来，但失去平衡摔倒在地上，导致受伤。",
+      "solution_for_person": "此人应由护理人员协助安全下梯，并检查是否受伤。",
+      "solution_for_hazard_source": "梯子应固定在阳台栏杆上，以防滑移或掉落。",
+      "solution_to_prevent_recurrence": "应向此人提供正确的梯子安全培训以及个人防护设备（如安全带或安全网）的使用方法，以防止坠落。"
+    },
+    "1": {
+      "risk_description": "此人在户外站在梯子上，这增加了坠落受伤的风险。",
+      "normal_video_description": "有人夜间在房屋外站在梯子上，随后失去平衡摔倒在地上。",
+      "solution_for_person": "在没有适当监督或安全设备的情况下，避免在户外站在梯子上。",
+      "solution_for_hazard_source": "确保梯子放置在稳固、平坦的地面上，并按照制造商说明使用。",
+      "solution_to_prevent_recurrence": "任务中使用稳固的平台或升高的工作面代替梯子，或请有梯子安全经验的人协助。"
+    },
+    "2": {
+      "risk_description": "有人在户外院子里使用梯子时失去平衡，导致摔倒。这种行为因直接的物理危险及跌倒造成的伤害明显超出正常活动范围。",
+      "normal_video_description": "",
+      "solution_for_person": "此人应立即停止使用梯子，检查是否有受伤，并在必要时寻求医疗救治。",
+      "solution_for_hazard_source": "确保梯子放置在稳固的表面上，并按照安全准则使用。",
+      "solution_to_prevent_recurrence": "提供正确的梯子使用安全培训，确保此人了解环境中潜在的危险。"
+    },
+    "3": {
+      "risk_description": "该人在阳台爬梯子，如果失去平衡或打滑会导致坠落风险。这对行动不便或稳定性差的人尤其危险。",
+      "normal_video_description": "",
+      "solution_for_person": "在攀爬前确保梯子稳固安全，并始终保持与梯子的三点接触。",
+      "solution_for_hazard_source": "固定梯子防止倾倒，并确保阳台区域没有障碍物。",
+      "solution_to_prevent_recurrence": "使用稳固的梯子，必要时确保有适当的监督或协助。"
+    },
+    "4": {
+      "risk_description": "此人正站在靠墙倾斜的梯子上，存在坠落并可能受伤的风险。梯子的位置和此人的平衡是判断潜在后果严重程度的关键因素。",
+      "normal_video_description": "视频显示有人在建筑物外试图爬梯子，可能导致跌倒受伤。",
+      "solution_for_person": "在攀爬前确保梯子放置在稳固的表面上并保持安全角度。检查梯子的稳定性，必要时进行固定。",
+      "solution_for_hazard_source": "",
+      "solution_to_prevent_recurrence": "定期检查梯子是否有损坏或磨损，必要时予以更换。对使用者进行正确的梯子使用和安全防范培训。"
+    }
+  }
+}

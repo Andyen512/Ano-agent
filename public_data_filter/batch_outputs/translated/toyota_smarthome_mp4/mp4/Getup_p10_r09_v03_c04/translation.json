@@ -1,0 +1,40 @@
+{
+  "video_key": "toyota_smarthome_mp4/mp4/Getup_p10_r09_v03_c04",
+  "translations": {
+    "0": {
+      "risk_description": "老年人由于坐在沙发上的姿势以及缺乏支撑，存在跌倒风险。",
+      "normal_video_description": "",
+      "solution_for_person": "照护者应帮助老年人找到更安全的坐姿，例如使用有良好靠背支撑的椅子。",
+      "solution_for_hazard_source": "照护者应确保客厅没有绊倒危险，并确保老年人在沙发上坐着时有适当的支撑。",
+      "solution_to_prevent_recurrence": "照护者应定期检查老年人的安全状况，并根据需要进行调整以防止跌倒。"
+    },
+    "1": {
+      "risk_description": "此人正以一种别扭的姿势躺在沙发上，这可能导致其在试图坐起时跌倒或失去平衡。",
+      "normal_video_description": "一位老年人躺在客厅的绿色沙发上，逐渐坐起并调整姿势。",
+      "solution_for_person": "确保此人缓慢小心地坐起，避免可能导致跌倒的突然动作。",
+      "solution_for_hazard_source": "",
+      "solution_to_prevent_recurrence": "鼓励此人逐步坐起，并在需要时使用附近的家具支撑。"
+    },
+    "2": {
+      "risk_description": "",
+      "normal_video_description": "一位老年人躺在客厅的绿色L形沙发上，然后坐起并整理头发。该场景描述的是正常日常活动，没有任何危险或不稳定的迹象。",
+      "solution_for_person": "",
+      "solution_for_hazard_source": "",
+      "solution_to_prevent_recurrence": ""
+    },
+    "3": {
+      "risk_description": "老年人以可能导致跌倒的姿势躺在沙发上，如果在没有支撑的情况下试图坐起，可能发生跌倒。",
+      "normal_video_description": "",
+      "solution_for_person": "老年人在试图坐起之前应先用手支撑。",
+      "solution_for_hazard_source": "确保沙发有扶手或添加靠垫以提供支撑。",
+      "solution_to_prevent_recurrence": "在背后放置支撑性枕头或靠垫以增加稳定性。"
+    },
+    "4": {
+      "risk_description": "此人由于姿势以及明显的头晕或方向感混乱，存在从沙发上跌倒的风险。",
+      "normal_video_description": "",
+      "solution_for_person": "坐直并小心地从沙发上站起以避免跌倒。",
+      "solution_for_hazard_source": "",
+      "solution_to_prevent_recurrence": "确保沙发周围没有可能造成绊倒或跌倒的障碍物。"
+    }
+  }
+}

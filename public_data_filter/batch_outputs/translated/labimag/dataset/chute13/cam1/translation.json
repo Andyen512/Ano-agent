@@ -1,0 +1,40 @@
+{
+  "video_key": "labimag/dataset/chute13/cam1",
+  "translations": {
+    "0": {
+      "risk_description": "看到这位年轻人试图在沙发上坐起来，结果向后倒在了地上。这种行为偏离了沙发的正常用途，存在受伤风险。",
+      "normal_video_description": "视频显示一位年轻人走进客厅，坐在沙发上，然后向后倒在地上。视频的其余部分显示这位年轻人在房间里走动并与他人互动。",
+      "solution_for_person": "应该帮助此人正确使用沙发，并建议其慢慢坐起来以避免跌倒。",
+      "solution_for_hazard_source": "未发现具体的危险源。",
+      "solution_to_prevent_recurrence": "此人在使用沙发时应受到监督，可以添加安全措施如扶手或垫子来防止跌倒。"
+    },
+    "1": {
+      "risk_description": "此人先躺在沙发上，然后躺在床垫上，两者似乎都放在地板上，没有适当的支撑或安全护栏，增加了跌倒和受伤的风险。",
+      "normal_video_description": "一个人走进房间，先躺在沙发上，然后躺在地板上的床垫上，而其他人则在背景中的桌子旁工作。",
+      "solution_for_person": "避免在没有适当支撑或安全措施的情况下直接躺在地板上。",
+      "solution_for_hazard_source": "提供稳定且抬高的表面供躺卧，而不是直接躺在地板上。",
+      "solution_to_prevent_recurrence": "确保所有休息区域都适当抬高并固定，以防止跌倒。"
+    },
+    "2": {
+      "risk_description": "",
+      "normal_video_description": "一位年轻人走进客厅，躺在沙发上，然后起身离开。房间里摆放着家具和设备，但没有观察到危险活动或隐患。",
+      "solution_for_person": "",
+      "solution_for_hazard_source": "",
+      "solution_to_prevent_recurrence": ""
+    },
+    "3": {
+      "risk_description": "",
+      "normal_video_description": "视频显示一间客厅，一个人四处走动，躺在沙发上，然后移到床垫上。房间光线充足，摆放着各种家具和装饰品。",
+      "solution_for_person": "",
+      "solution_for_hazard_source": "",
+      "solution_to_prevent_recurrence": ""
+    },
+    "4": {
+      "risk_description": "此人试图坐在放在地板上的床垫上，如果失去平衡可能会导致跌倒。由于表面不稳定，这个动作存在受伤风险。",
+      "normal_video_description": "视频显示一个人在客厅环境中，试图坐在直接放在地板上的床垫上，这不是安全或稳定的坐具表面。",
+      "solution_for_person": "确保床垫在使用前已正确固定且稳定，以防止跌倒。",
+      "solution_for_hazard_source": "",
+      "solution_to_prevent_recurrence": "为这个人提供适当的支撑或更稳定的座位选择，而不是使用放在地板上的床垫。"
+    }
+  }
+}

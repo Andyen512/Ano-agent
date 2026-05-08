@@ -1,0 +1,40 @@
+{
+  "video_key": "web_h264/douyin__7458598828694981888",
+  "translations": {
+    "0": {
+      "risk_description": "孩子在不稳定的马桶座圈上玩耍，有跌倒受伤的风险。",
+      "normal_video_description": "",
+      "solution_for_person": "看护人应密切监督孩子，确保他们不在马桶座上玩耍。",
+      "solution_for_hazard_source": "浴室的设计应考虑安全，例如安装护栏或防滑地板。",
+      "solution_to_prevent_recurrence": "看护人应向孩子讲解在马桶座上玩耍的危险，确保他们理解浴室安全的重要性。"
+    },
+    "1": {
+      "risk_description": "孩子坐在放置在地面上的小型便盆上，可能不稳或过高，增加跌倒风险。",
+      "normal_video_description": "一个孩子坐在浴室里的小便盆上，似乎在玩耍或调整姿势，然后离开便盆。",
+      "solution_for_person": "密切监督孩子，确保他们稳稳坐在便盆上。",
+      "solution_for_hazard_source": "使用适合孩子身高和稳定性的便盆。",
+      "solution_to_prevent_recurrence": "在便盆下放置防滑垫，并确保便盆高度安全适合孩子。"
+    },
+    "2": {
+      "risk_description": "一个幼儿坐在高公共马桶座上失去平衡，向后倒在地板上，因高度和硬地面而有受伤风险。",
+      "normal_video_description": "",
+      "solution_for_person": "在公共厕所使用时，成人应在场监督并帮助孩子。",
+      "solution_for_hazard_source": "安装安全座椅或踏脚凳以降低高度差，为孩子提供更好的稳定性。",
+      "solution_to_prevent_recurrence": "教育看护人在公共厕所始终监督幼儿，并考虑使用儿童专用马桶或安全辅助装置。"
+    },
+    "3": {
+      "risk_description": "孩子蹲在小马桶上，可能导致不稳并跌倒，尤其是失去平衡时。",
+      "normal_video_description": "",
+      "solution_for_person": "确保孩子在使用马桶时有人监督，必要时提供额外支撑。",
+      "solution_for_hazard_source": "使用稳固且尺寸适合孩子身高的马桶，以防止跌倒。",
+      "solution_to_prevent_recurrence": "安装儿童友好型马桶或便盆座，提供更好的稳定性和支撑。"
+    },
+    "4": {
+      "risk_description": "孩子有掉进马桶的风险，可能导致严重伤害。孩子的姿势和靠近马桶边缘，使其意外跌倒的风险很大。",
+      "normal_video_description": "",
+      "solution_for_person": "确保孩子在马桶附近时始终有人监督，以防止跌倒。",
+      "solution_for_hazard_source": "在马桶周围安装安全护栏或屏障，防止孩子爬进去。",
+      "solution_to_prevent_recurrence": "教育孩子关于在马桶附近玩耍的危险，并制定明确的浴室安全规则。"
+    }
+  }
+}

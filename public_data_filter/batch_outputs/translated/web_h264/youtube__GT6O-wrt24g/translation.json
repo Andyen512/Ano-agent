@@ -1,0 +1,40 @@
+{
+  "video_key": "web_h264/youtube__GT6O-wrt24g",
+  "translations": {
+    "0": {
+      "risk_description": "孩子们正在卧室里玩耍，其中一个在抽屉柜上攀爬，这可能导致跌倒并受伤。",
+      "normal_video_description": "孩子们正在卧室里玩耍，其中一个在抽屉柜上攀爬，这可能导致跌倒并受伤。",
+      "solution_for_person": "成人看管是防止跌倒并确保孩子们安全的必要条件。",
+      "solution_for_hazard_source": "移除任何可能导致跌倒的不稳定家具或物品。",
+      "solution_to_prevent_recurrence": "在楼梯口和卧室周围安装安全护栏，以阻止进入危险区域。"
+    },
+    "1": {
+      "risk_description": "两个孩子在玩一个摇摇欲坠地放在另一个孩子身上的抽屉柜。如果抽屉柜倒塌，可能会压倒在下面的孩子，导致严重受伤或死亡。",
+      "normal_video_description": "视频显示两个幼儿在卧室里玩耍，抽屉柜翻倒，把一个孩子压在下面。",
+      "solution_for_person": "应立即把孩子从抽屉柜下移出，并在玩耍时密切看管。",
+      "solution_for_hazard_source": "应将抽屉柜固定在墙上以防止倾倒。",
+      "solution_to_prevent_recurrence": "在家中所有抽屉柜和重型家具上安装防倾倒支架。"
+    },
+    "2": {
+      "risk_description": "一个沉重的抽屉柜倾倒压在孩子身上，造成压伤的高风险。另一个孩子也面临被倒塌家具压倒的直接危险。",
+      "normal_video_description": "",
+      "solution_for_person": "看护者应立即介入，抬起抽屉柜把孩子救出，并呼叫急救。",
+      "solution_for_hazard_source": "将抽屉柜固定在墙上以防止倾倒。",
+      "solution_to_prevent_recurrence": "在所有高大家具上安装防倾倒支架，并确保将重物放在较低的架子上。"
+    },
+    "3": {
+      "risk_description": "孩子们在玩抽屉柜，抽屉柜可能会倾倒，存在跌倒或受伤的风险。",
+      "normal_video_description": "",
+      "solution_for_person": "确保孩子们在玩耍重型家具时有看管，并教育他们不要攀爬家具。",
+      "solution_for_hazard_source": "使用家具稳定器或把抽屉柜固定在墙上，以防止倾倒。",
+      "solution_to_prevent_recurrence": "在该区域周围安装安全门或护栏，防止幼儿接触重型家具。"
+    },
+    "4": {
+      "risk_description": "视频显示婴儿在婴儿床里，如果婴儿床未固定好，存在跌倒或不稳定的潜在风险。旁边还有一个抽屉柜，如果不稳定，也可能造成倾倒危险。",
+      "normal_video_description": "视频显示新闻主播报道关于双胞胎婴儿因跌倒受伤的故事，画面中有婴儿在婴儿床和卧室里的抽屉柜。",
+      "solution_for_person": "确保婴儿床和抽屉柜固定牢靠且稳固，以防止任何跌倒或不稳定。",
+      "solution_for_hazard_source": "",
+      "solution_to_prevent_recurrence": "定期检查婴儿床和抽屉柜是否有磨损或损坏的迹象，这些可能影响其稳定性。"
+    }
+  }
+}

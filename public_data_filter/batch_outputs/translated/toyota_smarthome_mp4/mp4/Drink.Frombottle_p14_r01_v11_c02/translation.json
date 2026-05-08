@@ -1,0 +1,40 @@
+{
+  "video_key": "toyota_smarthome_mp4/mp4/Drink.Frombottle_p14_r01_v11_c02",
+  "translations": {
+    "0": {
+      "risk_description": "该人正坐在餐桌旁，似乎难以保持平衡，可能导致跌倒。",
+      "normal_video_description": "该人正坐在餐桌旁，享用美食并与房间里的人交谈。",
+      "solution_for_person": "应为该人在桌旁就座时提供照护者或家属的协助以确保其安全。",
+      "solution_for_hazard_source": "应检查餐桌及其周围环境是否存在可能导致该人不稳定的潜在危险，如湿滑表面或可能阻碍移动的物品。",
+      "solution_to_prevent_recurrence": "在桌旁就座时应密切观察该人，并根据需要对座位或周围环境进行必要的调整，以防止再次跌倒。"
+    },
+    "1": {
+      "risk_description": "该人正在饮用罐装饮料，其中可能含有如果摄入不当或过量会对身体有害的成分。",
+      "normal_video_description": "一个人坐在餐桌旁，与桌上的物品互动并饮用罐装饮料。",
+      "solution_for_person": "确保罐中内容已知且安全可饮用。",
+      "solution_for_hazard_source": "",
+      "solution_to_prevent_recurrence": "在饮用前确认所有饮料的身份及安全性。"
+    },
+    "2": {
+      "risk_description": "",
+      "normal_video_description": "一位中年人坐在光线充足的房间里的餐桌旁，用杯子喝水。该人似乎在进行随意的活动，可能是进食或饮水，没有表现出痛苦或不寻常行为的迹象。环境安静整洁，没有可见的危险或风险。",
+      "solution_for_person": "",
+      "solution_for_hazard_source": "",
+      "solution_to_prevent_recurrence": ""
+    },
+    "3": {
+      "risk_description": "孩子正在进食，桌上有食物和饮料，如果监督不当可能存在窒息或误食的风险。",
+      "normal_video_description": "",
+      "solution_for_person": "确保在孩子进食时进行监督，以防止窒息或误食有害物品。",
+      "solution_for_hazard_source": "将小物件和饮料放在孩子够不到的地方，或使用儿童安全容器。",
+      "solution_to_prevent_recurrence": "在用餐时始终监督孩子，确保用餐区域对儿童安全。"
+    },
+    "4": {
+      "risk_description": "",
+      "normal_video_description": "一位中年人坐在餐桌旁进食和饮水。环境看起来安全，没有可见的危险或风险。",
+      "solution_for_person": "",
+      "solution_for_hazard_source": "",
+      "solution_to_prevent_recurrence": ""
+    }
+  }
+}

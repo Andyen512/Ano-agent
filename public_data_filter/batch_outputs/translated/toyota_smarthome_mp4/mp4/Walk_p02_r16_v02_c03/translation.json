@@ -1,0 +1,40 @@
+{
+  "video_key": "toyota_smarthome_mp4/mp4/Walk_p02_r16_v02_c03",
+  "translations": {
+    "0": {
+      "risk_description": "老人正在尝试打开一个大冰箱，这可能对他们来说不够稳定或难以操作。这可能导致跌倒或受伤。",
+      "normal_video_description": "",
+      "solution_for_person": "帮助老人找到另一种取用冰箱内物品的方法，例如使用踏脚凳或请他人帮忙。",
+      "solution_for_hazard_source": "确保冰箱牢固固定在地板上，且周围区域没有绊倒危险。",
+      "solution_to_prevent_recurrence": "定期检查老人的安全状况，并帮助他们完成可能具有挑战性的任务。"
+    },
+    "1": {
+      "risk_description": "",
+      "normal_video_description": "一位老人走进厨房，走向烤箱，并打开烤箱门。",
+      "solution_for_person": "",
+      "solution_for_hazard_source": "",
+      "solution_to_prevent_recurrence": ""
+    },
+    "2": {
+      "risk_description": "",
+      "normal_video_description": "一位老人穿过现代化厨房，走向橱柜并打开它。环境整洁，动作平稳且受控，没有危险或不稳定的迹象。",
+      "solution_for_person": "",
+      "solution_for_hazard_source": "",
+      "solution_to_prevent_recurrence": ""
+    },
+    "3": {
+      "risk_description": "老人正在伸手进入橱柜，这可能会带来风险，例如失去平衡，或者橱柜门意外打开导致碰撞。",
+      "normal_video_description": "",
+      "solution_for_person": "确保老人站稳，考虑在使用橱柜时使用支撑物或扶手。",
+      "solution_for_hazard_source": "固定橱柜门，以防意外打开。",
+      "solution_to_prevent_recurrence": "在厨房橱柜附近安装额外的支撑或扶手，以帮助保持稳定。"
+    },
+    "4": {
+      "risk_description": "老人在厨房里走路不稳，可能导致跌倒和潜在受伤。该风险在约0.0秒至4.5秒之间存在。",
+      "normal_video_description": "",
+      "solution_for_person": "确保老人穿着具有良好抓地力的合适鞋子，并考虑在厨房行走时提供支持或帮助。",
+      "solution_for_hazard_source": "",
+      "solution_to_prevent_recurrence": "鼓励老人在厨房行走时缓慢而小心，并考虑在易滑倒的区域安装扶手或防滑垫。"
+    }
+  }
+}

@@ -1,0 +1,40 @@
+{
+  "video_key": "toyota_smarthome_mp4/mp4/Eat.Snack_p15_r00_v14_c03",
+  "translations": {
+    "0": {
+      "risk_description": "视频中的人正在摄入一种在厨房中不常见的物质，如果过量摄入或处理不当可能会造成危害。该人也没有遵循正确的食品处理和准备工作，这可能导致食源性疾病。",
+      "normal_video_description": "",
+      "solution_for_person": "应建议该人只摄入安全可食用的食物和饮料，并遵循正确的食品处理和准备做法，以防止食源性疾病。",
+      "solution_for_hazard_source": "该物质的来源尚不明确，但应查明并从厨房中清除，以防止继续摄入。",
+      "solution_to_prevent_recurrence": "应向该人提供正确的食品处理和准备做法的教育，以及仅食用安全食物和饮料的重要性。定期监督和监管也有助于防止该行为的再次发生。"
+    },
+    "1": {
+      "risk_description": "该人正在操作烤箱，若处理不当则有烫伤或火灾的风险。",
+      "normal_video_description": "一位老年人正待在厨房里，操作烤箱。",
+      "solution_for_person": "在触摸烤箱之前，要确保烤箱已关闭并冷却。",
+      "solution_for_hazard_source": "使用前要确认烤箱处于安全的运行状态。",
+      "solution_to_prevent_recurrence": "定期检查烤箱的安全功能，并进行正确操作的教育。"
+    },
+    "2": {
+      "risk_description": "",
+      "normal_video_description": "一位老年人站在厨房里，一边吃东西一边看着烤箱。该人在厨房空间走动时没有任何不稳定或危险的迹象。",
+      "solution_for_person": "",
+      "solution_for_hazard_source": "",
+      "solution_to_prevent_recurrence": ""
+    },
+    "3": {
+      "risk_description": "该老年人把一块食物靠近嘴边，如果吞咽困难可能会有窒息风险。",
+      "normal_video_description": "",
+      "solution_for_person": "确保该老年人慢慢进食并充分咀嚼，以避免窒息。",
+      "solution_for_hazard_source": "将食物保持在离口一定安全距离，以降低窒息风险。",
+      "solution_to_prevent_recurrence": "在进食时监督该老年人，并鼓励其养成细心的饮食习惯。"
+    },
+    "4": {
+      "risk_description": "",
+      "normal_video_description": "视频显示一位老年人在厨房里随意走动并吃东西。场景中没有可见的风险或危险。",
+      "solution_for_person": "",
+      "solution_for_hazard_source": "",
+      "solution_to_prevent_recurrence": ""
+    }
+  }
+}

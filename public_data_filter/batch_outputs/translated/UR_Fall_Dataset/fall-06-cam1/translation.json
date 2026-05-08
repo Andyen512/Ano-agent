@@ -1,0 +1,40 @@
+{
+  "video_key": "UR_Fall_Dataset/fall-06-cam1",
+  "translations": {
+    "0": {
+      "risk_description": "可以看到这位年轻人在客厅摔倒在地上，存在因跌倒导致的受伤风险。",
+      "normal_video_description": "视频中显示一位年轻人坐在客厅地板上，然后摔倒在地。",
+      "solution_for_person": "应检查此人是否受伤，必要时提供急救。还应建议他们在客厅活动时更加小心，以防止再次跌倒。",
+      "solution_for_hazard_source": "应检查客厅是否存在绊倒危险，如电线或松动的地毯，并进行固定，以防再次跌倒。",
+      "solution_to_prevent_recurrence": "应鼓励此人在上下楼梯时使用扶手，并在客厅行走时避免分心，以降低跌倒风险。"
+    },
+    "1": {
+      "risk_description": "此人俯卧在地板上，若突然动作或失去意识，可能导致起身困难并有受伤风险。",
+      "normal_video_description": "可以看到一个人俯卧在看起来像是办公室或书房的地面上。",
+      "solution_for_person": "确保有人在附近，以便在他们需要起身时提供帮助。",
+      "solution_for_hazard_source": "",
+      "solution_to_prevent_recurrence": "如果必须俯卧，让此人坐在或躺在柔软的表面上。"
+    },
+    "2": {
+      "risk_description": "此人失去平衡摔倒在地板上，表明发生了超出正常活动的明显不稳定事件。",
+      "normal_video_description": "",
+      "solution_for_person": "此人应小心起身并检查是否受伤。",
+      "solution_for_hazard_source": "确保地面无障碍物，必要时提供更好的照明。",
+      "solution_to_prevent_recurrence": "必要时加强平衡训练或使用辅助设备。"
+    },
+    "3": {
+      "risk_description": "此人似乎失去平衡并摔倒在地板上，可能导致受伤风险，尤其在他们行动受限或正在康复期间。",
+      "normal_video_description": "",
+      "solution_for_person": "确保此人在跌倒后得到支撑，并检查是否受伤。",
+      "solution_for_hazard_source": "清除地面上的任何障碍物或绊倒危险。",
+      "solution_to_prevent_recurrence": "改善照明并确保通道畅通，以防止再次跌倒。"
+    },
+    "4": {
+      "risk_description": "可以看到此人向后倒在地板上，可能因撞击及潜在的头部创伤而导致严重伤害。",
+      "normal_video_description": "",
+      "solution_for_person": "确保此人仰卧，膝盖弯曲，双脚平放于地面，以减少进一步受伤的风险。",
+      "solution_for_hazard_source": "清除该区域中可能导致绊倒或跌倒的任何物品或家具。",
+      "solution_to_prevent_recurrence": "安装防滑地面，并提供正确的安全移动技巧培训，以防止跌倒。"
+    }
+  }
+}

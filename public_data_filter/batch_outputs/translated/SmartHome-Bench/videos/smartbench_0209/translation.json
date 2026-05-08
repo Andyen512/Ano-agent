@@ -1,0 +1,40 @@
+{
+  "video_key": "SmartHome-Bench/videos/smartbench_0209",
+  "translations": {
+    "0": {
+      "risk_description": "视频中的年轻人在上积雪的台阶时失去平衡并摔倒，这可能导致受伤。",
+      "normal_video_description": "",
+      "solution_for_person": "在光滑表面上行走时应更加小心，并使用扶手支撑。",
+      "solution_for_hazard_source": "危险源是光滑的积雪台阶。解决方案是清除台阶上的积雪和冰，或使用防滑表面。",
+      "solution_to_prevent_recurrence": "为防止再次发生，行人应在光滑表面上穿具有良好抓地力的适当鞋类，并在有条件时使用扶手保持平衡。"
+    },
+    "1": {
+      "risk_description": "该人在积雪的楼梯上行走时失去平衡，导致摔倒。积雪和结冰的条件增加了滑倒和跌倒的风险，可能导致受伤。",
+      "normal_video_description": "一个穿着高能见度夹克的人走下积雪的楼梯，滑倒并摔倒，然后挣扎着站起来。",
+      "solution_for_person": "在积雪条件下使用具有良好抓地力的适当鞋类，并在结冰表面上小心行走。",
+      "solution_for_hazard_source": "定期清除楼梯上的积雪和冰以减少滑倒危险。",
+      "solution_to_prevent_recurrence": "在楼梯上安装扶手，并确保使用前楼梯上没有积雪和冰。"
+    },
+    "2": {
+      "risk_description": "一名男子在试图与门廊上的某人握手时，从积雪的楼梯上滑倒并摔下。光滑的积雪台阶导致失去平衡并摔倒。",
+      "normal_video_description": "",
+      "solution_for_person": "在光滑表面上应谨慎行事，使用扶手，并穿适合冬季条件的鞋类。",
+      "solution_for_hazard_source": "清除楼梯上的积雪和冰，并撒盐，或安装防滑垫。",
+      "solution_to_prevent_recurrence": "冬季定期维护通道和楼梯，防止冰雪积聚。"
+    },
+    "3": {
+      "risk_description": "看到孩子在楼梯上跑下来并摔倒，由于光滑的积雪表面，这构成了受伤风险。",
+      "normal_video_description": "",
+      "solution_for_person": "确保孩子在楼梯附近玩耍时有人监督，并考虑清除积雪以减少滑倒危险。",
+      "solution_for_hazard_source": "清除楼梯上的积雪，确保该区域对儿童玩耍安全。",
+      "solution_to_prevent_recurrence": "在楼梯上安装防滑垫，并定期清除积雪以保持安全环境。"
+    },
+    "4": {
+      "risk_description": "穿黄色夹克的人由于光滑的积雪楼梯有摔倒风险，可能导致严重伤害。",
+      "normal_video_description": "",
+      "solution_for_person": "确保人穿具有良好抓地力的适当鞋类，并在积雪的楼梯上缓慢、小心迈步。",
+      "solution_for_hazard_source": "清除楼梯上的积雪以改善抓地力和可见度。",
+      "solution_to_prevent_recurrence": "在楼梯上安装扶手或防滑垫，以减少滑倒风险。"
+    }
+  }
+}

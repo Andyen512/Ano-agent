@@ -1,0 +1,40 @@
+{
+  "video_key": "web_h264/douyin__7289443385872567587",
+  "translations": {
+    "0": {
+      "risk_description": "看到孩子在楼梯上奔跑，这是一种潜在的跌倒危险。孩子的行为偏离了小心翼翼下楼走楼梯的正常行为。",
+      "normal_video_description": "",
+      "solution_for_person": "看护者应确保孩子在上下楼梯时始终有人监督，并应教会孩子要小心翼翼地下楼。",
+      "solution_for_hazard_source": "楼梯应安装扶手以防止跌倒。",
+      "solution_to_prevent_recurrence": "看护者应定期检查孩子的行为，并提供安全使用楼梯的指导。"
+    },
+    "1": {
+      "risk_description": "孩子在楼梯上玩耍会导致跌倒的风险，可能导致骨折或头部创伤等严重伤害。",
+      "normal_video_description": "视频显示孩子们在楼梯上玩耍，并警示这种行为的危险以及防止事故的安全提示。",
+      "solution_for_person": "当孩子靠近楼梯时要密切监督，并教育他们玩耍楼梯的危险性。",
+      "solution_for_hazard_source": "在楼梯的顶部和底部安装安全栏杆或门，以防止无人监督的进入。",
+      "solution_to_prevent_recurrence": "幼儿使用楼梯时务必陪同，并教他们扶住扶手。"
+    },
+    "2": {
+      "risk_description": "一个孩子沿着楼梯栏杆滑下并从楼梯上摔下来，导致头部先撞到台阶。这种行为明显超出了正常的玩耍，涉及直接且现实的严重伤害风险。",
+      "normal_video_description": "",
+      "solution_for_person": "成年人应立即干预，阻止孩子滑下栏杆，并在孩子摔落后确保其安全。",
+      "solution_for_hazard_source": "在楼梯的顶部和底部安装安全门或屏障，以防止无人监督的进入。",
+      "solution_to_prevent_recurrence": "教育孩子注意在楼梯和栏杆上玩耍的危险，并在玩耍时密切监督。"
+    },
+    "3": {
+      "risk_description": "看到孩子在楼梯栏杆上玩耍，这可能导致跌倒。由于栏杆作为滑道的稳定性不足，这种行为构成严重的受伤风险。",
+      "normal_video_description": "",
+      "solution_for_person": "父母或看护者应密切监督孩子，并教育他们将楼梯栏杆当作滑道的危险性。",
+      "solution_for_hazard_source": "在楼梯上安装安全门或屏障，以防止孩子进入危险区域。",
+      "solution_to_prevent_recurrence": "教育孩子安全的重要性，并在他们靠近楼梯时确保持续监督。"
+    },
+    "4": {
+      "risk_description": "视频显示孩子们在楼梯栏杆上攀爬，这会造成跌倒和潜在受伤的风险。这种行为很危险，可能导致骨折或头部受伤等严重后果。",
+      "normal_video_description": "",
+      "solution_for_person": "看护者应密切监督孩子，并阻止他们攀爬栏杆以防止跌倒。",
+      "solution_for_hazard_source": "在楼梯的顶部和底部安装安全门或屏障可以帮助防止孩子接触栏杆。",
+      "solution_to_prevent_recurrence": "教育孩子攀爬栏杆的危险性并强化安全行为可以降低再次发生的可能性。"
+    }
+  }
+}

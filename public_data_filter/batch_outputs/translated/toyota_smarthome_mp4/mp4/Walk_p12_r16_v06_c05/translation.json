@@ -1,0 +1,40 @@
+{
+  "video_key": "toyota_smarthome_mp4/mp4/Walk_p12_r16_v06_c05",
+  "translations": {
+    "0": {
+      "risk_description": "",
+      "normal_video_description": "视频中显示一位年轻人站在客厅里，面对电视。这个人似乎在观看电视上播放的节目或电影。客厅布置得很好，有一张绿色沙发、一张茶几和各种装饰品。这个人似乎专注于电视上的内容。",
+      "solution_for_person": "",
+      "solution_for_hazard_source": "",
+      "solution_to_prevent_recurrence": ""
+    },
+    "1": {
+      "risk_description": "",
+      "normal_video_description": "一个人在客厅里玩电子游戏，四处走动并与电视互动。",
+      "solution_for_person": "",
+      "solution_for_hazard_source": "",
+      "solution_to_prevent_recurrence": ""
+    },
+    "2": {
+      "risk_description": "",
+      "normal_video_description": "一个年轻人站在客厅里，面对挂在墙上的电视。房间里有一张绿色沙发、一把白色扶手椅、一张茶几和一个带有植物的低矮媒体柜。这个人似乎在观看电视，或者以平静正常的方式与柜子上的物品互动。",
+      "solution_for_person": "",
+      "solution_for_hazard_source": "",
+      "solution_to_prevent_recurrence": ""
+    },
+    "3": {
+      "risk_description": "",
+      "normal_video_description": "一位年长者站在客厅里，面对电视，似乎在操作手里的东西，可能是遥控器或手机。房间光线充足，配备有沙发、茶几和植物。",
+      "solution_for_person": "",
+      "solution_for_hazard_source": "",
+      "solution_to_prevent_recurrence": ""
+    },
+    "4": {
+      "risk_description": "",
+      "normal_video_description": "一位年长者站在客厅里，面对挂在墙上的电视。他们似乎在看电视，偶尔会挥动手臂，仿佛在和屏幕上的内容互动。房间光线充足，布置有绿色沙发、茶几和各种装饰品。",
+      "solution_for_person": "",
+      "solution_for_hazard_source": "",
+      "solution_to_prevent_recurrence": ""
+    }
+  }
+}

@@ -1,0 +1,40 @@
+{
+  "video_key": "web_h264/bilibili__BV14W411K7Nv",
+  "translations": {
+    "0": {
+      "risk_description": "看到这位年轻人跑步并掉进一个小蓝色塑料池里，这不是安全或稳定的活动。这可能导致受伤或损坏水池。",
+      "normal_video_description": "视频显示一位年轻人在院子里跑步并掉进一个小蓝色塑料池里。",
+      "solution_for_person": "应该监督这个人，并鼓励他参与更安全的活动。",
+      "solution_for_hazard_source": "应该将水池从院子里移走，以防止进一步的事故。",
+      "solution_to_prevent_recurrence": "应该教育这个人安全的重要性，并鼓励他参与适合年龄的活动。"
+    },
+    "1": {
+      "risk_description": "这位年轻人进入蓝色塑料池时没有检查其深度或稳定性，有跌倒或溺水的风险。",
+      "normal_video_description": "一位年轻人走进院子里的小蓝色塑料池，躺下并溅水。",
+      "solution_for_person": "进入前应检查水池的深度和稳定性。",
+      "solution_for_hazard_source": "确保水池稳稳地放置在稳定的表面上。",
+      "solution_to_prevent_recurrence": "在使用前教育关于检查水深和稳定性的重要性。"
+    },
+    "2": {
+      "risk_description": "一个人在湿滑或不平坦的道路上失去平衡，后仰跌入小水池，显示明显的滑倒危险。",
+      "normal_video_description": "",
+      "solution_for_person": "这个人应立即离开水，擦干身体，并在再次行动前检查是否有任何伤害。",
+      "solution_for_hazard_source": "应保持道路干燥且无障碍物，以防止将来滑倒。",
+      "solution_to_prevent_recurrence": "在容易潮湿的区域安装更好的排水系统或防滑表面。"
+    },
+    "3": {
+      "risk_description": "看到这位年轻人躺在水池附近的地板上，如果他们移动或滑倒，可能会造成溺水风险。",
+      "normal_video_description": "",
+      "solution_for_person": "确保水池周围区域畅通，并监督这位年轻人，防止意外跌倒或滑倒。",
+      "solution_for_hazard_source": "移除或固定水池区域附近的小物体，以减少绊倒或跌倒的风险。",
+      "solution_to_prevent_recurrence": "在水池周围安装安全屏障，并确保靠近水时进行持续监督。"
+    },
+    "4": {
+      "risk_description": "这个人躺在院子里的小充气池上，这可能会造成跌倒和受伤的风险。",
+      "normal_video_description": "视频显示一个人躺在院子里的一个小充气池上。",
+      "solution_for_person": "",
+      "solution_for_hazard_source": "",
+      "solution_to_prevent_recurrence": ""
+    }
+  }
+}

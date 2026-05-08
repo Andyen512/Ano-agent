@@ -1,0 +1,40 @@
+{
+  "video_key": "labimag/dataset/chute02/cam5",
+  "translations": {
+    "0": {
+      "risk_description": "这个年轻人躺在地板上，这不是一个正常的姿势。这可能会导致跌倒或不稳定，从而可能导致受伤。",
+      "normal_video_description": "视频显示一个年轻人走进房间，然后躺在地板上。视频的其余部分显示该年轻人起身并走出房间。",
+      "solution_for_person": "应帮助此人从地板上站起来，并检查是否有受伤。",
+      "solution_for_hazard_source": "应检查地板是否存在可能导致该人跌倒的危险。",
+      "solution_to_prevent_recurrence": "此人在房间里走动时应更加小心，以避免绊倒或滑倒。"
+    },
+    "1": {
+      "risk_description": "一个人俯卧在房间中央的垫子上，可能会面临从垫子上掉落或被进入空间的人绊倒的风险。",
+      "normal_video_description": "视频显示了一间配有各种桌子、椅子和设备的教室。一个人进入房间，走到中央，俯卧在垫子上。其他人员进入并观察现场。",
+      "solution_for_person": "确保该人受到监督并安全地放在垫子上，以防止滑落或滚落。",
+      "solution_for_hazard_source": "清除垫子周围的区域，尽量减少因家具或设备导致的绊倒危险。",
+      "solution_to_prevent_recurrence": "制定涉及垫子的活动安全规程，例如将垫子固定在地板上并确保参与者了解周围环境。"
+    },
+    "2": {
+      "risk_description": "",
+      "normal_video_description": "视频显示一个人走进房间，躺在房间中央的床垫上，然后起身。背景中有其他人，房间看起来是一间实验室或办公室，里面有各种设备和家具。",
+      "solution_for_person": "",
+      "solution_for_hazard_source": "",
+      "solution_to_prevent_recurrence": ""
+    },
+    "3": {
+      "risk_description": "一个人正躺在地板上，这可能会给行动不便或平衡有问题的人带来滑倒或受伤的风险。",
+      "normal_video_description": "",
+      "solution_for_person": "确保此人安全地躺在地上，如果他们无法自行起身，考虑提供帮助。",
+      "solution_for_hazard_source": "清理地面区域，以防止绊倒或滑倒危险。",
+      "solution_to_prevent_recurrence": "固定工作空间，以防止未来发生类似事故。"
+    },
+    "4": {
+      "risk_description": "此人进入房间后跌倒在地，可能导致严重伤害。从他们进入房间到躺在地板上的整个过程都存在风险。",
+      "normal_video_description": "",
+      "solution_for_person": "确保此人未受伤，必要时提供急救。",
+      "solution_for_hazard_source": "清除地板上任何可能的绊倒危险或障碍物。",
+      "solution_to_prevent_recurrence": "改善照明和地面条件，以降低跌倒风险。"
+    }
+  }
+}

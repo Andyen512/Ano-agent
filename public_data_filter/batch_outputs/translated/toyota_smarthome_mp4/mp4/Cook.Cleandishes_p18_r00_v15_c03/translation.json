@@ -1,0 +1,40 @@
+{
+  "video_key": "toyota_smarthome_mp4/mp4/Cook.Cleandishes_p18_r00_v15_c03",
+  "translations": {
+    "0": {
+      "risk_description": "",
+      "normal_video_description": "视频显示一名中年人在厨房里与嵌入式烤箱互动。该人似乎正在检查或从烤箱中取东西。厨房配备了现代化的电器，该人穿着休闲装。这个场景是典型的日常厨房活动，没有显示出任何风险或异常。",
+      "solution_for_person": "",
+      "solution_for_hazard_source": "",
+      "solution_to_prevent_recurrence": ""
+    },
+    "1": {
+      "risk_description": "此人正在与烤箱互动，如果烤箱是热的或装有热食物，则存在烫伤风险。",
+      "normal_video_description": "一位老年人在厨房里与烤箱互动。",
+      "solution_for_person": "打开烤箱门前，确保烤箱未在使用中或已经冷却。",
+      "solution_for_hazard_source": "在靠近之前，确认烤箱已关闭且可以安全打开。",
+      "solution_to_prevent_recurrence": "打开烤箱门前务必检查烤箱状态。"
+    },
+    "2": {
+      "risk_description": "",
+      "normal_video_description": "一位老年人站在现代化厨房里，正在与烤箱互动。他打开烤箱门，向内查看，然后关闭，进行日常厨房活动，没有任何危险或不稳定的迹象。",
+      "solution_for_person": "",
+      "solution_for_hazard_source": "",
+      "solution_to_prevent_recurrence": ""
+    },
+    "3": {
+      "risk_description": "老年人正在伸手进入烤箱，存在烫伤或接触高温的风险。",
+      "normal_video_description": "",
+      "solution_for_person": "打开烤箱前确保其完全冷却，并考虑使用隔热手套。",
+      "solution_for_hazard_source": "安装安全装置以防止意外打开烤箱门。",
+      "solution_to_prevent_recurrence": "使用计时器提醒关闭烤箱，并在处理前确保其适当冷却。"
+    },
+    "4": {
+      "risk_description": "孩子站在烤箱前，如果烤箱开着或有裸露的电线，可能会造成触电风险。此外，如果烤箱开着时触摸其外部，可能会被烫伤。",
+      "normal_video_description": "",
+      "solution_for_person": "成年人应监督孩子，确保他们不会打开烤箱或触摸任何裸露的电线。",
+      "solution_for_hazard_source": "不使用烤箱时应拔掉电源，以防止触电。",
+      "solution_to_prevent_recurrence": "应该教育孩子有关电气安全知识，以及在没有成年人监督的情况下触摸电器的危险。"
+    }
+  }
+}

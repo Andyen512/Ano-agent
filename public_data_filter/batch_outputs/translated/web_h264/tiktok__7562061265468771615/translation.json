@@ -1,0 +1,40 @@
+{
+  "video_key": "web_h264/tiktok__7562061265468771615",
+  "translations": {
+    "0": {
+      "risk_description": "这位年轻人被看到从阳台上坠落，这是一个潜在的跌倒/不稳定风险。如果该人没有穿戴防护装备或阳台栏杆不安全，坠落可能导致受伤。",
+      "normal_video_description": "",
+      "solution_for_person": "确保该年轻人穿戴适当的安全装备，如安全带或头盔，并且阳台栏杆牢固且符合安全标准。",
+      "solution_for_hazard_source": "检查阳台栏杆是否有损坏或不稳定，必要时进行维修。确保安全装备状况良好且佩戴合适。",
+      "solution_to_prevent_recurrence": "定期检查阳台及其栏杆是否有磨损或损坏的迹象。对该年轻人进行安全措施培训，并在他们遵守安全规程时提供持续监督。"
+    },
+    "1": {
+      "risk_description": "视频显示多人在门廊、台阶和结冰的人行道上失去平衡并摔倒，这可能导致瘀伤、扭伤或骨折等伤害。",
+      "normal_video_description": "",
+      "solution_for_person": "",
+      "solution_for_hazard_source": "",
+      "solution_to_prevent_recurrence": ""
+    },
+    "2": {
+      "risk_description": "看到一个孩子从门廊台阶上摔下来，这表明由于高度和缺乏安全措施，存在明显的受伤风险。",
+      "normal_video_description": "",
+      "solution_for_person": "确保该孩子受到密切监督，并考虑在台阶上安装安全栏杆或防滑垫。",
+      "solution_for_hazard_source": "在台阶上安装安全栏杆或防滑垫，以防止将来摔倒。",
+      "solution_to_prevent_recurrence": "定期检查和维护门廊及台阶，确保它们对儿童安全。"
+    },
+    "3": {
+      "risk_description": "看到一个孩子从阳台上摔下来，由于高度和可能的冲击，这构成严重的受伤风险。",
+      "normal_video_description": "",
+      "solution_for_person": "确保阳台有牢固的栏杆，并在儿童靠近边缘时进行密切监督。",
+      "solution_for_hazard_source": "安装额外的安全屏障或门，以防止儿童进入阳台。",
+      "solution_to_prevent_recurrence": "定期检查并维护阳台上的安全设施，并对儿童进行有关攀爬或靠近边缘危险的教育。"
+    },
+    "4": {
+      "risk_description": "视频显示一个人在阳台上行走，如果失去平衡可能导致跌倒。这种风险应被认真对待，因为跌倒可能导致严重伤害。",
+      "normal_video_description": "",
+      "solution_for_person": "确保该人穿着具有良好抓地力的合适鞋子，并在阳台上行走时保持谨慎。",
+      "solution_for_hazard_source": "在阳台上安装扶手或其他安全措施，以防止跌倒。",
+      "solution_to_prevent_recurrence": "定期检查阳台是否存在潜在危险，并及时处理。"
+    }
+  }
+}

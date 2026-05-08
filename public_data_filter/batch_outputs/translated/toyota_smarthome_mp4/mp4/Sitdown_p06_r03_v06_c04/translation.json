@@ -1,0 +1,40 @@
+{
+  "video_key": "toyota_smarthome_mp4/mp4/Sitdown_p06_r03_v06_c04",
+  "translations": {
+    "0": {
+      "risk_description": "老年人由于客厅凌乱以及使用助行器而有跌倒风险。房间里有多件物品和家具，增加了不稳定的风险。",
+      "normal_video_description": "可以看到老年人在整理客厅并使用助行器走动。房间里凌乱地摆放着各种物品和家具。",
+      "solution_for_person": "护理人员应帮助老年人清理杂物，并以更安全的方式摆放家具。护理人员还应在老年人使用助行器时提供支持和监督。",
+      "solution_for_hazard_source": "护理人员应确保客厅没有绊倒危险，且助行器处于良好状态。",
+      "solution_to_prevent_recurrence": "护理人员应定期检查客厅是否存在潜在危险，并采取措施预防跌倒。护理人员还应鼓励老年人参加提高平衡力和力量的锻炼。"
+    },
+    "1": {
+      "risk_description": "",
+      "normal_video_description": "一位老年人站在绿色分体式沙发旁边，随后坐下。场景中包括一张摆放小件物品的茶几和一张放有书籍和台灯的边桌。",
+      "solution_for_person": "",
+      "solution_for_hazard_source": "",
+      "solution_to_prevent_recurrence": ""
+    },
+    "2": {
+      "risk_description": "",
+      "normal_video_description": "可以看到老年人在客厅里站在绿色沙发旁边，然后坐下。环境显得平静安全，没有明显的危险或冒险行为。",
+      "solution_for_person": "",
+      "solution_for_hazard_source": "",
+      "solution_to_prevent_recurrence": ""
+    },
+    "3": {
+      "risk_description": "老年人弯腰向茶几，这可能因不稳或行动受限而导致跌倒。",
+      "normal_video_description": "",
+      "solution_for_person": "确保老年人慢慢坐下，并在伸手取桌上的物品时保持平衡。",
+      "solution_for_hazard_source": "将茶几保持在舒适的高度，以减少弯腰的需求。",
+      "solution_to_prevent_recurrence": "使用稳固的椅子或凳子来取桌上的物品，以防止跌倒。"
+    },
+    "4": {
+      "risk_description": "该人弯腰从地板上捡起物品，若不小心可能导致跌倒。此动作存在因滑倒或失去平衡而受伤的风险。",
+      "normal_video_description": "视频显示老年人在客厅环境中进行日常活动，由于弯腰捡取地板上的物品而带有跌倒风险。",
+      "solution_for_person": "确保该人有良好照明和畅通通道以避免绊倒危险；考虑使用夹取器捡起地板上的物品，以降低跌倒风险。",
+      "solution_for_hazard_source": "",
+      "solution_to_prevent_recurrence": "鼓励该人在必要时使用拐杖或助行器等辅助设备，并保持环境整洁以最大限度降低绊倒危险。"
+    }
+  }
+}

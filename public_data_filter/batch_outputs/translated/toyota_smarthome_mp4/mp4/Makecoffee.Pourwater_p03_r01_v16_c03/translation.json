@@ -1,0 +1,40 @@
+{
+  "video_key": "toyota_smarthome_mp4/mp4/Makecoffee.Pourwater_p03_r01_v16_c03",
+  "translations": {
+    "0": {
+      "risk_description": "此人正伸手去够高架上的物品，如果失去平衡可能会导致跌倒或失衡。",
+      "normal_video_description": "此人在厨房准备饮料，属于日常活动。",
+      "solution_for_person": "确保此人站稳，必要时可考虑使用踏凳。",
+      "solution_for_hazard_source": "固定高架子上的物品，防止掉落。",
+      "solution_to_prevent_recurrence": "鼓励此人使用正确的搬运技巧，必要时提供额外支撑或设备。"
+    },
+    "1": {
+      "risk_description": "此人在操作容器时身体越过柜台，可能导致失衡、跌倒或与柜台边缘碰撞。",
+      "normal_video_description": "一名人员正位于厨房，在水槽附近的台面上处理物品。",
+      "solution_for_person": "保持稳定站姿，避免在处理物品时身体过度前倾。",
+      "solution_for_hazard_source": "确保台面区域没有可能导致绊倒或失衡的障碍物。",
+      "solution_to_prevent_recurrence": "伸手取物时保持与台面边缘的安全距离。"
+    },
+    "2": {
+      "risk_description": "",
+      "normal_video_description": "一位年轻人站在厨房里，倚着柜台操作台面上的物品，如咖啡机或类似的电器。此人似乎在进行日常家务，未表现出失衡、危险或异常行为。",
+      "solution_for_person": "",
+      "solution_for_hazard_source": "",
+      "solution_to_prevent_recurrence": ""
+    },
+    "3": {
+      "risk_description": "此人正越过柜台伸手，若失去平衡或滑倒，可能会与尖锐物体发生碰撞，产生风险。",
+      "normal_video_description": "",
+      "solution_for_person": "确保此人在伸手时站稳，必要时可考虑使用踏凳。",
+      "solution_for_hazard_source": "保持台面无锐利物品，确保该区域光线充足，以防绊倒。",
+      "solution_to_prevent_recurrence": "在水槽附近铺设防滑垫，并保持台面整洁，以降低事故风险。"
+    },
+    "4": {
+      "risk_description": "",
+      "normal_video_description": "一名人员站在现代化厨房里，在台面上准备食物。他们正在使用搅拌机并将手伸入其中，若操作不当可能造成伤害。",
+      "solution_for_person": "",
+      "solution_for_hazard_source": "",
+      "solution_to_prevent_recurrence": ""
+    }
+  }
+}

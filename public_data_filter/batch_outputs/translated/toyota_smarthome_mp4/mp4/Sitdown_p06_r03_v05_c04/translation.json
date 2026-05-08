@@ -1,0 +1,40 @@
+{
+  "video_key": "toyota_smarthome_mp4/mp4/Sitdown_p06_r03_v05_c04",
+  "translations": {
+    "0": {
+      "risk_description": "老年人因客厅环境凌乱以及使用助行器而面临跌倒风险。",
+      "normal_video_description": "老年人在堆满书籍、袋子、笔记本电脑等物品的客厅里使用助行器走动，似乎在艰难地穿行。",
+      "solution_for_person": "护理人员应帮助老年人清理杂物，确保行走路径安全。",
+      "solution_for_hazard_source": "护理人员应清除客厅中的绊倒隐患，如电线或松动的地毯。",
+      "solution_to_prevent_recurrence": "护理人员应定期检查客厅是否存在潜在危险，并确保老年人的助行器状况良好。"
+    },
+    "1": {
+      "risk_description": "",
+      "normal_video_description": "老年人站在绿色分段式沙发旁，然后坐下。房间光线充足，摆放有植物、咖啡桌以及沙发和桌子上的各种物品。",
+      "solution_for_person": "",
+      "solution_for_hazard_source": "",
+      "solution_to_prevent_recurrence": ""
+    },
+    "2": {
+      "risk_description": "",
+      "normal_video_description": "老年人坐在客厅的绿色沙发上，动作缓慢而小心，调整坐姿。现场没有可见的危险或危险行为。",
+      "solution_for_person": "",
+      "solution_for_hazard_source": "",
+      "solution_to_prevent_recurrence": ""
+    },
+    "3": {
+      "risk_description": "老年人在坐着时弯腰，这可能因不稳或失去平衡而导致跌倒。",
+      "normal_video_description": "",
+      "solution_for_person": "确保老年人在调整姿势时坐直，必要时使用支撑。",
+      "solution_for_hazard_source": "移除座位附近的障碍物，以减少绊倒危险。",
+      "solution_to_prevent_recurrence": "当老年人需要弯腰捡起地上的物品时，提供额外的支撑或帮助。"
+    },
+    "4": {
+      "risk_description": "老年人在沙发上弯腰，若失去平衡可能导致跌倒。跌倒是老年人受伤的常见原因，可能导致骨折或头部外伤等严重后果。",
+      "normal_video_description": "视频中显示老年人在客厅里弯腰靠近绿色沙发，沙发和咖啡桌上散落着各种物品。",
+      "solution_for_person": "确保老年人有充足照明并穿防滑鞋，以降低跌倒风险。鼓励他们在从沙发上站起时使用扶手。",
+      "solution_for_hazard_source": "",
+      "solution_to_prevent_recurrence": "在沙发旁安装抓握杆，以便在站立时提供支撑。"
+    }
+  }
+}

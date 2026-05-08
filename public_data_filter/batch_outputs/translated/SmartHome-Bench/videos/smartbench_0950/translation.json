@@ -1,0 +1,40 @@
+{
+  "video_key": "SmartHome-Bench/videos/smartbench_0950",
+  "translations": {
+    "0": {
+      "risk_description": "",
+      "normal_video_description": "可以看到一只姜黄白相间的猫挂在门把手上，试图开门。随后猫掉到地上，背景中有人对猫的行为作出反应。",
+      "solution_for_person": "",
+      "solution_for_hazard_source": "",
+      "solution_to_prevent_recurrence": ""
+    },
+    "1": {
+      "risk_description": "这只猫正在爬门，如果它失去抓握或平衡，可能会坠落并可能受伤。",
+      "normal_video_description": "可以看到一只猫爬上门后跳下来，去查看地上的紫色布料。",
+      "solution_for_person": "确保在这些活动期间对猫进行监督，并提供安全的爬高替代方案。",
+      "solution_for_hazard_source": "固定门或为猫提供稳固的攀爬结构。",
+      "solution_to_prevent_recurrence": "训练猫使用指定的攀爬区域，并监视它在门附近的行为。"
+    },
+    "2": {
+      "risk_description": "",
+      "normal_video_description": "可以看到猫跳起来撞向关着的门，试图够到把手或门闩。猫失去抓握，摔回地面，然后走开。这是猫咪常见且无害的好奇和玩耍表现。",
+      "solution_for_person": "",
+      "solution_for_hazard_source": "",
+      "solution_to_prevent_recurrence": ""
+    },
+    "3": {
+      "risk_description": "猫正在爬门，如果失去平衡，可能会坠落。",
+      "normal_video_description": "",
+      "solution_for_person": "在猫爬的时候确保有监督，并为它提供稳固的落脚面以便安全下来。",
+      "solution_for_hazard_source": "安装一个适合猫的攀爬结构，或提供另一种让猫到达门的途径。",
+      "solution_to_prevent_recurrence": "使用猫梯或坡道，让猫能够安全地到达门。"
+    },
+    "4": {
+      "risk_description": "猫挂在门把手上，存在坠落受伤的风险。地上的孩子如果试图去够猫，也可能有危险。",
+      "normal_video_description": "一只姜黄色的猫挂在门把手上，而一个小孩子站在旁边的地上。",
+      "solution_for_person": "",
+      "solution_for_hazard_source": "",
+      "solution_to_prevent_recurrence": "确保猫在门附近有一个安全的休息或玩耍的地方，以避免此类情况。"
+    }
+  }
+}

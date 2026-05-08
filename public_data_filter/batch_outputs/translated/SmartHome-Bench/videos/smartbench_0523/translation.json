@@ -1,0 +1,40 @@
+{
+  "video_key": "SmartHome-Bench/videos/smartbench_0523",
+  "translations": {
+    "0": {
+      "risk_description": "",
+      "normal_video_description": "视频显示两个年轻人在阳台上,其中一人正在打开一个纸箱。他们似乎在从事一项正常的活动,没有任何风险或危险的迹象。",
+      "solution_for_person": "",
+      "solution_for_hazard_source": "",
+      "solution_to_prevent_recurrence": ""
+    },
+    "1": {
+      "risk_description": "年轻人在前廊打开包裹时,另一个人在场,导致言语冲突,可能升级为身体伤害。",
+      "normal_video_description": "一个年轻人在前廊打开包裹时,另一个人在场,导致言语冲突。",
+      "solution_for_person": "个人应相互保持安全距离,避免对抗性行为,防止局势升级。",
+      "solution_for_hazard_source": "",
+      "solution_to_prevent_recurrence": "安装带有双向通话功能的视频门铃,以实现更安全的互动和潜在冲突的降级。"
+    },
+    "2": {
+      "risk_description": "看到两个人在前廊撬开包裹,这明显违反了财产边界,构成安全威胁。住户的言语冲突证实了这种互动的敌意性质。",
+      "normal_video_description": "",
+      "solution_for_person": "住户应立即报警,报告入室盗窃事件。",
+      "solution_for_hazard_source": "包裹应存放在上锁的箱子内或室内,以防止未经授权的接触。",
+      "solution_to_prevent_recurrence": "安装带双向音频的安全摄像头,并考虑使用锁箱来接收包裹。"
+    },
+    "3": {
+      "risk_description": "视频显示快递员在前廊粗暴地打开包裹,可能升级为与住户的冲突。这种行为可能带来言语或身体冲突的风险,尤其是当住户感到受威胁时。",
+      "normal_video_description": "",
+      "solution_for_person": "住户应考虑用坚定的语气缓和局势,或在感到受威胁时联系执法部门。",
+      "solution_for_hazard_source": "快递公司应确保员工接受降级冲突技巧和尊重客户的互动培训。",
+      "solution_to_prevent_recurrence": "在前廊门上安装安全锁,并考虑使用提供安全投递选项的包裹递送服务。"
+    },
+    "4": {
+      "risk_description": "此人站在狭窄的窗台上,如果失去平衡可能会坠落,存在受伤的潜在风险。",
+      "normal_video_description": "",
+      "solution_for_person": "确保此人穿着具有良好抓地力的合适鞋子,并考虑在窗台上使用安全带或支撑装置。",
+      "solution_for_hazard_source": "清除窗台上任何可能导致分心或不稳定的物体。",
+      "solution_to_prevent_recurrence": "沿窗台安装栏杆或护栏以防止坠落。"
+    }
+  }
+}

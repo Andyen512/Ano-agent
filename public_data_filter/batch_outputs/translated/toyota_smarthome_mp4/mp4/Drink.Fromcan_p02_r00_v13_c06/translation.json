@@ -1,0 +1,40 @@
+{
+  "video_key": "toyota_smarthome_mp4/mp4/Drink.Fromcan_p02_r00_v13_c06",
+  "translations": {
+    "0": {
+      "risk_description": "老年人站在椅子或凳子上够高处的架子，这有潜在的跌倒危险。人可能会失去平衡而摔倒，导致受伤。",
+      "normal_video_description": "",
+      "solution_for_person": "让护理人员或家庭成员帮助老年人够取高处的物品，或者购买带有防滑脚和扶手的踏脚凳，以增加稳定性。",
+      "solution_for_hazard_source": "确保厨房区域没有杂物和绊倒危险，并提供充足的照明，以防止跌倒。",
+      "solution_to_prevent_recurrence": "定期检查凳子或椅子的稳定性并进行必要的调整；鼓励老年人在需要时寻求帮助，并教育他们站在不稳定表面上的风险。"
+    },
+    "1": {
+      "risk_description": "人在炉灶旁、头顶有抽油烟机的状态下喝瓶子。如果炉灶很热或抽油烟机出现故障，可能会造成烫伤或火灾。",
+      "normal_video_description": "老年人在厨房里站着，靠近有抽油烟机的炉灶喝瓶子。",
+      "solution_for_person": "在炉灶旁喝水前，确保炉灶已关闭且已冷却。",
+      "solution_for_hazard_source": "确认炉灶未在使用，抽油烟机正常工作。",
+      "solution_to_prevent_recurrence": "在进行附近活动前，务必检查炉灶及其周围是否有余热。"
+    },
+    "2": {
+      "risk_description": "",
+      "normal_video_description": "老年人站在现代厨房里，手里拿着瓶子喝水，抬头看着悬挂的物品。场景表现了平静的日常活动，没有明显的危险或不稳定的迹象。",
+      "solution_for_person": "",
+      "solution_for_hazard_source": "",
+      "solution_to_prevent_recurrence": ""
+    },
+    "3": {
+      "risk_description": "老年人把电钻靠近脸部，这存在钻头转动部件造成伤害的风险。",
+      "normal_video_description": "",
+      "solution_for_person": "老年人应将电钻远离脸部，使用时要小心谨慎。",
+      "solution_for_hazard_source": "确保电钻已正确固定，并装有安全防护装置后再使用。",
+      "solution_to_prevent_recurrence": "使用带有安全功能的电钻，以防止意外接触转动部件。"
+    },
+    "4": {
+      "risk_description": "人在梯子上站立，有跌倒并可能受伤的危险。梯子的稳定性以及人的平衡是此情此景的关键因素。",
+      "normal_video_description": "",
+      "solution_for_person": "在攀爬前确保梯子稳固安全；使用正确的梯子安全技巧。",
+      "solution_for_hazard_source": "清除梯子周围的潜在危险，以减少绊倒或滑倒的风险。",
+      "solution_to_prevent_recurrence": "定期检查梯子是否有损坏或磨损，并严格按照生产商的说明使用。"
+    }
+  }
+}

@@ -1,0 +1,40 @@
+{
+  "video_key": "toyota_smarthome_mp4/mp4/Walk_p25_r03_v06_c04",
+  "translations": {
+    "0": {
+      "risk_description": "老年人行走在光滑的地面上，这增加了跌倒和受伤的风险。",
+      "normal_video_description": "",
+      "solution_for_person": "护理人员应帮助老年人找到更安全的行走路线，例如使用防滑垫或选择地面较不易滑的房间。",
+      "solution_for_hazard_source": "护理人员应确保地面清洁且没有任何可能导致老年人绊倒或滑倒的障碍物。",
+      "solution_to_prevent_recurrence": "护理人员应定期检查地面是否存在潜在危险，并采取措施防止老年人行走在光滑的地面上。"
+    },
+    "1": {
+      "risk_description": "",
+      "normal_video_description": "可以看到一位老年人在一间有绿色组合沙发、小茶几和落地灯的客厅里走动。该人从门附近走到房间中央，未表现出明显的危险行为。",
+      "solution_for_person": "",
+      "solution_for_hazard_source": "",
+      "solution_to_prevent_recurrence": ""
+    },
+    "2": {
+      "risk_description": "",
+      "normal_video_description": "一位老年人走进客厅，绕过家具后坐在沙发上。环境宁静，没有可见的危险或危险行为。",
+      "solution_for_person": "",
+      "solution_for_hazard_source": "",
+      "solution_to_prevent_recurrence": ""
+    },
+    "3": {
+      "risk_description": "老年人在客厅里行走，客厅里有一张低矮的茶几，可能造成绊倒危险。",
+      "normal_video_description": "",
+      "solution_for_person": "老年人在家具周围行走时应保持谨慎，以免绊倒。",
+      "solution_for_hazard_source": "茶几应放置在离行走路径更远的地方，以降低绊倒风险。",
+      "solution_to_prevent_recurrence": "确保客厅布局留出清晰的通道，并考虑重新摆放家具以提升安全性。"
+    },
+    "4": {
+      "risk_description": "老年人行走不稳，似乎有跌倒风险，可能导致严重伤害。茶几在有人绊倒时构成潜在危险。",
+      "normal_video_description": "",
+      "solution_for_person": "确保该人抓住稳固的物体提供支撑，或考虑提供行走帮助。",
+      "solution_for_hazard_source": "移除路径上的障碍物，例如茶几，以降低绊倒风险。",
+      "solution_to_prevent_recurrence": "鼓励该人使用拐杖或助行器以保持稳定，并确保该区域光线充足，避免绊倒危险。"
+    }
+  }
+}

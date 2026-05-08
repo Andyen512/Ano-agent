@@ -1,0 +1,40 @@
+{
+  "video_key": "toyota_smarthome_mp4/mp4/Getup_p11_r01_v09_c01",
+  "translations": {
+    "0": {
+      "risk_description": "",
+      "normal_video_description": "视频显示一位老年人坐在餐桌旁使用笔记本电脑。该人似乎专注于笔记本电脑屏幕，未见明显的困扰或不稳定的迹象。餐厅光线充足，现场没有可见的危险或潜在风险。",
+      "solution_for_person": "",
+      "solution_for_hazard_source": "",
+      "solution_to_prevent_recurrence": ""
+    },
+    "1": {
+      "risk_description": "老年人正站在一张高桌的边缘，桌上有笔记本电脑和其他物品，这有失去平衡并跌倒的风险。",
+      "normal_video_description": "一位老年人站在一张高桌旁，桌上有笔记本电脑和其他物品，看起来是在靠近桌边的位置与笔记本电脑互动。",
+      "solution_for_person": "确保老年人与桌边保持安全距离，站立时使用椅子提供支撑。",
+      "solution_for_hazard_source": "降低桌子高度或提供护栏以防止靠近边缘站立。",
+      "solution_to_prevent_recurrence": "在地板上安装防滑垫并确保该区域光线充足，以减少绊倒危险。"
+    },
+    "2": {
+      "risk_description": "",
+      "normal_video_description": "一位老年人坐在餐桌旁使用笔记本电脑，然后站起来离开。该场景描述了在家中环境中的正常日常活动，未见明显的危险或风险行为。",
+      "solution_for_person": "",
+      "solution_for_hazard_source": "",
+      "solution_to_prevent_recurrence": ""
+    },
+    "3": {
+      "risk_description": "老年人正前倾，看起来难以保持平衡，这可能导致跌倒。",
+      "normal_video_description": "",
+      "solution_for_person": "老年人应该坐回椅子并在需要时使用支撑，或请求帮助。",
+      "solution_for_hazard_source": "确保餐桌和椅子稳固且无障碍物。",
+      "solution_to_prevent_recurrence": "老年人应使用带扶手的椅子以获得更好的支撑，并避免过度前倾。"
+    },
+    "4": {
+      "risk_description": "老年人因坐姿和姿势而有从椅子上跌倒的风险，可能导致严重伤害。",
+      "normal_video_description": "",
+      "solution_for_person": "确保老年人坐得稳固，并考虑提供支撑或帮助以保持平衡。",
+      "solution_for_hazard_source": "",
+      "solution_to_prevent_recurrence": "提供合适的带扶手座椅，并确保地面无障碍物，以降低跌倒风险。"
+    }
+  }
+}

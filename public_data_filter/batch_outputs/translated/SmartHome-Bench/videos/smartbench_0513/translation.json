@@ -1,0 +1,40 @@
+{
+  "video_key": "SmartHome-Bench/videos/smartbench_0513",
+  "translations": {
+    "0": {
+      "risk_description": "年轻人正在用力敲门并大声喊叫，这可能导致与屋内人员的冲突。",
+      "normal_video_description": "",
+      "solution_for_person": "屋内人员应保持冷静，尝试通过门与年轻人沟通。",
+      "solution_for_hazard_source": "应要求年轻人离开阳台并冷静下来，才能允许其再次进入屋内。",
+      "solution_to_prevent_recurrence": "屋内人员应考虑安装窥孔或门铃摄像头，以监视访客并遏制攻击性行为。"
+    },
+    "1": {
+      "risk_description": "这些人在阳台上进行身体冲突，可能会升级为受伤或失控。",
+      "normal_video_description": "夜间，三个人在住宅阳台上发生身体冲突。",
+      "solution_for_person": "将当事人分开，以防止冲突进一步升级。",
+      "solution_for_hazard_source": "",
+      "solution_to_prevent_recurrence": "安装监控摄像头并确保冲突解决有清晰的沟通渠道。"
+    },
+    "2": {
+      "risk_description": "可以看到多人凶狠地向门口逼近，喊叫并用力推门，这构成明显的身体伤害和财产损失威胁。",
+      "normal_video_description": "",
+      "solution_for_person": "住户应立即报警或联系安保服务，以报告入侵和潜在的暴力行为。",
+      "solution_for_hazard_source": "门应安装死锁并在可能的情况下加固，以抵御强行进入。",
+      "solution_to_prevent_recurrence": "安装安防摄像系统和运动传感器，以阻止未来的入侵并为执法提供证据。"
+    },
+    "3": {
+      "risk_description": "视频显示一人在夜间抱着孩子在阳台上，另一人正凶狠地靠近。这可能导致身体冲突或伤害的风险，尤其是对自我保护能力较弱的儿童。",
+      "normal_video_description": "",
+      "solution_for_person": "确保孩子被安全抱住，远离冲突情境。",
+      "solution_for_hazard_source": "对阳台区域进行安全防护，防止未经授权进入并确保安全措施到位。",
+      "solution_to_prevent_recurrence": "安装安防摄像头和警报器以监控和阻止潜在威胁，并对居民进行冲突解决和安全协议的培训。"
+    },
+    "4": {
+      "risk_description": "老年人正在狭窄的檐口上行走，存在跌落风险。此行为可能导致严重受伤甚至死亡。",
+      "normal_video_description": "",
+      "solution_for_person": "确保老年人不独自一人，并提供帮助以防止跌倒。",
+      "solution_for_hazard_source": "在檐口沿线安装扶手或障碍物以防止跌落。",
+      "solution_to_prevent_recurrence": "定期查看老年人的情况，并劝导他们避免在狭窄檐口上行走。"
+    }
+  }
+}

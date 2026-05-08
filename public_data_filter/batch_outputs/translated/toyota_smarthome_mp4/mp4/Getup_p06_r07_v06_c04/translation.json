@@ -1,0 +1,40 @@
+{
+  "video_key": "toyota_smarthome_mp4/mp4/Getup_p06_r07_v06_c04",
+  "translations": {
+    "0": {
+      "risk_description": "老年人因客厅凌乱且护理人员缺乏支持而存在跌倒风险。",
+      "normal_video_description": "老年人坐在客厅的沙发上，周围杂乱无章。护理人员未出现在场景中。",
+      "solution_for_person": "护理人员应帮助老年人清理杂物并提供支持以防止跌倒。",
+      "solution_for_hazard_source": "护理人员应确保客厅没有绊倒危险，并在老年人走动时提供适当的支持。",
+      "solution_to_prevent_recurrence": "护理人员应定期检查客厅是否存在潜在危险，并在老年人走动时确保其有适当的支持。"
+    },
+    "1": {
+      "risk_description": "",
+      "normal_video_description": "老年人坐在客厅的绿色沙发上，随后站立。房间里有植物、摆满物品的茶几以及背景中的一扇门。",
+      "solution_for_person": "",
+      "solution_for_hazard_source": "",
+      "solution_to_prevent_recurrence": ""
+    },
+    "2": {
+      "risk_description": "",
+      "normal_video_description": "老年人坐在客厅的绿色沙发上，周围堆放着手提袋、书本和报纸等杂物。随后他从沙发上站立，展示了正常的日常活动，未表现出任何风险或异常行为。",
+      "solution_for_person": "",
+      "solution_for_hazard_source": "",
+      "solution_to_prevent_recurrence": ""
+    },
+    "3": {
+      "risk_description": "老年人正试图从沙发上站起来，这可能因潜在的不稳定或体力不足而导致跌倒风险。",
+      "normal_video_description": "",
+      "solution_for_person": "确保老年人在站立时有支撑，例如椅子或护理人员的帮助。",
+      "solution_for_hazard_source": "清除沙发附近的障碍物，确保通道畅通以便安全移动。",
+      "solution_to_prevent_recurrence": "使用带软垫的脚凳帮助老年人在将来从沙发上站立。"
+    },
+    "4": {
+      "risk_description": "老年人从沙发上跌倒的风险较高，可能因其年龄和可能的行动不便而导致严重伤害。",
+      "normal_video_description": "",
+      "solution_for_person": "在老年人从沙发移动到地面时，确保其有适当的支撑或帮助，以防止跌倒。",
+      "solution_for_hazard_source": "",
+      "solution_to_prevent_recurrence": "在沙发附近安装扶手或抓杆，以便老年人在站立时获得额外支撑。"
+    }
+  }
+}

@@ -1,0 +1,40 @@
+{
+  "video_key": "labimag/dataset/chute09/cam2",
+  "translations": {
+    "0": {
+      "risk_description": "年轻人正在垫子上进行高冲击训练，如果动作不当，可能会导致跌倒或失衡。",
+      "normal_video_description": "年轻人正在学习室的垫子上进行高冲击训练。",
+      "solution_for_person": "该人员应在合格的教练监督下进行练习，并采用正确的姿势和技术，以尽量减少受伤风险。",
+      "solution_for_hazard_source": "垫子应放置在稳固、平整的地面上，以防止滑倒或跌倒。",
+      "solution_to_prevent_recurrence": "在尝试在垫子上进行练习之前，应先在较小规模上练习，并佩戴防护装备，如头盔和护膝。"
+    },
+    "1": {
+      "risk_description": "该人正面朝下躺在房间中央的一个大型软物上，地面有标记线，这可能导致起身时滑倒或失去平衡，从而可能造成跌倒。",
+      "normal_video_description": "视频显示一间教室，里面有各种设备和墙上的海报。一位穿红衬衫的人进入，躺在房间中央的一个大型软物上，然后当另一个人走近时坐起。",
+      "solution_for_person": "在人员躺在软物上时，应确保有人监督，并在其起身时提供帮助。",
+      "solution_for_hazard_source": "将软物固定，以防其意外移动。",
+      "solution_to_prevent_recurrence": "在软物周围划定清晰边界，以提醒他人潜在的危险。"
+    },
+    "2": {
+      "risk_description": "",
+      "normal_video_description": "一位年轻人走进房间，躺在地板上的床垫上，然后起身。该房间看起来像是学习室或实验室，墙壁两侧有桌子和设备。",
+      "solution_for_person": "",
+      "solution_for_hazard_source": "",
+      "solution_to_prevent_recurrence": ""
+    },
+    "3": {
+      "risk_description": "该人躺在地板上的床垫上，这可能不稳定，尤其是对行动不便的人，存在跌倒风险。",
+      "normal_video_description": "",
+      "solution_for_person": "确保床垫放在稳固的表面上，或使用额外支撑以防止跌倒。",
+      "solution_for_hazard_source": "固定床垫以防止其滑动或倾斜。",
+      "solution_to_prevent_recurrence": "在床垫下方使用防滑垫或额外垫层以增强稳定性。"
+    },
+    "4": {
+      "risk_description": "",
+      "normal_video_description": "视频显示一个办公环境，有一人躺在地板上的床垫上，这很不寻常且可能不安全。但是，视频中未出现会导致严重后果的具体风险事件或行为。",
+      "solution_for_person": "",
+      "solution_for_hazard_source": "",
+      "solution_to_prevent_recurrence": ""
+    }
+  }
+}

@@ -1,0 +1,40 @@
+{
+  "video_key": "web_h264/dailymotion__x225fjk",
+  "translations": {
+    "0": {
+      "risk_description": "视频中的人站在浴缸里，看起来正在失去平衡。他们还拿着一个燃烧的物体，可能会造成火灾隐患。此人的行为很危险，可能会导致自身或周围环境受伤或损坏。",
+      "normal_video_description": "",
+      "solution_for_person": "此人应由护理人员协助，以确保其在浴缸中的安全。还应建议他们避免在浴缸中使用易燃物品。",
+      "solution_for_hazard_source": "浴缸应配备防滑垫或其他安全设施以防止跌倒。易燃物品应从浴缸中移除并存放在安全的地方。",
+      "solution_to_prevent_recurrence": "人员在浴缸中时应密切监控，任何潜在危险都应在变得危险之前被识别和处理。应定期进行安全检查，以确保浴缸及周围区域的安全使用。"
+    },
+    "1": {
+      "risk_description": "此人正在被点燃，存在烧伤风险和潜在失控危险。",
+      "normal_video_description": "一个赤裸上身的年轻成年人待在浴缸里时，另一个人向他点火，导致他做出反应并试图扑灭火焰。",
+      "solution_for_person": "应立即将此人从火源处移开，以防止进一步受伤。",
+      "solution_for_hazard_source": "火源应被扑灭并妥善处理，以防止将来发生事故。",
+      "solution_to_prevent_recurrence": "确保采取消防安全措施，并教育人们了解玩火的危险。"
+    },
+    "2": {
+      "risk_description": "一个人站在浴缸里，被浇上易燃液体后点燃，火焰蔓延到他们的躯干。这是一个严重且立即威胁生命的火灾隐患。",
+      "normal_video_description": "",
+      "solution_for_person": "此人必须立即通过在地上打滚或使用灭火器来扑灭火焰，并寻求紧急医疗救助。",
+      "solution_for_hazard_source": "将所有易燃液体从附近区域移除，并确保没有火源存在。",
+      "solution_to_prevent_recurrence": "实施关于使用易燃物质的严格安全协议，并确保适当的监督和培训。"
+    },
+    "3": {
+      "risk_description": "此人站在浴缸里，存在滑倒和跌倒的风险，尤其是当地面潮湿时。",
+      "normal_video_description": "",
+      "solution_for_person": "确保浴缸地面干燥，并考虑使用防滑垫以防止跌倒。",
+      "solution_for_hazard_source": "在浴室安装扶手以增加稳定性。",
+      "solution_to_prevent_recurrence": "定期检查和维护浴室的防滑表面。"
+    },
+    "4": {
+      "risk_description": "视频显示一个年轻成年人在浴缸里拿着一根点燃的火柴，这存在重大火灾或烧伤风险。这种行为很危险，可能导致严重伤害或财产损失。",
+      "normal_video_description": "",
+      "solution_for_person": "立即将火柴从浴缸中移走，以防止任何潜在的火灾或烧伤伤害。",
+      "solution_for_hazard_source": "确保浴室附近没有明火或热源靠近衣物或床上用品等易燃材料。",
+      "solution_to_prevent_recurrence": "教育人们了解玩火的危险，以及将火柴和其他易燃物品放在儿童够不到的地方并远离潜在危险的重要性。"
+    }
+  }
+}

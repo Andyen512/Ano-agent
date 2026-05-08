@@ -1,0 +1,40 @@
+{
+  "video_key": "toyota_smarthome_mp4/mp4/Laydown_p10_r01_v03_c04",
+  "translations": {
+    "0": {
+      "risk_description": "老年人躺在沙发上，姿势异常，头靠在扶手上，身体沿沙发长度伸展，有跌倒风险。这个姿势不稳定，如果该人移动或调整姿势，可能会导致跌倒。",
+      "normal_video_description": "",
+      "solution_for_person": "护理人员应确保老年人处于安全稳定的姿势，例如仰卧，头部放在枕头上，身体用枕头或垫子支撑。护理人员还应监测该人的动作，必要时提供帮助。",
+      "solution_for_hazard_source": "应检查沙发是否有潜在危险，例如松动的垫子或不平整的表面，这些可能导致跌倒。沙发周围区域也应清除任何绊倒危险物，例如电线或地毯。",
+      "solution_to_prevent_recurrence": "护理人员应定期检查老年人，确保他们处于安全稳定的姿势。护理人员还应根据需要提供帮助和支持，以防止跌倒和其他危险。"
+    },
+    "1": {
+      "risk_description": "该人坐在组合沙发的边缘，一只脚放在茶几上，这可能导致平衡失调和跌倒。",
+      "normal_video_description": "老年人在客厅的绿色组合沙发上坐着，调整姿势，最后躺在沙发上。",
+      "solution_for_person": "避免坐在沙发边缘一只脚放在茶几上，以防止跌倒。",
+      "solution_for_hazard_source": "确保茶几上没有可能导致绊倒或失衡的物品。",
+      "solution_to_prevent_recurrence": "提醒该人安全地坐在沙发上，双脚放在地上。"
+    },
+    "2": {
+      "risk_description": "",
+      "normal_video_description": "老年人坐在客厅的绿色组合沙发上，然后躺在沙发上。场景平静，看起来是正常的日常活动，没有任何风险或危险的迹象。",
+      "solution_for_person": "",
+      "solution_for_hazard_source": "",
+      "solution_to_prevent_recurrence": ""
+    },
+    "3": {
+      "risk_description": "",
+      "normal_video_description": "老年人坐在绿色沙发上，调整姿势，最后舒适地躺下。客厅光线充足，设有茶几，上面放着各种物品。",
+      "solution_for_person": "",
+      "solution_for_hazard_source": "",
+      "solution_to_prevent_recurrence": ""
+    },
+    "4": {
+      "risk_description": "老年人有从沙发上跌落的风险，由于他们的年龄和可能对地板造成的硬性撞击，可能导致严重伤害。",
+      "normal_video_description": "",
+      "solution_for_person": "确保老年人安全就座，并在他们躺到沙发上时考虑提供支撑或帮助。",
+      "solution_for_hazard_source": "",
+      "solution_to_prevent_recurrence": "在沙发附近安装扶手或抓杆，以提供额外的支撑和稳定性。"
+    }
+  }
+}

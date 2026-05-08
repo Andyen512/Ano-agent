@@ -1,0 +1,40 @@
+{
+  "video_key": "SmartHome-Bench/videos/smartbench_0938",
+  "translations": {
+    "0": {
+      "risk_description": "一个年轻人正爬上一辆汽车的顶部，这是不稳固的，可能导致坠落。",
+      "normal_video_description": "",
+      "solution_for_person": "应该帮助该人安全地从车上下来。",
+      "solution_for_hazard_source": "不应将汽车当作梯子使用。",
+      "solution_to_prevent_recurrence": "应该教育该人关于在不稳固表面攀爬的危险，并为其提供适当的设备以确保安全攀爬。"
+    },
+    "1": {
+      "risk_description": "熊正在与车门互动，如果车辆移动或车门意外关闭，可能会造成碰撞或被压伤的风险。",
+      "normal_video_description": "一只熊及其幼崽在夜间来到车道上的汽车旁，熊在检查车门。",
+      "solution_for_person": "",
+      "solution_for_hazard_source": "",
+      "solution_to_prevent_recurrence": ""
+    },
+    "2": {
+      "risk_description": "一只大熊及其幼崽在夜间靠近停放的汽车，成年熊站立并与车辆互动。这种行为对车内人员构成直接的碰撞或压伤风险。",
+      "normal_video_description": "",
+      "solution_for_person": "立即移动到远离车辆和熊的安全地点。",
+      "solution_for_hazard_source": "",
+      "solution_to_prevent_recurrence": "确保食物来源安全，避免在野生动物频繁出没的区域留下无人看管的车辆。"
+    },
+    "3": {
+      "risk_description": "熊正在与汽车互动，如果车辆不可预测地移动，可能会对宠物造成碰撞或压伤的风险。",
+      "normal_video_description": "",
+      "solution_for_person": "从安全距离观察熊的行为，并确保宠物远离汽车。",
+      "solution_for_hazard_source": "确保该区域安全，防止熊进入或靠近汽车，并将宠物留在室内或安全的地方。",
+      "solution_to_prevent_recurrence": "安装运动感应灯或警报器以驱赶野生动物，并确保宠物安全地被围起来或留在室内。"
+    },
+    "4": {
+      "risk_description": "",
+      "normal_video_description": "视频显示一个夜间场景，院子里有一只大型动物，可能是熊，正在与停放的汽车互动。动物似乎在检查汽车，爬上汽车，最终从驾驶座侧门进入。场景中没有可见的风险或危险。",
+      "solution_for_person": "",
+      "solution_for_hazard_source": "",
+      "solution_to_prevent_recurrence": ""
+    }
+  }
+}

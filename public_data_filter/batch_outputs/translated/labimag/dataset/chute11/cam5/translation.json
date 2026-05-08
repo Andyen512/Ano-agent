@@ -1,0 +1,40 @@
+{
+  "video_key": "labimag/dataset/chute11/cam5",
+  "translations": {
+    "0": {
+      "risk_description": "视频中的年轻人被看到在跑步并跳到垫子上，这在学自习室里不是安全活动。然后这个人从垫子上摔下来落到地板上，可能导致受伤。",
+      "normal_video_description": "",
+      "solution_for_person": "应该建议这个人在学自习室里进行安全活动，避免在垫子上跑步或跳跃。",
+      "solution_for_hazard_source": "垫子应该放置在一个安全的位置，使其不被这个人接触到。",
+      "solution_to_prevent_recurrence": "应该教育这个人了解学自习室安全的重要性，以及在垫子上跑步或跳跃的潜在风险。"
+    },
+    "1": {
+      "risk_description": "一个人脸朝下躺在房间中央的软垫上，可能会面临从垫子上摔下来或被进入空间的人绊倒的风险。",
+      "normal_video_description": "视频显示一个教室环境，有各种桌子和设备。一个人走进房间，躺在中央的垫子上，其他人进入这个空间。",
+      "solution_for_person": "确保这个人在垫子上受到监督并安全定位，以防止滑倒或滚落。",
+      "solution_for_hazard_source": "清理垫子周围的区域，最大限度减少绊倒危险。",
+      "solution_to_prevent_recurrence": "实施涉及垫子活动的安全协议，包括监督和区域清理。"
+    },
+    "2": {
+      "risk_description": "",
+      "normal_video_description": "视频显示一个人进入房间，跑向地板上的床垫并躺在上面。房间里还有其他人，观察这个活动。这个场景似乎是一个受控环境，可能是为了测试或演示目的。",
+      "solution_for_person": "",
+      "solution_for_hazard_source": "",
+      "solution_to_prevent_recurrence": ""
+    },
+    "3": {
+      "risk_description": "躺在垫子上的人似乎是一位老年人，如果他们在没有适当支撑的情况下试图起身，可能会造成跌倒风险。",
+      "normal_video_description": "",
+      "solution_for_person": "确保老年人在试图从垫子上起身时有支撑或帮助。",
+      "solution_for_hazard_source": "在垫子附近提供额外支撑或稳定辅助器具来帮助老年人。",
+      "solution_to_prevent_recurrence": "使用防滑垫或确保地板稳定，以减少滑倒或跌倒的风险。"
+    },
+    "4": {
+      "risk_description": "这个人躺在地板上，可能表明有跌倒或不稳定风险。如果不及时处理，这种情况可能导致严重伤害。",
+      "normal_video_description": "视频显示一个办公室空间，有各种物品和家具。",
+      "solution_for_person": "确保这个人是安全的，并在需要时提供帮助。",
+      "solution_for_hazard_source": "未发现。",
+      "solution_to_prevent_recurrence": "确保该区域没有绊倒危险，并提供安全移动的适当培训。"
+    }
+  }
+}

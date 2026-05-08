@@ -1,0 +1,40 @@
+{
+  "video_key": "labimag/dataset/chute22/cam7",
+  "translations": {
+    "0": {
+      "risk_description": "视频中的年轻人走向棕色扶手椅，然后突然向后倒在地上。这种行为偏离了办公室正常坐着或站立的日常活动，可能表明存在不稳定或失去平衡的风险。",
+      "normal_video_description": "",
+      "solution_for_person": "应该建议这个人在办公室移动时更加小心，确保有稳定的表面可以坐着或站立。",
+      "solution_for_hazard_source": "应该评估办公室环境是否存在可能导致摔倒的潜在危险，例如松散的电缆或不平的地板。",
+      "solution_to_prevent_recurrence": "应该鼓励这个人定期休息并伸展双腿，以减少肌肉疲劳和失去平衡的风险。此外，办公室应定期检查潜在危险并及时处理。"
+    },
+    "1": {
+      "risk_description": "这个人躺在地板上，可能会增加滑倒或摔倒的风险，这可能导致受伤。",
+      "normal_video_description": "一个人进入房间，坐在椅子上，然后躺在地板上，之后再次起身。",
+      "solution_for_person": "避免直接躺在可能有滑倒或不平表面风险的区域的地板上。",
+      "solution_for_hazard_source": "确保地板上没有障碍物且表面防滑。",
+      "solution_to_prevent_recurrence": "将椅子移至远离通道的稳定位置，并鼓励坐着而不是躺在地板上。"
+    },
+    "2": {
+      "risk_description": "一个人试图坐在扶手椅上但失去平衡，向后倒在地上，这表明发生了明显的稳定性事件，超过了正常日常行为。",
+      "normal_video_description": "",
+      "solution_for_person": "这个人应该立即起身，检查是否有受伤，并避免在没有确保适当支撑的情况下试图坐在不稳定的家具上。",
+      "solution_for_hazard_source": "确保扶手椅稳定放置在平坦表面上；考虑使用有靠背支撑或垫子的椅子以提高稳定性。",
+      "solution_to_prevent_recurrence": "教育个人正确的坐姿技巧，确保家具状况良好且摆放位置恰当，以最大程度减少摔倒风险。"
+    },
+    "3": {
+      "risk_description": "穿红色衬衫的人从扶手椅上摔倒并落在地板上，这可能会造成受伤风险，尤其是对于行动不便或平衡问题的人。",
+      "normal_video_description": "",
+      "solution_for_person": "确保这个人安全地起身，并在摔倒后评估是否有受伤。",
+      "solution_for_hazard_source": "移除或固定任何可能容易翻倒的家具，以防止摔倒。",
+      "solution_to_prevent_recurrence": "在家具附近使用防滑垫或垫子，以减少滑倒和摔倒的风险。"
+    },
+    "4": {
+      "risk_description": "穿红色衬衫的人试图坐在椅子上但向后摔倒，表明存在因不稳定或不当处理椅子而导致的受伤风险。",
+      "normal_video_description": "在办公室环境中，一个穿红色衬衫的人走向椅子，坐下，然后向后摔倒，可能会造成受伤。",
+      "solution_for_person": "在试图坐在椅子上之前，确保椅子稳定且安全。",
+      "solution_for_hazard_source": "",
+      "solution_to_prevent_recurrence": "使用前检查椅子的稳定性，确保其放置在平坦表面上。"
+    }
+  }
+}

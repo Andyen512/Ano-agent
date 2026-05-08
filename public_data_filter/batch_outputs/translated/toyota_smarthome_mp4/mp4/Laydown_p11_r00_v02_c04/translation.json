@@ -1,0 +1,40 @@
+{
+  "video_key": "toyota_smarthome_mp4/mp4/Laydown_p11_r00_v02_c04",
+  "translations": {
+    "0": {
+      "risk_description": "老年人坐在沙发边缘，双脚悬空，如果失去平衡可能会导致跌倒。此外，他们面前的茶几上有水瓶和遥控器，也可能造成绊倒危险。",
+      "normal_video_description": "",
+      "solution_for_person": "护理人员应确保老年人在沙发上坐稳，双脚放在地板上或脚凳上。他们还应清除茶几上任何可能的绊倒危险物。",
+      "solution_for_hazard_source": "护理人员应确保茶几上没有可能造成绊倒危险的物品。",
+      "solution_to_prevent_recurrence": "护理人员应定期检查老年人，确保他们坐在沙发上时的安全和稳定。他们还应考虑在沙发上添加额外的支撑，如扶手或靠背，以帮助防止跌倒。"
+    },
+    "1": {
+      "risk_description": "这个人斜躺在沙发上，双腿垂在边缘。这种姿势增加了从沙发上滑落或跌落的风险，可能导致受伤。",
+      "normal_video_description": "一位老年人躺在客厅的绿色沙发上，双腿垂在沙发边缘。",
+      "solution_for_person": "确保这个人在沙发上保持稳定的姿势，双脚平放在地板上，不要悬在边缘。",
+      "solution_for_hazard_source": "",
+      "solution_to_prevent_recurrence": "当这个人躺在沙发上时，在他们的脚下放置防滑垫或垫子。"
+    },
+    "2": {
+      "risk_description": "",
+      "normal_video_description": "一位老年人在客厅的绿色组合沙发上放松，转换姿势并舒适地躺下。环境平静，没有明显的危险或危险活动发生。",
+      "solution_for_person": "",
+      "solution_for_hazard_source": "",
+      "solution_to_prevent_recurrence": ""
+    },
+    "3": {
+      "risk_description": "这位老年人坐在沙发边缘，双腿伸展，如果失去平衡可能会导致跌倒。",
+      "normal_video_description": "",
+      "solution_for_person": "这位老年人应该更安全地坐在沙发中间，并避免将腿伸展得太远。",
+      "solution_for_hazard_source": "确保沙发稳定且没有任何可能造成绊倒的障碍物。",
+      "solution_to_prevent_recurrence": "使用额外的支撑，如扶手，并确保座位区域没有危险。"
+    },
+    "4": {
+      "risk_description": "这个人正躺在沙发上，处于放松的姿势。如果他们突然坐起或变换姿势而没有适当的支撑，可能会导致跌倒。",
+      "normal_video_description": "",
+      "solution_for_person": "确保这个人在坐起或变换姿势时有适当的支撑，以防止跌倒。",
+      "solution_for_hazard_source": "",
+      "solution_to_prevent_recurrence": "鼓励这个人在坐起或变换姿势时使用适当的支撑，以防止跌倒。"
+    }
+  }
+}

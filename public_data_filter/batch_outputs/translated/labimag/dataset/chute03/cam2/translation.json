@@ -1,0 +1,40 @@
+{
+  "video_key": "labimag/dataset/chute03/cam2",
+  "translations": {
+    "0": {
+      "risk_description": "年轻人躺在一个地板上的大型白色物体上，该物体看起来不稳定。可能会掉落或滚落，造成伤害。",
+      "normal_video_description": "年轻人躺在一个地板上的大型白色物体上，该物体看起来稳定。没有掉落或滚落的风险。",
+      "solution_for_person": "应将人从不稳定物体上移开，放置在稳定的表面上。",
+      "solution_for_hazard_source": "该物体应被固定或从该区域移除，以防止进一步的不稳定性。",
+      "solution_to_prevent_recurrence": "应监督并引导该人避免在研究区域使用不稳定的物体。"
+    },
+    "1": {
+      "risk_description": "人躺在一个工作环境中的大型、可能不稳定的垫子上，如果垫子移动或人在移动时失去平衡，可能会导致跌倒。",
+      "normal_video_description": "一个人在工作室的大垫子上躺着，其他人在周围走动。",
+      "solution_for_person": "躺下前确保垫子固定牢靠且稳定。",
+      "solution_for_hazard_source": "固定垫子以防止移动。",
+      "solution_to_prevent_recurrence": "使用前进行垫子稳定性检查。"
+    },
+    "2": {
+      "risk_description": "",
+      "normal_video_description": "一个人走进房间，走向地板上的床垫并躺下。另一人从左侧短暂进入画面。环境看起来是一个实验室或研究区域，墙壁上有桌子和设备。",
+      "solution_for_person": "",
+      "solution_for_hazard_source": "",
+      "solution_to_prevent_recurrence": ""
+    },
+    "3": {
+      "risk_description": "人躺在地板上的床垫上，该床垫可能不稳定，有跌倒风险，尤其是对行动不便的人。",
+      "normal_video_description": "",
+      "solution_for_person": "躺下前确保床垫牢固支撑且稳定。",
+      "solution_for_hazard_source": "用额外支撑加固床垫以防止倾翻。",
+      "solution_to_prevent_recurrence": "今后使用稳定且支撑良好的表面躺卧。"
+    },
+    "4": {
+      "risk_description": "人躺在一个有各种设备的房间里的床垫上，如果床垫意外移动，可能会造成跌倒或不稳定的风险。",
+      "normal_video_description": "可以看到一个人躺在房间里的床垫上，房间里摆放着各种设备和家具。",
+      "solution_for_person": "躺下前确保床垫放置牢固且稳定。",
+      "solution_for_hazard_source": "",
+      "solution_to_prevent_recurrence": "定期检查床垫及周围区域是否存在任何潜在危险或不稳定因素。"
+    }
+  }
+}

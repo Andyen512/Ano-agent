@@ -1,0 +1,40 @@
+{
+  "video_key": "toyota_smarthome_mp4/mp4/Usetelephone_p14_r01_v06_c05",
+  "translations": {
+    "0": {
+      "risk_description": "",
+      "normal_video_description": "视频中一名年轻人站在客厅里，面对电视。该人似乎在看电视，偶尔触摸自己的脸。客厅布置齐全，配有绿色沙发、白色茶几和白色控制台，控制台上摆放着各种物品。有两盆盆栽，一盆在控制台上，另一盆在门附近。房间采用现代设计，白色墙壁，配有大窗户和窗帘，还有一扇通往另一房间的门。电视挂在墙上，已打开，正在播放节目或电影。视频的整体氛围平静，属于典型的客厅场景。",
+      "solution_for_person": "",
+      "solution_for_hazard_source": "",
+      "solution_to_prevent_recurrence": ""
+    },
+    "1": {
+      "risk_description": "",
+      "normal_video_description": "一个年轻人站在客厅里，一边看电视一边把手机贴在耳边。房间光线充足，放有家具和植物。",
+      "solution_for_person": "",
+      "solution_for_hazard_source": "",
+      "solution_to_prevent_recurrence": ""
+    },
+    "2": {
+      "risk_description": "",
+      "normal_video_description": "一个年轻人站在客厅里，一边看电视一边打电话。房间配有沙发、扶手椅、茶几以及挂在墙上的电视。",
+      "solution_for_person": "",
+      "solution_for_hazard_source": "",
+      "solution_to_prevent_recurrence": ""
+    },
+    "3": {
+      "risk_description": "该人正站在茶几上，存在跌倒风险，尤其是对行动不便或平衡有障碍的人。",
+      "normal_video_description": "",
+      "solution_for_person": "该人应从茶几上下来，以免跌倒。",
+      "solution_for_hazard_source": "确保茶几干净且稳固，以防止绊倒或倾倒。",
+      "solution_to_prevent_recurrence": "使用稳固的站立表面，并保持客厅没有障碍物。"
+    },
+    "4": {
+      "risk_description": "",
+      "normal_video_description": "一个年轻人站在客厅里看电视。房间配有绿色沙发、白色扶手椅和茶几。地板上摆放着盆栽，茶几上有一盏灯。该人看起来很放松，专注于电视上播放的内容。",
+      "solution_for_person": "",
+      "solution_for_hazard_source": "",
+      "solution_to_prevent_recurrence": ""
+    }
+  }
+}

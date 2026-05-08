@@ -1,0 +1,40 @@
+{
+  "video_key": "toyota_smarthome_mp4/mp4/Sitdown_p06_r00_v05_c04",
+  "translations": {
+    "0": {
+      "risk_description": "老年人在杂乱的客厅环境中存在跌倒风险，咖啡桌上有笔记本电脑、书籍和瓶子等物品。老年人还穿着拖鞋，这可能无法为行走提供足够的支撑。",
+      "normal_video_description": "",
+      "solution_for_person": "护理人员应协助老年人清理咖啡桌并清除任何潜在的绊倒危险物品。他们还应确保老年人穿着合适的步行鞋。",
+      "solution_for_hazard_source": "护理人员应帮助老年人整理客厅，并从咖啡桌上移除任何不必要的物品。",
+      "solution_to_prevent_recurrence": "护理人员应定期检查客厅是否存在潜在危险，并确保老年人穿着合适的步行鞋。他们还应鼓励老年人定期休息和伸展，以防止疲劳和不稳定。"
+    },
+    "1": {
+      "risk_description": "这个人似乎失去平衡向前倒在咖啡桌上，这可能导致撞击桌子或摔到地板上受伤。",
+      "normal_video_description": "一位老年人在客厅从沙发上站起来时失去平衡，向前倒在咖啡桌上。",
+      "solution_for_person": "确保这个人在尝试站起来之前正确坐在沙发上，必要时使用辅助设备。",
+      "solution_for_hazard_source": "移除或固定咖啡桌上可能在跌倒时造成伤害的物品。",
+      "solution_to_prevent_recurrence": "在沙发附近安装扶手，确保这个人在起身时有支撑。"
+    },
+    "2": {
+      "risk_description": "",
+      "normal_video_description": "一位老年人正在客厅的绿色沙发上坐下。这个人动作缓慢而小心，调整着自己的坐姿。场景中没有可见的危险或风险行为。",
+      "solution_for_person": "",
+      "solution_for_hazard_source": "",
+      "solution_to_prevent_recurrence": ""
+    },
+    "3": {
+      "risk_description": "这位老年人正在弯腰，由于其姿势和平衡问题，看起来存在跌倒风险。",
+      "normal_video_description": "",
+      "solution_for_person": "确保老年人缓慢而安全地坐下，避免可能导致跌倒的突然动作。",
+      "solution_for_hazard_source": "移除地板上任何可能导致绊倒的障碍物或物品。",
+      "solution_to_prevent_recurrence": "当老年人起身或弯腰时提供支撑或协助。"
+    },
+    "4": {
+      "risk_description": "这位老年人由于姿势不稳且靠近沙发边缘，存在跌倒风险。考虑到他们的年龄，这可能导致严重伤害。",
+      "normal_video_description": "",
+      "solution_for_person": "确保老年人坐在沙发上时有适当的支撑或协助，以防止跌倒。",
+      "solution_for_hazard_source": "",
+      "solution_to_prevent_recurrence": "当老年人在客厅站立或走动时提供支撑或协助，以降低跌倒风险。"
+    }
+  }
+}

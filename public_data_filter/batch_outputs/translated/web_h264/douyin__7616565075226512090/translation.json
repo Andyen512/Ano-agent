@@ -1,0 +1,40 @@
+{
+  "video_key": "web_h264/douyin__7616565075226512090",
+  "translations": {
+    "0": {
+      "risk_description": "视频中的孩子由于地面不平以及坐姿不稳，有跌倒的风险。孩子的姿势和周围环境表明他们可能会失去平衡并跌倒，可能导致受伤。",
+      "normal_video_description": "",
+      "solution_for_person": "看护者应确保孩子坐在安全、稳定的位置，远离任何潜在危险。若孩子出现不稳迹象或开始跌倒，看护者应保持警惕并随时准备提供帮助。",
+      "solution_for_hazard_source": "看护者应通过平整地面或提供安全坐面来解决地面不平的问题，同时确保不将孩子单独留在院子里。",
+      "solution_to_prevent_recurrence": "看护者应定期检查院子是否存在潜在危险，并采取措施加以排除。还应教育孩子坐姿安全以及注意周围环境的重要性。"
+    },
+    "1": {
+      "risk_description": "一个幼儿正躺在倾斜的混凝土表面，无法自行站起，若不及时帮助，存在长期无法移动及受伤的风险。",
+      "normal_video_description": "视频显示一个幼儿躺在倾斜的混凝土表面，呼喊求助却无法站起。",
+      "solution_for_person": "应密切观察孩子并在第一时间由成人提供帮助，以防止长期无法移动。",
+      "solution_for_hazard_source": "确保在有坡度或不平坦的区域有儿童监管，以降低跌倒或被困的风险。",
+      "solution_to_prevent_recurrence": "在儿童活动的区域安装安全护栏或防滑表面，以减少跌倒的风险。"
+    },
+    "2": {
+      "risk_description": "看到一名幼儿躺在院子里的地面上，无法站起，这表明发生了跌倒或失衡事件，需要立即处理。",
+      "normal_video_description": "",
+      "solution_for_person": "成人应立即上前检查孩子是否受伤，并帮助其站起。",
+      "solution_for_hazard_source": "确保该区域没有可能导致绊倒或跌倒的障碍物。",
+      "solution_to_prevent_recurrence": "在儿童活动的区域安装栏杆或软地板等安全设施，以防止将来跌倒。"
+    },
+    "3": {
+      "risk_description": "孩子躺在地上，似乎无法自行站起，如不及时处理，可能导致进一步受伤。",
+      "normal_video_description": "",
+      "solution_for_person": "定期查看孩子，确保其安全并在需要时能够获得帮助。",
+      "solution_for_hazard_source": "确保该区域没有障碍物，以防止跌倒。",
+      "solution_to_prevent_recurrence": "安装防滑表面等安全措施，并在孩子户外玩耍时保持持续监督。"
+    },
+    "4": {
+      "risk_description": "孩子有从阳台跌落的风险，可能导致严重伤害甚至死亡。",
+      "normal_video_description": "",
+      "solution_for_person": "确保孩子在阳台上始终有人看护，切勿单独留在阳台。安装安全护栏或门，以防止意外跌落。",
+      "solution_for_hazard_source": "",
+      "solution_to_prevent_recurrence": "定期检查阳台是否存在潜在危险，如松动的栏杆或光滑的地面。保持阳台整洁，清除可能导致绊倒的杂物。"
+    }
+  }
+}

@@ -1,0 +1,40 @@
+{
+  "video_key": "web_h264/youtube__CL2mUeIW1uM",
+  "translations": {
+    "0": {
+      "risk_description": "露台上起火，对坐在附近的老人构成风险。",
+      "normal_video_description": "老人正坐在露台上享受傍晚时光，突然露台上起火。",
+      "solution_for_person": "将老人移至离火源安全距离的地方。",
+      "solution_for_hazard_source": "扑灭火源并查明起火原因。",
+      "solution_to_prevent_recurrence": "在露台上安装烟雾探测器和阻燃材料，以降低火灾风险。"
+    },
+    "1": {
+      "risk_description": "露台附近可见明火，对坐在附近的人及周围其他人造成烫伤风险。",
+      "normal_video_description": "视频显示后院场景，一位老人坐在靠近露台的桌子旁。",
+      "solution_for_person": "立即远离明火，以防烫伤。",
+      "solution_for_hazard_source": "确保明火与人及易燃材料保持安全距离。",
+      "solution_to_prevent_recurrence": "在附近放置灭火器，并教育如何在户外安全使用明火。"
+    },
+    "2": {
+      "risk_description": "户外桌子上无人看管的火源突然燃起大火，吞噬桌子，并对坐在旁边的人构成直接火灾危险。",
+      "normal_video_description": "",
+      "solution_for_person": "该人应立即站起并远离火源，移到安全距离以避免烫伤。",
+      "solution_for_hazard_source": "应立即使用灭火器、水或用重物覆盖的方式扑灭火源。",
+      "solution_to_prevent_recurrence": "在院子里安装灭火器等消防安全设备，并确保所有户外烹饪或火源始终有人监管。"
+    },
+    "3": {
+      "risk_description": "老人靠近户外火坑，若意外接触火焰或炽热表面会有烫伤风险。",
+      "normal_video_description": "",
+      "solution_for_person": "确保老人与火坑保持安全距离，必要时佩戴防护装备。",
+      "solution_for_hazard_source": "在火坑周围安装防火墙或防护网，以控制可能的火焰。",
+      "solution_to_prevent_recurrence": "定期检查和维护火坑，确保其安全运行且不构成危险。"
+    },
+    "4": {
+      "risk_description": "此人站在后院的火坑附近，若处理不当可能导致烫伤或引发火灾。",
+      "normal_video_description": "",
+      "solution_for_person": "与火坑保持安全距离，并在离开前确保其完全熄灭。",
+      "solution_for_hazard_source": "确保火坑的使用负责任并在适当监督下进行，以防事故。",
+      "solution_to_prevent_recurrence": "定期检查火坑是否有损坏或磨损，以免导致事故。"
+    }
+  }
+}

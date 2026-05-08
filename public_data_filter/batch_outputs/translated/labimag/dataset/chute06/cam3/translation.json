@@ -1,0 +1,40 @@
+{
+  "video_key": "labimag/dataset/chute06/cam3",
+  "translations": {
+    "0": {
+      "risk_description": "这位年轻人正躺在地板上的床垫上，这不是安全的睡眠或休息场所。如果他们移动或滚下床垫，可能会导致跌倒或受伤。",
+      "normal_video_description": "",
+      "solution_for_person": "应将该人移至安全舒适的睡眠区域，如床或沙发。",
+      "solution_for_hazard_source": "应将床垫从地板上移走，放在合适的床或沙发上。",
+      "solution_to_prevent_recurrence": "在移动到安全睡眠区域时应进行监督和帮助，并检查房间是否有其他潜在危险或绊倒风险。"
+    },
+    "1": {
+      "risk_description": "躺在软垫上的人被约束带束缚，这可能导致不适或限制活动，增加从垫子上跌落或无法快速移动的风险。",
+      "normal_video_description": "视频显示一间配备各种设备的房间和一张软垫。一个人进来后离开，另一个人躺在软垫上并被其他人观察。",
+      "solution_for_person": "确保约束带调节适当，以便在必要时能够安全移动和快速解除。",
+      "solution_for_hazard_source": "检查带子是否牢固系紧但不过紧，并确保软垫面稳固且水平。",
+      "solution_to_prevent_recurrence": "定期检查约束带和表面的状况，是否有磨损或不稳定迹象。"
+    },
+    "2": {
+      "risk_description": "",
+      "normal_video_description": "视频显示一群年轻人在学习或实验室环境中。一人穿过房间并躺在地板上的床垫上，其他人走动并观察。该环境似乎是受控的室内空间，有桌子、设备和墙上的图表框。",
+      "solution_for_person": "",
+      "solution_for_hazard_source": "",
+      "solution_to_prevent_recurrence": ""
+    },
+    "3": {
+      "risk_description": "这位年轻人躺在地板上的软垫上，如果他们意外翻滚或移动，可能会造成危险，尤其是当他们行动不便或正在恢复受伤时。",
+      "normal_video_description": "",
+      "solution_for_person": "确保在年轻人躺在软垫上时有人监督，以防止任何意外动作导致受伤。",
+      "solution_for_hazard_source": "使用更稳固安全的表面，例如升高的平台或床，而不是地板垫子来躺下。",
+      "solution_to_prevent_recurrence": "提供额外的支撑或垫子以稳固软垫，防止滚动或移动。"
+    },
+    "4": {
+      "risk_description": "这位人在办公环境中躺在床垫上，如果他们滚落或床垫倾倒，可能会导致跌倒，可能造成严重伤害。",
+      "normal_video_description": "",
+      "solution_for_person": "确保床垫放置在稳固的表面上，且该人没有滚落或掉下床垫的风险。",
+      "solution_for_hazard_source": "",
+      "solution_to_prevent_recurrence": "将床垫放在稳固的表面上，并确保该人没有从床垫上跌落的风险。"
+    }
+  }
+}

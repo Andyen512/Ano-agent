@@ -1,0 +1,40 @@
+{
+  "video_key": "SmartHome-Bench/videos/smartbench_0951",
+  "translations": {
+    "0": {
+      "risk_description": "",
+      "normal_video_description": "一只猫在夜晚站在阳台栏杆上，环顾四周并探索周围区域。阳台有木地板、黑色遮盖物和一些植物。背景显示远处的城市景观和灯光。",
+      "solution_for_person": "",
+      "solution_for_hazard_source": "",
+      "solution_to_prevent_recurrence": ""
+    },
+    "1": {
+      "risk_description": "这只大型野猫在阳台边缘，尝试爬过栏杆。如果它失去平衡或滑倒，可能会从阳台上坠落，导致严重伤害甚至死亡。",
+      "normal_video_description": "一只大型野猫在夜晚出现在阳台上，试图爬过栏杆。",
+      "solution_for_person": "不适用，因为主体是野生动物。",
+      "solution_for_hazard_source": "不适用，因为危险源是野生动物。",
+      "solution_to_prevent_recurrence": "在阳台周围安装额外的屏障或围栏，以防止野生动物进入。"
+    },
+    "2": {
+      "risk_description": "",
+      "normal_video_description": "一只大型野猫，可能是山狮，在夜晚爬过木制阳台的栏杆。这只动物沿着栅栏顶部移动并四处张望，在住宅环境中表现出自然的探索行为。",
+      "solution_for_person": "",
+      "solution_for_hazard_source": "",
+      "solution_to_prevent_recurrence": ""
+    },
+    "3": {
+      "risk_description": "这只母狮站在狭窄的边缘上，如果它失去平衡就有坠落的风险，尤其是对附近的儿童或行动不便的人来说风险更大。",
+      "normal_video_description": "",
+      "solution_for_person": "确保儿童或弱势群体与边缘保持安全距离，并密切监督。",
+      "solution_for_hazard_source": "在边缘处安装额外的安全屏障或栏杆，以防止坠落。",
+      "solution_to_prevent_recurrence": "定期检查和维护边缘的稳定性，并考虑添加保护设施以降低坠落风险。"
+    },
+    "4": {
+      "risk_description": "这个年轻人站在阳台边缘，有坠落的风险。这种行为可能导致严重伤害甚至死亡。",
+      "normal_video_description": "",
+      "solution_for_person": "确保这个年轻人在阳台上不被单独留下，并提供指导以避免此类危险行为。",
+      "solution_for_hazard_source": "在阳台上安装安全屏障或栏杆以防止坠落。",
+      "solution_to_prevent_recurrence": "教育这个年轻人关于站在阳台边缘的危险以及安全措施的重要性。"
+    }
+  }
+}

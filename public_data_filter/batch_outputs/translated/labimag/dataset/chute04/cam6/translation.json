@@ -1,0 +1,40 @@
+{
+  "video_key": "labimag/dataset/chute04/cam6",
+  "translations": {
+    "0": {
+      "risk_description": "视频中的年轻人试图在自习室的地垫上进行一项体育活动，可能是武术动作或摔倒。该人失去平衡，摔倒在垫子上，这可能导致受伤。由于该人未穿戴任何防护装备，风险进一步加大。",
+      "normal_video_description": "",
+      "solution_for_person": "应建议该人在尝试任何可能导致跌倒或受伤的体育活动前，佩戴合适的防护装备，如头盔和护腕。",
+      "solution_for_hazard_source": "应通过移除可能导致绊倒或跌倒的物品（如电线或地板上的散落物品）使自习室更安全。",
+      "solution_to_prevent_recurrence": "应鼓励该人在更安全的环境中进行体育活动，例如健身房或专门的武术训练馆，那里配备适当的设备并有监督，可最大限度降低受伤风险。"
+    },
+    "1": {
+      "risk_description": "该人躺在似乎是测试或实验装置的缓冲表面上。此行为可能引发跌倒或失控，特别是如果表面未牢固固定或该人突然移动。",
+      "normal_video_description": "一个人进入有缓冲表面的房间，躺在上面，然后站起来走到房间的侧面。",
+      "solution_for_person": "确保缓冲表面牢固固定在地板上，并在活动期间对该人进行监督。",
+      "solution_for_hazard_source": "确认缓冲表面已正确固定，且周围区域没有绊倒危险。",
+      "solution_to_prevent_recurrence": "为涉及缓冲表面的活动制定安全规程，包括监督和牢固固定。"
+    },
+    "2": {
+      "risk_description": "该人尝试跳上放在地板上的床垫，但失去平衡，向后摔倒，背部着地。这表明在主动运动中失去稳定性导致意外跌倒。",
+      "normal_video_description": "",
+      "solution_for_person": "该人应避免在缺乏适当支撑或安全措施的情况下跳上不稳定或抬高的表面。",
+      "solution_for_hazard_source": "确保用于体育活动的任何设备或家具稳固安全，以防止跌倒。",
+      "solution_to_prevent_recurrence": "为涉及跳跃或攀爬的体育活动制定安全规程，如使用垫子或确保有适当的监督。"
+    },
+    "3": {
+      "risk_description": "年轻人在试图爬上床垫后摔倒在地上，这可能造成受伤风险，尤其是对行动不便或平衡较差的人。",
+      "normal_video_description": "",
+      "solution_for_person": "在尝试爬上床垫前，确保床垫稳固安全，必要时可使用额外支撑。",
+      "solution_for_hazard_source": "将床垫固定，防止其倾翻或意外移动。",
+      "solution_to_prevent_recurrence": "使用防滑垫或额外支撑来稳定床垫，防止未来跌倒。"
+    },
+    "4": {
+      "risk_description": "该人在床垫上尝试坐起时存在跌倒或受伤的风险，可能因高度和可能的硬着陆而导致严重伤害。",
+      "normal_video_description": "",
+      "solution_for_person": "确保该人在坐起时有适当支撑，以防止跌倒和受伤。",
+      "solution_for_hazard_source": "",
+      "solution_to_prevent_recurrence": "在该人尝试在床垫上坐起时提供帮助和监督，以确保其安全。"
+    }
+  }
+}

@@ -1,0 +1,40 @@
+{
+  "video_key": "toyota_smarthome_mp4/mp4/Walk_p12_r00_v12_c07",
+  "translations": {
+    "0": {
+      "risk_description": "老年人手持砧板和黄瓜，这表明他们正在准备食物。然而，他们的动作看起来不稳定，可能会增加跌倒和受伤的风险。",
+      "normal_video_description": "老年人在厨房准备食物，手持砧板和黄瓜。他们似乎在厨房里活动有些困难，但没有表现出任何痛苦或受伤的迹象。",
+      "solution_for_person": "护理人员应协助老年人准备食物以确保其安全。他们还可以提供支持和稳定性以防止跌倒。",
+      "solution_for_hazard_source": "厨房地板可能湿滑或不平坦，增加跌倒的风险。护理人员应确保地板干净干燥，并及时清除任何溢出物或危险物品。",
+      "solution_to_prevent_recurrence": "护理人员应定期检查老年人的活动能力和平衡状况，以在潜在问题变成风险之前识别出来。他们还可以提供锻炼和支持来提高老年人的稳定性并降低跌倒风险。"
+    },
+    "1": {
+      "risk_description": "",
+      "normal_video_description": "一个人走进厨房，将砧板放在台面上，并手持削皮刀。",
+      "solution_for_person": "",
+      "solution_for_hazard_source": "",
+      "solution_to_prevent_recurrence": ""
+    },
+    "2": {
+      "risk_description": "",
+      "normal_video_description": "老年人走进厨房，手持砧板和刀，然后将砧板放在台面上。这种行为是正常的日常家务活动，没有危险或不稳定的迹象。",
+      "solution_for_person": "",
+      "solution_for_hazard_source": "",
+      "solution_to_prevent_recurrence": ""
+    },
+    "3": {
+      "risk_description": "老年人手持刀和砧板，如果不谨慎处理可能会带来风险，尤其是在厨房环境中，对于行动能力或灵活性有限的人来说存在潜在危险。",
+      "normal_video_description": "",
+      "solution_for_person": "确保老年人使用稳定的表面，并考虑使用手柄较大的刀以获得更好的握力。",
+      "solution_for_hazard_source": "刀具不使用时，应盖住刀刃以防止意外割伤。",
+      "solution_to_prevent_recurrence": "在厨房处理锋利物品时，提供额外的支持或监督。"
+    },
+    "4": {
+      "risk_description": "这个人手持砧板和瓶子走在厨房里，如果不小心可能会失去平衡而跌倒。这可能导致严重伤害。",
+      "normal_video_description": "",
+      "solution_for_person": "确保这个人用另一只手握住稳定的东西，或者在地板上使用防滑垫以防止滑倒。",
+      "solution_for_hazard_source": "",
+      "solution_to_prevent_recurrence": "鼓励这个人在厨房里搬运物品时缓慢小心地移动，以避免绊倒或跌倒。"
+    }
+  }
+}

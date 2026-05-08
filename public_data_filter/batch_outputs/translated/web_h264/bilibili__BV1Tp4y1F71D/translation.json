@@ -1,0 +1,40 @@
+{
+  "video_key": "web_h264/bilibili__BV1Tp4y1F71D",
+  "translations": {
+    "0": {
+      "risk_description": "孩子在落地扇附近玩耍，如果孩子摔倒或落地扇倾倒，可能会造成危险。",
+      "normal_video_description": "",
+      "solution_for_person": "在孩子靠近落地扇玩耍时，需要成年人监督以确保安全。",
+      "solution_for_hazard_source": "落地扇应放置在安全位置，远离孩子可触及的范围，以防事故。",
+      "solution_to_prevent_recurrence": "应教导孩子安全玩耍，不使用时将落地扇存放在安全的地方。"
+    },
+    "1": {
+      "risk_description": "孩子靠近正在冒烟的电风扇，因潜在电气故障，存在触电或火灾风险。",
+      "normal_video_description": "在客厅里看到孩子靠近冒烟的电风扇，成年人随即采取行动处理该问题。",
+      "solution_for_person": "应让孩子远离冒烟的电风扇，并嘱咐不要触摸。",
+      "solution_for_hazard_source": "应立即拔掉冒烟电风扇的电源插头，并请专业人员检查，以防止进一步的电气危险。",
+      "solution_to_prevent_recurrence": "确保所有电器定期接受安全检查，并教育孩子了解与故障电器互动的危险。"
+    },
+    "2": {
+      "risk_description": "孩子靠近正在冒烟的落地扇，说明存在电气故障。孩子的近距离接触冒烟的电器，直接增加了触电或火灾的风险。",
+      "normal_video_description": "",
+      "solution_for_person": "成年人立即把孩子从落地扇旁拉开，然后去配电箱切断电源。",
+      "solution_for_hazard_source": "应立即拔掉风扇电源插头，并请专业人员进行检修或维修。",
+      "solution_to_prevent_recurrence": "确保电器定期进行安全检查，并将其放置在儿童接触不到的地方。"
+    },
+    "3": {
+      "risk_description": "孩子靠近并接触冒烟的故障风扇，存在电气火灾或吸入烟雾的风险。",
+      "normal_video_description": "",
+      "solution_for_person": "确保孩子远离故障风扇，并密切监督。",
+      "solution_for_hazard_source": "立即拔掉故障风扇的电源，并尽快维修或更换。",
+      "solution_to_prevent_recurrence": "定期检查电器是否正常工作，确保它们不会过热。"
+    },
+    "4": {
+      "risk_description": "孩子在落地扇附近玩耍，落地扇可能倾倒导致孩子跌倒，可能造成严重伤害。",
+      "normal_video_description": "",
+      "solution_for_person": "确保落地扇放置在稳固的平面上，且远离孩子可触及的范围。",
+      "solution_for_hazard_source": "将落地扇固定好，防止其倾倒。",
+      "solution_to_prevent_recurrence": "定期检查落地扇的稳定性，并确保其已妥善固定。"
+    }
+  }
+}

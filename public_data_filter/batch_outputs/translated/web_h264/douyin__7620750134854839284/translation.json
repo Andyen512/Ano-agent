@@ -1,0 +1,40 @@
+{
+  "video_key": "web_h264/douyin__7620750134854839284",
+  "translations": {
+    "0": {
+      "risk_description": "孩子正在玩一个有火源的玩具，这对孩子来说不安全。孩子有被烧伤或引发火灾的风险。",
+      "normal_video_description": "",
+      "solution_for_person": "需要成人监督以确保孩子不能在无人看管的情况下玩这个玩具。",
+      "solution_for_hazard_source": "应将玩具从孩子可触及的地方移走，以防止进一步的事故。",
+      "solution_to_prevent_recurrence": "应教育孩子了解玩火的危险以及成人监督的重要性。"
+    },
+    "1": {
+      "risk_description": "孩子正在玩的玩具突然漏电并起火，存在烧伤和电击风险。",
+      "normal_video_description": "一个孩子正在地板上玩玩具，玩具起火，导致孩子做出反应并移开。",
+      "solution_for_person": "当儿童使用可能有危险的玩具时，要密切监督。",
+      "solution_for_hazard_source": "移除或限制接触可能会漏电或起火的玩具。",
+      "solution_to_prevent_recurrence": "向照护者教育此类玩具的危险性，并确保它们不在无人监督的情况下使用。"
+    },
+    "2": {
+      "risk_description": "孩子正在用一个小电熨斗玩DIY玩具，熨斗突然冒火花并起火，导致孩子摔倒并被烧伤。这是一个涉及热源/火源的明显直接危险。",
+      "normal_video_description": "",
+      "solution_for_person": "孩子应立即放下熨斗并远离火源。成人应迅速拔掉熨斗的电源并为孩子提供急救。",
+      "solution_for_hazard_source": "应立即拔掉熨斗的电源并将其放置在安全的地方，远离孩子。",
+      "solution_to_prevent_recurrence": "父母应在孩子使用热的工具或电器设备时密切监督。建议使用更安全的DIY玩具替代品，不要涉及热量或电力。"
+    },
+    "3": {
+      "risk_description": "孩子正在玩的玩具过热并起火，存在严重的烧伤风险。",
+      "normal_video_description": "",
+      "solution_for_person": "在孩子玩可能有危险的玩具时要密切监督，并确保他们使用适合年龄的安全物品。",
+      "solution_for_hazard_source": "避免让儿童使用有加热元件的玩具；选择更安全的替代品，不存在火灾风险。",
+      "solution_to_prevent_recurrence": "向照护者教育此类玩具的危险性，并推广使用更安全的、非电动的手工材料供儿童使用。"
+    },
+    "4": {
+      "risk_description": "视频显示一个幼儿在玩电热水壶，这是一个严重的电气安全隐患。如果孩子接触到热水或电气部件，就有严重烧伤或触电的风险。",
+      "normal_video_description": "",
+      "solution_for_person": "照护者应立即将孩子从电热水壶附近移开，并确保所有电器都在孩子够不到的地方。",
+      "solution_for_hazard_source": "电热水壶不在使用时，应拔掉电源并放置在安全的地方以防止事故。",
+      "solution_to_prevent_recurrence": "为了防止类似事件发生，照护者应教育孩子了解电器设备的危险性，并在他们接近此类设备时密切监督。"
+    }
+  }
+}

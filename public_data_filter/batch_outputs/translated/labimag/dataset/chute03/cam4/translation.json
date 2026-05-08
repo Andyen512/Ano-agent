@@ -1,0 +1,40 @@
+{
+  "video_key": "labimag/dataset/chute03/cam4",
+  "translations": {
+    "0": {
+      "risk_description": "看到这位年轻人跑向地板上的白色物体并跳上去，而该物体并不稳固。这种行为有跌倒和可能受伤的风险。",
+      "normal_video_description": "",
+      "solution_for_person": "应建议该人使用稳固的表面进行跳跃或跑步，以防止跌倒和受伤。",
+      "solution_for_hazard_source": "应移除地板上的白色物体或将其替换为稳固的表面，以防止将来再发生类似事件。",
+      "solution_to_prevent_recurrence": "应对该人进行教育，强调在身体活动中使用稳固表面的重要性，以防止跌倒和受伤。定期监督和提醒也有助于防止再次发生。"
+    },
+    "1": {
+      "risk_description": "",
+      "normal_video_description": "一个人正在实验室环境中操作桌上的设备。另一人穿过房间，躺在房间中央的垫子上。还有多个人在场，使用不同的工作站和设备。",
+      "solution_for_person": "",
+      "solution_for_hazard_source": "",
+      "solution_to_prevent_recurrence": ""
+    },
+    "2": {
+      "risk_description": "",
+      "normal_video_description": "视频显示一个人在实验室或学习环境中走动并操作桌上的设备。另一位人员进入房间，躺在地板中央的软垫上，第三个人穿过场景。环境看起来整齐安全，没有明显的危险或危险活动。",
+      "solution_for_person": "",
+      "solution_for_hazard_source": "",
+      "solution_to_prevent_recurrence": ""
+    },
+    "3": {
+      "risk_description": "看到一个人躺在办公室中央的软垫上，如果他们意外翻滚或移动，可能会造成附近其他人跌倒或受伤的风险。",
+      "normal_video_description": "",
+      "solution_for_person": "确保躺在垫子上的人注意周围环境并保持静止，以免打扰他人。",
+      "solution_for_hazard_source": "移除或固定软垫，以防止任何人躺在上面。",
+      "solution_to_prevent_recurrence": "明确标记该区域禁止躺下，并确保每个人都了解潜在的风险。"
+    },
+    "4": {
+      "risk_description": "有人躺在地板上，这可能表明跌倒或不稳定的风险。如果不及时处理，这种情况可能导致严重伤害。",
+      "normal_video_description": "视频显示办公室环境中有人躺在地板上，暗示存在跌倒或不稳定的风险。",
+      "solution_for_person": "确保该人的安全并在需要时提供帮助。",
+      "solution_for_hazard_source": "未发现任何问题。",
+      "solution_to_prevent_recurrence": "监测该人的状况，确保他们在恢复活动前保持稳定。"
+    }
+  }
+}

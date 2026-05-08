@@ -1,0 +1,40 @@
+{
+  "video_key": "SmartHome-Bench/videos/smartbench_0080",
+  "translations": {
+    "0": {
+      "risk_description": "在院子里看到一只熊，它对在场的年轻人构成风险。如果它感到受威胁或饥饿，可能会发起攻击。",
+      "normal_video_description": "",
+      "solution_for_person": "年轻人应留在室内，避免外出，直到熊离开该区域。",
+      "solution_for_hazard_source": "房主应采取措施防止熊进入院子，例如固定垃圾桶并清除任何可能的食物来源。",
+      "solution_to_prevent_recurrence": "房主应安装动作感应灯和监控摄像头，以监测院子里是否有潜在的动物入侵者。还应考虑安装防熊垃圾桶并保持院子清洁，以降低吸引熊的可能性。"
+    },
+    "1": {
+      "risk_description": "一只大黑熊正在接近并与停在车辆附近的结构物互动，这对附近的人构成碰撞或挤压伤害的风险。",
+      "normal_video_description": "夜晚在车库附近看到一只黑熊，它在结构物附近活动并四处走动。",
+      "solution_for_person": "留在室内并远离熊的行动路径。",
+      "solution_for_hazard_source": "确保车辆安全，并清除可能吸引野生动物的任何诱饵。",
+      "solution_to_prevent_recurrence": "安装动作感应灯，并固定院子中潜在的食物来源。"
+    },
+    "2": {
+      "risk_description": "一只大熊靠近摄像头并进入有顶的车库区域，移动得非常靠近停放的车辆和结构支撑柱。这种行为对车辆构成明显的碰撞或挤压伤害风险，并可能导致结构损坏。",
+      "normal_video_description": "夜晚在住宅院子里看到一只大黑熊，靠近停放车辆的有顶车棚。它在摄像头和车棚结构附近移动，然后离开。",
+      "solution_for_person": "",
+      "solution_for_hazard_source": "",
+      "solution_to_prevent_recurrence": ""
+    },
+    "3": {
+      "risk_description": "熊靠近住宅区，对人构成碰撞或挤压伤害风险，特别是儿童或宠物等弱势群体。",
+      "normal_video_description": "",
+      "solution_for_person": "确保所有儿童和宠物安全地待在室内或安全区域，远离熊的行动路径。",
+      "solution_for_hazard_source": "联系野生动物管理部门，安全地将熊从该地区移除。",
+      "solution_to_prevent_recurrence": "安装动作感应灯或警报装置，以阻止野生动物靠近住宅。"
+    },
+    "4": {
+      "risk_description": "熊靠近住宅区，若它进入房屋或与人或物体接触，将构成严重的伤害或财产损失风险。",
+      "normal_video_description": "",
+      "solution_for_person": "立即撤离该地区并联系当地野生动物管理部门，安全地将熊从附近移除。",
+      "solution_for_hazard_source": "",
+      "solution_to_prevent_recurrence": "在物业周边安装动作感应驱赶装置或障碍物，以防止熊进入该区域。"
+    }
+  }
+}

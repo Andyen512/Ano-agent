@@ -1,0 +1,40 @@
+{
+  "video_key": "SmartHome-Bench/videos/smartbench_0161",
+  "translations": {
+    "0": {
+      "risk_description": "视频中显示一座正在倒塌的房屋，年轻人站在不稳固的屋顶上，存在坠落风险，可能导致受伤。",
+      "normal_video_description": "",
+      "solution_for_person": "人员应立即从屋顶下来，前往安全地点避难。",
+      "solution_for_hazard_source": "房屋应加以固定和加固，以防止进一步坍塌。",
+      "solution_to_prevent_recurrence": "在允许任何人再次使用之前，房屋应进行检查和修复。"
+    },
+    "1": {
+      "risk_description": "一个人正站在部分拆除的房屋屋顶上，这是一种不稳定结构，存在高处坠落的风险。",
+      "normal_video_description": "视频显示位于林区的部分拆除房屋。一个人穿着红色衬衫，正站在正在坍塌的屋顶上，姿态得意。",
+      "solution_for_person": "未经适当的防坠落保护，任何人都不应站在部分拆除房屋的屋顶上。",
+      "solution_for_hazard_source": "房屋应加以固定以防止坍塌，并应限制进入屋顶，直至安全为止。",
+      "solution_to_prevent_recurrence": "应确保只有经过培训的专业人员才能在不稳定结构上作业，并采取适当的安全措施。"
+    },
+    "2": {
+      "risk_description": "一个人正站在部分拆除房屋屋顶的边缘，结构不稳且正在坍塌。由于屋顶突然结构失效，人员面临极高的坠落风险。",
+      "normal_video_description": "",
+      "solution_for_person": "人员应立即移动到远离不稳定结构的安全地点。",
+      "solution_for_hazard_source": "封锁该区域以防止未经授权进入，并在进行任何进一步作业前确保建筑物的结构完整性。",
+      "solution_to_prevent_recurrence": "对不稳定结构作业实施安全规程，并使用适当的防护装备。"
+    },
+    "3": {
+      "risk_description": "一个人正站在房屋屋顶上，一旦失去平衡或滑倒就有坠落风险。对儿童或老年人等难以保持稳定的弱势群体来说，这尤其危险。",
+      "normal_video_description": "",
+      "solution_for_person": "确保屋顶上的人员佩戴适当的安全装备（如安全带），并了解坠落风险。",
+      "solution_for_hazard_source": "在屋顶边缘安装护栏或安全网，以防止坠落。",
+      "solution_to_prevent_recurrence": "定期检查屋顶的稳定性，并确保已采取安全措施以保护任何在其上作业的人员。"
+    },
+    "4": {
+      "risk_description": "视频中显示一名年轻人站在阳台边缘，存在坠落风险，可能导致严重伤害。该阳台似乎是老房子的一部分，且有明显损坏，增加了结构不稳定的可能性。",
+      "normal_video_description": "",
+      "solution_for_person": "在尝试站上阳台之前，确保该人安全地在屋内或稳定的表面上。",
+      "solution_for_hazard_source": "修缮或加固阳台，以防止进一步的不稳定。",
+      "solution_to_prevent_recurrence": "在阳台上安装安全屏障或栏杆，以防止坠落。"
+    }
+  }
+}

@@ -1,0 +1,40 @@
+{
+  "video_key": "labimag/dataset/chute19/cam3",
+  "translations": {
+    "0": {
+      "risk_description": "这个年轻人看到在房间里跑来跑去，然后摔倒在地板上，这可能会造成伤害。",
+      "normal_video_description": "",
+      "solution_for_person": "这个人应该更加小心地在房间里走动，以避免摔倒。",
+      "solution_for_hazard_source": "地板应该更加稳定以防止摔倒。",
+      "solution_to_prevent_recurrence": "应该提醒这个人在房间里走动时要更加小心，以避免摔倒。"
+    },
+    "1": {
+      "risk_description": "穿红衬衫的人正躺在地板上推椅子，这可能导致摔倒或失去平衡，可能会造成伤害。",
+      "normal_video_description": "视频显示一个房间里有各种家具和设备。一个穿红衬衫的人进来，躺在地板上推椅子与椅子互动，另一个人站在附近。",
+      "solution_for_person": "避免躺在地板上以损害稳定性的方式推家具。",
+      "solution_for_hazard_source": "确保家具稳定，不要以鼓励不安全互动的方式摆放。",
+      "solution_to_prevent_recurrence": "当个人在房间里进行冒险身体活动时，应进行监督或干预。"
+    },
+    "2": {
+      "risk_description": "一个年轻人试图搬动一把沉重的扶手椅，但失去平衡摔倒在地上，表明存在明显的不稳定风险和潜在伤害。",
+      "normal_video_description": "",
+      "solution_for_person": "这个人应该避免独自搬动沉重的家具，应该寻求帮助或使用正确的搬运技巧。",
+      "solution_for_hazard_source": "确保沉重的家具要么固定好，要么在多人帮助下移动，以防止倾倒或掉落。",
+      "solution_to_prevent_recurrence": "实施安全措施，如将家具固定在墙上，并提供安全搬运和移动技巧的培训。"
+    },
+    "3": {
+      "risk_description": "看到这个老年人躺在地板上，如果他们试图在没有支撑的情况下起身，可能会造成摔倒风险。对于行动不便的人来说，这可能尤其危险。",
+      "normal_video_description": "",
+      "solution_for_person": "确保老年人在从地板上起身时有支撑或帮助，以防止摔倒。",
+      "solution_for_hazard_source": "清除地板上任何可能导致绊倒或摔倒的障碍物或物品。",
+      "solution_to_prevent_recurrence": "提供稳定清晰的行走路径，并确保老年人在房间里走动时有附近的支撑。"
+    },
+    "4": {
+      "risk_description": "穿红衬衫的人正走过一个有地板标记线的房间，这可能是光滑或不稳定的。他们失去平衡摔倒在地上，可能会导致受伤。",
+      "normal_video_description": "一个穿红衬衫的人走过一个有地板标记线的房间，失去平衡并摔倒。另一个人走近去帮忙。",
+      "solution_for_person": "确保地板干燥且没有任何可能导致滑倒的障碍物。如果该人摔倒后看起来不稳定或头晕，请提供帮助。",
+      "solution_for_hazard_source": "",
+      "solution_to_prevent_recurrence": "定期检查地板是否有任何危险，并保持安全环境。"
+    }
+  }
+}

@@ -1,0 +1,40 @@
+{
+  "video_key": "web_h264/bilibili__BV1758ee4ENp",
+  "translations": {
+    "0": {
+      "risk_description": "这位年轻人跳入水中，如果他们不擅长游泳或水很深，可能会造成风险。如果水没有得到监管或没有安全措施，风险会进一步增加。",
+      "normal_video_description": "",
+      "solution_for_person": "游泳时应有人监督，如果不擅长游泳，应穿救生衣。",
+      "solution_for_hazard_source": "危险源是水本身，可能水深且无人监管。",
+      "solution_to_prevent_recurrence": "应该对人们进行水上安全教育，并且只在有适当安全措施的监管区域游泳。"
+    },
+    "1": {
+      "risk_description": "看到有人掉入水中，存在溺水风险或在水中挣扎受伤的风险。",
+      "normal_video_description": "视频显示一个人掉入池塘，被其他人帮助出来。",
+      "solution_for_person": "确保立即提供帮助，安全地将人从水中拉出。",
+      "solution_for_hazard_source": "",
+      "solution_to_prevent_recurrence": "在水体周围安装屏障或警示标志，防止意外跌落。"
+    },
+    "2": {
+      "risk_description": "有人跑向水体并跌入，这是一个明显的安全隐患。",
+      "normal_video_description": "",
+      "solution_for_person": "人不应该跑向水体，应该被引导在岸边行走。",
+      "solution_for_hazard_source": "在水体周围安装围栏或警示标志，防止人们跌入水中。",
+      "solution_to_prevent_recurrence": "加强安全教育和监管，防止类似事件再次发生。"
+    },
+    "3": {
+      "risk_description": "看到孩子跳入水中，可能会造成溺水风险，特别是如果水深较大或孩子不擅长游泳。",
+      "normal_video_description": "",
+      "solution_for_person": "确保孩子在靠近水体时受到密切监督，并教会他们游泳。",
+      "solution_for_hazard_source": "安装屏障或围栏，防止未经监督接触水体。",
+      "solution_to_prevent_recurrence": "提供游泳课程，确保在靠近水体时持续有成人监督。"
+    },
+    "4": {
+      "risk_description": "",
+      "normal_video_description": "视频展示了一个宁静的户外环境，有池塘，人们正在从事休闲活动。没有观察到明显的风险或危险行为。",
+      "solution_for_person": "",
+      "solution_for_hazard_source": "",
+      "solution_to_prevent_recurrence": ""
+    }
+  }
+}

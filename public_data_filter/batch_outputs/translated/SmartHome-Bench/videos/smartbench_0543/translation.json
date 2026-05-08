@@ -1,0 +1,40 @@
+{
+  "video_key": "SmartHome-Bench/videos/smartbench_0543",
+  "translations": {
+    "0": {
+      "risk_description": "这位年轻人在车库里走动，如果不注意周围环境，可能会绊倒或跌倒。",
+      "normal_video_description": "视频显示一名年轻人在车库里走动，这是一种正常活动。",
+      "solution_for_person": "该人在车库里走动时应更加小心，以避免绊倒或跌倒。",
+      "solution_for_hazard_source": "在这种情况下，无法采取任何措施来防止危险源。",
+      "solution_to_prevent_recurrence": "该人在车库里走动时应该更加留意周围环境，以降低绊倒或跌倒的风险。"
+    },
+    "1": {
+      "risk_description": "",
+      "normal_video_description": "两个人在夜晚灯光昏暗的车库里接近一辆汽车。在另一个车库里，一个人在蓝色汽车附近操作物品，而另一个人来回进出。听到警报声后，接着有声音警告离开。",
+      "solution_for_person": "",
+      "solution_for_hazard_source": "",
+      "solution_to_prevent_recurrence": ""
+    },
+    "2": {
+      "risk_description": "两名人员在夜间进入车库并开始翻找物品，这明显侵犯了财产权，并表明可能是盗窃或抢劫。当一名居民与他们对峙时，情况升级为口头冲突，并触发警报。",
+      "normal_video_description": "",
+      "solution_for_person": "居民应优先考虑个人安全，退到安全地点并立即报警。",
+      "solution_for_hazard_source": "车库应装上可锁的门，并最好配备报警系统，以防止入侵者。",
+      "solution_to_prevent_recurrence": "安装监控摄像头和运动传感器，以监控车库及周边区域。"
+    },
+    "3": {
+      "risk_description": "视频显示车库里有几个人，还有一个孩子。随着警报声响起，情况升级，表明可能存在冲突或骚乱，可能对孩子的安全构成风险。",
+      "normal_video_description": "",
+      "solution_for_person": "确保孩子得到密切监护，并将其转移到远离冲突的安全区域。",
+      "solution_for_hazard_source": "解决骚乱或冲突的根源，以缓和局势。",
+      "solution_to_prevent_recurrence": "安装安保系统或警报，以提醒居民注意潜在骚乱，并确保在共用空间对儿童进行常规监护。"
+    },
+    "4": {
+      "risk_description": "",
+      "normal_video_description": "视频显示一名年轻人在车库里与一辆蓝色汽车互动。该人打开车门并进入车内。场景中没有明显的风险或危险。",
+      "solution_for_person": "",
+      "solution_for_hazard_source": "",
+      "solution_to_prevent_recurrence": ""
+    }
+  }
+}

@@ -1,0 +1,40 @@
+{
+  "video_key": "labimag/dataset/chute05/cam8",
+  "translations": {
+    "0": {
+      "risk_description": "看到这位年轻人躺在地板上，这可能表明跌倒或不稳定。该人随后起身离开，但最初的跌倒是一个潜在风险。",
+      "normal_video_description": "",
+      "solution_for_person": "确保这位年轻人得到监督和支撑，以防止将来跌倒。",
+      "solution_for_hazard_source": "检查地板是否有绊倒危险，并确保该区域没有杂物堆积。",
+      "solution_to_prevent_recurrence": "在学习区域安装扶手或抓杆，以提供支撑并防止跌倒。教导年轻人保持正确的姿势和动作，以降低跌倒风险。"
+    },
+    "1": {
+      "risk_description": "此人正躺在房间中央的一个大白垫子上，垫子可能会意外滚动或移动，增加跌落并受伤的风险。",
+      "normal_video_description": "视频显示一间配备各种设备的房间，中央有一个大白垫子。一个人进入，躺在垫子上，并得到他人的帮助。",
+      "solution_for_person": "确保垫子牢牢固定在地板上，以防止移动。",
+      "solution_for_hazard_source": "将垫子固定在地面上，以消除滚动的风险。",
+      "solution_to_prevent_recurrence": "在让人躺上去之前，使用绑带或重物将垫子固定在原位。"
+    },
+    "2": {
+      "risk_description": "",
+      "normal_video_description": "视频显示一个人在地板上放置床垫的房间中跳跃并落在床垫上。环境看起来像是设有桌子和设备的学习或实验室环境。该行为是玩耍性的，没有明显的风险或异常。",
+      "solution_for_person": "",
+      "solution_for_hazard_source": "",
+      "solution_to_prevent_recurrence": ""
+    },
+    "3": {
+      "risk_description": "该年轻人俯卧在床垫上，如果他们尝试不当地翻身或移动，可能会导致颈部或脊柱受伤的风险。此外，如果他们失去意识，可能会面临窒息的危险。",
+      "normal_video_description": "",
+      "solution_for_person": "确保该年轻人了解安全躺下和起身的姿势，以防止受伤。",
+      "solution_for_hazard_source": "清除地板上不必要的物品，以减少绊倒危险，并确保床垫放在稳固的表面上。",
+      "solution_to_prevent_recurrence": "教导正确的身体力学动作，包括移动和躺下，并保持工作空间整洁有序。"
+    },
+    "4": {
+      "risk_description": "该人正躺在办公室中央的床垫上，如果他们起身或移动，可能会导致跌倒。由于硬地板和可能与附近物体碰撞，这会造成受伤的风险。",
+      "normal_video_description": "",
+      "solution_for_person": "确保该人稳定，能够在移动前安全地从床垫上起身。",
+      "solution_for_hazard_source": "移除床垫周围任何可能的危险或障碍物，以降低受伤风险。",
+      "solution_to_prevent_recurrence": "提供适当的安全工作培训，以防止在办公室环境中发生事故。"
+    }
+  }
+}

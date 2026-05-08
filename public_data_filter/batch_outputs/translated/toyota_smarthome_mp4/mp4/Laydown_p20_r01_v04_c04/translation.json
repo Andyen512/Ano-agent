@@ -1,0 +1,40 @@
+{
+  "video_key": "toyota_smarthome_mp4/mp4/Laydown_p20_r01_v04_c04",
+  "translations": {
+    "0": {
+      "risk_description": "这个人躺在沙发上，双腿垂在沙发边缘，可能会导致跌倒造成伤害。",
+      "normal_video_description": "这个人躺在沙发上，双腿垂在沙发边缘，可能会导致跌倒造成伤害。",
+      "solution_for_person": "应该鼓励这个人正确地躺在沙发上，双腿放在地上或枕头上支撑。",
+      "solution_for_hazard_source": "沙发上应安装护栏或安全网以防止跌落。",
+      "solution_to_prevent_recurrence": "应提醒这个人正确地躺在沙发上，并采取安全措施防止跌落。"
+    },
+    "1": {
+      "risk_description": "",
+      "normal_video_description": "一位老年人坐在绿色沙发上，调整毯子，然后躺下休息。房间光线充足，有自然光，附近没有明显的危险。",
+      "solution_for_person": "",
+      "solution_for_hazard_source": "",
+      "solution_to_prevent_recurrence": ""
+    },
+    "2": {
+      "risk_description": "",
+      "normal_video_description": "一位老年人在客厅的绿色组合沙发上放松，调整腿上的毯子。这个场景描绘了一个平静的日常休息时刻，没有痛苦或危险的迹象。",
+      "solution_for_person": "",
+      "solution_for_hazard_source": "",
+      "solution_to_prevent_recurrence": ""
+    },
+    "3": {
+      "risk_description": "这位老年人躺在沙发上，双腿抬高，毯子覆盖在身上，如果他们移动或失去平衡，可能会导致跌落。",
+      "normal_video_description": "",
+      "solution_for_person": "确保这位老年人有稳固的支撑，不会意外地移动位置。",
+      "solution_for_hazard_source": "提供额外的支撑或垫子，以防止在沙发上滑动或移动。",
+      "solution_to_prevent_recurrence": "使用防滑垫或垫子，并确保毯子牢固放置，以避免任何滑动。"
+    },
+    "4": {
+      "risk_description": "这个人躺在沙发上，双腿抬高，如果失去平衡可能会导致跌落。由于腿部的高度和位置，这个动作有受伤的风险。",
+      "normal_video_description": "视频显示一个人躺在客厅的绿色沙发上，双腿抬高，这可能会导致跌落。",
+      "solution_for_person": "确保这个人在抬高双腿时有稳定的抓握或支撑，以防止从沙发上跌落。",
+      "solution_for_hazard_source": "",
+      "solution_to_prevent_recurrence": "鼓励这个人在沙发上保持安全的姿势，避免将双腿抬得太高。"
+    }
+  }
+}

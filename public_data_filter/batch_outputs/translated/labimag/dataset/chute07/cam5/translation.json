@@ -1,0 +1,40 @@
+{
+  "video_key": "labimag/dataset/chute07/cam5",
+  "translations": {
+    "0": {
+      "risk_description": "视频中的年轻人被看到穿过房间，然后突然摔倒在地。这种行为偏离了正常的日常行走行为，表明存在不稳定或失去平衡的风险。",
+      "normal_video_description": "",
+      "solution_for_person": "应该由护理人员协助此人，以确保他们在继续任何活动之前保持稳定和安全。",
+      "solution_for_hazard_source": "危险源是年轻人缺乏支撑或稳定性，这可能是由于多种因素造成的，如疲劳、药物副作用或疾病。",
+      "solution_to_prevent_recurrence": "为了防止再次发生，应监测年轻人是否有任何不稳定或失去平衡的迹象，并根据需要提供适当的支持和帮助。这可能包括物理治疗、药物调整或其他干预措施来解决不稳定的根本原因。"
+    },
+    "1": {
+      "risk_description": "穿红衬衫的人处于俯卧姿势躺在地板上，这存在跌倒或被惊吓时无法快速移动的风险，或者如果其他人从他们身上走过可能会造成伤害。",
+      "normal_video_description": "视频显示了一个教室环境，人们在房间里走动，其中一人俯卧在房间中央的地板上。",
+      "solution_for_person": "此人应避免在公共或共享空间俯卧在地板上，因为在意外情况下可能会有人经过。",
+      "solution_for_hazard_source": "确保通道保持畅通，并使个人了解共享空间中彼此的位置。",
+      "solution_to_prevent_recurrence": "教育个人了解在共享空间中俯卧在地板上的风险，并建立报告此类行为的协议。"
+    },
+    "2": {
+      "risk_description": "",
+      "normal_video_description": "视频显示一群人在办公室或学习室里。其中一人穿过房间并躺在地板上的垫子上，其他人站在旁边。这种活动看起来像是正常室内环境中的随意、非危险性的互动。",
+      "solution_for_person": "",
+      "solution_for_hazard_source": "",
+      "solution_to_prevent_recurrence": ""
+    },
+    "3": {
+      "risk_description": "年轻人倒在垫子上，如果他们无法起身或有预先存在的可能因跌倒而恶化的疾病，可能会带来风险。",
+      "normal_video_description": "",
+      "solution_for_person": "确保年轻人能够安全地起身，并在跌倒后评估他们是否需要帮助或医疗护理。",
+      "solution_for_hazard_source": "应监测垫子区域以防止滑倒或跌倒，特别是在表面不平整或该区域有干扰物的情况下。",
+      "solution_to_prevent_recurrence": "在从事涉及运动或活动的活动时提供额外的支持或监督以防止跌倒。"
+    },
+    "4": {
+      "risk_description": "穿红衬衫的人正在走钢丝，这存在跌倒和可能受伤的风险。这种活动需要平衡和专注，任何失去平衡都可能导致严重跌倒。",
+      "normal_video_description": "",
+      "solution_for_person": "确保此人在走钢丝时有适当的培训和安全设备，如安全带或安全网，以防止跌倒和受伤。",
+      "solution_for_hazard_source": "清除走钢丝区域的任何障碍物或干扰物，以减少失去平衡的风险。",
+      "solution_to_prevent_recurrence": "提供定期培训和练习课程，以提高在尝试走钢丝之前的平衡和稳定性。"
+    }
+  }
+}

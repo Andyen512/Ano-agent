@@ -1,0 +1,40 @@
+{
+  "video_key": "labimag/dataset/chute04/cam1",
+  "translations": {
+    "0": {
+      "risk_description": "看到一名年轻人试图在地板上进行一项活动，结果他们摔倒在地板上。这种行为偏离了年轻人正常的日常行为，年轻人不应该在实验室环境中进行有风险的地板活动。",
+      "normal_video_description": "",
+      "solution_for_person": "应该监督和引导这个人以更安全的方式进行活动，避免在地板上操作，并使用适当的设备和工具。",
+      "solution_for_hazard_source": "实验室的设计和维护应尽量减少跌倒风险，包括适当的地面、照明和设备放置。",
+      "solution_to_prevent_recurrence": "应该对这个人进行实验室安全实践教育，并定期进行安全检查，以确保环境对所有使用者都是安全的。"
+    },
+    "1": {
+      "risk_description": "这个人躺在一个升高的床上，房间内有硬地板，增加了从床上摔下或移动时撞到家具而受伤的风险。",
+      "normal_video_description": "视频显示一个教室环境，中央有一张升高的床。一个人进入房间，走向床并躺在上面。其他人在背景中，进行各自的活动。",
+      "solution_for_person": "确保床牢牢固定在地板上以防止倾斜，并指示这个人避免可能导致跌倒的突然动作。",
+      "solution_for_hazard_source": "将床固定在地板上，并清除周围区域的障碍物以减少绊倒风险。",
+      "solution_to_prevent_recurrence": "密切监督活动，并考虑在床周围使用更柔软的地板或垫子。"
+    },
+    "2": {
+      "risk_description": "",
+      "normal_video_description": "一个人走进房间，跳到地板上的床垫上，然后起身离开。房间内有桌子、椅子和各种物品，表明这是一个学习或办公环境。",
+      "solution_for_person": "",
+      "solution_for_hazard_source": "",
+      "solution_to_prevent_recurrence": ""
+    },
+    "3": {
+      "risk_description": "看到一名年轻人躺在床附近的地板上，这可能会造成滑倒或跌倒的风险，特别是对于行动不便或平衡问题的人来说。",
+      "normal_video_description": "",
+      "solution_for_person": "确保年轻人在房间内移动时得到适当的支撑和监督。",
+      "solution_for_hazard_source": "清除床周围的地板空间以减少绊倒风险。",
+      "solution_to_prevent_recurrence": "在高流量区域放置防滑垫或地毯，并确保地板清洁且无障碍物。"
+    },
+    "4": {
+      "risk_description": "这个人躺在地板上，这可能表明跌倒或不稳定风险。如果不及时处理，这种情况可能导致严重伤害。",
+      "normal_video_description": "一个人在教室环境中躺在地板上，这表明存在跌倒或不稳定风险。",
+      "solution_for_person": "确保这个人安全，并在需要时提供帮助。",
+      "solution_for_hazard_source": "未发现任何问题。",
+      "solution_to_prevent_recurrence": "监控该区域是否存在可能导致跌倒或不稳定的潜在危险。"
+    }
+  }
+}

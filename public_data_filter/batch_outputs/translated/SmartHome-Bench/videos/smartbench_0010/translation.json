@@ -1,0 +1,40 @@
+{
+  "video_key": "SmartHome-Bench/videos/smartbench_0010",
+  "translations": {
+    "0": {
+      "risk_description": "",
+      "normal_video_description": "视频显示两辆黑色SUV在夜间停放在停车场。一位穿白色连帽衫和深色裤子的人在两辆车之间行走，检查周围环境。随后该人离开画面，视频以两辆SUV仍停放在原位结束。",
+      "solution_for_person": "",
+      "solution_for_hazard_source": "",
+      "solution_to_prevent_recurrence": ""
+    },
+    "1": {
+      "risk_description": "这个人站在两辆停放的车辆之间，若其中任意一辆车突然移动，都存在碰撞风险。",
+      "normal_video_description": "视频显示两辆黑色车辆在夜间停在车道上。身穿浅色衣服的人靠近车辆，打开SUV的驾驶座车门，站在两车之间后离开。",
+      "solution_for_person": "该人应与两辆车保持安全距离，避免直接站在两车之间。",
+      "solution_for_hazard_source": "确保车辆在无人看管时安全停放并上锁。",
+      "solution_to_prevent_recurrence": "安装感应式照明或监控摄像头，以在夜间监测该区域。"
+    },
+    "2": {
+      "risk_description": "视频中可见一人在夜间靠近一辆停放的车辆并似乎在与驾驶座车门进行互动，这与可能的盗窃或破门企图相一致。",
+      "normal_video_description": "",
+      "solution_for_person": "",
+      "solution_for_hazard_source": "",
+      "solution_to_prevent_recurrence": "安装监控摄像头和移动传感器，以阻止潜在的入侵者。"
+    },
+    "3": {
+      "risk_description": "视频中一名穿白色服装的人在两辆停放的汽车之间行走，如果他们绊倒或被其中一辆车撞击，可能导致碰撞或碾压伤害。",
+      "normal_video_description": "",
+      "solution_for_person": "该人应保持警惕，注意周围环境，以免绊倒或被停放的汽车撞到。",
+      "solution_for_hazard_source": "确保停车位保持畅通且光线充足，以降低事故风险。",
+      "solution_to_prevent_recurrence": "在停车区域安装移动传感器或灯光，以提高能见度和警觉性。"
+    },
+    "4": {
+      "risk_description": "",
+      "normal_video_description": "视频展示了一个安静的夜间停车场，两辆停放的汽车旁边有人走过，但没有明显的活动或互动表明存在风险。",
+      "solution_for_person": "",
+      "solution_for_hazard_source": "",
+      "solution_to_prevent_recurrence": ""
+    }
+  }
+}

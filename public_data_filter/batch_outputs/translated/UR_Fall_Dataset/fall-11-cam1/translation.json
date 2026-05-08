@@ -1,0 +1,40 @@
+{
+  "video_key": "UR_Fall_Dataset/fall-11-cam1",
+  "translations": {
+    "0": {
+      "risk_description": "视频中的年轻人从椅子上站起后向后倒在地上。这种行为与平时坐下后站立而不失去平衡的正常行为不同。重要的是确保该年轻人没有受伤，并采取措施防止今后此类跌倒。",
+      "normal_video_description": "",
+      "solution_for_person": "应检查该年轻人是否有受伤，并为其提供支撑以防止再次跌倒。护理人员还应确保客厅没有绊倒危险，并为该年轻人提供适当的支持和监督。",
+      "solution_for_hazard_source": "护理人员应确保客厅没有绊倒危险，并为该年轻人提供适当的支持和监督，以防止跌倒。",
+      "solution_to_prevent_recurrence": "护理人员应定期检查客厅是否存在潜在危险，并采取措施防止跌倒，例如为该年轻人提供适当的支持和监督。还应鼓励该年轻人定时休息和伸展，以防止肌肉疲劳和平衡失调。"
+    },
+    "1": {
+      "risk_description": "该人失去平衡并倒在地上，这存在在跌倒时撞击地面或家具而导致受伤的风险。",
+      "normal_video_description": "一个穿蓝色衬衫的人在一个配有书桌和椅子的学习区域。他们失去平衡并倒在地上。",
+      "solution_for_person": "确保该人意识到潜在的绊倒危险，并保持对周围环境的警觉，以防止跌倒。",
+      "solution_for_hazard_source": "清除或固定地板上可能引起绊倒的松散物品。",
+      "solution_to_prevent_recurrence": "在学习区域安装防滑垫并确保通道畅通。"
+    },
+    "2": {
+      "risk_description": "该人失去平衡并向后倒在地上，这表明发生了明显的失衡事件，超出正常活动的范围。",
+      "normal_video_description": "",
+      "solution_for_person": "该人应立即起身并检查是否受伤，必要时可考虑使用椅子或其他支撑物以保持稳定。",
+      "solution_for_hazard_source": "确保地板上没有障碍物，并提供稳固的座位选择，以防止类似的跌倒。",
+      "solution_to_prevent_recurrence": "如果存在平衡问题，鼓励使用辅助设备，并通过清除绊倒危险来改善环境安全。"
+    },
+    "3": {
+      "risk_description": "该人似乎失去平衡并倒在地板上，这可能导致受伤风险，尤其是如果他们行动受限或正在从疾病中恢复。",
+      "normal_video_description": "",
+      "solution_for_person": "确保该人在跌倒后得到支撑，并检查是否受伤。",
+      "solution_for_hazard_source": "清除任何绊倒危险，确保地面干净且稳固。",
+      "solution_to_prevent_recurrence": "练习平衡训练，并确保环境没有障碍物。"
+    },
+    "4": {
+      "risk_description": "视频中的人因地板上可能的滑倒或绊倒危险而面临跌倒风险，可能导致严重伤害。",
+      "normal_video_description": "",
+      "solution_for_person": "确保该区域没有绊倒危险，并提供具有良好抓地力的适当鞋类。",
+      "solution_for_hazard_source": "清除地板上的任何障碍物或光滑表面。",
+      "solution_to_prevent_recurrence": "定期检查工作空间的潜在危险，并及时处理。"
+    }
+  }
+}

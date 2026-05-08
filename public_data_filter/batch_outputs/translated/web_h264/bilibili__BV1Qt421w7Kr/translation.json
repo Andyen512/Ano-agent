@@ -1,0 +1,40 @@
+{
+  "video_key": "web_h264/bilibili__BV1Qt421w7Kr",
+  "translations": {
+    "0": {
+      "risk_description": "可以看到孩子在院子里奔跑玩耍，这可能导致他们绊倒或失去平衡而跌倒。",
+      "normal_video_description": "",
+      "solution_for_person": "成人监督并确保孩子佩戴合适的安全装备（如头盔）有助于防止跌倒和受伤。",
+      "solution_for_hazard_source": "清除院子里的障碍物或危险物品（如石块或玩具）可以降低跌倒风险。",
+      "solution_to_prevent_recurrence": "定期检查院子是否存在危险，并确保孩子在玩耍时有人监督，有助于在未来防止跌倒和受伤。"
+    },
+    "1": {
+      "risk_description": "一个孩子坐在装满水的盆边，这存在掉入盆中、可能溺水或被水伤害的风险。",
+      "normal_video_description": "视频展示了孩子们进行不同活动的多个场景，其中一些涉及潜在的安全风险。",
+      "solution_for_person": "确保孩子受到密切监护，并将其从盆边移开。",
+      "solution_for_hazard_source": "将盆移走或将其放置在儿童够不到的安全位置。",
+      "solution_to_prevent_recurrence": "在有水危险的区域设置屏障，并教育孩子玩水的危险性。"
+    },
+    "2": {
+      "risk_description": "可以看到孩子在楼梯上跌倒或被推倒，由于高度和硬质表面，存在明显的受伤风险。",
+      "normal_video_description": "",
+      "solution_for_person": "成人应密切监督孩子，确保他们在楼梯附近不被单独留下。",
+      "solution_for_hazard_source": "在楼梯的顶部和底部安装安全门，以防止无人监管的进入。",
+      "solution_to_prevent_recurrence": "向看护者普及持续监督的重要性以及在楼梯周围使用安全措施的必要性。"
+    },
+    "3": {
+      "risk_description": "可以看到孩子在院子里奔跑玩耍，这可能导致跌倒或与物体碰撞。",
+      "normal_video_description": "",
+      "solution_for_person": "看护者应密切监督孩子，确保院子里没有绊倒危险。",
+      "solution_for_hazard_source": "清除院子里所有可能的绊倒危险，确保该区域安全供玩耍。",
+      "solution_to_prevent_recurrence": "在院子里安装安全门或屏障，防止无人监管的进入，并确保持续监督。"
+    },
+    "4": {
+      "risk_description": "可以看到孩子在长满草的窄路上行走，路面可能不稳，导致跌倒。孩子注意力未集中在路上，增加了事故风险。",
+      "normal_video_description": "视频显示一个孩子在院子里玩耍，走在长满草的窄路上。",
+      "solution_for_person": "确保孩子在狭窄或不平的路面上行走时受到监督和引导，以防止跌倒。",
+      "solution_for_hazard_source": "",
+      "solution_to_prevent_recurrence": "教育孩子在狭窄或不平的路面上行走时注意周围环境。"
+    }
+  }
+}

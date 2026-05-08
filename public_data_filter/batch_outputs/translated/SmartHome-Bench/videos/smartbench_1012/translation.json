@@ -1,0 +1,40 @@
+{
+  "video_key": "SmartHome-Bench/videos/smartbench_1012",
+  "translations": {
+    "0": {
+      "risk_description": "老年人正在使用助行器在客厅中行走，这可能表明存在不稳定或跌倒的风险。",
+      "normal_video_description": "",
+      "solution_for_person": "确保老年人在客厅空间活动时有适当的支撑和监护。",
+      "solution_for_hazard_source": "清除任何绊倒危险，确保客厅光线充足且无障碍物。",
+      "solution_to_prevent_recurrence": "定期检查老年人的平衡和活动能力，并考虑物理治疗或运动来提高稳定性。"
+    },
+    "1": {
+      "risk_description": "这位老年人在客厅行走时使用拐杖支撑，存在失衡和跌倒的风险，尤其在转身或伸手拿东西时。",
+      "normal_video_description": "一位穿红色衬衫的老年人使用拐杖在客厅里走动，绕过家具和书架。",
+      "solution_for_person": "确保老年人使用适当的辅助设备，如需要时使用助行器，并在平衡可能受影响时有人员在旁边帮助。",
+      "solution_for_hazard_source": "清除或固定客厅中任何绊倒危险，如松散的地毯或走道附近的杂物。",
+      "solution_to_prevent_recurrence": "在沙发附近安装抓握杆，确保走道畅通无障碍。定期检查和维护辅助设备。"
+    },
+    "2": {
+      "risk_description": "",
+      "normal_video_description": "一位身穿粉色衬衫和黑色裤子的老年人拄着拐杖在客厅慢慢行走。该人从走廊进入主客厅，绕过家具和助行器，然后转身返回走廊。动作从容而有控制，表明这是一项在安全家庭环境中的日常活动。",
+      "solution_for_person": "",
+      "solution_for_hazard_source": "",
+      "solution_to_prevent_recurrence": ""
+    },
+    "3": {
+      "risk_description": "该老年人使用拐杖，但似乎在努力保持平衡，这可能导致跌倒。",
+      "normal_video_description": "",
+      "solution_for_person": "确保老年人正确使用支撑辅具，必要时考虑提供额外支持。",
+      "solution_for_hazard_source": "清除绊倒危险，确保路径畅通以保障安全行走。",
+      "solution_to_prevent_recurrence": "安装抓握杆并改善照明，以提高稳定性和可视性。"
+    },
+    "4": {
+      "risk_description": "该人正在使用助行器，表明他们可能有行动不便的问题。使用助行器行走时存在跌倒或失衡的风险。",
+      "normal_video_description": "",
+      "solution_for_person": "确保该人在使用助行器时得到适当的支撑和帮助，以防止跌倒。",
+      "solution_for_hazard_source": "",
+      "solution_to_prevent_recurrence": "定期检查和维护助行器的状态，确保其处于良好工作状态。"
+    }
+  }
+}

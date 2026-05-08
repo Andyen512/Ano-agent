@@ -1,0 +1,40 @@
+{
+  "video_key": "SmartHome-Bench/videos/smartbench_0332",
+  "translations": {
+    "0": {
+      "risk_description": "可以看到一名年轻人在狭窄、灯光昏暗的阳台上与一只狗一起行走。狗突然跳跃，导致年轻人失去平衡，摔下楼梯。这次跌倒看起来不稳，可能导致受伤。",
+      "normal_video_description": "",
+      "solution_for_person": "在与宠物一起在狭窄楼梯上行走时，应更加小心，以防止跌倒。",
+      "solution_for_hazard_source": "狭窄且灯光昏暗、地面光滑的阳台可能是导致跌倒的危险来源。",
+      "solution_to_prevent_recurrence": "应确保阳台光线充足，地面清洁干燥，以防止再次跌倒。"
+    },
+    "1": {
+      "risk_description": "穿绿色连帽衫的人似乎失去平衡，摔倒在地，可能导致受伤。",
+      "normal_video_description": "一名穿深色衣服的人走过走廊，随后另一名穿蓝色连帽衫的人出现。随后，一名穿绿色连帽衫的人在同一走廊摔倒在地。",
+      "solution_for_person": "应确保在穿过该空间时牢牢抓住扶手并保持平衡。",
+      "solution_for_hazard_source": "",
+      "solution_to_prevent_recurrence": "在走廊安装防滑地板，并确保充足的照明，以减少绊倒危险。"
+    },
+    "2": {
+      "risk_description": "",
+      "normal_video_description": "视频以俯视角度展示走廊，几个人从画面中走过。一个人短暂地倚靠栏杆，但场景仅表现日常活动，未出现明显的危险或风险。",
+      "solution_for_person": "",
+      "solution_for_hazard_source": "",
+      "solution_to_prevent_recurrence": ""
+    },
+    "3": {
+      "risk_description": "一名穿绿色衣服的人在楼梯上似乎滑倒或跌倒，可能造成受伤风险，尤其是对行动不便的人。",
+      "normal_video_description": "",
+      "solution_for_person": "确保该人得到安全的支撑，并在跌倒后检查是否受伤。",
+      "solution_for_hazard_source": "在楼梯上安装扶手或改善照明，以防止将来跌倒。",
+      "solution_to_prevent_recurrence": "定期检查和维护楼梯，排除任何潜在危险，并考虑使用防滑垫或防滑涂层。"
+    },
+    "4": {
+      "risk_description": "",
+      "normal_video_description": "视频展示了一条走廊的静止画面，走廊中有通向另一房间的拱门。没有可见的移动或动作发生。",
+      "solution_for_person": "",
+      "solution_for_hazard_source": "",
+      "solution_to_prevent_recurrence": ""
+    }
+  }
+}

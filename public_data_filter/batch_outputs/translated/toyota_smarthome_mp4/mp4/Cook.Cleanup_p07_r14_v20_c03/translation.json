@@ -1,0 +1,40 @@
+{
+  "video_key": "toyota_smarthome_mp4/mp4/Cook.Cleanup_p07_r14_v20_c03",
+  "translations": {
+    "0": {
+      "risk_description": "",
+      "normal_video_description": "视频显示一位老年人在厨房里弯腰打开抽屉。厨房光线充足，可以看到各种厨房电器和用具。这位老年人似乎在抽屉里寻找什么东西。",
+      "solution_for_person": "",
+      "solution_for_hazard_source": "",
+      "solution_to_prevent_recurrence": ""
+    },
+    "1": {
+      "risk_description": "",
+      "normal_video_description": "一位老年人在厨房里站着，手里拿着砧板。他们弯腰打开抽屉，取出物品，然后站起身手持该物品。",
+      "solution_for_person": "",
+      "solution_for_hazard_source": "",
+      "solution_to_prevent_recurrence": ""
+    },
+    "2": {
+      "risk_description": "",
+      "normal_video_description": "在厨房里可以看到一位老年人弯腰打开抽屉并在里面寻找东西。该人身穿彩色衬衫和白色裤子，厨房光线充足且井然有序。视频中没有可见的危险或危险行为。",
+      "solution_for_person": "",
+      "solution_for_hazard_source": "",
+      "solution_to_prevent_recurrence": ""
+    },
+    "3": {
+      "risk_description": "这位老年人在弯腰伸手打开下层橱柜时，可能会因潜在的不稳定性或站立困难而增加跌倒风险。",
+      "normal_video_description": "",
+      "solution_for_person": "如有必要，确保老年人使用稳固的踏脚凳安全地够到下层橱柜。",
+      "solution_for_hazard_source": "将下层橱柜安装在不需要过度弯腰或伸展的高度。",
+      "solution_to_prevent_recurrence": "在厨房使用防滑垫并确保良好照明，以降低跌倒风险。"
+    },
+    "4": {
+      "risk_description": "",
+      "normal_video_description": "一位中年人正弯腰在厨房里伸手打开抽屉。环境看起来安全，没有可见的危险或风险。",
+      "solution_for_person": "",
+      "solution_for_hazard_source": "",
+      "solution_to_prevent_recurrence": ""
+    }
+  }
+}

@@ -1,0 +1,40 @@
+{
+  "video_key": "SmartHome-Bench/videos/smartbench_0551",
+  "translations": {
+    "0": {
+      "risk_description": "",
+      "normal_video_description": "视频显示两名年轻人在阳台上，其中一人正在打开一个盒子。他们看起来在进行正常的活动，没有任何风险或危险的迹象。",
+      "solution_for_person": "",
+      "solution_for_hazard_source": "",
+      "solution_to_prevent_recurrence": ""
+    },
+    "1": {
+      "risk_description": "有一个人以挑衅的方式打开包裹，而另一人在场，这增加了发生口头或肢体冲突的风险。",
+      "normal_video_description": "有一个人在门廊上打开包裹时，另一人在场，导致对峙。",
+      "solution_for_person": "打开包裹的人应停止挑衅行为，让对方在不发生冲突的情况下离开。",
+      "solution_for_hazard_source": "",
+      "solution_to_prevent_recurrence": "在前门或大门上安装安全锁，以防止包裹递送期间未经授权的进入。"
+    },
+    "2": {
+      "risk_description": "两个人走向门廊上的包裹，打开并试图取走里面的东西。有人对他们大喊让他们离开，他们逃跑了，这表明明显是盗窃并伴随对峙。",
+      "normal_video_description": "",
+      "solution_for_person": "立即报警，不要再与这些人对峙。",
+      "solution_for_hazard_source": "使用带锁的储物箱或双向音频摄像头来固定包裹，以防止未来的盗窃。",
+      "solution_to_prevent_recurrence": "安装可见的监控摄像头，并考虑使用包裹锁箱。"
+    },
+    "3": {
+      "risk_description": "快递员粗暴地撕开包裹，这可能导致冲突升级，危及房主的安全。",
+      "normal_video_description": "",
+      "solution_for_person": "房主应保持冷静并明确界限，以缓和局势。",
+      "solution_for_hazard_source": "快递公司应确保其员工接受冲突解决和客户服务方面的培训。",
+      "solution_to_prevent_recurrence": "在门上安装安全锁，以防止未经授权的进入并确保投递安全。"
+    },
+    "4": {
+      "risk_description": "",
+      "normal_video_description": "视频显示一个人站在阳台上，与坐着的另一个人互动。他们似乎在进行对话或交换物品。环境平静，没有可见的危险或风险。",
+      "solution_for_person": "",
+      "solution_for_hazard_source": "",
+      "solution_to_prevent_recurrence": ""
+    }
+  }
+}

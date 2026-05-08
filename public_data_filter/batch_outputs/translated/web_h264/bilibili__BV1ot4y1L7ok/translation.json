@@ -1,0 +1,40 @@
+{
+  "video_key": "web_h264/bilibili__BV1ot4y1L7ok",
+  "translations": {
+    "0": {
+      "risk_description": "视频显示一名年轻人在客厅环境中与另一人发生身体冲突。该行为偏离了家庭日常行为的常态，因为身体冲突通常在客厅环境中并不常见。风险类型为人际冲突，因为该行为涉及两人之间的身体对抗。",
+      "normal_video_description": "",
+      "solution_for_person": "参与冲突的人员应与另一人分开，以防止冲突进一步升级。照护者应介入以缓和局势并确保所有相关人员的安全。",
+      "solution_for_hazard_source": "应对客厅环境进行评估，找出可能导致冲突的潜在危险因素，如可用作武器的物品或可能继续发生冲突的区域。",
+      "solution_to_prevent_recurrence": "为防止再次发生，照护者应监控冲突相关人员的行为，并解决可能导致冲突的根本问题。他们还应制定明确的规定和后果来处理身体冲突。"
+    },
+    "1": {
+      "risk_description": "在易燃材料附近或操作不当时使用吹风机可能导致火灾，造成严重烧伤甚至致命。",
+      "normal_video_description": "视频显示一名理发师在理发店为顾客使用吹风机，随后发生爆炸并引发火灾。",
+      "solution_for_person": "避免在易燃物质附近或通风不良的区域使用吹风机，除非采取适当的安全防护措施。",
+      "solution_for_hazard_source": "确保按照安全指南使用吹风机，远离易燃材料，并在通风良好的空间操作。",
+      "solution_to_prevent_recurrence": "在理发店对电气设备的使用实行严格的安全规程，并为员工提供消防安全培训。"
+    },
+    "2": {
+      "risk_description": "吹风机在使用过程中突然爆炸，导致立即且猛烈的火灾，点燃了两人头发和衣物。这是一起明显的直接火灾隐患，造成灾难性事故。",
+      "normal_video_description": "",
+      "solution_for_person": "立即停止使用该设备，将其安全远离身体，并使用灭火器或大量水扑灭火焰。",
+      "solution_for_hazard_source": "该吹风机应立即停止使用并接受检查，排查电气故障或制造缺陷。",
+      "solution_to_prevent_recurrence": "对服务区域的电气设备实行严格的安全检查，并确保员工具备火灾应急处置的培训。"
+    },
+    "3": {
+      "risk_description": "视频显示一家发廊中吹风机引发爆炸，导致严重烧伤。这构成了显著的火灾和伤害风险，尤其对行动不便或自我防护能力有限的人员影响更大。",
+      "normal_video_description": "",
+      "solution_for_person": "确保人员了解消防安全程序，并能方便获取灭火器。",
+      "solution_for_hazard_source": "定期检查和维护电气设备，以防止故障。",
+      "solution_to_prevent_recurrence": "在使用电气设备的环境中实施严格的安全规程并进行消防演练。"
+    },
+    "4": {
+      "risk_description": "视频显示一个人在厨房环境中，火灾突然起火并迅速蔓延，造成重大损失。若该行为发展成事故，可能导致的后果严重性很高，包括严重烧伤、长期影响、紧急医疗救治以及重大财产损失。",
+      "normal_video_description": "",
+      "solution_for_person": "确保易燃材料远离热源，烹饪时采取适当的防护措施以防止火灾。",
+      "solution_for_hazard_source": "安装烟雾探测器并确保其正常工作，以便在发生火灾时向居住者发出警报。",
+      "solution_to_prevent_recurrence": "定期检查和维护厨房电器及线路，以防止可能导致火灾的电气故障。"
+    }
+  }
+}

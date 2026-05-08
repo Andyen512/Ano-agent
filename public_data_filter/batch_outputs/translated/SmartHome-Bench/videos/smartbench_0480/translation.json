@@ -1,0 +1,40 @@
+{
+  "video_key": "SmartHome-Bench/videos/smartbench_0480",
+  "translations": {
+    "0": {
+      "risk_description": "看到一条蛇从天花板掉落，落在一辆停在车库里的白色汽车上。这条蛇似乎处于困境中，可能会对附近的人造成风险。",
+      "normal_video_description": "",
+      "solution_for_person": "如果您在车库里，请远离汽车和蛇，以避免任何潜在的危险。如果您不在车库里，在蛇被安全移除之前不要进入。",
+      "solution_for_hazard_source": "蛇可能由于缺乏适当的维护或建筑问题而从天花板掉落。解决车库中的潜在危险以防止未来发生事故非常重要。",
+      "solution_to_prevent_recurrence": "定期检查车库中任何潜在危险，例如松动的天花板瓷砖或损坏的电线。采取措施解决发现的问题，例如修理或更换损坏的材料。此外，考虑安装安全措施，例如天花板网或防蛇屏障，以防止未来发生事故。"
+    },
+    "1": {
+      "risk_description": "一条大蛇在密闭空间中的汽车周围移动，可能会与车辆或其他物体发生碰撞或被压碎。",
+      "normal_video_description": "一辆白色汽车停在车库里。一条大蛇出现并绕着汽车移动，最终离开画面。",
+      "solution_for_person": "确保蛇被安全地从车库区域移除，以防止与汽车意外接触或缠绕。",
+      "solution_for_hazard_source": "将蛇安全地控制在远离车辆和密闭空间的环境中。",
+      "solution_to_prevent_recurrence": "安装障碍物或在不使用时锁好车库门，以防止动物进入。"
+    },
+    "2": {
+      "risk_description": "一条大蛇进入车库，直接从停放汽车的引擎盖上移动，对车辆造成高度压碎风险或对蛇造成损害。",
+      "normal_video_description": "",
+      "solution_for_person": "",
+      "solution_for_hazard_source": "",
+      "solution_to_prevent_recurrence": ""
+    },
+    "3": {
+      "risk_description": "看到一条大蛇绕着汽车移动，可能会对好奇且无法躲避的儿童造成潜在危险。",
+      "normal_video_description": "",
+      "solution_for_person": "确保儿童远离蛇并密切监督。",
+      "solution_for_hazard_source": "安全地控制蛇并将其转移到远离车库的区域。",
+      "solution_to_prevent_recurrence": "安装安全的外壳或障碍物，以防止蛇将来进入车库。"
+    },
+    "4": {
+      "risk_description": "",
+      "normal_video_description": "视频显示一辆静止的白色汽车在一个光线昏暗的车库里，没有可见的运动或活动。",
+      "solution_for_person": "",
+      "solution_for_hazard_source": "",
+      "solution_to_prevent_recurrence": ""
+    }
+  }
+}

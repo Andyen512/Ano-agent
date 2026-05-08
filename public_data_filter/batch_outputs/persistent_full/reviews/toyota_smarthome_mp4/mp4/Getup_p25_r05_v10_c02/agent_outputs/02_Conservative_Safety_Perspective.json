@@ -1,0 +1,30 @@
+{
+  "backend": "tarsier2",
+  "description": "Bytedance Tarsier2 single-video inference",
+  "model_id": "omni-research/Tarsier2-7b-0115",
+  "model_path": "/data_4/liuyuan/lifebench/models/Tarsier2-7b-0115",
+  "video_path": "/data_4/liuyuan/lifebench/data/public_data/toyota_smarthome_mp4/mp4/Getup_p25_r05_v10_c02.mp4",
+  "prompt": "You are acting as a conservative safety reviewer.\nYour task is to minimize missed risks. If a candidate behavior has a realistic possibility of injury, loss of control, or accident triggering, it may be kept as a risk anomaly.\n\nFollow these principles:\n- Apply a cautious safety standard, prioritizing behaviors that may lead to falls, collisions, burns, electric shock, accidental ingestion, cuts, or other household injuries.\n- Even if harm has not occurred yet, keep the behavior if it already contains a clear risk trigger or is in an accident-prone state.\n- For borderline cases, focus on whether the behavior deserves early intervention rather than waiting for harm to happen.\n- If a behavior would commonly be stopped or warned against by family members, guardians, or caregivers, lean toward keeping it.\n- The goal is to reduce false negatives, so ambiguous cases may be judged slightly conservatively.\n\nOutput requirements for this perspective:\n- Explain what realistic harm the behavior may trigger and why it should or should not be kept under a conservative safety standard.\n- You do not need to prove that harm will definitely occur.\n- Do not exaggerate beyond an ordinary household context.\n\nTask addendum:\nReview the input video and first decide whether the video contains a risk.\nBase your judgment only on the video content. Do not assume facts outside the video, and do not invent extra events.\nJudge the main visible behavior and scene in the video.\nYou must answer based on the provided video input. Do not say that you cannot watch or inspect the video.\nOutput exactly the following English-labeled fields, with no markdown and no extra text:\nRisk presence: Yes / No\nLevel 1 scene: output one scene keyword. Prefer one of: dining room, kitchen, study, balcony, living room, bathroom, yard. If none fits, output your own concise scene keyword.\nLevel 2 subject: output one subject keyword. Prefer one of: child, older adult, young adult, middle-aged adult. If none fits, output your own concise subject keyword.\nLevel 3 risk type: if Risk presence is Yes, output one risk keyword. Prefer one of: fall/instability, heat/fire source, collision/crush injury, sharp-object danger, electrical safety, poisoning/accidental ingestion, interpersonal conflict. If none fits, output your own concise risk keyword. If Risk presence is No, output None.\nRisk description: if Risk presence is Yes, describe the risk in 1-3 sentences. If Risk presence is No, output None.\nRisk time interval: if Risk presence is Yes, localize the risk as seconds like [start,end]. If there are multiple intervals, separate them with semicolons. If the exact interval is unclear, output Unknown. If Risk presence is No, output None.\nSolution for person: if Risk presence is Yes, give a concrete action for the person or caregiver. If Risk presence is No, output None.\nSolution for hazard source: if Risk presence is Yes, give a concrete action for the hazard source or environment. If Risk presence is No, output None.\nSolution to prevent recurrence: if Risk presence is Yes, give a prevention measure to reduce recurrence. If Risk presence is No, output None.\nNormal video description: if Risk presence is No, describe the normal video content in 1-3 sentences. If Risk presence is Yes, output None.",
+  "response": "In a modern dining room with a large white table and wooden accents, a woman is seated at the table with a red cup and some items in front of her. She begins to rise from her seat, using her hands for support. The woman stands up fully and starts to move away from the table. She continues to move away from the table, heading towards the background. The woman is now standing and moving further away from the table, with her back partially turned to the camera. The woman is almost out of the frame, continuing to move away from the table. The woman is no longer visible in the frame, having moved completely away from the table.",
+  "parsed_response": {
+    "risk_status": "abnormal",
+    "has_risk": true,
+    "risk_type": "collision_or_struck",
+    "video_description": "",
+    "safe_segment_desc": "",
+    "risk_description": "",
+    "solution": "",
+    "time_spans": []
+  },
+  "generation": {
+    "temperature": 0.0,
+    "top_p": 0.9,
+    "max_new_tokens": 256,
+    "fps": 1.0,
+    "max_frames": 16,
+    "merge_size": 2
+  },
+  "elapsed_seconds": 23.363,
+  "format_retry_used": true,
+  "first_response_before_format_retry": "In a modern dining room with a large white table and wooden accents, a woman is seated at the table with a red can and some items in front of her. She begins to rise from her seat, pushing herself up with her hands. The woman continues to stand up, moving away from the table. She fully stands up and starts to move away from the table, heading towards the right side of the room. The woman continues to move away from the table, leaving the dining area. The risk presence is identified as 'None' as no immediate harm or accident occurred. The scene is set in a dining room with a modern design, featuring a large white table, wooden accents, and a white cabinet in the background. The subject is an older adult, and the risk type is 'None' as no immediate harm or accident occurred. The risk description is 'None' as no immediate harm or accident occurred. The risk time interval is 'Unknown' as the exact time of the event is unclear. The solution for the person is 'None' as no immediate action is required. The solution for the hazard source is 'None' as no immediate action is required. The solution to prevent recurrence is 'None' as no immediate action is required. The normal video content is described"
+}

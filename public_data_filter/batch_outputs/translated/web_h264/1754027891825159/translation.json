@@ -1,0 +1,40 @@
+{
+  "video_key": "web_h264/1754027891825159",
+  "translations": {
+    "0": {
+      "risk_description": "视频显示一名年轻人冲向正在燃烧的房屋，这是一种危险且冒险的行为。该人没有穿戴任何防护装备，冲向火焰，可能导致严重伤害甚至死亡。",
+      "normal_video_description": "",
+      "solution_for_person": "应该阻止并防止该人进入燃烧的房屋。应指示他远离火场并寻求当局帮助。",
+      "solution_for_hazard_source": "危险来源是燃烧的房屋。应尽快扑灭火焰，以防止进一步的损害和伤害。",
+      "solution_to_prevent_recurrence": "该视频应用作警示，提醒他人不要冲向火场。有关部门也应采取措施防止此类事件再次发生，例如加强消防安全宣传和为应急人员提供培训。"
+    },
+    "1": {
+      "risk_description": "房屋被火焰吞噬并正在坍塌，存在烧伤和被掉落碎片压碎的风险。消防员正向燃烧的房屋跑去，增加了被火焰和结构坍塌伤害的风险。",
+      "normal_video_description": "一所房屋着火并坍塌，消防员正在应对紧急情况。",
+      "solution_for_person": "消防员应与仍在燃烧并坍塌的结构保持安全距离，以避免烧伤和压伤。",
+      "solution_for_hazard_source": "应尽快扑灭火焰，并对房屋的结构完整性进行评估，以防止进一步坍塌。",
+      "solution_to_prevent_recurrence": "确保配备适当的消防安全措施，如正常工作的烟雾报警器和灭火器，并定期维护电气系统以防止火灾。"
+    },
+    "2": {
+      "risk_description": "房屋被火焰吞没，浓密的黑烟滚滚，一名消防员被困在坍塌的屋顶结构下，形成了严重危及生命的情形。",
+      "normal_video_description": "",
+      "solution_for_person": "应立即由其他人员将受困消防员救出，以防止进一步的伤害或死亡。",
+      "solution_for_hazard_source": "应部署消防设备和资源，以扑灭火焰并稳固结构。",
+      "solution_to_prevent_recurrence": "实施更严格的安全规程，供消防员在进行结构火灾作业时使用，以最大限度降低坍塌和被困风险。"
+    },
+    "3": {
+      "risk_description": "视频显示房屋坍塌，一名消防员被困其中，因火灾和结构不稳而面临重大风险。",
+      "normal_video_description": "",
+      "solution_for_person": "立即疏散被困消防员并提供医疗救助。",
+      "solution_for_hazard_source": "确保现场已封闭并进行通风，以防止进一步坍塌和火势蔓延。",
+      "solution_to_prevent_recurrence": "进行彻底调查并在类似情况下实施安全规程，以指导未来的救援行动。"
+    },
+    "4": {
+      "risk_description": "视频显示一所房屋着火，屋顶冒出火焰和浓烟。可以看见一名消防员在附近，表明存在活跃的火灾危险。",
+      "normal_video_description": "视频显示一所房屋着火，屋顶冒出火焰和浓烟。可以看见一名消防员在附近，表明存在活跃的火灾危险。",
+      "solution_for_person": "",
+      "solution_for_hazard_source": "",
+      "solution_to_prevent_recurrence": ""
+    }
+  }
+}

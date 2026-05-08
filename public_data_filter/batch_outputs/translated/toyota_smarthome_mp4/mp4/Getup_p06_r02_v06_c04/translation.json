@@ -1,0 +1,40 @@
+{
+  "video_key": "toyota_smarthome_mp4/mp4/Getup_p06_r02_v06_c04",
+  "translations": {
+    "0": {
+      "risk_description": "老年人由于客厅凌乱的环境而面临跌倒风险，沙发和咖啡桌上放置了包、书籍和笔记本电脑等物品。老年人还穿着拖鞋，可能无法提供足够的支撑和防滑。",
+      "normal_video_description": "老年人坐在客厅的沙发上，四周是包、书籍和笔记本电脑。随后老年人起身，开始清理沙发和咖啡桌上的杂物。",
+      "solution_for_person": "护理人员应协助老年人清理沙发和咖啡桌上的杂物，并提供具有良好支撑和防滑性的适当鞋子。",
+      "solution_for_hazard_source": "护理人员应确保客厅没有绊倒危险，并确保老年人配备合适的鞋子。",
+      "solution_to_prevent_recurrence": "护理人员应定期检查客厅是否有杂物和绊倒危险，并确保老年人穿着合适的鞋子并得到支撑，以防跌倒。"
+    },
+    "1": {
+      "risk_description": "该人手中握着一个小瓶子，可能是药物或清洁产品，位于可能有儿童或宠物在场的客厅。这存在误服或接触的风险。",
+      "normal_video_description": "老年人坐在客厅的绿色沙发上，随后手持小瓶子站立。",
+      "solution_for_person": "确保该人了解瓶子内的物品，并将其放在儿童和宠物够不到的地方。",
+      "solution_for_hazard_source": "明确标注瓶子，并将其存放在安全的地方。",
+      "solution_to_prevent_recurrence": "教育该人正确存放可能有危险的物质。"
+    },
+    "2": {
+      "risk_description": "",
+      "normal_video_description": "老年人坐在客厅的绿色沙发上，四周有枕头、包和放置物品的咖啡桌。老年人慢慢站起并走开，展示了正常的日常活动，没有任何不稳定或危险的迹象。",
+      "solution_for_person": "",
+      "solution_for_hazard_source": "",
+      "solution_to_prevent_recurrence": ""
+    },
+    "3": {
+      "risk_description": "老年人在坐姿时向前弯腰，可能因不稳或体力不足而导致跌倒。",
+      "normal_video_description": "",
+      "solution_for_person": "确保老年人坐直并有支撑，考虑使用带扶手的椅子以增加稳定性。",
+      "solution_for_hazard_source": "移除座位周围的障碍物，防止绊倒。",
+      "solution_to_prevent_recurrence": "使用支撑垫或靠背帮助保持坐姿时的正确姿势。"
+    },
+    "4": {
+      "risk_description": "老年人弯腰从地板上捡起物品，如果不注意可能导致跌倒。跌倒是老年人常见的伤害原因，可能导致骨折或头部外伤等严重后果。",
+      "normal_video_description": "视频显示老年人在客厅弯腰从地板上捡起物品。",
+      "solution_for_person": "确保老年人在光线充足且站立稳固的情况下捡起地板上的物品。鼓励他们如有需要使用抓取器或其他辅助设备。",
+      "solution_for_hazard_source": "",
+      "solution_to_prevent_recurrence": "定期检查客厅是否存在绊倒危险，确保地板上没有杂物。考虑在沙发和其他家具附近安装扶手或抓握杆，以提供额外支撑。"
+    }
+  }
+}

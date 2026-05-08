@@ -1,0 +1,40 @@
+{
+  "video_key": "toyota_smarthome_mp4/mp4/Laydown_p13_r00_v06_c04",
+  "translations": {
+    "0": {
+      "risk_description": "视频中可以看到此人在尝试从沙发上起身，若失去平衡可能会导致摔倒。由于没有使用任何辅助设备或支撑来帮助站起，风险更大。",
+      "normal_video_description": "视频中可以看到此人坐在客厅的沙发上读书，随后尝试站起，却难以做到。",
+      "solution_for_person": "此人在从沙发起身时应使用助行器或拐杖支撑，以降低摔倒风险。",
+      "solution_for_hazard_source": "沙发应摆放在便于此人安全起身的位置，周围没有障碍物或绊倒危险。",
+      "solution_to_prevent_recurrence": "应鼓励此人在从沙发起身时使用辅助器具或支撑，以防再次摔倒。护理人员也应监测其行动，必要时提供帮助。"
+    },
+    "1": {
+      "risk_description": "此人正坐在分段式沙发的边缘，沙发并不适合坐在扶手或边缘，增加了从沙发跌落的风险。",
+      "normal_video_description": "一个人在客厅的绿色分段式沙发上坐着，手里拿着书和遥控器，随后移动到沙发边缘。",
+      "solution_for_person": "避免坐在分段式沙发的边缘或扶手上。",
+      "solution_for_hazard_source": "确保家具按其设计及安全指南使用。",
+      "solution_to_prevent_recurrence": "提醒此人坐在沙发的主要座位区。"
+    },
+    "2": {
+      "risk_description": "",
+      "normal_video_description": "一位年轻成年人坐在客厅的绿色分段式沙发上，手里拿着书或杂志，轻轻调整坐姿，靠背放松并保持坐姿不变。该场景呈现出一个平静的日常瞬间，没有明显的危险或危险活动。",
+      "solution_for_person": "",
+      "solution_for_hazard_source": "",
+      "solution_to_prevent_recurrence": ""
+    },
+    "3": {
+      "risk_description": "此人坐在沙发边缘，若失去平衡可能导致摔倒，对行动不便或稳定性差的人构成风险。",
+      "normal_video_description": "",
+      "solution_for_person": "此人应坐在沙发更居中的位置，确保姿势稳固，以避免潜在摔倒。",
+      "solution_for_hazard_source": "家具摆放应确保座位区域有足够的空间和稳定性，以防止摔倒。",
+      "solution_to_prevent_recurrence": "确保此人稳稳坐在沙发中间，避免坐在边缘，以防更易跌倒。"
+    },
+    "4": {
+      "risk_description": "",
+      "normal_video_description": "一位女士坐在客厅的绿色分段式沙发上读书，她看起来轻松舒适。",
+      "solution_for_person": "",
+      "solution_for_hazard_source": "",
+      "solution_to_prevent_recurrence": ""
+    }
+  }
+}

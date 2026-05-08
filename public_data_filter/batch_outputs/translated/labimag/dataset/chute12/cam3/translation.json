@@ -1,0 +1,40 @@
+{
+  "video_key": "labimag/dataset/chute12/cam3",
+  "translations": {
+    "0": {
+      "risk_description": "这名年轻人被看到试图在床垫上进行体育活动，床垫不稳定，可能导致跌倒。该人未穿戴任何防护装备，存在受伤风险。",
+      "normal_video_description": "视频显示一名年轻人在研究环境中，试图在床垫上进行体育活动。",
+      "solution_for_person": "应建议该人在安全稳定的环境中进行体育活动，例如健身房或指定的锻炼区域。他们还应穿戴适当的防护装备，如头盔和护膝，以降低受伤风险。",
+      "solution_for_hazard_source": "应将床垫从研究环境中移走，放置在指定的体育活动区域。应重新安排研究环境，以创造一个更安全的日常活动环境。",
+      "solution_to_prevent_recurrence": "应教育该人了解在进行体育活动时安全和使用正确设备的重要性。应定期对研究环境进行安全检查，确保其没有危险，且所有设备状况良好。"
+    },
+    "1": {
+      "risk_description": "穿白色衬衫的人伸展四肢躺在垫子上，可能会增加滑倒或失去平衡的风险，可能导致跌倒。",
+      "normal_video_description": "视频显示人们在铺有垫子的房间里走动，布置设备，有一人躺在垫子上。",
+      "solution_for_person": "确保垫子牢固固定在地板上，防止在使用过程中移动。",
+      "solution_for_hazard_source": "",
+      "solution_to_prevent_recurrence": "定期检查垫子是否固定牢固，确保周围区域没有绊倒危险。"
+    },
+    "2": {
+      "risk_description": "",
+      "normal_video_description": "视频显示一个人在研究或办公环境中走动，并与地板上的物品互动，包括一块白色垫子。这些动作似乎是正常日常活动或布置的一部分，没有危险或风险的迹象。",
+      "solution_for_person": "",
+      "solution_for_hazard_source": "",
+      "solution_to_prevent_recurrence": ""
+    },
+    "3": {
+      "risk_description": "",
+      "normal_video_description": "视频显示一人穿过铺有垫子的房间，然后躺在一个柔软的表面上。另一人坐在前景的桌子旁。这个房间看起来是客厅，有各种物品和家具。",
+      "solution_for_person": "",
+      "solution_for_hazard_source": "",
+      "solution_to_prevent_recurrence": ""
+    },
+    "4": {
+      "risk_description": "该人试图跳到放在地板上的床垫上，可能导致跌倒和潜在伤害。",
+      "normal_video_description": "",
+      "solution_for_person": "确保床垫放置在稳固的表面上，并考虑使用安全垫或软垫来降低受伤风险。",
+      "solution_for_hazard_source": "",
+      "solution_to_prevent_recurrence": "提供安全的跳跃技巧培训，并确保环境没有危险。"
+    }
+  }
+}

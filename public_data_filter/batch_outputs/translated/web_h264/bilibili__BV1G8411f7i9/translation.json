@@ -1,0 +1,40 @@
+{
+  "video_key": "web_h264/bilibili__BV1G8411f7i9",
+  "translations": {
+    "0": {
+      "risk_description": "一个孩子在客厅玩打火机，这是一个潜在的火灾隐患。孩子有跌倒或引发火灾的风险。",
+      "normal_video_description": "",
+      "solution_for_person": "需要成人监督，以防止孩子玩打火机并确保其安全。",
+      "solution_for_hazard_source": "将打火机放在孩子够不到的地方，并教育他们玩火的危险性。",
+      "solution_to_prevent_recurrence": "制定规则：未经成人监督，孩子不允许玩火源。"
+    },
+    "1": {
+      "risk_description": "视频显示客厅咖啡桌上燃起火焰，存在烧伤、吸入烟雾以及火势蔓延至房屋其他部位的风险。",
+      "normal_video_description": "视频描绘了客厅里咖啡桌上起火，导致烟雾充满整个房间。",
+      "solution_for_person": "人员应立即切断电源，用水灭火，然后通知屋内其他人醒来并安全撤离。",
+      "solution_for_hazard_source": "需要找出火源并将其移除，清理该区域的易燃材料。",
+      "solution_to_prevent_recurrence": "在家中安装烟雾探测器和灭火器，并确保所有家庭成员了解基本的火灾安全和应急程序。"
+    },
+    "2": {
+      "risk_description": "天花板灯具自发点燃并剧烈燃烧，导致烟雾和火焰迅速蔓延至客厅。情况迅速从小火焰升级为大火灾，威胁整个房间。",
+      "normal_video_description": "",
+      "solution_for_person": "立即撤离房间并拨打紧急服务电话。",
+      "solution_for_hazard_source": "关闭天花板灯具的电源，用水或灭火器扑灭火焰。",
+      "solution_to_prevent_recurrence": "更换有故障的灯具为高质量产品，并确保所有电器得到妥善维护。"
+    },
+    "3": {
+      "risk_description": "视频显示客厅起火，对在该区域睡觉的孩子构成重大风险。",
+      "normal_video_description": "",
+      "solution_for_person": "确保孩子安全撤离火源，并为其提供安全的睡眠空间。",
+      "solution_for_hazard_source": "立即扑灭火焰，确保该区域无烟后再允许任何人重新进入。",
+      "solution_to_prevent_recurrence": "安装烟雾探测器并确保其正常工作；定期检查电器设备的安全性。"
+    },
+    "4": {
+      "risk_description": "视频显示一名年轻成年人坐在客厅的沙发上，面前有明火。这存在被热或火焰灼伤的风险，可能导致严重甚至危及生命的伤害。",
+      "normal_video_description": "",
+      "solution_for_person": "远离明火，保持安全距离。",
+      "solution_for_hazard_source": "立即扑灭火焰。",
+      "solution_to_prevent_recurrence": "不要让明火无人看管，特别是在有儿童或宠物在场时。"
+    }
+  }
+}

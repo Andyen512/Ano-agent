@@ -1,0 +1,40 @@
+{
+  "video_key": "toyota_smarthome_mp4/mp4/Sitdown_p10_r07_v07_c04",
+  "translations": {
+    "0": {
+      "risk_description": "老年人因客厅环境杂乱（包括堆满各种物品的茶几和带枕头的沙发）而有跌倒风险。该老人还穿着宽松的服装，这可能增加绊倒或跌倒的风险。",
+      "normal_video_description": "老年人坐在客厅的沙发上，周围有植物和摆满各种物品的茶几。老人看起来正在放松，看电视。",
+      "solution_for_person": "护理人员应帮助老年人清理茶几并移除任何绊倒危险。护理人员还应确保老人穿更合身的衣服，并在行走或坐下时提供支撑。",
+      "solution_for_hazard_source": "护理人员应确保客厅没有杂物和绊倒危险，并确保老人穿着合适的衣服。",
+      "solution_to_prevent_recurrence": "护理人员应定期检查客厅的危险因素，并确保老人穿着合适的衣服。护理人员还应在需要时为老人提供支撑和帮助，以防止跌倒。"
+    },
+    "1": {
+      "risk_description": "",
+      "normal_video_description": "一位老年人在带有绿色分段沙发、植物和茶几的客厅里走动。他们坐在沙发上，伸手去拿桌上的物品。",
+      "solution_for_person": "",
+      "solution_for_hazard_source": "",
+      "solution_to_prevent_recurrence": ""
+    },
+    "2": {
+      "risk_description": "",
+      "normal_video_description": "一位老年人在客厅里从站立姿势移动到坐在绿色分段沙发上。整过程此人显得稳定，环境安静，没有可见的危险或痛苦的迹象。",
+      "solution_for_person": "",
+      "solution_for_hazard_source": "",
+      "solution_to_prevent_recurrence": ""
+    },
+    "3": {
+      "risk_description": "老年人看起来不稳，并且扶着头，这可能表明头晕或有跌倒风险。坐在沙发边缘可能增加不稳定的风险。",
+      "normal_video_description": "",
+      "solution_for_person": "确保老年人完全且稳固地坐下，以防止任何可能的跌倒。",
+      "solution_for_hazard_source": "移除座位周围的任何障碍物，以营造更安全的环境。",
+      "solution_to_prevent_recurrence": "当老年人移动或改变姿势时提供支撑或帮助，以防止跌倒。"
+    },
+    "4": {
+      "risk_description": "老年人因其不稳定的步态和靠近茶几而有跌倒风险，可能导致严重伤害。",
+      "normal_video_description": "",
+      "solution_for_person": "确保老年人在沙发上得到适当支撑或帮助地坐着，以防止跌倒。",
+      "solution_for_hazard_source": "移除茶几周围的潜在绊倒危险，以降低跌倒风险。",
+      "solution_to_prevent_recurrence": "鼓励老年人在站立时难以保持平衡时使用拐杖等助行器。"
+    }
+  }
+}

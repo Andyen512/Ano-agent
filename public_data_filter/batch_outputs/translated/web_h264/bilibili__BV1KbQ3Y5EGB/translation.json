@@ -1,0 +1,40 @@
+{
+  "video_key": "web_h264/bilibili__BV1KbQ3Y5EGB",
+  "translations": {
+    "0": {
+      "risk_description": "看到这位年轻人摔倒躺在地板上，周围有几只狗。这种情况可能导致受伤，因为人可能被狗踩到或绊倒。",
+      "normal_video_description": "",
+      "solution_for_person": "确保年轻人在与狗互动时受到监督和帮助，以防止摔倒和受伤。",
+      "solution_for_hazard_source": "对狗进行训练，使其在人们面前保持冷静和行为端正，以降低事故风险。",
+      "solution_to_prevent_recurrence": "对年轻人和狗实施定期监督和训练，以最大限度地降低类似情况下摔倒和受伤的风险。"
+    },
+    "1": {
+      "risk_description": "人在与狗互动时有摔倒的风险，可能导致受伤。",
+      "normal_video_description": "在宠物店里，一位顾客与狗互动时失去平衡而摔倒，其他狗聚集过来。",
+      "solution_for_person": "与宠物互动时确保站稳，避免突然动作，以防止摔倒。",
+      "solution_for_hazard_source": "",
+      "solution_to_prevent_recurrence": "密切监督与宠物的互动，保持对周围环境的警觉，以避免绊倒危险。"
+    },
+    "2": {
+      "risk_description": "年轻人在与狗互动时失去平衡并摔倒在地，这是一次明显的身体失衡事件。",
+      "normal_video_description": "",
+      "solution_for_person": "应立即检查伤势并小心站起，避免可能造成进一步伤害的突然动作。",
+      "solution_for_hazard_source": "确保地面防滑且无障碍物，以防止将来摔倒。",
+      "solution_to_prevent_recurrence": "移动时与宠物保持安全距离，避免被绊倒或撞倒。"
+    },
+    "3": {
+      "risk_description": "孩子被多只狗包围，如果狗变得具有攻击性或孩子被撞倒，可能导致碰撞或压伤。",
+      "normal_video_description": "",
+      "solution_for_person": "确保孩子受到密切监督，并与狗保持安全距离，以防止潜在的碰撞或受伤。",
+      "solution_for_hazard_source": "宠物主人应确保狗表现良好并受到控制，特别是在有孩子的区域。",
+      "solution_to_prevent_recurrence": "制定规定：在孩子进入客厅时，宠物需系牵绳或待在单独区域，以防止此类情况再次发生。"
+    },
+    "4": {
+      "risk_description": "视频显示一个孩子在教室里，孩子向后摔倒在地上。如果不及时处理，可能导致严重伤害。",
+      "normal_video_description": "视频显示教室里有孩子们进行各种活动，其中一个孩子向后摔倒在地上。如果不及时处理，可能导致严重伤害。",
+      "solution_for_person": "确保孩子立即由护理人员或老师进行照看，以防止进一步受伤并提供必要的医疗帮助。",
+      "solution_for_hazard_source": "",
+      "solution_to_prevent_recurrence": "实施安全措施，如安装防滑地板并确保家具和物品固定放置，以防止教室里的绊倒危险。"
+    }
+  }
+}

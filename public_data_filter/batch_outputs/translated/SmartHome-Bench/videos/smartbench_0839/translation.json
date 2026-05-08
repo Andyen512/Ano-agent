@@ -1,0 +1,40 @@
+{
+  "video_key": "SmartHome-Bench/videos/smartbench_0839",
+  "translations": {
+    "0": {
+      "risk_description": "视频中的人正试图把自行车举到推车上，如果操作不当，可能导致不稳定并可能造成伤害。",
+      "normal_video_description": "",
+      "solution_for_person": "在尝试抬起之前，人应确保已牢牢抓住自行车和推车。",
+      "solution_for_hazard_source": "在尝试把自行车举到推车上之前，人应确保推车稳固安全。",
+      "solution_to_prevent_recurrence": "人应多次练习将自行车举到推车上，以更加熟练并对安全完成该动作更有信心。"
+    },
+    "1": {
+      "risk_description": "",
+      "normal_video_description": "可以看到一个人在车库里四处走动，搬运物品和自行车。场景中有一辆汽车、一辆高尔夫球车以及车库里常见的各种物品。",
+      "solution_for_person": "",
+      "solution_for_hazard_source": "",
+      "solution_to_prevent_recurrence": ""
+    },
+    "2": {
+      "risk_description": "可以看到一个人在狭窄的车库里费力搬动自行车，导致失去平衡并摔倒。该人似乎在尝试抬起或移动自行车，进而导致不稳定并撞到地面。",
+      "normal_video_description": "",
+      "solution_for_person": "应建议该人更加小心地搬动自行车，确保握持稳固、双脚站位恰当，以防跌倒。",
+      "solution_for_hazard_source": "自行车应存放在更易取用的位置，以免在狭窄空间里需要抬起或搬动。",
+      "solution_to_prevent_recurrence": "采用更好的自行车存放方案并确保车库照明充足，有助于防止此类事故再次发生。"
+    },
+    "3": {
+      "risk_description": "该人在汽车附近搬动自行车，如果不慎操作，可能造成碰撞风险，特别是对行动不便的人来说更为危险。",
+      "normal_video_description": "",
+      "solution_for_person": "确保自行车放置稳固，避免站在移动车辆太近的位置。",
+      "solution_for_hazard_source": "在搬运时把自行车固定好，并确保汽车处于静止状态。",
+      "solution_to_prevent_recurrence": "不使用自行车时，使用自行车架或指定区域存放。"
+    },
+    "4": {
+      "risk_description": "孩子在家里客厅玩自行车，可能导致摔倒并造成伤害。",
+      "normal_video_description": "",
+      "solution_for_person": "在孩子玩自行车时要密切看护，以防摔倒。",
+      "solution_for_hazard_source": "",
+      "solution_to_prevent_recurrence": "教孩子如何安全骑自行车，并提供头盔等适当的安全防护装备。"
+    }
+  }
+}

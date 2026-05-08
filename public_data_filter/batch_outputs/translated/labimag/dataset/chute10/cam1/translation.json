@@ -1,0 +1,40 @@
+{
+  "video_key": "labimag/dataset/chute10/cam1",
+  "translations": {
+    "0": {
+      "risk_description": "视频中可以看到这位年轻人弯腰靠近椅子，然后摔倒在地板上，这可能导致受伤。场景看起来是一间书房，书桌和架子上有各种物品，若他摔倒并撞到附近的物体，也会带来风险。",
+      "normal_video_description": "",
+      "solution_for_person": "这位年轻人在房间里走动时应更加小心，确保自己有稳固的坐或站的地方。",
+      "solution_for_hazard_source": "椅子和周围的物品应摆放得使人在摔倒时受伤的风险最小。",
+      "solution_to_prevent_recurrence": "应提醒这位年轻人在房间里走动时更加小心，确保自己有稳固的坐或站的地方。房间应重新布置，使人在摔倒时受伤的风险最小。"
+    },
+    "1": {
+      "risk_description": "",
+      "normal_video_description": "一名穿红衣服的人进入房间，躺到床垫上，然后坐起来。背景中还有其他人在进行各种活动。该房间看起来是一间教室或培训区，配有桌子、椅子和设备。",
+      "solution_for_person": "",
+      "solution_for_hazard_source": "",
+      "solution_to_prevent_recurrence": ""
+    },
+    "2": {
+      "risk_description": "一名年轻人冲进房间，被椅子绊倒，摔倒在床垫上。这种行为显然超出了正常活动范围，且涉及直接的身体跌倒，构成风险异常。",
+      "normal_video_description": "",
+      "solution_for_person": "该人应放慢脚步，留意周围环境，以避免绊倒。",
+      "solution_for_hazard_source": "椅子应放置在不容易被绊倒的位置。",
+      "solution_to_prevent_recurrence": "确保地面没有障碍物，家具摆放在安全的位置。"
+    },
+    "3": {
+      "risk_description": "穿红衣服的人试图坐在长桌子旁的椅子上，这可能因椅子不稳或桌子靠近而导致跌倒。",
+      "normal_video_description": "",
+      "solution_for_person": "在坐下之前要确保椅子稳固且位置安全。",
+      "solution_for_hazard_source": "固定椅子以防止倾倒，并确保桌子周围有足够的空间供安全移动。",
+      "solution_to_prevent_recurrence": "定期检查家具的稳固性，保持通道畅通，以避免绊倒或跌倒的危险。"
+    },
+    "4": {
+      "risk_description": "穿红衣服的人因使用不稳固的椅子去够床垫而有跌倒或受伤的风险。如果不小心，可能会导致严重伤害。",
+      "normal_video_description": "",
+      "solution_for_person": "在尝试够到床垫之前，要确保椅子稳固且安全。考虑使用梯子或其他安全设备来接近床垫。",
+      "solution_for_hazard_source": "",
+      "solution_to_prevent_recurrence": "定期检查椅子和其他家具的稳固性和安全隐患，并对个人进行安全使用升高表面的正确技术培训。"
+    }
+  }
+}

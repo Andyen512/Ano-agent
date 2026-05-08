@@ -1,0 +1,40 @@
+{
+  "video_key": "toyota_smarthome_mp4/mp4/Walk_p18_r06_v15_c07",
+  "translations": {
+    "0": {
+      "risk_description": "",
+      "normal_video_description": "一个人站在厨房里，手里拿着锅，看起来正在烹饪或准备食物。他穿着一件格子衬衫，专注于手上的工作。厨房是现代化的，配有黑色炉灶，台面上有一块砧板。",
+      "solution_for_person": "",
+      "solution_for_hazard_source": "",
+      "solution_to_prevent_recurrence": ""
+    },
+    "1": {
+      "risk_description": "这个人正把热锅靠近台面边缘，如果掉落或溢出可能导致烫伤。砧板上还有一把刀，如果处理不当，有割伤危险。",
+      "normal_video_description": "一个人正把热锅在厨房台面上移动，旁边有砧板、刀和香蕉皮。",
+      "solution_for_person": "确保热锅稳固握持并远离台面边缘，使用隔热手套防止烫伤。小心使用刀具，确保手指远离刀刃。",
+      "solution_for_hazard_source": "将热锅和锋利物品远离台面边缘，以减少意外接触的风险。",
+      "solution_to_prevent_recurrence": "不使用时，应始终将热炊具和锋利餐具放在指定的安全区域。"
+    },
+    "2": {
+      "risk_description": "",
+      "normal_video_description": "一位年长者在厨房里拿着锅，在台面周围走动。场景展现了日常厨房活动，看不到明显的危险或异常行为。",
+      "solution_for_person": "",
+      "solution_for_hazard_source": "",
+      "solution_to_prevent_recurrence": ""
+    },
+    "3": {
+      "risk_description": "这位年长者在搬动锅，如果锅倾倒并溢出热内容，可能会有风险，尤其是当他们行动不便或灵活度受限时。",
+      "normal_video_description": "",
+      "solution_for_person": "确保这位年长者使用稳固的表面，并考虑使用防烫手套或锅垫以防止烫伤。",
+      "solution_for_hazard_source": "保持台面干净整洁，减少绊倒或倾倒的风险。",
+      "solution_to_prevent_recurrence": "在锅下放置防滑垫，并在处理热物品时确保有人监督这位年长者。"
+    },
+    "4": {
+      "risk_description": "这个人正把锅里的液体倒入炉子上的平底锅，如果内容物是热的，可能会导致烫伤。如果炉子没有得到妥善管理，也有火灾风险。",
+      "normal_video_description": "",
+      "solution_for_person": "确保此人在处理锅和平底锅时佩戴隔热手套或使用防烫垫，以防烫伤。",
+      "solution_for_hazard_source": "在附近放置灭火器，并确保炉子不在使用时已关闭。",
+      "solution_to_prevent_recurrence": "使用后务必再次检查炉子是否已关闭，以防意外火灾。"
+    }
+  }
+}

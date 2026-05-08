@@ -1,0 +1,40 @@
+{
+  "video_key": "labimag/dataset/chute21/cam2",
+  "translations": {
+    "0": {
+      "risk_description": "视频中的年轻人被看到走向棕色椅子坐下，然后突然摔倒在地。这种行为与正常的坐下日常活动不同，可能会造成受伤风险。",
+      "normal_video_description": "",
+      "solution_for_person": "人在坐下时应该更加小心，确保有一个稳定的表面可以坐，以防摔倒。",
+      "solution_for_hazard_source": "危险源是棕色椅子缺乏稳定性，导致年轻人摔倒。",
+      "solution_to_prevent_recurrence": "为防止再次发生，年轻人在坐下时应确保有稳定的表面可以坐，例如有坚固靠背和扶手的椅子，或有软垫的表面。"
+    },
+    "1": {
+      "risk_description": "这个人平躺在地板上，如果无法迅速起身，可能会导致呼吸困难或受伤。",
+      "normal_video_description": "一个人搬动椅子，坐进去，然后平躺在地板上，之后再站起来。",
+      "solution_for_person": "确保这个人意识到平躺在硬表面上的风险，并在需要时有帮助的人在旁边。",
+      "solution_for_hazard_source": "",
+      "solution_to_prevent_recurrence": "在地板上放置防滑垫或软垫，以减少平躺时受伤的风险。"
+    },
+    "2": {
+      "risk_description": "这个人坐在椅子上，然后向后倒在地上，表明失去平衡或不稳定。",
+      "normal_video_description": "",
+      "solution_for_person": "应该帮助这个人站起来，并检查是否有受伤。",
+      "solution_for_hazard_source": "确保椅子稳固且状况良好。",
+      "solution_to_prevent_recurrence": "建议这个人在坐下时要小心，并确保椅子是安全的。"
+    },
+    "3": {
+      "risk_description": "这个人从扶手椅上摔到地板上，可能会造成受伤风险，尤其是对于行动不便或平衡问题的人。",
+      "normal_video_description": "",
+      "solution_for_person": "确保这个人安全地站起来，并在摔倒后评估是否有受伤。",
+      "solution_for_hazard_source": "移除或固定松动的家具以防止倾倒或掉落。",
+      "solution_to_prevent_recurrence": "使用防滑垫或垫子来固定家具，防止摔倒。"
+    },
+    "4": {
+      "risk_description": "这个人被看到穿过房间然后摔倒在地上，这可能会导致严重伤害。摔倒似乎是由于失去平衡或被地板上的物体绊倒所致。",
+      "normal_video_description": "",
+      "solution_for_person": "确保这个人穿着具有良好抓地力的合适鞋子以防止滑倒。同时，清理地板上任何可能造成绊倒的物体。",
+      "solution_for_hazard_source": "清除地板上任何潜在的绊倒危险，例如电线或松散物品。",
+      "solution_to_prevent_recurrence": "鼓励这个人慢慢小心地行走，特别是在携带物品或在不熟悉的环境中。"
+    }
+  }
+}

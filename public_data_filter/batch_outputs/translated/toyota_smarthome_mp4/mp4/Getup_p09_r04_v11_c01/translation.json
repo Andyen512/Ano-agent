@@ -1,0 +1,40 @@
+{
+  "video_key": "toyota_smarthome_mp4/mp4/Getup_p09_r04_v11_c01",
+  "translations": {
+    "0": {
+      "risk_description": "视频中的人似乎在从椅子上站起时难以保持平衡。这可能会导致跌倒并造成伤害。",
+      "normal_video_description": "",
+      "solution_for_person": "此人应在护理人员或家庭成员的帮助下站立，以确保在从椅子上起身时有适当的支撑。",
+      "solution_for_hazard_source": "应检查椅子的稳定性，并清除该区域的任何潜在危险。",
+      "solution_to_prevent_recurrence": "应鼓励此人在需要时休息并使用辅助设备，如助行器或拐杖（如有需要）。"
+    },
+    "1": {
+      "risk_description": "",
+      "normal_video_description": "一位老年人在光线充足的房间里坐在餐桌旁，起身并离开餐桌。",
+      "solution_for_person": "",
+      "solution_for_hazard_source": "",
+      "solution_to_prevent_recurrence": ""
+    },
+    "2": {
+      "risk_description": "",
+      "normal_video_description": "一位老年人坐在餐厅的白色桌子旁，然后起身离开。环境整洁，动作正常。",
+      "solution_for_person": "",
+      "solution_for_hazard_source": "",
+      "solution_to_prevent_recurrence": ""
+    },
+    "3": {
+      "risk_description": "这位老年人身体前倾，似乎有从椅子上跌倒的风险，由于潜在的平衡问题，这可能尤其危险。",
+      "normal_video_description": "",
+      "solution_for_person": "此人在站立前应确保坐姿稳固，并用手稳住自己。",
+      "solution_for_hazard_source": "餐桌和椅子应摆放整齐，以提供稳定的座位选择并防止绊倒危险。",
+      "solution_to_prevent_recurrence": "老年人应使用带扶手的椅子以增加稳定性，并在从坐姿站起时考虑使用脚凳。"
+    },
+    "4": {
+      "risk_description": "老年人在站起时可能因失去平衡而有从椅子上跌倒的风险。这可能导致严重伤害，尤其是考虑到他们的年龄。",
+      "normal_video_description": "",
+      "solution_for_person": "确保此人在从椅子上站起时有支撑或帮助，以防止跌倒。",
+      "solution_for_hazard_source": "",
+      "solution_to_prevent_recurrence": "在地板上放置防滑垫，并确保该区域光线充足，以降低跌倒风险。"
+    }
+  }
+}

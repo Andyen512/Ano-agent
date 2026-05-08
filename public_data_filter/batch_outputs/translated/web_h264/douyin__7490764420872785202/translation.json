@@ -1,0 +1,40 @@
+{
+  "video_key": "web_h264/douyin__7490764420872785202",
+  "translations": {
+    "0": {
+      "risk_description": "孩子在床上玩耍时跌落，可能导致受伤。",
+      "normal_video_description": "",
+      "solution_for_person": "看护人应确保孩子受到监督，不允许其在无人看管的情况下在床上玩耍。",
+      "solution_for_hazard_source": "应为床加装护栏或软垫以防跌落，提升安全性。",
+      "solution_to_prevent_recurrence": "看护人应建立定期监督的常规，并为家中玩耍区域设定明确的规则。"
+    },
+    "1": {
+      "risk_description": "在多个场景中看到孩子奔跑并跌倒，可能导致摔倒或与他人或家具碰撞。在一个场景中，孩子正在接受医疗器械的辅助，表明如果处理不当可能会升级为医疗紧急情况。",
+      "normal_video_description": "视频描述了一系列在家庭环境中（其中包括卧室和客厅）发生的事件，孩子在这些场景中与成年人互动并出现医疗紧急情况。",
+      "solution_for_person": "确保对孩子进行持续监督，防止奔跑和跌倒。教育孩子走路时要小心，避免突然动作。",
+      "solution_for_hazard_source": "移除或固定客厅及其他孩子活动区域的绊倒危险物。",
+      "solution_to_prevent_recurrence": "在卧室和客厅入口处安装安全门，以限制孩子在无人看管时的进入。并对看护人员进行正确的应急处置程序培训。"
+    },
+    "2": {
+      "risk_description": "孩子躺在床上似乎出现窒息，看护人正尝试进行海姆利克急救法。这是一个明确且直接的生命威胁风险，需要立即干预。",
+      "normal_video_description": "",
+      "solution_for_person": "看护人应立即进行海姆利克急救法或使用海姆利克装置来清除气道阻塞。",
+      "solution_for_hazard_source": "清除环境中可能引起窒息的危险物，并确保孩子始终受到监督。",
+      "solution_to_prevent_recurrence": "对看护人员进行窒息急救技术的培训，并在家里常备海姆利克装置。"
+    },
+    "3": {
+      "risk_description": "把孩子抱起放到床上，如果动作不够小心，可能会导致跌落或受伤。",
+      "normal_video_description": "",
+      "solution_for_person": "确保孩子的支撑稳固、轻柔地放置，以防止跌倒或受伤。",
+      "solution_for_hazard_source": "使用稳固的平面，并在搬运过程中确保适当的监督。",
+      "solution_to_prevent_recurrence": "练习安全的抬举技巧，并确保有清晰、稳固的区域放置孩子。"
+    },
+    "4": {
+      "risk_description": "看到孩子在地板上玩玩具，可能导致跌倒或绊倒的风险。此外，孩子在床边缘玩耍时也存在受伤的潜在风险。",
+      "normal_video_description": "",
+      "solution_for_person": "确保孩子受到监督并远离床边缘，以防止跌倒或受伤。",
+      "solution_for_hazard_source": "",
+      "solution_to_prevent_recurrence": "保持床周围区域清洁，清除可能引起绊倒危险的玩具和其他物品。"
+    }
+  }
+}

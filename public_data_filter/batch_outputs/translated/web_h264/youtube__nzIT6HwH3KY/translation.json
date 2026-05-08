@@ -1,0 +1,40 @@
+{
+  "video_key": "web_h264/youtube__nzIT6HwH3KY",
+  "translations": {
+    "0": {
+      "risk_description": "孩子正在楼梯附近玩耍，这可能导致他们失去平衡而摔倒。",
+      "normal_video_description": "",
+      "solution_for_person": "在楼梯附近玩耍时，需要成人监管以确保孩子的安全。",
+      "solution_for_hazard_source": "应通过安装扶手或软垫等方式使楼梯对孩子更安全。",
+      "solution_to_prevent_recurrence": "应教育孩子在楼梯附近玩耍时保持谨慎，并定期检查该区域是否存在潜在危险。"
+    },
+    "1": {
+      "risk_description": "厨房区域附近出现明火，对孩子及周围人员造成烧伤或吸入烟雾的风险。",
+      "normal_video_description": "视频显示客厅中厨房附近起火，有孩子在场并对该情况作出反应。",
+      "solution_for_person": "应迅速将孩子从火灾区域转移到安全地点。",
+      "solution_for_hazard_source": "应立即使用灭火器或拨打紧急电话来扑灭火灾。",
+      "solution_to_prevent_recurrence": "在家中安装烟雾探测器及灭火器，并确保所有家庭成员了解使用方法。保持易燃材料远离热源。"
+    },
+    "2": {
+      "risk_description": "看到孩子在厨房柜台附近，空气炸锅突然起火，导致火势蔓延至周围物品。这是一种明显且直接的火灾危险，来源于常见的家用电器。",
+      "normal_video_description": "",
+      "solution_for_person": "应立即将孩子移至离火源的安全距离，若安全则拔掉电器插头。",
+      "solution_for_hazard_source": "一旦发现起火，应立即关闭并拔掉空气炸锅的电源。",
+      "solution_to_prevent_recurrence": "确保空气炸锅及其他厨房电器在使用时不被无人看管，且远离儿童。定期检查是否有故障或过热的迹象。"
+    },
+    "3": {
+      "risk_description": "视频显示客厅里有孩子，背景中起火，因靠近火焰而存在严重受伤甚至更糟的风险。",
+      "normal_video_description": "",
+      "solution_for_person": "确保孩子与任何潜在的火灾危险保持安全距离，并密切监督以防止意外接触火源。",
+      "solution_for_hazard_source": "安装烟雾探测器，确保家中灭火器易于取用，并对家庭成员进行消防安全和预防教育。",
+      "solution_to_prevent_recurrence": "定期进行消防安全检查和演练，特别是在儿童所在的区域。妥善保管易燃材料，确保明火或热源得到安全管理。"
+    },
+    "4": {
+      "risk_description": "视频显示有人在厨房里出现烟雾和火焰，表明存在潜在的火灾危险。该人在厨房里走动，若火势未得到控制，可能导致烧伤或其他伤害。",
+      "normal_video_description": "",
+      "solution_for_person": "立即撤离现场并拨打紧急服务电话。",
+      "solution_for_hazard_source": "使用灭火器灭火或打开窗户让新鲜空气进入以抑制火势。",
+      "solution_to_prevent_recurrence": "确保所有电器维护得当且未过载。保持易燃材料远离热源。"
+    }
+  }
+}

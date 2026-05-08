@@ -1,0 +1,40 @@
+{
+  "video_key": "toyota_smarthome_mp4/mp4/Makecoffee.Pourwater_p12_r01_v11_c06",
+  "translations": {
+    "0": {
+      "risk_description": "视频中的人正站在椅子或凳子上，以够到厨房橱柜的顶部架子，这是一个潜在的跌倒危险。此外，该人手里拿着一个杯子和一个碗，可能会增加不稳的风险。",
+      "normal_video_description": "视频中的人站在厨房里，手里拿着一个杯子和一个碗，似乎正在准备饮料或餐食。随后他们伸手去够厨房橱柜的顶部架子，这是一个潜在的跌倒危险。",
+      "solution_for_person": "此人应请他人帮助从厨房橱柜的顶部架子取东西。同时要注意自己的平衡，避免站在不稳的表面上。",
+      "solution_for_hazard_source": "厨房橱柜应重新整理，使常用物品放在容易够到的地方，无需使用凳子或椅子。",
+      "solution_to_prevent_recurrence": "应提醒此人在需要时请求帮助，并在够取超出范围的物品时把安全放在首位。"
+    },
+    "1": {
+      "risk_description": "此人正把一个小球形物体放在嘴边附近，这可能不是食物，有误食的风险。",
+      "normal_video_description": "一个人在厨房里操作台面上的各种物品，包括一个小球形物体。",
+      "solution_for_person": "避免将非食物物品放在嘴边，特别是在进行食物准备的厨房中。",
+      "solution_for_hazard_source": "确保小物品存放在远离食物准备或消费区域的地方。",
+      "solution_to_prevent_recurrence": "将非食物物品保持在口部够不到的地方，并监督厨房中小物品的处理。"
+    },
+    "2": {
+      "risk_description": "",
+      "normal_video_description": "一位老年人在现代化厨房里站着，将液体从玻璃容器倒入台面上的红色杯子。场景平静，似乎是日常家务活动，没有明显的危险或异常行为。",
+      "solution_for_person": "",
+      "solution_for_hazard_source": "",
+      "solution_to_prevent_recurrence": ""
+    },
+    "3": {
+      "risk_description": "这位老年人正跨过台面伸手，这可能导致碰撞或溢出，因活动能力或平衡受限而有受伤风险。",
+      "normal_video_description": "",
+      "solution_for_person": "确保老年人在跨过台面伸手时有稳固的支撑，并保持工作区域整洁以防止溢出。",
+      "solution_for_hazard_source": "清理台面区域可能被打翻的物品，并确保老年人在移动时有稳定的支撑。",
+      "solution_to_prevent_recurrence": "保持厨房台面整洁，并确保老年人在够取物品时使用稳固的支撑。"
+    },
+    "4": {
+      "risk_description": "",
+      "normal_video_description": "一个人站在现代化厨房里，将液体从玻璃杯倒入台面上的杯子里。厨房配备了炉灶、烤箱和各种电器。背景中有一台电视正播放人们的画面。",
+      "solution_for_person": "",
+      "solution_for_hazard_source": "",
+      "solution_to_prevent_recurrence": ""
+    }
+  }
+}

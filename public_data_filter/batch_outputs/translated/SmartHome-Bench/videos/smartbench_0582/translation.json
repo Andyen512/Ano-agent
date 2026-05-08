@@ -1,0 +1,40 @@
+{
+  "video_key": "SmartHome-Bench/videos/smartbench_0582",
+  "translations": {
+    "0": {
+      "risk_description": "视频中的人似乎处于危险的位置，可能会摔倒或绊倒，因为他们正弯腰靠近汽车并伸手进入敞开的门。这种行为可能导致摔倒或受伤。",
+      "normal_video_description": "",
+      "solution_for_person": "应该建议该人在上下车时站直，并用车门作为支撑。",
+      "solution_for_hazard_source": "危险源是敞开的汽车门和人处于危险的位置。解决方案是确保该人使用车门作为支撑，并正确关闭车门。",
+      "solution_to_prevent_recurrence": "应该提醒该人在上下车时要小心，并使用车门作为支撑。护理人员也应该监测该人的动作，并在必要时提供帮助。"
+    },
+    "1": {
+      "risk_description": "该人正试图闯入车内，如果汽车意外移动或该人在与车辆互动时摔倒，可能会造成碰撞或挤压伤害。",
+      "normal_video_description": "一个人在天黑后在住宅院子里靠近一辆停放的汽车，尝试打开车门，并与车辆进行互动。",
+      "solution_for_person": "避免未经授权擅自操作或试图闯入车辆。",
+      "solution_for_hazard_source": "使用车锁和警报系统保护车辆，防止未经授权的进入。",
+      "solution_to_prevent_recurrence": "在院子里安装监控摄像头和动作感应灯，以阻止和发现可疑活动。"
+    },
+    "2": {
+      "risk_description": "可以看到一个人在夜间靠近一辆停放的汽车，打开车门并进入车内，这构成了明显的盗窃行为。",
+      "normal_video_description": "",
+      "solution_for_person": "",
+      "solution_for_hazard_source": "",
+      "solution_to_prevent_recurrence": "安装监控摄像头和警报系统以阻止潜在的小偷。"
+    },
+    "3": {
+      "risk_description": "该人似乎正试图打开车门，如果不注意，特别是在光线不足的情况下，可能会导致碰撞或挤压伤害。",
+      "normal_video_description": "",
+      "solution_for_person": "在进入之前确保车门完全打开以避免碰撞。",
+      "solution_for_hazard_source": "在院子里安装动作感应灯以提高能见度。",
+      "solution_to_prevent_recurrence": "在夜间靠近车辆时使用手电筒或确保有足够的照明。"
+    },
+    "4": {
+      "risk_description": "",
+      "normal_video_description": "视频显示一个穿着浅蓝色衬衫和深色裤子的人在夜间走向一辆停在路边的银色汽车。他们打开驾驶座一侧的车门，进入车内，并关上车门。在整个视频中，汽车保持静止状态。",
+      "solution_for_person": "",
+      "solution_for_hazard_source": "",
+      "solution_to_prevent_recurrence": ""
+    }
+  }
+}

@@ -1,0 +1,40 @@
+{
+  "video_key": "SmartHome-Bench/videos/smartbench_0397",
+  "translations": {
+    "0": {
+      "risk_description": "熊正在阳台上行走，这对熊来说不是一个安全的地方。熊可能会从阳台上掉下来，对自己或他人造成伤害。",
+      "normal_video_description": "视频显示一只熊在夜间阳台上行走。熊对人和财产不构成威胁，但应该采取措施确保熊的安全并防止它再次进入。",
+      "solution_for_person": "应该立即将熊从阳台移走并放置在安全的地方，比如室内或防熊围栏内。",
+      "solution_for_hazard_source": "应该用防熊围栏或门锁住阳台，防止熊将来进入。",
+      "solution_to_prevent_recurrence": "应该定期检查该地区是否有熊的迹象，并采取措施防止它们进入房产，比如锁好垃圾桶和清除任何可能的食物来源。"
+    },
+    "1": {
+      "risk_description": "一只大熊在木甲板上活动，与家具和栏杆互动，存在失去平衡或受惊时碰撞或被挤压的风险。",
+      "normal_video_description": "一只熊在夜间出现在木甲板上，探索周围环境，与家具和栏杆互动。",
+      "solution_for_person": "",
+      "solution_for_hazard_source": "",
+      "solution_to_prevent_recurrence": "在甲板周围安装防熊围栏，并将所有可能吸引熊的物品安全存放在室内。"
+    },
+    "2": {
+      "risk_description": "",
+      "normal_video_description": "一只大黑熊在夜间穿过木甲板，从雨棚下经过，靠近露台家具后离开画面。场景由监控摄像头拍摄，没有危险迹象或人类出现。",
+      "solution_for_person": "",
+      "solution_for_hazard_source": "",
+      "solution_to_prevent_recurrence": ""
+    },
+    "3": {
+      "risk_description": "一只熊在阳台上，对该区域内的任何人或宠物构成碰撞或挤压伤害的风险。",
+      "normal_video_description": "",
+      "solution_for_person": "当熊出现时，确保儿童、宠物或弱势群体留在室内或远离阳台区域。",
+      "solution_for_hazard_source": "用屏障或防护网固定阳台，防止动物进入。",
+      "solution_to_prevent_recurrence": "安装动作感应灯或警报器，阻止野生动物在夜间靠近阳台。"
+    },
+    "4": {
+      "risk_description": "孩子在阳台上玩耍，如果失去平衡或滑倒可能导致坠落。由于阳台的高度和坚硬表面，存在受伤的潜在风险。",
+      "normal_video_description": "视频显示一个孩子在夜间阳台上玩耍，存在坠落风险。",
+      "solution_for_person": "确保孩子在阳台上始终受到监督，并考虑安装安全护栏以防止坠落。",
+      "solution_for_hazard_source": "",
+      "solution_to_prevent_recurrence": "定期检查阳台是否存在松动栏杆或湿滑表面等安全隐患，并及时处理。"
+    }
+  }
+}

@@ -1,0 +1,40 @@
+{
+  "video_key": "labimag/dataset/chute10/cam6",
+  "translations": {
+    "0": {
+      "risk_description": "可以看到这位年轻人试图爬上一把椅子，然后爬上一张床垫，该床垫不稳定，可能导致跌倒。该人看起来不稳，可能缺乏安全完成此动作所需的平衡或协调能力。",
+      "normal_video_description": "视频显示一名年轻成年人在书房里试图爬上一把椅子，然后爬上一张床垫。该人看起来不稳，可能缺乏安全完成此动作所需的平衡或协调能力。",
+      "solution_for_person": "应建议该人避免爬上不稳定的表面，若需要帮助移动家具或物品，应寻求帮助。",
+      "solution_for_hazard_source": "椅子和床垫应放置在稳定安全的位置，以防事故。",
+      "solution_to_prevent_recurrence": "应向该人传授搬运家具和物品的安全做法，并对书房重新布局，以最大程度降低事故风险。"
+    },
+    "1": {
+      "risk_description": "穿红色衬衫的人正躺在一个大型软垫表面上，这似乎是测试或实验装置的一部分。如果软垫未牢固固定或该人突然移动，这种行为可能导致跌倒或失控。",
+      "normal_video_description": "视频显示一间实验室或书房，里面有各种设备和一块大型软垫表面。一位穿红色衬衫的人进入，躺在软垫上并与房间里的人互动。",
+      "solution_for_person": "在躺下之前，要确保软垫表面已牢固固定且稳定。",
+      "solution_for_hazard_source": "确认软垫表面已正确固定并设计用于预期用途。",
+      "solution_to_prevent_recurrence": "使用前对所有设备和表面进行安全检查，并提供明确的使用说明。"
+    },
+    "2": {
+      "risk_description": "",
+      "normal_video_description": "视频显示一个人在书房或实验室环境中走进画面，扑到地板上的床垫上，然后站起来。另一人进入房间并走过。动作看起来像是玩耍或安全环境下的随意活动。",
+      "solution_for_person": "",
+      "solution_for_hazard_source": "",
+      "solution_to_prevent_recurrence": ""
+    },
+    "3": {
+      "risk_description": "穿红色衬衫的人试图滚到床垫上，如果失去平衡，可能导致跌倒或不稳定。",
+      "normal_video_description": "",
+      "solution_for_person": "确保该人有支撑或稳定的表面可以滚到，并在需要时提供帮助。",
+      "solution_for_hazard_source": "固定床垫，以防止在滚动时移动。",
+      "solution_to_prevent_recurrence": "在稳定的表面上进行滚动技巧练习并在监督下进行，以提高平衡和控制能力。"
+    },
+    "4": {
+      "risk_description": "穿红色衬衫的人正在进行跳上床垫的活动，这可能导致跌倒和潜在受伤。风险在跳跃动作期间存在。",
+      "normal_video_description": "视频显示一间房间，里面有各种家具和设备，包括一张带电脑的桌子、椅子以及地板上的一大块床垫。一位穿红色衬衫的人进入房间并开始进行跳上床垫的活动。",
+      "solution_for_person": "确保对执行该活动的人员进行适当的监督和指导，以防止跌倒和受伤。",
+      "solution_for_hazard_source": "",
+      "solution_to_prevent_recurrence": "提供适当的培训和安全所需的设备，以确保活动安全进行。"
+    }
+  }
+}

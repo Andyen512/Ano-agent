@@ -1,0 +1,40 @@
+{
+  "video_key": "web_h264/bilibili__BV14d4y1k7vC",
+  "translations": {
+    "0": {
+      "risk_description": "这位老年人正在使用助行器，如果他们失去平衡或行走困难，可能会造成风险。客厅里的壁炉如果维护不当或老年人离得太近，也会构成风险。",
+      "normal_video_description": "视频显示一位老年人坐在客厅里，使用助行器。客厅布置完善，有沙发、椅子和壁炉。老年人在这个环境中看起来舒适且安全。",
+      "solution_for_person": "确保老年人在使用助行器时有人监督和扶持。与壁炉保持安全距离，并确保其维护得当。",
+      "solution_for_hazard_source": "确保客厅没有绊倒危险，壁炉维护得当并有人监督。",
+      "solution_to_prevent_recurrence": "定期检查老年人的平衡能力和行走能力，必要时提供支持和监督。确保客厅没有绊倒危险，壁炉维护得当并有人监督。"
+    },
+    "1": {
+      "risk_description": "这位老年人正在使用助行器在客厅里移动，如果助行器使用不当或路径上有障碍物，可能会造成跌倒或不稳定的风险。",
+      "normal_video_description": "一位老年人使用助行器从躺椅移动到客厅的沙发。",
+      "solution_for_person": "确保老年人正确使用助行器，保持平衡，缓慢移动以避免绊倒或跌倒。",
+      "solution_for_hazard_source": "清除客厅路径上的绊倒危险，确保助行器处于良好工作状态。",
+      "solution_to_prevent_recurrence": "定期检查生活空间是否有障碍物，在老年人使用助行器移动时提供帮助或监督。"
+    },
+    "2": {
+      "risk_description": "客厅里发生火灾，迅速被火焰和烟雾吞没，对坐在附近的老年人构成严重威胁。火势蔓延迅速，表明如果不立即处理，造成伤害或死亡的风险很高。",
+      "normal_video_description": "",
+      "solution_for_person": "老年人应立即撤离房间和房屋，如果可能的话使用安全的逃生路线。如果无法逃脱，他们应该移动到远离火源的安全区域并拨打紧急服务电话。",
+      "solution_for_hazard_source": "应识别火源，如果安全的话进行扑灭，或拨打火警电话由消防部门处理。",
+      "solution_to_prevent_recurrence": "安装和维护烟雾报警器，练习火灾逃生计划，并考虑安装家庭消防喷淋系统以降低未来火灾的风险。"
+    },
+    "3": {
+      "risk_description": "这位老年人在有火灾隐患的房间里使用助行器，这构成了烧伤或吸入烟雾造成伤害的风险。",
+      "normal_video_description": "",
+      "solution_for_person": "确保老年人有清晰的逃生路线，在房屋内移动时有监督。",
+      "solution_for_hazard_source": "安装烟雾探测器并确保其正常工作；考虑安装家庭消防喷淋系统。",
+      "solution_to_prevent_recurrence": "定期进行消防安全检查和演练，特别是针对弱势群体。"
+    },
+    "4": {
+      "risk_description": "",
+      "normal_video_description": "视频显示一个客厅，一个人坐在沙发上使用笔记本电脑。场景中没有明显的风险或危险。",
+      "solution_for_person": "",
+      "solution_for_hazard_source": "",
+      "solution_to_prevent_recurrence": ""
+    }
+  }
+}

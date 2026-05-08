@@ -1,0 +1,40 @@
+{
+  "video_key": "labimag/dataset/chute06/cam5",
+  "translations": {
+    "0": {
+      "risk_description": "这名年轻人被看到在房间里跑来跑去，然后倒在椅子上，这不是一个典型的办公场所行为。这可能会导致受伤。",
+      "normal_video_description": "",
+      "solution_for_person": "此人在办公室走动时应更加小心，以避免跌倒。",
+      "solution_for_hazard_source": "办公室应该有更好的照明和更稳固的家具来防止跌倒。",
+      "solution_to_prevent_recurrence": "应该对人员进行正确的办公室安全程序培训，办公室应该定期进行安全检查，以确保环境对所有人员安全。"
+    },
+    "1": {
+      "risk_description": "此人躺在房间中央的平面上，可能会因滑倒或滚落而导致跌倒。",
+      "normal_video_description": "一个人走进教室，躺在中央的平面上，被其他人观察。",
+      "solution_for_person": "确保躺在平面上的人得到固定或监督，防止滚动或滑落。",
+      "solution_for_hazard_source": "平面应检查稳定性和安全边缘，以最大限度地降低滚落的风险。",
+      "solution_to_prevent_recurrence": "制定在教室平面上躺下的安全协议，例如使用约束装置或监督。"
+    },
+    "2": {
+      "risk_description": "",
+      "normal_video_description": "一个年轻人走进房间，躺在地板上的垫子上，然后坐起来，其他人进入房间。环境似乎是实验室或办公室空间，有桌子和设备。",
+      "solution_for_person": "",
+      "solution_for_hazard_source": "",
+      "solution_to_prevent_recurrence": ""
+    },
+    "3": {
+      "risk_description": "此人正在窄梁上尝试平衡动作，这可能会导致跌倒，特别是对于行动不便或平衡问题的人。",
+      "normal_video_description": "",
+      "solution_for_person": "确保此人在尝试平衡动作时获得适当的支持或监督。",
+      "solution_for_hazard_source": "移除或固定任何可能导致不平衡或分心的物品。",
+      "solution_to_prevent_recurrence": "在更稳定、更有监督的安全环境中练习平衡。"
+    },
+    "4": {
+      "risk_description": "此人尝试在走扁带上行走，这是一项可能导致跌倒和严重伤害的高风险活动。个人的平衡和协调能力不足会增加严重跌倒的可能性。",
+      "normal_video_description": "视频显示一个人在餐厅环境中尝试在走扁带上行走。还有其他人在场观察这项活动。",
+      "solution_for_person": "为尝试在走扁带上行走的人提供适当的培训和监督。确保他们有必要的技能和经验后再尝试此类活动。",
+      "solution_for_hazard_source": "",
+      "solution_to_prevent_recurrence": "实施安全措施，例如在练习走扁带时使用安全网或安全带。鼓励使用头盔和护膝等防护装备。"
+    }
+  }
+}

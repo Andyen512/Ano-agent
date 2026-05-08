@@ -1,0 +1,40 @@
+{
+  "video_key": "web_h264/bilibili__BV1hy4y1i7TZ",
+  "translations": {
+    "0": {
+      "risk_description": "穿橙色外套的孩子正在爬双层床，这可能导致跌倒危险。该孩子的行为偏离了正常日常活动中在卧室玩耍或休息的行为。",
+      "normal_video_description": "",
+      "solution_for_person": "需要成人监督以确保孩子在双层床上玩耍时的安全。",
+      "solution_for_hazard_source": "双层床应配备护栏以防止跌落。",
+      "solution_to_prevent_recurrence": "应教会孩子安全攀爬，并提醒他们在没有成人监督的情况下攀爬家具的潜在危险。"
+    },
+    "1": {
+      "risk_description": "孩子从上层床跌落，这会导致跌倒受伤的风险。",
+      "normal_video_description": "孩子们在配有双层床的卧室里玩耍，其中一个孩子从上层床跌落。",
+      "solution_for_person": "确保孩子在升高表面上时有监督，并教导他们不要在双层床上随意攀爬或玩耍。",
+      "solution_for_hazard_source": "在上层床安装安全护栏，并确保其固定牢固。",
+      "solution_to_prevent_recurrence": "向孩子教育在升高表面玩耍的危险，并严格执行禁止此类行为的规则。"
+    },
+    "2": {
+      "risk_description": "孩子们在无安全护栏的上层床玩耍，其中一个孩子从第二层头朝下跌落至地面，显示出明显的跌倒危险。",
+      "normal_video_description": "",
+      "solution_for_person": "当孩子在双层床等升高表面上时，成人或看护者应立即进行监督。",
+      "solution_for_hazard_source": "在床的上层安装安全护栏以防止跌落。",
+      "solution_to_prevent_recurrence": "向孩子教育在升高表面玩耍的危险，并确保他们理解安全的重要性。"
+    },
+    "3": {
+      "risk_description": "孩子们在上铺玩耍，其中一个从上铺跌落，存在受伤风险。",
+      "normal_video_description": "",
+      "solution_for_person": "确保有成人监督，并确保孩子使用双层床的护栏。",
+      "solution_for_hazard_source": "在上铺安装安全网或护垫以防止跌落。",
+      "solution_to_prevent_recurrence": "教育孩子在上铺玩耍的危险，并执行安全规则。"
+    },
+    "4": {
+      "risk_description": "孩子正在爬双层床，这可能导致跌倒和潜在伤害。",
+      "normal_video_description": "",
+      "solution_for_person": "确保孩子在双层床上玩耍时有监督，以防止跌落。",
+      "solution_for_hazard_source": "移除可能导致绊倒或从双层床跌落的物品。",
+      "solution_to_prevent_recurrence": "在双层床上安装安全护栏以防止跌落。"
+    }
+  }
+}

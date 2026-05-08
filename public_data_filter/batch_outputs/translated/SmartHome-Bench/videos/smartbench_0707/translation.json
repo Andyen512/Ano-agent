@@ -1,0 +1,40 @@
+{
+  "video_key": "SmartHome-Bench/videos/smartbench_0707",
+  "translations": {
+    "0": {
+      "risk_description": "这位年轻人正在阳台上爬树，这是一项不安全的行为。从树上摔落的风险很高，尤其是在夜间能见度低的情况下。",
+      "normal_video_description": "视频显示一名年轻人在夜间走在阳台上，然后爬上一棵树。场景安静而平和，看不到其他的人或动物。",
+      "solution_for_person": "应当提醒此人爬树的危险，并劝阻其从事此类活动。",
+      "solution_for_hazard_source": "应检查阳台栏杆的稳定性，必要时进行加固，以防止事故发生。",
+      "solution_to_prevent_recurrence": "应对此人进行监督并提醒其爬树的危险，同时应通过安装牢固的栏杆或防护网使阳台更加安全。"
+    },
+    "1": {
+      "risk_description": "熊正在与院子里的物品互动，可能会把它们撞倒或碰撞，这可能导致它自己受伤或对财产造成损坏。",
+      "normal_video_description": "在夜间，可以看到一只熊在院子里走动并与物品互动。",
+      "solution_for_person": "",
+      "solution_for_hazard_source": "",
+      "solution_to_prevent_recurrence": ""
+    },
+    "2": {
+      "risk_description": "",
+      "normal_video_description": "一只熊在夜间穿过草地院子，走向一棵树，用后腿站立去够树枝，然后离开。这种行为符合自然的觅食活动，不会对人员或财产构成风险。",
+      "solution_for_person": "",
+      "solution_for_hazard_source": "",
+      "solution_to_prevent_recurrence": ""
+    },
+    "3": {
+      "risk_description": "院子里出现熊，可能会对在该区域内的儿童或宠物等弱势群体造成碰撞或挤压伤害的风险。",
+      "normal_video_description": "",
+      "solution_for_person": "",
+      "solution_for_hazard_source": "",
+      "solution_to_prevent_recurrence": ""
+    },
+    "4": {
+      "risk_description": "此人正在积雪的地面上行走，地面可能湿滑，增加摔倒的风险。其动作缓慢而谨慎，表明其意识到潜在的危害。",
+      "normal_video_description": "",
+      "solution_for_person": "应确保穿具有良好的抓地力的合适鞋子，并在雪地上行走时考虑使用扶手或他人帮助，以降低滑倒和跌倒的风险。",
+      "solution_for_hazard_source": "",
+      "solution_to_prevent_recurrence": "定期清除人行道的积雪，并安装防滑垫或防滑条，以增强抓地力并降低跌倒的风险。"
+    }
+  }
+}

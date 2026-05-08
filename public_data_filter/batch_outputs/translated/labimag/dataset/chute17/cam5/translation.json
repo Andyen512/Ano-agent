@@ -1,0 +1,40 @@
+{
+  "video_key": "labimag/dataset/chute17/cam5",
+  "translations": {
+    "0": {
+      "risk_description": "穿红色衬衫的年轻人试图跳上米色沙发，这是不安全的行为。此行为有跌倒并可能伤及自身的风险。",
+      "normal_video_description": "",
+      "solution_for_person": "应建议该人使用更安全的方式在客厅移动，例如步行或坐下。",
+      "solution_for_hazard_source": "视频中未发现特定危险源。",
+      "solution_to_prevent_recurrence": "应教育该年轻人，在客厅移动时使用安全方法的重要性，以防止跌倒和受伤。"
+    },
+    "1": {
+      "risk_description": "穿红衬衫的人躺在沙发上并伸手到沙发下面，存在跌倒或被家具困住的风险。多人在房间内走动，增加了碰撞的风险。",
+      "normal_video_description": "一个穿红衬衫的人走进客厅，躺在沙发上并伸手到沙发下面，其他人则在空间里走动。",
+      "solution_for_person": "避免在家具上躺着或在无帮助的情况下伸手到家具下面。",
+      "solution_for_hazard_source": "确保家具稳固且无障碍物，以防止卡住。",
+      "solution_to_prevent_recurrence": "移除或固定重型家具，以防止在移动时倾倒。"
+    },
+    "2": {
+      "risk_description": "",
+      "normal_video_description": "一个人走进客厅，坐在沙发上，然后起身搬动咖啡桌。其他人进入房间并与家具互动。场景展示了正常的日常活动，没有任何可见的风险或危险行为。",
+      "solution_for_person": "",
+      "solution_for_hazard_source": "",
+      "solution_to_prevent_recurrence": ""
+    },
+    "3": {
+      "risk_description": "穿红衬衫的人弯腰并坐在沙发上，这可能导致跌倒或在失去平衡时出现不稳。",
+      "normal_video_description": "",
+      "solution_for_person": "确保此人坐得稳固，若其弯腰或移动家具时提供支撑。",
+      "solution_for_hazard_source": "以提供稳固的座位选项和清晰通道的方式布置家具，防止绊倒。",
+      "solution_to_prevent_recurrence": "在移动或调整家具时监督人员，以防止跌倒。"
+    },
+    "4": {
+      "risk_description": "穿红衬衫的人正试图在椅子上保持平衡，这可能导致跌倒和潜在受伤。此行为有造成骨折或头部受伤等严重后果的风险。",
+      "normal_video_description": "",
+      "solution_for_person": "确保该人不尝试在不稳的家具上保持平衡，而是参与更安全的活动。",
+      "solution_for_hazard_source": "将椅子从该区域移走，以防止再次尝试平衡。",
+      "solution_to_prevent_recurrence": "教育个人关于在不稳固的家具上尝试平衡的危险，并鼓励他们参与更安全的活动。"
+    }
+  }
+}

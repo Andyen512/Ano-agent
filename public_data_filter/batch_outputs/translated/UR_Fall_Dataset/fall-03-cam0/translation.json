@@ -1,0 +1,40 @@
+{
+  "video_key": "UR_Fall_Dataset/fall-03-cam0",
+  "translations": {
+    "0": {
+      "risk_description": "视频中的年轻人走向一把椅子,然后突然摔倒在地,这可能会导致受伤。这种行为偏离了年轻人应有的正常日常行为,他们的状态应该更稳定,更不容易摔倒。",
+      "normal_video_description": "",
+      "solution_for_person": "人在行走时应更加小心,避免任何可能让他们失去平衡的干扰因素。",
+      "solution_for_hazard_source": "危险源是年轻人走向的那把椅子。椅子可能不稳定或光滑,导致人摔倒。",
+      "solution_to_prevent_recurrence": "年轻人应该更加注意周围环境,避免走得太快或太粗心。也应该检查椅子是否稳定安全,以防止未来再次摔倒。"
+    },
+    "1": {
+      "risk_description": "一个人在铺着地毯的地板上赤脚行走,突然摔倒在地,可能会导致受伤。",
+      "normal_video_description": "一个人在类似办公室的房间里赤脚行走,绊倒后摔倒在地。",
+      "solution_for_person": "穿合适的鞋子以防止滑倒和摔倒。",
+      "solution_for_hazard_source": "",
+      "solution_to_prevent_recurrence": ""
+    },
+    "2": {
+      "risk_description": "",
+      "normal_video_description": "一个年轻人走进书房,走近一把椅子并坐下。动作平稳且受控,没有不稳定或危险的迹象。",
+      "solution_for_person": "",
+      "solution_for_hazard_source": "",
+      "solution_to_prevent_recurrence": ""
+    },
+    "3": {
+      "risk_description": "视频中的人失去平衡摔倒在地,这可能会造成受伤风险,尤其是对于行动不便或正在康复的人。",
+      "normal_video_description": "",
+      "solution_for_person": "确保此人注意周围环境,必要时在行走时使用支撑物辅助。",
+      "solution_for_hazard_source": "清除绊倒危险物,确保地面干净稳定。",
+      "solution_to_prevent_recurrence": "在清晰的道路上行走练习,保持平衡意识以防止摔倒。"
+    },
+    "4": {
+      "risk_description": "此人在办公室地板上赤脚行走,地面可能光滑会导致摔倒。从他们开始行走到摔倒的那一刻都存在风险。",
+      "normal_video_description": "",
+      "solution_for_person": "穿合适的鞋子以防止在办公室地板上滑倒。",
+      "solution_for_hazard_source": "确保办公室地板干净且没有任何可能导致滑倒的危险物。",
+      "solution_to_prevent_recurrence": "定期检查办公室地板的清洁度和潜在危险,并及时处理。"
+    }
+  }
+}

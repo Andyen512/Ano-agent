@@ -1,0 +1,40 @@
+{
+  "video_key": "SmartHome-Bench/videos/smartbench_0647",
+  "translations": {
+    "0": {
+      "risk_description": "看到年轻人在蹦床上跳跃，这存在潜在的坠落危险。蹦床位于阳台上，这增加了从结构上摔落的风险。",
+      "normal_video_description": "",
+      "solution_for_person": "应提醒年轻人在使用蹦床时保持谨慎，避免跳得太高或太快。",
+      "solution_for_hazard_source": "蹦床应该固定在阳台上，以防止其移动或翻倒。",
+      "solution_to_prevent_recurrence": "年轻人在使用蹦床时应该有人监督，蹦床应该从阳台上移除以降低坠落风险。"
+    },
+    "1": {
+      "risk_description": "",
+      "normal_video_description": "视频显示从门廊看到的夜景，有串灯和美国国旗。前景中可见一个大型蜘蛛网，蜘蛛在其间移动。背景包括一条街道、有过往车辆和远处的灯光。",
+      "solution_for_person": "",
+      "solution_for_hazard_source": "",
+      "solution_to_prevent_recurrence": ""
+    },
+    "2": {
+      "risk_description": "",
+      "normal_video_description": "视频显示从门廊看到的夜景，前景中有一个大型蜘蛛网装饰。可以看到一个旋转的风车装饰，场景包括一条街道、树木和背景中的一辆停放的汽车。没有人物或动物在场，环境显得平静而静止。",
+      "solution_for_person": "",
+      "solution_for_hazard_source": "",
+      "solution_to_prevent_recurrence": ""
+    },
+    "3": {
+      "risk_description": "视频显示一个蜘蛛网和一个明亮的光源，这可能会吸引昆虫。如果有人接触到蜘蛛网，可能会造成缠绕或刺激风险。",
+      "normal_video_description": "",
+      "solution_for_person": "",
+      "solution_for_hazard_source": "",
+      "solution_to_prevent_recurrence": ""
+    },
+    "4": {
+      "risk_description": "该人正在阳台上进行危险动作，可能会导致高处坠落。此行为存在严重伤害甚至死亡的重大风险。",
+      "normal_video_description": "",
+      "solution_for_person": "确保该人在进行此类动作时穿戴适当的安全装备并保持稳固的抓握，以防止坠落。",
+      "solution_for_hazard_source": "清除阳台区域任何潜在的危害或障碍物，以减少事故风险。",
+      "solution_to_prevent_recurrence": "对从事此类活动的人实施定期安全检查和培训课程，确保他们意识到风险并采取必要的预防措施。"
+    }
+  }
+}

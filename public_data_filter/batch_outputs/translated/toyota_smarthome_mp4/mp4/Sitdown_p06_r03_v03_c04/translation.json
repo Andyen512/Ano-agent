@@ -1,0 +1,40 @@
+{
+  "video_key": "toyota_smarthome_mp4/mp4/Sitdown_p06_r03_v03_c04",
+  "translations": {
+    "0": {
+      "risk_description": "老年人在试图坐到沙发上时有跌倒的风险。他们面前的茶几杂乱无章，这可能导致不稳定。",
+      "normal_video_description": "",
+      "solution_for_person": "护理人员应帮助老年人找一个更安全的座位，例如有扶手的椅子，并确保茶几上没有杂物。",
+      "solution_for_hazard_source": "应清理茶几上的杂物以降低不稳定风险。",
+      "solution_to_prevent_recurrence": "护理人员应定期检查家具的稳定性，并确保生活空间没有绊倒危险以防止未来跌倒。"
+    },
+    "1": {
+      "risk_description": "这个人坐在沙发边缘，脚放在茶几上，这可能导致失去平衡而跌倒。",
+      "normal_video_description": "一位老年人坐在客厅的绿色沙发上，把脚放在面前的茶几上。",
+      "solution_for_person": "应避免坐在沙发边缘并将脚伸到茶几上以防止跌倒。",
+      "solution_for_hazard_source": "可以将茶几稍微移离沙发边缘，以创造更多空间并降低跌倒风险。",
+      "solution_to_prevent_recurrence": "确保此人正确坐在沙发上，双脚平放在地板上，并使茶几与沙发边缘保持安全距离。"
+    },
+    "2": {
+      "risk_description": "",
+      "normal_video_description": "一位老年人正在客厅的绿色沙发上坐下。此人动作缓慢而小心，坐下时调整自己的姿势。场景中没有可见的危险或危险行为。",
+      "solution_for_person": "",
+      "solution_for_hazard_source": "",
+      "solution_to_prevent_recurrence": ""
+    },
+    "3": {
+      "risk_description": "老年人在茶几附近站立时似乎难以保持平衡，这可能导致跌倒。",
+      "normal_video_description": "",
+      "solution_for_person": "确保老年人坐着或有支撑以防止跌倒。",
+      "solution_for_hazard_source": "清理茶几周围的区域以减少绊倒危险。",
+      "solution_to_prevent_recurrence": "在茶几附近放置防滑垫，并确保老年人在站立时有支撑。"
+    },
+    "4": {
+      "risk_description": "老年人在试图坐到沙发上时有跌倒风险，由于其年龄和潜在的身体限制，这可能导致严重伤害。",
+      "normal_video_description": "",
+      "solution_for_person": "确保老年人在坐下时有帮助或支撑以防止跌倒。",
+      "solution_for_hazard_source": "",
+      "solution_to_prevent_recurrence": "在沙发附近安装扶手或抓握杆以提供支撑和稳定性。"
+    }
+  }
+}

@@ -1,0 +1,40 @@
+{
+  "video_key": "UR_Fall_Dataset/fall-12-cam1",
+  "translations": {
+    "0": {
+      "risk_description": "这位年轻人由于姿势不稳且椅子缺乏支撑，有跌倒的风险。",
+      "normal_video_description": "这位年轻人坐在客厅的椅子上，看起来处于稳定的位置。",
+      "solution_for_person": "应帮助该人坐直，并在客厅活动时更加小心。",
+      "solution_for_hazard_source": "应将椅子放在更稳固的位置，以防止该人跌倒。",
+      "solution_to_prevent_recurrence": "应提醒该人在客厅活动时更加小心，必要时请求帮助。"
+    },
+    "1": {
+      "risk_description": "该人以别扭的姿势躺在地板上，可能会导致起身困难，或因再次跌倒、肌肉拉伤而受伤。",
+      "normal_video_description": "看到一名穿蓝色衬衫的人站着，然后蹲下，最后躺在类似办公室的环境中（配有桌子和椅子）。",
+      "solution_for_person": "确保有人在附近帮助，以防该人难以起身。",
+      "solution_for_hazard_source": "",
+      "solution_to_prevent_recurrence": "鼓励该人在地板上感觉不稳时立即寻求帮助。"
+    },
+    "2": {
+      "risk_description": "该人在椅子上坐着时失去平衡，向后倒在地上，这表明发生了明显的失稳事件，超出正常活动范围。",
+      "normal_video_description": "",
+      "solution_for_person": "该人应立即起身检查是否有受伤，然后小心坐下或使用有靠背的椅子，以防止再次发生。",
+      "solution_for_hazard_source": "确保椅子稳固且状况良好；考虑使用带扶手或靠背的椅子以提高稳定性。",
+      "solution_to_prevent_recurrence": "鼓励该人在坐和移动时保持小心，并确保环境没有可能导致绊倒或跌倒的障碍物。"
+    },
+    "3": {
+      "risk_description": "该人似乎正在失去平衡并跌倒在地板上，这可能导致受伤风险，尤其是如果他们行动受限或正在康复。",
+      "normal_video_description": "",
+      "solution_for_person": "确保该人得到支撑，并在跌倒后检查是否有受伤。",
+      "solution_for_hazard_source": "清除地板上的任何障碍物或绊倒危险。",
+      "solution_to_prevent_recurrence": "清除该区域任何可能导致绊倒的物体，确保地面干净且稳固。"
+    },
+    "4": {
+      "risk_description": "该人有跌倒或失去平衡的风险，可能导致严重伤害。该人处于地板上不稳定的姿势。",
+      "normal_video_description": "",
+      "solution_for_person": "帮助该人安全地坐起和站立。",
+      "solution_for_hazard_source": "",
+      "solution_to_prevent_recurrence": "确保该区域没有绊倒危险，并在需要时提供支撑。"
+    }
+  }
+}

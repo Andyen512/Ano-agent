@@ -1,0 +1,40 @@
+{
+  "video_key": "UR_Fall_Dataset/fall-20-cam1",
+  "translations": {
+    "0": {
+      "risk_description": "可以看到这位年轻人从椅子上摔下来跌到地上，这是一种潜在的受伤风险。",
+      "normal_video_description": "",
+      "solution_for_person": "确保该年轻人得到监督并提供适当的支持以防止跌倒。",
+      "solution_for_hazard_source": "移除客厅中的绊倒危险物品，如电线或杂物，并确保家具稳固安全。",
+      "solution_to_prevent_recurrence": "定期检查客厅是否存在潜在危险，并采取措施加以解决，如固定家具或在地面铺设防滑垫。"
+    },
+    "1": {
+      "risk_description": "",
+      "normal_video_description": "视频显示一个人在配有办公家具的房间里活动，坐到椅子上，并与房间里的物品互动。",
+      "solution_for_person": "",
+      "solution_for_hazard_source": "",
+      "solution_to_prevent_recurrence": ""
+    },
+    "2": {
+      "risk_description": "",
+      "normal_video_description": "一位年轻人坐在配有桌子、地板上放着背包的房间里，先站起来，四处走动，然后重新坐下，表现出正常的日常活动，没有任何风险或不稳定的迹象。",
+      "solution_for_person": "",
+      "solution_for_hazard_source": "",
+      "solution_to_prevent_recurrence": ""
+    },
+    "3": {
+      "risk_description": "此人坐在椅子上，双腿伸展，这可能导致不稳定，如果他们移动或失去平衡，可能会跌倒。",
+      "normal_video_description": "",
+      "solution_for_person": "确保此人双脚着地，背部靠紧椅子，以保持稳定。",
+      "solution_for_hazard_source": "提供稳定的座位安排，例如带扶手的椅子。",
+      "solution_to_prevent_recurrence": "使用座高较低的椅子，并确保此人保持稳定的坐姿。"
+    },
+    "4": {
+      "risk_description": "此人坐在椅子上看似在移动，这可能导致跌倒。跌倒可能导致严重伤害，尤其在未佩戴防护装备或摔倒在坚硬表面时。",
+      "normal_video_description": "",
+      "solution_for_person": "确保此人坐得安全，并考虑提供支撑或帮助以防止跌倒。",
+      "solution_for_hazard_source": "",
+      "solution_to_prevent_recurrence": "鼓励此人背部靠紧椅子、双脚平放在地面上，以保持稳定。"
+    }
+  }
+}

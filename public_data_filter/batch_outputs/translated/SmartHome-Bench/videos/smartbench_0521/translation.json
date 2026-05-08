@@ -1,0 +1,40 @@
+{
+  "video_key": "SmartHome-Bench/videos/smartbench_0521",
+  "translations": {
+    "0": {
+      "risk_description": "可以看到一名年轻人跑向汽车，然后摔倒在地，这可能导致受伤。",
+      "normal_video_description": "视频显示夜间一辆白色汽车停在院子里，一个人跑向汽车并摔倒在地。",
+      "solution_for_person": "应该帮助该人站起来并检查是否有受伤。",
+      "solution_for_hazard_source": "该人在结冰的地面上跑时应更加小心。",
+      "solution_to_prevent_recurrence": "该人应穿合适的鞋子，在结冰的地面上慢慢行走，以防止跌倒。"
+    },
+    "1": {
+      "risk_description": "该人在黑暗中靠近汽车并打开车门，这可能导致在雪或冰上滑倒，增加跌倒的风险。",
+      "normal_video_description": "夜间一辆白色汽车停在积雪覆盖的车道上。一个人靠近汽车，打开驾驶座一侧的车门，并在黑暗中站在打开的车门旁。",
+      "solution_for_person": "在夜间靠近汽车时，应确保穿有良好抓地力的合适鞋子，并使用手电筒。",
+      "solution_for_hazard_source": "清除车道及汽车周围的积雪和冰，以减少滑倒危险。",
+      "solution_to_prevent_recurrence": "在车道周围安装运动感应灯，以提高夜间的能见度。"
+    },
+    "2": {
+      "risk_description": "",
+      "normal_video_description": "夜间一辆白色汽车停在有雪覆盖的车道上。一只动物穿过车道并靠近汽车，导致驾驶员打开车门。动物随后离开，场景保持静止。",
+      "solution_for_person": "",
+      "solution_for_hazard_source": "",
+      "solution_to_prevent_recurrence": ""
+    },
+    "3": {
+      "risk_description": "一辆车停在雪堆附近，一只野生动物正靠近汽车。如果动物试图进入车内，或驾驶员在与其互动时分心，可能会带来风险。",
+      "normal_video_description": "",
+      "solution_for_person": "确保车辆上锁、车窗关闭，以防止动物进入。",
+      "solution_for_hazard_source": "通过安装运动感应灯或警报装置来确保区域安全，吓退野生动物。",
+      "solution_to_prevent_recurrence": "可以考虑使用驱赶野生动物的驱避剂或障碍物，使动物远离车辆。"
+    },
+    "4": {
+      "risk_description": "",
+      "normal_video_description": "视频显示夜间一辆静止的白色汽车停在街道旁。地面有积雪，背景中可见一些建筑物。",
+      "solution_for_person": "",
+      "solution_for_hazard_source": "",
+      "solution_to_prevent_recurrence": ""
+    }
+  }
+}

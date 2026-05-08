@@ -1,0 +1,40 @@
+{
+  "video_key": "labimag/dataset/chute16/cam5",
+  "translations": {
+    "0": {
+      "risk_description": "视频中的人正在尝试搬动一件重型家具，如果不正确操作，可能会导致跌倒或失去平衡。",
+      "normal_video_description": "",
+      "solution_for_person": "此人应寻求他人协助以安全地搬动家具。",
+      "solution_for_hazard_source": "搬动家具时应小心谨慎，以避免任何潜在危险。",
+      "solution_to_prevent_recurrence": "应教导此人正确的家具搬运技巧，以防止未来发生事故。"
+    },
+    "1": {
+      "risk_description": "穿红色衬衫的人跪在地上搬动沙发，如果地面不平或湿滑，可能会导致跌倒或失去平衡。",
+      "normal_video_description": "一个穿红色衬衫的人走进客厅，跪下搬动沙发，并在其他人在背景中的情况下重新摆放家具。",
+      "solution_for_person": "在跪下搬动重型家具之前，确保地面没有障碍物且稳固。",
+      "solution_for_hazard_source": "",
+      "solution_to_prevent_recurrence": "搬动大型家具时使用正确的搬运技巧，并在需要时寻求帮助。"
+    },
+    "2": {
+      "risk_description": "",
+      "normal_video_description": "一个人走进房间，走到中间，短暂地坐在地板上，然后站起来走开。环境是一个标准的办公室或起居空间，有家具和箱子，活动看起来是正常的日常移动，没有任何危险或不稳定的迹象。",
+      "solution_for_person": "",
+      "solution_for_hazard_source": "",
+      "solution_to_prevent_recurrence": ""
+    },
+    "3": {
+      "risk_description": "穿红色衬衫的人跪在地上并在家具周围移动，这可能会增加绊倒或跌倒的风险，特别是如果他们有行动不便或平衡问题。",
+      "normal_video_description": "",
+      "solution_for_person": "确保此人注意周围环境，在家具周围小心移动以避免绊倒。",
+      "solution_for_hazard_source": "重新摆放家具以创造清晰的通道并减少绊倒危险。",
+      "solution_to_prevent_recurrence": "为房间实施更安全的布局，并在需要时为有行动顾虑的个人提供额外支持。"
+    },
+    "4": {
+      "risk_description": "穿红色衬衫的人在沙发上进行潜在的危险动作，可能导致跌倒和受伤。整个视频中风险持续存在，因为此人继续进行该动作。",
+      "normal_video_description": "",
+      "solution_for_person": "应建议此人停止在沙发上进行该动作，以防止潜在受伤。",
+      "solution_for_hazard_source": "",
+      "solution_to_prevent_recurrence": "应教导此人在使用家具时采用安全做法，以避免跌倒和受伤。"
+    }
+  }
+}

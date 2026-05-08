@@ -1,0 +1,40 @@
+{
+  "video_key": "web_h264/25754345156-1-192",
+  "translations": {
+    "0": {
+      "risk_description": "孩子正在沙发上活泼地玩耍，沙发不稳，存在跌倒受伤的风险。",
+      "normal_video_description": "",
+      "solution_for_person": "确保孩子有成人监管，并提供更安全的游戏方式。",
+      "solution_for_hazard_source": "将沙发固定在墙上，防止倾倒。",
+      "solution_to_prevent_recurrence": "在客厅安装安全门，防止孩子无人看管时接触沙发。"
+    },
+    "1": {
+      "risk_description": "儿童在沙发上跳跃或跌落，可能会因摔倒撞到硬面或家具而导致瘀伤、骨折或头部受伤。",
+      "normal_video_description": "视频中展示了多起儿童从沙发跌落的场景，突出了此类行为的潜在危险。",
+      "solution_for_person": "当儿童靠近高架家具时，要密切监督，并教育他们不要攀爬或跳跃沙发。",
+      "solution_for_hazard_source": "清除或固定地面上可能导致绊倒的松散物品，并确保沙发远离尖锐或硬物。",
+      "solution_to_prevent_recurrence": "安装安全门或护栏限制进入危险区域，并考虑在沙发上使用防护角垫，以减少跌倒时的伤害程度。"
+    },
+    "2": {
+      "risk_description": "视频中显示孩子们在沙发上跳跃，使家具变得不稳并坍塌，导致孩子们摔到地上。这种行为明显超出了正常玩耍的范围，由于家具不稳，直接构成受伤风险。",
+      "normal_video_description": "",
+      "solution_for_person": "看护者应密切监督孩子，防止他们在沙发等软体家具上跳跃。",
+      "solution_for_hazard_source": "使用更稳固的家具，或添加防滑垫等安全措施以防止倾倒。",
+      "solution_to_prevent_recurrence": "教育孩子有关在家具上跳跃的危险，并制定规则保障他们的安全。"
+    },
+    "3": {
+      "risk_description": "视频中显示孩子们从沙发上跳下，由于家具不稳，存在跌倒受伤的风险。",
+      "normal_video_description": "",
+      "solution_for_person": "确保孩子在家具附近玩耍时有密切监督，并教育他们不要从高处跳下。",
+      "solution_for_hazard_source": "固定或锚定沙发以防倾倒，并移除任何可能导致分心或受伤的小物件。",
+      "solution_to_prevent_recurrence": "在客厅安装安全门或护栏，防止接触不稳定的家具。"
+    },
+    "4": {
+      "risk_description": "由于沙发位置不稳，孩子有跌倒的风险，可能导致严重伤害。",
+      "normal_video_description": "",
+      "solution_for_person": "在让孩子在沙发上玩耍前，确保沙发稳固安全。",
+      "solution_for_hazard_source": "清除任何可能导致沙发倾倒或变得不稳的物品。",
+      "solution_to_prevent_recurrence": "定期检查沙发是否有磨损或损坏的迹象，这些可能会影响其稳定性。"
+    }
+  }
+}

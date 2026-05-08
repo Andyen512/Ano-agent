@@ -1,0 +1,40 @@
+{
+  "video_key": "web_h264/bilibili__BV19REsz4EEd",
+  "translations": {
+    "0": {
+      "risk_description": "孩子正在大镜子附近玩耍，如果失去平衡，可能会摔倒或受伤。",
+      "normal_video_description": "",
+      "solution_for_person": "看护者应密切留意孩子，确保他们不要离镜子太近。",
+      "solution_for_hazard_source": "镜子应放置在安全的位置，以防止倾倒或被撞倒。",
+      "solution_to_prevent_recurrence": "看护者应在远离镜子的地方设立游戏区，并确保孩子在接触任何潜在危险物品时始终受到监督。"
+    },
+    "1": {
+      "risk_description": "孩子在湿滑的地面上玩耍，这增加了滑倒和摔倒的风险，可能导致头部受伤。",
+      "normal_video_description": "一个孩子在杂乱不堪的客厅里玩耍，而一位成年人坐在附近。",
+      "solution_for_person": "确保孩子穿合适的鞋子以防止滑倒。",
+      "solution_for_hazard_source": "清洁后立即擦干湿滑的地面，消除滑倒危险。",
+      "solution_to_prevent_recurrence": "定期检查和清洁地面，保持干燥表面。"
+    },
+    "2": {
+      "risk_description": "孩子在湿滑地面上奔跑并滑倒，摔倒时撞到头部。看护者立即作出反应帮助孩子。",
+      "normal_video_description": "",
+      "solution_for_person": "看护者应立即检查孩子是否受伤，并提供安慰。",
+      "solution_for_hazard_source": "看护者应立即清理湿滑的地面，防止再次出现滑倒危险。",
+      "solution_to_prevent_recurrence": "确保湿滑的地面及时清理，并在有潜在滑倒危险的区域密切监督孩子。"
+    },
+    "3": {
+      "risk_description": "孩子在湿滑地面上奔跑并滑倒，这在孩子处于脆弱状态时特别容易导致摔倒。",
+      "normal_video_description": "",
+      "solution_for_person": "确保在清洁后立即擦干地面，防止滑倒危险。",
+      "solution_for_hazard_source": "在易潮湿的区域使用防滑垫或地毯。",
+      "solution_to_prevent_recurrence": "定期清洁并擦干地面，以保持孩子的安全环境。"
+    },
+    "4": {
+      "risk_description": "孩子在厨房台面边缘附近玩耍时，有跌倒或不稳的风险。地板上有各种可能导致滑倒危险的物品。",
+      "normal_video_description": "",
+      "solution_for_person": "确保孩子受到监督，并远离台面边缘，防止摔倒。",
+      "solution_for_hazard_source": "清除地板上可能导致绊倒危险的物品。",
+      "solution_to_prevent_recurrence": "在厨房台面周围安装安全护栏或挡板，防止孩子在无人看管时接近台面。"
+    }
+  }
+}

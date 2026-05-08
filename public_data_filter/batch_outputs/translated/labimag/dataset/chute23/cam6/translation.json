@@ -1,0 +1,40 @@
+{
+  "video_key": "labimag/dataset/chute23/cam6",
+  "translations": {
+    "0": {
+      "risk_description": "视频中的年轻人正在沙发上做倒立，这是危险行为，可能导致跌倒和潜在伤害。沙发上的背包也存在绊倒或跌倒的风险。",
+      "normal_video_description": "",
+      "solution_for_person": "应建议此人避免在家具上做危险动作，并确保该区域没有绊倒危险物。",
+      "solution_for_hazard_source": "应移除沙发上的背包，以防止其成为绊倒危险物。",
+      "solution_to_prevent_recurrence": "应教育此人注意安全的重要性以及在家具上做动作的潜在风险。定期监督和提醒也有助于防止再次发生。"
+    },
+    "1": {
+      "risk_description": "这位年轻人反复躺下和在地板上翻滚，这可能导致跌倒或与家具碰撞，可能造成伤害。",
+      "normal_video_description": "可以看到一位穿红色T恤的年轻人在客厅里走动，与家具互动，并反复躺下和在地板上翻滚。",
+      "solution_for_person": "应建议这位年轻人避免在有家具的房间里在地板上翻滚，以防止跌倒或碰撞。",
+      "solution_for_hazard_source": "",
+      "solution_to_prevent_recurrence": "确保这位年轻人了解躺在地板上时跌倒或与家具碰撞的风险。"
+    },
+    "2": {
+      "risk_description": "",
+      "normal_video_description": "一位年轻人进入客厅，从椅子上拿起一个背包，然后坐在沙发上。此人后来起身在房间里走动，从事正常的日常活动，没有任何危险或不稳定的迹象。",
+      "solution_for_person": "",
+      "solution_for_hazard_source": "",
+      "solution_to_prevent_recurrence": ""
+    },
+    "3": {
+      "risk_description": "视频中可以看到此人躺在沙发上然后站起来，如果失去平衡或滑倒，可能会造成跌倒风险。",
+      "normal_video_description": "",
+      "solution_for_person": "确保此人在从地板或沙发上起身时使用支撑物以防止跌倒。",
+      "solution_for_hazard_source": "移除地板上的任何障碍物或绊倒危险物以降低跌倒风险。",
+      "solution_to_prevent_recurrence": "此人在走动时应谨慎，特别是在躺下之后，并确保该区域没有潜在危险物。"
+    },
+    "4": {
+      "risk_description": "",
+      "normal_video_description": "视频显示一位穿红色T恤和黑色裤子的年轻人在客厅里走动，与沙发和椅子互动。没有明显的风险或危险活动发生。",
+      "solution_for_person": "",
+      "solution_for_hazard_source": "",
+      "solution_to_prevent_recurrence": ""
+    }
+  }
+}

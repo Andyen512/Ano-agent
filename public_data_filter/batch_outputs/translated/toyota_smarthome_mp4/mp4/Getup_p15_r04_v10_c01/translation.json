@@ -1,0 +1,40 @@
+{
+  "video_key": "toyota_smarthome_mp4/mp4/Getup_p15_r04_v10_c01",
+  "translations": {
+    "0": {
+      "risk_description": "",
+      "normal_video_description": "视频显示一名中年成年人坐在餐厅的餐桌旁使用笔记本电脑。此人看起来专注于笔记本电脑屏幕，没有明显的痛苦或异常行为的迹象。餐厅光线充足，画面中没有可见的危险或潜在风险。",
+      "solution_for_person": "",
+      "solution_for_hazard_source": "",
+      "solution_to_prevent_recurrence": ""
+    },
+    "1": {
+      "risk_description": "",
+      "normal_video_description": "一个人坐在餐桌旁操作笔记本电脑。桌上放着各种物品，包括杯子和杂志。此人站起身时手里拿着笔记本电脑。",
+      "solution_for_person": "",
+      "solution_for_hazard_source": "",
+      "solution_to_prevent_recurrence": ""
+    },
+    "2": {
+      "risk_description": "",
+      "normal_video_description": "一位年长的成年人坐在光线充足的房间里的餐桌旁操作笔记本电脑。环境看起来平静有序，没有痛苦或不安全状况的迹象。",
+      "solution_for_person": "",
+      "solution_for_hazard_source": "",
+      "solution_to_prevent_recurrence": ""
+    },
+    "3": {
+      "risk_description": "",
+      "normal_video_description": "一位年长的成年人坐在餐桌旁使用笔记本电脑。桌上有一些物品，包括杯子和杂志。房间光线充足，看起来整洁。",
+      "solution_for_person": "",
+      "solution_for_hazard_source": "",
+      "solution_to_prevent_recurrence": ""
+    },
+    "4": {
+      "risk_description": "",
+      "normal_video_description": "视频显示一位年长的成年人在餐厅环境中与桌上的物品互动。没有明显的风险或危险活动在进行。",
+      "solution_for_person": "",
+      "solution_for_hazard_source": "",
+      "solution_to_prevent_recurrence": ""
+    }
+  }
+}

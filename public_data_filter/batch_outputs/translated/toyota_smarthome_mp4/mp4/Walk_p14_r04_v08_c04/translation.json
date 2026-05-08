@@ -1,0 +1,40 @@
+{
+  "video_key": "toyota_smarthome_mp4/mp4/Walk_p14_r04_v08_c04",
+  "translations": {
+    "0": {
+      "risk_description": "",
+      "normal_video_description": "一个人站在客厅里，看着一张绿色沙发。沙发前有一张咖啡桌，上面放着一些物品，包括一本书、一个罐子和一个瓶子。背景中还有一些植物。这个人似乎在思考什么。",
+      "solution_for_person": "",
+      "solution_for_hazard_source": "",
+      "solution_to_prevent_recurrence": ""
+    },
+    "1": {
+      "risk_description": "",
+      "normal_video_description": "一个人走进客厅，靠近一张绿色组合沙发，弯腰靠近它。房间里摆放着咖啡桌、边桌、植物和落地灯。",
+      "solution_for_person": "",
+      "solution_for_hazard_source": "",
+      "solution_to_prevent_recurrence": ""
+    },
+    "2": {
+      "risk_description": "",
+      "normal_video_description": "一位中年成年人走进客厅，靠近一张绿色组合沙发并坐下。环境整洁，没有明显的危险或危险行为。",
+      "solution_for_person": "",
+      "solution_for_hazard_source": "",
+      "solution_to_prevent_recurrence": ""
+    },
+    "3": {
+      "risk_description": "",
+      "normal_video_description": "一个人在带绿色沙发、咖啡桌和边桌的客厅里走动。咖啡桌上有书籍和瓶子，角落里可以看到一株植物。",
+      "solution_for_person": "",
+      "solution_for_hazard_source": "",
+      "solution_to_prevent_recurrence": ""
+    },
+    "4": {
+      "risk_description": "",
+      "normal_video_description": "一个男人在客厅里走动，经过一张绿色沙发和一张放着零食和饮料的咖啡桌。",
+      "solution_for_person": "",
+      "solution_for_hazard_source": "",
+      "solution_to_prevent_recurrence": ""
+    }
+  }
+}

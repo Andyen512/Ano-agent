@@ -1,0 +1,40 @@
+{
+  "video_key": "SmartHome-Bench/videos/smartbench_0948",
+  "translations": {
+    "0": {
+      "risk_description": "",
+      "normal_video_description": "可以看到一条蛇沿着停在车库里的一辆白色汽车的车身侧面蜿蜒而行。这条蛇呈棕色，带有较深的斑纹，在车身侧面优雅地移动。车库似乎灯光昏暗，光线从画面的顶部透进来。蛇的头部可见，它似乎正朝镜头移动。视频细致地捕捉了蛇的移动过程，展示了它的鳞片以及它在移动中盘卷和舒展的方式。视频结束时，蛇到达车辆末端并从视野中消失。",
+      "solution_for_person": "",
+      "solution_for_hazard_source": "",
+      "solution_to_prevent_recurrence": ""
+    },
+    "1": {
+      "risk_description": "一条大蛇正在停放的汽车附近移动，若汽车突然移动，存在碰撞或被碾压的风险。",
+      "normal_video_description": "可以看到一条大蛇沿着白色汽车旁的木柱移动，然后爬到汽车的引擎盖上。",
+      "solution_for_person": "在启动车辆前，要确保蛇已安全地离开汽车。",
+      "solution_for_hazard_source": "将蛇安全地安置在远离车辆的地点。",
+      "solution_to_prevent_recurrence": "让宠物或野生动物远离停放的车辆，并确保在动物附近时不要启动车辆。"
+    },
+    "2": {
+      "risk_description": "可以看到一条大蛇爬上围栏并直接爬到停放的汽车上，这有可能对车身的漆面或车身造成物理损坏。",
+      "normal_video_description": "",
+      "solution_for_person": "",
+      "solution_for_hazard_source": "",
+      "solution_to_prevent_recurrence": ""
+    },
+    "3": {
+      "risk_description": "一条大蛇位于汽车附近的木板上，若有人接触它，存在潜在危险。",
+      "normal_video_description": "",
+      "solution_for_person": "使用工具小心地将蛇从汽车和木板上移开，或寻求专业帮助以安全地转移蛇。",
+      "solution_for_hazard_source": "将蛇装入容器中，或将其转移到远离汽车和车库的安全区域。",
+      "solution_to_prevent_recurrence": "清除蛇可能藏匿的地方，确保车库清洁且没有蛇可能藏身的杂物。"
+    },
+    "4": {
+      "risk_description": "可以看到蛇在汽车引擎盖上蜿蜒爬行，如果驾驶员未察觉其存在而尝试启动车辆，可能导致碰撞。若蛇爬上挡风玻璃或进入驾驶员行驶路线，这种风险尤其高。",
+      "normal_video_description": "",
+      "solution_for_person": "接近车辆时要小心，启动前检查引擎盖和挡风玻璃是否有动物。",
+      "solution_for_hazard_source": "",
+      "solution_to_prevent_recurrence": "保持车库门关闭，以防止野生动物进入停放汽车的空间。"
+    }
+  }
+}

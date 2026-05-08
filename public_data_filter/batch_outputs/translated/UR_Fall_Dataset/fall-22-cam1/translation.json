@@ -1,0 +1,40 @@
+{
+  "video_key": "UR_Fall_Dataset/fall-22-cam1",
+  "translations": {
+    "0": {
+      "risk_description": "年轻人坐在客厅的椅子上，姿势和平衡似乎不稳定。他们可能会从椅子上摔下来。",
+      "normal_video_description": "年轻人坐在客厅的椅子上，姿势和平衡看起来很稳定。他们没有从椅子上摔下来的风险。",
+      "solution_for_person": "护理人员应确保年轻人坐得稳固，并在需要时提供支撑以防止跌倒。",
+      "solution_for_hazard_source": "护理人员应确保椅子稳固，并将其放置在远离任何可能导致年轻人失去平衡的障碍物的地方。",
+      "solution_to_prevent_recurrence": "护理人员应监测年轻人的动作，并在需要时提供帮助，以防止将来跌倒。"
+    },
+    "1": {
+      "risk_description": "该人以坐姿躺在地板上，这可能导致起身困难或保持平衡困难，增加跌倒的风险。",
+      "normal_video_description": "视频显示一名年轻人躺在似乎是书房或办公环境的地板上，四周环绕着椅子和家具。",
+      "solution_for_person": "确保该人正确坐在椅子上，而不是躺在地板上，以保持稳定。",
+      "solution_for_hazard_source": "",
+      "solution_to_prevent_recurrence": "监督该人避免以这种姿势躺在地板上。"
+    },
+    "2": {
+      "risk_description": "该人在站立时失去平衡，向后跌倒在地板上，这表明一次明显的失衡事件，超出正常活动范围。",
+      "normal_video_description": "",
+      "solution_for_person": "该人应立即起身并检查是否受伤，必要时考虑使用椅子或其他支撑以保持稳定。",
+      "solution_for_hazard_source": "确保地板上没有障碍物，并为该人提供稳固的座位或支撑。",
+      "solution_to_prevent_recurrence": "鼓励该人在站立时保持谨慎，必要时使用支撑。"
+    },
+    "3": {
+      "risk_description": "该人正尝试在地板上做翻滚或翻转动作，这可能导致跌倒或受伤，尤其是如果落地不稳时。",
+      "normal_video_description": "",
+      "solution_for_person": "确保该人在落地时有安全柔软表面，并在需要时提供支撑。",
+      "solution_for_hazard_source": "使用垫子或软地板来降低此类活动中受伤的风险。",
+      "solution_to_prevent_recurrence": "密切监督该活动，并确保环境对这类动作是安全的。"
+    },
+    "4": {
+      "risk_description": "该人在办公环境中跑步，由于空间杂乱且可能有椅子和桌子等障碍物，增加了绊倒或跌倒的风险。这可能导致严重伤害。",
+      "normal_video_description": "",
+      "solution_for_person": "在跑步前确保区域没有障碍物；保持安全速度以避免碰撞。",
+      "solution_for_hazard_source": "从地板上清除任何不必要的物品，以创建更安全的通道。",
+      "solution_to_prevent_recurrence": "实施定期安全检查并进行职场危害培训。"
+    }
+  }
+}

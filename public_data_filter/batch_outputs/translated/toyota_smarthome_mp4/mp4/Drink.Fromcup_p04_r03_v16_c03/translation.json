@@ -1,0 +1,40 @@
+{
+  "video_key": "toyota_smarthome_mp4/mp4/Drink.Fromcup_p04_r03_v16_c03",
+  "translations": {
+    "0": {
+      "risk_description": "孩子正站在厨房的椅子或凳子上，椅子或凳子不稳，容易倾倒，导致孩子跌倒并可能受伤。",
+      "normal_video_description": "孩子站在厨房的椅子上，手里拿着杯子，看着水槽。",
+      "solution_for_person": "看护者应立即将孩子从不稳的表面上移开，并密切监督，以防进一步事故。",
+      "solution_for_hazard_source": "看护者应确保厨房里所有椅子和凳子都稳固安全，以防止未来事故。",
+      "solution_to_prevent_recurrence": "看护者应定期检查厨房里所有家具的稳定性，并移除潜在危险品，以防止事故发生。"
+    },
+    "1": {
+      "risk_description": "该人在水槽附近握着刀，如果操作不当容易导致意外割伤。",
+      "normal_video_description": "一位老人站在厨房里，面向水槽，手里握着刀。",
+      "solution_for_person": "在不主动切割时，确保刀握得稳固且远离身体。",
+      "solution_for_hazard_source": "刀具不使用时应放在专用刀架中。",
+      "solution_to_prevent_recurrence": "定期提醒该人安全的刀具使用做法。"
+    },
+    "2": {
+      "risk_description": "",
+      "normal_video_description": "一个小孩站在现代化厨房里，手里拿着杯子正在喝。孩子的位置靠近带有水槽和各类厨房用品的柜台。场景显得平静安全，没有明显的危险或危险行为。",
+      "solution_for_person": "",
+      "solution_for_hazard_source": "",
+      "solution_to_prevent_recurrence": ""
+    },
+    "3": {
+      "risk_description": "孩子站在厨房柜台附近，柜台上有水槽和各种物品，如果这些物品掉落或吸引孩子去够，都可能带来风险。",
+      "normal_video_description": "",
+      "solution_for_person": "确保孩子得到监督，并保持在远离水槽和锋利物品的安全距离。",
+      "solution_for_hazard_source": "将锋利物品或危险物品固定在孩子够不到的地方。",
+      "solution_to_prevent_recurrence": "保持厨房柜台清洁，避免放置可能吸引孩子注意或造成危险的物品。"
+    },
+    "4": {
+      "risk_description": "孩子站在厨房柜台上，有跌倒并受伤的风险。由于柜台的高度和硬质表面，这种行为可能导致严重伤害。",
+      "normal_video_description": "",
+      "solution_for_person": "确保孩子始终受到监督，不允许站在厨房柜台上。",
+      "solution_for_hazard_source": "移除孩子可能用作踏板爬上柜台的物品。",
+      "solution_to_prevent_recurrence": "安装安全门或护栏，防止孩子在无人监督时接触厨房柜台。"
+    }
+  }
+}

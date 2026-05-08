@@ -1,0 +1,40 @@
+{
+  "video_key": "web_h264/bilibili__BV1DZ4y1e7kL",
+  "translations": {
+    "0": {
+      "risk_description": "孩子在餐厅里跑来跑去，可能导致跌倒或不稳的风险。",
+      "normal_video_description": "",
+      "solution_for_person": "看护者应密切关注孩子，确保他们不会在无人看管时四处奔跑。",
+      "solution_for_hazard_source": "餐厅应采取儿童安全防护措施，如安装防撞角和使用固定桌布，以防止事故。",
+      "solution_to_prevent_recurrence": "看护者应为孩子在餐厅的行为制定明确的规则，并确保这些规则得到一贯执行。"
+    },
+    "1": {
+      "risk_description": "一名孩子不小心被放在沙发上的剪刀划伤了腿，导致持续出血。",
+      "normal_video_description": "一名孩子在客厅里不小心被放在沙发上的剪刀划伤了腿，跑到邻居家求助，随后被送往医院接受治疗。",
+      "solution_for_person": "应教导孩子小心处理尖锐物品，受伤后立即寻求帮助。",
+      "solution_for_hazard_source": "确保将尖锐物品安全存放在儿童接触不到的地方。",
+      "solution_to_prevent_recurrence": "父母应提醒孩子注意尖锐物品的危险，并密切监督他们的活动。"
+    },
+    "2": {
+      "risk_description": "看到一个孩子手持尖锐物品（剪刀），不小心划伤了自己的腿，导致出血。随后孩子镇定地跑出房子向邻居求助。",
+      "normal_video_description": "",
+      "solution_for_person": "在处理尖锐物品时，应密切监督孩子，受伤后应立即就医。",
+      "solution_for_hazard_source": "尖锐物品应存放在安全且儿童无法触及的地方。",
+      "solution_to_prevent_recurrence": "父母应确保儿童无法接触到尖锐物品，并提供适当的监督和安全处理此类物品的教育。"
+    },
+    "3": {
+      "risk_description": "看到孩子在处理尖锐物品，若不仔细处理会有受伤风险。",
+      "normal_video_description": "",
+      "solution_for_person": "密切监督孩子，确保他们不独自处理尖锐物品。",
+      "solution_for_hazard_source": "将尖锐物品安全存放在儿童接触不到的地方。",
+      "solution_to_prevent_recurrence": "将尖锐物品放在上锁的柜子中，并教育孩子处理它们的危险。"
+    },
+    "4": {
+      "risk_description": "看到孩子在桌子上攀爬，这可能导致跌倒并造成潜在伤害。",
+      "normal_video_description": "视频显示孩子在餐厅玩耍，背景中有电视。",
+      "solution_for_person": "确保孩子受到监督，不允许他们攀爬家具。",
+      "solution_for_hazard_source": "将桌上不稳或易碎的物品移除，以防事故。",
+      "solution_to_prevent_recurrence": "在存放尖锐物品或危险物品的柜子和抽屉上安装安全锁。"
+    }
+  }
+}

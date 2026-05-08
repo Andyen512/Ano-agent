@@ -1,0 +1,40 @@
+{
+  "video_key": "UR_Fall_Dataset/fall-09-cam0",
+  "translations": {
+    "0": {
+      "risk_description": "视频中的年轻人正走向书房的椅子，但突然失去平衡摔倒在地。这种行为明显偏离了正常走路和坐椅子的日常活动，并因摔倒而导致受伤风险。",
+      "normal_video_description": "",
+      "solution_for_person": "人员在书房行走时应更加谨慎，避免匆忙或做出可能导致失去平衡的突然动作。",
+      "solution_for_hazard_source": "危险源是书房里的椅子，年轻人正试图坐下时失去平衡。解决方案是确保椅子稳固，并让年轻人在尝试坐下前注意周围环境和动作。",
+      "solution_to_prevent_recurrence": "为防止再次发生，应提醒年轻人在书房行走时更加谨慎，避免做出可能导致失去平衡的突然动作。另外，应定期检查书房的椅子，确保其稳固安全。"
+    },
+    "1": {
+      "risk_description": "人员在铺有地毯的地板上做前滚翻，如果动作不规范可能导致失去平衡或受伤。",
+      "normal_video_description": "在一间类似办公室的房间（有椅子和桌子）里，一个人站着、走动，然后做前滚翻。",
+      "solution_for_person": "在进行涉及翻滚或跌倒的体育活动时，要确保技术正确并有监督。",
+      "solution_for_hazard_source": "",
+      "solution_to_prevent_recurrence": "在进行体育活动时，要落实安全措施，如佩戴防护装备或有人扶持。"
+    },
+    "2": {
+      "risk_description": "员工在办公室环境中失去平衡摔倒，这是一种明显的身体不稳导致跌倒的情况。",
+      "normal_video_description": "",
+      "solution_for_person": "摔倒后应立即起身并检查是否受伤。",
+      "solution_for_hazard_source": "检查地面是否有障碍物或光滑物质可能导致摔倒。",
+      "solution_to_prevent_recurrence": "确保地面无障碍物，移动时保持良好平衡。"
+    },
+    "3": {
+      "risk_description": "视频中的人摔倒在地上，可能会造成受伤风险，尤其是对于行动受限或正在康复的人。",
+      "normal_video_description": "",
+      "solution_for_person": "确保人员了解周围环境并采取措施防止绊倒或跌倒。",
+      "solution_for_hazard_source": "清除地面上的障碍物或绊倒危险。",
+      "solution_to_prevent_recurrence": "进行平衡练习并确保工作空间整洁无杂物。"
+    },
+    "4": {
+      "risk_description": "视频中的人走路不稳并摔倒在地上，可能导致严重受伤。由于该人平衡似乎受损，风险贯穿整个视频。",
+      "normal_video_description": "视频显示一个人在办公室空间走动后摔倒，提示存在因潜在不稳或平衡问题导致的受伤风险。",
+      "solution_for_person": "摔倒后应立即让该人接受医疗检查以评估伤势并提供适当治疗。",
+      "solution_for_hazard_source": "未发现其他危险因素；风险主要源于该人的步态不稳。",
+      "solution_to_prevent_recurrence": "鼓励该人寻求医学建议，以解决可能导致其步态不稳的潜在问题。"
+    }
+  }
+}

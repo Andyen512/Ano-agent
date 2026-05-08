@@ -1,0 +1,40 @@
+{
+  "video_key": "web_h264/bilibili__BV1394y1B7Le",
+  "translations": {
+    "0": {
+      "risk_description": "这个孩子正在玩耍一台落地扇，这是不安全的活动。风扇可能会翻倒，导致孩子受伤。",
+      "normal_video_description": "",
+      "solution_for_person": "在孩子玩耍风扇时，需要成人监护以确保安全。",
+      "solution_for_hazard_source": "风扇应放在儿童无法触及的安全位置。",
+      "solution_to_prevent_recurrence": "应当教导孩子不要玩耍危险物品，并在需要帮助时请求帮助。"
+    },
+    "1": {
+      "risk_description": "孩子将电风扇插入插座，导致火花和巨响，表明可能存在电击或火灾危险。",
+      "normal_video_description": "在客厅里看到一个孩子正在玩耍电风扇，尝试把它插入插座。",
+      "solution_for_person": "在操作电器时，孩子应由成人监护，并被教育了解不当使用的危险。",
+      "solution_for_hazard_source": "确保插座位于儿童触及不到的地方，且电器仅在成人监护下使用。",
+      "solution_to_prevent_recurrence": "在插座上安装安全盖，并向孩子教育玩耍电器设备的风险。"
+    },
+    "2": {
+      "risk_description": "看到孩子触摸落地扇的裸露电源线，导致巨响和可见的火花。该行为直接接触带电部件，存在明显的电击或火灾风险。",
+      "normal_video_description": "",
+      "solution_for_person": "应立即将孩子移离电气危险，并密切监督以防止再次接触。",
+      "solution_for_hazard_source": "电源线应固定或包覆以防止儿童触及，且风扇不使用时应拔掉电源。",
+      "solution_to_prevent_recurrence": "在插座上安装儿童安全锁，并将所有电线保持在儿童触及不到的地方。"
+    },
+    "3": {
+      "risk_description": "孩子正在操作风扇和电源插头，这存在因不当使用电器而导致的电击或受伤风险。",
+      "normal_video_description": "",
+      "solution_for_person": "确保孩子在操作电器时受到监护，并教育他们安全使用电器。",
+      "solution_for_hazard_source": "将电器放在儿童触及不到的地方，或在插座上使用儿童安全锁。",
+      "solution_to_prevent_recurrence": "在插座上安装安全盖，并向孩子进行电气安全教育。"
+    },
+    "4": {
+      "risk_description": "孩子正在玩耍一台大风扇，风扇可能倾倒并导致孩子跌倒，这可能导致严重伤害。",
+      "normal_video_description": "视频显示一个孩子正在客厅里玩耍一台大风扇。",
+      "solution_for_person": "确保风扇放在稳固的表面上，并在孩子玩耍时进行监护。",
+      "solution_for_hazard_source": "",
+      "solution_to_prevent_recurrence": "将风扇固定在墙壁或地面上，以防倾倒。"
+    }
+  }
+}

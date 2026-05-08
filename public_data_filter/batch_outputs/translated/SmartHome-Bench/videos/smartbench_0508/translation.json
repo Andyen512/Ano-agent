@@ -1,0 +1,40 @@
+{
+  "video_key": "SmartHome-Bench/videos/smartbench_0508",
+  "translations": {
+    "0": {
+      "risk_description": "",
+      "normal_video_description": "一名身穿红色衬衫和黑色裤子的年轻人正向房屋的前门走去。他们靠近门，敲了敲，然后打开门。此人看起来很匆忙，迅速进入屋内。视频捕捉到了典型的回家瞬间。",
+      "solution_for_person": "",
+      "solution_for_hazard_source": "",
+      "solution_to_prevent_recurrence": ""
+    },
+    "1": {
+      "risk_description": "快递员持续无视居民要求归还物品的请求，使局势升级，可能导致言语或肢体冲突。",
+      "normal_video_description": "快递员来到前廊，拿起一件物品，尽管居民多次要求归还，仍然离开。",
+      "solution_for_person": "快递员应遵从居民的要求，立即归还物品以缓和局势。",
+      "solution_for_hazard_source": "居民应保持冷静，避免使用攻击性语言，以防冲突升级。",
+      "solution_to_prevent_recurrence": "快递服务应提供清晰的退货处理说明，以减少误解。"
+    },
+    "2": {
+      "risk_description": "",
+      "normal_video_description": "一个年轻人走上门廊，拿起一件长物件后离开。一位居民对他说话，他在离开前道歉。该场景展现了一段正常的日常互动，没有明显的风险或危险。",
+      "solution_for_person": "",
+      "solution_for_hazard_source": "",
+      "solution_to_prevent_recurrence": ""
+    },
+    "3": {
+      "risk_description": "年轻人正在搬运一件长物件，如果该物件锋利或他们被绊倒，可能会带来风险，尤其是附近有儿童或宠物时。",
+      "normal_video_description": "",
+      "solution_for_person": "确保年轻人注意周围环境，谨慎搬运该物件以防止事故。",
+      "solution_for_hazard_source": "将长物件固定好，防止它们成为绊倒危险。",
+      "solution_to_prevent_recurrence": "应提醒年轻人留意周围环境，尤其是有儿童或宠物在场时。"
+    },
+    "4": {
+      "risk_description": "看到有人弯腰去捡地上的东西，如果不小心可能会摔倒。门廊上也有被物体绊倒的风险。",
+      "normal_video_description": "",
+      "solution_for_person": "弯腰或捡拾地上物品时要更加小心，以防摔倒。",
+      "solution_for_hazard_source": "",
+      "solution_to_prevent_recurrence": "注意周围环境，保持区域畅通，减少绊倒或跌倒的风险。"
+    }
+  }
+}

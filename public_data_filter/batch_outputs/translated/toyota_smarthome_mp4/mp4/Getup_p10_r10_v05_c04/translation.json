@@ -1,0 +1,40 @@
+{
+  "video_key": "toyota_smarthome_mp4/mp4/Getup_p10_r10_v05_c04",
+  "translations": {
+    "0": {
+      "risk_description": "由于客厅杂乱且使用拐杖（在铺有地毯的地板上可能不稳定），老年人有跌倒的风险。",
+      "normal_video_description": "老年人坐在客厅的绿色沙发上阅读书籍。随后他站起来走向茶几，使用拐杖支撑。",
+      "solution_for_person": "护理人员应帮助老年人清理客厅的杂物，并确保拐杖在地板上有稳定的支撑面。",
+      "solution_for_hazard_source": "护理人员应确保客厅没有绊倒危险，并保证拐杖的高度和稳定性适合老年人。",
+      "solution_to_prevent_recurrence": "护理人员应定期检查客厅是否存在潜在危险，并确保老年人的拐杖状况良好且已适当调节。"
+    },
+    "1": {
+      "risk_description": "",
+      "normal_video_description": "老年人坐在客厅的绿色组合沙发上，手里拿着一个物品。他们站起来去拿沙发上的装饰枕头。房间光线充足，有植物、茶几和放有书籍和遥控器的边桌。",
+      "solution_for_person": "",
+      "solution_for_hazard_source": "",
+      "solution_to_prevent_recurrence": ""
+    },
+    "2": {
+      "risk_description": "",
+      "normal_video_description": "老年人坐在客厅的绿色沙发上，手里拿着书或杂志。随后他们站起来离开沙发。场景包括茶几上摆放的各种物品、边桌以及背景中的植物。",
+      "solution_for_person": "",
+      "solution_for_hazard_source": "",
+      "solution_to_prevent_recurrence": ""
+    },
+    "3": {
+      "risk_description": "老年人在站立时手里拿着书，可能因平衡不稳或力量不足而导致跌倒。",
+      "normal_video_description": "",
+      "solution_for_person": "老年人在站立时要有支撑，例如椅子或步行辅助器具。",
+      "solution_for_hazard_source": "清除地板上的障碍物，以减少绊倒危险。",
+      "solution_to_prevent_recurrence": "鼓励在从坐姿站起时使用稳定的支撑。"
+    },
+    "4": {
+      "risk_description": "老年人在从沙发上站起时有跌倒风险，可能因年龄和潜在的平衡缺失而导致严重伤害。",
+      "normal_video_description": "",
+      "solution_for_person": "确保老年人在从沙发站起时有支撑或帮助，以防止跌倒。",
+      "solution_for_hazard_source": "",
+      "solution_to_prevent_recurrence": "在沙发附近安装扶手或抓杆，以便老年人在站起时获得支撑。"
+    }
+  }
+}

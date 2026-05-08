@@ -1,0 +1,40 @@
+{
+  "video_key": "SmartHome-Bench/videos/smartbench_0083",
+  "translations": {
+    "0": {
+      "risk_description": "可以看到这名年轻人正在奔跑，然后摔倒在地上，这可能导致受伤。",
+      "normal_video_description": "视频显示一名年轻人在院子里奔跑，然后摔倒在地上。该人可以起身走开，但没有受伤的迹象。",
+      "solution_for_person": "应当检查该人是否有受伤，并在必要时提供急救。",
+      "solution_for_hazard_source": "应当检查该区域是否存在可能导致摔倒的危险，例如地面不平或湿滑的表面。",
+      "solution_to_prevent_recurrence": "提醒该人在院子里跑步时要小心，注意潜在的危害。"
+    },
+    "1": {
+      "risk_description": "该人在夜间在瓷砖露台区域跑步，可能会因能见度降低和地面不平而导致绊倒或摔倒的风险增加。",
+      "normal_video_description": "视频显示夜间户外的露台场景，配有大白色遮阳伞和户外家具。可以看到一名身穿蓝色衬衫、深色裤子的男子在露台上奔跑后离开画面。",
+      "solution_for_person": "在光线不足的情况下应小心行走，避免奔跑，以降低绊倒或摔倒的风险。",
+      "solution_for_hazard_source": "确保露台区域光线充足且无障碍物，以最大程度减少绊倒危险。",
+      "solution_to_prevent_recurrence": "在露台上安装感应灯，以提高夜间活动时的能见度。"
+    },
+    "2": {
+      "risk_description": "",
+      "normal_video_description": "视频呈现从高角度拍摄的夜间庭院露台，露台上有白色遮阳伞、椅子和烤架。可以看到一名穿蓝色衬衫的人走过露台后离开画面，画面在黑白夜视和彩色模式之间切换。",
+      "solution_for_person": "",
+      "solution_for_hazard_source": "",
+      "solution_to_prevent_recurrence": ""
+    },
+    "3": {
+      "risk_description": "可以看到一名儿童在露台附近摔倒，如果撞到地面或附近物体，可能会受伤。",
+      "normal_video_description": "",
+      "solution_for_person": "应密切监督儿童，防止摔倒，并在其摔倒时立即提供帮助。",
+      "solution_for_hazard_source": "清除露台区域的绊倒危险，确保地面平整安全，适合儿童玩耍。",
+      "solution_to_prevent_recurrence": "在露台区域安装安全门或护栏，防止儿童未经监护进入。"
+    },
+    "4": {
+      "risk_description": "可以看到该人走在阳台边缘，因高度和缺乏安全护栏而有坠落风险。此行为可能导致严重伤害甚至死亡。",
+      "normal_video_description": "",
+      "solution_for_person": "确保该人不应在没有适当安全措施（如栏杆或护栏）的情况下走在阳台边缘。",
+      "solution_for_hazard_source": "在阳台上安装栏杆或护栏，以防止坠落。",
+      "solution_to_prevent_recurrence": "教育人们注意走在阳台边缘的危险，并确保他们了解潜在的后果。"
+    }
+  }
+}

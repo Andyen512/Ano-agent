@@ -1,0 +1,40 @@
+{
+  "video_key": "toyota_smarthome_mp4/mp4/Getup_p06_r01_v01_c04",
+  "translations": {
+    "0": {
+      "risk_description": "由于客厅杂乱以及使用助行器，老年人有跌倒的风险。",
+      "normal_video_description": "老年人坐在客厅的绿色沙发上读书，随后使用助行器站起来并在房间里走动。",
+      "solution_for_person": "护理人员应协助老年人清除杂物，确保客厅没有绊倒危险。",
+      "solution_for_hazard_source": "护理人员应确保老年人的助行器状态良好，且根据其需求进行适当调节。",
+      "solution_to_prevent_recurrence": "护理人员应定期检查客厅是否存在潜在危险，并确保老年人的助行器得到维护并正确使用。"
+    },
+    "1": {
+      "risk_description": "",
+      "normal_video_description": "老年人坐在客厅的绿色沙发上，伸手去取茶几上的书，然后站起来。房间光线充足，可看到植物和家具。",
+      "solution_for_person": "",
+      "solution_for_hazard_source": "",
+      "solution_to_prevent_recurrence": ""
+    },
+    "2": {
+      "risk_description": "",
+      "normal_video_description": "老年人坐在客厅的绿色沙发上，身体前倾从沙发垫子上捡起杂志或书后站起来。该场景描绘的是日常活动，未见明显危险或不稳定。",
+      "solution_for_person": "",
+      "solution_for_hazard_source": "",
+      "solution_to_prevent_recurrence": ""
+    },
+    "3": {
+      "risk_description": "老年人在从沙发上站起时似乎难以保持平衡，可能导致跌倒。",
+      "normal_video_description": "",
+      "solution_for_person": "确保老年人在站起时有支撑，例如握住扶手或由护理人员帮助。",
+      "solution_for_hazard_source": "清除靠近沙发的任何可能绊倒的障碍物。",
+      "solution_to_prevent_recurrence": "在沙发旁使用带垫的支撑枕或安装抓杆，以提高稳定性。"
+    },
+    "4": {
+      "risk_description": "老年人因弯腰姿势以及靠近沙发边缘而有跌倒风险，可能导致严重伤害。",
+      "normal_video_description": "",
+      "solution_for_person": "确保老年人靠在沙发上并获得适当支撑或帮助，以防止跌倒。",
+      "solution_for_hazard_source": "",
+      "solution_to_prevent_recurrence": "提供支撑或协助老年人安全坐下，以降低跌倒风险。"
+    }
+  }
+}

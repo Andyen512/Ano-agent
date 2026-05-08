@@ -1,0 +1,40 @@
+{
+  "video_key": "SmartHome-Bench/videos/smartbench_0166",
+  "translations": {
+    "0": {
+      "risk_description": "这个年轻人被看到跑着跳上阳台，这是一个不安全的行为。这个人有从阳台上摔下来或在跳跃时受伤的风险。",
+      "normal_video_description": "",
+      "solution_for_person": "应该提醒这个人在阳台上要小心，不要从事危险活动。",
+      "solution_for_hazard_source": "应该检查阳台栏杆的稳定性和安全性。",
+      "solution_to_prevent_recurrence": "应该教育这个人了解安全的重要性以及在阳台上跳跃的相关风险。应该定期检查阳台栏杆以确保其稳定性和安全性。"
+    },
+    "1": {
+      "risk_description": "这个人在不平整的地面上拿着一个大而笨重的物体行走，这增加了绊倒和跌倒的风险。",
+      "normal_video_description": "看到一个人在夜晚的院子里拿着一个大而笨重的物体行走，朝着摄像头的反方向走去。",
+      "solution_for_person": "这个人应该确保自己安全地拿着物体，并缓慢行走以保持平衡。",
+      "solution_for_hazard_source": "确保院子光线充足且没有障碍物，以减少绊倒危险。",
+      "solution_to_prevent_recurrence": "这个人应该避免在不平稳的表面上行走时搬运重物或体积较大的物品。"
+    },
+    "2": {
+      "risk_description": "",
+      "normal_video_description": "一个孩子在夜晚跑上阳台，从椅子上拿起一个坐垫，然后跑开。这个活动很短暂且充满玩耍性质，没有危险或不稳定的迹象。",
+      "solution_for_person": "",
+      "solution_for_hazard_source": "",
+      "solution_to_prevent_recurrence": ""
+    },
+    "3": {
+      "risk_description": "这个人拿着一个大物体，看起来移动得很快，如果他们绊倒或失去平衡，可能会造成碰撞风险，特别是对行动不便的人来说。",
+      "normal_video_description": "",
+      "solution_for_person": "这个人应该确保自己稳固地拿着物体，并以稳定的速度移动以避免绊倒。",
+      "solution_for_hazard_source": "应该保持该区域没有障碍物，以减少绊倒风险。",
+      "solution_to_prevent_recurrence": "在院子里安装额外的照明并清除任何绊倒危险，以改善可见度和安全性。"
+    },
+    "4": {
+      "risk_description": "这个人正推着自行车走在狭窄的小路上，如果失去平衡可能会导致摔倒。",
+      "normal_video_description": "",
+      "solution_for_person": "确保这个人穿着合适的鞋子，并注意周围环境，以避免绊倒或失去平衡。",
+      "solution_for_hazard_source": "",
+      "solution_to_prevent_recurrence": "鼓励这个人在推自行车时慢慢、小心地行走，以减少跌倒的风险。"
+    }
+  }
+}

@@ -1,0 +1,40 @@
+{
+  "video_key": "SmartHome-Bench/videos/smartbench_0773",
+  "translations": {
+    "0": {
+      "risk_description": "可以看到这名年轻人朝白色卡车跑去，并试图打开驾驶员侧的车门。如果卡车移动或者该人进入车辆时不小心，这种行为可能导致碰撞或挤压伤害。",
+      "normal_video_description": "",
+      "solution_for_person": "人员在接近车辆时应保持警惕，确保在试图进入车辆前了解周围环境。",
+      "solution_for_hazard_source": "白色卡车的驾驶员应注意周围环境，确保在有人试图进入车辆时车辆不移动。",
+      "solution_to_prevent_recurrence": "应向该人宣传安全接近和进入车辆的注意事项，并提醒驾驶员在移动车辆前检查周围环境。"
+    },
+    "1": {
+      "risk_description": "该人试图在离车辆很近的地方打开白色SUV的车门，若车门意外关闭，存在碰撞风险或被卡在门中的危险。",
+      "normal_video_description": "视频显示夜间的车道视图，画面中有两辆停放的车辆。一名人员靠近白色SUV，试图打开驾驶员侧的车门，并在车辆周围走动。",
+      "solution_for_person": "在试图打开车门时保持安全距离，并在靠近车门之前确保车门已完全打开。",
+      "solution_for_hazard_source": "",
+      "solution_to_prevent_recurrence": ""
+    },
+    "2": {
+      "risk_description": "夜间，两名男子靠近一辆停放的车辆并进行肢体冲突，其中一名男子似乎在驾驶员侧车门附近击打另一人。这种行为明显超出正常活动，构成直接的肢体威胁。",
+      "normal_video_description": "",
+      "solution_for_person": "双方应立即停止肢体冲突并分开，以防止进一步受伤。",
+      "solution_for_hazard_source": "环境（车道）本身不是危险源，但车辆的存在可能成为冲突中的工具。",
+      "solution_to_prevent_recurrence": "实施安全措施，如加强照明或监控，可有助于阻止此类事件发生，公众意识教育项目可以解决冲突的根本原因。"
+    },
+    "3": {
+      "risk_description": "看到一名儿童冲向车辆并爬进驾驶座，若车辆意外启动，存在碰撞或挤压伤害的风险。",
+      "normal_video_description": "",
+      "solution_for_person": "确保车辆已妥善停好，防止在儿童靠近或在车内时意外启动。",
+      "solution_for_hazard_source": "在车门上安装儿童安全锁，防止车门被意外打开。",
+      "solution_to_prevent_recurrence": "在儿童靠近车辆时要密切监督，并教育他们不要随意操作车辆控制装置的危险性。"
+    },
+    "4": {
+      "risk_description": "该人正试图爬进一辆正在行驶的车辆的后部，若车辆突然停车或发生事故，存在被挤压或受伤的风险。",
+      "normal_video_description": "视频显示夜间停车场场景，画面中有两辆停放的汽车，背景中有一座房子。",
+      "solution_for_person": "在车辆启动前，确保所有乘客都已安全坐好并系好安全带。",
+      "solution_for_hazard_source": "",
+      "solution_to_prevent_recurrence": "实施安全措施，如使用安全带和适当的车辆维护，以防止事故发生。"
+    }
+  }
+}

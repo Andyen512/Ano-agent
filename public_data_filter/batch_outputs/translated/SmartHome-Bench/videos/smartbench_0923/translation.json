@@ -1,0 +1,40 @@
+{
+  "video_key": "SmartHome-Bench/videos/smartbench_0923",
+  "translations": {
+    "0": {
+      "risk_description": "这位年轻人正在爬上一个悬挂的灯具，灯具不稳定，可能会导致跌倒并造成潜在伤害。",
+      "normal_video_description": "",
+      "solution_for_person": "应建议该人使用适当的攀爬设备或寻求专业人员的帮助以确保安全。",
+      "solution_for_hazard_source": "应拆除或固定悬挂的灯具，以防止进一步的事故。",
+      "solution_to_prevent_recurrence": "应定期进行安全检查，以发现并处理该区域的潜在危险。"
+    },
+    "1": {
+      "risk_description": "这只熊正在与悬挂的灯具互动，若被缠绕则有碰撞或被压碎的风险。此外，如果灯具含有有害物质，还可能导致中毒或误食的风险。",
+      "normal_video_description": "一只熊在夜间靠近门廊，后腿站立并与悬挂的灯具互动。",
+      "solution_for_person": "",
+      "solution_for_hazard_source": "",
+      "solution_to_prevent_recurrence": ""
+    },
+    "2": {
+      "risk_description": "",
+      "normal_video_description": "一只熊在夜间走上门廊，后腿站立以够到悬挂的灯具。动物嗅闻或轻推灯具后转身离开。",
+      "solution_for_person": "",
+      "solution_for_hazard_source": "",
+      "solution_to_prevent_recurrence": ""
+    },
+    "3": {
+      "risk_description": "这只狗正跳向一个悬挂的物品，如果掉落可能会造成碰撞或被压碎的风险。",
+      "normal_video_description": "",
+      "solution_for_person": "确保悬挂的物品固定牢固，且在宠物够不到的地方。",
+      "solution_for_hazard_source": "移除或固定悬挂的物品，以防止意外接触。",
+      "solution_to_prevent_recurrence": "在悬挂物品周围安装防护罩或屏障，以防止宠物接触到它。"
+    },
+    "4": {
+      "risk_description": "可以看到该人在阳台上行走，若失去平衡可能会导致跌倒。这种风险在视频全程都存在。",
+      "normal_video_description": "",
+      "solution_for_person": "确保该人穿有良好抓地力的合适鞋子，并注意周围环境以防止滑倒。",
+      "solution_for_hazard_source": "在阳台上安装扶手或其他安全措施，以防止跌倒。",
+      "solution_to_prevent_recurrence": "定期检查阳台是否存在潜在危险并及时处理。"
+    }
+  }
+}

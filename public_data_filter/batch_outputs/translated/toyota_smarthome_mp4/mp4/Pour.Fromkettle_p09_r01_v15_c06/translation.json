@@ -1,0 +1,40 @@
+{
+  "video_key": "toyota_smarthome_mp4/mp4/Pour.Fromkettle_p09_r01_v15_c06",
+  "translations": {
+    "0": {
+      "risk_description": "",
+      "normal_video_description": "一个男人站在厨房里准备食物。他穿着一件格子衬衫，看起来专注于他的任务。厨房是现代化的，设备齐全，中央有一个大岛台。背景中有一台电视，柜台上有一盆盆栽。男人正在用刀在砧板上切蔬菜。",
+      "solution_for_person": "",
+      "solution_for_hazard_source": "",
+      "solution_to_prevent_recurrence": ""
+    },
+    "1": {
+      "risk_description": "",
+      "normal_video_description": "一个人站在厨房里，在电磁炉附近的台面上处理物品。背景中可见一台电视，正在播放有人的场景。",
+      "solution_for_person": "",
+      "solution_for_hazard_source": "",
+      "solution_to_prevent_recurrence": ""
+    },
+    "2": {
+      "risk_description": "",
+      "normal_video_description": "一个中年人站在现代化的厨房里，在柜台旁准备食物。场景平静有序，没有可见的危险或异常行为迹象。",
+      "solution_for_person": "",
+      "solution_for_hazard_source": "",
+      "solution_to_prevent_recurrence": ""
+    },
+    "3": {
+      "risk_description": "",
+      "normal_video_description": "一个人在现代化的厨房里准备食物。厨房光线充足，背景中有一台电视正在播放节目。台面上有几件物品，包括一个绿色杯子和一个装饰玻璃杯。",
+      "solution_for_person": "",
+      "solution_for_hazard_source": "",
+      "solution_to_prevent_recurrence": ""
+    },
+    "4": {
+      "risk_description": "",
+      "normal_video_description": "一个男人在现代化的厨房里做饭，正在炉子上搅拌锅里的东西。厨房设备齐全，有一个大型岛台，背景中有一台电视正在播放节目。",
+      "solution_for_person": "",
+      "solution_for_hazard_source": "",
+      "solution_to_prevent_recurrence": ""
+    }
+  }
+}

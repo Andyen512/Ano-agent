@@ -1,0 +1,40 @@
+{
+  "video_key": "labimag/dataset/chute19/cam5",
+  "translations": {
+    "0": {
+      "risk_description": "视频中的年轻人被看到跑向一把椅子然后绊倒在上面，这可能会造成伤害。这种行为偏离了正常稳定的坐或站立的日常活动。",
+      "normal_video_description": "",
+      "solution_for_person": "这个人在办公室走动时应该更加小心，不应该跑步或做出可能导致失去平衡的突然动作。",
+      "solution_for_hazard_source": "应该确保办公室环境没有绊倒危险，家具的摆放不会阻碍行动，从而使办公环境更加安全。",
+      "solution_to_prevent_recurrence": "应该提醒这个人注意在办公室走动时保持谨慎的重要性，并鼓励他们在执行需要体力活动的任务时慢慢来。还应该定期进行安全检查，以确保办公室环境对所有使用者都是安全的。"
+    },
+    "1": {
+      "risk_description": "穿红衬衫的人与房间中央的大棕色椅子相撞，导致摔倒并挣扎着站起来。这种行为存在与椅子碰撞造成伤害的风险。",
+      "normal_video_description": "视频显示了一个教室环境，有各种桌子和设备。一个穿红衬衫的人进入房间，跑向中间，与大棕色椅子相撞，摔倒并挣扎着站起来。背景中还有其他人在场。",
+      "solution_for_person": "应该警告这个人与大型家具以不受控制的方式互动时存在受伤的可能性。",
+      "solution_for_hazard_source": "大棕色椅子应该以最小化碰撞风险的方式放置，例如将其移离人流密集的区域。",
+      "solution_to_prevent_recurrence": "确保个人了解周围环境，避免在共享空间中奔跑或与家具碰撞。"
+    },
+    "2": {
+      "risk_description": "一个人走进房间，走向一把大扶手椅，在尝试坐下或与其互动时失去平衡，导致摔倒在地板上。由于失去稳定性并导致摔倒，这种行为超出了正常活动范围。",
+      "normal_video_description": "",
+      "solution_for_person": "这个人应该立即站起来并检查是否有受伤。如果疼痛或头晕持续，应寻求医疗帮助。",
+      "solution_for_hazard_source": "确保扶手椅稳定并放置在平坦的表面上。考虑添加防滑垫或固定家具以防止倾倒。",
+      "solution_to_prevent_recurrence": "鼓励这个人在与家具互动时要谨慎，特别是在感觉不稳定时。必要时提供支持或监督。"
+    },
+    "3": {
+      "risk_description": "穿红衬衫的人摔倒在地上，这可能会造成伤害风险，特别是对于行动不便或平衡问题的人。",
+      "normal_video_description": "",
+      "solution_for_person": "这个人在房间走动时应该小心，特别是靠近可能造成绊倒的家具附近。",
+      "solution_for_hazard_source": "确保客厅没有障碍物，并有清晰的路径以防止绊倒。",
+      "solution_to_prevent_recurrence": "这个人应该采取措施改善平衡，并更加注意周围环境以避免类似的摔倒。"
+    },
+    "4": {
+      "risk_description": "视频中的人被看到穿过一个房间然后摔倒在椅子上，这可能导致严重伤害。摔倒是意外的，如果更好地注意周围环境是可以预防的。",
+      "normal_video_description": "",
+      "solution_for_person": "更注意周围环境，在房间里走动时要小心。",
+      "solution_for_hazard_source": "",
+      "solution_to_prevent_recurrence": "注意周围环境，在房间里走动时避免分心。"
+    }
+  }
+}

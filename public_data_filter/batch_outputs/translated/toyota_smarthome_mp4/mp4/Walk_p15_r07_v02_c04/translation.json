@@ -1,0 +1,40 @@
+{
+  "video_key": "toyota_smarthome_mp4/mp4/Walk_p15_r07_v02_c04",
+  "translations": {
+    "0": {
+      "risk_description": "这个人似乎在维持平衡方面有困难，这可能导致跌倒。客厅里的茶几和沙发如果这个人跌倒的话，可能会增加受伤的风险。",
+      "normal_video_description": "",
+      "solution_for_person": "这个人应该由护理人员或家庭成员协助，以确保其安全并防止跌倒。",
+      "solution_for_hazard_source": "茶几和沙发应该重新摆放，为这个人创造一个更安全的环境，减少绊倒或跌倒的风险。",
+      "solution_to_prevent_recurrence": "应该根据需要监测和协助这个人以防止跌倒和受伤。客厅应该定期检查潜在危险，危险应该被移除或减轻。"
+    },
+    "1": {
+      "risk_description": "",
+      "normal_video_description": "一位老年人在客厅里整理沙发上的靠垫。",
+      "solution_for_person": "",
+      "solution_for_hazard_source": "",
+      "solution_to_prevent_recurrence": ""
+    },
+    "2": {
+      "risk_description": "",
+      "normal_video_description": "一位老年人出现在客厅里，走向绿色沙发，调整枕头，然后站在沙发前双手叉腰。环境平静温馨，没有危险或不稳定的迹象。",
+      "solution_for_person": "",
+      "solution_for_hazard_source": "",
+      "solution_to_prevent_recurrence": ""
+    },
+    "3": {
+      "risk_description": "老年人弯腰时似乎感到不适或疼痛，这可能因不稳定而增加跌倒的风险。",
+      "normal_video_description": "",
+      "solution_for_person": "老年人应该坐下或使用支撑物以避免劳累和潜在的跌倒。",
+      "solution_for_hazard_source": "确保客厅没有绊倒危险，并配备稳固的家具。",
+      "solution_to_prevent_recurrence": "鼓励使用支撑性家具，并确保该区域光线充足，以防止未来跌倒。"
+    },
+    "4": {
+      "risk_description": "老年人因步态不稳和靠近沙发边缘而面临跌倒风险。鉴于其年龄，这可能导致严重伤害。",
+      "normal_video_description": "",
+      "solution_for_person": "确保老年人坐着或获得支撑以防止跌倒。",
+      "solution_for_hazard_source": "从沙发周围移除任何潜在的绊倒危险。",
+      "solution_to_prevent_recurrence": "鼓励在需要时使用助行器或拐杖等辅助设备，并确保客厅没有杂物。"
+    }
+  }
+}

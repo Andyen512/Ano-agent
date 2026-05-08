@@ -1,0 +1,40 @@
+{
+  "video_key": "toyota_smarthome_mp4/mp4/Sitdown_p10_r00_v09_c01",
+  "translations": {
+    "0": {
+      "risk_description": "由于使用的椅子可能不稳定或不适宜其需求，老年人有跌倒风险。该人同时在餐桌上使用笔记本电脑，这可能无法为其姿势提供适当的支撑或稳定性。",
+      "normal_video_description": "",
+      "solution_for_person": "确保老年人使用稳定且适合其需求的椅子。根据需要提供支撑和帮助，以在使用笔记本电脑时保持正确的姿势。",
+      "solution_for_hazard_source": "确保餐桌干净整洁，没有可能导致不稳定或绊倒的物品。",
+      "solution_to_prevent_recurrence": "定期检查椅子和餐桌的稳定性及状况，确保它们状态良好且适合使用者。向老年人提供有关正确姿势和笔记本电脑使用的培训与支持，以降低跌倒风险。"
+    },
+    "1": {
+      "risk_description": "",
+      "normal_video_description": "一位老年人在光线充足的房间里在餐桌上使用笔记本电脑。此人在桌子周围走动，坐下并似乎在使用笔记本电脑。环境整洁，没有直接的危险。",
+      "solution_for_person": "",
+      "solution_for_hazard_source": "",
+      "solution_to_prevent_recurrence": ""
+    },
+    "2": {
+      "risk_description": "",
+      "normal_video_description": "一位老年人坐在光线充足的房间的餐桌旁，调整姿势并与桌上的物品互动。行为平稳，处于正常日常活动范围内。",
+      "solution_for_person": "",
+      "solution_for_hazard_source": "",
+      "solution_to_prevent_recurrence": ""
+    },
+    "3": {
+      "risk_description": "老年人明显前倾，这可能导致跌倒或背部拉伤。",
+      "normal_video_description": "",
+      "solution_for_person": "老年人应坐直并在需要时使用支撑，以避免拉伤或跌倒。",
+      "solution_for_hazard_source": "确保椅子稳固，桌子高度适宜，以防止不舒适的姿势。",
+      "solution_to_prevent_recurrence": "调整座位和桌子布局，为老年人提供更好的人体工学支撑。"
+    },
+    "4": {
+      "risk_description": "老年人正在俯身于桌子上，如果失去平衡可能会导致跌倒。跌倒是老年人受伤的常见原因，可能导致骨折或头部创伤等严重后果。",
+      "normal_video_description": "一位老年人在餐厅俯身于桌子上，可能是准备坐下或站起。",
+      "solution_for_person": "确保该人在桌子旁站立或坐下时有适当的支撑；考虑使用带扶手的椅子以获得更好的稳定性。",
+      "solution_for_hazard_source": "",
+      "solution_to_prevent_recurrence": "定期检查地面是否有绊倒危险，并确保桌子周围区域没有障碍物。"
+    }
+  }
+}

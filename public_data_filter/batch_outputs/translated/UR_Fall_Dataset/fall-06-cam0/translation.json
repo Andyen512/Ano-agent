@@ -1,0 +1,40 @@
+{
+  "video_key": "UR_Fall_Dataset/fall-06-cam0",
+  "translations": {
+    "0": {
+      "risk_description": "视频中可以看到一个年轻人坐在椅子上，然后突然向后倒下，导致摔到地板上。这种行为偏离了正常的坐椅日常行为，可能表明有不稳定或失去平衡的风险。",
+      "normal_video_description": "视频显示一个年轻人在书房里坐在椅子上，然后突然向后倒下并摔到地板上。",
+      "solution_for_person": "应该帮助其坐起来并检查是否有受伤。还应建议其在坐椅子时更加小心，以防将来再跌倒。",
+      "solution_for_hazard_source": "应检查椅子和书房环境是否有潜在危险因素导致跌倒，例如地面不平或光滑表面。",
+      "solution_to_prevent_recurrence": "应建议其在坐椅子时更加小心，并确保椅子和书房环境没有潜在危险。定期锻炼和平衡训练也有助于防止将来跌倒。"
+    },
+    "1": {
+      "risk_description": "可以看到有人坐在椅子边缘，然后摔到地板上，这有跌倒导致受伤的风险。",
+      "normal_video_description": "一个人坐在类似办公室的房间里椅子边缘，然后摔到地板上。",
+      "solution_for_person": "避免坐在椅子边缘或坐在不稳的座位上。",
+      "solution_for_hazard_source": "",
+      "solution_to_prevent_recurrence": "确保座位稳固并正确使用，以防止跌倒。"
+    },
+    "2": {
+      "risk_description": "该人坐在椅子上时失去平衡并向后倒在地板上，表明明显的失稳和跌倒事件。",
+      "normal_video_description": "",
+      "solution_for_person": "该人应立即起身并检查受伤情况，必要时寻求医疗帮助。",
+      "solution_for_hazard_source": "确保椅子稳固且状态良好，考虑使用带扶手的椅子以获得更好的支撑。",
+      "solution_to_prevent_recurrence": "建议该人在坐下时小心，并使用有适当支撑的椅子，以防止将来跌倒。"
+    },
+    "3": {
+      "risk_description": "该人摔倒在地，这可能导致受伤，尤其对于行动不便或正在康复的人更为危险。",
+      "normal_video_description": "",
+      "solution_for_person": "确保该人在有支撑的情况下坐下或站立，以防止跌倒。",
+      "solution_for_hazard_source": "清除绊倒危险，确保地面干净且稳固。",
+      "solution_to_prevent_recurrence": "在该人在办公室走动时提供额外的支撑或监督。"
+    },
+    "4": {
+      "risk_description": "该人因站在不稳的表面上而有跌倒危险，可能导致严重伤害。",
+      "normal_video_description": "",
+      "solution_for_person": "确保该人站在稳固安全的表面上，以防止跌倒。",
+      "solution_for_hazard_source": "清除任何不稳或光滑的表面。",
+      "solution_to_prevent_recurrence": "提供在工作场所安全移动技巧的适当培训。"
+    }
+  }
+}

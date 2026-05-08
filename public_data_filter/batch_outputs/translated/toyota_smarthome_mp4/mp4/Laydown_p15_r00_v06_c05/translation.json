@@ -1,0 +1,40 @@
+{
+  "video_key": "toyota_smarthome_mp4/mp4/Laydown_p15_r00_v06_c05",
+  "translations": {
+    "0": {
+      "risk_description": "该人以一种不寻常的姿势躺在沙发上，如果突然起身，可能会导致不稳定并有可能受伤。",
+      "normal_video_description": "该人以一种不寻常的姿势躺在沙发上，如果突然起身，可能会导致不稳定并有可能受伤。",
+      "solution_for_person": "应鼓励该人以更稳定的姿势躺下，或使用支撑物以防止突然的动作。",
+      "solution_for_hazard_source": "应检查沙发是否存在可能导致不稳定的潜在危险，如松动的垫子或不平的支脚。",
+      "solution_to_prevent_recurrence": "应提醒该人以更稳定的姿势躺下，必要时使用支撑，以防止风险再次发生。"
+    },
+    "1": {
+      "risk_description": "该人躺在沙发上，双腿悬挂在边缘，如果突然起身或失去平衡，可能会导致跌倒。",
+      "normal_video_description": "一个人先坐在沙发上，然后躺下，双腿悬挂在边缘。",
+      "solution_for_person": "确保该人了解自己的姿势，避免可能导致跌倒的突然动作。",
+      "solution_for_hazard_source": "",
+      "solution_to_prevent_recurrence": ""
+    },
+    "2": {
+      "risk_description": "",
+      "normal_video_description": "画面中一名年轻人坐在客厅的绿色沙发上，然后躺下放松。房间光线充足，可见电视、植物和茶几。",
+      "solution_for_person": "",
+      "solution_for_hazard_source": "",
+      "solution_to_prevent_recurrence": ""
+    },
+    "3": {
+      "risk_description": "这位老年人以不舒适的姿势躺在沙发上，如果突然移动，可能会导致跌倒或背部拉伤。",
+      "normal_video_description": "",
+      "solution_for_person": "确保老年人的姿势舒适且有支撑，并在他们需要起身时提供帮助。",
+      "solution_for_hazard_source": "重新布置家具，以提供更大的空间和稳定性，方便坐卧。",
+      "solution_to_prevent_recurrence": "使用支撑垫，并确保居住区域没有绊倒的危险物。"
+    },
+    "4": {
+      "risk_description": "该人躺在沙发上，如果突然移动，可能会导致跌落的风险，从而导致受伤。",
+      "normal_video_description": "视频显示一个人躺在客厅的绿色沙发上，没有明显的即时危险。",
+      "solution_for_person": "在移动或调整该人在沙发上的姿势之前，确保其稳定且安全。",
+      "solution_for_hazard_source": "",
+      "solution_to_prevent_recurrence": ""
+    }
+  }
+}

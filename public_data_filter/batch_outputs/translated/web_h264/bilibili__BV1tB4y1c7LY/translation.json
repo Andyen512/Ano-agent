@@ -1,0 +1,40 @@
+{
+  "video_key": "web_h264/bilibili__BV1tB4y1c7LY",
+  "translations": {
+    "0": {
+      "risk_description": "孩子正在玩桌子，这可能导致桌子不稳定并有可能造成伤害。",
+      "normal_video_description": "",
+      "solution_for_person": "看护者应密切监督孩子，并确保桌子稳固。",
+      "solution_for_hazard_source": "桌子应固定在墙或地板上，以防止倾倒。",
+      "solution_to_prevent_recurrence": "看护者应定期检查家具的稳定性，确保其已正确固定，以防止以后发生事故。"
+    },
+    "1": {
+      "risk_description": "",
+      "normal_video_description": "一位老人坐在客厅的地板上。一个孩子走过去帮助老人站起来。随后老人帮助孩子搬动椅子，清理出一条通道。",
+      "solution_for_person": "",
+      "solution_for_hazard_source": "",
+      "solution_to_prevent_recurrence": ""
+    },
+    "2": {
+      "risk_description": "",
+      "normal_video_description": "一位老人在客厅跌倒，孩子和一位年轻女子帮助老人站起来。孩子随后帮忙搬动椅子，清理出一条通道，老人安全离开。",
+      "solution_for_person": "",
+      "solution_for_hazard_source": "",
+      "solution_to_prevent_recurrence": ""
+    },
+    "3": {
+      "risk_description": "老人在搬椅子时跌倒，孩子在旁边，这可能增加双方受伤的风险。孩子还在老人恢复的区域走动，可能造成危险。",
+      "normal_video_description": "",
+      "solution_for_person": "在搬动家具前，确保老人得到充分支撑且稳定。密切监督孩子，防止他们在老人恢复期间干扰。",
+      "solution_for_hazard_source": "移除或固定任何容易被撞倒的家具。确保通道畅通，防止绊倒或跌倒。",
+      "solution_to_prevent_recurrence": "在搬动家具时，尤其是跌倒后，提供额外的支持或帮助。在恢复期间让儿童保持安全距离。"
+    },
+    "4": {
+      "risk_description": "孩子在沙发和冰箱附近玩耍，这可能导致摔倒或被撞倒。孩子也有可能伸手打开冰箱，可能导致中毒或误食。",
+      "normal_video_description": "",
+      "solution_for_person": "留意孩子，确保他们不要离家具或电器太近玩耍。教导孩子未经成人监护打开冰箱的危险。",
+      "solution_for_hazard_source": "",
+      "solution_to_prevent_recurrence": "当孩子在客厅时，尤其在沙发和冰箱附近，要密切监督。"
+    }
+  }
+}

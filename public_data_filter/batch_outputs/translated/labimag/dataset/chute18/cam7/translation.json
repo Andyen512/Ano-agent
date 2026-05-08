@@ -1,0 +1,40 @@
+{
+  "video_key": "labimag/dataset/chute18/cam7",
+  "translations": {
+    "0": {
+      "risk_description": "视频中可以看到一名年轻成年人跑过房间后倒在地上，这可能导致受伤。摔倒可能是因为注意力不集中或地面湿滑。",
+      "normal_video_description": "",
+      "solution_for_person": "在办公室走动时应该更加小心，注意周围环境以防止跌倒。",
+      "solution_for_hazard_source": "办公室应确保地面清洁且没有可能导致滑倒或跌倒的危险物品。",
+      "solution_to_prevent_recurrence": "办公室应提供工作场所安全培训，并鼓励员工报告他们可能遇到的危险。还应定期对办公室地面进行维护，以防止滑倒和跌倒。"
+    },
+    "1": {
+      "risk_description": "此人俯卧在地上，如果没有适当的支撑或有人绊倒，可能会导致头部或颈部受伤。",
+      "normal_video_description": "视频显示一间配有课桌和椅子的教室。一位穿红色衬衫的人走进房间，俯卧在瓷砖地板上，而其他人则在背景中走动。",
+      "solution_for_person": "确保此人处于安全的姿势并有适当的支撑，以防止受伤。",
+      "solution_for_hazard_source": "",
+      "solution_to_prevent_recurrence": "对该区域进行监督，防止其他人走到躺在地上的人身边。"
+    },
+    "2": {
+      "risk_description": "",
+      "normal_video_description": "一个人走进办公室，坐到椅子上，然后躺在地板上再站起。背景中可以看到其他人在工作台前工作。",
+      "solution_for_person": "",
+      "solution_for_hazard_source": "",
+      "solution_to_prevent_recurrence": ""
+    },
+    "3": {
+      "risk_description": "此人摔倒在地板上，可能造成受伤风险，特别是对行动受限或平衡有问题的人。",
+      "normal_video_description": "",
+      "solution_for_person": "确保此人了解周围环境，必要时考虑使用辅助设备。",
+      "solution_for_hazard_source": "清除地面上的任何障碍物或绊倒危险。",
+      "solution_to_prevent_recurrence": "进行平衡练习并确保该区域没有潜在的危险。"
+    },
+    "4": {
+      "risk_description": "可以看到穿红色衬衫的人走过房间后摔倒在地，可能导致严重伤害。摔倒似乎是偶然的，并非由外部危险引起。",
+      "normal_video_description": "视频显示一间配备各种工作站和设备的办公室。穿红色衬衫的人进入画面，走过房间后摔倒在地。",
+      "solution_for_person": "确保此人穿着抓地力良好的合适鞋类，以防止滑倒和跌倒。",
+      "solution_for_hazard_source": "",
+      "solution_to_prevent_recurrence": "定期检查地面是否有潜在的绊倒危险，并保持通道畅通，以降低跌倒风险。"
+    }
+  }
+}

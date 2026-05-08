@@ -1,0 +1,40 @@
+{
+  "video_key": "labimag/dataset/chute17/cam7",
+  "translations": {
+    "0": {
+      "risk_description": "看到这位年轻人爬上沙发然后摔下来，这可能导致受伤。桌上放着文件，这也表明该区域可能杂乱，增加了绊倒或摔倒的风险。",
+      "normal_video_description": "",
+      "solution_for_person": "应该监督并引导此人安全使用家具。还应鼓励他们清理该区域的杂物，以减少绊倒或摔倒的风险。",
+      "solution_for_hazard_source": "家具和桌子应排列成能最大程度减少绊倒或摔倒风险的方式。该区域应保持清洁，无任何杂物或障碍物。",
+      "solution_to_prevent_recurrence": "应对此人进行家具安全使用方面的教育，并强调保持区域清洁无杂物的重要性。定期的监督和指导也有助于防止此类事件再次发生。"
+    },
+    "1": {
+      "risk_description": "穿红衣的人在地板上爬行，存在摔倒和受伤的风险。多人在房间内走动，增加了碰撞或被家具意外挤压的风险。",
+      "normal_video_description": "一个穿红衣的人进入客厅，坐在沙发上，在地板上爬行，并与桌上的物品互动，而其他人在空间周围走动。",
+      "solution_for_person": "此人应避免在地板上爬行，应使用其他方式来够取桌上的物品。",
+      "solution_for_hazard_source": "确保通道畅通，并尽量减少房间内家具的移动，以降低碰撞风险。",
+      "solution_to_prevent_recurrence": "监督房间内的活动并执行安全的移动行为规范。"
+    },
+    "2": {
+      "risk_description": "",
+      "normal_video_description": "一个人进入客厅，坐在沙发上，然后移动到一张桌子旁与另一个人互动。该场景描述的是正常的日常活动，没有可见的危险或风险迹象。",
+      "solution_for_person": "",
+      "solution_for_hazard_source": "",
+      "solution_to_prevent_recurrence": ""
+    },
+    "3": {
+      "risk_description": "穿红衣的人在尝试坐到沙发上时摔倒，后来在桌子周围移动时也摔倒，这可能会造成受伤风险，特别是对于行动不便的人。",
+      "normal_video_description": "",
+      "solution_for_person": "确保此人在房间内移动时有人监督以防止摔倒。",
+      "solution_for_hazard_source": "移除或固定障碍物（如桌子）以减少绊倒危险。",
+      "solution_to_prevent_recurrence": "清理该区域的杂物并确保家具排列整齐以提供稳定的通道。"
+    },
+    "4": {
+      "risk_description": "穿红衣的人正在移动沙发和桌子，如果不仔细进行可能导致绊倒或摔倒。家具的锋利边缘也有造成伤害的风险。",
+      "normal_video_description": "",
+      "solution_for_person": "缓慢而小心地移动家具，确保路径畅通以避免绊倒。抬起重物时要小心。",
+      "solution_for_hazard_source": "",
+      "solution_to_prevent_recurrence": "定期检查家具的稳定性和锋利边缘。对个人进行正确的提升技术和移动重物时的安全预防措施培训。"
+    }
+  }
+}

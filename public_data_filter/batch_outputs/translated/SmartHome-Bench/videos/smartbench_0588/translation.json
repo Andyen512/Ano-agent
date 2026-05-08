@@ -1,0 +1,40 @@
+{
+  "video_key": "SmartHome-Bench/videos/smartbench_0588",
+  "translations": {
+    "0": {
+      "risk_description": "这个人站在阳台上，抓住栏杆，看起来不稳。他还拿着灭火器，这可能被用作支撑帮助跌倒。",
+      "normal_video_description": "",
+      "solution_for_person": "应有护理人员帮助此人，以确保他在阳台上保持稳定和安全。",
+      "solution_for_hazard_source": "栏杆应加固，或安装安全网以防止坠落。",
+      "solution_to_prevent_recurrence": "当此人在阳台上时，应进行监控和帮助，并检查栏杆的稳定性和安全性。"
+    },
+    "1": {
+      "risk_description": "该男子正在木制平台上使用灭火器，旁边可见烟雾和火焰，存在烧伤或火势蔓延的风险。",
+      "normal_video_description": "一名穿红衬衫、戴黄色手套的男子在木制平台上处理火灾，使用灭火器控制火焰。",
+      "solution_for_person": "该男子应与火保持安全距离，并在离开现场前确保火已完全熄灭。",
+      "solution_for_hazard_source": "应正确控制火势并将其熄灭，以防进一步蔓延。",
+      "solution_to_prevent_recurrence": "确保消防安全设备易于取用并正确使用；清除平台区域的可燃材料。"
+    },
+    "2": {
+      "risk_description": "阳台上的一名男子将燃烧的物体扔到草地上，形成失控火灾。此行为明显超出正常活动，并构成直接火灾危险。",
+      "normal_video_description": "",
+      "solution_for_person": "该人员应立即使用现有水源或灭火器灭火，并确保该区域安全。",
+      "solution_for_hazard_source": "移除附近的任何可燃材料，并确保燃烧物品的正确处置。",
+      "solution_to_prevent_recurrence": "向该人员提供安全用火和处置培训，以防止将来再次发生事故。"
+    },
+    "3": {
+      "risk_description": "该男子站在阳台的火源附近，存在烧伤或火灾相关伤害的风险。烟雾和火焰的存在增加了潜在危险。",
+      "normal_video_description": "",
+      "solution_for_person": "该男子应与火保持安全距离，并确保火已完全熄灭。",
+      "solution_for_hazard_source": "使用灭火器或水安全灭火，并清除该区域的可燃材料。",
+      "solution_to_prevent_recurrence": "确保消防安全设备易于取用并教育安全做法，以防止意外火灾。"
+    },
+    "4": {
+      "risk_description": "该男子站在阳台边缘，存在坠落风险。附近还有火源，若处理不当可能导致烧伤或其他伤害。",
+      "normal_video_description": "",
+      "solution_for_person": "该人员应避免站在阳台边缘，并与火源保持安全距离。",
+      "solution_for_hazard_source": "火源应被熄灭或移离阳台，以防止事故。",
+      "solution_to_prevent_recurrence": "应向该人员普及站在阳台边缘的危险以及与火源保持安全距离的重要性。"
+    }
+  }
+}

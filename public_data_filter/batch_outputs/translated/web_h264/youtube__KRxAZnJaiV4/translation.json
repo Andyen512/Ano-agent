@@ -1,0 +1,40 @@
+{
+  "video_key": "web_h264/youtube__KRxAZnJaiV4",
+  "translations": {
+    "0": {
+      "risk_description": "可以看到这位年轻人手持水管，然后跌倒在地，如果撞到头部或身体在硬表面上，可能会导致受伤。",
+      "normal_video_description": "可以看到这位年轻人手持水管，然后跌倒在地，如果撞到头部或身体在硬表面上，可能会导致受伤。",
+      "solution_for_person": "此人应由另一个人帮助，以确保他没有受伤并防止再次跌倒。",
+      "solution_for_hazard_source": "应固定好水管，防止其导致使用者失去平衡。",
+      "solution_to_prevent_recurrence": "应指导此人双手握住水管，并在车库里移动时保持谨慎，以防止跌倒。"
+    },
+    "1": {
+      "risk_description": "年轻人跌倒在地，可能导致受伤。发生身体冲突，增加伤害风险。",
+      "normal_video_description": "两名年轻人在车库里发生身体冲突，其中一人跌倒在地。",
+      "solution_for_person": "双方应避免攻击性行为，并学习降级技巧，以防止身体冲突。",
+      "solution_for_hazard_source": "确保该区域没有绊倒危险，例如地面上的水管，以降低跌倒风险。",
+      "solution_to_prevent_recurrence": "开展冲突解决培训，并保持工作场所整洁，以最大限度地减少绊倒危险。"
+    },
+    "2": {
+      "risk_description": "有人手持水管在湿滑地面上滑倒，失去平衡并重重摔在地上。",
+      "normal_video_description": "",
+      "solution_for_person": "此人应立即起身检查是否受伤，必要时寻求医疗帮助。",
+      "solution_for_hazard_source": "湿滑地面应擦干或设置警示标志，以防止再次滑倒。",
+      "solution_to_prevent_recurrence": "加强地面维护，并在易潮湿区域使用防滑垫。"
+    },
+    "3": {
+      "risk_description": "孩子摔倒被水管击中，可能导致受伤。另一个人试图帮助，但如果处理不当，情况可能升级。",
+      "normal_video_description": "",
+      "solution_for_person": "确保孩子由成年人安全帮助，并立即检查是否受伤。",
+      "solution_for_hazard_source": "固定水管，防止其成为绊倒危险。",
+      "solution_to_prevent_recurrence": "保持该区域无水管，并确保孩子在活动时受到密切监督。"
+    },
+    "4": {
+      "risk_description": "孩子在玩吸尘器时容易跌倒或失去稳定，可能导致受伤。",
+      "normal_video_description": "",
+      "solution_for_person": "确保孩子在吸尘器附近有监督，不要让其独自无人看管。",
+      "solution_for_hazard_source": "固定吸尘器，防止其倾倒或意外移动。",
+      "solution_to_prevent_recurrence": "不使用时应将吸尘器存放在安全的地方，以防止类似事故。"
+    }
+  }
+}

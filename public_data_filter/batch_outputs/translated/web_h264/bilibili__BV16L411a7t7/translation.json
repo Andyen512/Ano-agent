@@ -1,0 +1,40 @@
+{
+  "video_key": "web_h264/bilibili__BV16L411a7t7",
+  "translations": {
+    "0": {
+      "risk_description": "孩子正在仓库里奔跑，这里不是一个安全的奔跑环境。存在绊倒或跌倒的风险，可能导致受伤。",
+      "normal_video_description": "",
+      "solution_for_person": "看护者应密切注意孩子，确保他们不在无人监管的情况下在仓库里奔跑。",
+      "solution_for_hazard_source": "仓库应设计成安全步行的环境，通道清晰，地面无障碍物。",
+      "solution_to_prevent_recurrence": "看护者应为孩子在仓库中的行为制定明确的规则，例如只能步行、不能奔跑，并确保孩子了解在此环境中奔跑的风险。"
+    },
+    "1": {
+      "risk_description": "一个孩子坐在购物车里并掉下来，可能导致头部受伤。",
+      "normal_video_description": "视频显示一个孩子从一家类似仓库的商店的购物车上跌落。",
+      "solution_for_person": "确保孩子在购物车中安全坐好并始终受到监督。",
+      "solution_for_hazard_source": "",
+      "solution_to_prevent_recurrence": "在购物车上安装安全约束装置，并向家长宣传正确的购物车使用方法。"
+    },
+    "2": {
+      "risk_description": "一个孩子站在正在移动的购物车上，穿过超市通道，这是一种不稳定且危险的行为。孩子失去平衡从购物车上跌落，导致头部受伤。",
+      "normal_video_description": "",
+      "solution_for_person": "陪同孩子的成年人应立即停下购物车并扶住孩子，防止其跌落。",
+      "solution_for_hazard_source": "购物车应配备安全功能，防止孩子站立。",
+      "solution_to_prevent_recurrence": "向孩子和家长宣传站在购物车上的危险，并在超市执行安全规则。"
+    },
+    "3": {
+      "risk_description": "孩子从购物车上跌落，可能因撞击地面或附近物体而导致受伤。",
+      "normal_video_description": "",
+      "solution_for_person": "当孩子靠近购物车时，要密切监督以防止跌倒。",
+      "solution_for_hazard_source": "固定购物车，防止其倾翻。",
+      "solution_to_prevent_recurrence": "在设有购物车的商店通道中，实施额外的监督和安全措施。"
+    },
+    "4": {
+      "risk_description": "",
+      "normal_video_description": "视频显示监控摄像头的画面，画面中的人们在商店里购物并走动。",
+      "solution_for_person": "",
+      "solution_for_hazard_source": "",
+      "solution_to_prevent_recurrence": ""
+    }
+  }
+}

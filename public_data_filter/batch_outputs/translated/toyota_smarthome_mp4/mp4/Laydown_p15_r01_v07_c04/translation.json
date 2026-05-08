@@ -1,0 +1,40 @@
+{
+  "video_key": "toyota_smarthome_mp4/mp4/Laydown_p15_r01_v07_c04",
+  "translations": {
+    "0": {
+      "risk_description": "视频中的老年人失去平衡，从沙发上跌落，若撞到地板或周围物体可能会导致受伤。",
+      "normal_video_description": "",
+      "solution_for_person": "看护者应确保老年人在客厅活动时受到监督和支撑，以防止跌倒。",
+      "solution_for_hazard_source": "看护者应确保沙发远离任何硬质表面或可能造成伤害的物体，以防老年人跌倒时受伤。",
+      "solution_to_prevent_recurrence": "看护者应考虑重新布置客厅，为老年人创造更安全的环境，例如清除绊倒危险或在沙发附近安装扶手。"
+    },
+    "1": {
+      "risk_description": "",
+      "normal_video_description": "视频中可见一位老年人在客厅的绿色沙发上站立、坐着和躺下。",
+      "solution_for_person": "",
+      "solution_for_hazard_source": "",
+      "solution_to_prevent_recurrence": ""
+    },
+    "2": {
+      "risk_description": "",
+      "normal_video_description": "视频中可见一位老年人在客厅从站立姿势移动到躺在绿色沙发上。该人似乎在上沙发后放松或休息。",
+      "solution_for_person": "",
+      "solution_for_hazard_source": "",
+      "solution_to_prevent_recurrence": ""
+    },
+    "3": {
+      "risk_description": "老年人正试图坐下沙发，这可能因不稳定性或行动受限而导致跌倒或扭伤。",
+      "normal_video_description": "",
+      "solution_for_person": "确保老年人缓慢而小心地坐下，用手支撑。",
+      "solution_for_hazard_source": "为老年人提供额外的支撑或椅子，以便坐下时使用。",
+      "solution_to_prevent_recurrence": "在沙发旁放置垫子或支撑物，以帮助更安全地坐下。"
+    },
+    "4": {
+      "risk_description": "中年人因沙发位置不稳而有跌落风险，可能导致严重伤害。",
+      "normal_video_description": "视频中可见一位中年人坐在客厅的绿色沙发上，随后向后倒下摔到地板。",
+      "solution_for_person": "在坐下或躺下之前，确保沙发稳固安全。",
+      "solution_for_hazard_source": "",
+      "solution_to_prevent_recurrence": "将沙发固定在墙上或在底部添加额外支撑以保持其稳定。"
+    }
+  }
+}

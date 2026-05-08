@@ -1,0 +1,40 @@
+{
+  "video_key": "labimag/dataset/chute16/cam2",
+  "translations": {
+    "0": {
+      "risk_description": "视频中可以看到该人在餐厅里走动，有一次他们倒在地板上。这种行为对于中年人来说并不典型，可能表明有跌倒或不稳的风险。",
+      "normal_video_description": "",
+      "solution_for_person": "应帮助该人从地板上站起来，并检查是否有受伤。还应建议他们在餐厅走动时保持小心，以防止以后跌倒。",
+      "solution_for_hazard_source": "危险源是地板，可能湿滑或不平整。应建议该人穿防滑鞋，并注意地面上的障碍物。",
+      "solution_to_prevent_recurrence": "应鼓励该人在餐厅走动时定期休息，必要时请求帮助。应对地板进行检查，排除任何危险并进行必要的清洁或维修。"
+    },
+    "1": {
+      "risk_description": "可以看到该人在地板上爬行并攀爬家具，这增加了跌倒和受伤的风险。",
+      "normal_video_description": "视频显示一名年轻成年人在客厅里走动，以可能导致不稳和跌倒的方式与家具互动。",
+      "solution_for_person": "避免攀爬家具和在地板上爬行，以降低跌倒风险。",
+      "solution_for_hazard_source": "",
+      "solution_to_prevent_recurrence": "确保该人受到监督，并阻止其进行可能导致跌倒的危险行为。"
+    },
+    "2": {
+      "risk_description": "",
+      "normal_video_description": "一个人进入客厅，在家具之间走动，然后坐在沙发上，随后起身离开。环境似乎是标准室内场景，没有明显的危险或危险活动。",
+      "solution_for_person": "",
+      "solution_for_hazard_source": "",
+      "solution_to_prevent_recurrence": ""
+    },
+    "3": {
+      "risk_description": "视频中可以看到该人倒在沙发上，然后倒在地板上，这可能导致受伤风险，尤其是对行动不便或平衡问题的人。",
+      "normal_video_description": "",
+      "solution_for_person": "该人应确保坐姿正确，避免突然动作，以防止跌倒。",
+      "solution_for_hazard_source": "应检查家具摆放，确保稳固，地面没有绊倒危险。",
+      "solution_to_prevent_recurrence": "该人应坐在稳固的表面上，避免匆忙动作，以降低跌倒风险。"
+    },
+    "4": {
+      "risk_description": "视频中该人在尝试爬到沙发上时处于不稳姿势，存在跌倒风险，可能导致严重伤害。",
+      "normal_video_description": "",
+      "solution_for_person": "确保该人正确坐在沙发上，而不是以不稳的方式试图爬上去。",
+      "solution_for_hazard_source": "",
+      "solution_to_prevent_recurrence": "鼓励该人以稳定安全的方式坐在沙发上。"
+    }
+  }
+}

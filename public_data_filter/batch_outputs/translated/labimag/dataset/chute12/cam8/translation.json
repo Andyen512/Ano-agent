@@ -1,0 +1,40 @@
+{
+  "video_key": "labimag/dataset/chute12/cam8",
+  "translations": {
+    "0": {
+      "risk_description": "视频中可以看到该人走向床垫并倒在上面，这可能会导致受伤或不稳定。",
+      "normal_video_description": "",
+      "solution_for_person": "该人在室内走动时应更加小心，确保在接近床垫前站稳脚跟。",
+      "solution_for_hazard_source": "床垫应放在稳固且水平的表面上，以防止其移动或导致不稳定。",
+      "solution_to_prevent_recurrence": "应当提醒该人在室内走动时更加小心，并确保床垫放置在稳固的表面上，以防止以后跌倒。"
+    },
+    "1": {
+      "risk_description": "该人躺在一个标记区域中央的柔软物体上，这可能无法提供足够的支撑或稳定性，增加跌倒或失去平衡的风险。",
+      "normal_video_description": "一个人进入房间，走向位于中心的柔软物体并躺下，背景中有其他人。",
+      "solution_for_person": "确保柔软物体摆放稳固并提供足够的支撑后再躺下。",
+      "solution_for_hazard_source": "核实柔软物体在此环境中设计为安全使用且已正确固定。",
+      "solution_to_prevent_recurrence": "监督柔软物体的使用，并确保它放置在平坦、稳固的表面上。"
+    },
+    "2": {
+      "risk_description": "",
+      "normal_video_description": "一个年轻人走进房间，走向地板上的床垫并坐下。背景中可以看到其他人在房间里走动。该活动似乎是学习或办公环境中的正常日常行为。",
+      "solution_for_person": "",
+      "solution_for_hazard_source": "",
+      "solution_to_prevent_recurrence": ""
+    },
+    "3": {
+      "risk_description": "该人在标记的地面上行走，然后躺在一个柔软的表面上，若未正确固定可能会不稳定或导致跌倒。",
+      "normal_video_description": "",
+      "solution_for_person": "在躺下之前确保柔软的表面固定牢固且稳固。",
+      "solution_for_hazard_source": "固定柔软的表面以防止移动或不稳定。",
+      "solution_to_prevent_recurrence": "定期检查柔软表面的稳定性并确保其正确固定。"
+    },
+    "4": {
+      "risk_description": "该人正在进行涉及跳到床垫上的身体活动，如果不小心执行可能会导致跌倒并可能受伤。",
+      "normal_video_description": "",
+      "solution_for_person": "确保对该执行活动的人进行适当的监督和指导，以最大程度降低受伤风险。",
+      "solution_for_hazard_source": "",
+      "solution_to_prevent_recurrence": "提供安全跳跃技巧的培训，并确保区域没有任何可能导致事故的障碍物。"
+    }
+  }
+}

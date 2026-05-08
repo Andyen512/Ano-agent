@@ -1,0 +1,40 @@
+{
+  "video_key": "labimag/dataset/chute11/cam6",
+  "translations": {
+    "0": {
+      "risk_description": "这位年轻人正躺在地板上，这不是安全的休息姿势。应该鼓励他们坐在舒适表面上或躺在舒适表面上休息。",
+      "normal_video_description": "",
+      "solution_for_person": "鼓励这位年轻人坐在舒适表面上或躺在舒适表面上。",
+      "solution_for_hazard_source": "确保地板上没有可能使这位年轻人摔倒的危险物品。",
+      "solution_to_prevent_recurrence": "在地板上放置垫子或软垫，为这位年轻人提供舒适的休息表面。"
+    },
+    "1": {
+      "risk_description": "",
+      "normal_video_description": "视频显示一个受控的实验室环境，其中个人与设备和软垫互动。一个人躺在垫子上然后起身，而另一个人在附近的电脑工作站工作。",
+      "solution_for_person": "",
+      "solution_for_hazard_source": "",
+      "solution_to_prevent_recurrence": ""
+    },
+    "2": {
+      "risk_description": "",
+      "normal_video_description": "一个人走进房间，跳到地板上的床垫上，然后躺下。另一个人在背景中坐在桌旁。该活动在安全的室内环境中看起来是正常且有趣的。",
+      "solution_for_person": "",
+      "solution_for_hazard_source": "",
+      "solution_to_prevent_recurrence": ""
+    },
+    "3": {
+      "risk_description": "这位年轻人躺在地板上的床垫上，如果他们意外滚动或移动，可能会造成跌倒风险，特别是如果他们行动不便或正在从疾病中恢复。",
+      "normal_video_description": "",
+      "solution_for_person": "确保床垫放置在稳固的表面上，并在该人移动或调整姿势时提供支撑。",
+      "solution_for_hazard_source": "固定床垫以防止滚动，并确保地板上没有障碍物。",
+      "solution_to_prevent_recurrence": "使用防滑垫或绑带固定床垫，并定期检查设置的稳定性。"
+    },
+    "4": {
+      "risk_description": "这个人正躺在房间中间的床垫上，如果他们要起身或走动，可能会导致跌倒。由于硬地板和缺乏防护装备，这会造成受伤风险。",
+      "normal_video_description": "",
+      "solution_for_person": "在进行任何涉及床垫的活动之前，确保这个人穿着适当的安全装备，如头盔和护膝。",
+      "solution_for_hazard_source": "从该区域清除任何潜在危险物品，如尖锐物体或电气设备，以最大程度地减少受伤风险。",
+      "solution_to_prevent_recurrence": "为进行涉及床垫活动的个人提供适当的培训和监督，以确保他们的安全和健康。"
+    }
+  }
+}

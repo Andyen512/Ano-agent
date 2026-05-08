@@ -1,0 +1,40 @@
+{
+  "video_key": "web_h264/bilibili__BV1Ub4y1b7iZ",
+  "translations": {
+    "0": {
+      "risk_description": "孩子在桌子上玩玩具，桌子上堆满了各种物品，孩子有可能跌倒或碰倒桌上的物体。",
+      "normal_video_description": "",
+      "solution_for_person": "玩耍时需要成人监督，以确保孩子的安全。",
+      "solution_for_hazard_source": "清理桌子上的杂物，以降低事故风险。",
+      "solution_to_prevent_recurrence": "建立定期监督和整理居住空间的常规，以防止未来发生类似事故。"
+    },
+    "1": {
+      "risk_description": "视频显示一名4岁儿童在客厅处理火灾，涉及电气设备和可能的易燃材料。孩子的行为包括拔掉电气设备的电源插头并拨打紧急电话，表明存在触电或火灾蔓延的风险。",
+      "normal_video_description": "视频描述一名4岁男孩在家庭发生火灾时，拔掉电气设备的电源插头并拨打紧急电话，随后消防员到达并扑灭了火灾。",
+      "solution_for_person": "确保儿童在使用电气设备时有成人监督，并教给他们基本的火灾安全措施。",
+      "solution_for_hazard_source": "将电气设备和易燃材料移除或固定，远离可能的火源。",
+      "solution_to_prevent_recurrence": "在家中安装烟雾探测器和灭火器，并对所有家庭成员进行紧急程序的培训。"
+    },
+    "2": {
+      "risk_description": "孩子看到咖啡桌上的投影仪及其电源线，存在电气火灾或受伤的风险。视频还显示房间里发生了火灾，说明电气危险已实际发生。",
+      "normal_video_description": "",
+      "solution_for_person": "孩子应立即远离电气设备和火灾现场。应有成年人监督，确保孩子不触摸电器或电线。",
+      "solution_for_hazard_source": "投影仪及其电源线应拔掉电源并安全存放在孩子够不到的地方。",
+      "solution_to_prevent_recurrence": "实施安全措施，例如使用防儿童触摸的插座，并将电气设备和电线放在孩子够不到的地方。定期教育孩子关于电和火的危险。"
+    },
+    "3": {
+      "risk_description": "孩子正在触摸正在燃烧的电气设备，存在严重的触电或火灾扩大风险。",
+      "normal_video_description": "",
+      "solution_for_person": "确保孩子安全撤离现场，并立即关闭并拔掉所有电气设备的电源。",
+      "solution_for_hazard_source": "使用适用于电气火灾的灭火器，并确保切断该设备的电源。",
+      "solution_to_prevent_recurrence": "安装烟雾探测器和火灾警报器，并教育孩子火灾安全以及不随意触碰电气设备的重要性。"
+    },
+    "4": {
+      "risk_description": "孩子在地上的玩具上玩耍，可能会导致跌倒受伤。此外，桌子上有几件物品可能被撞倒，造成进一步伤害或损坏。",
+      "normal_video_description": "视频显示一个孩子在客厅的地板上玩玩具，周围桌子上摆放着各种物品。",
+      "solution_for_person": "确保孩子在玩耍时有人监督，以防止跌倒和受伤。同时把桌子上的物品清理干净，防止被撞倒。",
+      "solution_for_hazard_source": "",
+      "solution_to_prevent_recurrence": "定期检查客厅家具和物品的稳定性，确保它们固定好，不易被撞倒。"
+    }
+  }
+}

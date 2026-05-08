@@ -1,0 +1,40 @@
+{
+  "video_key": "labimag/dataset/chute20/cam5",
+  "translations": {
+    "0": {
+      "risk_description": "视频中的年轻人正在推一把大棕色椅子穿过房间，椅子随后翻倒，导致此人摔倒在地。这种行为在办公环境中并不典型，可能导致受伤。",
+      "normal_video_description": "视频显示一个人穿过办公区域，随后有另一个人推着一把大棕色椅子。推椅子的人将椅子弄翻，导致另一个人摔倒。",
+      "solution_for_person": "移动大件物品时应该小心，并确保有清晰的路径以避免事故。",
+      "solution_for_hazard_source": "办公室应确保所有家具都固定妥当，并有足够的空间走动，不会造成绊倒或摔倒的风险。",
+      "solution_to_prevent_recurrence": "应该对人员进行搬运重物的正确技术培训，办公室应实施安全协议以防止事故发生。"
+    },
+    "1": {
+      "risk_description": "穿红衬衫的人趴在地上，这种姿势如果不及时处理可能导致呼吸困难或受伤。",
+      "normal_video_description": "一个穿红衬衫的人进入教室，与沙发互动，然后趴在地上。",
+      "solution_for_person": "确保此人被移动到安全的直立位置，并检查是否有受伤。",
+      "solution_for_hazard_source": "",
+      "solution_to_prevent_recurrence": "教育人员与家具安全互动，避免在硬表面上趴着。"
+    },
+    "2": {
+      "risk_description": "一个人走进房间，走向一个低矮的沙发，失去平衡向前倒在地板上。这个动作明显超出正常活动范围，并导致直接的身体摔倒。",
+      "normal_video_description": "",
+      "solution_for_person": "此人应立即站起来并检查是否有受伤。",
+      "solution_for_hazard_source": "确保地板防滑，家具稳固。",
+      "solution_to_prevent_recurrence": "改善照明，清除可能的绊倒危险物。"
+    },
+    "3": {
+      "risk_description": "穿红衬衫的人倒在地板上，可能会造成受伤风险，特别是对于行动不便或平衡问题的人。",
+      "normal_video_description": "",
+      "solution_for_person": "确保此人注意周围环境，谨慎移动以避免绊倒或摔倒。",
+      "solution_for_hazard_source": "清除地板上任何障碍物或绊倒危险物以防止摔倒。",
+      "solution_to_prevent_recurrence": "安装额外的照明或防滑地板以降低未来摔倒的风险。"
+    },
+    "4": {
+      "risk_description": "穿红衬衫的人穿过房间时失去平衡，摔倒在地。这可能导致轻微受伤，如擦伤或扭伤。",
+      "normal_video_description": "",
+      "solution_for_person": "确保此人穿着具有良好抓地力的合适鞋子以防止滑倒。",
+      "solution_for_hazard_source": "清除地板上任何可能的绊倒危险物，如电线或松散物品。",
+      "solution_to_prevent_recurrence": "鼓励此人缓慢小心地行走，特别是在光滑或反光的表面上。"
+    }
+  }
+}

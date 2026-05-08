@@ -1,0 +1,40 @@
+{
+  "video_key": "toyota_smarthome_mp4/mp4/Walk_p04_r02_v16_c07",
+  "translations": {
+    "0": {
+      "risk_description": "老年人似乎很匆忙，没有留意周围环境，这可能导致跌倒或失衡。",
+      "normal_video_description": "老年人正在厨房里走动，手里拿着杯子，看起来很匆忙。随后他们把杯子放在柜台上，继续在厨房里走动。",
+      "solution_for_person": "护理人员应确保老年人注意周围环境，并在厨房里慢慢移动。",
+      "solution_for_hazard_source": "护理人员应确保厨房没有任何可能导致老年人绊倒或跌倒的潜在危险。",
+      "solution_to_prevent_recurrence": "护理人员应监测老年人在厨房里的活动，必要时提供帮助，以防止跌倒或失衡。"
+    },
+    "1": {
+      "risk_description": "",
+      "normal_video_description": "老年人在厨房里走动，把杯子放在柜台上并与空间互动。",
+      "solution_for_person": "",
+      "solution_for_hazard_source": "",
+      "solution_to_prevent_recurrence": ""
+    },
+    "2": {
+      "risk_description": "",
+      "normal_video_description": "一位老年女性在厨房里，手里拿着杯子，把它放在柜台上后离开。该场景展示了正常的日常活动，没有明显的风险或异常。",
+      "solution_for_person": "",
+      "solution_for_hazard_source": "",
+      "solution_to_prevent_recurrence": ""
+    },
+    "3": {
+      "risk_description": "老年人在厨房里走动时手里拿着杯子，这可能增加跌倒或溢出的风险，尤其是如果他们失去平衡或在地板上滑倒。",
+      "normal_video_description": "",
+      "solution_for_person": "确保老年人穿防滑鞋，必要时考虑使用助行器。",
+      "solution_for_hazard_source": "保持厨房地板清洁且无障碍物，以减少绊倒的危险。",
+      "solution_to_prevent_recurrence": "在厨房安装额外的照明和扶手，以提供更好的支撑和可视性。"
+    },
+    "4": {
+      "risk_description": "该人站在厨房柜台上，存在跌倒风险，可能导致受伤。由于柜台的高度和硬表面，这种行为可能导致严重伤害。",
+      "normal_video_description": "老年人站在厨房柜台上，手里拿着杯子，然后坐下。",
+      "solution_for_person": "确保该人不要站在厨房柜台上，而是使用踏脚凳或椅子安全地够到更高的地方。",
+      "solution_for_hazard_source": "",
+      "solution_to_prevent_recurrence": "在厨房柜台上安装防滑垫，以减少站在上面时滑倒的风险。"
+    }
+  }
+}

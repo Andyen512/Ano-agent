@@ -1,0 +1,40 @@
+{
+  "video_key": "labimag/dataset/chute01/cam3",
+  "translations": {
+    "0": {
+      "risk_description": "这位年轻人躺在地板上，这可能构成跌倒隐患。应当鼓励该人正确坐起或站起，以避免受伤。",
+      "normal_video_description": "",
+      "solution_for_person": "应协助该人正确坐起或站起，以避免受伤。",
+      "solution_for_hazard_source": "应检查地板是否有绊倒危险或光滑表面。",
+      "solution_to_prevent_recurrence": "应提醒该人在室内移动时要小心，防止跌倒。应定期检查房间，确保没有潜在危险。"
+    },
+    "1": {
+      "risk_description": "躺在垫子上的人可能会有从边缘掉落的风险，尤其在垫子未牢固固定或突然移动时。",
+      "normal_video_description": "视频显示一个健身房，中心有一块垫子。一个人走进画面后离开，随后另一人躺在垫子上，其他人观看。",
+      "solution_for_person": "确保垫子牢固固定在地板上，以防止滑动或移动。",
+      "solution_for_hazard_source": "检查垫子是否固定良好，周围是否有绊倒危险。",
+      "solution_to_prevent_recurrence": "定期检查垫子及其周围区域的稳定性，移除任何可能的绊倒危险。"
+    },
+    "2": {
+      "risk_description": "",
+      "normal_video_description": "视频显示一个人处于书房或办公环境中。该人穿过房间，走向地板上的垫子并躺下。随后另一人进入画面。这些动作似乎是受控活动或实验的一部分，在安全的室内环境中进行。",
+      "solution_for_person": "",
+      "solution_for_hazard_source": "",
+      "solution_to_prevent_recurrence": ""
+    },
+    "3": {
+      "risk_description": "年轻人躺在地板上的床垫上，这可能不稳定，存在跌倒风险，尤其对行动受限或平衡差的人更为危险。",
+      "normal_video_description": "",
+      "solution_for_person": "确保床垫放置在稳固的表面上，如需要可在躺下时提供支撑。",
+      "solution_for_hazard_source": "应使用稳固且有支撑的表面来躺下，而不是地板上的床垫。",
+      "solution_to_prevent_recurrence": "将床垫固定在地板上，或使用坚固稳定的表面，以降低跌倒风险。"
+    },
+    "4": {
+      "risk_description": "该人正试图跳过床垫，若跌倒可能导致严重伤害。由于高度以及可能与床垫或周围物体碰撞，这一动作具有很高的受伤风险。",
+      "normal_video_description": "",
+      "solution_for_person": "应避免尝试跳过床垫，改为专注于教室内安全、合适的活动。",
+      "solution_for_hazard_source": "将床垫从地板上移除，以消除跳过它的风险。",
+      "solution_to_prevent_recurrence": "制定明确的课堂安全行为规范和准则，以防止今后出现类似风险。"
+    }
+  }
+}

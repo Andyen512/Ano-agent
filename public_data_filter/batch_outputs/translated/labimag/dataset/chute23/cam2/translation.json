@@ -1,0 +1,40 @@
+{
+  "video_key": "labimag/dataset/chute23/cam2",
+  "translations": {
+    "0": {
+      "risk_description": "可以看到一名年轻人试图搬动沙发，结果失去平衡摔倒在地上。这种行为偏离了日常搬动家具的正常活动，并有跌倒导致受伤的风险。",
+      "normal_video_description": "",
+      "solution_for_person": "应建议该人在搬动重家具时使用正确的举重技巧并请求帮助，以防止跌倒和受伤。",
+      "solution_for_hazard_source": "未发现具体危险源，但通过确保正确的举重技巧并在需要时请求帮助可以降低风险。",
+      "solution_to_prevent_recurrence": "应教育该人正确的举重技巧以及在搬动重物时请求帮助的重要性，以防止将来跌倒和受伤。"
+    },
+    "1": {
+      "risk_description": "该人反复搬动家具并躺在地板上，这会增加滑倒、绊倒或跌倒的风险，可能导致受伤。",
+      "normal_video_description": "一名穿红衬衫的人把沙发和椅子在房间里搬来搬去，偶尔会躺在地板上然后站起来。",
+      "solution_for_person": "避免独自搬动重家具，确保在躺下前地面没有绊倒危险。",
+      "solution_for_hazard_source": "清除地板上不必要的物品，固定松动的家具以防止倾倒。",
+      "solution_to_prevent_recurrence": "定期对居住空间进行安全检查，搬动家具时练习安全举重技巧。"
+    },
+    "2": {
+      "risk_description": "",
+      "normal_video_description": "一名年轻人进入客厅，搬动一把椅子，然后躺在地板上，随后站起来走开。这些动作看起来是玩耍或探索行为，并不构成安全风险。",
+      "solution_for_person": "",
+      "solution_for_hazard_source": "",
+      "solution_to_prevent_recurrence": ""
+    },
+    "3": {
+      "risk_description": "视频中该人跪下并躺在地板上，这可能对行动受限或平衡有障碍的人造成跌倒风险。",
+      "normal_video_description": "",
+      "solution_for_person": "确保该人在移动时使用支撑，特别是在跪下或躺下时。",
+      "solution_for_hazard_source": "清除可能导致绊倒或跌倒的障碍物，例如地板上的椅子或袋子。",
+      "solution_to_prevent_recurrence": "清除地板上可能导致绊倒的物品，并在需要时提供支撑或帮助。"
+    },
+    "4": {
+      "risk_description": "该人行走不稳，随后跌倒在地，可能导致严重伤害。跌倒似乎是由于不稳或失去平衡所致。",
+      "normal_video_description": "视频显示一个人在客厅里行走，拿着一个箱子，随后跌倒在地。",
+      "solution_for_person": "确保该人穿具有良好抓地力的合适鞋履，并考虑在行走时提供支撑或帮助，以防止跌倒。",
+      "solution_for_hazard_source": "",
+      "solution_to_prevent_recurrence": "鼓励该人在行走时适当休息并保持稳定步伐，以降低跌倒风险。"
+    }
+  }
+}

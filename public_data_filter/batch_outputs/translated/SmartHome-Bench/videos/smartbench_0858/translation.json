@@ -1,0 +1,40 @@
+{
+  "video_key": "SmartHome-Bench/videos/smartbench_0858",
+  "translations": {
+    "0": {
+      "risk_description": "",
+      "normal_video_description": "视频展示了一个阳台的视角，里面有烤架、椅子、桌子等物品。一位年轻人走进阳台并与这些物品进行互动。视频看起来像是有人在阳台上休闲的正常场景。",
+      "solution_for_person": "",
+      "solution_for_hazard_source": "",
+      "solution_to_prevent_recurrence": ""
+    },
+    "1": {
+      "risk_description": "一只熊在门廊上，烤架对它构成热或火的暴露风险。",
+      "normal_video_description": "一只熊进入有各种家具和烤架的门廊区域，探索了一番后离开。",
+      "solution_for_person": "",
+      "solution_for_hazard_source": "",
+      "solution_to_prevent_recurrence": ""
+    },
+    "2": {
+      "risk_description": "一只熊进入阳台并在家具之间移动，对在场的人员造成很高的碰撞或挤压伤害风险。该动物不可预测的动作和体型使得该环境对人类居住不安全。",
+      "normal_video_description": "",
+      "solution_for_person": "立即疏散阳台并确保该区域安全，防止与熊进一步接触。",
+      "solution_for_hazard_source": "在阳台周围安装防熊屏障或围栏，以防止日后再次入侵。",
+      "solution_to_prevent_recurrence": "使用防熊的储藏装置存放食物和垃圾，并考虑聘请专业野生动物管理服务来驱赶熊离开该区域。"
+    },
+    "3": {
+      "risk_description": "阳台上的熊存在跌倒或导致结构不稳的风险，这对宠物或行动不便的人可能很危险。",
+      "normal_video_description": "",
+      "solution_for_person": "确保阳台栏杆牢固，并考虑安装额外的安全屏障。",
+      "solution_for_hazard_source": "固定阳台上所有松散的物品，防止被撞倒。",
+      "solution_to_prevent_recurrence": "在阳台上安装安全门或屏障，防止宠物或易受伤害的人员进入。"
+    },
+    "4": {
+      "risk_description": "孩子在阳台上玩耍，若失去平衡可能摔倒，存在受伤的潜在风险。",
+      "normal_video_description": "",
+      "solution_for_person": "确保孩子在阳台上有人监督，不要让其单独留在阳台上。",
+      "solution_for_hazard_source": "在阳台周围安装栏杆或屏障，以防止坠落。",
+      "solution_to_prevent_recurrence": "定期检查阳台的结构，确保其稳固安全。"
+    }
+  }
+}

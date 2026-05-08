@@ -1,0 +1,40 @@
+{
+  "video_key": "toyota_smarthome_mp4/mp4/Getup_p10_r12_v03_c04",
+  "translations": {
+    "0": {
+      "risk_description": "老年人由于在沙发上的姿势以及扶手缺乏支撑，存在跌倒风险。",
+      "normal_video_description": "",
+      "solution_for_person": "护理人员应帮助老年人坐起并提供支撑以防止跌倒。",
+      "solution_for_hazard_source": "可以通过添加扶手或支撑垫使沙发更加稳固。",
+      "solution_to_prevent_recurrence": "护理人员应定期查看老年人，确保他们在坐在沙发上时有适当的支撑。"
+    },
+    "1": {
+      "risk_description": "",
+      "normal_video_description": "一位老年人正躺在客厅的绿色转角沙发上，随后坐起。房间里有植物、摆放物品的茶几以及背景中关闭的门。",
+      "solution_for_person": "",
+      "solution_for_hazard_source": "",
+      "solution_to_prevent_recurrence": ""
+    },
+    "2": {
+      "risk_description": "",
+      "normal_video_description": "一位老年人正躺在客厅的绿色沙发上，随后坐起并调整姿势。场景宁静，展现正常的日常活动，没有任何风险或危险的迹象。",
+      "solution_for_person": "",
+      "solution_for_hazard_source": "",
+      "solution_to_prevent_recurrence": ""
+    },
+    "3": {
+      "risk_description": "老年人躺在沙发上，如果不借助适当的支撑坐起，可能会导致跌倒。",
+      "normal_video_description": "",
+      "solution_for_person": "确保老年人在坐起时使用枕头或背部支撑。",
+      "solution_for_hazard_source": "在沙发上提供额外的支撑或坐垫以防止跌倒。",
+      "solution_to_prevent_recurrence": "在老年人坐起时在其背后放置支撑枕头以保持稳定。"
+    },
+    "4": {
+      "risk_description": "老年人有从沙发跌倒的风险，可能导致严重伤害。跌倒可能造成骨折、头部创伤或其他严重伤害。",
+      "normal_video_description": "",
+      "solution_for_person": "确保老年人在从沙发起身时有适当的支撑，并考虑使用助行器或拐杖以保持稳定。",
+      "solution_for_hazard_source": "",
+      "solution_to_prevent_recurrence": "在沙发上安装扶手或在老年人起身时提供帮助，以降低跌倒风险。"
+    }
+  }
+}

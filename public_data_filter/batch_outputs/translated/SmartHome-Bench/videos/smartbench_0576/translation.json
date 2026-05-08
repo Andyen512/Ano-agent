@@ -1,0 +1,40 @@
+{
+  "video_key": "SmartHome-Bench/videos/smartbench_0576",
+  "translations": {
+    "0": {
+      "risk_description": "这位年轻人手持手机，走进门时显得心不在焉。若不注意周围环境，可能导致跌倒或失衡。",
+      "normal_video_description": "",
+      "solution_for_person": "应提醒该人在走过门口时注意四周，以防跌倒或失衡。",
+      "solution_for_hazard_source": "视频中没有明显的危险源。",
+      "solution_to_prevent_recurrence": "应鼓励该人在穿过门口时更加关注周围环境，以防止再次发生此类事件。"
+    },
+    "1": {
+      "risk_description": "该人握着高压清洗机，若操作不当，尤其是奔跑时，可能导致失控或跌倒。",
+      "normal_video_description": "一个人进入门口，使用高压清洗机，然后尖叫着跑开。",
+      "solution_for_person": "确保正确操作高压清洗机，使用时避免奔跑，以防跌倒。",
+      "solution_for_hazard_source": "",
+      "solution_to_prevent_recurrence": "监督高压清洗机的使用，确保在稳固的地面上使用。"
+    },
+    "2": {
+      "risk_description": "",
+      "normal_video_description": "一位年轻人走上门廊，手里拿着瓶子和手机，随后喝了一口瓶子里的饮料后跑开。场景是日常活动，没有可见的风险或异常。",
+      "solution_for_person": "",
+      "solution_for_hazard_source": "",
+      "solution_to_prevent_recurrence": ""
+    },
+    "3": {
+      "risk_description": "该人站在门廊上，手持瓶子并正在饮用。这可能导致溢洒或失衡，造成碰撞或挤压伤害，尤其是瓶子掉落时。",
+      "normal_video_description": "",
+      "solution_for_person": "确保该人站稳并牢固握住瓶子，防止溢洒或失衡。",
+      "solution_for_hazard_source": "使用防滑握把固定瓶子，或将其安全放置，以防事故。",
+      "solution_to_prevent_recurrence": "该人拿瓶子时要小心，确保处于稳定姿势，以防事故。"
+    },
+    "4": {
+      "risk_description": "该人站在狭窄的壁架上，存在跌倒和可能严重受伤的风险。壁架不稳可能导致突然失衡。",
+      "normal_video_description": "",
+      "solution_for_person": "确保该人站在稳固的表面上，或提供支撑以防跌倒。",
+      "solution_for_hazard_source": "清除壁架上的障碍物或危险物，降低绊倒或滑倒的风险。",
+      "solution_to_prevent_recurrence": "在壁架上安装护栏或防滑表面，以防止事故。"
+    }
+  }
+}

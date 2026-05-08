@@ -1,0 +1,40 @@
+{
+  "video_key": "SmartHome-Bench/videos/smartbench_0117",
+  "translations": {
+    "0": {
+      "risk_description": "",
+      "normal_video_description": "视频显示一个人站在阳台上，手里拿着手机，看向镜头。然后他们转身走回屋内。另一人进入画面并关上门。该视频似乎是两个人在阳台上的正常互动。",
+      "solution_for_person": "",
+      "solution_for_hazard_source": "",
+      "solution_to_prevent_recurrence": ""
+    },
+    "1": {
+      "risk_description": "院子里可以看到火情，存在烧伤或财产损失的风险。",
+      "normal_video_description": "一个人在门廊上与门铃摄像头互动，显示院子里有火情。",
+      "solution_for_person": "该人应立即拨打紧急服务电话报告火情。",
+      "solution_for_hazard_source": "火情应由受过培训的人员扑灭。",
+      "solution_to_prevent_recurrence": "确保正确处理易燃材料，并随时配备消防设备。"
+    },
+    "2": {
+      "risk_description": "",
+      "normal_video_description": "可以看到一个人在前廊上走动并与物品互动。另一人进入场景，他们似乎在门口附近进行对话或互动。背景是一个有草坪和树木的住宅区。",
+      "solution_for_person": "",
+      "solution_for_hazard_source": "",
+      "solution_to_prevent_recurrence": ""
+    },
+    "3": {
+      "risk_description": "该人在门口附近手持尖锐物品，若不慎伤到自己或他人，可能存在风险，尤其是有儿童或宠物在场时。",
+      "normal_video_description": "",
+      "solution_for_person": "确保该人在处理尖锐物品时小心，并考虑将其放在儿童或宠物够不到的地方。",
+      "solution_for_hazard_source": "不使用时应安全妥善存放尖锐物品。",
+      "solution_to_prevent_recurrence": "制定处理尖锐物品的安全规程，包括监督和安全存放。"
+    },
+    "4": {
+      "risk_description": "该人站在阳台上，似乎不稳定，可能导致跌倒，可能造成严重伤害。",
+      "normal_video_description": "",
+      "solution_for_person": "在执行需要平衡或协调的任何活动之前，确保该人处于稳定状态。",
+      "solution_for_hazard_source": "",
+      "solution_to_prevent_recurrence": "向该人提供支撑或帮助，以确保其在阳台上的稳定性。"
+    }
+  }
+}

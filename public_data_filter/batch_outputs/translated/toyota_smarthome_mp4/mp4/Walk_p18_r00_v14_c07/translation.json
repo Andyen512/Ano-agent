@@ -1,0 +1,40 @@
+{
+  "video_key": "toyota_smarthome_mp4/mp4/Walk_p18_r00_v14_c07",
+  "translations": {
+    "0": {
+      "risk_description": "",
+      "normal_video_description": "视频显示一位中年人在厨房里与厨房台面互动。该行为看起来正常，属于厨房日常活动范围。",
+      "solution_for_person": "",
+      "solution_for_hazard_source": "",
+      "solution_to_prevent_recurrence": ""
+    },
+    "1": {
+      "risk_description": "感应灶具处于工作状态且温度高，若触碰或衣物接触会有烫伤风险。",
+      "normal_video_description": "一个人进入厨房并靠近正在工作的感应灶具。",
+      "solution_for_person": "在靠近前请确保灶具已关闭并冷却。",
+      "solution_for_hazard_source": "安装视觉指示灯（例如灯光）以显示灶具是否发热。",
+      "solution_to_prevent_recurrence": "进入厨房前务必检查灶具状态。"
+    },
+    "2": {
+      "risk_description": "",
+      "normal_video_description": "一名穿格子衬衫的年轻人在现代厨房中穿行，从背景走向靠近带感应灶具的台面前方。此人似乎在进行常规家务活动，未出现不稳、危险或异常行为的迹象。",
+      "solution_for_person": "",
+      "solution_for_hazard_source": "",
+      "solution_to_prevent_recurrence": ""
+    },
+    "3": {
+      "risk_description": "有人在炉灶附近弯腰，若失去平衡可能造成跌倒风险，对行动不便者尤甚。",
+      "normal_video_description": "",
+      "solution_for_person": "确保弯腰时保持稳定姿势，并考虑使用脚踏凳以获得更好伸展。",
+      "solution_for_hazard_source": "保持厨房地面畅通无阻，以降低绊倒或跌倒的风险。",
+      "solution_to_prevent_recurrence": "在炉灶区域附近安装防滑垫，并确保适当照明以提高能见度。"
+    },
+    "4": {
+      "risk_description": "有人站在梯子上，存在跌倒并可能受伤的风险。此行为可能导致严重伤害，尤其对老年人。",
+      "normal_video_description": "",
+      "solution_for_person": "在攀爬前确保梯子稳固安全；若梯子不稳，可考虑使用脚踏凳或其他更安全的替代品。",
+      "solution_for_hazard_source": "",
+      "solution_to_prevent_recurrence": "务必使用稳固的梯子并确保其摆放正确；考虑使用不涉及梯子的其他方法来够到高处。"
+    }
+  }
+}

@@ -1,0 +1,40 @@
+{
+  "video_key": "toyota_smarthome_mp4/mp4/Sitdown_p04_r05_v03_c04",
+  "translations": {
+    "0": {
+      "risk_description": "老年人正试图坐在沙发上，若失去平衡可能导致摔倒或不稳定。",
+      "normal_video_description": "老年人正坐在客厅的沙发上，周围有植物和咖啡桌。他们看起来在放松，享受在房间里的时光。",
+      "solution_for_person": "护理人员应帮助老年人安全坐下，并确保他们有适当的支撑，例如扶手或助行器。",
+      "solution_for_hazard_source": "护理人员应确保客厅没有绊倒危险，如电线或杂物，且地面不滑。",
+      "solution_to_prevent_recurrence": "护理人员应定期检查老年人的平衡和活动能力，并根据需要提供支持，以防止摔倒。"
+    },
+    "1": {
+      "risk_description": "",
+      "normal_video_description": "可以看到一位老年人站在咖啡桌旁，然后坐在客厅的绿色分段沙发上。",
+      "solution_for_person": "",
+      "solution_for_hazard_source": "",
+      "solution_to_prevent_recurrence": ""
+    },
+    "2": {
+      "risk_description": "",
+      "normal_video_description": "可以看到一位老年人坐在客厅的绿色沙发上。该人从站立姿势移动到坐在沙发上，这是正常的日常活动。场景中没有明显的危险或危险行为。",
+      "solution_for_person": "",
+      "solution_for_hazard_source": "",
+      "solution_to_prevent_recurrence": ""
+    },
+    "3": {
+      "risk_description": "老年人正弯腰在咖啡桌上，这可能因潜在的不稳定性或失去平衡而导致摔倒。",
+      "normal_video_description": "",
+      "solution_for_person": "确保老年人缓慢而小心地坐下，以避免突然的动作。",
+      "solution_for_hazard_source": "清理咖啡桌周围的区域，以提供更多空间和稳定性。",
+      "solution_to_prevent_recurrence": "在座位附近放置防滑垫，以降低滑倒风险。"
+    },
+    "4": {
+      "risk_description": "老年人有从沙发上跌落的风险，可能导致严重伤害。沙发的高度以及该人在其上的位置增加了跌倒的可能性。",
+      "normal_video_description": "视频显示一位老年人坐在客厅的绿色沙发上，没有明显的风险或危险。",
+      "solution_for_person": "确保老年人在移动或围绕沙发时有适当的支撑或帮助，以防止摔倒。",
+      "solution_for_hazard_source": "",
+      "solution_to_prevent_recurrence": "在沙发附近安装扶手或抓杆，为老年人提供额外的支撑。"
+    }
+  }
+}

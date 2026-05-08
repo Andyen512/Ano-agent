@@ -1,0 +1,40 @@
+{
+  "video_key": "toyota_smarthome_mp4/mp4/Walk_p07_r15_v06_c05",
+  "translations": {
+    "0": {
+      "risk_description": "视频中的人正在湿滑的地面上行走，可能导致跌倒并造成潜在伤害。",
+      "normal_video_description": "",
+      "solution_for_person": "应建议此人走路时更小心，并在有扶手的情况下使用扶手。",
+      "solution_for_hazard_source": "地面应清洁并擦干，以去除水分或其他易滑物质。",
+      "solution_to_prevent_recurrence": "应提醒此人在以后在湿滑地面上行走时要更加小心。"
+    },
+    "1": {
+      "risk_description": "这个人正走在沙发的靠背上，这是不稳定的表面，有跌倒和受伤的风险。",
+      "normal_video_description": "一个人进入客厅，走向沙发，然后踩上沙发的靠背。",
+      "solution_for_person": "避免在不适宜的家具上站立或行走，以防止跌倒。",
+      "solution_for_hazard_source": "确保家具只用于其预定用途，以降低风险。",
+      "solution_to_prevent_recurrence": "提醒此人将家具当作踏板或平衡点使用的危险性。"
+    },
+    "2": {
+      "risk_description": "",
+      "normal_video_description": "一个年轻成年人穿过客厅，经过一只白色扶手椅和一张绿色分段沙发，此人从房间左侧向中心移动，靠近挂在墙上的电视和一张低矮的茶几，环境显得平静有序，没有痛苦或危险活动的迹象。",
+      "solution_for_person": "",
+      "solution_for_hazard_source": "",
+      "solution_to_prevent_recurrence": ""
+    },
+    "3": {
+      "risk_description": "此人正在家具的窄平台上行走，可能导致跌倒，尤其对于平衡或行动能力较弱的老年人更是如此。",
+      "normal_video_description": "",
+      "solution_for_person": "此人应避免在窄平台上行走，并确保脚步稳固以防止跌倒。",
+      "solution_for_hazard_source": "家具设计应加以改进，尽可能消除窄平台。",
+      "solution_to_prevent_recurrence": "在类似的家具布局上安装安全栏杆或防护栏，以防止意外跌倒。"
+    },
+    "4": {
+      "risk_description": "老年人行走不稳，似乎有跌倒的风险，可能导致严重伤害，且在整个视频中此人走动时风险始终存在。",
+      "normal_video_description": "",
+      "solution_for_person": "确保此人在客厅走动时有适当的支撑或帮助，以防止跌倒。",
+      "solution_for_hazard_source": "",
+      "solution_to_prevent_recurrence": "为此人提供行走辅助工具，如拐杖或助行器，以改善在客厅走动时的稳定性。"
+    }
+  }
+}

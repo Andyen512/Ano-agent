@@ -1,0 +1,40 @@
+{
+  "video_key": "toyota_smarthome_mp4/mp4/Laydown_p12_r01_v03_c04",
+  "translations": {
+    "0": {
+      "risk_description": "老年人由于一条腿悬在沙发边缘，手臂未提供足够的支撑，面临从沙发上摔下的风险。",
+      "normal_video_description": "",
+      "solution_for_person": "确保老年人有适当的支撑，例如抓住扶手或在需要起身时有他人在旁协助。",
+      "solution_for_hazard_source": "未发现特定危险源，但应确保沙发稳固，所在区域无绊倒隐患。",
+      "solution_to_prevent_recurrence": "定期检查老年人以确保安全，必要时提供帮助。鼓励他们在从沙发上起身时使用扶手支撑。"
+    },
+    "1": {
+      "risk_description": "老年人以不舒适的姿势躺在沙发上，一条腿伸过边缘，增加了从沙发摔下并受伤的风险。",
+      "normal_video_description": "一位老年人正躺在客厅的绿色沙发上，多次调整姿势。",
+      "solution_for_person": "确保老年人在沙发上安全坐好，双脚落地并用枕头支撑。",
+      "solution_for_hazard_source": "",
+      "solution_to_prevent_recurrence": "在沙发边缘放置防滑垫或软垫，以防滑倒。"
+    },
+    "2": {
+      "risk_description": "",
+      "normal_video_description": "可以看到一位老年人正躺在客厅的绿色分段沙发上，休息时不断换位并调整姿势。环境安静，没有明显危险或危险活动。",
+      "solution_for_person": "",
+      "solution_for_hazard_source": "",
+      "solution_to_prevent_recurrence": ""
+    },
+    "3": {
+      "risk_description": "老年人以放松的姿势躺在沙发上，如果他们移动或失去平衡可能导致跌倒。",
+      "normal_video_description": "",
+      "solution_for_person": "确保老年人在打盹时坐直或有支撑，以防止跌倒。",
+      "solution_for_hazard_source": "提供额外的支撑或软垫，以稳定老年人在沙发上的坐姿。",
+      "solution_to_prevent_recurrence": "使用有支撑性的椅子或床进行休息，以降低跌倒风险。"
+    },
+    "4": {
+      "risk_description": "该人正以放松的姿势躺在沙发上，如果突然坐起或移动而没有适当支撑，可能会导致跌倒，进而造成轻微伤害，如瘀伤或扭伤。",
+      "normal_video_description": "",
+      "solution_for_person": "确保该人在坐起或从沙发上移动时有适当的支撑，以防止跌倒。",
+      "solution_for_hazard_source": "",
+      "solution_to_prevent_recurrence": "鼓励该人在坐起或从沙发上移动时使用适当的支撑，以防止跌倒。"
+    }
+  }
+}

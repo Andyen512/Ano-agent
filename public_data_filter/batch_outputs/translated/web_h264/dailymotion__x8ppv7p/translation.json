@@ -1,0 +1,40 @@
+{
+  "video_key": "web_h264/dailymotion__x8ppv7p",
+  "translations": {
+    "0": {
+      "risk_description": "",
+      "normal_video_description": "视频显示一个人在房子外搭梯子，另一个人协助。他们似乎在院子里做些什么。场景正常，没有显示任何风险迹象。",
+      "solution_for_person": "",
+      "solution_for_hazard_source": "",
+      "solution_to_prevent_recurrence": ""
+    },
+    "1": {
+      "risk_description": "",
+      "normal_video_description": "两名年轻成年男子在住宅院子里搬动梯子，将其靠在门廊栏杆上。",
+      "solution_for_person": "",
+      "solution_for_hazard_source": "",
+      "solution_to_prevent_recurrence": ""
+    },
+    "2": {
+      "risk_description": "两名男子在住宅院子里搬运一把长梯子。其中一人在搬运时失去平衡，导致梯子倾斜得很危险，几乎碰到摄像机或周围的建筑物。这表明明显的失衡风险和可能的碰撞伤害。",
+      "normal_video_description": "",
+      "solution_for_person": "搬运梯子的人应保持稳固的握持，确保梯子平衡后再移动。他们还应留意周围环境，避免突然的动作。",
+      "solution_for_hazard_source": "梯子应小心搬运，确保其长度适合空间，并在搬运过程中得到适当支撑。",
+      "solution_to_prevent_recurrence": "提供安全梯子搬运的培训，确保环境没有可能导致绊倒或失衡的障碍物。"
+    },
+    "3": {
+      "risk_description": "这些人正在阳台上搬运梯子，可能会造成跌倒或失衡的风险，特别是在有儿童在场且无法快速躲开的情况下。",
+      "normal_video_description": "",
+      "solution_for_person": "确保儿童远离搬运重物的区域，保持安全距离。",
+      "solution_for_hazard_source": "在搬运前正确固定梯子，确保其稳固。",
+      "solution_to_prevent_recurrence": "在进行搬运或移动重物的活动时，始终密切监督儿童。"
+    },
+    "4": {
+      "risk_description": "此人正在爬一把不稳固的梯子，可能导致跌倒并造成伤害。",
+      "normal_video_description": "",
+      "solution_for_person": "确保梯子稳固可靠后再爬上去。",
+      "solution_for_hazard_source": "清除梯子周围的所有障碍物或危险品。",
+      "solution_to_prevent_recurrence": "定期检查和维护梯子，确保其状况良好且使用安全。"
+    }
+  }
+}

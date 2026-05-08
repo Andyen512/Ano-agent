@@ -1,0 +1,40 @@
+{
+  "video_key": "SmartHome-Bench/videos/smartbench_0777",
+  "translations": {
+    "0": {
+      "risk_description": "",
+      "normal_video_description": "一个穿着迷彩夹克和深色裤子的人走向一栋房子，走到前门并敲门。然后退后等待。",
+      "solution_for_person": "",
+      "solution_for_hazard_source": "",
+      "solution_to_prevent_recurrence": ""
+    },
+    "1": {
+      "risk_description": "此人试图站在门附近开门，这可能导致与门意外接触，从而可能造成碰撞或挤压伤害。",
+      "normal_video_description": "一个穿迷彩夹克的人走向一扇门，进行操作后离开。",
+      "solution_for_person": "在尝试开门时与门保持安全距离，以避免意外接触。",
+      "solution_for_hazard_source": "确保门完全打开后再靠近，以最大程度降低碰撞风险。",
+      "solution_to_prevent_recurrence": "在门附近安装动作感应警示灯或声音装置，在人员距离过近时发出警报。"
+    },
+    "2": {
+      "risk_description": "",
+      "normal_video_description": "一个穿迷彩夹克的人穿过草坪，打开木门，进入房屋。动作短暂，看起来是正常的日常活动，没有任何危险或不稳定的迹象。",
+      "solution_for_person": "",
+      "solution_for_hazard_source": "",
+      "solution_to_prevent_recurrence": ""
+    },
+    "3": {
+      "risk_description": "这位老年人携带一个大物件在房屋附近的草地上行走，这可能增加绊倒或跌倒的风险。",
+      "normal_video_description": "",
+      "solution_for_person": "此人应确保在稳定的地面上行走，必要时考虑使用行走辅助工具。",
+      "solution_for_hazard_source": "门附近区域应有清晰、稳定的通道以防止绊倒。",
+      "solution_to_prevent_recurrence": "清理入口附近通道，确保无障碍物以降低跌倒风险。"
+    },
+    "4": {
+      "risk_description": "视频中的人是一位老年人，他试图穿着一件厚重的外套开门，如果失去平衡可能会导致跌倒或不稳定。",
+      "normal_video_description": "视频显示一个人在穿着一件厚重外套时试图开门，如果失去平衡可能会导致跌倒或不稳定。",
+      "solution_for_person": "确保此人穿着具有良好抓地力的合适鞋履，并考虑脱掉可能妨碍行动的宽松衣物。",
+      "solution_for_hazard_source": "",
+      "solution_to_prevent_recurrence": "鼓励此人在开门或执行需要体力的任务时寻求他人帮助。"
+    }
+  }
+}

@@ -1,0 +1,40 @@
+{
+  "video_key": "web_h264/bilibili__BV1BW4y117nZ",
+  "translations": {
+    "0": {
+      "risk_description": "穿橙色衬衫的孩子正在沙发上攀爬，沙发不稳定，有跌倒的风险。",
+      "normal_video_description": "全家人正在客厅一起玩耍，穿橙色衬衫的孩子在沙发上攀爬。",
+      "solution_for_person": "看护者应该帮助孩子安全地从沙发上下来。",
+      "solution_for_hazard_source": "沙发应该重新放置到更稳定的位置，或者安装安全护栏以防止孩子攀爬。",
+      "solution_to_prevent_recurrence": "看护者应该密切关注孩子的动向，确保孩子不要攀爬不稳定的家具。"
+    },
+    "1": {
+      "risk_description": "孩子从沙发上摔下来，导致呼吸暂停，随后出现医疗紧急情况，表明有跌倒受伤的风险。",
+      "normal_video_description": "视频显示一家人在客厅里，孩子从沙发上摔下来，随后成年人照顾孩子并讨论此事。",
+      "solution_for_person": "当孩子在高处家具上时，确保有成人监督以防止跌倒。",
+      "solution_for_hazard_source": "移除或固定沙发周围可能造成绊倒或不稳定的物品。",
+      "solution_to_prevent_recurrence": "在沙发背面安装安全护栏，并教育孩子攀爬家具的危险性。"
+    },
+    "2": {
+      "risk_description": "一个小孩从沙发上摔到地板上，这是一个明显的物理危险。摔倒突然发生，导致孩子晕倒，这是一起严重的安全事故而非轻微的滑倒。",
+      "normal_video_description": "",
+      "solution_for_person": "看护者应该立即检查孩子的状况，必要时呼叫医疗救助，并确保不让孩子独处。",
+      "solution_for_hazard_source": "沙发应该加垫或有柔软表面以缓冲跌倒，当孩子在高处附近时应该密切监督。",
+      "solution_to_prevent_recurrence": "安装安全护栏或为幼儿使用更低、更稳定的座位区域以防止未来跌倒。"
+    },
+    "3": {
+      "risk_description": "孩子从沙发上摔下来并出现短暂意识丧失，表明有跌倒相关受伤的潜在风险。",
+      "normal_video_description": "",
+      "solution_for_person": "当孩子靠近沙发等高处表面时，确保密切监督。",
+      "solution_for_hazard_source": "移除或固定沙发上可能导致不平衡的物品。",
+      "solution_to_prevent_recurrence": "在沙发周围安装安全垫或护栏以防止未来跌倒。"
+    },
+    "4": {
+      "risk_description": "",
+      "normal_video_description": "视频显示一个孩子和一个成年人在客厅环境中，孩子在桌子附近玩耍。没有明显的风险或危险活动在进行。",
+      "solution_for_person": "",
+      "solution_for_hazard_source": "",
+      "solution_to_prevent_recurrence": ""
+    }
+  }
+}

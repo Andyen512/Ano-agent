@@ -1,0 +1,40 @@
+{
+  "video_key": "web_h264/bilibili__BV1Ev4y1472Y",
+  "translations": {
+    "0": {
+      "risk_description": "孩子正在攀爬高脚椅，看起来不稳定，可能会导致摔倒。",
+      "normal_video_description": "",
+      "solution_for_person": "看护者应确保孩子安全就座并提供支撑以防止摔倒。",
+      "solution_for_hazard_source": "高脚椅应放置在远离潜在危险的地方，如尖锐物品或高温表面。",
+      "solution_to_prevent_recurrence": "看护者应密切监视孩子，并在孩子使用高脚椅或其他高处表面时提供额外支撑。"
+    },
+    "1": {
+      "risk_description": "孩子正在攀爬椅子然后爬上高脚椅，由于不稳定和缺乏适当监督而有摔倒风险。",
+      "normal_video_description": "在客厅场景中可以看到孩子正在攀爬椅子然后爬上高脚椅。",
+      "solution_for_person": "确保有成人持续监督，并在孩子试图进行危险攀爬行为时立即干预。",
+      "solution_for_hazard_source": "移除或固定不稳的家具，防止幼儿攀爬。",
+      "solution_to_prevent_recurrence": "安装安全门以限制进入某些区域，并使用儿童防护措施固定家具。"
+    },
+    "2": {
+      "risk_description": "一名幼儿在无人看管的情况下试图借助旁边的椅子攀爬上高脚椅。孩子在攀爬过程中多次失去平衡，存在从高处座椅坠落的高风险。",
+      "normal_video_description": "",
+      "solution_for_person": "成人应立即干预，防止孩子攀爬，并确保孩子安全就座或受到监督。",
+      "solution_for_hazard_source": "高脚椅不使用时应固定或放置在孩子无法触及的位置。",
+      "solution_to_prevent_recurrence": "安装安全门或屏障以限制孩子进入有高脚椅的区域。"
+    },
+    "3": {
+      "risk_description": "孩子正在攀爬并坐在高脚椅上，如果失去平衡则有摔倒风险。",
+      "normal_video_description": "",
+      "solution_for_person": "确保密切监督孩子，并考虑使用儿童防护装置固定高脚椅。",
+      "solution_for_hazard_source": "使用专为幼儿设计的稳固安全的高脚椅。",
+      "solution_to_prevent_recurrence": "安装安全门或屏障，防止孩子无人监督进入用餐区域。"
+    },
+    "4": {
+      "risk_description": "由于椅子座面上的高脚椅位置不稳定，孩子有从高脚椅摔落的风险。这可能导致严重伤害。",
+      "normal_video_description": "",
+      "solution_for_person": "确保孩子安全就座，并考虑使用安全带或护栏防止从高脚椅坠落。",
+      "solution_for_hazard_source": "",
+      "solution_to_prevent_recurrence": "定期检查和维护高脚椅，确保其稳固安全。"
+    }
+  }
+}

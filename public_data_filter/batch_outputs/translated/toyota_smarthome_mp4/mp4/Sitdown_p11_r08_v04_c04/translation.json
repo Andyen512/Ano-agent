@@ -1,0 +1,40 @@
+{
+  "video_key": "toyota_smarthome_mp4/mp4/Sitdown_p11_r08_v04_c04",
+  "translations": {
+    "0": {
+      "risk_description": "老人弯腰伸手去拿地上的东西，如果失去平衡可能会导致跌倒。咖啡桌和房间里的其他家具也可能造成碰撞或压伤风险。",
+      "normal_video_description": "老人坐在客厅的沙发上，看电视并享用咖啡。随后他们起身伸手去拿地上的东西并弯腰。",
+      "solution_for_person": "护理人员应协助老人起身并提供支撑以防止跌倒。也可以考虑使用助行器或拐杖来帮助平衡和稳定。",
+      "solution_for_hazard_source": "护理人员应清理地面的杂物或绊倒危险，确保咖啡桌和其他家具稳固安全。",
+      "solution_to_prevent_recurrence": "护理人员应定期检查老人的平衡能力和活动情况，提供锻炼或物理治疗以提高稳定性。还要确保客厅光线充足，识别并消除任何潜在危险。"
+    },
+    "1": {
+      "risk_description": "",
+      "normal_video_description": "一位老人坐在客厅的绿色组合沙发上，调整姿势后坐直。房间里摆放着植物、摆放着各种物品的咖啡桌以及放有书籍的边桌。",
+      "solution_for_person": "",
+      "solution_for_hazard_source": "",
+      "solution_to_prevent_recurrence": ""
+    },
+    "2": {
+      "risk_description": "",
+      "normal_video_description": "一位老人正坐在客厅的绿色组合沙发上。老人稍微前倾坐下，然后坐稳。环境安静，没有明显的危险或危险活动。",
+      "solution_for_person": "",
+      "solution_for_hazard_source": "",
+      "solution_to_prevent_recurrence": ""
+    },
+    "3": {
+      "risk_description": "老人弯腰在沙发上，可能因体力不足或活动受限而导致跌倒或不稳定。",
+      "normal_video_description": "",
+      "solution_for_person": "确保老人缓慢而小心地坐下，避免突然的动作。",
+      "solution_for_hazard_source": "在附近提供额外的支撑或椅子，以帮助老人坐下。",
+      "solution_to_prevent_recurrence": "在老人坐下时使用稳固的支撑面或支撑物。"
+    },
+    "4": {
+      "risk_description": "老人有从沙发上跌落的风险，可能会因年龄和潜在的活动能力不足而导致严重伤害。",
+      "normal_video_description": "一位老人正坐在客厅的绿色沙发上，准备起身。",
+      "solution_for_person": "确保老人在沙发周围活动时有适当的支撑或帮助，以防止跌倒。",
+      "solution_for_hazard_source": "",
+      "solution_to_prevent_recurrence": "在沙发上安装扶手或在沙发下方提供防滑表面，以降低滑倒风险。"
+    }
+  }
+}

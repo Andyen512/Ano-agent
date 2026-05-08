@@ -1,0 +1,40 @@
+{
+  "video_key": "labimag/dataset/chute10/cam3",
+  "translations": {
+    "0": {
+      "risk_description": "这个年轻人正在房间里走动，看起来脚步不稳。然后他们被一把椅子绊倒，摔倒在地板上。",
+      "normal_video_description": "",
+      "solution_for_person": "这个人应该由护理人员协助，以确保他们稳定和安全。",
+      "solution_for_hazard_source": "椅子应该被移到一个更安全的位置，以防止将来摔倒。",
+      "solution_to_prevent_recurrence": "当这个人在房间里走动时，应该被监测和协助，以防止将来摔倒。"
+    },
+    "1": {
+      "risk_description": "",
+      "normal_video_description": "一个穿绿色衬衫的人走进一个放有各种设备和工具的房间。另一个穿红色衬衫的人进来，坐在铺有软垫的垫子旁边的一把椅子上，看起来正在垫子上做些什么。第三个人穿着米色衬衫站在附近观察。",
+      "solution_for_person": "",
+      "solution_for_hazard_source": "",
+      "solution_to_prevent_recurrence": ""
+    },
+    "2": {
+      "risk_description": "",
+      "normal_video_description": "视频显示几个成年人在一个看起来像是实验室或书房的房间里走动。床垫放在房间中央的地板上，人们在房间里走动并与物体互动。视频中没有明显的风险或危险行为。",
+      "solution_for_person": "",
+      "solution_for_hazard_source": "",
+      "solution_to_prevent_recurrence": ""
+    },
+    "3": {
+      "risk_description": "看到穿红色衬衫的人正在爬上床垫，如果失去平衡可能会摔倒。这会造成伤害风险，特别是如果床垫不稳定或者这个人行动受限时。",
+      "normal_video_description": "",
+      "solution_for_person": "确保床垫稳定，必要时在爬上床垫时提供支撑。",
+      "solution_for_hazard_source": "固定床垫以防止倾斜或不稳定。",
+      "solution_to_prevent_recurrence": "使用稳定的表面攀爬，确保适当的监督以防止摔倒。"
+    },
+    "4": {
+      "risk_description": "穿红色衬衫的人正在跑着跳到床垫上，如果失去平衡可能会摔倒。由于可能的硬着陆或与周围家具碰撞，这个动作会造成伤害风险。",
+      "normal_video_description": "视频显示了一个办公室环境，有各种家具和设备。一个穿红色衬衫的人跑着跳到放在地板上的床垫上，这可能是潜在危险的。",
+      "solution_for_person": "在尝试此类活动之前，确保该区域没有任何障碍物，以最大程度降低受伤风险。",
+      "solution_for_hazard_source": "",
+      "solution_to_prevent_recurrence": "提供安全身体活动的培训，并确保空间适合此类活动。"
+    }
+  }
+}

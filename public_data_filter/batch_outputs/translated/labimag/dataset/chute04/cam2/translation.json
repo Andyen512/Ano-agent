@@ -1,0 +1,40 @@
+{
+  "video_key": "labimag/dataset/chute04/cam2",
+  "translations": {
+    "0": {
+      "risk_description": "年轻人正在进行高冲击性运动，如果不正确进行可能导致跌倒和受伤。该运动正在学习场所进行，可能没有适合此类活动的地板或设备。",
+      "normal_video_description": "年轻人正在学习场所进行高冲击性运动，这并不是适合此类活动的场所。",
+      "solution_for_person": "应建议年轻人在更合适的场所进行此类运动，例如健身房或设有合适地板和设备的指定运动区域。",
+      "solution_for_hazard_source": "学习场所不应被用于高冲击性运动。它应仅用于学习和与工作相关的活动。",
+      "solution_to_prevent_recurrence": "应教育年轻人正确使用健身器材，并强调在合适的场所进行运动以防止跌倒和受伤的重要性。"
+    },
+    "1": {
+      "risk_description": "该人正躺在工作场所的一个大型、可能不稳定的气垫上翻滚，可能导致跌倒或与附近设备或家具碰撞。",
+      "normal_video_description": "一个人进入工作场所，躺在一个大气垫上翻滚，然后离开该区域。",
+      "solution_for_person": "确保气垫牢固固定以防止移动，并清除周边可能的绊倒危险。",
+      "solution_for_hazard_source": "将气垫固定在地板上，并清除其周围的任何松散物品。",
+      "solution_to_prevent_recurrence": "进行安全简报，讲解不稳定表面的风险以及保持工作空间清洁的重要性。"
+    },
+    "2": {
+      "risk_description": "一个人冲进房间，试图跳上放在地板上的床垫，但失去平衡，重重摔在硬地面上。这种行为明显超出正常活动，并因跌倒而导致直接的人身伤害风险。",
+      "normal_video_description": "",
+      "solution_for_person": "该人应立即起身检查受伤情况，若疼痛或不适持续应及时就医。",
+      "solution_for_hazard_source": "将床垫从地板上移走，或确保其放在柔软表面上以缓冲可能的跌倒。",
+      "solution_to_prevent_recurrence": "安装安全措施，例如在地板上铺设垫子或使用合适的床架，以防止类似事件再次发生。"
+    },
+    "3": {
+      "risk_description": "年轻人滚到床垫上后掉落，这对行动不便或平衡有问题的人可能会有风险。",
+      "normal_video_description": "",
+      "solution_for_person": "确保床垫放置稳固，避免可能导致跌倒的突然动作。",
+      "solution_for_hazard_source": "将床垫固定以防止其移动或倾斜。",
+      "solution_to_prevent_recurrence": "使用防滑垫或绑带固定床垫，提供更安全的环境。"
+    },
+    "4": {
+      "risk_description": "该人在地板上的床垫上进行体力活动，如果不仔细可能导致跌倒和受伤。",
+      "normal_video_description": "",
+      "solution_for_person": "确保对进行该活动的人提供适当的监督和指导，以防止跌倒和受伤。",
+      "solution_for_hazard_source": "",
+      "solution_to_prevent_recurrence": "为所进行的活动提供适当的培训和装备，以最大程度降低跌倒和受伤的风险。"
+    }
+  }
+}

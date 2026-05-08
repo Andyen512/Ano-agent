@@ -1,0 +1,40 @@
+{
+  "video_key": "SmartHome-Bench/videos/smartbench_0696",
+  "translations": {
+    "0": {
+      "risk_description": "看到这名年轻人跳入泳池，这不是进入水中的安全方式。这种行为存在跌倒和可能受伤的风险。",
+      "normal_video_description": "",
+      "solution_for_person": "应该提醒这个人使用梯子或台阶安全进入泳池。",
+      "solution_for_hazard_source": "",
+      "solution_to_prevent_recurrence": "应该教育这个人正确进入泳池的方法，以防止未来的事故。"
+    },
+    "1": {
+      "risk_description": "这个人正试图站在泳池边缘打捞物品，这增加了滑倒或失去平衡落水的风险。",
+      "normal_video_description": "看到一个年轻人在夜间靠近泳池，站在泳池边缘试图从水中打捞东西。",
+      "solution_for_person": "这个人应该避免站在泳池边缘伸手去够物品，以防止滑倒或跌落。",
+      "solution_for_hazard_source": "",
+      "solution_to_prevent_recurrence": "在泳池边缘安装防滑垫或纹理表面以降低滑倒风险。"
+    },
+    "2": {
+      "risk_description": "一个人在夜间试图进入泳池时失去平衡跌入水中，表明存在明显的不稳定和跌倒风险。",
+      "normal_video_description": "",
+      "solution_for_person": "这个人进入泳池时应格外小心，特别是在夜间，并确保踩稳。",
+      "solution_for_hazard_source": "改善泳池周围的照明，并考虑安装防滑表面或扶手以防止跌倒。",
+      "solution_to_prevent_recurrence": "安装更好的照明和安全措施在泳池周围，以降低夜间跌倒的风险。"
+    },
+    "3": {
+      "risk_description": "这个人正试图使用梯子攀爬进入泳池，梯子可能不稳定或湿滑，存在跌倒或滑倒的风险，特别是在光线不足的情况下。",
+      "normal_video_description": "",
+      "solution_for_person": "攀爬前确保梯子牢固稳定，并使用正确的踩踏方式以避免滑倒。",
+      "solution_for_hazard_source": "在泳池区域安装适当的照明以提高能见度，并在梯子和泳池台阶上添加防滑表面。",
+      "solution_to_prevent_recurrence": "定期检查泳池梯子的稳定性，并确保该区域有充足的照明以防止未来发生事故。"
+    },
+    "4": {
+      "risk_description": "",
+      "normal_video_description": "视频显示一个人在夜间身处泳池中，在蓝色灯光照明下。该人似乎在进行休闲活动，可能是游泳或漂浮。视频中未观察到明显的风险或危险行为。",
+      "solution_for_person": "",
+      "solution_for_hazard_source": "",
+      "solution_to_prevent_recurrence": ""
+    }
+  }
+}

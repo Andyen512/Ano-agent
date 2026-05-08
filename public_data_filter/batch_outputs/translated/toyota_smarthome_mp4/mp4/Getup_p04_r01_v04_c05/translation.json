@@ -1,0 +1,40 @@
+{
+  "video_key": "toyota_smarthome_mp4/mp4/Getup_p04_r01_v04_c05",
+  "translations": {
+    "0": {
+      "risk_description": "这位老年人正在从沙发上站起来，这可能会增加跌倒的风险，尤其是如果他们有行动不便或平衡问题的话。",
+      "normal_video_description": "这位老年人坐在客厅的沙发上看电视。然后他们从沙发上站起来，走向厨房。",
+      "solution_for_person": "确保老年人在从沙发上站起来时有适当的支撑和帮助，例如使用助行器或有人在旁边帮忙。",
+      "solution_for_hazard_source": "确保客厅没有绊倒危险，如电线或杂物，并且地板不滑。",
+      "solution_to_prevent_recurrence": "鼓励老年人在需要时定期休息，并必要时使用辅助设备如拐杖或助行器。"
+    },
+    "1": {
+      "risk_description": "",
+      "normal_video_description": "一位老年人坐在客厅的绿色沙发上，然后站起来向房间后面移动。房间光线充足，可以看见电视、植物和家具。",
+      "solution_for_person": "",
+      "solution_for_hazard_source": "",
+      "solution_to_prevent_recurrence": ""
+    },
+    "2": {
+      "risk_description": "",
+      "normal_video_description": "看到一位老年人坐在客厅的绿色沙发上看电视。然后这个人从沙发上站起来，走向房间的中心。环境看起来平静安全，没有可见的危险或危险活动。",
+      "solution_for_person": "",
+      "solution_for_hazard_source": "",
+      "solution_to_prevent_recurrence": ""
+    },
+    "3": {
+      "risk_description": "这位老年人站在沙发上，由于家具不稳定，存在跌倒风险。",
+      "normal_video_description": "",
+      "solution_for_person": "老年人应该避免站在沙发上，而应该使用稳定的表面站立或坐下。",
+      "solution_for_hazard_source": "确保沙发等家具的使用方式能够防止跌倒，避免站在或坐在边缘上。",
+      "solution_to_prevent_recurrence": "在沙发边缘使用防滑垫或垫子，以提供稳定性并防止跌倒。"
+    },
+    "4": {
+      "risk_description": "老年人由于在沙发上的不稳定姿势，存在跌倒风险，可能导致严重伤害。",
+      "normal_video_description": "",
+      "solution_for_person": "确保老年人在沙发上正确安全地坐着，以防止跌倒。",
+      "solution_for_hazard_source": "清除沙发周围任何潜在的绊倒危险。",
+      "solution_to_prevent_recurrence": "在沙发附近安装扶手或抓杆，以提供支撑和稳定性。"
+    }
+  }
+}

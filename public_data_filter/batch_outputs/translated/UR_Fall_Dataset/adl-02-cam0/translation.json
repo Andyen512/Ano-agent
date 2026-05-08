@@ -1,0 +1,40 @@
+{
+  "video_key": "UR_Fall_Dataset/adl-02-cam0",
+  "translations": {
+    "0": {
+      "risk_description": "可以看到这位年轻人走向床边，然后突然摔倒在地。这种行为在客厅里对年轻人来说并不典型，可能表明存在不稳或健康问题的风险。",
+      "normal_video_description": "视频显示一位年轻人走进客厅，然后突然摔倒在地。视频的其余部分显示该年轻人从地板上站起来并",
+      "solution_for_person": "应检查此人是否有受伤，并在需要时帮助其从地板上站起。如有必要，应将其送往医务人员进行评估。",
+      "solution_for_hazard_source": "应找出跌倒的原因并加以处理。这可能包括清除绊倒危险、改善照明或治疗可能导致跌倒的疾病。",
+      "solution_to_prevent_recurrence": "为防止今后跌倒，应鼓励此人慢慢、仔细地移动，尤其在不熟悉或杂乱的地方。如果感到不稳或需要帮助完成任何任务，也应鼓励其主动请求帮助。"
+    },
+    "1": {
+      "risk_description": "此人正蹲在地毯上，这可能会增加滑倒或失去平衡的风险，可能导致跌倒。",
+      "normal_video_description": "一个人走进客厅，走向房间中央，然后蹲下检查地板上的某物。",
+      "solution_for_person": "蹲在地毯上时，此人应确保双脚站稳，避免突然的动作。",
+      "solution_for_hazard_source": "",
+      "solution_to_prevent_recurrence": "在经常蹲下或跪下的区域放置防滑垫或地毯，以降低滑倒风险。"
+    },
+    "2": {
+      "risk_description": "",
+      "normal_video_description": "一个年轻人从门口走进客厅，穿过房间，然后蹲下检查或捡起地板上的一个物体。环境看起来是一个标准的室内场景，没有可见的危险或危险活动。",
+      "solution_for_person": "",
+      "solution_for_hazard_source": "",
+      "solution_to_prevent_recurrence": ""
+    },
+    "3": {
+      "risk_description": "视频中的人似乎正蹲在地板附近，如果失去平衡可能会导致跌倒，尤其是行动受限者。",
+      "normal_video_description": "",
+      "solution_for_person": "如果需要，蹲下或弯腰时，应确保此人使用支撑或有人协助。",
+      "solution_for_hazard_source": "清除此人周围的杂物，以减少绊倒危险。",
+      "solution_to_prevent_recurrence": "练习安全的弯腰技巧，并在伸手取低位物品时使用椅子或凳子支撑。"
+    },
+    "4": {
+      "risk_description": "此人在房间里走动，然后摔倒在地板上，这可能导致严重伤害。该风险大约在0.0秒到6.7秒之间存在。",
+      "normal_video_description": "",
+      "solution_for_person": "确保此人穿着具有良好抓地力的合适鞋子，以防止滑倒和跌倒。",
+      "solution_for_hazard_source": "清除地板上的绊倒危险或障碍物，以降低跌倒风险。",
+      "solution_to_prevent_recurrence": "鼓励此人慢慢、仔细地行走，特别是在不熟悉的地面或携带可能影响平衡的物品时。"
+    }
+  }
+}

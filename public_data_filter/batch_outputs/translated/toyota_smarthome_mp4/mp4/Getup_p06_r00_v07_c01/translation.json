@@ -1,0 +1,40 @@
+{
+  "video_key": "toyota_smarthome_mp4/mp4/Getup_p06_r00_v07_c01",
+  "translations": {
+    "0": {
+      "risk_description": "",
+      "normal_video_description": "视频显示一位老年人坐在餐桌旁用餐。该人使用叉子进食，看起来很享受这顿饭。餐厅照明良好，采用白色墙壁和木质家具的现代设计。桌上摆好了盘子、餐具和一条面包。该人身穿浅色外套，看起来很舒适。视频中没有显示任何风险或危险的迹象。",
+      "solution_for_person": "",
+      "solution_for_hazard_source": "",
+      "solution_to_prevent_recurrence": ""
+    },
+    "1": {
+      "risk_description": "该人身体前倾，靠近桌边，可能导致失去平衡而跌倒。",
+      "normal_video_description": "一位老年人坐在餐桌前，面前有食物和饮料，然后身体前倾，靠近桌边。",
+      "solution_for_person": "确保该人保持坐姿稳定，避免身体前倾靠近桌边。",
+      "solution_for_hazard_source": "",
+      "solution_to_prevent_recurrence": ""
+    },
+    "2": {
+      "risk_description": "",
+      "normal_video_description": "一位老年人坐在餐桌旁用餐。该人先前倾，然后以受控的方式从椅子上站起来。环境是一间干净、现代的餐厅，没有明显的危险或不稳定的迹象。",
+      "solution_for_person": "",
+      "solution_for_hazard_source": "",
+      "solution_to_prevent_recurrence": ""
+    },
+    "3": {
+      "risk_description": "该老年人的身体显著前倾，可能导致跌倒或失去平衡，尤其是当其活动能力或力量受限时。",
+      "normal_video_description": "",
+      "solution_for_person": "该老年人应坐直，并利用椅子或桌子提供支撑，避免身体过度前倾。",
+      "solution_for_hazard_source": "确保餐厅区域没有障碍物，且椅子提供足够的支撑。",
+      "solution_to_prevent_recurrence": "使用靠背较高且支撑性好的椅子，确保老年人坐得舒适，以降低身体过度前倾的风险。"
+    },
+    "4": {
+      "risk_description": "该老年人因姿势和靠近椅子边缘而存在跌倒风险。他们身体前倾，手放在下背部，若不注意可能导致失去平衡。",
+      "normal_video_description": "",
+      "solution_for_person": "该人应靠在椅背上坐，保持更直立的姿势，以降低跌倒风险。",
+      "solution_for_hazard_source": "",
+      "solution_to_prevent_recurrence": "鼓励该人在长时间站立或坐着后适时休息，必要时使用支撑性座椅。"
+    }
+  }
+}

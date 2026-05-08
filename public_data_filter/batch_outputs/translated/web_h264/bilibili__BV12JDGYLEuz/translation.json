@@ -1,0 +1,40 @@
+{
+  "video_key": "web_h264/bilibili__BV12JDGYLEuz",
+  "translations": {
+    "0": {
+      "risk_description": "孩子在地板上玩一个红色物体，而成人没有密切关注，这可能导致孩子摔倒或受伤。",
+      "normal_video_description": "",
+      "solution_for_person": "成人应密切关注孩子，确保他们在安全地玩耍。",
+      "solution_for_hazard_source": "应为孩子提供适龄玩具和活动，以尽量减少受伤风险。",
+      "solution_to_prevent_recurrence": "成人应建立定期监护的习惯，并确保孩子的游戏区域没有危险。"
+    },
+    "1": {
+      "risk_description": "孩子似乎从桌子上吞下了什么东西，导致不适且无法呕吐，存在窒息或中毒的风险。",
+      "normal_video_description": "一个孩子在桌子附近玩各种物体，感到不适，成人前来照顾。",
+      "solution_for_person": "在孩子靠近潜在有害物质时，确保密切监督，若怀疑已摄入，应立即就医。",
+      "solution_for_hazard_source": "将潜在有害物质放在孩子够不到的地方，并确保妥善存放。",
+      "solution_to_prevent_recurrence": "教育看护者注意让孩子接触有害物质的危险性，并采取安全措施，如儿童安全锁。"
+    },
+    "2": {
+      "risk_description": "看到一个孩子被一块食物噎住，倒在地上并呼吸困难，这是一种严重的窒息危险。",
+      "normal_video_description": "",
+      "solution_for_person": "看护者应立即进行海姆利克急救法或背部拍击以排除异物，并拨打急救电话。",
+      "solution_for_hazard_source": "将所有小、硬或圆形的食物从孩子够到的地方移除，并密切监督进食。",
+      "solution_to_prevent_recurrence": "教育孩子安全饮食习惯，并确保用餐时持续监督。"
+    },
+    "3": {
+      "risk_description": "孩子弯腰后最终摔倒在地，可能导致受伤，因为他们自我保护能力有限。",
+      "normal_video_description": "",
+      "solution_for_person": "确保密切监督孩子，防止其弯腰或把手伸向不安全的地方。",
+      "solution_for_hazard_source": "将地板上的小物件或危险品清除，防止孩子捡起并摔倒。",
+      "solution_to_prevent_recurrence": "安装儿童安全防护措施，固定小物品，确保孩子的环境免于可能的跌落危险。"
+    },
+    "4": {
+      "risk_description": "由于椅子位置不稳定，孩子有摔倒的风险。",
+      "normal_video_description": "",
+      "solution_for_person": "在离开孩子前，确保孩子坐稳，椅子稳固。",
+      "solution_for_hazard_source": "移除可能导致孩子摔倒的任何潜在危险或障碍物。",
+      "solution_to_prevent_recurrence": "定期检查并维护家具的稳定性，以防止事故。"
+    }
+  }
+}

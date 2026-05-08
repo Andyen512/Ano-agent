@@ -1,0 +1,40 @@
+{
+  "video_key": "SmartHome-Bench/videos/smartbench_0465",
+  "translations": {
+    "0": {
+      "risk_description": "视频显示一名年轻成年人在院子里与另一个人发生肢体冲突。这种行为偏离了日常行为基线，因为它涉及身体冲突，这不是典型家庭环境中常见的活动。",
+      "normal_video_description": "",
+      "solution_for_person": "参与冲突的人应该寻求当局或调解员的帮助，以和平方式解决冲突。",
+      "solution_for_hazard_source": "应该找出冲突的根源并加以解决，以防止再次发生。",
+      "solution_to_prevent_recurrence": "涉及的各方应进行开放的沟通，如有必要应寻求专业帮助，以防止未来的冲突。"
+    },
+    "1": {
+      "risk_description": "",
+      "normal_video_description": "夜间，一个穿浅色衣服的人从一辆深色车辆走向一辆银色汽车。之后，一个穿深色衣服的人从银色汽车走向院子靠近车道的地方，似乎在捡东西或与地面互动。",
+      "solution_for_person": "",
+      "solution_for_hazard_source": "",
+      "solution_to_prevent_recurrence": ""
+    },
+    "2": {
+      "risk_description": "一个人在车道上行走时失去平衡摔倒到草地上，表明发生了明显的身体失衡事件。",
+      "normal_video_description": "",
+      "solution_for_person": "这个人应该起身检查是否有受伤，并考虑如果平衡问题反复出现，使用更好的鞋子或助行工具。",
+      "solution_for_hazard_source": "确保行走表面没有障碍物且光线充足，以防止类似的摔倒。",
+      "solution_to_prevent_recurrence": "改善车道和院子的照明，必要时考虑安装扶手或防滑表面。"
+    },
+    "3": {
+      "risk_description": "看到一个孩子在停放的汽车附近奔跑，如果没有适当的监督，可能会造成碰撞或被车辆撞击的风险。",
+      "normal_video_description": "",
+      "solution_for_person": "确保孩子在停放的汽车附近玩耍时有人监督，以防止任何事故。",
+      "solution_for_hazard_source": "将汽车停在离游戏区域更远的地方，以降低碰撞风险。",
+      "solution_to_prevent_recurrence": "安装屏障或围栏，以创建远离停放汽车的安全游戏区域。"
+    },
+    "4": {
+      "risk_description": "",
+      "normal_video_description": "视频显示夜间住宅区的场景，有两辆停放的汽车和一个人站在其中一辆汽车附近。这个人似乎在从事某种活动，可能是检查或修理汽车。场景中没有任何即时风险或危险的迹象。",
+      "solution_for_person": "",
+      "solution_for_hazard_source": "",
+      "solution_to_prevent_recurrence": ""
+    }
+  }
+}

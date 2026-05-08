@@ -1,0 +1,40 @@
+{
+  "video_key": "web_h264/douyin__7486779128536960282",
+  "translations": {
+    "0": {
+      "risk_description": "可以看见这位老人在行走时费力保持平衡，可能导致跌倒。旁边有一把轮椅表明这位老人可能有行动不便，增加了跌倒的风险。",
+      "normal_video_description": "",
+      "solution_for_person": "护理人员应在行走时帮助老人，确保他们有适当的支撑和稳定性。还应考虑使用助行器或拐杖来帮助行动和保持平衡。",
+      "solution_for_hazard_source": "护理人员应确保庭院没有障碍物和易滑表面，以免导致跌倒。还应检查轮椅是否有潜在危险或损坏。",
+      "solution_to_prevent_recurrence": "护理人员应定期监测老人的平衡和活动能力，必要时调整护理计划。还应向老人教授正确的行走技巧，以及在必要时使用辅助器具的重要性。"
+    },
+    "1": {
+      "risk_description": "一位81岁、患有肾衰竭的老人倒下并在地上躺了一个多小时，存在长期不动以及跌倒可能导致伤害的风险。",
+      "normal_video_description": "视频显示一位老人在院子里倒下，被家人发现并得到帮助。",
+      "solution_for_person": "确保及时为老人提供帮助和医疗关注，以防止在地上躺的时间过长。",
+      "solution_for_hazard_source": "",
+      "solution_to_prevent_recurrence": "对老人进行定期健康监测并帮助其日常活动。"
+    },
+    "2": {
+      "risk_description": "一位老年人在户外失去平衡摔倒在地，明显存在受伤风险。",
+      "normal_video_description": "",
+      "solution_for_person": "应立即帮助此人站起来并检查是否受伤。",
+      "solution_for_hazard_source": "确保地面没有障碍物，若有条件应提供更好的照明或支撑扶手。",
+      "solution_to_prevent_recurrence": "在老年人经常活动的地方安装抓握杆或扶手。"
+    },
+    "3": {
+      "risk_description": "老人跌倒后留在地上，可能因帮助延迟而导致受伤风险。",
+      "normal_video_description": "",
+      "solution_for_person": "确保对老人进行监测和支持以防止跌倒，并制定跌倒时的快速应对计划。",
+      "solution_for_hazard_source": "清除庭院中的绊倒危险物，确保该区域行走安全。",
+      "solution_to_prevent_recurrence": "当老人在庭院时增设额外支持或监督，必要时考虑使用辅助器具。"
+    },
+    "4": {
+      "risk_description": "此人因在地面上的不稳定姿势而有跌倒风险，可能导致严重伤害。",
+      "normal_video_description": "",
+      "solution_for_person": "帮助此人站起来并提供支撑以防止再次跌倒。",
+      "solution_for_hazard_source": "",
+      "solution_to_prevent_recurrence": "确保该区域没有绊倒危险，并向有跌倒风险的个人提供帮助。"
+    }
+  }
+}

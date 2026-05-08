@@ -1,0 +1,40 @@
+{
+  "video_key": "web_h264/youtube__jSWo7eeSabo",
+  "translations": {
+    "0": {
+      "risk_description": "可以看到这位老人在行走时努力保持平衡，这可能导致摔倒并造成潜在伤害。",
+      "normal_video_description": "视频显示一位老人在餐厅行走时努力保持平衡，这可能导致摔倒并造成潜在伤害。",
+      "solution_for_person": "护理人员应为老人提供支撑，确保其穿合适的鞋子以保持稳定。",
+      "solution_for_hazard_source": "护理人员应清除地面的绊倒危险，确保该区域光线充足，以防止跌倒。",
+      "solution_to_prevent_recurrence": "护理人员应密切监视老人的行动，必要时提供帮助，以防止再次跌倒。"
+    },
+    "1": {
+      "risk_description": "老人被人进行身体约束并被推倒在地，产生跌倒和受伤的风险。这种攻击性的身体互动也可能导致人际冲突升级。",
+      "normal_video_description": "视频显示家庭健康助理在厨房地板上对老人进行身体约束并推搡，文字提示涉及老年人虐待的指控。",
+      "solution_for_person": "确保老人不受到身体约束或攻击，并提供一个没有身体伤害的安全环境。",
+      "solution_for_hazard_source": "处理与老人互动者的攻击性行为，以防止进一步的身体伤害。",
+      "solution_to_prevent_recurrence": "对护理人员与弱势人群的互动实行严格监督和干预规程，以防止身体虐待并确保其安全。"
+    },
+    "2": {
+      "risk_description": "视频显示一起身体冲突，护理人员猛烈推搡老人，导致其摔倒。这种行为明显超出正常活动范围，构成直接身体伤害的严重安全风险。",
+      "normal_video_description": "",
+      "solution_for_person": "护理人员应立即停止攻击性行为，并寻求专业帮助或干预，以保障老人的安全。",
+      "solution_for_hazard_source": "应更密切地监控环境，识别并处理可能引发此类冲突的潜在危险或触发因素。",
+      "solution_to_prevent_recurrence": "对护理人员实行更严格的监督和培训，并制定明确的处理困难情况的规程，以防止未来类似事件发生。"
+    },
+    "3": {
+      "risk_description": "老人被进行身体约束并被推搡，由于其行动能力受限，存在跌倒或受伤的风险。",
+      "normal_video_description": "",
+      "solution_for_person": "确保对老人进行监督和支持，以防止跌倒或受伤。",
+      "solution_for_hazard_source": "清除厨房中可能导致绊倒或跌倒的障碍物或危险。",
+      "solution_to_prevent_recurrence": "在厨房安装扶手和防滑地板等安全设施，以降低跌倒风险。"
+    },
+    "4": {
+      "risk_description": "可以看到老人倒地，这可能导致严重伤害或长期影响。",
+      "normal_video_description": "",
+      "solution_for_person": "确保老人在家中移动时有适当的支撑和帮助，以防止跌倒。",
+      "solution_for_hazard_source": "在楼梯及其他老人可能需要额外支撑的地方安装扶手或抓杆。",
+      "solution_to_prevent_recurrence": "定期检查老人的行动能力，必要时提供帮助，以降低跌倒风险。"
+    }
+  }
+}

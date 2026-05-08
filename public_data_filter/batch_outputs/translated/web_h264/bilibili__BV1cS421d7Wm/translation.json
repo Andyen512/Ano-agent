@@ -1,0 +1,40 @@
+{
+  "video_key": "web_h264/bilibili__BV1cS421d7Wm",
+  "translations": {
+    "0": {
+      "risk_description": "一个年轻人被发现跌倒并撞到地板上的头部，这有潜在的头部受伤风险。",
+      "normal_video_description": "视频显示一个年轻人在客厅里行走，绊倒后倒在地板上。",
+      "solution_for_person": "应该检查这个人是否有头部受伤的迹象，并在必要时提供急救。",
+      "solution_for_hazard_source": "应该使地板不那么光滑，以防止将来跌倒。",
+      "solution_to_prevent_recurrence": "年轻人在地板上行走时应该更加小心，并穿防滑鞋。"
+    },
+    "1": {
+      "risk_description": "这位年轻女性失去平衡并多次跌倒，撞到墙壁和地板，造成明显的伤害。这种行为由于反复跌倒和碰撞，存在进一步受伤的风险。",
+      "normal_video_description": "一位年轻女性在客厅里经历了一系列跌倒和碰撞，造成明显的伤害。",
+      "solution_for_person": "这个人应该立即寻求医疗帮助，进行伤害评估和治疗。",
+      "solution_for_hazard_source": "",
+      "solution_to_prevent_recurrence": "确保客厅没有绊倒危险，并考虑安装防滑垫或改善照明以降低跌倒风险。"
+    },
+    "2": {
+      "risk_description": "受试者表现出步态不稳和失去平衡，导致跌倒在地板上。由于明显的稳定性丧失和由此产生的身体影响，这种行为超出了正常活动范围。",
+      "normal_video_description": "",
+      "solution_for_person": "这个人应该立即停止移动，坐下或躺下以防止进一步受伤，如果疼痛或头晕，应该寻求医疗帮助。",
+      "solution_for_hazard_source": "确保地板上没有障碍物，并考虑在该区域安装安全栏杆或防滑垫。",
+      "solution_to_prevent_recurrence": "监测这个人的健康状况，确保他们休息充足和水分充足，以防止类似事件发生。"
+    },
+    "3": {
+      "risk_description": "视频显示一个孩子跌倒并撞到头部，这有头部受伤的风险。孩子在跌倒时似乎无人看管。",
+      "normal_video_description": "",
+      "solution_for_person": "确保对孩子进行持续监督以防止跌倒，并提供一个安全的环境。",
+      "solution_for_hazard_source": "清除绊倒危险，确保客厅已做好儿童安全防护。",
+      "solution_to_prevent_recurrence": "安装安全门并对客厅区域进行儿童安全防护，以防止将来跌倒。"
+    },
+    "4": {
+      "risk_description": "看到这个人跑过房间然后摔倒在地，这可能导致严重伤害。跌倒似乎是意外的，如果更加小心移动就可以避免。",
+      "normal_video_description": "视频显示一个人在客厅里跑然后摔倒在地。",
+      "solution_for_person": "这个人应该在房间里移动时放慢速度并更加小心，以避免跌倒。",
+      "solution_for_hazard_source": "",
+      "solution_to_prevent_recurrence": "这个人应该更加注意自己的动作，并采取措施防止跌倒，例如在需要时抓住家具或使用扶手。"
+    }
+  }
+}

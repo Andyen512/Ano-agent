@@ -1,0 +1,40 @@
+{
+  "video_key": "UR_Fall_Dataset/fall-15-cam1",
+  "translations": {
+    "0": {
+      "risk_description": "这个年轻人正在椅子上做倒立，这是不安全的活动，可能导致跌倒和潜在的伤害。",
+      "normal_video_description": "视频中显示一个年轻人在客厅的椅子上做倒立，这是不安全的活动，可能导致跌倒和潜在的伤害。",
+      "solution_for_person": "应当对其进行监督，不允许在没有适当安全装备和指导的情况下进行此类危险活动。",
+      "solution_for_hazard_source": "应将椅子从客厅移除，以防止再次发生事故。",
+      "solution_to_prevent_recurrence": "应让年轻人了解进行此类活动的危险以及安全预防措施的重要性。"
+    },
+    "1": {
+      "risk_description": "此人正躺在有家具的区域的地板上，这增加了跌入或卡在物体之间的风险，可能导致受伤。",
+      "normal_video_description": "视频中显示一个人躺在书房区域的地板上，附近有椅子和桌子。",
+      "solution_for_person": "避免在有家具的区域躺在地板上，以防止绊倒或被困。",
+      "solution_for_hazard_source": "确保家具摆放留有畅通的通道，减少绊倒危险。",
+      "solution_to_prevent_recurrence": "当该人在房间时进行监督，以便在其躺在地板时及时干预。"
+    },
+    "2": {
+      "risk_description": "",
+      "normal_video_description": "视频显示一个人进入办公空间后在地板上做俯卧撑。该动作很短暂，似乎是正常的室内锻炼或玩耍。",
+      "solution_for_person": "",
+      "solution_for_hazard_source": "",
+      "solution_to_prevent_recurrence": ""
+    },
+    "3": {
+      "risk_description": "此人正在做倒立，若失去平衡可能导致跌倒，造成受伤风险。",
+      "normal_video_description": "",
+      "solution_for_person": "确保该人有稳固的支撑面或支撑物，以防跌倒。",
+      "solution_for_hazard_source": "清除附近的障碍物，以免导致失衡。",
+      "solution_to_prevent_recurrence": "在更安全的环境中练习，并在适当监督下进行，以避免跌倒。"
+    },
+    "4": {
+      "risk_description": "视频中可见此人向后倒在地上，硬质地面及可能与附近物体碰撞可能导致严重伤害。",
+      "normal_video_description": "",
+      "solution_for_person": "确保此人穿着具有良好抓地力的合适鞋子，并在移动时提供帮助或支撑，以防止滑倒。",
+      "solution_for_hazard_source": "清除地面上的绊倒危险或障碍物，最大限度地降低跌倒风险。",
+      "solution_to_prevent_recurrence": "实施定期的安全培训和意识活动，以教育员工关于跌倒预防和正确的工作场所安全规范。"
+    }
+  }
+}

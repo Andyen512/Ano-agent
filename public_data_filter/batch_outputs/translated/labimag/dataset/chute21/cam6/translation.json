@@ -1,0 +1,40 @@
+{
+  "video_key": "labimag/dataset/chute21/cam6",
+  "translations": {
+    "0": {
+      "risk_description": "视频中的年轻人被看到在房间里走动，然后突然摔倒在地上。这种行为偏离了正常的日常活动（走动和坐在椅子上），并且由于摔倒存在受伤风险。",
+      "normal_video_description": "",
+      "solution_for_person": "应帮助此人安全稳固地坐到椅子上，并监测是否有进一步摔倒的情况。",
+      "solution_for_hazard_source": "危险源是椅子上缺乏适当的支撑和稳定性，导致了摔倒。",
+      "solution_to_prevent_recurrence": "应为此人提供具有适当支撑和稳定性的椅子，并监测是否有进一步摔倒的情况。此外，应对此人进行适当姿势和移动的教育，以防止未来摔倒。"
+    },
+    "1": {
+      "risk_description": "此人平躺在地板上呈俯卧姿势，如果无法快速起身，可能会导致呼吸困难或受伤。",
+      "normal_video_description": "一个人走进房间，坐在椅子上，然后平躺在地板上呈俯卧姿势，之后再站起来。",
+      "solution_for_person": "确保此人在俯卧姿势下得到监督指导，能够安全地从地板上起身。",
+      "solution_for_hazard_source": "",
+      "solution_to_prevent_recurrence": ""
+    },
+    "2": {
+      "risk_description": "一名年轻人试图坐在扶手椅上，失去平衡，向后倒在地板上。这个动作清楚地表明了平衡丧失导致了摔倒。",
+      "normal_video_description": "",
+      "solution_for_person": "此人应立即起身并检查是否受伤。",
+      "solution_for_hazard_source": "确保扶手椅稳固并放置在平坦的表面上。",
+      "solution_to_prevent_recurrence": "坐下时要小心谨慎，特别是当椅子不熟悉或可能不稳定时。"
+    },
+    "3": {
+      "risk_description": "此人倒在地板上，可能会造成受伤风险，特别是对于行动能力有限或平衡问题的人。",
+      "normal_video_description": "",
+      "solution_for_person": "确保此人安全地起身，并在摔倒后评估是否受伤。",
+      "solution_for_hazard_source": "清除地板上的障碍物或绊倒危险物，以防止未来摔倒。",
+      "solution_to_prevent_recurrence": "安装额外的照明或防滑地板，以降低滑倒和摔倒的风险。"
+    },
+    "4": {
+      "risk_description": "视频中的人正在进行涉及跳上椅子的身体活动，这可能导致摔倒和潜在受伤。整个动作过程中都存在风险。",
+      "normal_video_description": "",
+      "solution_for_person": "确保对进行活动的人进行适当的监督和指导，以防止摔倒和受伤。",
+      "solution_for_hazard_source": "清除该区域中任何不必要的物品或障碍物，以最大限度地减少事故风险。",
+      "solution_to_prevent_recurrence": "提供更安全、不太可能导致摔倒或受伤的替代活动。"
+    }
+  }
+}

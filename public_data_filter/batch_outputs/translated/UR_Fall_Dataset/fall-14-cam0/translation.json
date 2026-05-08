@@ -1,0 +1,40 @@
+{
+  "video_key": "UR_Fall_Dataset/fall-14-cam0",
+  "translations": {
+    "0": {
+      "risk_description": "视频中的年轻人弯腰后倒在地上，这可能导致受伤。这种行为偏离了学习环境中正常坐着或站立的行为。",
+      "normal_video_description": "视频显示一个年轻人在学习环境中坐在椅子上，然后弯腰倒下到地上。",
+      "solution_for_person": "此人应更加注意自己的动作，并确保在学习环境中有稳定的表面可以坐着或站立。",
+      "solution_for_hazard_source": "危险源是此人 在学习环境中缺少可以坐着或站立的稳定表面。",
+      "solution_to_prevent_recurrence": "此人应确保在学习环境中拥有稳定的坐或站立表面，并更加注意自己的动作以防止跌倒。"
+    },
+    "1": {
+      "risk_description": "在地上的人处于弱势姿势，增加了因跌倒或无法快速起身而受伤的风险。",
+      "normal_video_description": "学习室里有两个人。一个人坐在桌子旁，另一个人坐在椅子上。第二个人随后摔倒在地上。",
+      "solution_for_person": "确保在地上的人保持稳定并能够安全地站起来，必要时可提供帮助。",
+      "solution_for_hazard_source": "",
+      "solution_to_prevent_recurrence": "鼓励安全坐姿，避免可能导致跌倒的突然动作。"
+    },
+    "2": {
+      "risk_description": "",
+      "normal_video_description": "一位年轻人在学习室里自愿离开椅子，躺在地板上。该动作看起来是故意的、玩耍式的，而不是意外或失去平衡。",
+      "solution_for_person": "",
+      "solution_for_hazard_source": "",
+      "solution_to_prevent_recurrence": ""
+    },
+    "3": {
+      "risk_description": "该年轻人从椅子上跌落到地板上，这可能导致受伤风险，特别是如果他们行动受限或正在康复中。",
+      "normal_video_description": "",
+      "solution_for_person": "确保该年轻人坐得稳固，若他们尝试站立或移动，提供帮助。",
+      "solution_for_hazard_source": "移除或固定任何容易被撞倒的家具，以防止跌倒。",
+      "solution_to_prevent_recurrence": "采取安全措施，如防滑垫，并确保工作空间整洁以减少绊倒危险。"
+    },
+    "4": {
+      "risk_description": "此人正在进行涉及从椅子上跳起的高强度运动，这可能导致严重跌倒和潜在伤害。",
+      "normal_video_description": "",
+      "solution_for_person": "确保进行适当的热身和放松活动；考虑使用低冲击的锻炼或替代方法以避免跌倒。",
+      "solution_for_hazard_source": "",
+      "solution_to_prevent_recurrence": "采取安全措施，如在地板上铺垫，提供安全锻炼指导，并在高强度活动期间确保适当的监督。"
+    }
+  }
+}

@@ -1,0 +1,40 @@
+{
+  "video_key": "toyota_smarthome_mp4/mp4/Drink.Fromcan_p02_r01_v13_c06",
+  "translations": {
+    "0": {
+      "risk_description": "",
+      "normal_video_description": "视频显示一位老年人在厨房里，站在柜台附近并使用厨房电器。场景看起来是正常的日常活动，没有任何风险或危险的迹象。",
+      "solution_for_person": "",
+      "solution_for_hazard_source": "",
+      "solution_to_prevent_recurrence": ""
+    },
+    "1": {
+      "risk_description": "这个人正把一个装置靠近天花板灯，如果装置或灯具带电，可能会导致触电。",
+      "normal_video_description": "一位老年人正站在厨房里，手里拿着一个装置，抬头看着天花板灯。",
+      "solution_for_person": "与电气装置保持安全距离，确保设备不使用时拔掉电源或关闭开关。",
+      "solution_for_hazard_source": "确保电气装置安装正确并定期维护，以防止意外接触到带电部件。",
+      "solution_to_prevent_recurrence": "向该人宣传使用电气设备和装置时的安全做法。"
+    },
+    "2": {
+      "risk_description": "",
+      "normal_video_description": "一位老年人正站在现代厨房里，手里拿着一罐饮料并背对照相机饮用。环境看起来安全整洁，没有可见的危险或危险活动。",
+      "solution_for_person": "",
+      "solution_for_hazard_source": "",
+      "solution_to_prevent_recurrence": ""
+    },
+    "3": {
+      "risk_description": "老年人正把电钻靠近头部，如果电钻故障或打滑，可能会造成伤害。",
+      "normal_video_description": "",
+      "solution_for_person": "老年人应确保牢固握持电钻，并考虑使用稳定工具或请人协助，以防止电钻滑落。",
+      "solution_for_hazard_source": "确保电钻处于良好工作状态，并考虑使用带有安全功能的电钻，以防止意外启动。",
+      "solution_to_prevent_recurrence": "使用电动工具时务必佩戴防护装备，并确保正确的操作方法，以防止事故。"
+    },
+    "4": {
+      "risk_description": "此人在靠近水源的地方使用电钻，存在触电风险。若电钻接触到水，可能导致短路，甚至爆炸，造成严重伤害或财产损失。",
+      "normal_video_description": "",
+      "solution_for_person": "确保电钻在远离任何水源的地方使用，以防止电气危险。",
+      "solution_for_hazard_source": "将电钻和其他电器远离水源，以减少触电风险。",
+      "solution_to_prevent_recurrence": "务必在干燥环境下使用电器，并远离水源，以防止事故。"
+    }
+  }
+}

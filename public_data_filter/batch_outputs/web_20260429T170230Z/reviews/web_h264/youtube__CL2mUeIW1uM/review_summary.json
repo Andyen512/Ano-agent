@@ -1,0 +1,478 @@
+{
+  "manifest": {
+    "video_path": "/data_4/liuyuan/lifebench/data/public_data/web_h264/youtube__CL2mUeIW1uM.mp4",
+    "rule_path": "/data_4/liuyuan/lifebench/public_data_filter/rule.md",
+    "prompt_language": "en",
+    "output_schema_version": "risk_full_en_v2",
+    "candidate_text": null,
+    "seed": 0,
+    "persistent_runner": true,
+    "reuse_agent_outputs": true,
+    "early_stop_majority": false,
+    "model_pool": [
+      {
+        "model_id": "Qwen/Qwen3.5-9B",
+        "backend": "qwen35vl"
+      },
+      {
+        "model_id": "openbmb/MiniCPM-V-4_5",
+        "backend": "minicpmv45"
+      },
+      {
+        "model_id": "mPLUG/mPLUG-Owl3-7B-241101",
+        "backend": "mplugowl3"
+      },
+      {
+        "model_id": "DAMO-NLP-SG/VideoLLaMA3-7B",
+        "backend": "videollama3"
+      },
+      {
+        "model_id": "OpenGVLab/InternVL3_5-8B",
+        "backend": "internvl35"
+      }
+    ],
+    "assignments": [
+      {
+        "perspective": {
+          "index": 1,
+          "name": "Daily Behavior Baseline Perspective",
+          "prompt": "You are acting as a daily-behavior baseline reviewer.\nYour task is to judge, from ordinary household experience, whether a candidate behavior clearly deviates from acceptable daily behavior and should be kept as a risk anomaly.\n\nFollow these principles:\n- Use common behavior patterns in ordinary home environments as the reference point. Do not use an overly sensitive or overly permissive standard.\n- If a behavior is usually normal, brief, and acceptable in most household scenes, do not easily mark it as a risk anomaly.\n- If a behavior clearly exceeds the normal range of daily activities and shows instability, a safety trigger, or potential harm, mark it as a risk anomaly.\n- For borderline cases, focus on whether the behavior has shifted from an acceptable daily activity into an abnormal risk behavior that deserves attention.\n- Keep the judgment close to ordinary common sense rather than medical, legal, or extreme safety standards.\n\nOutput requirements for this perspective:\n- Explain whether the behavior clearly deviates from the daily behavior baseline.\n- Keep the explanation concise, specific, and grounded only in the video content.\n- Do not mark a behavior as anomalous merely because it looks active.\n- Do not assume extra events outside the video."
+        },
+        "model": {
+          "model_id": "mPLUG/mPLUG-Owl3-7B-241101",
+          "backend": "mplugowl3"
+        }
+      },
+      {
+        "perspective": {
+          "index": 2,
+          "name": "Conservative Safety Perspective",
+          "prompt": "You are acting as a conservative safety reviewer.\nYour task is to minimize missed risks. If a candidate behavior has a realistic possibility of injury, loss of control, or accident triggering, it may be kept as a risk anomaly.\n\nFollow these principles:\n- Apply a cautious safety standard, prioritizing behaviors that may lead to falls, collisions, burns, electric shock, accidental ingestion, cuts, or other household injuries.\n- Even if harm has not occurred yet, keep the behavior if it already contains a clear risk trigger or is in an accident-prone state.\n- For borderline cases, focus on whether the behavior deserves early intervention rather than waiting for harm to happen.\n- If a behavior would commonly be stopped or warned against by family members, guardians, or caregivers, lean toward keeping it.\n- The goal is to reduce false negatives, so ambiguous cases may be judged slightly conservatively.\n\nOutput requirements for this perspective:\n- Explain what realistic harm the behavior may trigger and why it should or should not be kept under a conservative safety standard.\n- You do not need to prove that harm will definitely occur.\n- Do not exaggerate beyond an ordinary household context."
+        },
+        "model": {
+          "model_id": "openbmb/MiniCPM-V-4_5",
+          "backend": "minicpmv45"
+        }
+      },
+      {
+        "perspective": {
+          "index": 3,
+          "name": "Permissive Behavior Tolerance Perspective",
+          "prompt": "You are acting as a permissive behavior-tolerance reviewer.\nYour task is to judge from a higher tolerance threshold whether a candidate behavior truly reaches the level of a risk anomaly. Only keep it when the behavior clearly exceeds normal activity, playfulness, exploration, or brief mistakes.\n\nFollow these principles:\n- Maintain reasonable tolerance for common active behavior, brief imbalance, and minor irregular actions in household scenes.\n- Keep a behavior only when it has clear, direct, and realistic danger, or when it clearly leaves the boundary of generally acceptable daily behavior.\n- If a behavior has some uncertainty but commonly occurs in real life and would not usually be considered dangerous enough for special intervention, lean toward not keeping it.\n- For borderline cases, prioritize avoiding over-definition of ordinary life behavior as abnormal.\n- The goal is to reduce false positives, so keep only when the evidence is reasonably strong.\n\nOutput requirements for this perspective:\n- Explain whether the behavior remains within a tolerable daily behavior range.\n- Do not keep a behavior merely because it has a small possible risk.\n- Do not automatically treat all child play, pet activity, slow elderly movement, or similar ordinary behavior as abnormal."
+        },
+        "model": {
+          "model_id": "Qwen/Qwen3.5-9B",
+          "backend": "qwen35vl"
+        }
+      },
+      {
+        "perspective": {
+          "index": 4,
+          "name": "Vulnerable-Subject-First Perspective",
+          "prompt": "You are acting as a vulnerable-subject-first reviewer.\nYour task is to judge the candidate behavior with priority given to the safety of children, older adults, people with limited mobility, people recovering from illness, pregnant people, pets, or other vulnerable subjects. If the behavior creates a realistic additional risk for a vulnerable subject, lean toward keeping it as a risk anomaly.\n\nFollow these principles:\n- Focus on whether the behavior creates disproportionate risk for a subject with weaker body control, weaker risk awareness, or limited self-protection ability.\n- A behavior that may not be abnormal for an ordinary adult can still be a risk anomaly if its danger clearly increases for a child, older adult, pet, or other vulnerable subject.\n- For borderline cases, consider whether the vulnerable subject would have more difficulty avoiding injury, would suffer more serious consequences, or would receive help more slowly.\n- In caregiving, companionship, or household life scenes, pay special attention to insufficient supervision, missing protection, or an environment that does not fit the subject's needs.\n- The core standard is not whether the behavior is dangerous for an average adult, but whether it has reached a level requiring attention or intervention for the vulnerable subject shown in the video.\n\nOutput requirements for this perspective:\n- Explain the specific risk to the vulnerable subject, if one is present.\n- Do not invent illness, disability, age, or severe impairment that is not supported by the video.\n- Do not generalize vulnerability without evidence from the video."
+        },
+        "model": {
+          "model_id": "OpenGVLab/InternVL3_5-8B",
+          "backend": "internvl35"
+        }
+      },
+      {
+        "perspective": {
+          "index": 5,
+          "name": "Consequence-Severity-First Perspective",
+          "prompt": "You are acting as a consequence-severity-first reviewer.\nYour task is to focus on whether the potential consequences of a risk event would be serious, hard to reverse, or costly to intervene in. Even if the probability is not the highest, keep the behavior if the realistic potential consequence is severe enough.\n\nFollow these principles:\n- Prioritize behaviors that could realistically lead to severe injury, long-term impact, emergency medical care, lasting functional impairment, or major property or environmental damage.\n- Judge not only whether an accident is likely, but also how costly the consequence would be if it occurred.\n- For borderline cases, analyze whether the most realistic negative consequence is already too significant to ignore.\n- If a behavior may lead to burns from heat, electric shock, falling from height, severe collision, poisoning, suffocation, or other serious outcomes, lean toward keeping it.\n- The standard emphasizes prevention of severe consequences, so low-probability but high-damage scenarios may justify keeping the behavior.\n\nOutput requirements for this perspective:\n- Explain the realistic severity of the possible consequence if the behavior develops into an accident.\n- Do not exaggerate minor or unimportant consequences.\n- Do not rely on extremely rare catastrophic scenarios without realistic support from the video."
+        },
+        "model": {
+          "model_id": "DAMO-NLP-SG/VideoLLaMA3-7B",
+          "backend": "videollama3"
+        }
+      }
+    ]
+  },
+  "agent_results": [
+    {
+      "perspective": {
+        "index": 1,
+        "name": "Daily Behavior Baseline Perspective",
+        "prompt": "You are acting as a daily-behavior baseline reviewer.\nYour task is to judge, from ordinary household experience, whether a candidate behavior clearly deviates from acceptable daily behavior and should be kept as a risk anomaly.\n\nFollow these principles:\n- Use common behavior patterns in ordinary home environments as the reference point. Do not use an overly sensitive or overly permissive standard.\n- If a behavior is usually normal, brief, and acceptable in most household scenes, do not easily mark it as a risk anomaly.\n- If a behavior clearly exceeds the normal range of daily activities and shows instability, a safety trigger, or potential harm, mark it as a risk anomaly.\n- For borderline cases, focus on whether the behavior has shifted from an acceptable daily activity into an abnormal risk behavior that deserves attention.\n- Keep the judgment close to ordinary common sense rather than medical, legal, or extreme safety standards.\n\nOutput requirements for this perspective:\n- Explain whether the behavior clearly deviates from the daily behavior baseline.\n- Keep the explanation concise, specific, and grounded only in the video content.\n- Do not mark a behavior as anomalous merely because it looks active.\n- Do not assume extra events outside the video."
+      },
+      "model": {
+        "model_id": "mPLUG/mPLUG-Owl3-7B-241101",
+        "backend": "mplugowl3"
+      },
+      "prompt_file": "/data_4/liuyuan/lifebench/public_data_filter/batch_outputs/web_20260429T170230Z/reviews/web_h264/youtube__CL2mUeIW1uM/prompts/01_Daily_Behavior_Baseline_Perspective.txt",
+      "output_json": "/data_4/liuyuan/lifebench/public_data_filter/batch_outputs/web_20260429T170230Z/reviews/web_h264/youtube__CL2mUeIW1uM/agent_outputs/01_Daily_Behavior_Baseline_Perspective.json",
+      "stdout_log": "/data_4/liuyuan/lifebench/public_data_filter/batch_outputs/web_20260429T170230Z/reviews/web_h264/youtube__CL2mUeIW1uM/logs/01_Daily_Behavior_Baseline_Perspective.stdout.log",
+      "stderr_log": "/data_4/liuyuan/lifebench/public_data_filter/batch_outputs/web_20260429T170230Z/reviews/web_h264/youtube__CL2mUeIW1uM/logs/01_Daily_Behavior_Baseline_Perspective.stderr.log",
+      "worker_id": "07_mplugowl3_gpu6",
+      "gpu_id": "6",
+      "returncode": 0,
+      "elapsed_seconds": 8.513,
+      "response": "Risk presence: Yes\nLevel 1 scene: Yard\nLevel 2 subject: Older adult\nLevel 3 risk type: Heat/Fire source\nRisk description: A fire starts on the patio, posing a risk to the older adult sitting nearby.\nRisk time interval: [0:00; 0:15]\nSolution for person: Move the older adult to a safe distance from the fire.\nSolution for hazard source: Extinguish the fire and identify the source of ignition.\nSolution to prevent recurrence: Install smoke detectors and fire-resistant materials on the patio to reduce the risk of fire.\nNormal video description: The older adult is sitting on the patio, enjoying the evening, when suddenly a fire starts on the patio.",
+      "parsed_decision": {
+        "candidate_behavior": "",
+        "risk_presence_raw": "Yes",
+        "risk_presence": "Yes",
+        "keep_raw": "Yes",
+        "keep": true,
+        "level1_scene": "Yard",
+        "level2_subject": "Older adult",
+        "level3_risk_type": "Heat/Fire source",
+        "risk_description": "A fire starts on the patio, posing a risk to the older adult sitting nearby.",
+        "risk_time_interval": "[0:00; 0:15]",
+        "solution_for_person": "Move the older adult to a safe distance from the fire.",
+        "solution_for_hazard_source": "Extinguish the fire and identify the source of ignition.",
+        "solution_to_prevent_recurrence": "Install smoke detectors and fire-resistant materials on the patio to reduce the risk of fire.",
+        "normal_video_description": "The older adult is sitting on the patio, enjoying the evening, when suddenly a fire starts on the patio.",
+        "reason": ""
+      },
+      "runner_payload": {
+        "backend": "mplugowl3",
+        "description": "mPLUG-Owl3 video chat model",
+        "model_id": "mPLUG/mPLUG-Owl3-7B-241101",
+        "model_path": "/data_4/liuyuan/lifebench/models/mPLUG__mPLUG-Owl3-7B-241101",
+        "video_path": "/data_4/liuyuan/lifebench/data/public_data/web_h264/youtube__CL2mUeIW1uM.mp4",
+        "prompt": "You are acting as a daily-behavior baseline reviewer.\nYour task is to judge, from ordinary household experience, whether a candidate behavior clearly deviates from acceptable daily behavior and should be kept as a risk anomaly.\n\nFollow these principles:\n- Use common behavior patterns in ordinary home environments as the reference point. Do not use an overly sensitive or overly permissive standard.\n- If a behavior is usually normal, brief, and acceptable in most household scenes, do not easily mark it as a risk anomaly.\n- If a behavior clearly exceeds the normal range of daily activities and shows instability, a safety trigger, or potential harm, mark it as a risk anomaly.\n- For borderline cases, focus on whether the behavior has shifted from an acceptable daily activity into an abnormal risk behavior that deserves attention.\n- Keep the judgment close to ordinary common sense rather than medical, legal, or extreme safety standards.\n\nOutput requirements for this perspective:\n- Explain whether the behavior clearly deviates from the daily behavior baseline.\n- Keep the explanation concise, specific, and grounded only in the video content.\n- Do not mark a behavior as anomalous merely because it looks active.\n- Do not assume extra events outside the video.\n\nTask addendum:\nReview the input video and first decide whether the video contains a risk.\nBase your judgment only on the video content. Do not assume facts outside the video, and do not invent extra events.\nJudge the main visible behavior and scene in the video.\nYou must answer based on the provided video input. Do not say that you cannot watch or inspect the video.\nOutput exactly the following English-labeled fields, with no markdown and no extra text:\nRisk presence: Yes / No\nLevel 1 scene: output one scene keyword. Prefer one of: dining room, kitchen, study, balcony, living room, bathroom, yard. If none fits, output your own concise scene keyword.\nLevel 2 subject: output one subject keyword. Prefer one of: child, older adult, young adult, middle-aged adult. If none fits, output your own concise subject keyword.\nLevel 3 risk type: if Risk presence is Yes, output one risk keyword. Prefer one of: fall/instability, heat/fire source, collision/crush injury, sharp-object danger, electrical safety, poisoning/accidental ingestion, interpersonal conflict. If none fits, output your own concise risk keyword. If Risk presence is No, output None.\nRisk description: if Risk presence is Yes, describe the risk in 1-3 sentences. If Risk presence is No, output None.\nRisk time interval: if Risk presence is Yes, localize the risk as seconds like [start,end]. If there are multiple intervals, separate them with semicolons. If the exact interval is unclear, output Unknown. If Risk presence is No, output None.\nSolution for person: if Risk presence is Yes, give a concrete action for the person or caregiver. If Risk presence is No, output None.\nSolution for hazard source: if Risk presence is Yes, give a concrete action for the hazard source or environment. If Risk presence is No, output None.\nSolution to prevent recurrence: if Risk presence is Yes, give a prevention measure to reduce recurrence. If Risk presence is No, output None.\nNormal video description: if Risk presence is No, describe the normal video content in 1-3 sentences. If Risk presence is Yes, output None.",
+        "response": "Risk presence: Yes\nLevel 1 scene: Yard\nLevel 2 subject: Older adult\nLevel 3 risk type: Heat/Fire source\nRisk description: A fire starts on the patio, posing a risk to the older adult sitting nearby.\nRisk time interval: [0:00; 0:15]\nSolution for person: Move the older adult to a safe distance from the fire.\nSolution for hazard source: Extinguish the fire and identify the source of ignition.\nSolution to prevent recurrence: Install smoke detectors and fire-resistant materials on the patio to reduce the risk of fire.\nNormal video description: The older adult is sitting on the patio, enjoying the evening, when suddenly a fire starts on the patio.",
+        "parsed_response": {
+          "risk_status": "normal",
+          "has_risk": false,
+          "risk_type": "",
+          "video_description": "Risk presence: Yes Level 1 scene: Yard Level 2 subject: Older adult Level 3 risk type: Heat/Fire source Risk description: A fire starts on the patio, posing a risk to the older adult sitting nearby. Risk time interval: [0:00; 0:15] Solution for person: Move the older adult to a safe distance from the fire. Solution for hazard source: Extinguish the fire and identify the source of ignition. Solution to prevent recurrence: Install smoke detectors and fire-resistant materials on the patio to reduce the risk of fire. Normal video description: The older adult is sitting on the patio, enjoying the evening, when suddenly a fire starts on the patio.",
+          "safe_segment_desc": "Risk presence: Yes Level 1 scene: Yard Level 2 subject: Older adult Level 3 risk type: Heat/Fire source Risk description: A fire starts on the patio, posing a risk to the older adult sitting nearby. Risk time interval: [0:00; 0:15] Solution for person: Move the older adult to a safe distance from the fire. Solution for hazard source: Extinguish the fire and identify the source of ignition. Solution to prevent recurrence: Install smoke detectors and fire-resistant materials on the patio to reduce the risk of fire. Normal video description: The older adult is sitting on the patio, enjoying the evening, when suddenly a fire starts on the patio.",
+          "risk_description": "",
+          "solution": "",
+          "time_spans": []
+        },
+        "generation": {
+          "temperature": 0.0,
+          "top_p": 0.9,
+          "max_new_tokens": 256,
+          "fps": 1.0,
+          "max_frames": 16,
+          "merge_size": 2
+        },
+        "elapsed_seconds": 8.513
+      }
+    },
+    {
+      "perspective": {
+        "index": 2,
+        "name": "Conservative Safety Perspective",
+        "prompt": "You are acting as a conservative safety reviewer.\nYour task is to minimize missed risks. If a candidate behavior has a realistic possibility of injury, loss of control, or accident triggering, it may be kept as a risk anomaly.\n\nFollow these principles:\n- Apply a cautious safety standard, prioritizing behaviors that may lead to falls, collisions, burns, electric shock, accidental ingestion, cuts, or other household injuries.\n- Even if harm has not occurred yet, keep the behavior if it already contains a clear risk trigger or is in an accident-prone state.\n- For borderline cases, focus on whether the behavior deserves early intervention rather than waiting for harm to happen.\n- If a behavior would commonly be stopped or warned against by family members, guardians, or caregivers, lean toward keeping it.\n- The goal is to reduce false negatives, so ambiguous cases may be judged slightly conservatively.\n\nOutput requirements for this perspective:\n- Explain what realistic harm the behavior may trigger and why it should or should not be kept under a conservative safety standard.\n- You do not need to prove that harm will definitely occur.\n- Do not exaggerate beyond an ordinary household context."
+      },
+      "model": {
+        "model_id": "openbmb/MiniCPM-V-4_5",
+        "backend": "minicpmv45"
+      },
+      "prompt_file": "/data_4/liuyuan/lifebench/public_data_filter/batch_outputs/web_20260429T170230Z/reviews/web_h264/youtube__CL2mUeIW1uM/prompts/02_Conservative_Safety_Perspective.txt",
+      "output_json": "/data_4/liuyuan/lifebench/public_data_filter/batch_outputs/web_20260429T170230Z/reviews/web_h264/youtube__CL2mUeIW1uM/agent_outputs/02_Conservative_Safety_Perspective.json",
+      "stdout_log": "/data_4/liuyuan/lifebench/public_data_filter/batch_outputs/web_20260429T170230Z/reviews/web_h264/youtube__CL2mUeIW1uM/logs/02_Conservative_Safety_Perspective.stdout.log",
+      "stderr_log": "/data_4/liuyuan/lifebench/public_data_filter/batch_outputs/web_20260429T170230Z/reviews/web_h264/youtube__CL2mUeIW1uM/logs/02_Conservative_Safety_Perspective.stderr.log",
+      "worker_id": null,
+      "gpu_id": null,
+      "returncode": 0,
+      "elapsed_seconds": 0.0,
+      "reused_agent_output": true,
+      "response": "Risk presence: Yes\nLevel 1 scene: yard\nLevel 2 subject: older adult\nLevel 3 risk type: heat/fire source\nRisk description: An open flame is visible near the patio area, posing a burn risk to the person sitting nearby and others in the vicinity.\nRisk time interval: [13,15]\nSolution for person: Move away from the open flame immediately to avoid potential burns.\nSolution for hazard source: Ensure open flames are kept at a safe distance from people and flammable materials.\nSolution to prevent recurrence: Install a fire extinguisher nearby and educate on safe use of open flames in outdoor areas.\nNormal video description: The video shows a backyard scene with an older adult sitting at a table near a patio.",
+      "parsed_decision": {
+        "candidate_behavior": "",
+        "risk_presence_raw": "Yes",
+        "risk_presence": "Yes",
+        "keep_raw": "Yes",
+        "keep": true,
+        "level1_scene": "yard",
+        "level2_subject": "older adult",
+        "level3_risk_type": "heat/fire source",
+        "risk_description": "An open flame is visible near the patio area, posing a burn risk to the person sitting nearby and others in the vicinity.",
+        "risk_time_interval": "[13,15]",
+        "solution_for_person": "Move away from the open flame immediately to avoid potential burns.",
+        "solution_for_hazard_source": "Ensure open flames are kept at a safe distance from people and flammable materials.",
+        "solution_to_prevent_recurrence": "Install a fire extinguisher nearby and educate on safe use of open flames in outdoor areas.",
+        "normal_video_description": "The video shows a backyard scene with an older adult sitting at a table near a patio.",
+        "reason": ""
+      },
+      "runner_payload": {
+        "backend": "minicpmv45",
+        "description": "MiniCPM-V 4.5 efficient image/video understanding model",
+        "model_id": "openbmb/MiniCPM-V-4_5",
+        "model_path": "/data_4/liuyuan/lifebench/models/openbmb__MiniCPM-V-4_5",
+        "video_path": "/data_4/liuyuan/lifebench/data/public_data/web_h264/youtube__CL2mUeIW1uM.mp4",
+        "prompt": "You are acting as a conservative safety reviewer.\nYour task is to minimize missed risks. If a candidate behavior has a realistic possibility of injury, loss of control, or accident triggering, it may be kept as a risk anomaly.\n\nFollow these principles:\n- Apply a cautious safety standard, prioritizing behaviors that may lead to falls, collisions, burns, electric shock, accidental ingestion, cuts, or other household injuries.\n- Even if harm has not occurred yet, keep the behavior if it already contains a clear risk trigger or is in an accident-prone state.\n- For borderline cases, focus on whether the behavior deserves early intervention rather than waiting for harm to happen.\n- If a behavior would commonly be stopped or warned against by family members, guardians, or caregivers, lean toward keeping it.\n- The goal is to reduce false negatives, so ambiguous cases may be judged slightly conservatively.\n\nOutput requirements for this perspective:\n- Explain what realistic harm the behavior may trigger and why it should or should not be kept under a conservative safety standard.\n- You do not need to prove that harm will definitely occur.\n- Do not exaggerate beyond an ordinary household context.\n\nTask addendum:\nReview the input video and first decide whether the video contains a risk.\nBase your judgment only on the video content. Do not assume facts outside the video, and do not invent extra events.\nJudge the main visible behavior and scene in the video.\nYou must answer based on the provided video input. Do not say that you cannot watch or inspect the video.\nOutput exactly the following English-labeled fields, with no markdown and no extra text:\nRisk presence: Yes / No\nLevel 1 scene: output one scene keyword. Prefer one of: dining room, kitchen, study, balcony, living room, bathroom, yard. If none fits, output your own concise scene keyword.\nLevel 2 subject: output one subject keyword. Prefer one of: child, older adult, young adult, middle-aged adult. If none fits, output your own concise subject keyword.\nLevel 3 risk type: if Risk presence is Yes, output one risk keyword. Prefer one of: fall/instability, heat/fire source, collision/crush injury, sharp-object danger, electrical safety, poisoning/accidental ingestion, interpersonal conflict. If none fits, output your own concise risk keyword. If Risk presence is No, output None.\nRisk description: if Risk presence is Yes, describe the risk in 1-3 sentences. If Risk presence is No, output None.\nRisk time interval: if Risk presence is Yes, localize the risk as seconds like [start,end]. If there are multiple intervals, separate them with semicolons. If the exact interval is unclear, output Unknown. If Risk presence is No, output None.\nSolution for person: if Risk presence is Yes, give a concrete action for the person or caregiver. If Risk presence is No, output None.\nSolution for hazard source: if Risk presence is Yes, give a concrete action for the hazard source or environment. If Risk presence is No, output None.\nSolution to prevent recurrence: if Risk presence is Yes, give a prevention measure to reduce recurrence. If Risk presence is No, output None.\nNormal video description: if Risk presence is No, describe the normal video content in 1-3 sentences. If Risk presence is Yes, output None.",
+        "response": "Risk presence: Yes\nLevel 1 scene: yard\nLevel 2 subject: older adult\nLevel 3 risk type: heat/fire source\nRisk description: An open flame is visible near the patio area, posing a burn risk to the person sitting nearby and others in the vicinity.\nRisk time interval: [13,15]\nSolution for person: Move away from the open flame immediately to avoid potential burns.\nSolution for hazard source: Ensure open flames are kept at a safe distance from people and flammable materials.\nSolution to prevent recurrence: Install a fire extinguisher nearby and educate on safe use of open flames in outdoor areas.\nNormal video description: The video shows a backyard scene with an older adult sitting at a table near a patio.",
+        "parsed_response": {
+          "risk_status": "normal",
+          "has_risk": false,
+          "risk_type": "",
+          "video_description": "Risk presence: Yes Level 1 scene: yard Level 2 subject: older adult Level 3 risk type: heat/fire source Risk description: An open flame is visible near the patio area, posing a burn risk to the person sitting nearby and others in the vicinity. Risk time interval: [13,15] Solution for person: Move away from the open flame immediately to avoid potential burns. Solution for hazard source: Ensure open flames are kept at a safe distance from people and flammable materials. Solution to prevent recurrence: Install a fire extinguisher nearby and educate on safe use of open flames in outdoor areas. Normal video description: The video shows a backyard scene with an older adult sitting at a table near a patio.",
+          "safe_segment_desc": "Risk presence: Yes Level 1 scene: yard Level 2 subject: older adult Level 3 risk type: heat/fire source Risk description: An open flame is visible near the patio area, posing a burn risk to the person sitting nearby and others in the vicinity. Risk time interval: [13,15] Solution for person: Move away from the open flame immediately to avoid potential burns. Solution for hazard source: Ensure open flames are kept at a safe distance from people and flammable materials. Solution to prevent recurrence: Install a fire extinguisher nearby and educate on safe use of open flames in outdoor areas. Normal video description: The video shows a backyard scene with an older adult sitting at a table near a patio.",
+          "risk_description": "",
+          "solution": "",
+          "time_spans": []
+        },
+        "generation": {
+          "temperature": 0.0,
+          "top_p": 0.9,
+          "max_new_tokens": 256,
+          "fps": 1.0,
+          "max_frames": 16,
+          "merge_size": 2
+        },
+        "elapsed_seconds": 12.165
+      }
+    },
+    {
+      "perspective": {
+        "index": 3,
+        "name": "Permissive Behavior Tolerance Perspective",
+        "prompt": "You are acting as a permissive behavior-tolerance reviewer.\nYour task is to judge from a higher tolerance threshold whether a candidate behavior truly reaches the level of a risk anomaly. Only keep it when the behavior clearly exceeds normal activity, playfulness, exploration, or brief mistakes.\n\nFollow these principles:\n- Maintain reasonable tolerance for common active behavior, brief imbalance, and minor irregular actions in household scenes.\n- Keep a behavior only when it has clear, direct, and realistic danger, or when it clearly leaves the boundary of generally acceptable daily behavior.\n- If a behavior has some uncertainty but commonly occurs in real life and would not usually be considered dangerous enough for special intervention, lean toward not keeping it.\n- For borderline cases, prioritize avoiding over-definition of ordinary life behavior as abnormal.\n- The goal is to reduce false positives, so keep only when the evidence is reasonably strong.\n\nOutput requirements for this perspective:\n- Explain whether the behavior remains within a tolerable daily behavior range.\n- Do not keep a behavior merely because it has a small possible risk.\n- Do not automatically treat all child play, pet activity, slow elderly movement, or similar ordinary behavior as abnormal."
+      },
+      "model": {
+        "model_id": "Qwen/Qwen3.5-9B",
+        "backend": "qwen35vl"
+      },
+      "prompt_file": "/data_4/liuyuan/lifebench/public_data_filter/batch_outputs/web_20260429T170230Z/reviews/web_h264/youtube__CL2mUeIW1uM/prompts/03_Permissive_Behavior_Tolerance_Perspective.txt",
+      "output_json": "/data_4/liuyuan/lifebench/public_data_filter/batch_outputs/web_20260429T170230Z/reviews/web_h264/youtube__CL2mUeIW1uM/agent_outputs/03_Permissive_Behavior_Tolerance_Perspective.json",
+      "stdout_log": "/data_4/liuyuan/lifebench/public_data_filter/batch_outputs/web_20260429T170230Z/reviews/web_h264/youtube__CL2mUeIW1uM/logs/03_Permissive_Behavior_Tolerance_Perspective.stdout.log",
+      "stderr_log": "/data_4/liuyuan/lifebench/public_data_filter/batch_outputs/web_20260429T170230Z/reviews/web_h264/youtube__CL2mUeIW1uM/logs/03_Permissive_Behavior_Tolerance_Perspective.stderr.log",
+      "worker_id": null,
+      "gpu_id": null,
+      "returncode": 0,
+      "elapsed_seconds": 0.0,
+      "reused_agent_output": true,
+      "response": "Risk presence: Yes\nLevel 1 scene: yard\nLevel 2 subject: older adult\nLevel 3 risk type: heat/fire source\nRisk description: An unattended fire on an outdoor table suddenly erupts into large flames, engulfing the table and posing a direct fire hazard to the person sitting nearby.\nRisk time interval: [0, 14]\nSolution for person: The person should immediately stand up and move away from the fire to a safe distance to avoid burns.\nSolution for hazard source: The fire source should be extinguished immediately using a fire extinguisher, water, or by smothering it with a heavy object.\nSolution to prevent recurrence: Install fire safety equipment like extinguishers in the yard and ensure all outdoor cooking or fire sources are supervised at all times.\nNormal video description: None",
+      "parsed_decision": {
+        "candidate_behavior": "",
+        "risk_presence_raw": "Yes",
+        "risk_presence": "Yes",
+        "keep_raw": "Yes",
+        "keep": true,
+        "level1_scene": "yard",
+        "level2_subject": "older adult",
+        "level3_risk_type": "heat/fire source",
+        "risk_description": "An unattended fire on an outdoor table suddenly erupts into large flames, engulfing the table and posing a direct fire hazard to the person sitting nearby.",
+        "risk_time_interval": "[0, 14]",
+        "solution_for_person": "The person should immediately stand up and move away from the fire to a safe distance to avoid burns.",
+        "solution_for_hazard_source": "The fire source should be extinguished immediately using a fire extinguisher, water, or by smothering it with a heavy object.",
+        "solution_to_prevent_recurrence": "Install fire safety equipment like extinguishers in the yard and ensure all outdoor cooking or fire sources are supervised at all times.",
+        "normal_video_description": "None",
+        "reason": ""
+      },
+      "runner_payload": {
+        "backend": "qwen35vl",
+        "description": "Qwen3.5 multimodal single-video inference",
+        "model_id": "Qwen/Qwen3.5-9B",
+        "model_path": "/data_4/liuyuan/lifebench/models/Qwen/Qwen3.5-9B",
+        "video_path": "/data_4/liuyuan/lifebench/data/public_data/web_h264/youtube__CL2mUeIW1uM.mp4",
+        "prompt": "You are acting as a permissive behavior-tolerance reviewer.\nYour task is to judge from a higher tolerance threshold whether a candidate behavior truly reaches the level of a risk anomaly. Only keep it when the behavior clearly exceeds normal activity, playfulness, exploration, or brief mistakes.\n\nFollow these principles:\n- Maintain reasonable tolerance for common active behavior, brief imbalance, and minor irregular actions in household scenes.\n- Keep a behavior only when it has clear, direct, and realistic danger, or when it clearly leaves the boundary of generally acceptable daily behavior.\n- If a behavior has some uncertainty but commonly occurs in real life and would not usually be considered dangerous enough for special intervention, lean toward not keeping it.\n- For borderline cases, prioritize avoiding over-definition of ordinary life behavior as abnormal.\n- The goal is to reduce false positives, so keep only when the evidence is reasonably strong.\n\nOutput requirements for this perspective:\n- Explain whether the behavior remains within a tolerable daily behavior range.\n- Do not keep a behavior merely because it has a small possible risk.\n- Do not automatically treat all child play, pet activity, slow elderly movement, or similar ordinary behavior as abnormal.\n\nTask addendum:\nReview the input video and first decide whether the video contains a risk.\nBase your judgment only on the video content. Do not assume facts outside the video, and do not invent extra events.\nJudge the main visible behavior and scene in the video.\nYou must answer based on the provided video input. Do not say that you cannot watch or inspect the video.\nOutput exactly the following English-labeled fields, with no markdown and no extra text:\nRisk presence: Yes / No\nLevel 1 scene: output one scene keyword. Prefer one of: dining room, kitchen, study, balcony, living room, bathroom, yard. If none fits, output your own concise scene keyword.\nLevel 2 subject: output one subject keyword. Prefer one of: child, older adult, young adult, middle-aged adult. If none fits, output your own concise subject keyword.\nLevel 3 risk type: if Risk presence is Yes, output one risk keyword. Prefer one of: fall/instability, heat/fire source, collision/crush injury, sharp-object danger, electrical safety, poisoning/accidental ingestion, interpersonal conflict. If none fits, output your own concise risk keyword. If Risk presence is No, output None.\nRisk description: if Risk presence is Yes, describe the risk in 1-3 sentences. If Risk presence is No, output None.\nRisk time interval: if Risk presence is Yes, localize the risk as seconds like [start,end]. If there are multiple intervals, separate them with semicolons. If the exact interval is unclear, output Unknown. If Risk presence is No, output None.\nSolution for person: if Risk presence is Yes, give a concrete action for the person or caregiver. If Risk presence is No, output None.\nSolution for hazard source: if Risk presence is Yes, give a concrete action for the hazard source or environment. If Risk presence is No, output None.\nSolution to prevent recurrence: if Risk presence is Yes, give a prevention measure to reduce recurrence. If Risk presence is No, output None.\nNormal video description: if Risk presence is No, describe the normal video content in 1-3 sentences. If Risk presence is Yes, output None.",
+        "response": "Risk presence: Yes\nLevel 1 scene: yard\nLevel 2 subject: older adult\nLevel 3 risk type: heat/fire source\nRisk description: An unattended fire on an outdoor table suddenly erupts into large flames, engulfing the table and posing a direct fire hazard to the person sitting nearby.\nRisk time interval: [0, 14]\nSolution for person: The person should immediately stand up and move away from the fire to a safe distance to avoid burns.\nSolution for hazard source: The fire source should be extinguished immediately using a fire extinguisher, water, or by smothering it with a heavy object.\nSolution to prevent recurrence: Install fire safety equipment like extinguishers in the yard and ensure all outdoor cooking or fire sources are supervised at all times.\nNormal video description: None",
+        "parsed_response": {
+          "risk_status": "normal",
+          "has_risk": false,
+          "risk_type": "",
+          "video_description": "Risk presence: Yes Level 1 scene: yard Level 2 subject: older adult Level 3 risk type: heat/fire source Risk description: An unattended fire on an outdoor table suddenly erupts into large flames, engulfing the table and posing a direct fire hazard to the person sitting nearby. Risk time interval: [0, 14] Solution for person: The person should immediately stand up and move away from the fire to a safe distance to avoid burns. Solution for hazard source: The fire source should be extinguished immediately using a fire extinguisher, water, or by smothering it with a heavy object. Solution to prevent recurrence: Install fire safety equipment like extinguishers in the yard and ensure all outdoor cooking or fire sources are supervised at all times. Normal video description: None",
+          "safe_segment_desc": "Risk presence: Yes Level 1 scene: yard Level 2 subject: older adult Level 3 risk type: heat/fire source Risk description: An unattended fire on an outdoor table suddenly erupts into large flames, engulfing the table and posing a direct fire hazard to the person sitting nearby. Risk time interval: [0, 14] Solution for person: The person should immediately stand up and move away from the fire to a safe distance to avoid burns. Solution for hazard source: The fire source should be extinguished immediately using a fire extinguisher, water, or by smothering it with a heavy object. Solution to prevent recurrence: Install fire safety equipment like extinguishers in the yard and ensure all outdoor cooking or fire sources are supervised at all times. Normal video description: None",
+          "risk_description": "",
+          "solution": "",
+          "time_spans": []
+        },
+        "generation": {
+          "temperature": 0.0,
+          "top_p": 0.9,
+          "max_new_tokens": 256,
+          "fps": 1.0,
+          "max_frames": 16,
+          "merge_size": 2
+        },
+        "elapsed_seconds": 17.457
+      }
+    },
+    {
+      "perspective": {
+        "index": 4,
+        "name": "Vulnerable-Subject-First Perspective",
+        "prompt": "You are acting as a vulnerable-subject-first reviewer.\nYour task is to judge the candidate behavior with priority given to the safety of children, older adults, people with limited mobility, people recovering from illness, pregnant people, pets, or other vulnerable subjects. If the behavior creates a realistic additional risk for a vulnerable subject, lean toward keeping it as a risk anomaly.\n\nFollow these principles:\n- Focus on whether the behavior creates disproportionate risk for a subject with weaker body control, weaker risk awareness, or limited self-protection ability.\n- A behavior that may not be abnormal for an ordinary adult can still be a risk anomaly if its danger clearly increases for a child, older adult, pet, or other vulnerable subject.\n- For borderline cases, consider whether the vulnerable subject would have more difficulty avoiding injury, would suffer more serious consequences, or would receive help more slowly.\n- In caregiving, companionship, or household life scenes, pay special attention to insufficient supervision, missing protection, or an environment that does not fit the subject's needs.\n- The core standard is not whether the behavior is dangerous for an average adult, but whether it has reached a level requiring attention or intervention for the vulnerable subject shown in the video.\n\nOutput requirements for this perspective:\n- Explain the specific risk to the vulnerable subject, if one is present.\n- Do not invent illness, disability, age, or severe impairment that is not supported by the video.\n- Do not generalize vulnerability without evidence from the video."
+      },
+      "model": {
+        "model_id": "OpenGVLab/InternVL3_5-8B",
+        "backend": "internvl35"
+      },
+      "prompt_file": "/data_4/liuyuan/lifebench/public_data_filter/batch_outputs/web_20260429T170230Z/reviews/web_h264/youtube__CL2mUeIW1uM/prompts/04_Vulnerable-Subject-First_Perspective.txt",
+      "output_json": "/data_4/liuyuan/lifebench/public_data_filter/batch_outputs/web_20260429T170230Z/reviews/web_h264/youtube__CL2mUeIW1uM/agent_outputs/04_Vulnerable-Subject-First_Perspective.json",
+      "stdout_log": "/data_4/liuyuan/lifebench/public_data_filter/batch_outputs/web_20260429T170230Z/reviews/web_h264/youtube__CL2mUeIW1uM/logs/04_Vulnerable-Subject-First_Perspective.stdout.log",
+      "stderr_log": "/data_4/liuyuan/lifebench/public_data_filter/batch_outputs/web_20260429T170230Z/reviews/web_h264/youtube__CL2mUeIW1uM/logs/04_Vulnerable-Subject-First_Perspective.stderr.log",
+      "worker_id": null,
+      "gpu_id": null,
+      "returncode": 0,
+      "elapsed_seconds": 0.0,
+      "reused_agent_output": true,
+      "response": "Risk presence: Yes\nLevel 1 scene: yard\nLevel 2 subject: older adult\nLevel 3 risk type: heat/fire source\nRisk description: The older adult is near an outdoor fire pit, which poses a burn risk if they accidentally come into contact with the flames or hot surfaces.\nRisk time interval: [10, 20]\nSolution for person: Ensure the older adult maintains a safe distance from the fire pit and uses protective gear if necessary.\nSolution for hazard source: Install a fire barrier or screen around the fire pit to contain any potential flames.\nSolution to prevent recurrence: Regularly inspect and maintain the fire pit to ensure it is functioning safely and does not pose a risk.\nNormal video description: None",
+      "parsed_decision": {
+        "candidate_behavior": "",
+        "risk_presence_raw": "Yes",
+        "risk_presence": "Yes",
+        "keep_raw": "Yes",
+        "keep": true,
+        "level1_scene": "yard",
+        "level2_subject": "older adult",
+        "level3_risk_type": "heat/fire source",
+        "risk_description": "The older adult is near an outdoor fire pit, which poses a burn risk if they accidentally come into contact with the flames or hot surfaces.",
+        "risk_time_interval": "[10, 20]",
+        "solution_for_person": "Ensure the older adult maintains a safe distance from the fire pit and uses protective gear if necessary.",
+        "solution_for_hazard_source": "Install a fire barrier or screen around the fire pit to contain any potential flames.",
+        "solution_to_prevent_recurrence": "Regularly inspect and maintain the fire pit to ensure it is functioning safely and does not pose a risk.",
+        "normal_video_description": "None",
+        "reason": ""
+      },
+      "runner_payload": {
+        "backend": "internvl35",
+        "description": "InternVL3.5 8B multimodal video chat model",
+        "model_id": "OpenGVLab/InternVL3_5-8B",
+        "model_path": "/data_4/liuyuan/lifebench/models/OpenGVLab__InternVL3_5-8B",
+        "video_path": "/data_4/liuyuan/lifebench/data/public_data/web_h264/youtube__CL2mUeIW1uM.mp4",
+        "prompt": "You are acting as a vulnerable-subject-first reviewer.\nYour task is to judge the candidate behavior with priority given to the safety of children, older adults, people with limited mobility, people recovering from illness, pregnant people, pets, or other vulnerable subjects. If the behavior creates a realistic additional risk for a vulnerable subject, lean toward keeping it as a risk anomaly.\n\nFollow these principles:\n- Focus on whether the behavior creates disproportionate risk for a subject with weaker body control, weaker risk awareness, or limited self-protection ability.\n- A behavior that may not be abnormal for an ordinary adult can still be a risk anomaly if its danger clearly increases for a child, older adult, pet, or other vulnerable subject.\n- For borderline cases, consider whether the vulnerable subject would have more difficulty avoiding injury, would suffer more serious consequences, or would receive help more slowly.\n- In caregiving, companionship, or household life scenes, pay special attention to insufficient supervision, missing protection, or an environment that does not fit the subject's needs.\n- The core standard is not whether the behavior is dangerous for an average adult, but whether it has reached a level requiring attention or intervention for the vulnerable subject shown in the video.\n\nOutput requirements for this perspective:\n- Explain the specific risk to the vulnerable subject, if one is present.\n- Do not invent illness, disability, age, or severe impairment that is not supported by the video.\n- Do not generalize vulnerability without evidence from the video.\n\nTask addendum:\nReview the input video and first decide whether the video contains a risk.\nBase your judgment only on the video content. Do not assume facts outside the video, and do not invent extra events.\nJudge the main visible behavior and scene in the video.\nYou must answer based on the provided video input. Do not say that you cannot watch or inspect the video.\nOutput exactly the following English-labeled fields, with no markdown and no extra text:\nRisk presence: Yes / No\nLevel 1 scene: output one scene keyword. Prefer one of: dining room, kitchen, study, balcony, living room, bathroom, yard. If none fits, output your own concise scene keyword.\nLevel 2 subject: output one subject keyword. Prefer one of: child, older adult, young adult, middle-aged adult. If none fits, output your own concise subject keyword.\nLevel 3 risk type: if Risk presence is Yes, output one risk keyword. Prefer one of: fall/instability, heat/fire source, collision/crush injury, sharp-object danger, electrical safety, poisoning/accidental ingestion, interpersonal conflict. If none fits, output your own concise risk keyword. If Risk presence is No, output None.\nRisk description: if Risk presence is Yes, describe the risk in 1-3 sentences. If Risk presence is No, output None.\nRisk time interval: if Risk presence is Yes, localize the risk as seconds like [start,end]. If there are multiple intervals, separate them with semicolons. If the exact interval is unclear, output Unknown. If Risk presence is No, output None.\nSolution for person: if Risk presence is Yes, give a concrete action for the person or caregiver. If Risk presence is No, output None.\nSolution for hazard source: if Risk presence is Yes, give a concrete action for the hazard source or environment. If Risk presence is No, output None.\nSolution to prevent recurrence: if Risk presence is Yes, give a prevention measure to reduce recurrence. If Risk presence is No, output None.\nNormal video description: if Risk presence is No, describe the normal video content in 1-3 sentences. If Risk presence is Yes, output None.",
+        "response": "Risk presence: Yes\nLevel 1 scene: yard\nLevel 2 subject: older adult\nLevel 3 risk type: heat/fire source\nRisk description: The older adult is near an outdoor fire pit, which poses a burn risk if they accidentally come into contact with the flames or hot surfaces.\nRisk time interval: [10, 20]\nSolution for person: Ensure the older adult maintains a safe distance from the fire pit and uses protective gear if necessary.\nSolution for hazard source: Install a fire barrier or screen around the fire pit to contain any potential flames.\nSolution to prevent recurrence: Regularly inspect and maintain the fire pit to ensure it is functioning safely and does not pose a risk.\nNormal video description: None",
+        "parsed_response": {
+          "risk_status": "normal",
+          "has_risk": false,
+          "risk_type": "",
+          "video_description": "Risk presence: Yes Level 1 scene: yard Level 2 subject: older adult Level 3 risk type: heat/fire source Risk description: The older adult is near an outdoor fire pit, which poses a burn risk if they accidentally come into contact with the flames or hot surfaces. Risk time interval: [10, 20] Solution for person: Ensure the older adult maintains a safe distance from the fire pit and uses protective gear if necessary. Solution for hazard source: Install a fire barrier or screen around the fire pit to contain any potential flames. Solution to prevent recurrence: Regularly inspect and maintain the fire pit to ensure it is functioning safely and does not pose a risk. Normal video description: None",
+          "safe_segment_desc": "Risk presence: Yes Level 1 scene: yard Level 2 subject: older adult Level 3 risk type: heat/fire source Risk description: The older adult is near an outdoor fire pit, which poses a burn risk if they accidentally come into contact with the flames or hot surfaces. Risk time interval: [10, 20] Solution for person: Ensure the older adult maintains a safe distance from the fire pit and uses protective gear if necessary. Solution for hazard source: Install a fire barrier or screen around the fire pit to contain any potential flames. Solution to prevent recurrence: Regularly inspect and maintain the fire pit to ensure it is functioning safely and does not pose a risk. Normal video description: None",
+          "risk_description": "",
+          "solution": "",
+          "time_spans": []
+        },
+        "generation": {
+          "temperature": 0.0,
+          "top_p": 0.9,
+          "max_new_tokens": 256,
+          "fps": 1.0,
+          "max_frames": 16,
+          "merge_size": 2
+        },
+        "elapsed_seconds": 12.008
+      }
+    },
+    {
+      "perspective": {
+        "index": 5,
+        "name": "Consequence-Severity-First Perspective",
+        "prompt": "You are acting as a consequence-severity-first reviewer.\nYour task is to focus on whether the potential consequences of a risk event would be serious, hard to reverse, or costly to intervene in. Even if the probability is not the highest, keep the behavior if the realistic potential consequence is severe enough.\n\nFollow these principles:\n- Prioritize behaviors that could realistically lead to severe injury, long-term impact, emergency medical care, lasting functional impairment, or major property or environmental damage.\n- Judge not only whether an accident is likely, but also how costly the consequence would be if it occurred.\n- For borderline cases, analyze whether the most realistic negative consequence is already too significant to ignore.\n- If a behavior may lead to burns from heat, electric shock, falling from height, severe collision, poisoning, suffocation, or other serious outcomes, lean toward keeping it.\n- The standard emphasizes prevention of severe consequences, so low-probability but high-damage scenarios may justify keeping the behavior.\n\nOutput requirements for this perspective:\n- Explain the realistic severity of the possible consequence if the behavior develops into an accident.\n- Do not exaggerate minor or unimportant consequences.\n- Do not rely on extremely rare catastrophic scenarios without realistic support from the video."
+      },
+      "model": {
+        "model_id": "DAMO-NLP-SG/VideoLLaMA3-7B",
+        "backend": "videollama3"
+      },
+      "prompt_file": "/data_4/liuyuan/lifebench/public_data_filter/batch_outputs/web_20260429T170230Z/reviews/web_h264/youtube__CL2mUeIW1uM/prompts/05_Consequence-Severity-First_Perspective.txt",
+      "output_json": "/data_4/liuyuan/lifebench/public_data_filter/batch_outputs/web_20260429T170230Z/reviews/web_h264/youtube__CL2mUeIW1uM/agent_outputs/05_Consequence-Severity-First_Perspective.json",
+      "stdout_log": "/data_4/liuyuan/lifebench/public_data_filter/batch_outputs/web_20260429T170230Z/reviews/web_h264/youtube__CL2mUeIW1uM/logs/05_Consequence-Severity-First_Perspective.stdout.log",
+      "stderr_log": "/data_4/liuyuan/lifebench/public_data_filter/batch_outputs/web_20260429T170230Z/reviews/web_h264/youtube__CL2mUeIW1uM/logs/05_Consequence-Severity-First_Perspective.stderr.log",
+      "worker_id": null,
+      "gpu_id": null,
+      "returncode": 0,
+      "elapsed_seconds": 0.0,
+      "reused_agent_output": true,
+      "response": "Risk presence: Yes\nLevel 1 scene: yard\nLevel 2 subject: middle-aged adult\nLevel 3 risk type: heat/fire source\nRisk description: The person is standing near a fire pit in the backyard, which could potentially cause burns or start a fire if not handled properly.\nRisk time interval: Unknown\nSolution for person: Keep a safe distance from the fire pit and ensure it is fully extinguished before leaving the area.\nSolution for hazard source: Ensure the fire pit is used responsibly and under proper supervision to prevent accidents.\nSolution to prevent recurrence: Regularly inspect the fire pit for any damage or wear that could lead to accidents.",
+      "parsed_decision": {
+        "candidate_behavior": "",
+        "risk_presence_raw": "Yes",
+        "risk_presence": "Yes",
+        "keep_raw": "Yes",
+        "keep": true,
+        "level1_scene": "yard",
+        "level2_subject": "middle-aged adult",
+        "level3_risk_type": "heat/fire source",
+        "risk_description": "The person is standing near a fire pit in the backyard, which could potentially cause burns or start a fire if not handled properly.",
+        "risk_time_interval": "Unknown",
+        "solution_for_person": "Keep a safe distance from the fire pit and ensure it is fully extinguished before leaving the area.",
+        "solution_for_hazard_source": "Ensure the fire pit is used responsibly and under proper supervision to prevent accidents.",
+        "solution_to_prevent_recurrence": "Regularly inspect the fire pit for any damage or wear that could lead to accidents.",
+        "normal_video_description": "",
+        "reason": ""
+      },
+      "runner_payload": {
+        "backend": "videollama3",
+        "description": "VideoLLaMA3 7B video chat model",
+        "model_id": "DAMO-NLP-SG/VideoLLaMA3-7B",
+        "model_path": "/data_4/liuyuan/lifebench/models/DAMO-NLP-SG__VideoLLaMA3-7B",
+        "video_path": "/data_4/liuyuan/lifebench/data/public_data/web_h264/youtube__CL2mUeIW1uM.mp4",
+        "prompt": "You are acting as a consequence-severity-first reviewer.\nYour task is to focus on whether the potential consequences of a risk event would be serious, hard to reverse, or costly to intervene in. Even if the probability is not the highest, keep the behavior if the realistic potential consequence is severe enough.\n\nFollow these principles:\n- Prioritize behaviors that could realistically lead to severe injury, long-term impact, emergency medical care, lasting functional impairment, or major property or environmental damage.\n- Judge not only whether an accident is likely, but also how costly the consequence would be if it occurred.\n- For borderline cases, analyze whether the most realistic negative consequence is already too significant to ignore.\n- If a behavior may lead to burns from heat, electric shock, falling from height, severe collision, poisoning, suffocation, or other serious outcomes, lean toward keeping it.\n- The standard emphasizes prevention of severe consequences, so low-probability but high-damage scenarios may justify keeping the behavior.\n\nOutput requirements for this perspective:\n- Explain the realistic severity of the possible consequence if the behavior develops into an accident.\n- Do not exaggerate minor or unimportant consequences.\n- Do not rely on extremely rare catastrophic scenarios without realistic support from the video.\n\nTask addendum:\nReview the input video and first decide whether the video contains a risk.\nBase your judgment only on the video content. Do not assume facts outside the video, and do not invent extra events.\nJudge the main visible behavior and scene in the video.\nYou must answer based on the provided video input. Do not say that you cannot watch or inspect the video.\nOutput exactly the following English-labeled fields, with no markdown and no extra text:\nRisk presence: Yes / No\nLevel 1 scene: output one scene keyword. Prefer one of: dining room, kitchen, study, balcony, living room, bathroom, yard. If none fits, output your own concise scene keyword.\nLevel 2 subject: output one subject keyword. Prefer one of: child, older adult, young adult, middle-aged adult. If none fits, output your own concise subject keyword.\nLevel 3 risk type: if Risk presence is Yes, output one risk keyword. Prefer one of: fall/instability, heat/fire source, collision/crush injury, sharp-object danger, electrical safety, poisoning/accidental ingestion, interpersonal conflict. If none fits, output your own concise risk keyword. If Risk presence is No, output None.\nRisk description: if Risk presence is Yes, describe the risk in 1-3 sentences. If Risk presence is No, output None.\nRisk time interval: if Risk presence is Yes, localize the risk as seconds like [start,end]. If there are multiple intervals, separate them with semicolons. If the exact interval is unclear, output Unknown. If Risk presence is No, output None.\nSolution for person: if Risk presence is Yes, give a concrete action for the person or caregiver. If Risk presence is No, output None.\nSolution for hazard source: if Risk presence is Yes, give a concrete action for the hazard source or environment. If Risk presence is No, output None.\nSolution to prevent recurrence: if Risk presence is Yes, give a prevention measure to reduce recurrence. If Risk presence is No, output None.\nNormal video description: if Risk presence is No, describe the normal video content in 1-3 sentences. If Risk presence is Yes, output None.",
+        "response": "Risk presence: Yes\nLevel 1 scene: yard\nLevel 2 subject: middle-aged adult\nLevel 3 risk type: heat/fire source\nRisk description: The person is standing near a fire pit in the backyard, which could potentially cause burns or start a fire if not handled properly.\nRisk time interval: Unknown\nSolution for person: Keep a safe distance from the fire pit and ensure it is fully extinguished before leaving the area.\nSolution for hazard source: Ensure the fire pit is used responsibly and under proper supervision to prevent accidents.\nSolution to prevent recurrence: Regularly inspect the fire pit for any damage or wear that could lead to accidents.",
+        "parsed_response": {
+          "risk_status": "normal",
+          "has_risk": false,
+          "risk_type": "",
+          "video_description": "Risk presence: Yes Level 1 scene: yard Level 2 subject: middle-aged adult Level 3 risk type: heat/fire source Risk description: The person is standing near a fire pit in the backyard, which could potentially cause burns or start a fire if not handled properly. Risk time interval: Unknown Solution for person: Keep a safe distance from the fire pit and ensure it is fully extinguished before leaving the area. Solution for hazard source: Ensure the fire pit is used responsibly and under proper supervision to prevent accidents. Solution to prevent recurrence: Regularly inspect the fire pit for any damage or wear that could lead to accidents.",
+          "safe_segment_desc": "Risk presence: Yes Level 1 scene: yard Level 2 subject: middle-aged adult Level 3 risk type: heat/fire source Risk description: The person is standing near a fire pit in the backyard, which could potentially cause burns or start a fire if not handled properly. Risk time interval: Unknown Solution for person: Keep a safe distance from the fire pit and ensure it is fully extinguished before leaving the area. Solution for hazard source: Ensure the fire pit is used responsibly and under proper supervision to prevent accidents. Solution to prevent recurrence: Regularly inspect the fire pit for any damage or wear that could lead to accidents.",
+          "risk_description": "",
+          "solution": "",
+          "time_spans": []
+        },
+        "generation": {
+          "temperature": 0.0,
+          "top_p": 0.9,
+          "max_new_tokens": 256,
+          "fps": 1.0,
+          "max_frames": 16,
+          "merge_size": 2
+        },
+        "elapsed_seconds": 7.739
+      }
+    }
+  ],
+  "majority_vote": {
+    "complete": true,
+    "keep": true,
+    "risk_presence": "Yes",
+    "yes_count": 5,
+    "no_count": 0,
+    "threshold": 3,
+    "votes_cast": 5,
+    "expected_votes": 5,
+    "kept_by_perspectives": [
+      "Daily Behavior Baseline Perspective",
+      "Conservative Safety Perspective",
+      "Permissive Behavior Tolerance Perspective",
+      "Vulnerable-Subject-First Perspective",
+      "Consequence-Severity-First Perspective"
+    ],
+    "rejected_by_perspectives": [],
+    "level1_scene_keywords": [
+      {
+        "keyword": "yard",
+        "count": 4
+      },
+      {
+        "keyword": "Yard",
+        "count": 1
+      }
+    ],
+    "level1_scene_top": "yard",
+    "level2_subject_keywords": [
+      {
+        "keyword": "older adult",
+        "count": 3
+      },
+      {
+        "keyword": "Older adult",
+        "count": 1
+      },
+      {
+        "keyword": "middle-aged adult",
+        "count": 1
+      }
+    ],
+    "level2_subject_top": "older adult",
+    "level3_risk_type_keywords": [
+      {
+        "keyword": "heat/fire source",
+        "count": 4
+      },
+      {
+        "keyword": "Heat/Fire source",
+        "count": 1
+      }
+    ],
+    "level3_risk_type_top": "heat/fire source"
+  }
+}

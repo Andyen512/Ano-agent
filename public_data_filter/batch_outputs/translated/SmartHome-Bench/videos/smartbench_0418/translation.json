@@ -1,0 +1,40 @@
+{
+  "video_key": "SmartHome-Bench/videos/smartbench_0418",
+  "translations": {
+    "0": {
+      "risk_description": "",
+      "normal_video_description": "在车库里可以看到一个人，站在一辆车旁边，似乎正在处理某事。车库灯光充足，周围停有其他车辆。该人穿着休闲服装，专注于自己的任务。",
+      "solution_for_person": "",
+      "solution_for_hazard_source": "",
+      "solution_to_prevent_recurrence": ""
+    },
+    "1": {
+      "risk_description": "此人正把手伸进两辆停放的汽车之间的缝隙，如果车辆意外移动，有被夹住或压伤的风险。",
+      "normal_video_description": "在停车库里，一个人把手伸进两辆停放车辆之间的缝隙，然后后退并离开。",
+      "solution_for_person": "避免把手伸进停放车辆之间的狭窄空间，以防被夹住或压伤。",
+      "solution_for_hazard_source": "确保车辆停放稳固，不会意外移动。",
+      "solution_to_prevent_recurrence": "接近停放汽车之间的狭窄空间时要小心，避免把手伸进缝隙。"
+    },
+    "2": {
+      "risk_description": "看到一个人靠近一辆停放的汽车，打开车门，似乎从车内取出某物后离开。此行为表明可能存在偷窃或未经授权进入车辆的行为。",
+      "normal_video_description": "",
+      "solution_for_person": "",
+      "solution_for_hazard_source": "",
+      "solution_to_prevent_recurrence": "在车辆上安装监控摄像头或报警器，以阻止盗窃。"
+    },
+    "3": {
+      "risk_description": "此人正把身体倾斜进打开的汽车后备箱，如果失去平衡或后备箱内有尖锐物体，可能会导致受伤。",
+      "normal_video_description": "",
+      "solution_for_person": "确保后备箱关闭稳固，访问时保持身体平衡。",
+      "solution_for_hazard_source": "保持后备箱区域没有尖锐物品。",
+      "solution_to_prevent_recurrence": "始终确保后备箱关闭稳固，访问后备箱前确保区域无尖锐物品。"
+    },
+    "4": {
+      "risk_description": "",
+      "normal_video_description": "视频显示一个人在车库里站在汽车旁边，检查或修理车辆。没有明显的风险或危险活动。",
+      "solution_for_person": "",
+      "solution_for_hazard_source": "",
+      "solution_to_prevent_recurrence": ""
+    }
+  }
+}

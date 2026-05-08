@@ -1,0 +1,40 @@
+{
+  "video_key": "SmartHome-Bench/videos/smartbench_0514",
+  "translations": {
+    "0": {
+      "risk_description": "可以看到一名年轻人正在打开车门并上车，如果他们没有正确系好安全带，可能会导致车辆不稳定。",
+      "normal_video_description": "视频显示一名年轻人上车并驶离，这是一项正常行为。",
+      "solution_for_person": "在驾驶前，确保年轻人正确系好安全带。",
+      "solution_for_hazard_source": "",
+      "solution_to_prevent_recurrence": "教育年轻人正确系好安全带的重要性，以防止跌倒和车辆不稳。"
+    },
+    "1": {
+      "risk_description": "该人正从车门打开的状态下探身出车，若车辆意外移动或车门在其探身时关闭，存在被车辆撞击的风险。",
+      "normal_video_description": "视频显示一个人在夜间车道上打开车门探身出车，伴随汽车喇叭声。",
+      "solution_for_person": "在车辆完全停稳、车门安全关闭之前，应避免打开车门探身出车。",
+      "solution_for_hazard_source": "在打开车门探身出车前，确保车辆完全静止。",
+      "solution_to_prevent_recurrence": "在打开车门探身出车前，务必检查来车并确保车辆已挂入停车挡。"
+    },
+    "2": {
+      "risk_description": "",
+      "normal_video_description": "视频显示夜间监控摄像头拍摄的车道，有两辆停放的汽车。可以看到一个人从左边汽车的驾驶座下车，关上车门后再次上车。场景平静，展示正常的日常活动，未出现任何危险或风险的迹象。",
+      "solution_for_person": "",
+      "solution_for_hazard_source": "",
+      "solution_to_prevent_recurrence": ""
+    },
+    "3": {
+      "risk_description": "视频显示车门打开且有儿童在车内，若车辆意外启动，存在碰撞或挤压伤害的风险。",
+      "normal_video_description": "",
+      "solution_for_person": "在车辆行驶前，确保车门已安全关闭，且儿童已安全坐好。",
+      "solution_for_hazard_source": "在车门上安装儿童安全锁，以防止意外开门。",
+      "solution_to_prevent_recurrence": "当儿童靠近或在车内时，应始终监督，并确保所有车门已正确关闭。"
+    },
+    "4": {
+      "risk_description": "",
+      "normal_video_description": "视频显示夜间停车场的静止场景，两辆汽车并排停放。画面聚焦在前景那辆打开车头灯的汽车，车内有人，可能是驾驶员，正望向窗外。没有可见的动作或移动显示任何风险。",
+      "solution_for_person": "",
+      "solution_for_hazard_source": "",
+      "solution_to_prevent_recurrence": ""
+    }
+  }
+}

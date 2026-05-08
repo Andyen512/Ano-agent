@@ -1,0 +1,40 @@
+{
+  "video_key": "web_h264/bilibili__BV13u2DBGE3Z",
+  "translations": {
+    "0": {
+      "risk_description": "孩子正在沙发上玩，沙发不稳定，有坠落的风险。",
+      "normal_video_description": "视频显示一个孩子在客厅的沙发上玩耍，旁边有一位看护人。孩子在不稳定的小沙发上跳跃和玩耍。看护人在监督孩子并确保他们的安全。",
+      "solution_for_person": "看护人应该密切监督孩子，并确保沙发是稳固的。",
+      "solution_for_hazard_source": "应该检查沙发的稳定性，并移除任何潜在的危害物。",
+      "solution_to_prevent_recurrence": "看护人应该在孩子玩沙发时始终监督孩子，并且应该定期检查沙发的稳定性和安全性。"
+    },
+    "1": {
+      "risk_description": "孩子们在沙发上玩，一个孩子站在靠背上，这是不稳定的，有坠落的风险。另一个孩子坐在沙发上，如果站着的孩子失去平衡，就有碰撞或被压伤的风险。",
+      "normal_video_description": "",
+      "solution_for_person": "",
+      "solution_for_hazard_source": "",
+      "solution_to_prevent_recurrence": ""
+    },
+    "2": {
+      "risk_description": "站在沙发上的孩子失去平衡向后倒下，撞到茶几。这种行为超出了正常玩耍的范围，因为摔倒和随后与硬物的碰撞具有很高的受伤风险。",
+      "normal_video_description": "",
+      "solution_for_person": "成人应该立即介入阻止孩子站在沙发上，并确保摔倒后孩子安全。",
+      "solution_for_hazard_source": "茶几应该被移走或固定，以防止摔倒时受伤。",
+      "solution_to_prevent_recurrence": "教育孩子站在家具上的危险，并确保环境已做儿童安全防护以最大程度减少风险。"
+    },
+    "3": {
+      "risk_description": "孩子从沙发摔下来，由于与桌子碰撞和可能的坠落冲击，有头部受伤的风险。",
+      "normal_video_description": "",
+      "solution_for_person": "确保在高处家具附近持续监督儿童，并提供安全的游戏空间以防止坠落。",
+      "solution_for_hazard_source": "固定家具以防止倾倒，并在桌子和尖锐角落周围放置防护垫。",
+      "solution_to_prevent_recurrence": "在沙发区域安装安全门，并教育看护者关于在高处表面附近持续监督孩子的重要性。"
+    },
+    "4": {
+      "risk_description": "看到孩子在沙发上攀爬，这可能导致摔倒和潜在伤害。",
+      "normal_video_description": "",
+      "solution_for_person": "确保孩子受到监督，不被允许攀爬像沙发这样不稳定的家具。",
+      "solution_for_hazard_source": "移除孩子可以用来攀爬沙发的任何物品。",
+      "solution_to_prevent_recurrence": "用带子或垫子固定沙发以防止倾倒，并为孩子提供其他安全的游戏区域。"
+    }
+  }
+}

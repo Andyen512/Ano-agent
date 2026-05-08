@@ -1,0 +1,40 @@
+{
+  "video_key": "SmartHome-Bench/videos/smartbench_0190",
+  "translations": {
+    "0": {
+      "risk_description": "年轻人在夜间走阳台上，因黑暗和可能湿滑的地面而存在危险。该人行走不稳，增加了跌倒的风险。",
+      "normal_video_description": "年轻人在夜间走阳台上，因黑暗和可能湿滑的地面而存在危险。该人行走不稳，增加了跌倒的风险。",
+      "solution_for_person": "此人应由护理人员陪同，或在阳台上配备适当的照明，以确保安全。",
+      "solution_for_hazard_source": "阳台应配备适当的照明和防滑地面，以防止跌倒。",
+      "solution_to_prevent_recurrence": "在夜间走阳台时，此人应更加小心，环境也应改善，以降低跌倒风险。"
+    },
+    "1": {
+      "risk_description": "",
+      "normal_video_description": "一个穿着浅色服装的人在门廊上行走，朝大门走去，跨过低矮的墙，然后跑回门廊，最后离开画面。场景为夜间，可见路灯和停放的汽车。",
+      "solution_for_person": "",
+      "solution_for_hazard_source": "",
+      "solution_to_prevent_recurrence": ""
+    },
+    "2": {
+      "risk_description": "",
+      "normal_video_description": "一位年轻人在夜间从房子走出到门廊，下台阶后跑过院子朝大门奔去。该人行动快速但保持稳定，没有跌倒或碰到任何危险。",
+      "solution_for_person": "",
+      "solution_for_hazard_source": "",
+      "solution_to_prevent_recurrence": ""
+    },
+    "3": {
+      "risk_description": "年轻人在靠近大门的狭窄小路上跑步，这可能会导致绊倒或跌倒，尤其在夜间更危险。",
+      "normal_video_description": "",
+      "solution_for_person": "在狭窄小路上跑步时，年轻人应保持谨慎并放慢速度。",
+      "solution_for_hazard_source": "确保该小路照明充足且无障碍物，以降低绊倒风险。",
+      "solution_to_prevent_recurrence": "安装额外的照明，并清除道路上任何潜在的绊倒危险。"
+    },
+    "4": {
+      "risk_description": "可以看到此人在阳台栏杆上行走，这有跌倒和受重伤的风险。如果此人失去平衡或滑倒，这种行为可能导致严重后果。",
+      "normal_video_description": "",
+      "solution_for_person": "确保此人不站在阳台栏杆上，并远离边缘，以防止跌倒。",
+      "solution_for_hazard_source": "在阳台沿边安装安全屏障或栏杆，以防止意外跌落。",
+      "solution_to_prevent_recurrence": "教育人们认识到在阳台栏杆上行走的危险以及保持在安全范围内的重要性。"
+    }
+  }
+}

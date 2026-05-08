@@ -1,0 +1,40 @@
+{
+  "video_key": "web_h264/bilibili__BV18g4y1A758",
+  "translations": {
+    "0": {
+      "risk_description": "这个孩子正在玩风扇，这不是一个安全的活动。风扇如果使用不当可能会导致不稳定和潜在伤害。",
+      "normal_video_description": "",
+      "solution_for_person": "在孩子玩风扇时，成人监督是必要的，以确保孩子的安全。",
+      "solution_for_hazard_source": "风扇应该放置在一个安全的地方，这样孩子在没有监督的情况下无法接触到它。",
+      "solution_to_prevent_recurrence": "应该教孩子正确使用风扇，以及在玩潜在危险物品时成人监督的重要性。"
+    },
+    "1": {
+      "risk_description": "孩子反复将风扇插入一个漏电的插座，导致火花和潜在的触电危险。",
+      "normal_video_description": "",
+      "solution_for_person": "",
+      "solution_for_hazard_source": "",
+      "solution_to_prevent_recurrence": ""
+    },
+    "2": {
+      "risk_description": "看到一名孩子在没有成人监督的情况下插风扇，导致漏电和火花。这种行为明显超出了正常的探索范畴，构成了触电或火灾的直接危险。",
+      "normal_video_description": "",
+      "solution_for_person": "成人应该立即介入，拔掉设备插头，并确保孩子不接触电源插座。",
+      "solution_for_hazard_source": "应该检查电源插座并进行修理或更换以防止漏电。",
+      "solution_to_prevent_recurrence": "在电源插座上安装安全盖，并教育孩子了解电的危险性。"
+    },
+    "3": {
+      "risk_description": "孩子反复将风扇插入电源插座，导致火花和潜在的电气危险，这构成了严重的触电或火灾风险。",
+      "normal_video_description": "",
+      "solution_for_person": "确保孩子始终受到监督，并教育他们处理电器的危险性。",
+      "solution_for_hazard_source": "安装剩余电流装置(RCD)或断路器以防止触电和火灾。",
+      "solution_to_prevent_recurrence": "将电器放在孩子够不到的地方，并确保所有插座在不使用时都被覆盖。"
+    },
+    "4": {
+      "risk_description": "孩子正在玩风扇，风扇可能会翻倒，导致孩子摔倒，这可能导致严重伤害。",
+      "normal_video_description": "视频显示一个孩子在客厅里玩风扇。",
+      "solution_for_person": "将风扇移出孩子够得到的范围以防止事故。",
+      "solution_for_hazard_source": "",
+      "solution_to_prevent_recurrence": "关注孩子，确保他们不玩可能对安全构成风险的物品。"
+    }
+  }
+}

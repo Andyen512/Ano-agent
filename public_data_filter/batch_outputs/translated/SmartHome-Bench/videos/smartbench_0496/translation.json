@@ -1,0 +1,40 @@
+{
+  "video_key": "SmartHome-Bench/videos/smartbench_0496",
+  "translations": {
+    "0": {
+      "risk_description": "",
+      "normal_video_description": "一只熊在夜间围栏围起的院子里走动，探索该区域并在一个小棚屋周围嗅闻。这只熊看起来很好奇，没有任何攻击性行为。",
+      "solution_for_person": "",
+      "solution_for_hazard_source": "",
+      "solution_to_prevent_recurrence": ""
+    },
+    "1": {
+      "risk_description": "熊正在与鸡舍互动，如果结构倒塌或熊站在上面时坠落，可能会导致碰撞或挤压伤害。",
+      "normal_video_description": "一只熊在夜间出现在后院，接近并检查鸡舍，用后腿站立试图进入内部，然后离开。",
+      "solution_for_person": "",
+      "solution_for_hazard_source": "",
+      "solution_to_prevent_recurrence": ""
+    },
+    "2": {
+      "risk_description": "一只大型野熊正在积极攻击鸡舍，用爪子拉扯结构并试图进入。这种攻击性行为对里面的动物构成直接的人身伤害威胁，并可能造成财产损失。",
+      "normal_video_description": "",
+      "solution_for_person": "",
+      "solution_for_hazard_source": "用更坚固的材料加固鸡舍，确保其完全封闭以防止野生动物进入。",
+      "solution_to_prevent_recurrence": "安装动作感应灯或驱赶装置，以阻止野生动物在夜间接近该区域。"
+    },
+    "3": {
+      "risk_description": "一只熊正在探索一个有小型结构的院子，如果有儿童或宠物在场，可能会造成碰撞或挤压伤害的风险。",
+      "normal_video_description": "",
+      "solution_for_person": "确保儿童或宠物待在室内或远离熊的安全区域。",
+      "solution_for_hazard_source": "加固小型结构以防止熊造成损坏或伤害。",
+      "solution_to_prevent_recurrence": "安装动作感应灯或警报器以阻止野生动物进入院子。"
+    },
+    "4": {
+      "risk_description": "熊正试图闯入鸡舍，如果它意外坠落或被推过鸡舍结构，可能会导致碰撞或挤压伤害。",
+      "normal_video_description": "一只黑熊在夜间试图闯入后院的鸡舍。",
+      "solution_for_person": "",
+      "solution_for_hazard_source": "",
+      "solution_to_prevent_recurrence": "用坚固的锁或盖子加固鸡舍，以防止熊或其他动物再次尝试进入。"
+    }
+  }
+}

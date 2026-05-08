@@ -1,0 +1,40 @@
+{
+  "video_key": "toyota_smarthome_mp4/mp4/Sitdown_p04_r08_v04_c04",
+  "translations": {
+    "0": {
+      "risk_description": "这位老年人站在客厅里，用一只手扶着头，看起来很不舒服。然后他们坐在沙发上，这可能表明有跌倒或不稳定的风险。",
+      "normal_video_description": "",
+      "solution_for_person": "护理人员应该检查这位老年人的状况，确保他们没事，并提供必要的帮助，比如帮助他们站起来或提供止痛措施。",
+      "solution_for_hazard_source": "护理人员应确保客厅没有任何绊倒危险，比如电线或杂物，家具也要稳固安全。",
+      "solution_to_prevent_recurrence": "护理人员应定期检查这位老年人，确保他们的安全和健康，并采取措施防止跌倒或不稳定，比如在他们站起来时提供支撑，或者在地板上使用防滑垫。"
+    },
+    "1": {
+      "risk_description": "这位老年人站在沙发上，而沙发并不是为站立设计的，这增加了失去平衡和跌倒的风险，可能导致受伤。",
+      "normal_video_description": "一位老年人站在客厅的沙发上，然后坐了下来。",
+      "solution_for_person": "这位老年人应该避免站在沙发上，以防止跌倒。",
+      "solution_for_hazard_source": "沙发只应该用于坐，以最大限度地降低不稳定的风险。",
+      "solution_to_prevent_recurrence": "确保这位老年人在客厅时有人监督，并提供稳定的座位选择。"
+    },
+    "2": {
+      "risk_description": "",
+      "normal_video_description": "看到一位老年人在客厅站着，调整衣物，然后坐在绿色沙发上。环境平静温馨，没有危险或不寻常活动的迹象。",
+      "solution_for_person": "",
+      "solution_for_hazard_source": "",
+      "solution_to_prevent_recurrence": ""
+    },
+    "3": {
+      "risk_description": "这位老年人在单脚站立时打电话，这可能会因不平衡而导致跌倒。",
+      "normal_video_description": "",
+      "solution_for_person": "这位老年人在打电话时应该坐下或使用稳定的表面支撑。",
+      "solution_for_hazard_source": "确保客厅有清晰的通道和最少的绊倒危险。",
+      "solution_to_prevent_recurrence": "鼓励使用手机支架或坐着打电话以提高稳定性。"
+    },
+    "4": {
+      "risk_description": "这个人由于步态不稳且靠近沙发而有跌倒的风险，这可能导致严重伤害。",
+      "normal_video_description": "",
+      "solution_for_person": "确保这个人坐在沙发上或获得支撑以防止跌倒。",
+      "solution_for_hazard_source": "",
+      "solution_to_prevent_recurrence": "在客厅活动时为这个人提供帮助或监督，确保他们的安全。"
+    }
+  }
+}

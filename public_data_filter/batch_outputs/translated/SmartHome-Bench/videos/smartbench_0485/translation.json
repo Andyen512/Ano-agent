@@ -1,0 +1,40 @@
+{
+  "video_key": "SmartHome-Bench/videos/smartbench_0485",
+  "translations": {
+    "0": {
+      "risk_description": "",
+      "normal_video_description": "视频显示一只狗站在房子外面，盯着前门。狗似乎在等有人开门。场景正常，没有显示任何风险。",
+      "solution_for_person": "",
+      "solution_for_hazard_source": "",
+      "solution_to_prevent_recurrence": ""
+    },
+    "1": {
+      "risk_description": "熊正在靠近并与前门互动，如果门意外打开，存在碰撞或被挤压的风险。",
+      "normal_video_description": "可以看到熊沿着石板路走向房子，其中一只熊靠近并用爪子拍打前门，另一只熊则在后方。",
+      "solution_for_person": "固定门并确保已上锁，以防意外打开。",
+      "solution_for_hazard_source": "",
+      "solution_to_prevent_recurrence": "安装防熊门或安装运动感应式威慑装置。"
+    },
+    "2": {
+      "risk_description": "一只熊靠近前门并与门和摄像头进行物理互动，这对动物有直接的碰撞或挤压伤害风险，也可能对财产造成潜在损害。",
+      "normal_video_description": "一只熊走到房子前门，嗅闻摄像头周围，然后离开。",
+      "solution_for_person": "",
+      "solution_for_hazard_source": "",
+      "solution_to_prevent_recurrence": ""
+    },
+    "3": {
+      "risk_description": "熊正在与前门互动，可能会导致碰撞或挤压伤害，如果宠物被门机构卡住的话。",
+      "normal_video_description": "",
+      "solution_for_person": "在安全距离外监视熊与门的互动，以防任何伤害。",
+      "solution_for_hazard_source": "安装防熊门或固定门，防止熊打开门。",
+      "solution_to_prevent_recurrence": "使用运动感应灯或报警器来阻止熊靠近门。"
+    },
+    "4": {
+      "risk_description": "",
+      "normal_video_description": "视频显示一个孩子在院子里玩耍，没有明显的风险或危险。",
+      "solution_for_person": "",
+      "solution_for_hazard_source": "",
+      "solution_to_prevent_recurrence": ""
+    }
+  }
+}

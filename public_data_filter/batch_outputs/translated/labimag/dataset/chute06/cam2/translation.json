@@ -1,0 +1,40 @@
+{
+  "video_key": "labimag/dataset/chute06/cam2",
+  "translations": {
+    "0": {
+      "risk_description": "可以看到这位年轻人跑向地板上的一个大型白色物体，并试图跳上去。然而，他们失去平衡，摔倒在物体上，导致有受伤的风险。如果这位年轻人更加谨慎并注意周围环境，这场跌倒是可以避免的。",
+      "normal_video_description": "",
+      "solution_for_person": "这位年轻人在尝试跳上大型白色物体时应更加谨慎并注意周围环境。他们还应考虑使用较小的物体或柔软垫子来降低受伤风险。",
+      "solution_for_hazard_source": "地板上的大型白色物体应放置在更安全的位置，以防止事故。",
+      "solution_to_prevent_recurrence": "应提醒这位年轻人，在尝试跳上大型白色物体时，谨慎并注意周围环境的重要性。还应鼓励他们在可能的情况下使用更安全的替代方案。"
+    },
+    "1": {
+      "risk_description": "一个人躺在似乎是受控环境中的软垫上，可能在进行安全测试或实验。其风险是该人可能从垫子上掉落，或被房间里的设备或其他物体撞击。",
+      "normal_video_description": "视频显示一个人走进一个有大型软垫的房间，躺下，并被其他人观察，场景似乎是受控的，可能用于安全演示或实验。",
+      "solution_for_person": "在躺到垫子上之前，确保有适当的监督和安全规程到位。",
+      "solution_for_hazard_source": "固定所有设备，并将松散的物体从垫子附近移除。",
+      "solution_to_prevent_recurrence": "在允许任何人躺到垫子上之前，对该区域进行彻底的风险评估。"
+    },
+    "2": {
+      "risk_description": "",
+      "normal_video_description": "一个人走进房间，跳到地板上的床垫上并躺下。其他人进入房间并观察躺在床垫上的人。",
+      "solution_for_person": "",
+      "solution_for_hazard_source": "",
+      "solution_to_prevent_recurrence": ""
+    },
+    "3": {
+      "risk_description": "此人躺在地板上的床垫上，床垫可能不稳定，并有跌倒风险，尤其是对行动不便或平衡有问题的人。",
+      "normal_video_description": "",
+      "solution_for_person": "在躺下之前，确保床垫有可靠的支撑且稳固。",
+      "solution_for_hazard_source": "使用更稳定的表面或为床垫增加额外的支撑。",
+      "solution_to_prevent_recurrence": "使用前测试床垫的稳定性，并确保其放置在平坦、水平的表面上。"
+    },
+    "4": {
+      "risk_description": "此人正试图跳到床垫上，这可能导致跌倒并造成潜在伤害。风险在跳跃过程中存在。",
+      "normal_video_description": "视频显示一个人在客厅环境中尝试跳到床垫上。",
+      "solution_for_person": "确保床垫放置在稳固的表面上，并考虑在下面使用安全垫以降低受伤风险。",
+      "solution_for_hazard_source": "",
+      "solution_to_prevent_recurrence": "在进行此类活动时提供适当的培训或监督以确保安全。"
+    }
+  }
+}

@@ -1,0 +1,40 @@
+{
+  "video_key": "SmartHome-Bench/videos/smartbench_0126",
+  "translations": {
+    "0": {
+      "risk_description": "可以看到这位年轻人正在跳跃并做空翻，如果落地不稳，可能会导致摔倒或失衡。",
+      "normal_video_description": "视频显示一名年轻人在院子里跳跃并做空翻，这对于同龄人来说是正常活动。",
+      "solution_for_person": "应当提醒该人在进行此类活动时保持谨慎，并确保有安全的着陆区域。",
+      "solution_for_hazard_source": "",
+      "solution_to_prevent_recurrence": "应当鼓励该人在进行此类活动时遵守安全措施，留意周围环境。"
+    },
+    "1": {
+      "risk_description": "",
+      "normal_video_description": "视频显示夜间车道视图，两辆车停在车棚下。一名穿着深色衣服和红色鞋子的人靠近白色汽车，似乎短暂检查或互动后，向后方离开。场景平静，没有明显的危险或风险行为。",
+      "solution_for_person": "",
+      "solution_for_hazard_source": "",
+      "solution_to_prevent_recurrence": ""
+    },
+    "2": {
+      "risk_description": "可以看到一个人夜间接近停放的汽车，并以暗示可能存在盗窃或破坏的方式与车辆互动，已超出正常活动范围。",
+      "normal_video_description": "",
+      "solution_for_person": "",
+      "solution_for_hazard_source": "",
+      "solution_to_prevent_recurrence": ""
+    },
+    "3": {
+      "risk_description": "可以看到一名孩子在停放的汽车附近奔跑和跳跃，这可能导致摔倒或撞到车辆的风险。",
+      "normal_video_description": "",
+      "solution_for_person": "应确保孩子受到近距离监督，以防止其在汽车附近奔跑或跳跃。",
+      "solution_for_hazard_source": "将汽车停放在离游戏区更远的地方，以营造更安全的儿童活动空间。",
+      "solution_to_prevent_recurrence": "安装隔离栏或围栏，将游戏区与停车区隔开。"
+    },
+    "4": {
+      "risk_description": "",
+      "normal_video_description": "视频显示夜间车道视图，两辆停放的汽车和一个人背向摄像机离开。场景中没有可见的风险或潜在危险。",
+      "solution_for_person": "",
+      "solution_for_hazard_source": "",
+      "solution_to_prevent_recurrence": ""
+    }
+  }
+}

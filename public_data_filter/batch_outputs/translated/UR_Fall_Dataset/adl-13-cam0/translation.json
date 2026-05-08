@@ -1,0 +1,40 @@
+{
+  "video_key": "UR_Fall_Dataset/adl-13-cam0",
+  "translations": {
+    "0": {
+      "risk_description": "客厅里的人似乎难以保持平衡，可以看到他们弯腰并挣扎着站起来。这种行为偏离了中年人的正常日常活动，可能表明有跌倒或不稳定的风险。",
+      "normal_video_description": "",
+      "solution_for_person": "此人应由护理人员或家庭成员协助，以确保其安全并防止跌倒。",
+      "solution_for_hazard_source": "应评估客厅环境是否存在可能导致此人站立不稳的潜在危险，例如松散的地毯或杂乱的通道。",
+      "solution_to_prevent_recurrence": "应监测此人是否有任何不稳定或平衡困难的迹象，并应采取适当措施防止跌倒，例如在客厅安装扶手或防滑垫。"
+    },
+    "1": {
+      "risk_description": "",
+      "normal_video_description": "一个人进入光线昏暗的客厅，四处走动，然后短暂蹲下后再站起来。",
+      "solution_for_person": "",
+      "solution_for_hazard_source": "",
+      "solution_to_prevent_recurrence": ""
+    },
+    "2": {
+      "risk_description": "",
+      "normal_video_description": "一个年轻人从一个门口进入光线昏暗的客厅，走向房间中心，然后弯腰从地板上捡起什么东西再站起来。这些动作看起来是正常的日常活动，没有任何危险或不稳定的迹象。",
+      "solution_for_person": "",
+      "solution_for_hazard_source": "",
+      "solution_to_prevent_recurrence": ""
+    },
+    "3": {
+      "risk_description": "视频中的人移动方式可能导致跌倒，特别是在行动不便或平衡问题的人群中。",
+      "normal_video_description": "",
+      "solution_for_person": "确保此人在移动时在需要时使用支撑或帮助。",
+      "solution_for_hazard_source": "清除客厅地板上的任何绊倒危险物品。",
+      "solution_to_prevent_recurrence": "安装额外的照明并确保通道畅通，以降低跌倒风险。"
+    },
+    "4": {
+      "risk_description": "此人在光线昏暗的房间中行走，看起来不稳定，这增加了跌倒和可能受伤的风险。如果他们绊倒或失去平衡，这种行为可能导致严重伤害。",
+      "normal_video_description": "视频显示一个人在光线昏暗的客厅中行走，由于能见度低，可能会造成跌倒风险。",
+      "solution_for_person": "确保房间内有适当的照明，并考虑在行走时使用拐杖或助行器提供支撑。",
+      "solution_for_hazard_source": "",
+      "solution_to_prevent_recurrence": "改善照明条件，并在此人独自行走时提供帮助或监督。"
+    }
+  }
+}

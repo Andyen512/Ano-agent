@@ -1,0 +1,40 @@
+{
+  "video_key": "labimag/dataset/chute13/cam5",
+  "translations": {
+    "0": {
+      "risk_description": "可以看到这位年轻人躺在沙发上并翻滚，这可能导致跌倒或失去平衡。使用家具时应该更加小心，以避免任何事故。",
+      "normal_video_description": "",
+      "solution_for_person": "使用家具时应该更加小心，以避免任何事故。",
+      "solution_for_hazard_source": "",
+      "solution_to_prevent_recurrence": "应更加注意自己的行为，避免在沙发上翻滚。"
+    },
+    "1": {
+      "risk_description": "该人先躺在沙发上，随后躺在地板上的床垫上，这可能会增加跌倒或失衡的风险，尤其在表面不稳或突然动作时。",
+      "normal_video_description": "视频显示一个人进入房间、与家具互动，然后在客厅的沙发和床垫上躺下。",
+      "solution_for_person": "确保沙发和床垫放置在稳固、平坦的表面上，躺下时避免突然动作。",
+      "solution_for_hazard_source": "固定好沙发和床垫，防止它们意外移动。",
+      "solution_to_prevent_recurrence": "在沙发和床垫下面使用防滑垫，以增加稳定性。"
+    },
+    "2": {
+      "risk_description": "",
+      "normal_video_description": "一位年轻人走进客厅，跳上沙发，然后滚到地板上的床垫上。该人站起并离开，背景中可以看到其他人。该行为显得是嬉戏式的，属于普通的家庭场景。",
+      "solution_for_person": "",
+      "solution_for_hazard_source": "",
+      "solution_to_prevent_recurrence": ""
+    },
+    "3": {
+      "risk_description": "该人先摔到家具上，然后摔到地板上，这可能导致受伤，尤其是对行动不便或平衡有障碍的人。",
+      "normal_video_description": "",
+      "solution_for_person": "确保该人注意周围环境，避免突然动作，以防止跌倒。",
+      "solution_for_hazard_source": "移除或固定家具，以防倾倒或掉落。",
+      "solution_to_prevent_recurrence": "安装防滑地面并确保通道畅通，以减少绊倒危险。"
+    },
+    "4": {
+      "risk_description": "穿白衬衫的人试图跳过沙发，这存在跌倒和受伤的风险。由于高度以及可能与沙发或周围物体碰撞，这种行为可能导致严重伤害。",
+      "normal_video_description": "",
+      "solution_for_person": "避免尝试可能导致跌倒或受伤的跳跃或特技，改为进行更安全的、对个人安全不构成风险的活动。",
+      "solution_for_hazard_source": "",
+      "solution_to_prevent_recurrence": "鼓励安全的玩耍，抵制可能导致事故或受伤的危险行为。"
+    }
+  }
+}

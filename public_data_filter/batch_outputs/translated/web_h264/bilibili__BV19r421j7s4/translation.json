@@ -1,0 +1,40 @@
+{
+  "video_key": "web_h264/bilibili__BV19r421j7s4",
+  "translations": {
+    "0": {
+      "risk_description": "孩子正在玩放在低矮支架上的电视机，如果孩子失去平衡，电视机有倾倒的风险。",
+      "normal_video_description": "",
+      "solution_for_person": "确保电视机牢固地放置在稳定的支架上，并在孩子玩耍时进行监督。",
+      "solution_for_hazard_source": "将电视机固定在墙上或使用坚固的支架以防止倾倒。",
+      "solution_to_prevent_recurrence": "定期检查餐厅里电视机和其他家具的稳定性，确保它们安全稳固。教育孩子不要玩可能掉落并造成伤害的物品。"
+    },
+    "1": {
+      "risk_description": "一个孩子正在电视机附近玩耍，而电视机起火了，有烧伤或吸入烟雾的风险。",
+      "normal_video_description": "一家人正在餐厅用餐，而孩子在电视机附近玩耍。",
+      "solution_for_person": "应该监督孩子并教育其火灾安全知识，避免在潜在火灾危险源附近玩耍。",
+      "solution_for_hazard_source": "确保电视机等电子设备远离易燃材料，并有适当的通风以防止过热。",
+      "solution_to_prevent_recurrence": "教育孩子注意电器附近的危险，确保家里有可用的灭火器。"
+    },
+    "2": {
+      "risk_description": "孩子在电视机柜附近玩耍时起火，造成烧伤和火势蔓延的直接危险。孩子的近距离接触明火构成即时的安全隐患。",
+      "normal_video_description": "",
+      "solution_for_person": "应立即将孩子从火源转移到安全的地方。",
+      "solution_for_hazard_source": "应该立即使用适当的工具灭火，例如灭火器或用不燃材料覆盖火源。",
+      "solution_to_prevent_recurrence": "确保电器安全使用，孩子远离潜在的火灾危险。定期检查和维护电器设备，防止过热或短路。"
+    },
+    "3": {
+      "risk_description": "孩子在电视机旁边，电视架上起火，有烧伤或火灾伤害的风险。",
+      "normal_video_description": "",
+      "solution_for_person": "确保孩子与火源保持安全距离并密切监督。",
+      "solution_for_hazard_source": "移除火源，确保电视架上没有易燃材料。",
+      "solution_to_prevent_recurrence": "在附近安装消防安全设备，并教育孩子关于消防安全。"
+    },
+    "4": {
+      "risk_description": "",
+      "normal_video_description": "视频显示一群人围坐在餐厅的桌子旁，交谈并享用美食。场景中没有可见的风险或危险行为。",
+      "solution_for_person": "",
+      "solution_for_hazard_source": "",
+      "solution_to_prevent_recurrence": ""
+    }
+  }
+}

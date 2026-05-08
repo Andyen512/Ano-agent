@@ -1,0 +1,40 @@
+{
+  "video_key": "toyota_smarthome_mp4/mp4/Getup_p04_r00_v03_c05",
+  "translations": {
+    "0": {
+      "risk_description": "老年人站在沙发上，沙发不稳定可能导致跌倒。此人也扶着扶手，但扶手可能无法提供足够的支撑来防止跌倒。",
+      "normal_video_description": "",
+      "solution_for_person": "护理人员应协助老年人坐在沙发上，并提供支撑以防止跌倒。",
+      "solution_for_hazard_source": "沙发应加固以提供额外支撑，或应提供更稳定的座椅选项。",
+      "solution_to_prevent_recurrence": "护理人员应监测老年人的活动，必要时提供帮助以防止跌倒。应评估环境中的潜在危险并加以改善，以降低跌倒风险。"
+    },
+    "1": {
+      "risk_description": "",
+      "normal_video_description": "一位老年人坐在沙发上看电视，然后站起来拿着遥控器走向电视。",
+      "solution_for_person": "",
+      "solution_for_hazard_source": "",
+      "solution_to_prevent_recurrence": ""
+    },
+    "2": {
+      "risk_description": "",
+      "normal_video_description": "一位老年人坐在客厅的绿色沙发上观看电视。随后此人站起来走向茶几，似乎在与上面的物品互动。环境平静且居家，没有危险或异常行为的迹象。",
+      "solution_for_person": "",
+      "solution_for_hazard_source": "",
+      "solution_to_prevent_recurrence": ""
+    },
+    "3": {
+      "risk_description": "老年人站在一件家具上，由于潜在的稳定性问题，存在跌倒风险。",
+      "normal_video_description": "",
+      "solution_for_person": "老年人应避免站在家具上，改为坐下或使用稳定的表面来看电视。",
+      "solution_for_hazard_source": "确保家具摆放方式能防止人们不必要地站在上面。",
+      "solution_to_prevent_recurrence": "提供舒适安全的看电视座位区域，以避免需要站在家具上。"
+    },
+    "4": {
+      "risk_description": "老年人在尝试爬到沙发上时有跌倒风险，由于其年龄和潜在的平衡能力不足，可能导致严重伤害。",
+      "normal_video_description": "",
+      "solution_for_person": "确保老年人在爬到沙发上时有适当的支撑或帮助，以防止跌倒。",
+      "solution_for_hazard_source": "",
+      "solution_to_prevent_recurrence": "在沙发附近安装扶手或抓杆，为个人爬上去时提供额外支撑。"
+    }
+  }
+}

@@ -1,0 +1,40 @@
+{
+  "video_key": "toyota_smarthome_mp4/mp4/Makecoffee.Pourwater_p12_r02_v11_c06",
+  "translations": {
+    "0": {
+      "risk_description": "视频中的人站在椅子或凳子上伸手去够高处架子上的东西，这是一个潜在的跌倒危险。此外，该人正拿着一个杯子，可能会分心，增加失去平衡的风险。",
+      "normal_video_description": "视频中的人站在厨房里，正在准备饮料。他们拿着一个杯子，看起来很专注。",
+      "solution_for_person": "该人应请求帮助或使用带防滑底的脚凳来安全地够取高处架子上的物品。在执行需要平衡的任务时，他们还应注意周围环境，避免分心。",
+      "solution_for_hazard_source": "厨房应配备带防滑底的脚凳和其他安全设施以防止跌倒。此外，厨房应整理有序，尽量减少杂物和干扰。",
+      "solution_to_prevent_recurrence": "应提醒此人厨房安全的重要性，并鼓励他们使用正确的技术和设备来防止跌倒。应定期进行安全检查，以确保厨房安全且维护良好。"
+    },
+    "1": {
+      "risk_description": "该人正在一个正在使用的电磁炉附近处理玻璃容器，如果炉子发热或容器内装有热物质，存在烫伤风险。",
+      "normal_video_description": "一个人站在厨房柜台旁，将液体从玻璃容器倒入另一个容器中。",
+      "solution_for_person": "在处理炉子附近的物品之前，确保炉子已关闭。",
+      "solution_for_hazard_source": "在接近柜台之前，确认炉子不在使用中。",
+      "solution_to_prevent_recurrence": "在处理附近的物品之前，始终检查炉子的状态。"
+    },
+    "2": {
+      "risk_description": "",
+      "normal_video_description": "一位中年人站在现代厨房里，拿着一个玻璃杯，似乎在倒饮料或喝东西。环境干净整洁，没有可见的危险或不安全行为。",
+      "solution_for_person": "",
+      "solution_for_hazard_source": "",
+      "solution_to_prevent_recurrence": ""
+    },
+    "3": {
+      "risk_description": "这位老年人正在柜台上伸手拿锅，这可能导致碰撞或溢出，对自己或附近的他人造成伤害风险。",
+      "normal_video_description": "",
+      "solution_for_person": "确保这位老年人站稳，在处理锅时考虑使用稳定的支撑物。",
+      "solution_for_hazard_source": "保持柜台畅通无障碍，以降低碰撞风险。",
+      "solution_to_prevent_recurrence": "使用防烫手套或烤箱手套安全处理热物品，并保持工作区域整洁。"
+    },
+    "4": {
+      "risk_description": "",
+      "normal_video_description": "一个人站在现代厨房里，将液体从壶中倒入玻璃杯。厨房配备了现代电器，外观干净整洁。",
+      "solution_for_person": "",
+      "solution_for_hazard_source": "",
+      "solution_to_prevent_recurrence": ""
+    }
+  }
+}

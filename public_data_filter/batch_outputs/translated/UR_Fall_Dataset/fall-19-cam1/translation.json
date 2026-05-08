@@ -1,0 +1,40 @@
+{
+  "video_key": "UR_Fall_Dataset/fall-19-cam1",
+  "translations": {
+    "0": {
+      "risk_description": "年轻人以一种不寻常的姿势躺在地板上，这可能表明有跌倒或不稳的问题。",
+      "normal_video_description": "",
+      "solution_for_person": "检查年轻人的状况并在必要时提供帮助。",
+      "solution_for_hazard_source": "确保客厅地板上没有绊倒危险，且在年轻人走动时有监督。",
+      "solution_to_prevent_recurrence": "在客厅安装安全扶手或垫子以防止跌倒，并确保年轻人了解周围环境及潜在危险。"
+    },
+    "1": {
+      "risk_description": "此人以不舒适的姿势躺在地板上，若突然移动可能导致起立困难或跌倒。",
+      "normal_video_description": "视频显示一个人在书房区域（有椅子和桌子）做后空翻并落在地板上。",
+      "solution_for_person": "确保此人了解周围环境，并在附近有稳固的表面可以坐下或站起。",
+      "solution_for_hazard_source": "",
+      "solution_to_prevent_recurrence": "鼓励此人避免以此类姿势躺在地板上，尤其在靠近可能导致绊倒的家具附近。"
+    },
+    "2": {
+      "risk_description": "在办公环境中，一个人失去平衡跌倒在地板上，表明明显的失衡事件，超出正常活动范围。",
+      "normal_video_description": "",
+      "solution_for_person": "此人应小心站起并检查是否受伤；如果无法站立或出现明显疼痛，护理人员应予以协助。",
+      "solution_for_hazard_source": "检查地板上是否有障碍物或光滑表面可能导致跌倒。",
+      "solution_to_prevent_recurrence": "确保地板上无杂物，并提供充足照明，以防止将来类似跌倒。"
+    },
+    "3": {
+      "risk_description": "此人正在做后空翻，若落地不稳可能导致跌倒或受伤，尤其是对行动受限或平衡有障碍的人。",
+      "normal_video_description": "",
+      "solution_for_person": "确保此人有一个柔软的落地表面，并考虑监督以防止受伤。",
+      "solution_for_hazard_source": "使用垫子或柔软表面来缓冲可能的跌倒。",
+      "solution_to_prevent_recurrence": "在安全环境中进行练习，并确保有适当的监督，确保区域无障碍物。"
+    },
+    "4": {
+      "risk_description": "可以看到此人跌倒在地，这可能导致严重伤害。该跌倒似乎是从站立姿势跌下，现场没有明显的安全措施防止此类事故。",
+      "normal_video_description": "",
+      "solution_for_person": "确保此人穿着具有良好抓地力的合适鞋子，以降低滑倒风险。",
+      "solution_for_hazard_source": "移除该人行走区域中潜在的绊倒危险或光滑表面。",
+      "solution_to_prevent_recurrence": "定期进行地板维护检查，确保地板干净且无可能导致滑倒或跌倒的碎屑。"
+    }
+  }
+}

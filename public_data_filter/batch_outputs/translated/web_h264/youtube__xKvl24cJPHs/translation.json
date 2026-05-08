@@ -1,0 +1,40 @@
+{
+  "video_key": "web_h264/youtube__xKvl24cJPHs",
+  "translations": {
+    "0": {
+      "risk_description": "看到一个孩子正在从阳台的窗户爬出，这是一个潜在的坠落危险。孩子没有穿戴任何安全装备，阳台栏杆不够高，无法防止坠落。情况危险，需要立即处理。",
+      "normal_video_description": "",
+      "solution_for_person": "看护者应立即介入，阻止孩子从窗户爬出。他们还应确保孩子佩戴适当的安全装备，如安全带或安全网，以防止跌落。",
+      "solution_for_hazard_source": "应加固或更换更高的阳台栏杆以防止以后坠落。窗户也应安装安全装置，如窗护栏或锁扣，以防止孩子爬出。",
+      "solution_to_prevent_recurrence": "看护者在孩子位于阳台或靠近其他潜在坠落危险时应始终监督。他们也应教育孩子关于从窗户爬出的危险以及穿戴安全装备的重要性。应定期进行安全检查，以确保所有安全措施到位并正常运行。"
+    },
+    "1": {
+      "risk_description": "一个孩子正在高层建筑外墙上攀爬，存在从高处坠落的风险。",
+      "normal_video_description": "视频显示一个孩子在高层建筑外墙上攀爬，突显了这种行为的潜在危险。",
+      "solution_for_person": "应监督并阻止孩子在建筑外墙上攀爬。",
+      "solution_for_hazard_source": "在建筑外墙上安装安全屏障或防护网以防止进入。",
+      "solution_to_prevent_recurrence": "教育孩子关于在建筑上攀爬的危险，并确保有成人监督。"
+    },
+    "2": {
+      "risk_description": "看到一个孩子从高层窗户爬出，悬挂在建筑外墙上，存在严重的坠落和重伤风险。",
+      "normal_video_description": "",
+      "solution_for_person": "立即拨打紧急服务电话，并在安全距离内尝试固定孩子，不要攀爬。",
+      "solution_for_hazard_source": "安装窗护栏或安全栏杆，以防止孩子进入敞开的窗户。",
+      "solution_to_prevent_recurrence": "向父母和看护者教育高层窗户的危险以及儿童防护的重要性。"
+    },
+    "3": {
+      "risk_description": "一个孩子正从高层窗户爬出，存在显著的坠落风险。",
+      "normal_video_description": "",
+      "solution_for_person": "确保孩子受到严密监督，远离高层窗户，防止攀爬。",
+      "solution_for_hazard_source": "安装安全屏障或窗护栏，防止孩子爬出。",
+      "solution_to_prevent_recurrence": "教育看护者关于让孩子在窗户旁无人看管的危险，并实施预防性安全措施。"
+    },
+    "4": {
+      "risk_description": "视频显示一个孩子挂在高层建筑的窗户上，存在严重的坠落和重伤风险。孩子的姿势非常危险，可能导致致命事故。",
+      "normal_video_description": "",
+      "solution_for_person": "确保孩子安全地待在室内，远离窗户或阳台，以防止任何坠落风险。",
+      "solution_for_hazard_source": "在阳台上安装安全屏障或护栏，以防止孩子进入。",
+      "solution_to_prevent_recurrence": "定期检查并固定所有窗户和阳台，确保它们对儿童安全且无法被儿童进入。"
+    }
+  }
+}

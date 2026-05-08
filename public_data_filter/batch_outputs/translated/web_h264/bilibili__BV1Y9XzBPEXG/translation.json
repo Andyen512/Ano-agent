@@ -1,0 +1,40 @@
+{
+  "video_key": "web_h264/bilibili__BV1Y9XzBPEXG",
+  "translations": {
+    "0": {
+      "risk_description": "视频显示一名年轻成人骑摩托车失控，导致摔倒。该人被看到躺在地上，提示可能有受伤。",
+      "normal_video_description": "",
+      "solution_for_person": "应检查该人是否受伤，并在必要时提供急救。同时应建议其在骑摩托车时佩戴防护装备。",
+      "solution_for_hazard_source": "应检查摩托车是否存在可能导致摔倒的机械故障。还应提醒骑手注意安全驾驶规范。",
+      "solution_to_prevent_recurrence": "骑手应接受安全驾驶技术培训并佩戴适当的防护装备。应定期对摩托车进行维护，确保其处于良好运行状态。"
+    },
+    "1": {
+      "risk_description": "有一个人躺在地上，旁边倒下一辆电动滑板车，如果不先把人移开就移动滑板车，可能会把人碾压或压碎。",
+      "normal_video_description": "一名滑板车骑手接近现场，看到另一个人躺在倒下的电动滑板车旁边。该骑手表达关切并提供帮助，而躺在地上的人表示自己没事，请求帮忙把滑板车移开。",
+      "solution_for_person": "在尝试移动滑板车之前，确保躺在地上的人已经完全离开车辆。",
+      "solution_for_hazard_source": "在确保安全之前，不要尝试移动滑板车。",
+      "solution_to_prevent_recurrence": "在移动车辆或重物之前，一定要检查是否有人员或障碍物。"
+    },
+    "2": {
+      "risk_description": "帮助摔倒的滑板车骑手的人不慎把滑板车推倒，压在对方身上，导致可能受伤的碰撞。",
+      "normal_video_description": "",
+      "solution_for_person": "立即停下，检查受伤情况，除非存在即时危险，否则不要移动受伤者。",
+      "solution_for_hazard_source": "固定滑板车，防止其再次移动。",
+      "solution_to_prevent_recurrence": "在帮助他人使用助行工具或车辆时要小心，避免意外碰撞。"
+    },
+    "3": {
+      "risk_description": "滑板车骑手不慎与摔倒的年轻人相撞，可能导致受伤。",
+      "normal_video_description": "",
+      "solution_for_person": "应确保摔倒者的安全，必要时及时寻求医疗帮助。",
+      "solution_for_hazard_source": "滑板车骑手应保持警惕，与他人保持安全距离，以防事故。",
+      "solution_to_prevent_recurrence": "滑板车骑手应留意周围环境，在行人流量大的区域应减速行驶。"
+    },
+    "4": {
+      "risk_description": "有人躺在地上，这可能表示跌倒或有不稳定风险。该人的姿势以及滑板车的存在提示他们可能是从滑板车上摔下来的。",
+      "normal_video_description": "",
+      "solution_for_person": "检查该人的状况，必要时提供帮助。",
+      "solution_for_hazard_source": "确保滑板车周围没有障碍物，以防止进一步事故。",
+      "solution_to_prevent_recurrence": "鼓励在骑滑板车时使用防护装备，并确保车辆得到适当维护。"
+    }
+  }
+}

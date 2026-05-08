@@ -1,0 +1,40 @@
+{
+  "video_key": "labimag/dataset/chute19/cam6",
+  "translations": {
+    "0": {
+      "risk_description": "视频中看到这位年轻人尝试搬动一张沉重的棕色扶手椅，导致他失去平衡摔倒在地。此行为偏离了搬动家具的常规日常活动，且因跌倒而有受伤风险。",
+      "normal_video_description": "",
+      "solution_for_person": "在搬动重家具时，人员应保持谨慎，必要时应考虑寻求帮助。",
+      "solution_for_hazard_source": "危险来源是沉重的棕色扶手椅，搬动时应小心谨慎以防止跌倒。",
+      "solution_to_prevent_recurrence": "应向该人传授正确的搬动重家具技巧，并强调必要时寻求帮助的重要性。定期进行锻炼以提高平衡能力和力量，也有助于预防跌倒。"
+    },
+    "1": {
+      "risk_description": "穿红色衬衫的人被看到躺在沙发旁的地板上，这可能表明其跌倒或失去平衡。此行为可能导致真实的受伤风险，因跌倒或无法安全起身。",
+      "normal_video_description": "视频显示客厅中央有一把棕色扶手椅。一位穿红色衬衫的人走进房间，躺在椅子旁边，随后起身与坐在桌子旁的另一个人互动。",
+      "solution_for_person": "应确保该人立即获得帮助，以避免长时间躺在地板上，这可能导致进一步受伤或难以站起。",
+      "solution_for_hazard_source": "",
+      "solution_to_prevent_recurrence": "在客厅安装抓杆或防滑垫以降低跌倒风险。确保该区域光线充足且没有绊倒危险物。"
+    },
+    "2": {
+      "risk_description": "一位年轻人走进房间，绊到椅子的扶手，摔倒在地。这是一起因失衡导致跌倒的明显案例。",
+      "normal_video_description": "",
+      "solution_for_person": "该人应小心起身并检查是否有受伤。",
+      "solution_for_hazard_source": "确保家具摆放方式不妨碍行走通道。",
+      "solution_to_prevent_recurrence": "保持通道畅通无障碍物，确保家具稳固且安全摆放。"
+    },
+    "3": {
+      "risk_description": "该人在尝试搬动扶手椅时摔倒在地板上，可能会对行动受限或平衡能力差的人造成伤害。",
+      "normal_video_description": "",
+      "solution_for_person": "确保该人了解周围环境，并考虑使用帮助或工具安全搬动重家具。",
+      "solution_for_hazard_source": "重新布置家具以腾出更多空间，减少绊倒危险。",
+      "solution_to_prevent_recurrence": "提供安全搬动家具的培训，并确保居住区域光线充足，以提高能见度。"
+    },
+    "4": {
+      "risk_description": "该人尝试搬动一把沉重的扶手椅，若处理不当可能导致跌倒或受伤。椅子的重量和该人明显的缺乏谨慎都会增加事故风险。",
+      "normal_video_description": "",
+      "solution_for_person": "确保使用正确的举升技巧；如有需要，请他人帮助。",
+      "solution_for_hazard_source": "通过清除可能导致绊倒的障碍物来确保区域安全。",
+      "solution_to_prevent_recurrence": "对于重型家具，使用手推车或机械升降装置以避免人工搬运。"
+    }
+  }
+}

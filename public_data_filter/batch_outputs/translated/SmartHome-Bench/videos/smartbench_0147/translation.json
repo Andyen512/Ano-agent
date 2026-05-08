@@ -1,0 +1,40 @@
+{
+  "video_key": "SmartHome-Bench/videos/smartbench_0147",
+  "translations": {
+    "0": {
+      "risk_description": "视频中的人似乎不稳定，可能会摔倒或受伤。",
+      "normal_video_description": "视频显示一个人在夜间走向停在车道上的白色汽车。该人似乎不稳定，可能会摔倒或受伤。",
+      "solution_for_person": "应该由护理人员或能够提供支持并确保其安全的人员来帮助此人。",
+      "solution_for_hazard_source": "危险源是此人的不稳定，应该通过适当的支撑和监督来解决。",
+      "solution_to_prevent_recurrence": "应该对此人进行监控和支持，以防止风险再次发生。"
+    },
+    "1": {
+      "risk_description": "有人试图破车，如果汽车意外移动，会造成碰撞或挤压伤害风险。",
+      "normal_video_description": "一辆白色汽车在夜间停在车道上。一个人走向汽车并试图破车。",
+      "solution_for_person": "应该警告此人擅自摆弄车辆的危险以及受伤的可能性。",
+      "solution_for_hazard_source": "确保车辆锁好并安全停放，以防止未经授权的进入。",
+      "solution_to_prevent_recurrence": "在物业周围安装监控摄像头和运动激活灯，以阻止潜在的入侵者。"
+    },
+    "2": {
+      "risk_description": "看到一个人在夜间接近一辆停放的汽车，与驾驶员侧的门互动，然后跑开，这表明可能是盗窃或入室行窃的企图。",
+      "normal_video_description": "",
+      "solution_for_person": "",
+      "solution_for_hazard_source": "",
+      "solution_to_prevent_recurrence": "安装监控摄像头和运动传感器，以阻止潜在的入侵者。"
+    },
+    "3": {
+      "risk_description": "看到孩子跑向一辆车门打开的汽车，如果汽车意外启动，可能会导致碰撞或挤压伤害。",
+      "normal_video_description": "",
+      "solution_for_person": "确保车门关好，当孩子附近时不要让车辆无人看管。",
+      "solution_for_hazard_source": "安装汽车警报器或安全锁，以防止汽车在没有钥匙的情况下启动。",
+      "solution_to_prevent_recurrence": "在车辆附近密切监督儿童，确保他们了解接近汽车的危害。"
+    },
+    "4": {
+      "risk_description": "",
+      "normal_video_description": "视频显示一辆白色汽车在夜间停在车道上，一个人下车走开。场景中没有显示任何风险或潜在危险。",
+      "solution_for_person": "",
+      "solution_for_hazard_source": "",
+      "solution_to_prevent_recurrence": ""
+    }
+  }
+}

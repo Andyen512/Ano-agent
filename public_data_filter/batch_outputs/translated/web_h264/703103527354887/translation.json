@@ -1,0 +1,40 @@
+{
+  "video_key": "web_h264/703103527354887",
+  "translations": {
+    "0": {
+      "risk_description": "视频显示一名年轻人靠近冰箱，冰箱似乎处于故障或损坏状态。该人正俯身在冰箱上，有一个可见的红色箭头指向冰箱，表示潜在的危害。该场景表明，年轻人可能面临电击或其他电气安全风险。",
+      "normal_video_description": "",
+      "solution_for_person": "应建议该人远离故障冰箱，并寻求合格的电工或家电技术人员的帮助来处理该问题。",
+      "solution_for_hazard_source": "冰箱应由合格的专业人员修理或更换，以确保其使用安全。",
+      "solution_to_prevent_recurrence": "对电器进行定期维护和检查，并遵守安全指南，可以帮助防止将来发生类似事故。"
+    },
+    "1": {
+      "risk_description": "一个孩子在商店里靠近电器，存在电击风险。",
+      "normal_video_description": "视频显示商店内部，一名人员在柜台后面，另一名人员靠近展示柜，文字表明过去发生过儿童触电事故。",
+      "solution_for_person": "确保儿童受到监督，并远离电器。",
+      "solution_for_hazard_source": "固定电器并确保儿童无法触及。",
+      "solution_to_prevent_recurrence": "在电表箱上安装安全锁，并向看护者教育儿童用电安全知识。"
+    },
+    "2": {
+      "risk_description": "一个幼儿正站在打开的冰柜正前方，冰柜是已知的电气危险源。孩子靠近电器造成了明显的电击风险，尤其是考虑到视频中致命事故的背景。",
+      "normal_video_description": "",
+      "solution_for_person": "陪同孩子的成人必须保持持续监督，并从身体上阻止孩子接触电器。",
+      "solution_for_hazard_source": "冰柜应该覆盖或该区域应该封闭，以防止儿童无人监督地接近。",
+      "solution_to_prevent_recurrence": "在儿童可触及的电器上安装物理屏障或安全锁。"
+    },
+    "3": {
+      "risk_description": "孩子靠近电气危险，红色箭头指向潜在的电击源，考虑到孩子理解和避免危险的能力有限，这构成了重大风险。",
+      "normal_video_description": "",
+      "solution_for_person": "确保孩子远离电气危险，并密切监督以防止意外接触。",
+      "solution_for_hazard_source": "固定或覆盖电气元件以防止意外接触，并确保电气设备的正确绝缘和维护。",
+      "solution_to_prevent_recurrence": "在电气区域安装儿童安全措施，并为看护者提供关于儿童电击风险的 safety training。"
+    },
+    "4": {
+      "risk_description": "老年人站在阳台的狭窄边缘上，这存在明显的坠落风险。该人的位置和边缘的高度表明，坠落可能导致严重伤害甚至死亡。",
+      "normal_video_description": "",
+      "solution_for_person": "确保老年人安全地在建筑物内，远离边缘。",
+      "solution_for_hazard_source": "在阳台周围安装栏杆或屏障以防止坠落。",
+      "solution_to_prevent_recurrence": "定期检查和维护阳台结构以确保其安全和稳定。"
+    }
+  }
+}

@@ -1,0 +1,40 @@
+{
+  "video_key": "SmartHome-Bench/videos/smartbench_0324",
+  "translations": {
+    "0": {
+      "risk_description": "",
+      "normal_video_description": "视频显示一个人穿着白色连帽衫和深色裤子走上门廊，把一个包裹放进邮箱。随后该人走下门廊，离开画面。视频似乎记录的是正常活动，没有任何风险或异常。",
+      "solution_for_person": "",
+      "solution_for_hazard_source": "",
+      "solution_to_prevent_recurrence": ""
+    },
+    "1": {
+      "risk_description": "该人正在蹲下并移动，动作可能导致跌倒或失去平衡，尤其当地面不平或湿滑时。",
+      "normal_video_description": "在夜间光线昏暗的室外，一个人穿着连帽衫蹲下并在砖柱附近移动。",
+      "solution_for_person": "该人应避免在可能不稳定的位置蹲下，尤其在夜间能见度低时。",
+      "solution_for_hazard_source": "",
+      "solution_to_prevent_recurrence": "在院子里安装感应灯，以在夜间活动时提高能见度。"
+    },
+    "2": {
+      "risk_description": "一名穿连帽衫的人弯腰从地上捡起包裹后跑离，这构成盗窃行为。",
+      "normal_video_description": "",
+      "solution_for_person": "",
+      "solution_for_hazard_source": "",
+      "solution_to_prevent_recurrence": "安装监控摄像头和运动传感器，以威慑潜在的窃贼。"
+    },
+    "3": {
+      "risk_description": "该人正弯腰，似乎要从地上捡东西，如果失去平衡可能导致跌倒或受伤，特别是行动受限或能见度差时。",
+      "normal_video_description": "",
+      "solution_for_person": "确保该人在弯腰时注意周围环境并保持平衡。",
+      "solution_for_hazard_source": "清除该区域的任何可能导致绊倒或跌倒的障碍物。",
+      "solution_to_prevent_recurrence": "保持院子没有可能导致走动时绊倒或跌倒的物体。"
+    },
+    "4": {
+      "risk_description": "孩子有从门廊跌落的危险，可能导致严重伤害。",
+      "normal_video_description": "",
+      "solution_for_person": "确保孩子有人看护并提供支撑，以防止跌倒。",
+      "solution_for_hazard_source": "在门廊上安装扶手或护栏以防止跌倒。",
+      "solution_to_prevent_recurrence": "定期检查门廊是否有危险并进行必要的维修。"
+    }
+  }
+}

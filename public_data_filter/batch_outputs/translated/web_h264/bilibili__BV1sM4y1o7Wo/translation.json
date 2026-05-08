@@ -1,0 +1,40 @@
+{
+  "video_key": "web_h264/bilibili__BV1sM4y1o7Wo",
+  "translations": {
+    "0": {
+      "risk_description": "孩子在老人抱着时面临从桌子上跌落的风险。老人没有为孩子提供足够的支撑，孩子正趴在桌沿上。",
+      "normal_video_description": "",
+      "solution_for_person": "老人应更稳妥地抱住孩子，确保孩子不趴在桌沿上。",
+      "solution_for_hazard_source": "桌子应摆放在能够降低孩子跌落风险的位置，例如将其远离房间边缘，或加装防护栏以防止孩子探身。",
+      "solution_to_prevent_recurrence": "老人应更密切地关注孩子的动作，确保孩子没有跌倒风险。应在餐厅定期进行安全检查，确保孩子的安全。"
+    },
+    "1": {
+      "risk_description": "老人抱着孩子时失去平衡，导致两人跌倒。孩子在跌倒过程中头部撞到一件家具。",
+      "normal_video_description": "画面中一位老人在客厅抱着孩子行走。突然，老人失去平衡摔倒，两人一起跌落在地。穿黄色夹克的人迅速上前帮忙，查看孩子和老人状况。",
+      "solution_for_person": "老人在走动时，尤其是抱着孩子时，应有人帮助或监督，以防跌倒。",
+      "solution_for_hazard_source": "确保客厅中的家具和其他物品摆放合理，尽量减少绊倒危险，并为安全移动留出足够空间。",
+      "solution_to_prevent_recurrence": "在老人经常活动的区域安装扶手或防滑垫，并对看护人员进行教育，强调在老人抱孩子时提供支持的重要性。"
+    },
+    "2": {
+      "risk_description": "老人抱着孩子时失去平衡跌倒在地板上，导致孩子撞到一件家具。跌倒突然发生，导致碰撞伤害。",
+      "normal_video_description": "",
+      "solution_for_person": "看护人员应立即检查孩子是否有受伤，并在必要时寻求医疗帮助。",
+      "solution_for_hazard_source": "确保环境无障碍物，家具摆放安全，防止绊倒危险。",
+      "solution_to_prevent_recurrence": "在老人抱孩子时提供支撑或帮助，并考虑使用婴儿车或背带以提高稳定性。"
+    },
+    "3": {
+      "risk_description": "老人抱着孩子时跌倒，这会对双方造成伤害风险，尤其是头部可能受伤。",
+      "normal_video_description": "",
+      "solution_for_person": "确保老人在抱孩子时有支撑，避免突然动作，以防跌倒。",
+      "solution_for_hazard_source": "清除客厅地面的绊倒危险物，确保通道畅通。",
+      "solution_to_prevent_recurrence": "安装扶手或抓杆以增加稳定性，必要时可考虑使用助行器。"
+    },
+    "4": {
+      "risk_description": "画面中老人行走不稳，拄着拐杖，这增加了跌倒和受伤的风险。在整个视频中，随着他在餐厅四处走动，这种风险始终存在。",
+      "normal_video_description": "",
+      "solution_for_person": "确保老人在餐厅走动时有适当的支撑和帮助，以防止跌倒。",
+      "solution_for_hazard_source": "清除餐厅中的绊倒危险或障碍物，降低跌倒风险。",
+      "solution_to_prevent_recurrence": "鼓励老人在行走时使用助行器或拐杖提供支撑，必要时提供帮助。"
+    }
+  }
+}

@@ -1,0 +1,40 @@
+{
+  "video_key": "SmartHome-Bench/videos/smartbench_0854",
+  "translations": {
+    "0": {
+      "risk_description": "年轻人站在厨房里，双臂张开，这可能表明失去平衡或可能摔倒。环境看起来很凌乱，天花板和墙壁上挂着各种物品，这可能会增加绊倒或跌倒的风险。",
+      "normal_video_description": "",
+      "solution_for_person": "确保年轻人穿有良好抓地力的合适鞋子，并确保厨房地面没有任何障碍物。鼓励年轻人保持稳定的姿势，如需要可利用厨房台面或其他稳固的表面提供支撑。",
+      "solution_for_hazard_source": "整理厨房空间以减少杂乱，确保物品以安全且便于取用的方式存放。如有必要，在厨房安装扶手或其他支撑结构。",
+      "solution_to_prevent_recurrence": "定期检查厨房地面是否有危险，并确保年轻人对周围环境保持警觉。鼓励年轻人在感到疲劳或脚步不稳时定时休息。"
+    },
+    "1": {
+      "risk_description": "",
+      "normal_video_description": "视频显示一个人在光线昏暗的杂物间里，周围有各种工具和设备。该人似乎在四处走动，可能正在与房间里的物品互动。",
+      "solution_for_person": "",
+      "solution_for_hazard_source": "",
+      "solution_to_prevent_recurrence": ""
+    },
+    "2": {
+      "risk_description": "",
+      "normal_video_description": "视频显示一个穿着戏服、眼睛发光的人在一个杂乱的车库里四处走动。该场景由安防摄像头以黑白画面拍摄，人的动作看起来像是玩耍或表演活动，而非真正的安全风险。",
+      "solution_for_person": "",
+      "solution_for_hazard_source": "",
+      "solution_to_prevent_recurrence": ""
+    },
+    "3": {
+      "risk_description": "该人似乎处于对抗或攻击性的姿态，这可能会对狭小空间中的其他人造成身体伤害的风险。",
+      "normal_video_description": "",
+      "solution_for_person": "确保该人意识到周围环境，并与他人保持安全距离。",
+      "solution_for_hazard_source": "在当事人情绪激动时封锁该区域，防止他人进入。",
+      "solution_to_prevent_recurrence": "考虑调解或辅导，以解决可能导致攻击行为的潜在问题。"
+    },
+    "4": {
+      "risk_description": "孩子在一个存放间里，房间里堆满各种物品，包括一把梯子。孩子的位置和梯子的存在暗示有跌倒或不稳定的风险。",
+      "normal_video_description": "",
+      "solution_for_person": "确保孩子有成人监管，并远离梯子，以防跌倒。",
+      "solution_for_hazard_source": "把梯子上不必要的物品移除，以降低绊倒的风险。",
+      "solution_to_prevent_recurrence": "在让孩子靠近梯子之前，先固定好梯子并确保其稳固。"
+    }
+  }
+}

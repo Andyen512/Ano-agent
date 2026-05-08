@@ -1,0 +1,40 @@
+{
+  "video_key": "web_h264/1325924752545815",
+  "translations": {
+    "0": {
+      "risk_description": "狗不小心把客厅点燃了，因为它撞倒了点燃的蜡烛或打火机，造成了虽小但剧烈的火，若不及时处理，火势会迅速蔓延。",
+      "normal_video_description": "",
+      "solution_for_person": "人应迅速拿起灭火器或一桶水灭火，以防止火势蔓延，避免客厅和房屋进一步受损。",
+      "solution_for_hazard_source": "今后应让狗远离任何明火或热源，以防止此类事故再次发生。",
+      "solution_to_prevent_recurrence": "应训练狗不要撞倒蜡烛或打火机，客厅应保持无易燃物品和明火。"
+    },
+    "1": {
+      "risk_description": "客厅的地毯上起火，存在烧伤、吸入烟雾以及火势可能蔓延到房屋其他区域的风险。",
+      "normal_video_description": "客厅里地毯上散落着物品，狗在场。随后出现烟雾，紧接着地毯上燃起大火。",
+      "solution_for_person": "人员应立即撤离现场并拨打紧急服务电话。",
+      "solution_for_hazard_source": "如果安全，可使用灭火器或用厚毯子覆盖来灭火。",
+      "solution_to_prevent_recurrence": "确保易燃物品远离热源，并使灭火器随手可取。"
+    },
+    "2": {
+      "risk_description": "狗与地板上的某物互动，突然爆炸成大火，对家庭构成重大且即时的危险。",
+      "normal_video_description": "",
+      "solution_for_person": "立即撤离现场以确保安全，并拨打紧急服务电话。",
+      "solution_for_hazard_source": "移除或固定任何可能导致火灾或爆炸的危险物品。",
+      "solution_to_prevent_recurrence": "定期进行安全检查，识别并消除家中潜在的火灾隐患。"
+    },
+    "3": {
+      "risk_description": "视频显示狗在客厅，地毯上起火，对宠物存在烧伤或火灾伤害的风险。",
+      "normal_video_description": "",
+      "solution_for_person": "立即把宠物带离现场，以防受伤。",
+      "solution_for_hazard_source": "使用灭火器或水灭火，并确保该区域安全。",
+      "solution_to_prevent_recurrence": "安全存放易燃物品并密切监督宠物，以防止类似事故再次发生。"
+    },
+    "4": {
+      "risk_description": "视频显示孩子在玩烟花，点燃后在地板上引起小火，存在烧伤或其他伤害的风险。",
+      "normal_video_description": "",
+      "solution_for_person": "确保儿童受到监督并保持与烟花的安全距离，以防止事故。",
+      "solution_for_hazard_source": "将烟花远离易燃材料并监督使用，以防止火灾。",
+      "solution_to_prevent_recurrence": "将烟花存放在安全地点，并在使用遵循安全指南。"
+    }
+  }
+}

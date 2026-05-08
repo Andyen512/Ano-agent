@@ -1,0 +1,40 @@
+{
+  "video_key": "toyota_smarthome_mp4/mp4/Getup_p10_r01_v03_c04",
+  "translations": {
+    "0": {
+      "risk_description": "由于老年人坐在沙发上的姿势以及扶手缺乏支撑，他们有跌倒的风险。",
+      "normal_video_description": "老年人躺在客厅的沙发上，周围有植物和放置着各种物品的咖啡桌。随后他们坐起身，环顾四周。",
+      "solution_for_person": "护理员应帮助老年人坐起并提供支撑，以防跌倒。",
+      "solution_for_hazard_source": "可以通过加装扶手或支撑垫来使沙发更稳固。",
+      "solution_to_prevent_recurrence": "护理员应定期查看老年人，确保他们在坐在沙发上时有适当的支撑。"
+    },
+    "1": {
+      "risk_description": "",
+      "normal_video_description": "一位老年人躺在客厅的绿色转角沙发上，随后坐起，伸手去拿枕头。",
+      "solution_for_person": "",
+      "solution_for_hazard_source": "",
+      "solution_to_prevent_recurrence": ""
+    },
+    "2": {
+      "risk_description": "",
+      "normal_video_description": "一位老年人躺在客厅的绿色转角沙发上，随后坐起并调整姿势。场景宁静、居家，没有危险或异常行为的迹象。",
+      "solution_for_person": "",
+      "solution_for_hazard_source": "",
+      "solution_to_prevent_recurrence": ""
+    },
+    "3": {
+      "risk_description": "老年人以放松的姿势躺在沙发上，如果他们试图坐起或突然移动而没有支撑，可能会导致跌倒。",
+      "normal_video_description": "",
+      "solution_for_person": "确保老年人在坐起时有支撑，例如枕头或扶手。",
+      "solution_for_hazard_source": "在旁边提供支撑垫或椅子，以帮助老年人安全坐起。",
+      "solution_to_prevent_recurrence": "在沙发上使用防滑垫或垫子，以防止滑倒并提供额外的支撑。"
+    },
+    "4": {
+      "risk_description": "老年人有从沙发上跌倒的风险，由于年龄因素以及可能对地板造成的强烈冲击，可能导致严重伤害。",
+      "normal_video_description": "",
+      "solution_for_person": "确保老年人在从沙发上坐起或站起时有适当的支撑，例如使用枕头或护理员的帮助。",
+      "solution_for_hazard_source": "",
+      "solution_to_prevent_recurrence": "在沙发附近安装扶手杆，为老年人提供额外的支撑和稳定性。"
+    }
+  }
+}

@@ -1,0 +1,40 @@
+{
+  "video_key": "web_h264/dailymotion__x9sccd6",
+  "translations": {
+    "0": {
+      "risk_description": "孩子在和猫玩耍时有从楼梯上摔下来的危险，可能导致受伤。",
+      "normal_video_description": "",
+      "solution_for_person": "看护者应密切监督孩子，确保他们不在楼梯边缘附近玩耍。",
+      "solution_for_hazard_source": "应在楼梯顶部安装扶手或安全门，以提升楼梯的安全性。",
+      "solution_to_prevent_recurrence": "看护者应制定规则，禁止孩子在无人看护时在楼梯上玩耍，并确保楼梯始终畅通无阻。"
+    },
+    "1": {
+      "risk_description": "孩子在下楼时与猫互动，增加了失去平衡和跌倒的风险。儿童和猫靠得很近，可能导致碰撞，或孩子意外被猫和楼梯夹住。",
+      "normal_video_description": "",
+      "solution_for_person": "在楼梯附近时密切监督孩子，以防跌倒并确保与宠物安全互动。",
+      "solution_for_hazard_source": "在有幼儿在场时，限制宠物在楼梯上自由走动，以防事故。",
+      "solution_to_prevent_recurrence": "在楼梯顶部和底部安装安全门，并对看护者进行教育，提醒他们幼儿无人看护使用楼梯的风险。"
+    },
+    "2": {
+      "risk_description": "婴儿爬下楼梯时与猫相撞，导致孩子摔倒并跌倒在台阶上。这种情况很危险，因为摔倒可能导致受伤，而且路径上有宠物。",
+      "normal_video_description": "",
+      "solution_for_person": "成年人应立即干预，防止孩子跌倒并确保其安全。",
+      "solution_for_hazard_source": "应将猫移到远离孩子路径的安全位置。",
+      "solution_to_prevent_recurrence": "在楼梯顶部和底部安装安全门，以防止孩子在无人看护时进入楼梯。"
+    },
+    "3": {
+      "risk_description": "孩子在下楼时抓住猫，这可能导致跌倒或失衡，尤其在猫意外移动时更为危险。",
+      "normal_video_description": "",
+      "solution_for_person": "确保孩子在楼梯上始终有人看护，并教他们抓住扶手而不是猫。",
+      "solution_for_hazard_source": "在楼梯顶部和底部安装安全门，以防止无人看护的进入。",
+      "solution_to_prevent_recurrence": "始终监督幼儿在楼梯上，并确保他们使用适当的扶手支撑。"
+    },
+    "4": {
+      "risk_description": "孩子有从楼梯上摔下的风险，可能导致严重受伤。猫在楼梯上更增加了危险，因为它可能导致孩子绊倒或失去平衡。",
+      "normal_video_description": "",
+      "solution_for_person": "确保孩子在楼梯附近有看护，不被单独留下。教孩子如何安全地下楼和上楼。",
+      "solution_for_hazard_source": "清除楼梯上的障碍物或危险物品，以降低事故风险。",
+      "solution_to_prevent_recurrence": "在楼梯顶部和底部安装安全门或栏杆，以防止孩子在无人看护时进入楼梯。"
+    }
+  }
+}

@@ -1,0 +1,40 @@
+{
+  "video_key": "web_h264/bilibili__BV1qu41127SE",
+  "translations": {
+    "0": {
+      "risk_description": "视频中的人似乎正在经历跌倒或失去平衡，能够看到他们努力从地板上站起，最终倒在地上。这种行为偏离了中年人的正常日常活动，可能表明受伤或健康问题的风险。",
+      "normal_video_description": "",
+      "solution_for_person": "应检查该人是否受伤，并提供帮助以确保其安全和稳定。必要时，应将其转移至安全地点，并监测其是否出现进一步的痛苦或受伤迹象。",
+      "solution_for_hazard_source": "应找出跌倒的原因并加以处理，以防止再次发生。这可能包括清理地面上的溢漏或危险物，确保该区域光线充足，并在需要时向该人提供支持或帮助。",
+      "solution_to_prevent_recurrence": "为防止复发，应鼓励该人在长时间坐着或站立时定时休息并伸展。还要提醒他们在餐厅走动时保持谨慎，必要时请求帮助。"
+    },
+    "1": {
+      "risk_description": "该男子出现一氧化碳中毒的迹象，导致失控和昏迷，如果不及时处理，可能导致严重伤害或死亡。",
+      "normal_video_description": "一名男子出现一氧化碳中毒，失去知觉，经新鲜空气短暂复苏后被送往医院接受治疗。",
+      "solution_for_person": "如出现一氧化碳中毒症状，请立即就医。",
+      "solution_for_hazard_source": "在可能产生一氧化碳的区域（如燃气灶或加热器）确保良好通风。",
+      "solution_to_prevent_recurrence": "在家中安装一氧化碳探测器，并定期检查其功能。"
+    },
+    "2": {
+      "risk_description": "一名年轻人在房间里突然倒下，表明可能出现一氧化碳中毒等严重健康紧急情况。该行为明显超出正常活动，属于直接危及生命危险的状况，需要立即干预。",
+      "normal_video_description": "",
+      "solution_for_person": "应立即将此人转移至新鲜空气中，并毫不迟疑地呼叫急救医疗服务。",
+      "solution_for_hazard_source": "确保房间通风良好，并检查一氧化碳来源，例如有故障的供暖系统或燃气设备。",
+      "solution_to_prevent_recurrence": "安装一氧化碳探测器，并确保燃气设备定期维护，以防止以后发生事故。"
+    },
+    "3": {
+      "risk_description": "该男子倒下后挣扎着想站起来，暗示可能因晕厥或突发健康问题而导致的跌倒或不稳定的风险。",
+      "normal_video_description": "",
+      "solution_for_person": "确保该人在站立或移动时受到监护和支持，尤其是当他们有晕厥或健康问题史时。",
+      "solution_for_hazard_source": "改善通风，并确保门口附近没有障碍物，以便于移动和恢复。",
+      "solution_to_prevent_recurrence": "此人应寻求医疗建议，以解决可能导致晕厥或突然倒下的潜在健康问题。"
+    },
+    "4": {
+      "risk_description": "此人站在打开的烤箱前，如果处理不当，可能会导致烫伤或其他热相关伤害。",
+      "normal_video_description": "",
+      "solution_for_person": "与打开的烤箱保持安全距离，且在无适当防护装备的情况下不要触碰。",
+      "solution_for_hazard_source": "不使用时关闭烤箱门，以防止意外接触热量。",
+      "solution_to_prevent_recurrence": "在热源附近要始终保持谨慎，并确保儿童在近旁时受到监督。"
+    }
+  }
+}

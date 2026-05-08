@@ -1,0 +1,40 @@
+{
+  "video_key": "toyota_smarthome_mp4/mp4/Walk_p15_r12_v09_c02",
+  "translations": {
+    "0": {
+      "risk_description": "",
+      "normal_video_description": "视频显示一名中年人站在餐厅的餐桌旁。该人似乎正在桌上准备什么东西，可能是食物或饮料。房间光线充足，桌子周围有椅子。然后该人坐在桌旁继续活动。视频中没有显示任何风险或危险的迹象。",
+      "solution_for_person": "",
+      "solution_for_hazard_source": "",
+      "solution_to_prevent_recurrence": ""
+    },
+    "1": {
+      "risk_description": "",
+      "normal_video_description": "一个人走进一间餐厅，餐桌已摆好餐食。他们走向桌子并开始与桌上的物品互动，可能是准备上菜或收拾餐桌。场景平静，是典型的家庭环境。",
+      "solution_for_person": "",
+      "solution_for_hazard_source": "",
+      "solution_to_prevent_recurrence": ""
+    },
+    "2": {
+      "risk_description": "",
+      "normal_video_description": "一位年长者站在现代餐厅里，餐桌上摆着食物和饮料。该人轻微移动并伸手向桌子，进行正常的日常活动，没有任何不稳定、危险或异常行为的迹象。",
+      "solution_for_person": "",
+      "solution_for_hazard_source": "",
+      "solution_to_prevent_recurrence": ""
+    },
+    "3": {
+      "risk_description": "",
+      "normal_video_description": "一个人站在餐厅里，整理桌上的物品。房间光线充足，配有现代家具，包括一张餐桌和白色及红色椅子。",
+      "solution_for_person": "",
+      "solution_for_hazard_source": "",
+      "solution_to_prevent_recurrence": ""
+    },
+    "4": {
+      "risk_description": "",
+      "normal_video_description": "一个男人走进现代餐厅，走向餐桌，餐桌上摆着盘子、杯子和其他餐具。",
+      "solution_for_person": "",
+      "solution_for_hazard_source": "",
+      "solution_to_prevent_recurrence": ""
+    }
+  }
+}

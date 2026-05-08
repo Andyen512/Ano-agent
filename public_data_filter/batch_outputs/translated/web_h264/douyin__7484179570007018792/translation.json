@@ -1,0 +1,40 @@
+{
+  "video_key": "web_h264/douyin__7484179570007018792",
+  "translations": {
+    "0": {
+      "risk_description": "年轻成人躺在地板上努力站起来，这表明有跌倒或不稳定风险。",
+      "normal_video_description": "",
+      "solution_for_person": "看护人员应帮助年轻成人安全地站起，并确保他们没有受伤。",
+      "solution_for_hazard_source": "看护人员应检查客厅是否存在可能导致跌倒的潜在危险，如松动的地毯或不平的地板。",
+      "solution_to_prevent_recurrence": "看护人员应确保客厅无危险，并为年轻成人提供支撑，以防止未来跌倒。"
+    },
+    "1": {
+      "risk_description": "老年人跌倒后难以从地板上站起，表明存在长期卧床和因跌倒导致潜在伤害的风险。",
+      "normal_video_description": "老年人在客厅跌倒后难以站起。",
+      "solution_for_person": "确保老年人立即获得帮助，防止长时间躺在冰冷的地板上。",
+      "solution_for_hazard_source": "",
+      "solution_to_prevent_recurrence": "在座位区附近安装扶手杆，确保地面防滑，以降低跌倒风险。"
+    },
+    "2": {
+      "risk_description": "老年人被看到绊倒椅子后跌倒在地上，并努力站起。这是一种明显的跌倒危险和不稳定事件，已超出正常日常活动。",
+      "normal_video_description": "",
+      "solution_for_person": "应立即呼叫帮助或使用电话联系急救服务或家人。",
+      "solution_for_hazard_source": "移除或固定松动的家具和椅子等障碍物，以防止绊倒。",
+      "solution_to_prevent_recurrence": "安装扶手杆、改善照明并确保通道畅通，以降低老年人跌倒风险。"
+    },
+    "3": {
+      "risk_description": "老年人跌倒后卡在椅子下，因其活动能力受限且难以站起，存在受伤风险。",
+      "normal_video_description": "",
+      "solution_for_person": "确保老年人在移动时有支撑或帮助，以防止跌倒。",
+      "solution_for_hazard_source": "移除或固定家具，以防止其成为绊倒危险。",
+      "solution_to_prevent_recurrence": "安装安全设施，如防滑地板，并确保家具布置合理，尽量减少绊倒风险。"
+    },
+    "4": {
+      "risk_description": "老年人趴在阳台栏杆上，存在跌倒风险。若失去平衡跌落，可能导致严重伤害甚至死亡。",
+      "normal_video_description": "",
+      "solution_for_person": "确保老年人在阳台附近不被单独留下，并在需要时提供支撑或帮助。",
+      "solution_for_hazard_source": "在阳台上安装安全屏障或栏杆，以防止跌倒。",
+      "solution_to_prevent_recurrence": "定期检查老年人并鼓励他们避免在阳台附近进行危险行为。"
+    }
+  }
+}

@@ -1,0 +1,40 @@
+{
+  "video_key": "SmartHome-Bench/videos/smartbench_0898",
+  "translations": {
+    "0": {
+      "risk_description": "",
+      "normal_video_description": "视频显示一个人走向一所房子，随后有另外两个人跟随。他们似乎在对房产进行检查，行为中没有任何风险或异常迹象。",
+      "solution_for_person": "",
+      "solution_for_hazard_source": "",
+      "solution_to_prevent_recurrence": ""
+    },
+    "1": {
+      "risk_description": "可以看到多人以挑衅的方式靠近一所房子，其中一人蹲下，其他人做出挑衅性的手势。这种行为暗示可能发生肢体冲突，可能导致伤害。",
+      "normal_video_description": "一个人走向房屋门口，随后多人以挑衅的方式接近车道。",
+      "solution_for_person": "应当建议这些人降低紧张局势，平和沟通，以避免冲突。",
+      "solution_for_hazard_source": "",
+      "solution_to_prevent_recurrence": ""
+    },
+    "2": {
+      "risk_description": "多人靠近住宅并发生身体接触，包括推搡，这表明局势可能升级为暴力。",
+      "normal_video_description": "",
+      "solution_for_person": "这些人应立即停止身体接触并分开，以降低紧张局势。",
+      "solution_for_hazard_source": "应当保障环境安全，防止进一步未经授权的进入。",
+      "solution_to_prevent_recurrence": "安装额外的安全措施，如摄像头或警报器，以遏制未来事件。"
+    },
+    "3": {
+      "risk_description": "视频显示个人之间的对峙，可能升级为肢体冲突，给涉及者（包括附近的弱势人员）带来受伤风险。",
+      "normal_video_description": "",
+      "solution_for_person": "确保对峙中的个人被分开，并在可能的情况下由中立方进行缓和。",
+      "solution_for_hazard_source": "安装警报器或摄像头等安全措施，以阻止对峙并确保安全。",
+      "solution_to_prevent_recurrence": "制定社区准则以处理和预防冲突，并提供冲突解决培训。"
+    },
+    "4": {
+      "risk_description": "",
+      "normal_video_description": "视频显示一名年轻成年人在住宅区行走，经过一所房子和车道。场景中没有可见的风险或危险。",
+      "solution_for_person": "",
+      "solution_for_hazard_source": "",
+      "solution_to_prevent_recurrence": ""
+    }
+  }
+}

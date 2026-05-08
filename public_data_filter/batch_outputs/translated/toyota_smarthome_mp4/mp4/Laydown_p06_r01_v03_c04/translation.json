@@ -1,0 +1,40 @@
+{
+  "video_key": "toyota_smarthome_mp4/mp4/Laydown_p06_r01_v03_c04",
+  "translations": {
+    "0": {
+      "risk_description": "老年人坐在沙发边缘，双腿悬空，如果他们快速站立或失去平衡，可能会导致跌倒。",
+      "normal_video_description": "老年人在客厅的沙发上坐着，看起来很放松和舒适。",
+      "solution_for_person": "护理人员应确保老年人安全地坐在沙发上，双脚放在地面或脚凳上。",
+      "solution_for_hazard_source": "护理人员应确保地板上没有绊倒危险物，如电线或小物件。",
+      "solution_to_prevent_recurrence": "护理人员应监测老年人的活动，必要时提供帮助以防止跌倒。"
+    },
+    "1": {
+      "risk_description": "",
+      "normal_video_description": "一位老年人坐在客厅的绿色沙发上，然后躺在沙发上。可以看见各种家居用品，包括植物、书籍和遥控器。",
+      "solution_for_person": "",
+      "solution_for_hazard_source": "",
+      "solution_to_prevent_recurrence": ""
+    },
+    "2": {
+      "risk_description": "",
+      "normal_video_description": "老年人坐在客厅的绿色组合沙发上，然后舒适地倾斜和躺下。环境平静，没有明显的危险或危险活动。",
+      "solution_for_person": "",
+      "solution_for_hazard_source": "",
+      "solution_to_prevent_recurrence": ""
+    },
+    "3": {
+      "risk_description": "老年人坐在沙发边缘，脚放在茶几上，如果失去平衡可能会导致跌倒。",
+      "normal_video_description": "",
+      "solution_for_person": "老年人应确保安全就座，避免可能导致不稳定的位置移动。",
+      "solution_for_hazard_source": "茶几应放置在离沙发边缘更远的地方，以减少物体坠落或失去平衡的风险。",
+      "solution_to_prevent_recurrence": "在脚下使用防滑垫，确保老年人舒适就座，防止滑倒或跌落。"
+    },
+    "4": {
+      "risk_description": "老年人有从沙发跌倒的风险，可能导致严重伤害。此人坐在沙发边缘的位置以及明显的头晕或失去平衡会增加跌倒的可能性。",
+      "normal_video_description": "",
+      "solution_for_person": "护理人员应确保老年人在沙发上正确就座，双脚稳稳地放在地板上，以防止跌倒。",
+      "solution_for_hazard_source": "视频中没有发现具体的危险来源；然而，确保沙发周围区域没有绊倒危险有助于降低风险。",
+      "solution_to_prevent_recurrence": "定期检查老年人的平衡和活动能力，并在他们靠近沙发边缘时提供支持，有助于防止未来跌倒。"
+    }
+  }
+}

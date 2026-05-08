@@ -1,0 +1,40 @@
+{
+  "video_key": "labimag/dataset/chute06/cam4",
+  "translations": {
+    "0": {
+      "risk_description": "这个年轻人趴在房间中央的垫子上，这不是安全的位置。如果他们突然移动，可能会摔倒或受伤。",
+      "normal_video_description": "",
+      "solution_for_person": "应该将这个人转移到更安全的位置，比如床或沙发，以防止摔倒和受伤。",
+      "solution_for_hazard_source": "应该将垫子从房间中央移走，以防止事故发生。",
+      "solution_to_prevent_recurrence": "应该监督和引导这个人，避免将来再躺在垫子上。"
+    },
+    "1": {
+      "risk_description": "",
+      "normal_video_description": "一个人在一个类似实验室的房间里走向垫子，躺下，被其他人观察。",
+      "solution_for_person": "",
+      "solution_for_hazard_source": "",
+      "solution_to_prevent_recurrence": ""
+    },
+    "2": {
+      "risk_description": "",
+      "normal_video_description": "视频显示一个人走进实验室房间，躺在房间中央的软垫上，然后起身离开。另一个进入房间并走向办公桌。这种行为看起来是受控环境中的正常活动。",
+      "solution_for_person": "",
+      "solution_for_hazard_source": "",
+      "solution_to_prevent_recurrence": ""
+    },
+    "3": {
+      "risk_description": "一个人躺在办公室中央的床垫上，这可能会对他人造成绊倒危险，特别是那些行动不便或平衡有问题的人。",
+      "normal_video_description": "",
+      "solution_for_person": "确保床垫被移走或固定，以防止绊倒危险。",
+      "solution_for_hazard_source": "清理床垫周围的区域，以创建安全的行走通道。",
+      "solution_to_prevent_recurrence": "不使用时，应将床垫等大件物品存放在指定的存储区域。"
+    },
+    "4": {
+      "risk_description": "视频中的人正在走钢丝，存在坠落和可能受伤的风险。钢丝没有固定，也没有安全措施来防止坠落。",
+      "normal_video_description": "",
+      "solution_for_person": "确保钢丝固定得当，并采取安全措施，如网或安全带，以防止坠落。",
+      "solution_for_hazard_source": "清除该区域的潜在危险物品，如可能导致绊倒或滑倒的物体。",
+      "solution_to_prevent_recurrence": "提供正确走钢丝和使用安全设备的培训，以防止坠落。"
+    }
+  }
+}

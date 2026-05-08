@@ -1,0 +1,40 @@
+{
+  "video_key": "toyota_smarthome_mp4/mp4/Getup_p09_r03_v07_c04",
+  "translations": {
+    "0": {
+      "risk_description": "此人躺在沙发上，然后快速坐起，可能导致失去平衡并有可能跌倒。",
+      "normal_video_description": "",
+      "solution_for_person": "此人在沙发上活动时应更加小心，以防止跌倒。",
+      "solution_for_hazard_source": "沙发应配有防滑表面或坐垫，以提供更好的支撑。",
+      "solution_to_prevent_recurrence": "此人在沙发上应更加注意自己的动作，并考虑使用坐垫或防滑表面来防止跌倒。"
+    },
+    "1": {
+      "risk_description": "",
+      "normal_video_description": "有一个人躺在绿色的分段式沙发上，然后坐起。房间里摆放着植物、一个放置物品的边桌，以及一张放有纸张和遥控器的茶几。",
+      "solution_for_person": "",
+      "solution_for_hazard_source": "",
+      "solution_to_prevent_recurrence": ""
+    },
+    "2": {
+      "risk_description": "",
+      "normal_video_description": "一位中年成年人正躺在客厅的绿色分段式沙发上，随后坐起并调整姿势。房间里摆放着盆栽、一个放有物品的茶几和一盏落地灯，没有危险或异常活动的迹象。",
+      "solution_for_person": "",
+      "solution_for_hazard_source": "",
+      "solution_to_prevent_recurrence": ""
+    },
+    "3": {
+      "risk_description": "此人以放松的姿势躺在沙发上，如果突然变换姿势或失去平衡，可能会导致跌倒。",
+      "normal_video_description": "",
+      "solution_for_person": "此人在变换姿势前应慢慢坐起，并确保有支撑。",
+      "solution_for_hazard_source": "确保沙发稳固，且没有任何可能导致绊倒或移动的物品。",
+      "solution_to_prevent_recurrence": "躺下时使用坐垫支撑，避免在放松时突然动作。"
+    },
+    "4": {
+      "risk_description": "此人以不舒适的姿势躺在沙发上，如果移动或调整姿势可能会导致跌倒，可能造成轻微伤害。",
+      "normal_video_description": "有一个人躺在客厅的绿色沙发上，双腿抬起，脚离地。",
+      "solution_for_person": "确保此人以舒适且稳固的姿势躺在沙发上，以防止任何可能导致跌倒的突然动作。",
+      "solution_for_hazard_source": "",
+      "solution_to_prevent_recurrence": "鼓励此人以正确的方式躺在沙发上，以避免潜在的跌倒。"
+    }
+  }
+}

@@ -1,0 +1,40 @@
+{
+  "video_key": "SmartHome-Bench/videos/smartbench_1020",
+  "translations": {
+    "0": {
+      "risk_description": "老年人使用助行器穿过走廊，这可能表明有跌倒或不稳定的风险。走廊里有一把椅子也可能造成绊倒危险。",
+      "normal_video_description": "",
+      "solution_for_person": "确保老年人在使用助行器时有适当的支撑和监督。清除走廊中的任何绊倒危险物。",
+      "solution_for_hazard_source": "把椅子从走廊移走以消除绊倒危险。",
+      "solution_to_prevent_recurrence": "定期检查老年人的平衡能力和活动能力，确保他们正确安全地使用助行器。根据需要提供额外的支撑或辅助设备。"
+    },
+    "1": {
+      "risk_description": "",
+      "normal_video_description": "一位老年人使用助行器穿过走廊，后面跟着另一个人推着轮椅。走廊光线充足，装饰着裱框图片和艺术品。",
+      "solution_for_person": "",
+      "solution_for_hazard_source": "",
+      "solution_to_prevent_recurrence": ""
+    },
+    "2": {
+      "risk_description": "",
+      "normal_video_description": "一位老年人使用助行器缓慢地穿过走廊，后面跟着一位协助推助行器的护理人员。该场景描绘了居家环境中的日常活动，没有任何可见的危险或不稳定迹象。",
+      "solution_for_person": "",
+      "solution_for_hazard_source": "",
+      "solution_to_prevent_recurrence": ""
+    },
+    "3": {
+      "risk_description": "老年人在狭窄的走廊使用助行器，这可能会增加绊倒或失去平衡的风险，特别是在路径不清晰或有障碍物的情况下。",
+      "normal_video_description": "",
+      "solution_for_person": "确保走廊没有任何障碍物，并在需要时提供额外的支撑或监督。",
+      "solution_for_hazard_source": "如果可能的话拓宽走廊，或确保走廊始终保持畅通。",
+      "solution_to_prevent_recurrence": "定期检查走廊是否有障碍物，保持通道畅通以便安全通行。"
+    },
+    "4": {
+      "risk_description": "老年人在走廊中使用助行器行走，这增加了跌倒和潜在受伤的风险。由于视频中该人处于移动状态，这种风险贯穿整个视频。",
+      "normal_video_description": "视频显示一位老年人在光线充足的走廊中使用助行器行走。",
+      "solution_for_person": "确保该人在使用助行器行走时有适当的支撑和协助，以降低跌倒风险。",
+      "solution_for_hazard_source": "",
+      "solution_to_prevent_recurrence": "在老年人使用助行器时提供额外的支撑或协助，以最大程度地减少跌倒风险。"
+    }
+  }
+}

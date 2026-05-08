@@ -1,0 +1,40 @@
+{
+  "video_key": "SmartHome-Bench/videos/smartbench_0806",
+  "translations": {
+    "0": {
+      "risk_description": "",
+      "normal_video_description": "在夜晚的住宅车道上，一只棕熊在停放的汽车周围走动。它似乎在嗅闻地面并调查该地区。场景很安静，没有看到人或其他动物。",
+      "solution_for_person": "",
+      "solution_for_hazard_source": "",
+      "solution_to_prevent_recurrence": ""
+    },
+    "1": {
+      "risk_description": "一只大型棕熊在住宅车道上靠近停放的汽车徘徊，如果它进入车辆或受惊，可能会对自己或他人造成碰撞或挤压伤害。",
+      "normal_video_description": "夜晚，一只棕熊进入住宅车道，在停放的汽车附近走动，随后离开画面。",
+      "solution_for_person": "",
+      "solution_for_hazard_source": "",
+      "solution_to_prevent_recurrence": ""
+    },
+    "2": {
+      "risk_description": "一只大型野生熊进入住宅车道，直接走向一辆停放的汽车，对车辆或任何乘员造成高度碰撞或挤压伤害的风险。",
+      "normal_video_description": "夜晚，一只大型棕熊走进住宅车道，经过一辆停放的SUV，朝街道方向移动后离开画面。",
+      "solution_for_person": "",
+      "solution_for_hazard_source": "",
+      "solution_to_prevent_recurrence": ""
+    },
+    "3": {
+      "risk_description": "一只熊在停放的车辆附近走动，如果它与车辆近距离接触，可能会对宠物造成碰撞或挤压伤害的潜在风险。",
+      "normal_video_description": "",
+      "solution_for_person": "在安全距离外监测熊的行动，确保宠物远离车辆。",
+      "solution_for_hazard_source": "封锁该区域，防止熊进一步靠近车辆。",
+      "solution_to_prevent_recurrence": "安装运动感应灯或警报器，以阻止野生动物进入车道区域。"
+    },
+    "4": {
+      "risk_description": "",
+      "normal_video_description": "视频显示一只狗在夜晚的车道里绕着一辆停放的汽车走动。场景中没有明显的风险或危险。",
+      "solution_for_person": "",
+      "solution_for_hazard_source": "",
+      "solution_to_prevent_recurrence": ""
+    }
+  }
+}

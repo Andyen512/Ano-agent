@@ -1,0 +1,40 @@
+{
+  "video_key": "labimag/dataset/chute03/cam1",
+  "translations": {
+    "0": {
+      "risk_description": "年轻人躺在地板上的床垫上，这不是安全的睡眠或休息场所。这存在从床垫上摔下来受伤的风险。",
+      "normal_video_description": "视频显示一名年轻人躺在学习室里地板上的床垫上。此人看起来正在休息或睡觉。",
+      "solution_for_person": "此人应该被转移到安全舒适的睡眠区域，如床或沙发。",
+      "solution_for_hazard_source": "床垫应该从地板上移走，放到合适的床或沙发上。",
+      "solution_to_prevent_recurrence": "应当监督此人并鼓励其使用合适的睡眠设施，以防止未来摔倒和受伤。"
+    },
+    "1": {
+      "risk_description": "",
+      "normal_video_description": "视频显示一个教室环境，有桌子、椅子和地板上的一大块白色垫子。一个穿深色衣服的人穿过房间，走向垫子，躺在上面，然后起身离开。另一个人在背景中的一张桌子旁工作。",
+      "solution_for_person": "",
+      "solution_for_hazard_source": "",
+      "solution_to_prevent_recurrence": ""
+    },
+    "2": {
+      "risk_description": "",
+      "normal_video_description": "一个年轻人走进房间，走向地板上的床垫并躺在上面。环境看起来像是实验室或学习区，有桌子和设备，动作平静且受控，没有任何危险迹象。",
+      "solution_for_person": "",
+      "solution_for_hazard_source": "",
+      "solution_to_prevent_recurrence": ""
+    },
+    "3": {
+      "risk_description": "躺在检查台上的人如果在没有支撑的情况下试图坐起来，可能会摔倒，这对于行动受限的人来说尤其危险。",
+      "normal_video_description": "",
+      "solution_for_person": "确保此人在试图从检查台坐起来时有适当的支撑或帮助。",
+      "solution_for_hazard_source": "在检查台上添加侧栏或垫子以防止摔倒。",
+      "solution_to_prevent_recurrence": "实施安全措施，如在检查台上安装侧栏，并在需要时提供帮助。"
+    },
+    "4": {
+      "risk_description": "此人躺在房间中央的床垫上，周围有各种物品，如果他们移动，可能会造成摔倒或不稳定的风险。也存在与附近物体碰撞的潜在危险。",
+      "normal_video_description": "",
+      "solution_for_person": "确保此人安全地躺在床垫上，没有从床垫上滚落或摔到地板上的风险。",
+      "solution_for_hazard_source": "清除床垫周围任何可能造成碰撞或不稳定的物品。",
+      "solution_to_prevent_recurrence": "将床垫固定在地板上或提供额外支撑，以防止其移动或翻倒。"
+    }
+  }
+}

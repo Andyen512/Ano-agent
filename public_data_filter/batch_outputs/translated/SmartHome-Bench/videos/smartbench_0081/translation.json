@@ -1,0 +1,40 @@
+{
+  "video_key": "SmartHome-Bench/videos/smartbench_0081",
+  "translations": {
+    "0": {
+      "risk_description": "狗站在餐桌上，而这张桌子对狗站立并不稳固，存在狗跌倒并可能受伤的风险。",
+      "normal_video_description": "狗站在餐桌上，而这张桌子对狗站立并不稳固，存在狗跌倒并可能受伤的风险。",
+      "solution_for_person": "主人应该把狗从桌子上抱下来，放到地板上，以防止它跌倒受伤。",
+      "solution_for_hazard_source": "桌子不应被用作狗站立的面。",
+      "solution_to_prevent_recurrence": "主人应监督狗，并防止它以后再爬上桌子。"
+    },
+    "1": {
+      "risk_description": "狗站在餐桌上，存在从桌子跌落受伤的风险。",
+      "normal_video_description": "狗站在餐桌上，嗅闻或查看桌上的物品，然后跳下来走向镜头。这种行为是典型的宠物活动，没有明显危险或异常。",
+      "solution_for_person": "监督狗，确保它不爬上可能跌倒的家具。",
+      "solution_for_hazard_source": "移除或固定吸引狗爬上家具的物品。",
+      "solution_to_prevent_recurrence": "训练狗远离桌子和其他高处表面。"
+    },
+    "2": {
+      "risk_description": "",
+      "normal_video_description": "狗站在餐桌上，嗅闻物品，然后跳下来走向镜头。这种行为是典型的宠物活动，没有明显危险或异常。",
+      "solution_for_person": "",
+      "solution_for_hazard_source": "",
+      "solution_to_prevent_recurrence": ""
+    },
+    "3": {
+      "risk_description": "狗站在餐桌上，如果失去平衡就有跌倒的风险，可能导致受伤。",
+      "normal_video_description": "",
+      "solution_for_person": "确保狗在家具上时有人监督，并鼓励它留在地面。",
+      "solution_for_hazard_source": "使用婴儿门或隔栏阻止狗进入高处表面。",
+      "solution_to_prevent_recurrence": "训练狗远离桌子，并提供安全的替代空间让它站立或躺下。"
+    },
+    "4": {
+      "risk_description": "狗站在餐桌上，如果失去平衡可能导致跌倒，可能伤害狗并可能损坏家具或桌上的其他物品。",
+      "normal_video_description": "视频显示狗站在餐桌上，可能有跌倒导致受伤或损坏的风险。",
+      "solution_for_person": "把易碎或贵重物品从桌子上移走，以防止跌倒时造成损坏。确保狗受到监督，不要让它在桌子上无人看管。",
+      "solution_for_hazard_source": "",
+      "solution_to_prevent_recurrence": "在桌子上安装防滑垫或防倾倒支架，以防止狗爬上去。为狗提供安全的替代空间玩耍或休息。"
+    }
+  }
+}

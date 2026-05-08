@@ -1,0 +1,40 @@
+{
+  "video_key": "UR_Fall_Dataset/fall-01-cam1",
+  "translations": {
+    "0": {
+      "risk_description": "1.看到一个年轻人向后倒在地上，这存在潜在的受伤风险。这次跌倒看起来不受控制，可能会导致头部受伤或其他身体伤害。",
+      "normal_video_description": "",
+      "solution_for_person": "2.应该帮助这个人坐起来，并检查是否有受伤。应该建议他们在客厅走动时要更加小心。",
+      "solution_for_hazard_source": "3.客厅地板看起来很光滑，可能是导致跌倒的一个因素。应该建议这个人穿具有良好的抓地力的鞋子，并且在客厅活动时要更加注意自己的动作。",
+      "solution_to_prevent_recurrence": "4.应该提醒这个人在客厅走动时要更加小心，并且应该检查地板是否存在可能导致跌倒的危险因素。应该建议这个人穿具有良好的抓地力的鞋子，以减少滑倒的风险。"
+    },
+    "1": {
+      "risk_description": "5.这个人正以一种别扭的姿势躺在地板上，如果他们突然移动，可能会导致起身困难或潜在受伤。",
+      "normal_video_description": "6.视频显示了一个序列，其中可以看到一个人在办公室/学习环境中跌倒并最终躺在地板上。",
+      "solution_for_person": "7.确保这个人对周围环境有意识，并在需要时有帮助。",
+      "solution_for_hazard_source": "",
+      "solution_to_prevent_recurrence": ""
+    },
+    "2": {
+      "risk_description": "8.一个人走进房间后立即倒在地板上，表明突然失去平衡或稳定性。这种行为明显超出正常活动范围，并构成直接的物理风险。",
+      "normal_video_description": "",
+      "solution_for_person": "9.应该立即检查这个人是否受伤，并帮助他们到安全的位置。",
+      "solution_for_hazard_source": "10.检查环境是否存在潜在跌倒原因，如光滑地板或障碍物。",
+      "solution_to_prevent_recurrence": "11.确保地板上没有障碍物，并使用防滑表面来防止未来跌倒。"
+    },
+    "3": {
+      "risk_description": "12.这个年轻人正在做后空翻，如果他们着陆不稳，可能会导致跌倒或受伤，特别是如果他们行动不便或经历失去平衡的话。",
+      "normal_video_description": "",
+      "solution_for_person": "13.确保这个年轻人有一个安全的着陆区域，并考虑在需要时进行监督以提供帮助。",
+      "solution_for_hazard_source": "14.清理这个年轻人周围的区域，以防止任何可能导致跌倒的障碍物。",
+      "solution_to_prevent_recurrence": "15.在受控环境中进行练习，并采取适当的安全措施和监督，以最大程度地减少受伤风险。"
+    },
+    "4": {
+      "risk_description": "16.看到这个人向后倒在地上，由于撞击和潜在的颅脑损伤风险，可能会导致严重伤害。",
+      "normal_video_description": "",
+      "solution_for_person": "17.确保这个人穿着合适的鞋子，并具有良好的抓地力，以防止在光滑表面上滑倒。",
+      "solution_for_hazard_source": "18.移除这个人行走区域中的任何绊倒危险或障碍物。",
+      "solution_to_prevent_recurrence": "19.实施定期的地板维护检查，以确保其状况良好，没有任何可能导致滑倒的损坏。"
+    }
+  }
+}

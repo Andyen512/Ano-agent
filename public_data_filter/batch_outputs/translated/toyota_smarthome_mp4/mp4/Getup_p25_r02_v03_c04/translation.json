@@ -1,0 +1,40 @@
+{
+  "video_key": "toyota_smarthome_mp4/mp4/Getup_p25_r02_v03_c04",
+  "translations": {
+    "0": {
+      "risk_description": "老年人坐在沙发边缘，这不是一个安全的姿势。他们很容易从沙发上摔下来受伤。",
+      "normal_video_description": "",
+      "solution_for_person": "护理人员应该帮助老年人移动到沙发上更安全的位置，例如坐在沙发中间，双脚平放在地板上。",
+      "solution_for_hazard_source": "护理人员应确保沙发稳固，客厅里没有绊倒危险物。",
+      "solution_to_prevent_recurrence": "护理人员应定期检查老年人以确保他们的安全，必要时帮助他们移动到更安全的位置。他们还应确保客厅没有绊倒危险物，家具稳固。"
+    },
+    "1": {
+      "risk_description": "这个人赤脚站在硬地板上，这增加了滑倒和摔倒的风险，对老年人来说尤其如此。",
+      "normal_video_description": "一位老年人坐在客厅的绿色沙发上，然后赤脚站起来站在硬地板上。",
+      "solution_for_person": "这个人应该穿合适的鞋子来降低滑倒风险。",
+      "solution_for_hazard_source": "确保地板清洁干燥，以减少滑倒危险。",
+      "solution_to_prevent_recurrence": "鼓励在高流量区域使用防滑垫或地毯。"
+    },
+    "2": {
+      "risk_description": "",
+      "normal_video_description": "一位老年人坐在客厅的绿色转角沙发上，然后站起来走开。场景平静，没有可见的危险或危险活动。",
+      "solution_for_person": "",
+      "solution_for_hazard_source": "",
+      "solution_to_prevent_recurrence": ""
+    },
+    "3": {
+      "risk_description": "老年人从沙发上站起来，这可能会因潜在的不稳定或虚弱而造成跌倒风险。",
+      "normal_video_description": "",
+      "solution_for_person": "确保老年人在站起时有支撑，考虑使用扶手杆或辅助设备。",
+      "solution_for_hazard_source": "清除沙发附近的障碍物，这些可能会造成绊倒。",
+      "solution_to_prevent_recurrence": "使用稳固的椅子或确保区域没有绊倒危险物，以防止将来跌倒。"
+    },
+    "4": {
+      "risk_description": "老年人因坐在沙发边缘而有跌倒风险，这可能导致严重伤害。潜在后果包括长期影响和高昂的医疗费用。",
+      "normal_video_description": "",
+      "solution_for_person": "确保老年人从沙发上小心坐下或站起，以避免跌倒。",
+      "solution_for_hazard_source": "",
+      "solution_to_prevent_recurrence": "鼓励老年人在从沙发上站起时使用椅子或扶手来降低跌倒风险。"
+    }
+  }
+}

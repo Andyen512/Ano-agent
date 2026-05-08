@@ -1,0 +1,40 @@
+{
+  "video_key": "SmartHome-Bench/videos/smartbench_0763",
+  "translations": {
+    "0": {
+      "risk_description": "",
+      "normal_video_description": "人们看到一只黑熊在砖砌小径上走向放在地上的一碗食物。它靠近碗并开始进食。随后它转身，朝房屋入口方向走回去。这只黑熊是一只体型较大的成年熊，健康状况良好。它出现在院子里不常见，可能会给居民带来风险。",
+      "solution_for_person": "",
+      "solution_for_hazard_source": "",
+      "solution_to_prevent_recurrence": ""
+    },
+    "1": {
+      "risk_description": "一只黑熊在门廊的碗里吃食物，这可能导致它意外摄入可能有害的人类食物。",
+      "normal_video_description": "一只黑熊走上门廊，靠近一碗食物并开始进食，偶尔环顾四周。",
+      "solution_for_person": "",
+      "solution_for_hazard_source": "",
+      "solution_to_prevent_recurrence": ""
+    },
+    "2": {
+      "risk_description": "",
+      "normal_video_description": "一只黑熊走上砖砌门廊，吃掉放在地上的一碗食物。吃完后，它抬头看向摄像头，然后离开。",
+      "solution_for_person": "",
+      "solution_for_hazard_source": "",
+      "solution_to_prevent_recurrence": ""
+    },
+    "3": {
+      "risk_description": "一只黑熊在阳台上，可能会给宠物或行动不便的人带来碰撞或挤压伤害的风险。",
+      "normal_video_description": "",
+      "solution_for_person": "确保宠物或易受伤害的人员安全待在室内或远离阳台区域。",
+      "solution_for_hazard_source": "妥善保管食物，防止吸引野生动物，并考虑安装防熊围栏或屏障。",
+      "solution_to_prevent_recurrence": "安装运动感应灯或报警器，以阻止野生动物靠近阳台。"
+    },
+    "4": {
+      "risk_description": "黑熊正靠近有孩子所在的门廊，如果孩子被熊意外压倒，可能导致严重伤害甚至死亡。",
+      "normal_video_description": "",
+      "solution_for_person": "确保孩子有成年人监护，并与熊保持安全距离。",
+      "solution_for_hazard_source": "清除可能吸引熊进入该地区的食物来源。",
+      "solution_to_prevent_recurrence": "安装运动感应驱赶装置或防熊容器，以阻止熊到访该物业。"
+    }
+  }
+}

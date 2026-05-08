@@ -1,0 +1,40 @@
+{
+  "video_key": "web_h264/douyin__7584004256013798698",
+  "translations": {
+    "0": {
+      "risk_description": "视频显示一名年轻成年人躺在床上，狗狗跳上床与该人互动。该人似乎对狗的行为感到厌烦，可能导致争吵或冲突。",
+      "normal_video_description": "",
+      "solution_for_person": "该人应向狗主人表达自己的感受，并为狗的行为设定界限。",
+      "solution_for_hazard_source": "狗主人应训练狗尊重该人的个人空间，未经允许不要跳上床。",
+      "solution_to_prevent_recurrence": "该人和狗主人应制定明确的规则和后果，以防止类似事件再次发生。"
+    },
+    "1": {
+      "risk_description": "视频描绘了一个场景：电暖器整夜未关，导致火灾隐患。画面中狗拔掉了暖器的插头以防止火灾，表明暖器无人看管可能引发火灾。",
+      "normal_video_description": "一只狗通过拔掉电暖器的插头叫醒主人，防止了因暖器整夜未关而可能导致的火灾。",
+      "solution_for_person": "不使用电暖器及其他热源时，请确保关闭并拔掉电源，尤其是在睡觉时。",
+      "solution_for_hazard_source": "请勿在夜间让电暖器或其他热源无人看管。",
+      "solution_to_prevent_recurrence": "向家人宣传无人看管热源的危险，并建立睡前关闭并拔掉电源的常规。"
+    },
+    "2": {
+      "risk_description": "画面中电热毯在主人睡觉时冒烟，显示可能因电气故障或误用而导致火灾隐患。狗拔掉插头以防止事态升级。",
+      "normal_video_description": "",
+      "solution_for_person": "立即醒来并拔掉设备插头。",
+      "solution_for_hazard_source": "拔掉插头并检查电热毯是否有损坏。",
+      "solution_to_prevent_recurrence": "请勿在睡觉时使用电热毯或让其无人看管。"
+    },
+    "3": {
+      "risk_description": "画面中狗拔掉墙上的充电器，如处理不当可能导致电气危险。",
+      "normal_video_description": "",
+      "solution_for_person": "在宠物接触电器时确保有人监督，并考虑使用防宠物插座保护盖。",
+      "solution_for_hazard_source": "使用防误拔的电源板或插座盖，防止宠物接触电线。",
+      "solution_to_prevent_recurrence": "将电线放在宠物够不到的地方，并教育家人监督宠物在电器周围的活动。"
+    },
+    "4": {
+      "risk_description": "画面中狗爬上床，可能导致跌倒受伤，尤其当孩子正在睡觉或未注意时。",
+      "normal_video_description": "",
+      "solution_for_person": "确保在狗上床时有人照看孩子，防止跌倒。",
+      "solution_for_hazard_source": "移走狗可能用作踏板爬上床的物品。",
+      "solution_to_prevent_recurrence": "在床周围安装安全护栏，防止狗进入床。"
+    }
+  }
+}

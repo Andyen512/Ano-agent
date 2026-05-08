@@ -1,0 +1,40 @@
+{
+  "video_key": "labimag/dataset/chute13/cam2",
+  "translations": {
+    "0": {
+      "risk_description": "一个年轻人试图坐在一张没有正确摆放的沙发上，导致他们摔倒并受伤。这种行为偏离了日常行为基线，因为这不是正常使用沙发的方式。",
+      "normal_video_description": "",
+      "solution_for_person": "应该建议此人正确使用沙发，并确保在坐之前正确摆放好。",
+      "solution_for_hazard_source": "应该检查沙发是否存在任何潜在危险，例如松动的腿或不稳定的结构，并在必要时进行维修或更换。",
+      "solution_to_prevent_recurrence": "应该教育此人正确使用沙发以及确保家具在使用前正确摆放的重要性。应该定期检查以确保所有家具状况良好且安全使用。"
+    },
+    "1": {
+      "risk_description": " 此人躺在软垫表面上然后滚落，可能失去平衡跌落到硬地板上，这可能导致受伤。",
+      "normal_video_description": "一个人进入一个铺有软垫表面的房间，坐在沙发上，躺在软垫上，然后滚落到地板上。",
+      "solution_for_person": "确保软垫表面被牢固固定，以防使用过程中移动。",
+      "solution_for_hazard_source": "将软垫表面固定在地板上以消除移动。",
+      "solution_to_prevent_recurrence": "在使用前将软垫表面固定在地板上。"
+    },
+    "2": {
+      "risk_description": "",
+      "normal_video_description": "一个年轻人走进客厅，坐在沙发上，然后躺在放在地板上的床垫上，然后起身离开。该环境看起来是一个受控的测试或研究空间，配备各种设备和家具，但没有观察到危险行为。",
+      "solution_for_person": "",
+      "solution_for_hazard_source": "",
+      "solution_to_prevent_recurrence": ""
+    },
+    "3": {
+      "risk_description": "此人试图跳到沙发上然后跳到床垫上，这可能由于不稳定的着陆而导致跌倒或受伤。",
+      "normal_video_description": "",
+      "solution_for_person": "确保跳跃时有稳定的表面，并考虑使用垫子来减少跌倒的影响。",
+      "solution_for_hazard_source": "提供稳定的家具并清除地板上的绊倒危险。",
+      "solution_to_prevent_recurrence": "使用正确的着陆技术并确保该区域没有障碍物。"
+    },
+    "4": {
+      "risk_description": "此人面临从升高的表面跌落到地板上的风险，这可能导致严重伤害。",
+      "normal_video_description": "",
+      "solution_for_person": "确保此人躺在一个稳定且安全的表面上以防止跌倒。",
+      "solution_for_hazard_source": "移除任何可能对此人构成风险的不稳定或升高的表面。",
+      "solution_to_prevent_recurrence": "为此人提供适当的支持和监督以防止将来跌倒。"
+    }
+  }
+}

@@ -1,0 +1,40 @@
+{
+  "video_key": "web_h264/bilibili__BV195tQeaEiV",
+  "translations": {
+    "0": {
+      "risk_description": "一个人在湿滑路面上高速骑摩托车，这会增加失控和跌倒的风险。",
+      "normal_video_description": "视频中显示一个人在湿滑路面上骑摩托车，这是一种可能导致事故的危险行为。",
+      "solution_for_person": "骑手应减速并与其他车辆保持安全距离，以降低摔倒的风险。",
+      "solution_for_hazard_source": "应对道路进行干燥或处理，以降低事故风险。",
+      "solution_to_prevent_recurrence": "骑手应佩戴适当的安全装备，如头盔和手套，并遵守交通规则，以防止再次发生。"
+    },
+    "1": {
+      "risk_description": "视频中包含多起车辆和摩托车发生事故或险些相撞的场景，可能会引发碰撞或挤压伤害。",
+      "normal_video_description": "视频展示了各种街道场景，其中有车辆和摩托车参与事故或险些相撞。",
+      "solution_for_person": "系好安全带并遵守交通规则。",
+      "solution_for_hazard_source": "",
+      "solution_to_prevent_recurrence": ""
+    },
+    "2": {
+      "risk_description": "视频展示了多起涉及汽车和摩托车的交通事故，包括碰撞和翻车，这些事故对人身安全构成明显且直接的危害。",
+      "normal_video_description": "",
+      "solution_for_person": "佩戴防护装备、遵守交通规则并保持安全车距。",
+      "solution_for_hazard_source": "改善道路安全措施并加强交通法规的执行。",
+      "solution_to_prevent_recurrence": "定期开展安全教育和检查。"
+    },
+    "3": {
+      "risk_description": "视频显示高速公路上的车辆，其中包括一个儿童坐在摩托车上的场景，由于高速和潜在的事故风险，这可能导致碰撞或挤压伤害。",
+      "normal_video_description": "",
+      "solution_for_person": "确保儿童始终有人看护，并远离高速交通区域。",
+      "solution_for_hazard_source": "实施更严格的交通法规和安全措施，以保护高速公路附近的弱势群体。",
+      "solution_to_prevent_recurrence": "提高公众对在交通繁忙地区让儿童靠近或乘坐摩托车危险性的认识。"
+    },
+    "4": {
+      "risk_description": "",
+      "normal_video_description": "视频展示了道路上各种车辆场景，包括一起汽车事故。",
+      "solution_for_person": "",
+      "solution_for_hazard_source": "",
+      "solution_to_prevent_recurrence": ""
+    }
+  }
+}

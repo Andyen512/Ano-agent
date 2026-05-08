@@ -1,0 +1,40 @@
+{
+  "video_key": "labimag/dataset/chute12/cam1",
+  "translations": {
+    "0": {
+      "risk_description": "看到一名年轻人试图爬上一张床垫，这不是一个稳定的表面，似乎有跌倒的风险。该人没有穿戴任何防护装备，床垫也没有固定在地板上。",
+      "normal_video_description": "视频显示一名年轻人在书房里试图爬上一张床垫。该人没有穿戴任何防护装备，床垫也没有固定在地板上。",
+      "solution_for_person": "应建议该人使用稳定的表面进行攀爬，并穿戴头盔和护膝等防护装备。",
+      "solution_for_hazard_source": "床垫应该固定在地板上，以防止移动或滑动。",
+      "solution_to_prevent_recurrence": "应该教育该人了解在进行体育活动时使用稳定表面和穿戴防护装备的重要性。"
+    },
+    "1": {
+      "risk_description": "",
+      "normal_video_description": "视频显示了一个教室环境，有桌子、椅子和一张放在地板上的床垫。人们在走动，其中一人躺在床垫上。",
+      "solution_for_person": "",
+      "solution_for_hazard_source": "",
+      "solution_to_prevent_recurrence": ""
+    },
+    "2": {
+      "risk_description": "",
+      "normal_video_description": "一个年轻人走进房间，走向地板上的床垫，躺下然后站起来。环境看起来像是实验室或学习区，有桌子和设备，动作平静且受控，没有任何危险迹象。",
+      "solution_for_person": "",
+      "solution_for_hazard_source": "",
+      "solution_to_prevent_recurrence": ""
+    },
+    "3": {
+      "risk_description": "看到该人爬上一个高架床，如果失去平衡可能会造成跌倒风险，特别是对于行动能力或稳定性有限的人。",
+      "normal_video_description": "",
+      "solution_for_person": "确保该人在攀爬高架表面时使用适当的支撑和稳定设备。",
+      "solution_for_hazard_source": "将床降低到地面高度或使用稳定的平台以降低跌倒风险。",
+      "solution_to_prevent_recurrence": "在高架表面周围安装护栏或防滑垫以提高安全性。"
+    },
+    "4": {
+      "risk_description": "该人正在进行涉及跳到床垫上的身体活动，如果落地不正确或失去平衡，可能会导致跌倒和潜在伤害。",
+      "normal_video_description": "",
+      "solution_for_person": "确保该人穿戴适当的安全装备，如头盔，并了解在床垫上安全着陆的正确技术。",
+      "solution_for_hazard_source": "清除床垫周围任何可能造成绊倒或跌倒的物品。",
+      "solution_to_prevent_recurrence": "提供安全跳跃技术培训，并确保床垫放置在平坦、稳定的表面上。"
+    }
+  }
+}

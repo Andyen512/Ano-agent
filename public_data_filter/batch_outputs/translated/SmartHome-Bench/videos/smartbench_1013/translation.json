@@ -1,0 +1,40 @@
+{
+  "video_key": "SmartHome-Bench/videos/smartbench_1013",
+  "translations": {
+    "0": {
+      "risk_description": "",
+      "normal_video_description": "视频显示一位老年人由护理人员在助行器的使用上提供帮助。老年人穿着格子衬衫、紫色长裤和带白色鞋底的黑色鞋子。护理人员身穿深色制服并戴面罩，正在帮助老年人站起并使用助行器移动。背景中有一张铺有蓝白花纹床单的床、一个木制梳妆台配灯，以及墙上的一幅装框画。场景似乎设在客厅或类似的室内空间。",
+      "solution_for_person": "",
+      "solution_for_hazard_source": "",
+      "solution_to_prevent_recurrence": ""
+    },
+    "1": {
+      "risk_description": "老人正在尝试在缺乏明确支撑的情况下使用助行器行走，这可能导致跌倒或失去平衡。",
+      "normal_video_description": "一位老年人在客厅环境中由护理人员帮助使用助行器。",
+      "solution_for_person": "确保老年人在使用助行器时获得适当的支撑和平衡帮助。",
+      "solution_for_hazard_source": "",
+      "solution_to_prevent_recurrence": "让护理人员在老年人进行活动训练时密切监护并提供帮助。"
+    },
+    "2": {
+      "risk_description": "",
+      "normal_video_description": "护理人员帮助一位老年女性从轮椅上站起，并使用助行器在客厅里移动。护理人员在整个过程中提供身体支撑和指导，确保该女性的安全和稳定。",
+      "solution_for_person": "",
+      "solution_for_hazard_source": "",
+      "solution_to_prevent_recurrence": ""
+    },
+    "3": {
+      "risk_description": "老年人正在尝试借助助行器站立和行走，如果缺乏适当支撑或助行器不稳，可能会导致跌倒风险。",
+      "normal_video_description": "",
+      "solution_for_person": "确保老年人在使用助行器时得到护理人员的牢固支撑，并在使用前检查助行器的稳定性。",
+      "solution_for_hazard_source": "使用底座更宽的助行器，并确保地面没有障碍物，以降低跌倒风险。",
+      "solution_to_prevent_recurrence": "定期检查助行器的稳定性，并持续提供支撑，直至老年人建立信心并保持稳定。"
+    },
+    "4": {
+      "risk_description": "这位老年女性在尝试从轮椅上站起时面临跌倒风险，可能因年龄和潜在的行动不便而导致严重伤害。",
+      "normal_video_description": "",
+      "solution_for_person": "确保这位老年女性在从轮椅站起时获得适当的支撑和帮助，以防跌倒。",
+      "solution_for_hazard_source": "",
+      "solution_to_prevent_recurrence": "提供定期的物理治疗或锻炼以改善平衡和力量，并考虑使用带扶手的助行器以获得更好的稳定性。"
+    }
+  }
+}

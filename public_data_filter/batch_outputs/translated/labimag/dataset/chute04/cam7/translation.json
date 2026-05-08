@@ -1,0 +1,40 @@
+{
+  "video_key": "labimag/dataset/chute04/cam7",
+  "translations": {
+    "0": {
+      "risk_description": "看到一名年轻人试图在一个白色大物体（看起来像床垫）上表演特技。他们从物体上摔下来落在地板上，这可能会造成伤害。",
+      "normal_video_description": "",
+      "solution_for_person": "应该建议该人避免在不稳定表面上尝试特技，如果他们想从事此类活动，应该寻求适当的培训或监督。",
+      "solution_for_hazard_source": "危险源是那个白色大物体，它的稳定性不足以支撑尝试特技的人的重量。解决方案是为此类活动提供稳定且合适的表面。",
+      "solution_to_prevent_recurrence": "应该教育该人了解安全的重要性以及在不稳定的表面上尝试特技的潜在风险。他们还应该被鼓励在尝试此类活动之前寻求适当的培训或监督。"
+    },
+    "1": {
+      "risk_description": "该人躺在一个有标记区域中央的大软物体上，该物体可能会意外滚动或移动，增加跌倒或失去平衡的风险。",
+      "normal_video_description": "一个人在有桌子和设备的房间里与一个大软物体互动，而其他人在桌子旁工作。",
+      "solution_for_person": "确保该物体被牢固固定以防止移动。",
+      "solution_for_hazard_source": "将大物体固定在地板上以消除滚动或移动。",
+      "solution_to_prevent_recurrence": "将来固定所有类似物体。"
+    },
+    "2": {
+      "risk_description": "一个人试图跳到床垫上，但失去平衡摔到地板上，这表明存在明显的不稳定性和跌倒风险。",
+      "normal_video_description": "",
+      "solution_for_person": "该人应避免在没有适当安全措施的情况下从高处跳到软表面上，例如使用蹦床或确保着陆区域安全。",
+      "solution_for_hazard_source": "确保任何跳跃或玩耍活动都在有适当安全设备的受控环境中进行。",
+      "solution_to_prevent_recurrence": "教育个人在体育活动中注意安全的重要性，并提供如何安全进行此类活动的指导。"
+    },
+    "3": {
+      "risk_description": "年轻人躺在有垫子的表面上，但随后突然坐起来，这可能导致跌倒或不稳定，特别是如果他们行动能力有限或平衡问题。",
+      "normal_video_description": "",
+      "solution_for_person": "确保年轻人慢慢坐起来并有支撑以防止跌倒。",
+      "solution_for_hazard_source": "在有垫子的表面周围提供额外的缓冲或支撑以降低跌倒风险。",
+      "solution_to_prevent_recurrence": "实施逐渐坐起来的过程，并确保该区域没有障碍物。"
+    },
+    "4": {
+      "risk_description": "该人正试图爬上一个没有固定的床垫，这可能导致跌倒和潜在伤害。",
+      "normal_video_description": "",
+      "solution_for_person": "确保床垫被正确固定，或提供适当的指导说明如何安全地接近和使用它。",
+      "solution_for_hazard_source": "将床垫固定以防止移动并确保稳定性。",
+      "solution_to_prevent_recurrence": "提供关于在工作场所与不稳定物体互动时的安全实践的培训。"
+    }
+  }
+}

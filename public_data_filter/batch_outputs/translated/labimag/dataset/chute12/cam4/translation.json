@@ -1,0 +1,40 @@
+{
+  "video_key": "labimag/dataset/chute12/cam4",
+  "translations": {
+    "0": {
+      "risk_description": "可见一名年轻人冲向垫子并试图跳上去，这可能导致跌倒并造成潜在伤害。",
+      "normal_video_description": "视频显示一名年轻人在学习室里走动， 与各种物品和设备互动，进行正常的日常活动。",
+      "solution_for_person": "应建议该人在尝试此类活动时使用适当的安全设备，例如垫子或缓冲垫，以防止跌倒和受伤。",
+      "solution_for_hazard_source": "危险源在于缺乏适当的安全设备以及与垫子的高速冲击。",
+      "solution_to_prevent_recurrence": "应当对该人进行安全设备正确使用以及高速冲击垫子或类似物体潜在风险的培训。"
+    },
+    "1": {
+      "risk_description": "身穿白色衬衫的人俯卧在房间中央的带网格线的缓冲垫上。这种姿势可能导致跌倒或起身困难，尤其是如果垫子没有牢固固定或该人失去平衡。",
+      "normal_video_description": "视频显示一个实验室或学习室，里面有各种工作站和设备。最开始有两个人，一个在使用电脑，另一个在走动。随后第三个人进入并俯卧在房间中央的缓冲垫上。",
+      "solution_for_person": "确保该人在躺在垫子上时有人监督，并且了解如何安全地从这个姿势站起来。",
+      "solution_for_hazard_source": "确认垫子已妥善固定在地板上，以防止滑动或移动。",
+      "solution_to_prevent_recurrence": "在实验室进行安全培训，讲解设备和垫子的正确使用方法。"
+    },
+    "2": {
+      "risk_description": "",
+      "normal_video_description": "视频显示一个实验室或学习室，几个人在走动。一个人走过房间后躺在中央的白色垫子上，其他人在空间中继续走动。该活动似乎是正常的日常例行或实验的一部分，没有危险的迹象。",
+      "solution_for_person": "",
+      "solution_for_hazard_source": "",
+      "solution_to_prevent_recurrence": ""
+    },
+    "3": {
+      "risk_description": "身穿白色衬衫的人倒在床垫上，如果他们难以轻松起身或行动受限，这可能令人担忧。",
+      "normal_video_description": "",
+      "solution_for_person": "确保该人能够安全地从床垫上起身，并评估他们是否需要帮助。",
+      "solution_for_hazard_source": "移除或固定任何可能导致绊倒或跌倒的物品。",
+      "solution_to_prevent_recurrence": "清理该区域的障碍物，确保床垫稳固安全。"
+    },
+    "4": {
+      "risk_description": "可以看到该人在走钢丝，存在跌倒并可能受伤的风险。钢丝未固定，增加了事故的可能性。",
+      "normal_video_description": "",
+      "solution_for_person": "确保钢丝已牢固固定，以防止跌落。",
+      "solution_for_hazard_source": "清除走钢丝区域中任何潜在的危害或障碍物。",
+      "solution_to_prevent_recurrence": "为走钢丝提供适当的培训和设备，以最大限度地降低事故风险。"
+    }
+  }
+}

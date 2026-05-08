@@ -1,0 +1,40 @@
+{
+  "video_key": "SmartHome-Bench/videos/smartbench_0502",
+  "translations": {
+    "0": {
+      "risk_description": "",
+      "normal_video_description": "一个孩子正在院子里的白色汽车旁边玩耍，车门开着。一只黑熊走进院子，孩子朝汽车跑去。然后熊离开了院子。",
+      "solution_for_person": "",
+      "solution_for_hazard_source": "",
+      "solution_to_prevent_recurrence": ""
+    },
+    "1": {
+      "risk_description": "一个孩子站在车道上开着车门的汽车旁，附近有熊存在，如果熊靠近孩子或汽车，就有碰撞或挤压伤害的风险。",
+      "normal_video_description": "一辆白色汽车停在车道上，驾驶座车门开着。一只黑熊穿过车道，一个穿橙色衬衫的孩子走向开着的车门。熊在车道周围走动，而孩子仍留在汽车附近。",
+      "solution_for_person": "应让孩子与熊和开着的车门保持安全距离。",
+      "solution_for_hazard_source": "应让熊远离车道和孩子。",
+      "solution_to_prevent_recurrence": "不使用时应锁好车门，并在有野生动物出现的区域密切监督儿童。"
+    },
+    "2": {
+      "risk_description": "一只黑熊冲过车道，直接朝站在开着的车门旁的孩子跑去，造成极高的碰撞或受伤风险。",
+      "normal_video_description": "",
+      "solution_for_person": "孩子应立即离开开着的车门，躲进车内或附近的建筑物中。",
+      "solution_for_hazard_source": "应让熊不受干扰地通过，以免局势升级。",
+      "solution_to_prevent_recurrence": "在可能出现野生动物的区域要密切监督儿童，且不使用时应保持车门关闭。"
+    },
+    "3": {
+      "risk_description": "一只黑狗在停着的汽车旁奔跑，车门开着，若狗与汽车互动，或有儿童或宠物进入该区域，可能导致碰撞或挤压伤害。",
+      "normal_video_description": "",
+      "solution_for_person": "不使用时应确保车门关闭，并密切监督宠物，防止它们冲进交通或受伤。",
+      "solution_for_hazard_source": "将车门牢牢关闭，并考虑安装车门安全锁以防止意外打开。",
+      "solution_to_prevent_recurrence": "宠物在车辆附近时必须始终监督，并确保车门牢固关闭，以避免潜在事故。"
+    },
+    "4": {
+      "risk_description": "",
+      "normal_video_description": "视频显示一个住宅区，一辆白色皮卡车停在车道上。一只黑狗在街道上奔跑，随后背景中短暂出现一个人行走。",
+      "solution_for_person": "",
+      "solution_for_hazard_source": "",
+      "solution_to_prevent_recurrence": ""
+    }
+  }
+}

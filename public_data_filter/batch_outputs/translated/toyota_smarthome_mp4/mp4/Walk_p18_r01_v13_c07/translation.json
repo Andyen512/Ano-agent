@@ -1,0 +1,40 @@
+{
+  "video_key": "toyota_smarthome_mp4/mp4/Walk_p18_r01_v13_c07",
+  "translations": {
+    "0": {
+      "risk_description": "这位年轻人正站在厨房的一把椅子上，这把椅子不稳定，可能会导致摔倒。",
+      "normal_video_description": "这位年轻人正站在厨房里，准备使用炉灶。",
+      "solution_for_person": "让这位年轻人坐在地上或使用一把稳定的椅子。",
+      "solution_for_hazard_source": "将椅子从厨房移走，或确保其使用前是稳定的。",
+      "solution_to_prevent_recurrence": "确保椅子不被用作厨房中稳定座位的替代品，并确保所有家具都固定牢固以防止事故。"
+    },
+    "1": {
+      "risk_description": "",
+      "normal_video_description": "视频显示了一个带有炉灶和橱柜的厨房区域。一个人短暂地从右侧进入画面。",
+      "solution_for_person": "",
+      "solution_for_hazard_source": "",
+      "solution_to_prevent_recurrence": ""
+    },
+    "2": {
+      "risk_description": "",
+      "normal_video_description": "一个穿着格子衬衫的人走过一个现代化的厨房，从画面右侧走向后方的柜台区域。环境看起来干净整洁，没有可见的危险或不安全状况。",
+      "solution_for_person": "",
+      "solution_for_hazard_source": "",
+      "solution_to_prevent_recurrence": ""
+    },
+    "3": {
+      "risk_description": "这个人正在伸手去够炉灶附近的橱柜，如果他们失去平衡或滑倒，可能会造成碰撞或挤压风险。",
+      "normal_video_description": "",
+      "solution_for_person": "确保这个人在伸手够橱柜时保持稳定的立足点，必要时考虑使用踏脚凳。",
+      "solution_for_hazard_source": "保持厨房地板清洁干燥，以防止滑倒。",
+      "solution_to_prevent_recurrence": "在炉灶区域安装额外的照明或安全设施以提高能见度。"
+    },
+    "4": {
+      "risk_description": "这个人正站在一把椅子上，如果失去平衡可能会导致摔倒。从这个高度摔落可能会导致严重伤害。",
+      "normal_video_description": "",
+      "solution_for_person": "确保这个人不要站在不稳定的家具上，如果他们需要够取高处的东西，请提供帮助。",
+      "solution_for_hazard_source": "通过提供替代方案（如使用踏脚凳或重新整理伸手可及的物品）来消除站在椅子上的需要。",
+      "solution_to_prevent_recurrence": "鼓励在够取高处时使用合适的梯子或踏脚凳，并确保它们在使用前稳定安全。"
+    }
+  }
+}

@@ -1,0 +1,40 @@
+{
+  "video_key": "labimag/dataset/chute01/cam7",
+  "translations": {
+    "0": {
+      "risk_description": "这个年轻人躺在一个不稳定的大白色物体上，有跌落受伤的风险。",
+      "normal_video_description": "这个年轻人躺在一个不稳定的大白色物体上，有跌落受伤的风险。",
+      "solution_for_person": "应建议该人躺在稳定的表面上或使用垫子以防止跌落。",
+      "solution_for_hazard_source": "该物体应该被移除或替换为稳定的表面。",
+      "solution_to_prevent_recurrence": "应该对该人进行监督，并提醒他们在躺在不稳定的物体上时采取适当的安全措施。"
+    },
+    "1": {
+      "risk_description": "一个人躺在一个铺在网格标记地板中央的大垫子上，可能会因网格线或周围设备而面临滑倒或绊倒的风险。",
+      "normal_video_description": "视频显示一个房间里有桌椅和设备，中央有一个大垫子，人们在周围走动并与垫子互动。",
+      "solution_for_person": "确保垫子放在平坦、稳定的表面上，远离网格线和障碍物。",
+      "solution_for_hazard_source": "移除或清楚地标记网格线以防止绊倒。",
+      "solution_to_prevent_recurrence": "进行安全检查以识别和减轻工作场所中的绊倒危险。"
+    },
+    "2": {
+      "risk_description": "",
+      "normal_video_description": "视频显示一个人走进一个房间，躺在地板上的床垫上，然后起身离开。最后另一个人进入房间。环境看起来是一个有桌椅的学习或办公空间。",
+      "solution_for_person": "",
+      "solution_for_hazard_source": "",
+      "solution_to_prevent_recurrence": ""
+    },
+    "3": {
+      "risk_description": "这个年轻人在一个有标记网格线的房间里躺在软垫上，如果他们意外滚动或移动，可能会造成风险，尤其是当他们行动不便或正在康复时。",
+      "normal_video_description": "",
+      "solution_for_person": "确保个人在躺下时受到监督，必要时考虑使用额外的垫子或约束。",
+      "solution_for_hazard_source": "固定软垫表面以防止移动，并确保房间没有绊倒危险。",
+      "solution_to_prevent_recurrence": "对躺在软垫上的人实施安全协议，包括定期检查和必要时提供帮助。"
+    },
+    "4": {
+      "risk_description": "该人正试图在一个不适合此类活动的大型充气物体上保持平衡，这可能导致跌倒和潜在伤害。",
+      "normal_video_description": "",
+      "solution_for_person": "确保该人了解设备的正确使用方法，并提供如何安全平衡或在其上进行锻炼的指导。",
+      "solution_for_hazard_source": "从该区域移除充气物体以防止事故。",
+      "solution_to_prevent_recurrence": "提供安全使用健身设备的培训，并确保在体育活动期间进行适当的监督。"
+    }
+  }
+}

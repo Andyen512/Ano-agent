@@ -1,0 +1,40 @@
+{
+  "video_key": "web_h264/youtube__R61E-yiVVOA",
+  "translations": {
+    "0": {
+      "risk_description": "视频显示，一名中年成年人在商店里与另一个人发生肢体冲突。该成年人抓住并推搡对方，导致对方倒地。这种行为对涉事人员及店内其他人的安全构成明显风险。",
+      "normal_video_description": "",
+      "solution_for_person": "冲突中的当事人应与另一方分开并加以约束，以防止进一步伤害。店员应及时介入，确保在场所有人的安全。",
+      "solution_for_hazard_source": "商店应采取措施防止此类事件再次发生，例如为员工提供足够的冲突解决培训，并确保为所有顾客提供安全的环境。",
+      "solution_to_prevent_recurrence": "商店应实行对任何形式暴力或攻击的零容忍政策，并为员工提供定期的冲突解决与降级技巧培训。还应确保商店光线充足并安装监控摄像头，以防止此类事件再次发生。"
+    },
+    "1": {
+      "risk_description": "孩子被成年人以导致其失去平衡并摔倒的方式拉扯，可能导致受伤。",
+      "normal_video_description": "视频显示，一名成年人在商场走廊里拉扯孩子，导致孩子摔倒。",
+      "solution_for_person": "成年人应采用更安全的方式抱孩子，确保孩子的稳定性，防止摔倒。",
+      "solution_for_hazard_source": "",
+      "solution_to_prevent_recurrence": "对看护者进行正确的抱童技巧教育，以避免摔倒和受伤。"
+    },
+    "2": {
+      "risk_description": "成年人在与孩子玩耍时失去平衡，向后倒下，直接压在孩子的颈部。由于成人与孩子之间体重差异极大，这一动作会造成严重的压伤风险。",
+      "normal_video_description": "",
+      "solution_for_person": "成年人应立即停止活动，检查孩子的反应，并在不移动孩子的情况下呼叫紧急医疗帮助。",
+      "solution_for_hazard_source": "应保持环境畅通，消除障碍物以防止绊倒，并提醒成年人进行涉及儿童的身体游戏时的风险。",
+      "solution_to_prevent_recurrence": "教育成年人，在与孩子玩耍时保持平衡并注意周围环境的重要性，以防止意外跌倒。"
+    },
+    "3": {
+      "risk_description": "父亲抱孩子的方式导致孩子摔倒，可能对孩子造成严重伤害。",
+      "normal_video_description": "",
+      "solution_for_person": "父亲应避免以可能导致失衡或摔倒的方式抱孩子。",
+      "solution_for_hazard_source": "确保商店过道畅通无阻，防止绊倒。",
+      "solution_to_prevent_recurrence": "应教育父亲采用更安全的抱孩子技巧，以防止摔倒。"
+    },
+    "4": {
+      "risk_description": "由于孩子体型小且货架上的物品不稳，孩子有从货架上掉落的风险。",
+      "normal_video_description": "",
+      "solution_for_person": "确保孩子由成年人监督，并让其远离不稳定的货架。",
+      "solution_for_hazard_source": "固定货架上的物品，防止其掉落造成伤害。",
+      "solution_to_prevent_recurrence": "定期检查货架的稳定性，移除任何不稳定的物品。"
+    }
+  }
+}

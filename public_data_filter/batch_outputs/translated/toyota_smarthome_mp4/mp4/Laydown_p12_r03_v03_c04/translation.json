@@ -1,0 +1,40 @@
+{
+  "video_key": "toyota_smarthome_mp4/mp4/Laydown_p12_r03_v03_c04",
+  "translations": {
+    "0": {
+      "risk_description": "这位老年人以一种不寻常的姿势躺在沙发上，如果他们试图起身，可能会增加跌倒或受伤的风险。",
+      "normal_video_description": "这位老年人坐在沙发上读书。然后他们以一种不寻常的姿势躺在沙发上，如果他们试图起身，可能会增加跌倒或受伤的风险。",
+      "solution_for_person": "护理人员应确保老年人的姿势安全，并在需要起身时提供帮助。",
+      "solution_for_hazard_source": "可以通过添加额外支撑或重新布置家具来增加沙发的稳定性，为老年人起身创造更安全的路径。",
+      "solution_to_prevent_recurrence": "护理人员应定期检查老年人的安全状况，并根据需要提供帮助，以防止跌倒和受伤。"
+    },
+    "1": {
+      "risk_description": "这个人坐在沙发边缘，脚放在茶几上，这可能导致失去平衡而跌倒。",
+      "normal_video_description": "一位老年人坐在客厅的绿色沙发上，调整姿势，最终躺下。",
+      "solution_for_person": "确保这个人正确地坐在沙发上，双脚平放在地板上，以防止不稳定。",
+      "solution_for_hazard_source": "",
+      "solution_to_prevent_recurrence": "提醒这个人安全地坐在沙发上，避免将脚放在茶几上。"
+    },
+    "2": {
+      "risk_description": "",
+      "normal_video_description": "一位老年人在客厅的绿色组合沙发上放松看书。这个人在整个视频中调整姿势并将腿伸展到沙发上，这是一种常见且安全的活动。",
+      "solution_for_person": "",
+      "solution_for_hazard_source": "",
+      "solution_to_prevent_recurrence": ""
+    },
+    "3": {
+      "risk_description": "老年人躺在沙发上，脚抬高，如果他们突然移动或沙发倾倒，可能导致不稳定。",
+      "normal_video_description": "",
+      "solution_for_person": "确保老年人安全地坐着或躺着，不要试图突然移动。",
+      "solution_for_hazard_source": "加强沙发稳定性或提供额外支撑以防止倾倒。",
+      "solution_to_prevent_recurrence": "在脚下使用防滑垫或地垫以增加稳定性。"
+    },
+    "4": {
+      "risk_description": "",
+      "normal_video_description": "一位老年人在光线充足的客厅的绿色组合沙发上舒适地躺着看书。房间里配有茶几、边桌和盆栽植物，营造出温馨的氛围。",
+      "solution_for_person": "",
+      "solution_for_hazard_source": "",
+      "solution_to_prevent_recurrence": ""
+    }
+  }
+}

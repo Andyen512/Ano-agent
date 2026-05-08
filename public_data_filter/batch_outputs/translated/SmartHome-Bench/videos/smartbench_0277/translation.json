@@ -1,0 +1,40 @@
+{
+  "video_key": "SmartHome-Bench/videos/smartbench_0277",
+  "translations": {
+    "0": {
+      "risk_description": "看到孩子穿过客厅奔跑，然后摔倒在地。孩子似乎没有受伤，但摔倒可能导致受伤。",
+      "normal_video_description": "视频显示一个孩子在客厅里奔跑，然后摔倒在地。孩子似乎没有受伤，但摔倒可能导致受伤。",
+      "solution_for_person": "护理人员应确保孩子得到监督，不允许孩子在客厅里无人看管地奔跑。",
+      "solution_for_hazard_source": "护理人员应清除客厅中的任何潜在危险，如可能绊倒孩子的小物件或家具。",
+      "solution_to_prevent_recurrence": "护理人员应为孩子在客厅的行为建立明确的规则和界限，并提供持续监督以防止摔倒。"
+    },
+    "1": {
+      "risk_description": "孩子躺在走廊的地板上，如果不及时处理，可能造成伤害风险。",
+      "normal_video_description": "看到一名儿童背着背包在走廊里行走，然后摔倒在地。一位成年人走过来帮助孩子。",
+      "solution_for_person": "成年人应立即检查孩子是否没有受伤，并帮助他们站起来。",
+      "solution_for_hazard_source": "",
+      "solution_to_prevent_recurrence": "确保在硬质地板区域对儿童进行监督，以防止摔倒。"
+    },
+    "2": {
+      "risk_description": "",
+      "normal_video_description": "一男一女进入家中，互相拥抱问候。一个孩子躺在附近的地板上，男子抱起孩子带进客厅。场景中还有一只狗。",
+      "solution_for_person": "",
+      "solution_for_hazard_source": "",
+      "solution_to_prevent_recurrence": ""
+    },
+    "3": {
+      "risk_description": "孩子在背着背包奔跑时摔倒，可能导致受伤。附近的成年人应确保孩子安全并检查是否有任何受伤。",
+      "normal_video_description": "",
+      "solution_for_person": "成年人应迅速靠近孩子以确保他们没有受伤，并在需要时提供帮助。",
+      "solution_for_hazard_source": "确保走廊畅通无障碍物，以防止将来摔倒。",
+      "solution_to_prevent_recurrence": "在有潜在绊倒危险的区域更密切地监督儿童，并保持通道畅通。"
+    },
+    "4": {
+      "risk_description": "看到孩子在地上，这可能表明摔倒或不稳定风险。然而，视频中没有明确的证据显示发生了事故。",
+      "normal_video_description": "视频显示一个人带着一个大包进入家中，并与躺在地上的孩子互动。然后这个人抱着孩子穿过走廊。",
+      "solution_for_person": "",
+      "solution_for_hazard_source": "",
+      "solution_to_prevent_recurrence": "确保孩子得到监督，并提供一个安全的环境供其玩耍。"
+    }
+  }
+}

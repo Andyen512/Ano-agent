@@ -1,0 +1,40 @@
+{
+  "video_key": "toyota_smarthome_mp4/mp4/Makecoffee.Pourwater_p12_r00_v11_c06",
+  "translations": {
+    "0": {
+      "risk_description": "视频中的人站在椅子或凳子上够顶层的架子，这存在潜在的跌倒危险。此外，这个人正拿着一个重物，这可能会增加不稳定的风险。",
+      "normal_video_description": "视频中的人在厨房准备食物，使用搅拌机和其他厨房用具。他们站在椅子或凳子上够顶层的架子，这存在潜在的跌倒危险。",
+      "solution_for_person": "这个人应该请别人帮忙从顶层架子取东西，或者使用带有防滑底的脚凳以确保稳定性。",
+      "solution_for_hazard_source": "厨房应该重新整理以避免需要够高处的架子，或者应该修改架子使其在容易够到的范围内。",
+      "solution_to_prevent_recurrence": "应该提醒这个人在够高处架子时请求帮助或使用适当的设备，以防止跌倒和不稳定。"
+    },
+    "1": {
+      "risk_description": "这个人正在炉灶旁处理物品，炉灶上方有开着的抽油烟机，这可能表明烹饪或加热设备正在使用，存在因高温表面或蒸汽导致烫伤的风险。",
+      "normal_video_description": "一个人正站在厨房里，在炉灶旁的台面上处理物品，炉灶上方的抽油烟机正在运行。",
+      "solution_for_person": "确保这个人在不主动烹饪时与炉灶保持安全距离，以避免意外接触高温表面。",
+      "solution_for_hazard_source": "确保所有烹饪设备维护得当，在不使用时关闭，以最大限度地降低烫伤风险。",
+      "solution_to_prevent_recurrence": "教育这个人安全厨房操作规范，例如与烹饪区域保持安全距离，以及在处理高温物品时使用隔热手套。"
+    },
+    "2": {
+      "risk_description": "",
+      "normal_video_description": "一位老年人在现代化的厨房里站着，手里拿着一个小物件，似乎正在与台面上的物品互动。环境整洁且光线充足，没有明显的危险迹象或异常行为。",
+      "solution_for_person": "",
+      "solution_for_hazard_source": "",
+      "solution_to_prevent_recurrence": ""
+    },
+    "3": {
+      "risk_description": "老年人正在够过台面，这可能存在碰撞或溢出的风险，可能导致滑倒或跌倒。",
+      "normal_video_description": "",
+      "solution_for_person": "确保老年人在够东西时保持稳定的姿势，必要时应考虑使用脚凳以避免过度伸展。",
+      "solution_for_hazard_source": "保持台面整洁，避免可能造成绊倒或滑倒的物品。",
+      "solution_to_prevent_recurrence": "使用稳定的平台或调整台面高度，以更好地适应老年人的够取范围。"
+    },
+    "4": {
+      "risk_description": "",
+      "normal_video_description": "视频显示一位中年人在现代化厨房中，从事从容器中倒出或测量东西的活动。场景中没有可见的伤害风险或潜在危险。",
+      "solution_for_person": "",
+      "solution_for_hazard_source": "",
+      "solution_to_prevent_recurrence": ""
+    }
+  }
+}

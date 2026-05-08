@@ -1,0 +1,40 @@
+{
+  "video_key": "toyota_smarthome_mp4/mp4/Getup_p07_r01_v06_c05",
+  "translations": {
+    "0": {
+      "risk_description": "视频中的人可以看到从沙发上坐着的姿势站起，若不使用适当的注意可能会导致摔倒。由于该人在站起时未使用任何辅助设备或支撑，风险更大。",
+      "normal_video_description": "视频中的人坐在客厅的沙发上，一边看电视一边吃零食。随后他从沙发上站起来并走开。",
+      "solution_for_person": "从坐姿站起时应该采取适当的谨慎，例如抓住沙发扶手或在必要时使用助行器支撑。",
+      "solution_for_hazard_source": "",
+      "solution_to_prevent_recurrence": "应提醒当事人在从坐姿站起时注意安全，必要时使用辅助设备或支撑。定期锻炼和物理治疗也有助于改善平衡，减少跌倒风险。"
+    },
+    "1": {
+      "risk_description": "",
+      "normal_video_description": "一个人坐在客厅的绿色沙发上，看电视。他站起来，手里拿着遥控器，朝电视走去。",
+      "solution_for_person": "",
+      "solution_for_hazard_source": "",
+      "solution_to_prevent_recurrence": ""
+    },
+    "2": {
+      "risk_description": "",
+      "normal_video_description": "一位年轻成年人坐在客厅的绿色沙发上，看电视。随后他站起来，走向房间中央，步伐正常，没有出现不稳或危险的迹象。环境看起来安全且符合一般家庭场景。",
+      "solution_for_person": "",
+      "solution_for_hazard_source": "",
+      "solution_to_prevent_recurrence": ""
+    },
+    "3": {
+      "risk_description": "该人正从沙发上站起来，手里还拿着饮料，如果失去平衡可能会导致摔倒。",
+      "normal_video_description": "",
+      "solution_for_person": "确保当事人在站起时抓住稳固的物体以获得支撑。",
+      "solution_for_hazard_source": "",
+      "solution_to_prevent_recurrence": "在沙发附近放置防滑垫，以在站起时提供更好的稳定性。"
+    },
+    "4": {
+      "risk_description": "孩子有从沙发摔落的风险，可能导致严重伤害。如果孩子在沙发上跳跃或玩耍时失去平衡，就可能发生跌倒。",
+      "normal_video_description": "",
+      "solution_for_person": "确保孩子有监管并提供安全玩耍的指导，以防止跌倒。",
+      "solution_for_hazard_source": "移除沙发周围可能导致绊倒的物品。",
+      "solution_to_prevent_recurrence": "鼓励孩子仅将沙发用于坐和放松，避免在上面跳跃或玩耍。"
+    }
+  }
+}

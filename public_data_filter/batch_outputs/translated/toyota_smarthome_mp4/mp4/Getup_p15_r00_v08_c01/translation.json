@@ -1,0 +1,40 @@
+{
+  "video_key": "toyota_smarthome_mp4/mp4/Getup_p15_r00_v08_c01",
+  "translations": {
+    "0": {
+      "risk_description": "老年人由于桌子杂乱和缺乏支撑而有跌倒的风险。",
+      "normal_video_description": "老年人坐在餐厅的桌子旁吃饭。桌子上堆满了盘子、餐具和食物。老年人在吃饭时似乎难以保持平衡。",
+      "solution_for_person": "护理人员应帮助老年人清理桌子并提供支撑以防止跌倒。",
+      "solution_for_hazard_source": "护理人员应确保桌子不杂乱，并确保老年人在坐着时有适当的支撑。",
+      "solution_to_prevent_recurrence": "护理人员应定期检查老年人的周围环境并提供支撑以防止跌倒。"
+    },
+    "1": {
+      "risk_description": "这个人正从桌旁的椅子上站起来，如果不小心可能会失去平衡而跌倒。",
+      "normal_video_description": "一位老年人坐在堆满物品的餐桌旁，然后从椅子上站起来。",
+      "solution_for_person": "确保此人慢慢站起来，如有需要可以用椅子支撑。",
+      "solution_for_hazard_source": "",
+      "solution_to_prevent_recurrence": "鼓励从坐姿站立时进行有意识的动作。"
+    },
+    "2": {
+      "risk_description": "",
+      "normal_video_description": "在一个现代化的房间里，可以看到一位老年人坐在餐桌旁，似乎在调整姿势或从椅子上站起来。环境整洁，没有可见的危险或危险活动。",
+      "solution_for_person": "",
+      "solution_for_hazard_source": "",
+      "solution_to_prevent_recurrence": ""
+    },
+    "3": {
+      "risk_description": "老年人低着头向前倾，这可能导致跌倒或失去平衡，有受伤风险。",
+      "normal_video_description": "",
+      "solution_for_person": "老年人应该坐直，并确保从椅子上获得稳定的支撑。",
+      "solution_for_hazard_source": "确保椅子稳固，餐桌高度舒适，以防止劳损或失衡。",
+      "solution_to_prevent_recurrence": "应提醒老年人保持正确的姿势，并在坐着时如有需要使用支撑。"
+    },
+    "4": {
+      "risk_description": "",
+      "normal_video_description": "视频显示一位老年人在餐厅的桌子旁坐着，似乎在从事写作或阅读活动。场景中没有可见的危险或风险。",
+      "solution_for_person": "",
+      "solution_for_hazard_source": "",
+      "solution_to_prevent_recurrence": ""
+    }
+  }
+}

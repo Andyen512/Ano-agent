@@ -1,0 +1,40 @@
+{
+  "video_key": "labimag/dataset/chute17/cam4",
+  "translations": {
+    "0": {
+      "risk_description": "视频中的年轻人看到自己在办公室里走动，捡起地上的纸张，然后突然被椅子绊倒。这种行为偏离了正常在办公室走动和捡起纸张的日常活动，因为它可能导致摔倒并造成伤害。",
+      "normal_video_description": "",
+      "solution_for_person": "人员在办公室里走动时应更加小心，留意可能的危险，例如椅子或其他地上的物品。",
+      "solution_for_hazard_source": "办公室应保持整洁，排除可能导致摔倒或其他事故的潜在危险。",
+      "solution_to_prevent_recurrence": "应提醒人员更加小心地在办公室走动，并保持办公室整洁，以防止以后再摔倒。"
+    },
+    "1": {
+      "risk_description": "穿红色衬衫的人俯卧在地上，周围散落着物品，这存在因跌倒或被物体撞击而受伤的风险。",
+      "normal_video_description": "视频显示客厅中的一系列事件，人们与家具和物品互动，最终有一个人躺在散落物品的地板上。",
+      "solution_for_person": "确保穿红色衬衫的人被帮助坐起或躺在更安全的位置，远离散落的物品，以防止进一步受伤。",
+      "solution_for_hazard_source": "清理地板上的散落物品，减少绊倒危险。",
+      "solution_to_prevent_recurrence": "在可能导致失去平衡或跌倒的活动中实施监督或提供帮助。"
+    },
+    "2": {
+      "risk_description": "",
+      "normal_video_description": "视频显示客厅区域有几名成年人。一个人把茶几撞倒，物品散落在地板上，其他人立刻聚集捡起碎片。这种活动看起来是家庭环境中的正常互动，虽然有点混乱。",
+      "solution_for_person": "",
+      "solution_for_hazard_source": "",
+      "solution_to_prevent_recurrence": ""
+    },
+    "3": {
+      "risk_description": "视频显示一个人在弯腰处理地上的物品，这可能会导致绊倒或跌倒，特别是对行动不便或平衡较差的人来说风险更大。",
+      "normal_video_description": "",
+      "solution_for_person": "确保该人注意周围环境，缓慢移动，避免被物品绊倒。",
+      "solution_for_hazard_source": "清除地板上可能导致绊倒或跌倒的物品。",
+      "solution_to_prevent_recurrence": "定期清洁和整理工作空间，减少杂乱和潜在危险。"
+    },
+    "4": {
+      "risk_description": "穿红色衬衫的人走路不稳，随后跌倒在地，可能导致严重伤害。由于其步态不稳，存在跌倒的风险。",
+      "normal_video_description": "",
+      "solution_for_person": "确保该人在跌倒后立即接受医疗检查，以评估是否有受伤并提供适当的治疗。",
+      "solution_for_hazard_source": "",
+      "solution_to_prevent_recurrence": "为该人提供支持或帮助，帮助其保持平衡，防止以后再次跌倒。"
+    }
+  }
+}

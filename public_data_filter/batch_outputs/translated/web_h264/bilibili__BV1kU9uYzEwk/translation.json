@@ -1,0 +1,40 @@
+{
+  "video_key": "web_h264/bilibili__BV1kU9uYzEwk",
+  "translations": {
+    "0": {
+      "risk_description": "看到孩子从高脚椅上摔下来，落在地上，这是一次潜在的跌倒危险。孩子似乎没有受伤，但该事件凸显了确保高脚椅稳固以及在儿童使用时应进行监督以防止摔倒的重要性。",
+      "normal_video_description": "",
+      "solution_for_person": "确保高脚椅牢固固定，儿童在使用时始终有成人监督。",
+      "solution_for_hazard_source": "检查高脚椅的稳定性，确保其正确组装并固定。",
+      "solution_to_prevent_recurrence": "在儿童高脚椅上安装安全带或安全带，将孩子固定好，并始终有成年人在旁边监视孩子的活动。"
+    },
+    "1": {
+      "risk_description": "孩子试图通过踢桌子从高脚椅上爬下来，这会因不稳定而导致摔倒和受伤的风险。",
+      "normal_video_description": "看到一个2岁的孩子试图通过踢桌子从高脚椅上爬下来，结果导致摔倒。",
+      "solution_for_person": "密切监督孩子，制止其在没有成人帮助的情况下攀爬家具。",
+      "solution_for_hazard_source": "移除或固定桌子，防止其被用作攀爬工具。",
+      "solution_to_prevent_recurrence": "教育孩子攀爬家具的危险，并确保始终有成人监督。"
+    },
+    "2": {
+      "risk_description": "幼儿踢桌子想要从高脚椅上下来，导致椅子倾倒，孩子摔到地上。这种行为表现出明显的平衡和稳定性失控，导致摔倒。",
+      "normal_video_description": "",
+      "solution_for_person": "照护者应在幼儿靠近家具和高脚椅时密切监督，防止他们利用不稳定的物体攀爬或下降。",
+      "solution_for_hazard_source": "使用安全带固定高脚椅，并确保其放置在稳固、防滑的表面上。",
+      "solution_to_prevent_recurrence": "教育孩子安全下椅的方式，并移除或固定容易翻倒的不稳固家具。"
+    },
+    "3": {
+      "risk_description": "看到孩子踢桌子并用椅子滑下来，这会导致摔倒和受伤的风险。",
+      "normal_video_description": "",
+      "solution_for_person": "确保孩子受到密切监督，避免将家具摆放成可以滑下的方式。",
+      "solution_for_hazard_source": "重新布置家具，防止孩子将其当作滑梯使用。",
+      "solution_to_prevent_recurrence": "在用餐区周围安装安全门或防护栏，阻止进入不稳固的家具布局。"
+    },
+    "4": {
+      "risk_description": "看到孩子从一件家具上摔下来，可能导致严重伤害。这次摔倒看起来是意外且无人照看。",
+      "normal_video_description": "",
+      "solution_for_person": "确保孩子在靠近家具或其他潜在危险时始终受到监督。",
+      "solution_for_hazard_source": "固定任何不稳固的家具，防止其倾倒。",
+      "solution_to_prevent_recurrence": "在孩子玩耍的区域移除不必要的物品，以减少摔倒的风险。"
+    }
+  }
+}

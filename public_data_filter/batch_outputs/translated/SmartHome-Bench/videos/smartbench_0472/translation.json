@@ -1,0 +1,40 @@
+{
+  "video_key": "SmartHome-Bench/videos/smartbench_0472",
+  "translations": {
+    "0": {
+      "risk_description": "",
+      "normal_video_description": "视频显示一名年轻人在夜间穿过院子，走向一栋房子，然后走回来。行为正常，不表示任何风险。",
+      "solution_for_person": "",
+      "solution_for_hazard_source": "",
+      "solution_to_prevent_recurrence": ""
+    },
+    "1": {
+      "risk_description": "一个人蹲在昏暗的室外区域靠在墙上，这可能会增加绊倒或失去平衡而摔倒的风险。",
+      "normal_video_description": "一个人走向昏暗院子里的墙壁，蹲下靠在墙上，然后站起来走开。",
+      "solution_for_person": "应避免在光线不足的地方蹲下或靠在墙上，以降低摔倒风险。",
+      "solution_for_hazard_source": "改善院子的照明以确保能见度并减少绊倒危险。",
+      "solution_to_prevent_recurrence": "在院子安装运动感应灯，当有人靠近时照亮该区域。"
+    },
+    "2": {
+      "risk_description": "",
+      "normal_video_description": "一个人沿着院子里的建筑侧面行走，短暂停顿透过窗户查看，然后跑出画面。该活动看起来是正常的探索或移动，没有危险或风险的迹象。",
+      "solution_for_person": "",
+      "solution_for_hazard_source": "",
+      "solution_to_prevent_recurrence": ""
+    },
+    "3": {
+      "risk_description": "孩子正在攀爬并站在狭窄的边缘上，由于位置不稳定，存在坠落风险。",
+      "normal_video_description": "",
+      "solution_for_person": "确保孩子站在稳定的地面上，避免攀爬狭窄的边缘。",
+      "solution_for_hazard_source": "在边缘处安装安全屏障或栏杆以防止坠落。",
+      "solution_to_prevent_recurrence": "密切监督孩子并教育他们攀爬不稳定结构的危险。"
+    },
+    "4": {
+      "risk_description": "孩子有从小尺寸的梯子上坠落的风险。这是一个可能导致严重伤害的问题。",
+      "normal_video_description": "",
+      "solution_for_person": "成年人应在孩子使用梯子时在场监督。",
+      "solution_for_hazard_source": "梯子应放置在稳定的表面上，并应给予孩子正确的安全攀爬指导。",
+      "solution_to_prevent_recurrence": "不使用时，应移除梯子或更换为适合儿童的较矮梯子。"
+    }
+  }
+}

@@ -1,0 +1,40 @@
+{
+  "video_key": "SmartHome-Bench/videos/smartbench_0285",
+  "translations": {
+    "0": {
+      "risk_description": "",
+      "normal_video_description": "视频显示一只年轻的成年熊在夜间出现在院子里，正在与喂鸟器互动。熊看起来很好奇，正在嗅闻喂鸟器周围。然后熊爬上砖墙四处张望，最终跳下来走开了。视频是黑白的，左上角有\"ring.com\"的水印。",
+      "solution_for_person": "",
+      "solution_for_hazard_source": "",
+      "solution_to_prevent_recurrence": ""
+    },
+    "1": {
+      "risk_description": "熊正在与高架平台边缘的物体互动，如果它失去平衡或受到惊吓，可能会导致坠落或碰撞。",
+      "normal_video_description": "一只熊在夜间出现在后院，接近并与喂鸟器和附近的容器互动。",
+      "solution_for_person": "",
+      "solution_for_hazard_source": "",
+      "solution_to_prevent_recurrence": ""
+    },
+    "2": {
+      "risk_description": "",
+      "normal_video_description": "一只熊在夜间出现在院子里，站在低矮的砖墙上，查看一个桶和悬挂的喂鸟器。这只动物在区域周围走动，然后爬下来，表现出典型的觅食行为，没有任何危险或风险的迹象。",
+      "solution_for_person": "",
+      "solution_for_hazard_source": "",
+      "solution_to_prevent_recurrence": ""
+    },
+    "3": {
+      "risk_description": "一只野生动物，可能是浣熊，在夜间查看并可能获取院子里的食物来源。这对可能在附近附近的宠物或弱势个体构成伤害风险。",
+      "normal_video_description": "",
+      "solution_for_person": "确保食物来源安全且野生动物无法接触，以防止吸引动物进入院子。",
+      "solution_for_hazard_source": "安装安全的、防野生动物的容器来存放食物，并清除任何可能吸引动物的诱饵。",
+      "solution_to_prevent_recurrence": "使用动作感应灯或警报器来阻止野生动物进入院子，并定期清理任何食物残渣。"
+    },
+    "4": {
+      "risk_description": "视频显示一只熊接近并从一个搅拌机中饮水，其中可能含有有害物质。如果内容物对野生动物不安全，这种行为会带来中毒或意外摄入的风险。",
+      "normal_video_description": "",
+      "solution_for_person": "",
+      "solution_for_hazard_source": "清除搅拌机和周围区域的潜在危险或有毒物质，以防止对熊造成伤害。",
+      "solution_to_prevent_recurrence": "固定所有食物来源和容器，防止野生动物接触，降低未来发生类似事件的风险。"
+    }
+  }
+}

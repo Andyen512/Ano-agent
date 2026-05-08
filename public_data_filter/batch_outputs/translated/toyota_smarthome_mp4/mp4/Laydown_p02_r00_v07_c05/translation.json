@@ -1,0 +1,40 @@
+{
+  "video_key": "toyota_smarthome_mp4/mp4/Laydown_p02_r00_v07_c05",
+  "translations": {
+    "0": {
+      "risk_description": "由于客厅环境凌乱，靠近的物品（如盆栽、茶几、电视柜）使这位老年人有摔倒的风险。该老人还在使用助行器，但在铺有地毯的地板上可能不够稳固。",
+      "normal_video_description": "",
+      "solution_for_person": "看护人员应帮助老人清理客厅的杂物，确保行走路径稳固。还应检查助行器的稳定性，必要时考虑使用其他助行工具。",
+      "solution_for_hazard_source": "看护人员应将盆栽、茶几和电视柜从客厅移走，为老人创造更安全的行走通道。",
+      "solution_to_prevent_recurrence": "看护人员应定期检查客厅环境中的潜在危险，确保老人的助行工具稳固并符合其需求。还应鼓励老人在需要时定期休息，防止疲劳和跌倒。"
+    },
+    "1": {
+      "risk_description": "这位年轻人正爬到沙发背上，存在向后摔倒或失去平衡的风险，可能导致受伤。",
+      "normal_video_description": "在客厅里，可以看到一位年轻人爬上并坐在绿色沙发的背上。",
+      "solution_for_person": "年轻人应避免爬上家具，以防止摔倒。",
+      "solution_for_hazard_source": "确保家具稳固，不要将其作为攀爬结构使用。",
+      "solution_to_prevent_recurrence": "当儿童或年轻人在客厅时，应进行监督，以防出现危险行为。"
+    },
+    "2": {
+      "risk_description": "",
+      "normal_video_description": "看到一位老人坐在客厅的绿色沙发上，随后躺下放松。环境宁静，没有明显的危险或危险活动。",
+      "solution_for_person": "",
+      "solution_for_hazard_source": "",
+      "solution_to_prevent_recurrence": ""
+    },
+    "3": {
+      "risk_description": "老人坐在沙发边缘，看起来有摔倒风险，尤其是在向后倾斜或调整姿势时。由于身体控制可能较弱，这种情况可能尤为危险。",
+      "normal_video_description": "",
+      "solution_for_person": "看护人员应确保老人坐姿稳固，若需要频繁调整姿势，应提供帮助。",
+      "solution_for_hazard_source": "重新布置家具，营造更安全的坐卧区域，确保沙发远离墙壁或其他可能导致跌倒的障碍物。",
+      "solution_to_prevent_recurrence": "使用额外的支撑，如靠垫或靠背，帮助老人在沙发上坐稳。"
+    },
+    "4": {
+      "risk_description": "",
+      "normal_video_description": "老人坐在客厅的绿色沙发上，调整姿势并与一只小狗互动。房间光线充足，配有现代化家具，包括白色茶几、落地灯和挂在墙上的电视。",
+      "solution_for_person": "",
+      "solution_for_hazard_source": "",
+      "solution_to_prevent_recurrence": ""
+    }
+  }
+}

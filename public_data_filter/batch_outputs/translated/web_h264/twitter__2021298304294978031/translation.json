@@ -1,0 +1,40 @@
+{
+  "video_key": "web_h264/twitter__2021298304294978031",
+  "translations": {
+    "0": {
+      "risk_description": "视频显示院子里的小棚屋起火，这对周围地区以及附近的任何生物（包括前景中的乌龟）构成风险。",
+      "normal_video_description": "",
+      "solution_for_person": "视频中没有出现人物，因此没有人可以提供解决方案。",
+      "solution_for_hazard_source": "火源是棚屋，需要将其扑灭，以防止进一步的损害和对环境的风险。",
+      "solution_to_prevent_recurrence": "棚屋应定期检查潜在火灾隐患，并配备灭火器以备紧急使用。此外，棚屋周围应保持清洁，避免存放可燃材料，以降低火灾发生的风险。"
+    },
+    "1": {
+      "risk_description": "棚屋因加热灯掉落而起火，对陆龟及周围地区构成烧伤或火势蔓延的风险。",
+      "normal_video_description": "陆龟在加热灯掉落导致起火后出现在燃烧的棚屋附近。",
+      "solution_for_person": "立即将陆龟移至远离火源的安全距离。",
+      "solution_for_hazard_source": "扑灭火源并移除加热灯，以防止进一步点燃。",
+      "solution_to_prevent_recurrence": "正确固定加热灯并在棚屋内安装消防设备。"
+    },
+    "2": {
+      "risk_description": "加热灯掉落并点燃了小棚屋内的火焰，形成重大火灾隐患。火势正在燃烧并吞噬结构，存在向周围院子蔓延的风险。",
+      "normal_video_description": "",
+      "solution_for_person": "立即撤离该区域并拨打紧急服务电话以扑灭火源。",
+      "solution_for_hazard_source": "将加热灯从现场移除并确保其牢固安装，以防再次坠落。",
+      "solution_to_prevent_recurrence": "采取安全措施，如使用防火材料并对加热灯进行牢固固定，以防止类似事故再次发生。"
+    },
+    "3": {
+      "risk_description": "视频显示陆龟从燃烧的棚屋中逃出，表明院子里存在火灾隐患。大火可能对附近动物或接触火焰或烟雾的人员构成风险。",
+      "normal_video_description": "",
+      "solution_for_person": "",
+      "solution_for_hazard_source": "立即撤离该区域并联系紧急服务以扑灭火源。",
+      "solution_to_prevent_recurrence": "确保加热灯位置稳固并受到监控，以防止意外坠落或过热。定期检查棚屋及周围区域是否存在潜在的火灾隐患。"
+    },
+    "4": {
+      "risk_description": "",
+      "normal_video_description": "视频显示陆龟在燃烧的棚屋前行走，未见明显风险或危险。",
+      "solution_for_person": "",
+      "solution_for_hazard_source": "",
+      "solution_to_prevent_recurrence": ""
+    }
+  }
+}

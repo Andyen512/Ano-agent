@@ -1,0 +1,40 @@
+{
+  "video_key": "web_h264/youtube__JYapYMosRbs",
+  "translations": {
+    "0": {
+      "risk_description": "视频显示一名年轻人以不安全的姿势躺在地上，可能导致跌倒或失去平衡。现场有鸡以及湿滑的地面也存在潜在危险。",
+      "normal_video_description": "",
+      "solution_for_person": "应帮助此人站起来，并在移动前确保其稳定。",
+      "solution_for_hazard_source": "应将湿滑的地面擦干，并使该区域更安全，以防止再次跌倒。",
+      "solution_to_prevent_recurrence": "应监测该人是否出现头晕或不稳定的迹象，并保持该区域干净、干燥，以防止今后发生类似事故。"
+    },
+    "1": {
+      "risk_description": "视频中可见一位老人跌倒并躺在地上，表明跌倒会导致受伤风险。",
+      "normal_video_description": "视频显示一位老人在院子里跌倒，背景中可见各种家庭用品和鸡。",
+      "solution_for_person": "确保老人跌倒后立即得到帮助和医疗救治。",
+      "solution_for_hazard_source": "",
+      "solution_to_prevent_recurrence": "在老人经常活动的区域安装扶手或防滑垫，以降低跌倒风险。"
+    },
+    "2": {
+      "risk_description": "视频中可见一位有视力障碍的老人在湿滑的院子里行走不稳，随后跌倒在地上，表明因失稳和环境危险而导致的明显受伤风险。",
+      "normal_video_description": "",
+      "solution_for_person": "护理人员或家属应立即帮助此人站立，检查受伤情况并提供支持，以防止再次跌倒。",
+      "solution_for_hazard_source": "湿滑的地面应擦干或做标记以提高可见度，院子里的障碍物应移除或固定，以创建更安全的行走路径。",
+      "solution_to_prevent_recurrence": "在院子里安装扶手或支撑结构，并考虑使用防滑垫或改善照明，以提高视障人士的安全性。"
+    },
+    "3": {
+      "risk_description": "视频中可见老人跌倒并躺在地上，因其活动受限、起身困难而导致受伤风险。",
+      "normal_video_description": "",
+      "solution_for_person": "确保老人身边有支持或帮助，以便在跌倒时能够协助其起身。",
+      "solution_for_hazard_source": "清除院子里的障碍物，以降低绊倒或跌倒的风险。",
+      "solution_to_prevent_recurrence": "在院子里安装扶手或栏杆，为老人提供支撑。"
+    },
+    "4": {
+      "risk_description": "视频显示一人站在阳台边缘，存在跌倒风险。但视频中并未捕捉到实际的跌倒或不稳事件。",
+      "normal_video_description": "视频捕捉到一人站在阳台上，周围散落着各种物品，包括挂着的衣服和一个蓝色桶。该人似乎在从事某项活动，可能是清洁或整理。",
+      "solution_for_person": "",
+      "solution_for_hazard_source": "",
+      "solution_to_prevent_recurrence": "确保人们不要离阳台边缘太近，必要时提供安全护栏。"
+    }
+  }
+}

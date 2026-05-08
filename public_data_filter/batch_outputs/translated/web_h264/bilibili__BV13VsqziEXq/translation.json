@@ -1,0 +1,40 @@
+{
+  "video_key": "web_h264/bilibili__BV13VsqziEXq",
+  "translations": {
+    "0": {
+      "risk_description": "这位青少年在婴儿围栏附近奔跑和跳跃，可能导致跌倒或失去平衡的风险。",
+      "normal_video_description": "",
+      "solution_for_person": "看护者应密切监督青少年，确保他们不在婴儿围栏附近奔跑或跳跃。",
+      "solution_for_hazard_source": "婴儿围栏应设计有安全功能，防止跌倒，例如加垫边缘和牢固的门。",
+      "solution_to_prevent_recurrence": "看护者应制定明确的游戏规则，并监督青少年的行为，以防止将来发生类似事件。"
+    },
+    "1": {
+      "risk_description": "青少年试图跳过婴儿围栏，存在跌倒和受伤的风险。",
+      "normal_video_description": "一名裸露上身的青少年走向客厅的婴儿围栏，试图跳过它，然后落在另一侧。",
+      "solution_for_person": "该人应避免跳过婴儿围栏，以防止跌倒。",
+      "solution_for_hazard_source": "可以将婴儿围栏固定得更牢固，以降低跳跃时翻倒的风险。",
+      "solution_to_prevent_recurrence": "确保将婴儿围栏放置在稳固的区域，使跳跃不可能或不被鼓励。"
+    },
+    "2": {
+      "risk_description": "一名裸露上身的青少年试图跳过低矮的婴儿围栏，但在空中失去平衡向后倒在地板上。该动作明显超出正常家庭活动，并导致直接跌倒，显示出实际的受伤风险。",
+      "normal_video_description": "",
+      "solution_for_person": "该人应避免跨越像婴儿围栏这样的障碍物，应使用适当的台阶或指定的门来穿越。",
+      "solution_for_hazard_source": "婴儿围栏应放置在不需要跳跃的地方，或者调节高度以防止此类事故。",
+      "solution_to_prevent_recurrence": "教育家庭成员在儿童游戏区域安全移动，并清除不必要的障碍物，以免鼓励冒险行为。"
+    },
+    "3": {
+      "risk_description": "青少年试图跳过障碍物，可能导致跌倒或失去平衡，造成受伤风险。",
+      "normal_video_description": "",
+      "solution_for_person": "确保青少年受到监督，并考虑移除或固定障碍物以防止跌倒。",
+      "solution_for_hazard_source": "移除或固定障碍物，以消除跌倒风险。",
+      "solution_to_prevent_recurrence": "安装稳固且安全的障碍物或提供额外支撑，以防止跌倒。"
+    },
+    "4": {
+      "risk_description": "该人正走在狭窄的木板上，可能导致跌倒和潜在伤害。",
+      "normal_video_description": "",
+      "solution_for_person": "确保该人在木板上行走时有适当的支撑或帮助。",
+      "solution_for_hazard_source": "清除木板周围的任何障碍物或危险物。",
+      "solution_to_prevent_recurrence": "为该人提供更安全的方式穿越房间。"
+    }
+  }
+}

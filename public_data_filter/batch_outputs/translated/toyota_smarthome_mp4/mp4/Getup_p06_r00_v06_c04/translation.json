@@ -1,0 +1,40 @@
+{
+  "video_key": "toyota_smarthome_mp4/mp4/Getup_p06_r00_v06_c04",
+  "translations": {
+    "0": {
+      "risk_description": "由于客厅杂乱以及从沙发上站起时缺乏支撑，老年人有跌倒的风险。",
+      "normal_video_description": "",
+      "solution_for_person": "护理人员应帮助老年人从沙发上站起，并提供支撑以防止跌倒。",
+      "solution_for_hazard_source": "护理人员应清理客厅的杂物，以降低绊倒和跌倒的风险。",
+      "solution_to_prevent_recurrence": "护理人员应定期检查客厅是否存在潜在危险，并确保老年人在房间内走动时有适当的支撑。"
+    },
+    "1": {
+      "risk_description": "该人正在弯腰从低矮的桌子上捡东西，这可能导致失去平衡并增加跌倒的风险。",
+      "normal_video_description": "一位老年人正坐在客厅的绿色沙发上，弯腰去捡面前的低桌子上的一件物品。",
+      "solution_for_person": "确保该人在弯腰时保持稳定的姿势，必要时考虑使用辅助设备。",
+      "solution_for_hazard_source": "将桌子上经常使用的物品高度升高，以减少弯腰的需要。",
+      "solution_to_prevent_recurrence": "鼓励该人在伸手取低矮表面上的物品时请求帮助。"
+    },
+    "2": {
+      "risk_description": "",
+      "normal_video_description": "一位老年人坐在客厅的绿色沙发上，然后站起并弯腰从茶几上捡东西。环境安静温馨，看不到明显的危险或危险行为。",
+      "solution_for_person": "",
+      "solution_for_hazard_source": "",
+      "solution_to_prevent_recurrence": ""
+    },
+    "3": {
+      "risk_description": "老年人正试图从沙发上坐着的姿势站起，由于可能的不稳或虚弱，可能会导致跌倒风险。",
+      "normal_video_description": "",
+      "solution_for_person": "确保老年人在站起时有支撑，例如椅子或护理人员。",
+      "solution_for_hazard_source": "清理沙发周围的区域，以提供稳固的站起和行走路径。",
+      "solution_to_prevent_recurrence": "使用稳固的椅子或辅助设备来帮助站立和保持平衡。"
+    },
+    "4": {
+      "risk_description": "老年人正弯腰捡起地上的物品，如果不小心可能导致跌倒。跌倒可能导致严重伤害，尤其是对老年人。",
+      "normal_video_description": "",
+      "solution_for_person": "确保该人在从地板上捡东西之前具有良好的平衡和支撑。",
+      "solution_for_hazard_source": "",
+      "solution_to_prevent_recurrence": "鼓励该人在从地板上捡东西时使用拾取器或请求帮助。"
+    }
+  }
+}

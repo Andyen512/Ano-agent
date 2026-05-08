@@ -1,0 +1,40 @@
+{
+  "video_key": "labimag/dataset/chute09/cam6",
+  "translations": {
+    "0": {
+      "risk_description": "这位年轻人正躺在地板上，这不是一个安全的地方。可能是跌倒或故意躺下，但无论是哪种情况，都存在潜在的受伤风险。",
+      "normal_video_description": "这位年轻人正躺在地板上，这不是一个安全的地方。可能是跌倒或故意躺下，但无论是哪种情况，都存在潜在的受伤风险。",
+      "solution_for_person": "应帮助此人坐起并检查是否有受伤。应当提醒他们以后要更加小心。",
+      "solution_for_hazard_source": "应通过铺设垫子或软垫来使地板更安全，以防止跌倒。",
+      "solution_to_prevent_recurrence": "应提醒这位年轻人以后要更加小心，并检查该区域是否存在可能导致跌倒的危险。"
+    },
+    "1": {
+      "risk_description": "此人躺在一个看似测试或实验装置的软垫表面上，这可能无法提供足够的支撑，或可能意外移动，增加跌倒的风险。",
+      "normal_video_description": "一名穿红色衬衫的人进入摆满各种设备的房间，躺在一张白色软垫上，并被其他人观察。",
+      "solution_for_person": "确保软垫表面在躺下前已牢固固定且稳定。",
+      "solution_for_hazard_source": "核实软垫表面在此情境下设计为安全使用，且不存在移动或坍塌的风险。",
+      "solution_to_prevent_recurrence": "对房间内的所有设备进行安全检查，确保其稳定性及正确使用。"
+    },
+    "2": {
+      "risk_description": "",
+      "normal_video_description": "一个人走进房间，先坐在椅子上，然后躺在地板上铺设的床垫上。另一个人站在背景中的桌子附近。该环境看起来是一间实验室或办公室，里面有各种设备和家具。",
+      "solution_for_person": "",
+      "solution_for_hazard_source": "",
+      "solution_to_prevent_recurrence": ""
+    },
+    "3": {
+      "risk_description": "这位年轻人躺在地板上的床垫上，如果在没有支撑的情况下试图起身，可能会导致跌倒风险，尤其是他们行动不便或力量有限时。",
+      "normal_video_description": "",
+      "solution_for_person": "确保这位年轻人在从地板起身时有支撑或有人帮助。",
+      "solution_for_hazard_source": "在附近提供稳定的表面或垫子，以帮助安全起身。",
+      "solution_to_prevent_recurrence": "使用防滑垫或确保地板上没有障碍物，以降低跌倒风险。"
+    },
+    "4": {
+      "risk_description": "此人躺在地板上的床垫上，可能会导致跌倒并受伤。床垫没有固定在地板上，增加了不稳定的可能性。",
+      "normal_video_description": "有人走进一个房间，房间里有地板上的床垫，随后躺下。",
+      "solution_for_person": "确保床垫已正确固定在地板上，以防止其移动或倾翻。",
+      "solution_for_hazard_source": "",
+      "solution_to_prevent_recurrence": "使用束带或其他适当措施将床垫固定在地板上，以防止其移动或倾翻。"
+    }
+  }
+}

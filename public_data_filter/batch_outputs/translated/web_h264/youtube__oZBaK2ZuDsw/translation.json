@@ -1,0 +1,40 @@
+{
+  "video_key": "web_h264/youtube__oZBaK2ZuDsw",
+  "translations": {
+    "0": {
+      "risk_description": "视频显示一名年轻人在阳台上与另一个人发生肢体冲突。这种行为偏离了家庭场景的正常日常行为，因为它涉及可能升级为危险情况的冲突。",
+      "normal_video_description": "视频显示一个人坐在阳台上，另一个人进入场景并发生肢体冲突。随后场景恢复正常，涉及的人员分开并冷静下来。",
+      "solution_for_person": "参与冲突的人员应与另一个人分开，并有机会冷静下来。护理人员或调解人应介入以缓和局势。",
+      "solution_for_hazard_source": "应检查环境中是否存在可能助长进一步冲突的潜在危险物品，如尖锐物品或不稳定的家具。",
+      "solution_to_prevent_recurrence": "为防止再次发生，应鼓励相关人员有效沟通，以和平方式解决冲突。定期进行冲突解决培训或咨询可能对相关人员有益。"
+    },
+    "1": {
+      "risk_description": "多人在进行激烈的肢体冲突，互相投掷物品并殴打对方，存在人身伤害风险。",
+      "normal_video_description": "一群人在夜间阳台上发生肢体冲突。",
+      "solution_for_person": "将冲突中的相关人员分开，防止局势进一步升级和伤害。",
+      "solution_for_hazard_source": "",
+      "solution_to_prevent_recurrence": ""
+    },
+    "2": {
+      "risk_description": "一群蒙面人员暴力袭击坐在阳台上的老人，造成人身伤害和财产损失。局势升级为涉及多名攻击者的严重肢体袭击。",
+      "normal_video_description": "",
+      "solution_for_person": "相关人员应立即寻求安全，撤退到室内或拨打紧急求助电话。",
+      "solution_for_hazard_source": "攻击者应被执法部门逮捕，以防止进一步伤害。",
+      "solution_to_prevent_recurrence": "安装监控摄像头并改善照明以阻止未来的攻击。"
+    },
+    "3": {
+      "risk_description": "老人与另一个人发生肢体冲突，由于其可能有限的活动能力和自我保护能力，存在伤害风险。",
+      "normal_video_description": "",
+      "solution_for_person": "确保老人安全，将其转移到远离冲突的安全地点。",
+      "solution_for_hazard_source": "将冲突中的相关人员分开，防止进一步暴力。",
+      "solution_to_prevent_recurrence": "创建一个安全区域，让老人在冲突期间可以躲避，并确保其他人知道需要以非暴力方式解决冲突。"
+    },
+    "4": {
+      "risk_description": "年轻人坐在阳台边缘，存在坠落风险。如果他们失去平衡并坠落，这种行为可能导致严重伤害甚至死亡。",
+      "normal_video_description": "",
+      "solution_for_person": "确保年轻人在阳台边缘时不无人看管，并提供支持或帮助以防止其坠落。",
+      "solution_for_hazard_source": "在阳台周围安装栏杆或屏障以防止坠落。",
+      "solution_to_prevent_recurrence": "教育年轻人坐在阳台边缘的危险性，鼓励他们坐在室内。"
+    }
+  }
+}

@@ -1,0 +1,40 @@
+{
+  "video_key": "SmartHome-Bench/videos/smartbench_0739",
+  "translations": {
+    "0": {
+      "risk_description": "",
+      "normal_video_description": "视频显示了一个带有木质栏杆的阳台和下方甲板的景色。有两只黑熊在甲板上，其中一只正在翻越栏杆。熊似乎很好奇，在甲板周围嗅来嗅去。然后视频展示了一只狗的脸部特写，随后是一个人打开门和一辆停在外面的红色卡车。视频以一个带有泳池和背景房屋的后院景色结束。",
+      "solution_for_person": "",
+      "solution_for_hazard_source": "",
+      "solution_to_prevent_recurrence": ""
+    },
+    "1": {
+      "risk_description": "两只熊在一个木质甲板上，其中一只用后腿站立，另一只在四处走动。甲板是架高的并有栏杆，但熊的动作如果失去平衡或试图翻越栏杆可能会导致坠落。",
+      "normal_video_description": "视频显示两只熊在夜间在一个木质甲板上，其中一只用后腿站立，另一只在四处走动。",
+      "solution_for_person": "",
+      "solution_for_hazard_source": "",
+      "solution_to_prevent_recurrence": "在房产周围安装防熊围栏，以防止动物进入甲板。"
+    },
+    "2": {
+      "risk_description": "一只大熊爬上住宅阳台并猛烈撞击栏杆，对动物造成身体伤害的高风险或对财产造成潜在损害。",
+      "normal_video_description": "视频显示一只大黑熊爬上木质阳台并与栏杆互动。场景切换到门廊上的一只狗，然后是两个男人在门附近的短暂片段，最后是一个带有蹦床的后院景色。",
+      "solution_for_person": "",
+      "solution_for_hazard_source": "",
+      "solution_to_prevent_recurrence": ""
+    },
+    "3": {
+      "risk_description": "视频显示一只熊在阳台上，这构成了跌落或被熊伤害的风险，特别是对于可能无法快速反应或有效保护自己的孩子。",
+      "normal_video_description": "",
+      "solution_for_person": "当有野生动物在场时，确保儿童留在室内并远离阳台。",
+      "solution_for_hazard_source": "固定阳台栏杆并监控房屋附近的野生动物活动。",
+      "solution_to_prevent_recurrence": "安装防熊容器，并考虑使用运动感应威慑器来驱赶野生动物。"
+    },
+    "4": {
+      "risk_description": "视频显示一个孩子在阳台上，如果孩子失去平衡或翻越栏杆，可能会造成跌倒的风险。但是，视频中没有显示实际的事故。",
+      "normal_video_description": "视频显示来自监控摄像头的一系列片段，包括后院、餐厅和客厅的景色。这些场景中没有可见的风险或事件发生。",
+      "solution_for_person": "确保孩子受到监督，不要无人看管地靠近阳台。安装安全屏障或门以防止孩子无人监督地进入阳台。",
+      "solution_for_hazard_source": "",
+      "solution_to_prevent_recurrence": "定期检查阳台是否存在潜在危险，如松动的螺丝或损坏的栏杆。保持该区域整洁，无绊倒危险。"
+    }
+  }
+}

@@ -1,0 +1,40 @@
+{
+  "video_key": "labimag/dataset/chute11/cam1",
+  "translations": {
+    "0": {
+      "risk_description": "这位年轻人正躺在地板上，这不是一个安全的地方。他们可能摔倒或故意躺下，但无论如何，这都有可能造成受伤风险。",
+      "normal_video_description": "",
+      "solution_for_person": "检查这位年轻人以确保他们没事，如有需要提供帮助。",
+      "solution_for_hazard_source": "确保地板上没有绊倒危险，且该年轻人处于安全姿势。",
+      "solution_to_prevent_recurrence": "向该年轻人宣传安全的重要性以及躺在地板上的风险。鼓励他们在指定区域（如床或沙发）坐下或躺下。"
+    },
+    "1": {
+      "risk_description": "",
+      "normal_video_description": "视频显示一间教室，地板上放着一张大白色床垫。一位穿白衬衫黑裤子的人进入，躺在床垫上，另一人跪在旁边。现场还有其他人在背景中，房间里摆放着桌子、椅子和各种设备。",
+      "solution_for_person": "",
+      "solution_for_hazard_source": "",
+      "solution_to_prevent_recurrence": ""
+    },
+    "2": {
+      "risk_description": "",
+      "normal_video_description": "一个人走进房间，躺在地板上的床垫上，然后站起来。房间里有桌子、椅子和墙上的各种物品，暗示这是一个学习或办公环境。",
+      "solution_for_person": "",
+      "solution_for_hazard_source": "",
+      "solution_to_prevent_recurrence": ""
+    },
+    "3": {
+      "risk_description": "这个人躺在地板上的床垫上，可能不稳，特别是对于行动不便或平衡有问题的人来说，存在跌倒风险。",
+      "normal_video_description": "",
+      "solution_for_person": "躺下之前，确保床垫已被稳固支撑且稳定。",
+      "solution_for_hazard_source": "使用稳固、平坦的表面而不是床垫来躺下。",
+      "solution_to_prevent_recurrence": "为床垫加固额外的支撑，或使用更安全的不同表面来躺下。"
+    },
+    "4": {
+      "risk_description": "这个人躺在房间中央的床垫上，如果他们滚落或突然起身，可能会导致跌倒。若床垫不稳或附近有硬物，可能导致受伤。",
+      "normal_video_description": "视频显示一间教室，床垫放在房间中央，四周环绕着桌子和椅子。一个人进入房间并躺在床垫上。",
+      "solution_for_person": "确保床垫放在稳固的表面上，并考虑在其周围添加垫子以防止跌倒受伤。",
+      "solution_for_hazard_source": "",
+      "solution_to_prevent_recurrence": "将床垫固定在地板上，或使用更稳固的表面以防止移动。"
+    }
+  }
+}

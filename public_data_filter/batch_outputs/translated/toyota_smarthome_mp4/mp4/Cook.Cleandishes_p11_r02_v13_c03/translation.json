@@ -1,0 +1,40 @@
+{
+  "video_key": "toyota_smarthome_mp4/mp4/Cook.Cleandishes_p11_r02_v13_c03",
+  "translations": {
+    "0": {
+      "risk_description": "老年人正在厨房里快速且不稳地移动，这可能会增加跌倒和受伤的风险。",
+      "normal_video_description": "视频展示了一间现代化的厨房，配有水槽、台面和电器。老年人看到自己在厨房里走动，画面似乎是其日常常规的一部分。",
+      "solution_for_person": "护理人员应在厨房里协助老年人，以确保其安全并提供支撑，防止跌倒。",
+      "solution_for_hazard_source": "应评估厨房中是否存在可能导致跌倒的潜在危险，例如地面湿滑或地面上有物品。",
+      "solution_to_prevent_recurrence": "护理人员应监测老年人在厨房里的动作，并在需要时提供帮助以防跌倒。应保持厨房整洁、无危险物品，以降低跌倒风险。"
+    },
+    "1": {
+      "risk_description": "",
+      "normal_video_description": "视频显示一间空厨房，配有水槽、台面和橱柜。一个人从右下角短暂进入画面，弯腰后离开。",
+      "solution_for_person": "",
+      "solution_for_hazard_source": "",
+      "solution_to_prevent_recurrence": ""
+    },
+    "2": {
+      "risk_description": "",
+      "normal_video_description": "视频展示了一间现代化厨房的静态画面，配有水槽、台面和烤箱。一位老年人从右下角短暂进入画面，弯腰，这是一种正常的日常活动，没有任何风险或不稳定的迹象。",
+      "solution_for_person": "",
+      "solution_for_hazard_source": "",
+      "solution_to_prevent_recurrence": ""
+    },
+    "3": {
+      "risk_description": "老年人在厨房柜台附近弯腰，这可能会增加因可能的滑倒或绊倒而跌倒的风险。",
+      "normal_video_description": "",
+      "solution_for_person": "确保老年人穿着稳固的鞋子，并在需要时提供支撑，以防弯腰时跌倒。",
+      "solution_for_hazard_source": "检查地面是否有任何潜在危险，如溢出物或障碍物，并及时清理。",
+      "solution_to_prevent_recurrence": "在厨房安装防滑垫，并确保良好的照明，以降低跌倒风险。"
+    },
+    "4": {
+      "risk_description": "老年人在厨房里弯腰，如果不小心可能会跌倒。跌倒可能导致严重伤害，尤其是对老年人而言。",
+      "normal_video_description": "视频展示了一间现代化厨房，配有水槽、微波炉和其他电器。一位老年人进入画面并弯腰，可能是要捡起地上的东西。",
+      "solution_for_person": "在弯腰捡东西之前，要确保该人具有良好的平衡感和支撑。",
+      "solution_for_hazard_source": "",
+      "solution_to_prevent_recurrence": "鼓励使用正确的提举技巧，并在需要时提供帮助。"
+    }
+  }
+}

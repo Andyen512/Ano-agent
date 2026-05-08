@@ -1,0 +1,40 @@
+{
+  "video_key": "web_h264/bilibili__BV1dF41197Sp",
+  "translations": {
+    "0": {
+      "risk_description": "这个孩子正在玩电扇，如果电扇掉落或孩子靠得太近扇叶，可能会很危险。孩子还在客厅里跑来跑去，这增加了绊倒或摔倒的风险。",
+      "normal_video_description": "",
+      "solution_for_person": "需要成年人监督以确保孩子在玩电扇和在客厅里跑来跑去时的安全。",
+      "solution_for_hazard_source": "电扇应放置在安全的位置，远离孩子触及的范围，以防止事故。",
+      "solution_to_prevent_recurrence": "应当教导孩子安全玩耍，并且在客厅时始终受到监督。客厅应采取儿童安全措施，如安装安全门栏和其他防护装置，以防止事故。"
+    },
+    "1": {
+      "risk_description": "孩子正在接触电源插座和落地扇，这可能因短路而产生电击风险。",
+      "normal_video_description": "看到孩子在客厅里与落地扇和电源插座互动，多次尝试把风扇插入插座。",
+      "solution_for_person": "当孩子靠近电源插座时应有成年人监督，确保他们不擅自操作电器设备。",
+      "solution_for_hazard_source": "安装防篡改插座盖，并将电器放在孩子够不到的地方。",
+      "solution_to_prevent_recurrence": "向孩子教育玩弄电源插座和电器的危险，并安装安全装置以防止接触。"
+    },
+    "2": {
+      "risk_description": "一个孩子在没有成年人监督的情况下尝试给电扇通电，导致短路并发生电击。事件后看到孩子在哭并从插座处后退，表明明显的电气危险。",
+      "normal_video_description": "",
+      "solution_for_person": "成年人应立即拔掉电源，检查孩子是否受伤，并在必要时寻求医疗救助。",
+      "solution_for_hazard_source": "确保所有电器均正确安装和维护，并在插座上使用安全盖以防止未经授权的接触。",
+      "solution_to_prevent_recurrence": "向孩子教育电的危险，并在他们靠近电器时密切监督。安装儿童防护插座盖，并将电线放在孩子够不到的地方。"
+    },
+    "3": {
+      "risk_description": "孩子正在尝试把电扇插入插座，这可能因不正确操作电器而导致电击或短路风险。",
+      "normal_video_description": "",
+      "solution_for_person": "确保孩子受到密切监督，并接受安全使用电器的指导。",
+      "solution_for_hazard_source": "对电源插座使用儿童防护盖，并确保电器仅由成年人操作。",
+      "solution_to_prevent_recurrence": "安装安全开关并向孩子进行电气安全教育，以防止以后发生类似事故。"
+    },
+    "4": {
+      "risk_description": "孩子在电扇上站立，有跌倒或失去平衡的风险，可能导致严重伤害。",
+      "normal_video_description": "",
+      "solution_for_person": "确保孩子受到监督并提供支撑，以防跌倒。",
+      "solution_for_hazard_source": "将电扇从孩子玩耍的区域移走。",
+      "solution_to_prevent_recurrence": "在电扇周围安装安全防护装置，或将其移至孩子够不到的地方。"
+    }
+  }
+}

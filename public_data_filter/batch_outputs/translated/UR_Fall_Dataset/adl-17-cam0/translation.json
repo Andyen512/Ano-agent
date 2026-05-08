@@ -1,0 +1,40 @@
+{
+  "video_key": "UR_Fall_Dataset/adl-17-cam0",
+  "translations": {
+    "0": {
+      "risk_description": "视频中该人弯腰并挣扎着站起，这可能导致跌倒并造成伤害。",
+      "normal_video_description": "",
+      "solution_for_person": "应让护理人员或家庭成员协助，以确保其在站起前保持稳定和安全。",
+      "solution_for_hazard_source": "应检查环境是否有任何可能导致该人困难的绊倒危险或障碍物。",
+      "solution_to_prevent_recurrence": "应监测该人是否出现不稳定或头晕的迹象，并提供支撑以防止再次跌倒。"
+    },
+    "1": {
+      "risk_description": "",
+      "normal_video_description": "有人进入灯光昏暗的客厅，从门口走到中央，短暂弯腰后再次站起。客厅里有一张沙发、一把椅子和一个柜子。",
+      "solution_for_person": "",
+      "solution_for_hazard_source": "",
+      "solution_to_prevent_recurrence": ""
+    },
+    "2": {
+      "risk_description": "",
+      "normal_video_description": "有人从门口走进灯光昏暗的客厅，打开手电筒，然后弯腰捡起地上的东西。这些动作看起来是正常的日常活动，没有危险或不稳的迹象。",
+      "solution_for_person": "",
+      "solution_for_hazard_source": "",
+      "solution_to_prevent_recurrence": ""
+    },
+    "3": {
+      "risk_description": "该人弯腰的方式可能增加跌倒的风险，尤其对行动受限或平衡有问题的人。",
+      "normal_video_description": "",
+      "solution_for_person": "确保该人在弯腰时保持稳定姿势，必要时考虑使用支撑。",
+      "solution_for_hazard_source": "清除客厅地板上的绊倒危险。",
+      "solution_to_prevent_recurrence": "练习安全的弯腰技巧，并保持客厅区域畅通无阻。"
+    },
+    "4": {
+      "risk_description": "该人在昏暗的房间里走动，看起来不稳，可能导致跌倒。跌倒可能导致严重伤害，尤其对中年人。",
+      "normal_video_description": "有人正在穿过客厅，客厅里有一张沙发和一扇可见的门。",
+      "solution_for_person": "确保该人在适当的照明和有支撑的情况下行走，以防止跌倒。",
+      "solution_for_hazard_source": "",
+      "solution_to_prevent_recurrence": "改善房间照明，若该人看起来不稳，提供帮助。"
+    }
+  }
+}

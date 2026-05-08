@@ -1,0 +1,40 @@
+{
+  "video_key": "toyota_smarthome_mp4/mp4/Readbook_p16_r06_v09_c02",
+  "translations": {
+    "0": {
+      "risk_description": "",
+      "normal_video_description": "一个人坐在餐桌旁,处理一些文件和一个红色物品,可能是手机或小装置。这人似乎专注于手头的任务。餐厅光线充足,采用现代设计,白色餐桌配红色椅子、白色橱柜,以及上面的装饰花瓶。这人穿着有图案的连衣裙,留着金色短发。",
+      "solution_for_person": "",
+      "solution_for_hazard_source": "",
+      "solution_to_prevent_recurrence": ""
+    },
+    "1": {
+      "risk_description": "",
+      "normal_video_description": "一个人坐在餐桌旁,操作桌上的物品,包括一个瓶子和一些文件。环境看起来平静整洁。",
+      "solution_for_person": "",
+      "solution_for_hazard_source": "",
+      "solution_to_prevent_recurrence": ""
+    },
+    "2": {
+      "risk_description": "",
+      "normal_video_description": "一位老年人坐在光线充足的房间的餐桌旁,阅读文件或杂志。这个人保持坐着并持续阅读,没有不稳定、危险或异常活动的迹象。",
+      "solution_for_person": "",
+      "solution_for_hazard_source": "",
+      "solution_to_prevent_recurrence": ""
+    },
+    "3": {
+      "risk_description": "",
+      "normal_video_description": "一位老年人坐在餐桌旁,阅读杂志或书籍。桌上有一些物品,包括饮料和一些零食。房间光线充足,看起来很整洁。",
+      "solution_for_person": "",
+      "solution_for_hazard_source": "",
+      "solution_to_prevent_recurrence": ""
+    },
+    "4": {
+      "risk_description": "",
+      "normal_video_description": "视频显示一个孩子坐在餐厅的桌子旁,专注地玩一个物品,可能是玩具或食物。场景中没有可见的风险或潜在危险。",
+      "solution_for_person": "",
+      "solution_for_hazard_source": "",
+      "solution_to_prevent_recurrence": ""
+    }
+  }
+}

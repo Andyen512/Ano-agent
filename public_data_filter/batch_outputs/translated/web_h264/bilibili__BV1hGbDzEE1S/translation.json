@@ -1,0 +1,40 @@
+{
+  "video_key": "web_h264/bilibili__BV1hGbDzEE1S",
+  "translations": {
+    "0": {
+      "risk_description": "1.看到一个年轻人摔倒并挣扎着站起来，这表明存在跌倒或不稳定的风险。",
+      "normal_video_description": "",
+      "solution_for_person": "2.应该由他人帮助这个人，以确保他们安全且不会受到任何伤害。",
+      "solution_for_hazard_source": "3.危险源是湿滑的地板，应该清洁或使其不那么滑，以防止将来摔倒。",
+      "solution_to_prevent_recurrence": "4.年轻人在湿滑表面上行走时应更加小心，并在有条件时使用扶手或其他支撑。"
+    },
+    "1": {
+      "risk_description": "5.这个年轻人躺在电梯的地板上，由于不稳定，存在进一步摔倒或受伤的风险。",
+      "normal_video_description": "6.看到一名年轻人躺在电梯的地板上，旁边有其他人正在试图帮助。",
+      "solution_for_person": "7.应该帮助这个人安全地坐在电梯地板上或躺在地板上，以防止进一步摔倒。",
+      "solution_for_hazard_source": "",
+      "solution_to_prevent_recurrence": "8.在从事可能需要站立或在封闭空间内移动的活动之前，确保此人的血糖水平稳定。"
+    },
+    "2": {
+      "risk_description": "9.一名年轻人在电梯内失去平衡摔倒，这表明明显的身体不稳定和跌倒风险。",
+      "normal_video_description": "",
+      "solution_for_person": "10.此人应立即呼救，检查是否有伤，并在医疗援助到达之前保持静止。",
+      "solution_for_hazard_source": "11.确保电梯处于安全状态，地板上没有障碍物以防止绊倒。",
+      "solution_to_prevent_recurrence": "12.个人应监测自己的健康状况，特别是如果他们有低血糖等疾病，在感觉不适时应避免独自待在封闭空间。"
+    },
+    "3": {
+      "risk_description": "13.看到一个年轻人在走廊里晕倒并摔倒，这可能会对行动不便或平衡问题的人造成伤害风险。",
+      "normal_video_description": "",
+      "solution_for_person": "14.确保该人坐着或躺下以防止进一步跌倒，并在需要时寻求医疗帮助。",
+      "solution_for_hazard_source": "15.在走廊中安装扶手或支撑杆以提供稳定性。",
+      "solution_to_prevent_recurrence": "16.鼓励此人谨慎管理自己的健康状况，避免可能导致晕倒的情况。"
+    },
+    "4": {
+      "risk_description": "17.视频显示一名年轻人在阳台上，由于该人的不稳定位置，存在从阳台坠落的风险。这可能导致严重伤害甚至死亡。",
+      "normal_video_description": "",
+      "solution_for_person": "18.确保此人安全坐着，没有从阳台坠落的风险。",
+      "solution_for_hazard_source": "",
+      "solution_to_prevent_recurrence": "19.在阳台上安装安全屏障或栏杆以防止坠落。"
+    }
+  }
+}

@@ -1,0 +1,40 @@
+{
+  "video_key": "SmartHome-Bench/videos/smartbench_0043",
+  "translations": {
+    "0": {
+      "risk_description": "",
+      "normal_video_description": "一只大型棕色狗在夜间行走在门廊上。这只狗似乎在四处嗅闻和探索该区域。门廊被一个照明装置照亮，背景中可以看到街道和邻近房屋。这只狗似乎是独自一人，没有造成任何伤害或干扰。",
+      "solution_for_person": "",
+      "solution_for_hazard_source": "",
+      "solution_to_prevent_recurrence": ""
+    },
+    "1": {
+      "risk_description": "一只大型熊在夜间在门廊区域活动，可能会阻挡视线，如果有人在附近还存在碰撞或被碾压的风险。",
+      "normal_video_description": "一只熊在夜间出现在门廊上，四处走动并嗅闻该区域。",
+      "solution_for_person": "当熊出现时，避免待在门廊附近。",
+      "solution_for_hazard_source": "确保门廊及周边区域的安全，防止野生动物进入。",
+      "solution_to_prevent_recurrence": "安装运动感应灯并固定垃圾桶，以阻止野生动物。"
+    },
+    "2": {
+      "risk_description": "一只大型熊走进门廊并靠近摄像头，由于其体型和接近距离造成了直接的人身安全威胁，可能导致碰撞或碾压伤害。",
+      "normal_video_description": "一只大型熊在夜间走进住宅门廊，在退出画面前非常靠近安全摄像头移动。",
+      "solution_for_person": "",
+      "solution_for_hazard_source": "",
+      "solution_to_prevent_recurrence": ""
+    },
+    "3": {
+      "risk_description": "狗在阳台上，如果它跳下来就有坠落风险。这对一只可能不理解高度危险的宠物来说可能特别危险。",
+      "normal_video_description": "",
+      "solution_for_person": "确保阳台有安全的护栏以防止宠物坠落。",
+      "solution_for_hazard_source": "在阳台上安装安全门或防护网以防止进入。",
+      "solution_to_prevent_recurrence": "定期检查并维护阳台上的安全护栏，确保它们是安全的。"
+    },
+    "4": {
+      "risk_description": "孩子由于靠近边缘且缺乏成人监督，存在从阳台坠落的风险。",
+      "normal_video_description": "",
+      "solution_for_person": "确保孩子在阳台上时始终有成人监督。",
+      "solution_for_hazard_source": "在阳台周围安装护栏或屏障以防止坠落。",
+      "solution_to_prevent_recurrence": "定期检查阳台的安全设施，确保它们状态良好。"
+    }
+  }
+}

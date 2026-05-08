@@ -1,0 +1,40 @@
+{
+  "video_key": "SmartHome-Bench/videos/smartbench_0281",
+  "translations": {
+    "0": {
+      "risk_description": "",
+      "normal_video_description": "一只黑熊被看到穿过门廊接近一栋房子。熊敲了敲门然后走开了。这个场景很不寻常，因为熊通常不会出现在住宅区。",
+      "solution_for_person": "",
+      "solution_for_hazard_source": "",
+      "solution_to_prevent_recurrence": ""
+    },
+    "1": {
+      "risk_description": "熊正在与前门互动，这存在风险——如果门意外关闭，可能会造成碰撞或被挤压。",
+      "normal_video_description": "一只熊在住宅院子里接近并与前门互动。",
+      "solution_for_person": "",
+      "solution_for_hazard_source": "",
+      "solution_to_prevent_recurrence": ""
+    },
+    "2": {
+      "risk_description": "",
+      "normal_video_description": "一只黑熊走上住宅门廊，在前门附近嗅了嗅，然后离开了。这种行为是一次普通的野生动物遭遇，没有任何危险或人类干预的迹象。",
+      "solution_for_person": "",
+      "solution_for_hazard_source": "",
+      "solution_to_prevent_recurrence": ""
+    },
+    "3": {
+      "risk_description": "熊被发现进出房屋，对附近的儿童、老年人或宠物构成潜在的碰撞或挤压伤害风险。",
+      "normal_video_description": "",
+      "solution_for_person": "确保当熊在附近时，儿童、老年人和宠物待在室内或安全地远离入口处。",
+      "solution_for_hazard_source": "锁好门以防止熊进入房屋，考虑安装防熊门或屏障。",
+      "solution_to_prevent_recurrence": "安装动作感应灯或警报器以阻止熊接近入口处，并定期监测该地区的野生动物活动。"
+    },
+    "4": {
+      "risk_description": "熊正在试图打开前门，如果它破门而入或屋内有人，可能会导致碰撞或挤压伤害。",
+      "normal_video_description": "一只黑熊用后腿站立，试图打开前门。",
+      "solution_for_person": "如果屋内有人，他们应该待在室内，避免与熊互动，直到熊自行离开或有关部门能够安全介入。",
+      "solution_for_hazard_source": "应该由野生动物控制中心或动物救援服务机构将熊安全地从该区域移走。",
+      "solution_to_prevent_recurrence": "确保所有门窗牢固关闭并上锁，以防止未来发生熊或其他野生动物的事件。"
+    }
+  }
+}

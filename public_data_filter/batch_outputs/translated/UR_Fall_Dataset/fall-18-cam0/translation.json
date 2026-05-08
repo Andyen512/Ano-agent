@@ -1,0 +1,40 @@
+{
+  "video_key": "UR_Fall_Dataset/fall-18-cam0",
+  "translations": {
+    "0": {
+      "risk_description": "视频中的年轻人弯腰伸手去够地板上的东西，这可能导致他们失去平衡时跌倒或不稳定。",
+      "normal_video_description": "视频显示一个年轻人坐在学习室里，然后弯腰伸手去够地板上的东西，最后摔倒在地。",
+      "solution_for_person": "应该提醒此人在弯腰时要小心，并使用正确的身体力学以避免跌倒。",
+      "solution_for_hazard_source": "危险源是地板，可能光滑或不平，导致此人失去平衡。",
+      "solution_to_prevent_recurrence": "此人应该接受正确的身体力学和跌倒预防技术的培训，并且应该检查地板是否存在可能导致跌倒的危险。"
+    },
+    "1": {
+      "risk_description": "此人坐在椅子边缘，如果失去平衡或试图突然站立，可能导致跌倒。",
+      "normal_video_description": "一个人在类似办公室的房间里坐在椅子边缘，然后摔到地上。",
+      "solution_for_person": "避免坐在椅子边缘，确保双脚平放在地上。",
+      "solution_for_hazard_source": "",
+      "solution_to_prevent_recurrence": "提醒此人正确坐在椅子上，双脚放在地上。"
+    },
+    "2": {
+      "risk_description": "",
+      "normal_video_description": "一个坐在学习室里的年轻人身体前倾，然后向后倒在地板上。这个动作看起来是突然失去平衡或是有意的动作，而不是危险事件。",
+      "solution_for_person": "",
+      "solution_for_hazard_source": "",
+      "solution_to_prevent_recurrence": ""
+    },
+    "3": {
+      "risk_description": "视频中的年轻人尝试前滚或前冲，如果着陆姿势不当，可能导致跌倒或受伤，特别是当他们行动受限或正在康复中时。",
+      "normal_video_description": "",
+      "solution_for_person": "在尝试此类动作前，确保年轻人了解周围环境，并有安全的着陆区域。",
+      "solution_for_hazard_source": "清理年轻人周围的区域，防止任何可能导致跌倒的障碍物。",
+      "solution_to_prevent_recurrence": "在受控环境中练习此动作，并确保适当的监督，以最大程度降低受伤风险。"
+    },
+    "4": {
+      "risk_description": "这个年轻人通过从椅子上跳下来进行危险的动作，由于高度和坚硬的地板，这可能导致严重伤害。这种行为构成严重的伤害风险。",
+      "normal_video_description": "",
+      "solution_for_person": "确保这个年轻人受到监督，并被劝阻不要从事此类活动以防止事故。",
+      "solution_for_hazard_source": "移除任何可以用作踏脚凳或不稳定的物品，以降低跌倒的风险。",
+      "solution_to_prevent_recurrence": "实施安全培训和指导方针，以阻止办公室环境中的危险行为。"
+    }
+  }
+}

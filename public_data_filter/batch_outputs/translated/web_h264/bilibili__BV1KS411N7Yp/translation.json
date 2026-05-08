@@ -1,0 +1,40 @@
+{
+  "video_key": "web_h264/bilibili__BV1KS411N7Yp",
+  "translations": {
+    "0": {
+      "risk_description": "视频中的年轻人似乎已经摔倒，躺在房屋入口附近的地面上。该人没有移动，也没有任何即时危险的迹象。然而，这种情况需要关注，以确保该人的安全和健康。",
+      "normal_video_description": "",
+      "solution_for_person": "检查该年轻人的意识状态，确保他们清醒且没有不适。如果他们清醒，帮助他们坐起并评估他们的状况。如果他们没有意识，立即呼叫医疗救助。",
+      "solution_for_hazard_source": "视频中没有明显的危险源。但是，重要的是确保入口周围的区域没有可能导致跌倒的绊倒危险或障碍物。",
+      "solution_to_prevent_recurrence": "为防止再次发生，确保入口周围区域光线充足且没有绊倒危险或障碍物。提醒年轻人在进出房屋时保持警惕，防止摔倒。"
+    },
+    "1": {
+      "risk_description": "该女子突然失去平衡，摔倒在地，无法移动，面临摔倒导致的伤害风险以及可能的行动不便。",
+      "normal_video_description": "一位年长女性在屋外摔倒并努力站起，最终得到一名男子的帮助。",
+      "solution_for_person": "立即帮助该女子，以防止进一步受伤，并在必要时提供医疗救助。",
+      "solution_for_hazard_source": "",
+      "solution_to_prevent_recurrence": "应监测该女子的稳定性问题，必要时使用辅助器具。该区域应没有绊倒危险。"
+    },
+    "2": {
+      "risk_description": "一名女子在院子里突然失去平衡并跌倒，表明其身体明显不稳，存在跌倒风险。",
+      "normal_video_description": "",
+      "solution_for_person": "丈夫应立即帮助该女子站起，并在将她移入室内之前确保她保持稳定。",
+      "solution_for_hazard_source": "检查环境中可能导致跌倒的因素，如不平整的地面或障碍物，并在必要时予以清除。",
+      "solution_to_prevent_recurrence": "确保该女子在走动时有足够的支撑和帮助，必要时考虑安装扶手等安全设施。"
+    },
+    "3": {
+      "risk_description": "老年人跌倒后难以站起，可能因其行动受限和自我保护能力不足而导致受伤。",
+      "normal_video_description": "",
+      "solution_for_person": "确保老年人在附近有帮手，并帮助她安全站起，以防止再次跌倒。",
+      "solution_for_hazard_source": "清除院子中的绊倒危险，确保该区域畅通且稳定。",
+      "solution_to_prevent_recurrence": "在入口附近安装扶手或支撑杆，并确保该区域光线充足以提高可视性。"
+    },
+    "4": {
+      "risk_description": "看到孩子在阳台栏杆上攀爬，这有摔倒和潜在受伤的风险。",
+      "normal_video_description": "",
+      "solution_for_person": "确保孩子受到监督，不允许其在阳台栏杆上攀爬。",
+      "solution_for_hazard_source": "在阳台上安装安全护栏或门，以防止孩子攀爬栏杆。",
+      "solution_to_prevent_recurrence": "定期检查阳台是否存在危险，并确保孩子在接近阳台时始终受到监督。"
+    }
+  }
+}

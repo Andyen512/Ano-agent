@@ -1,0 +1,40 @@
+{
+  "video_key": "web_h264/bilibili__BV1Qm411m7cq",
+  "translations": {
+    "0": {
+      "risk_description": "孩子们在双层床上玩耍，双层床不稳定，有跌倒的风险。",
+      "normal_video_description": "",
+      "solution_for_person": "看护者应密切监督孩子，确保双层床稳固后再允许他们玩耍。",
+      "solution_for_hazard_source": "看护者应检查双层床的稳固性，确保其安全后再允许孩子玩耍。",
+      "solution_to_prevent_recurrence": "看护者应定期检查双层床的稳固性，确保其安全后再允许孩子玩耍。"
+    },
+    "1": {
+      "risk_description": "孩子们在双层床上玩耍，其中一个孩子从上层床摔到地板上，显示出跌倒受伤的风险。",
+      "normal_video_description": "三个孩子在卧室的双层床上玩耍，其中一个孩子从上层床摔落。",
+      "solution_for_person": "当孩子在升高的家具上玩耍时要密切监督。",
+      "solution_for_hazard_source": "对幼儿禁止或限制进入双层床及其他升高的游戏设施。",
+      "solution_to_prevent_recurrence": "在上层床安装安全栏杆，并在玩耍时确保有成人监督。"
+    },
+    "2": {
+      "risk_description": "孩子们在没有安全栏杆的木制双层床上层玩耍。一个孩子失去平衡从高度坠落，摔到地板上，构成明显的跌倒危险。",
+      "normal_video_description": "",
+      "solution_for_person": "当孩子在高处家具上时，看护者应立即进行监督并干预，防止攀爬或粗野玩耍。",
+      "solution_for_hazard_source": "在床的上层安装安全栏杆以防止跌落。",
+      "solution_to_prevent_recurrence": "向孩子教育在高处家具上玩耍的危险，并确保始终有成人监督。"
+    },
+    "3": {
+      "risk_description": "孩子从双层床摔下，由于高度和可能的冲击，存在着严重的头部受伤风险。",
+      "normal_video_description": "",
+      "solution_for_person": "确保在孩子们玩双层床时进行持续监督，并提供护栏等安全设备。",
+      "solution_for_hazard_source": "移除或固定双层床以防止跌落，并考虑用更安全的替代品替换。",
+      "solution_to_prevent_recurrence": "在双层床上安装安全设施，并对看护者进行关于持续监督重要性的教育。"
+    },
+    "4": {
+      "risk_description": "孩子有从阳台跌落的危险，可能导致严重伤害甚至死亡。",
+      "normal_video_description": "",
+      "solution_for_person": "确保孩子受到监督，不允许其在阳台栏杆上攀爬。",
+      "solution_for_hazard_source": "在阳台周围安装牢固的栏杆以防止跌落。",
+      "solution_to_prevent_recurrence": "定期检查阳台栏杆是否有损坏或磨损。"
+    }
+  }
+}

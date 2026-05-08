@@ -1,0 +1,40 @@
+{
+  "video_key": "web_h264/bilibili__BV1JT411a7Te",
+  "translations": {
+    "0": {
+      "risk_description": "视频显示一名年轻人从事危险行为，例如以不安全的方式搬运他人、躺在地上持瓶子以及参与肢体冲突。这些行为可能导致潜在伤害和冲突。",
+      "normal_video_description": "",
+      "solution_for_person": "确保该年轻人得到适当的指导和监督，以防止他们从事危险行为。",
+      "solution_for_hazard_source": "处理可能导致该年轻人行为的潜在问题，如压力或同辈压力。",
+      "solution_to_prevent_recurrence": "实施监测和支持措施，如定期与可信任的成年人进行检查或加入支持小组。"
+    },
+    "1": {
+      "risk_description": "一位老年人站在狭窄的楼梯栏杆上，这构成显著的跌倒或失去平衡的风险，可能导致严重伤害。",
+      "normal_video_description": "视频显示一位老年人站在狭窄的楼梯栏杆上，突显跌倒的风险。",
+      "solution_for_person": "应监督并协助老年人安全地离开栏杆。",
+      "solution_for_hazard_source": "在楼梯旁安装安全栏杆或屏障，以防止进入危险区域。",
+      "solution_to_prevent_recurrence": "向家庭成员宣传站在楼梯栏杆上的危险性，并确保安全措施到位。"
+    },
+    "2": {
+      "risk_description": "一个孩子站在有金属栏杆的狭窄户外楼梯上，因高度和可能的滑倒或失去平衡而构成明显的坠落危险。",
+      "normal_video_description": "",
+      "solution_for_person": "成人应立即监督孩子，确保他们不单独在楼梯上，并引导他们到更安全的地点。",
+      "solution_for_hazard_source": "在楼梯上安装更高的栏杆或防滑表面等额外安全措施，以防止坠落。",
+      "solution_to_prevent_recurrence": "教育孩子在高处玩耍的危险性，并确保在此类环境中始终有成人监督。"
+    },
+    "3": {
+      "risk_description": "看到一个孩子在狭窄且不稳定的栏杆上攀爬，这对行动受限或平衡感差的人构成显著的跌倒风险。",
+      "normal_video_description": "",
+      "solution_for_person": "确保对孩子进行密切监督，避免在不稳定的结构上攀爬。",
+      "solution_for_hazard_source": "安装安全屏障或栏杆以防止坠落。",
+      "solution_to_prevent_recurrence": "教育孩子在不稳定的结构上攀爬的危险，并提供更安全的游戏替代方案。"
+    },
+    "4": {
+      "risk_description": "",
+      "normal_video_description": "视频展示了一系列在餐厅里人们用餐和交谈的场景。提供的画面中未见明显风险或可能造成严重后果的情况。",
+      "solution_for_person": "",
+      "solution_for_hazard_source": "",
+      "solution_to_prevent_recurrence": ""
+    }
+  }
+}

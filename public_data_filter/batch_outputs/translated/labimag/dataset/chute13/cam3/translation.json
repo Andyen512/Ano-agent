@@ -1,0 +1,40 @@
+{
+  "video_key": "labimag/dataset/chute13/cam3",
+  "translations": {
+    "0": {
+      "risk_description": "这位年轻人被看到穿过房间，然后突然倒在沙发上，如果他的头部或其他身体部位撞到硬地板，可能会受伤。",
+      "normal_video_description": "",
+      "solution_for_person": "这位人在穿过房间时应更加小心，以避免绊倒或滑倒。",
+      "solution_for_hazard_source": "可以将沙发移到更安全的位置，或者在沙发前放置一块地毯，以防止跌倒。",
+      "solution_to_prevent_recurrence": "应提醒这位人在穿过房间时要更加小心，注意脚下。"
+    },
+    "1": {
+      "risk_description": "这个人躺在放在地板上的床垫上，没有适当的支撑或安全措施，可能导致滑倒或从床垫上摔下来。",
+      "normal_video_description": "一个人进入一间类似办公室的房间，躺在地板上的床垫上，随后其他人也进入房间。",
+      "solution_for_person": "确保床垫放在稳固且有护栏的抬高层面上，以防止从床垫上跌落。",
+      "solution_for_hazard_source": "把床垫从地板上取走，放到有侧栏的床架上。",
+      "solution_to_prevent_recurrence": "使用适合的家具进行睡眠，在使用临时睡眠安排时务必确保安全设施到位。"
+    },
+    "2": {
+      "risk_description": "",
+      "normal_video_description": "一个年轻人走进客厅，坐在沙发上，然后躺在地板上的床垫上。另一位人在片段结束时进入房间。环境看起来是普通的室内场景，没有明显的危险或危险活动。",
+      "solution_for_person": "",
+      "solution_for_hazard_source": "",
+      "solution_to_prevent_recurrence": ""
+    },
+    "3": {
+      "risk_description": "",
+      "normal_video_description": "视频显示客厅中央有一张按摩床。一个人进入房间，调整沙发，然后躺在按摩床上。另一个人短暂进入场景。环境看起来安全且适合正常活动。",
+      "solution_for_person": "",
+      "solution_for_hazard_source": "",
+      "solution_to_prevent_recurrence": ""
+    },
+    "4": {
+      "risk_description": "这个人正试图通过在床垫上跳来测试床垫的稳定性，这可能导致床垫坍塌或他们姿势不当而受伤。",
+      "normal_video_description": "",
+      "solution_for_person": "避免通过在床垫上跳来测试床垫的稳定性；相反，使用前应仔细检查。",
+      "solution_for_hazard_source": "确保床垫放在稳固且水平的表面上，以防止坍塌。",
+      "solution_to_prevent_recurrence": "定期检查床垫是否有磨损迹象，以确保其使用安全。"
+    }
+  }
+}

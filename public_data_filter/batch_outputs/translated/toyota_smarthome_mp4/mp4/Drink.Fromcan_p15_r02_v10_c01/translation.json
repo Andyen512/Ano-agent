@@ -1,0 +1,40 @@
+{
+  "video_key": "toyota_smarthome_mp4/mp4/Drink.Fromcan_p15_r02_v10_c01",
+  "translations": {
+    "0": {
+      "risk_description": "这个人正坐在餐桌旁喝罐装饮料，这可能导致他们失去平衡或分心，增加跌倒的风险。",
+      "normal_video_description": "",
+      "solution_for_person": "确保此人坐得稳固，必要时提供支撑以防止跌倒。",
+      "solution_for_hazard_source": "未发现具体的危险源。",
+      "solution_to_prevent_recurrence": "鼓励该人注意周围环境，并在喝饮料时适当休息，以降低分心或失去平衡的风险。"
+    },
+    "1": {
+      "risk_description": "这个人正在用杯子喝可能含有有害物质的饮料，存在意外摄入的风险。",
+      "normal_video_description": "一个人正坐在餐桌旁用杯子喝饮料。",
+      "solution_for_person": "在饮用前确保杯中饮料安全可饮。",
+      "solution_for_hazard_source": "核实桌上所有饮料的身份和安全性。",
+      "solution_to_prevent_recurrence": "将潜在有害物质放在够不着的地方或明确标识。"
+    },
+    "2": {
+      "risk_description": "",
+      "normal_video_description": "一位老年人在现代房间的餐桌旁坐着喝罐装饮料。场景呈现的是平静而普通的日常活动，没有明显的危险或异常行为。",
+      "solution_for_person": "",
+      "solution_for_hazard_source": "",
+      "solution_to_prevent_recurrence": ""
+    },
+    "3": {
+      "risk_description": "该老年人把玻璃杯靠近脸部，这可能增加溢出或掉落的风险，可能导致受伤或损坏。",
+      "normal_video_description": "",
+      "solution_for_person": "确保该老年人坐得稳固，玻璃杯与面部的距离保持在安全范围内，以防止溢出。",
+      "solution_for_hazard_source": "使用稳固的表面放置玻璃杯，并确保桌面没有杂物，以降低事故风险。",
+      "solution_to_prevent_recurrence": "在玻璃杯下放置杯垫，保持用餐区整洁，以尽量减少溢出或掉落的风险。"
+    },
+    "4": {
+      "risk_description": "",
+      "normal_video_description": "一位老年人坐在餐桌旁喝罐装饮料。环境看起来是一间现代厨房或用餐区，桌上有各种物品，背景有架子。",
+      "solution_for_person": "",
+      "solution_for_hazard_source": "",
+      "solution_to_prevent_recurrence": ""
+    }
+  }
+}

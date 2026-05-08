@@ -1,0 +1,40 @@
+{
+  "video_key": "labimag/dataset/chute01/cam1",
+  "translations": {
+    "0": {
+      "risk_description": "看到一名年轻人朝床垫跑去并跳上去，这可能会导致跌倒或不稳定。应该提醒此人谨慎行事，避免此类活动以防止受伤。",
+      "normal_video_description": "视频显示一名年轻人在学习室里朝床垫跑去，跳上去，然后躺下。房间光线充足，桌面上和架子上有各种物品。",
+      "solution_for_person": "应该建议此人避免跑向床垫和跳到床垫上，以防止跌倒和受伤。",
+      "solution_for_hazard_source": "",
+      "solution_to_prevent_recurrence": "应该教育此人了解跑向床垫和跳上去的风险，并鼓励他参与更安全的活动。"
+    },
+    "1": {
+      "risk_description": "",
+      "normal_video_description": "视频显示一个教室环境，有桌子、椅子，地板上有一个床垫。一个人走进房间，脱掉外套，躺在床垫上。背景中还有其他人在进行各种活动。",
+      "solution_for_person": "",
+      "solution_for_hazard_source": "",
+      "solution_to_prevent_recurrence": ""
+    },
+    "2": {
+      "risk_description": "",
+      "normal_video_description": "视频显示一个人在一个有桌子和地板上放着一个床垫的房间里。这个人穿过房间，短暂地躺在床垫上，然后起身离开。动作看起来正常，没有风险。",
+      "solution_for_person": "",
+      "solution_for_hazard_source": "",
+      "solution_to_prevent_recurrence": ""
+    },
+    "3": {
+      "risk_description": "躺在检查台上的人可能难以起身，这对行动受限的人构成跌倒风险。",
+      "normal_video_description": "",
+      "solution_for_person": "确保此人在起身时得到帮助以确保安全。",
+      "solution_for_hazard_source": "提供额外的支撑或垫子以防止起身时滑倒。",
+      "solution_to_prevent_recurrence": "使用防滑垫并确保该区域没有障碍物以降低跌倒风险。"
+    },
+    "4": {
+      "risk_description": "这个人躺在地板上，这可能表明存在跌倒或不稳定的风险。如果不及时处理，这种情况可能导致严重伤害。",
+      "normal_video_description": "",
+      "solution_for_person": "确保此人的安全，并在需要时提供帮助。",
+      "solution_for_hazard_source": "",
+      "solution_to_prevent_recurrence": "监测此人的状况并提供支持，以防止进一步的跌倒或不稳定的意外发生。"
+    }
+  }
+}

@@ -1,0 +1,40 @@
+{
+  "video_key": "toyota_smarthome_mp4/mp4/Sitdown_p06_r00_v04_c04",
+  "translations": {
+    "0": {
+      "risk_description": "",
+      "normal_video_description": "视频显示一位老年人位于客厅，弯腰从桌子上捡起一件物品。随后这位成年人坐到沙发上。该场景正常，没有显示任何风险。",
+      "solution_for_person": "",
+      "solution_for_hazard_source": "",
+      "solution_to_prevent_recurrence": ""
+    },
+    "1": {
+      "risk_description": "该人正在茶几附近弯腰，这可能导致失去平衡和摔倒，尤其是考虑到他们的姿势以及沙发与地板之间的高度差。",
+      "normal_video_description": "一位老年人位于客厅，弯腰靠近茶几，然后坐到沙发上。",
+      "solution_for_person": "确保该人在站起来之前先在沙发上坐好，避免可能导致不稳定的突然动作。",
+      "solution_for_hazard_source": "",
+      "solution_to_prevent_recurrence": "鼓励该人在站立或坐下时使用沙发的扶手作为支撑。"
+    },
+    "2": {
+      "risk_description": "",
+      "normal_video_description": "一位老年人被看到在客厅里弯腰，然后坐到绿色沙发上。环境平静，没有可见的危险或危险活动。",
+      "solution_for_person": "",
+      "solution_for_hazard_source": "",
+      "solution_to_prevent_recurrence": ""
+    },
+    "3": {
+      "risk_description": "这位老年人似乎在坐下时吃力，可能会由于活动能力受限而导致摔倒或不稳定。",
+      "normal_video_description": "",
+      "solution_for_person": "确保老年人在坐下时有支撑，并考虑使用带扶手的椅子以便于转移。",
+      "solution_for_hazard_source": "移走沙发周围的障碍物，创建清晰的行走路径，并确保沙发高度舒适。",
+      "solution_to_prevent_recurrence": "使用额外的座位支撑，如转移凳，并确保客厅布局适合安全移动。"
+    },
+    "4": {
+      "risk_description": "这位老年人在弯腰捡起地板上的东西时存在摔倒风险，这可能会由于他们的年龄和潜在的身体虚弱而导致严重伤害。",
+      "normal_video_description": "",
+      "solution_for_person": "确保老年人在弯腰捡起地板上的物品时有适当的支撑或帮助，以防止摔倒。",
+      "solution_for_hazard_source": "",
+      "solution_to_prevent_recurrence": "鼓励在老年人经常弯腰捡东西的区域使用抓握杆或防滑垫。"
+    }
+  }
+}

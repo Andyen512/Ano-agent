@@ -1,0 +1,40 @@
+{
+  "video_key": "web_h264/dailymotion__x8jz9pt",
+  "translations": {
+    "0": {
+      "risk_description": "猫正站在炉子上，伸手去拿杯子，若猫失去平衡可能导致不稳定和潜在伤害。",
+      "normal_video_description": "",
+      "solution_for_person": "看护者应密切监视猫，确保它不尝试爬上炉子或伸手去拿热的物品。",
+      "solution_for_hazard_source": "确保当猫在附近时炉子不在使用中，并把热的物品放在猫够不到的地方。",
+      "solution_to_prevent_recurrence": "在炉子周围安装安全门或屏障，以防止猫靠近或进入。"
+    },
+    "1": {
+      "risk_description": "猫正在与点燃的燃气炉燃烧器互动，存在烧伤或意外点燃可燃材料的危险。",
+      "normal_video_description": "一只白猫在探索并与燃气炉互动，包括点燃的燃烧器和控制旋钮。",
+      "solution_for_person": "确保在炉子使用期间让猫远离炉子。",
+      "solution_for_hazard_source": "不使用时关闭炉子，并使用炉子护栏防止进入。",
+      "solution_to_prevent_recurrence": "让宠物远离正在烹饪的区域，在靠近炉子时要密切监督它们。"
+    },
+    "2": {
+      "risk_description": "一只白猫站在椅子上，直接把爪子伸进点燃的燃气炉燃烧器，造成严重烧伤的高风险。动物直接接触明火是明显且即时的危险。",
+      "normal_video_description": "",
+      "solution_for_person": "立即将宠物从炉子旁移开，并在可能的情况下熄灭火焰。",
+      "solution_for_hazard_source": "立即关闭燃气炉。",
+      "solution_to_prevent_recurrence": "让宠物远离正在烹饪的区域，并确保炉子在不使用时关闭。"
+    },
+    "3": {
+      "risk_description": "猫正站在点燃燃烧器旁的炉子上，若猫与火焰互动或试图移动锅子，就有烧伤或火灾风险。",
+      "normal_video_description": "",
+      "solution_for_person": "确保炉子在不使用时关闭，并让宠物远离炉子区域。",
+      "solution_for_hazard_source": "不主动烹饪时使用后部燃烧器或关闭前部燃烧器，以降低风险。",
+      "solution_to_prevent_recurrence": "安装宠物门或屏障以防止猫靠近炉子，并考虑使用炉子护栏防止意外接触火焰。"
+    },
+    "4": {
+      "risk_description": "猫靠近点燃的炉子，存在烧伤或火灾事故的风险。猫的好奇心和对炉子功能的不了解增加了事故的可能性。",
+      "normal_video_description": "",
+      "solution_for_person": "立即将猫从炉子区域移开，以防止任何潜在伤害。",
+      "solution_for_hazard_source": "不使用时关闭炉子以消除风险。",
+      "solution_to_prevent_recurrence": "让宠物远离炉子和烤箱等有活跃热源的区域。"
+    }
+  }
+}

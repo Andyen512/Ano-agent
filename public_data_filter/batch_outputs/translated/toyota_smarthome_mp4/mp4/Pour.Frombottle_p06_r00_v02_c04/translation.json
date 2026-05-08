@@ -1,0 +1,40 @@
+{
+  "video_key": "toyota_smarthome_mp4/mp4/Pour.Frombottle_p06_r00_v02_c04",
+  "translations": {
+    "0": {
+      "risk_description": "",
+      "normal_video_description": "视频显示一位老人坐在客厅的绿色沙发上，手里拿着一个小物件互动。房间光线充足，有自然光，还有几盆盆栽、一个咖啡桌（上面有一个红色杯子），以及一张带灯的白色桌子。老人似乎专注于那个物件，可能是遥控器或小型设备。场景平静，典型的客厅环境。",
+      "solution_for_person": "",
+      "solution_for_hazard_source": "",
+      "solution_to_prevent_recurrence": ""
+    },
+    "1": {
+      "risk_description": "这个人正在靠近咖啡桌上红色杯子的位置拿着一个瓶子。如果瓶子里装有有害物质，就存在意外摄入或溢洒的风险。",
+      "normal_video_description": "一位老人坐在客厅的绿色沙发上，伸手去拿咖啡桌上红色杯子旁边的瓶子。",
+      "solution_for_person": "确保该人了解瓶子的内容物，并将有害物质放在够不到的地方。",
+      "solution_for_hazard_source": "将有害物质安全存放在上锁的柜子里。",
+      "solution_to_prevent_recurrence": "教育该人识别并避免有害物质。"
+    },
+    "2": {
+      "risk_description": "",
+      "normal_video_description": "一位老人坐在客厅的绿色沙发上，与咖啡桌上的物品互动。这个人似乎在平静地处理物件，可能是杯子和遥控器，没有表现出任何痛苦或危险行为的迹象。",
+      "solution_for_person": "",
+      "solution_for_hazard_source": "",
+      "solution_to_prevent_recurrence": ""
+    },
+    "3": {
+      "risk_description": "老人正在伸手去拿咖啡桌上的一个小物件，如果他们在伸手时失去平衡，可能会造成碰撞或挤压伤害的风险。",
+      "normal_video_description": "",
+      "solution_for_person": "确保老人坐稳，避免在伸手拿东西时突然移动。",
+      "solution_for_hazard_source": "将桌上的小物件放在不易够到的地方，以防止意外跌倒或碰撞。",
+      "solution_to_prevent_recurrence": "重新整理桌上的物品，为老人创造一个更安全、更舒适的空间。"
+    },
+    "4": {
+      "risk_description": "这位老人因为在沙发上伸手去够杯子时姿势不稳定，有跌倒的风险。这可能导致严重伤害。",
+      "normal_video_description": "",
+      "solution_for_person": "确保该人在伸手拿东西时有适当的支撑或帮助，以防止跌倒。",
+      "solution_for_hazard_source": "",
+      "solution_to_prevent_recurrence": "提供支撑或帮助该人安全地从沙发上起身。"
+    }
+  }
+}

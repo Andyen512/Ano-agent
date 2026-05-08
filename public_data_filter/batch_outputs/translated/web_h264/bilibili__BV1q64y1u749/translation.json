@@ -1,0 +1,40 @@
+{
+  "video_key": "web_h264/bilibili__BV1q64y1u749",
+  "translations": {
+    "0": {
+      "risk_description": "视频中可以看到年轻人在沙发上跑跳，这是一种不安全的行为，摔倒受伤的风险很高。",
+      "normal_video_description": "视频展示了一间客厅，里面有沙发、电视和一些装饰。可以看到年轻人在沙发上跑跳，这是一种不安全的行为。",
+      "solution_for_person": "应建议年轻人避免在家具上跑跳，以防摔倒受伤。",
+      "solution_for_hazard_source": "客厅家具应重新摆放，以防止事故发生。",
+      "solution_to_prevent_recurrence": "应监督年轻人并提醒其在客厅的安全行为。"
+    },
+    "1": {
+      "risk_description": "视频显示一块锂电池在充电时起火，导致爆炸和房屋火灾。这种行为会导致烧伤、火势蔓延以及可能吸入有毒烟雾的风险。",
+      "normal_video_description": "一名年轻人正在客厅休息时，锂电池在充电时起火，导致爆炸和房屋火灾。",
+      "solution_for_person": "年轻人应避免在密闭空间长时间使用锂电池，并在充电时确保通风良好。",
+      "solution_for_hazard_source": "锂电池应在通风良好、远离易燃材料的地方充电，并定期检查是否有损坏或过热的迹象。",
+      "solution_to_prevent_recurrence": "不使用时，应将锂电池存放在阴凉、干燥的地方，并遵循制造商的安全指南进行充电和操作。"
+    },
+    "2": {
+      "risk_description": "正在桌上充电的电池突然冒烟并爆炸，产生一个巨大的火球吞噬整个房间。该事件是一起因电器设备故障导致的明显且直接的火灾危险。",
+      "normal_video_description": "",
+      "solution_for_person": "立即撤离该区域至安全距离，并拨打紧急电话。",
+      "solution_for_hazard_source": "将电池从充电电源上拔下，并按照安全指南进行处理。",
+      "solution_to_prevent_recurrence": "避免在室内充电，尤其是放在易燃表面上充电，并使用经过认证的充电设备。"
+    },
+    "3": {
+      "risk_description": "视频显示一名年轻人所在的客厅里有一台在充电时起火的设备，造成重大的电气火灾风险。",
+      "normal_video_description": "",
+      "solution_for_person": "应建议年轻人及时拔掉设备电源，并使其远离易燃材料。",
+      "solution_for_hazard_source": "确保定期检查电气设备，并采取适当的安全措施防止过热。",
+      "solution_to_prevent_recurrence": "普及安全充电做法，并强调监测电气设备是否有过热迹象的重要性。"
+    },
+    "4": {
+      "risk_description": "可以看到有人在狭窄的突出部上行走，这可能导致跌倒并受伤。",
+      "normal_video_description": "",
+      "solution_for_person": "确保该人不在狭窄的突出部或不稳定的表面上行走。",
+      "solution_for_hazard_source": "移除突出部上的任何障碍物或危险物品。",
+      "solution_to_prevent_recurrence": "在突出部安装安全护栏或扶手，以防止跌落。"
+    }
+  }
+}

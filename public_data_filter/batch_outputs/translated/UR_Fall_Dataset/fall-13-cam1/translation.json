@@ -1,0 +1,40 @@
+{
+  "video_key": "UR_Fall_Dataset/fall-13-cam1",
+  "translations": {
+    "0": {
+      "risk_description": "可以看到这位年轻人奔跑并跳上椅子，这不是安全的行为，可能导致跌倒和受伤。",
+      "normal_video_description": "视频显示一位年轻人走进客厅，然后奔跑并跳上椅子，这不是安全的行为。",
+      "solution_for_person": "应建议该人避免从事危险活动，更加注意周围环境，以防止跌倒和受伤。",
+      "solution_for_hazard_source": "应将椅子放置在更稳固安全的位置，以防止翻倒。",
+      "solution_to_prevent_recurrence": "应向该人宣传安全行为及注意周围环境的重要性，以防止将来跌倒和受伤。"
+    },
+    "1": {
+      "risk_description": "该人正躺在有家具的区域，这有导致跌入或卡在物体之间的风险，可能造成伤害。",
+      "normal_video_description": "视频显示一个人在有椅子和桌子的房间里躺在地板上，表明一种潜在的不安全行为。",
+      "solution_for_person": "避免在有家具的区域躺在地板上，以防绊倒或被困。",
+      "solution_for_hazard_source": "确保家具摆放留有清晰的通道，以减少绊倒危险。",
+      "solution_to_prevent_recurrence": "在有家具的区域时应对该人进行监督，并教育他们关于在这些空间中躺在地板上的风险。"
+    },
+    "2": {
+      "risk_description": "",
+      "normal_video_description": "视频显示一个人在办公环境中短暂失去平衡并摔倒在地。这似乎是一时的失稳而非危险情形，因为该人能够恢复并自行站起，未见明显受伤。",
+      "solution_for_person": "",
+      "solution_for_hazard_source": "",
+      "solution_to_prevent_recurrence": ""
+    },
+    "3": {
+      "risk_description": "看到一名儿童摔倒在地，可能导致受伤，尤其如果落地姿势不当。",
+      "normal_video_description": "",
+      "solution_for_person": "应确保对儿童进行密切监督，防止跌倒，并在其尝试攀爬或跳跃时提供支持。",
+      "solution_for_hazard_source": "移除任何可能导致儿童绊倒或跌倒的障碍物或不稳固物品。",
+      "solution_to_prevent_recurrence": "安装安全门或护栏，限制进入容易跌倒的区域。"
+    },
+    "4": {
+      "risk_description": "",
+      "normal_video_description": "视频显示一个办公室环境，有桌子、椅子和一些散落的纸张。没有可见的风险或需要关注的行为。",
+      "solution_for_person": "",
+      "solution_for_hazard_source": "",
+      "solution_to_prevent_recurrence": ""
+    }
+  }
+}

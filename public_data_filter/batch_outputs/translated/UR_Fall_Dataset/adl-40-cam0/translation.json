@@ -1,0 +1,40 @@
+{
+  "video_key": "UR_Fall_Dataset/adl-40-cam0",
+  "translations": {
+    "0": {
+      "risk_description": "看到一名年轻人走向床，然后突然摔倒在地板上。这种行为偏离了正常的日常行走活动，暗示存在不稳定或失去平衡的风险。",
+      "normal_video_description": "",
+      "solution_for_person": "应该帮助这个人站起来，并监测是否有任何头晕或不稳定的迹象。还应建议他们慢慢行走，避免任何突然的动作。",
+      "solution_for_hazard_source": "危险源是年轻人在走向床时缺乏支撑或稳定性。",
+      "solution_to_prevent_recurrence": "应鼓励年轻人在行走时使用扶手或其他支撑，并定期休息以恢复平衡。还应建议他们避免任何可能导致头晕或失去平衡的活动。"
+    },
+    "1": {
+      "risk_description": "这个人正在卧室的地毯上做俯卧撑，这可能会增加滑倒或跌倒的风险，尤其是在地毯没有固定的情况下。",
+      "normal_video_description": "两个人进入卧室，在地毯上做俯卧撑。",
+      "solution_for_person": "确保地毯正确固定在地板上，以防止运动时滑倒。",
+      "solution_for_hazard_source": "将地毯固定在地板上以减少绊倒危险。",
+      "solution_to_prevent_recurrence": "锻炼时穿防滑鞋或在地毯下使用防滑垫。"
+    },
+    "2": {
+      "risk_description": "",
+      "normal_video_description": "一名年轻人从走廊进入卧室，走到房间中央，在瑜伽垫上做俯卧撑。动作是刻意和可控的，没有显示出不稳定或危险的迹象。",
+      "solution_for_person": "",
+      "solution_for_hazard_source": "",
+      "solution_to_prevent_recurrence": ""
+    },
+    "3": {
+      "risk_description": "视频中的人似乎在努力保持平衡，然后摔倒在地板上，这可能会造成伤害风险，尤其是对于行动不便或平衡问题的人。",
+      "normal_video_description": "",
+      "solution_for_person": "确保摔倒的人得到支撑，并检查是否有受伤。",
+      "solution_for_hazard_source": "清除地板上任何绊倒危险，如电缆。",
+      "solution_to_prevent_recurrence": "固定松散的电缆，确保地板上没有障碍物，以防止将来跌倒。"
+    },
+    "4": {
+      "risk_description": "这个人走得不稳，这增加了跌倒和可能伤害自己的风险。如果他们绊倒或失去平衡，这种行为可能导致严重伤害。",
+      "normal_video_description": "",
+      "solution_for_person": "确保这个人小心行走并有适当的支撑以防止跌倒。",
+      "solution_for_hazard_source": "",
+      "solution_to_prevent_recurrence": "提供帮助或监督以帮助这个人在行走时保持平衡。"
+    }
+  }
+}

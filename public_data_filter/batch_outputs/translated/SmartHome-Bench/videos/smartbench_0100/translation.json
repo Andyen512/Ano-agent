@@ -1,0 +1,40 @@
+{
+  "video_key": "SmartHome-Bench/videos/smartbench_0100",
+  "translations": {
+    "0": {
+      "risk_description": "此人正手持饮料并使用手机走在走廊里，这可能导致他们失去平衡并可能摔倒。",
+      "normal_video_description": "此人正手持饮料并使用手机走在走廊里。",
+      "solution_for_person": "应鼓励此人注意周围环境，避免在行走时使用手机。",
+      "solution_for_hazard_source": "视频中没有具体的危险源，但此人的行为是风险的起因。",
+      "solution_to_prevent_recurrence": "应提醒此人在行走时更加小心，避免在使用手机的情况下行走。"
+    },
+    "1": {
+      "risk_description": "此人正拿着多件物品，且显得匆忙，这增加了绊倒或撞到门或墙壁的风险，可能导致受伤。",
+      "normal_video_description": "一个穿绿色衬衫的人走在走廊里，拿着几件物品并与门互动，显得匆忙。",
+      "solution_for_person": "慢下速度并小心在走廊中行走，同时牢牢抓住手中的物品，以避免碰撞。",
+      "solution_for_hazard_source": "确保门的位置正确且没有障碍物，以降低碰撞风险。",
+      "solution_to_prevent_recurrence": "应提醒此人保持对周围环境的警觉，并在穿过狭窄空间时牢牢握住手中的物品。"
+    },
+    "2": {
+      "risk_description": "",
+      "normal_video_description": "一个穿绿色衬衫的人走在走廊里，拿着食物容器，敲了一下门，然后离开画面。该行为属于正常日常活动，不存在任何风险。",
+      "solution_for_person": "",
+      "solution_for_hazard_source": "",
+      "solution_to_prevent_recurrence": ""
+    },
+    "3": {
+      "risk_description": "此人正手持饮料并在行走时分心，这可能增加饮料溢出或意外撞到物体或墙壁的风险，可能对自己或他人造成伤害。",
+      "normal_video_description": "",
+      "solution_for_person": "无论何时，尤其在手持饮料时，此人应更加小心并保持注意力。",
+      "solution_for_hazard_source": "确保走廊畅通无障碍，以降低碰撞风险。",
+      "solution_to_prevent_recurrence": "此人在潜在危险区域行走时，应格外小心，例如扶墙或使用行走辅助工具（如需要）。"
+    },
+    "4": {
+      "risk_description": "",
+      "normal_video_description": "视频显示一位穿绿色衬衫、深色裤子的成年男子站在走廊里，手持白色杯子。他们似乎在和镜头外的某人交谈或互动。该人的行为不具攻击性或危险性，且没有迹象表明存在任何风险。",
+      "solution_for_person": "",
+      "solution_for_hazard_source": "",
+      "solution_to_prevent_recurrence": ""
+    }
+  }
+}

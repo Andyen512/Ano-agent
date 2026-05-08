@@ -1,0 +1,40 @@
+{
+  "video_key": "toyota_smarthome_mp4/mp4/Walk_p19_r09_v12_c06",
+  "translations": {
+    "0": {
+      "risk_description": "老年人在椅子或凳子上站立，伸手去拿高处的物品，这可能导致跌倒并造成潜在伤害。",
+      "normal_video_description": "老年人站在厨房里，手里拿着放有食物的砧板，似乎正在准备餐食。",
+      "solution_for_person": "让老年人坐在桌子或柜台旁拿取高处的物品，或者提供有适当支撑和监督的脚凳。",
+      "solution_for_hazard_source": "确保厨房没有绊倒危险，且老年人不站在不稳定或光滑的表面上。",
+      "solution_to_prevent_recurrence": "在厨房安装扶手杆以提供支撑和稳定性，并确保在老年人伸手取高处物品时不被单独留下。"
+    },
+    "1": {
+      "risk_description": "",
+      "normal_video_description": "一位老年人在现代化厨房里，先在台面上准备食物，随后移动到炉灶区。环境看起来干净整洁，没有明显的危险。",
+      "solution_for_person": "",
+      "solution_for_hazard_source": "",
+      "solution_to_prevent_recurrence": ""
+    },
+    "2": {
+      "risk_description": "",
+      "normal_video_description": "在现代化厨房中可以看到一位老年人手持装有食物的盘子和餐具，在空间里移动，没有出现不稳或危险的迹象。环境看起来安全，活动与日常家庭行为相符。",
+      "solution_for_person": "",
+      "solution_for_hazard_source": "",
+      "solution_to_prevent_recurrence": ""
+    },
+    "3": {
+      "risk_description": "老年人在食物附近使用刀具，如果滑倒或失去控制可能会造成危险，特别是考虑到行动能力或灵活性的潜在限制。",
+      "normal_video_description": "",
+      "solution_for_person": "确保老年人使用稳固的表面，并考虑使用手柄较大的刀具以获得更好的握持。",
+      "solution_for_hazard_source": "刀具不使用时应安全存放，并确保砧板稳固安全。",
+      "solution_to_prevent_recurrence": "使用适合个人能力的餐具，并保持工作空间整洁，以减少绊倒危险。"
+    },
+    "4": {
+      "risk_description": "该人一边切食物一边使用刀具，如果不谨慎操作，可能会导致意外割伤或受伤。",
+      "normal_video_description": "",
+      "solution_for_person": "确保该人使用正确的刀具操作技巧，并保持专注于任务，以最大程度降低受伤风险。",
+      "solution_for_hazard_source": "",
+      "solution_to_prevent_recurrence": "提供安全的刀具使用和切割技巧培训，以降低事故风险。"
+    }
+  }
+}

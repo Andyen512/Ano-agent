@@ -1,0 +1,40 @@
+{
+  "video_key": "labimag/dataset/chute12/cam5",
+  "translations": {
+    "0": {
+      "risk_description": "视频中看到一名年轻人朝桌子跑去，然后摔倒在地板上，这可能会造成伤害。这个摔倒看起来不受控制，可能会导致受伤风险。",
+      "normal_video_description": "视频显示一名年轻人在自习室里走来走去，然后突然摔倒在地板上。房间看起来光线充足且整洁，桌子上可以看到各种学习材料和设备。",
+      "solution_for_person": "此人在房间内走动时应该更加小心，以避免摔倒。",
+      "solution_for_hazard_source": "危险源是缺乏合适的鞋子和光滑的地板。",
+      "solution_to_prevent_recurrence": "此人应该穿合适的鞋子，地板应该减少光滑度以防止摔倒。"
+    },
+    "1": {
+      "risk_description": "",
+      "normal_video_description": "视频显示一个教室环境，里有桌子、椅子和地板上铺着一张大垫子。现场有几个人，有些人在桌子旁工作，有些人在房间里走动。一个穿白衬衫的人走过垫子并躺在上面。",
+      "solution_for_person": "",
+      "solution_for_hazard_source": "",
+      "solution_to_prevent_recurrence": ""
+    },
+    "2": {
+      "risk_description": "",
+      "normal_video_description": "视频显示一个人走进房间，朝地板上的一个白色物体跑去，然后被绊倒。另一个人进入房间并观察情况。这个房间看起来是一个学习或办公空间，里面有桌子、椅子和墙上的各种物品。",
+      "solution_for_person": "",
+      "solution_for_hazard_source": "",
+      "solution_to_prevent_recurrence": ""
+    },
+    "3": {
+      "risk_description": "此人摔倒在垫子上，如果他们摔在坚硬表面上可能会造成危险。这对于行动不便或平衡问题的人来说尤其令人担忧。",
+      "normal_video_description": "",
+      "solution_for_person": "确保此人了解周围环境并在健身房区域移动时保持平衡。",
+      "solution_for_hazard_source": "在可能发生摔倒的区域安装适当的缓冲垫或垫子。",
+      "solution_to_prevent_recurrence": "如果此人在保持平衡方面有困难，应提供稳定辅助工具或监督。"
+    },
+    "4": {
+      "risk_description": "此人正在尝试走钢丝，这本身不稳定，可能导致摔倒。由于钢丝离地面的高度，摔倒可能会造成严重伤害。",
+      "normal_video_description": "",
+      "solution_for_person": "避免在没有适当训练和安全设备的情况下走钢丝或任何不稳定的表面。",
+      "solution_for_hazard_source": "将钢丝从房间移走以防止事故发生。",
+      "solution_to_prevent_recurrence": "在进行涉及平衡和稳定性的活动时，提供安全行走技术和防护装备使用的培训。"
+    }
+  }
+}

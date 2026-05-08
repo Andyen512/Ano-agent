@@ -1,0 +1,30 @@
+{
+  "backend": "tarsier2",
+  "description": "Bytedance Tarsier2 single-video inference",
+  "model_id": "omni-research/Tarsier2-7b-0115",
+  "model_path": "/data_4/liuyuan/lifebench/models/Tarsier2-7b-0115",
+  "video_path": "/data_4/liuyuan/lifebench/data/public_data/toyota_smarthome_mp4/mp4/Usetablet_p06_r00_v04_c05.mp4",
+  "prompt": "You are acting as a conservative safety reviewer.\nYour task is to minimize missed risks. If a candidate behavior has a realistic possibility of injury, loss of control, or accident triggering, it may be kept as a risk anomaly.\n\nFollow these principles:\n- Apply a cautious safety standard, prioritizing behaviors that may lead to falls, collisions, burns, electric shock, accidental ingestion, cuts, or other household injuries.\n- Even if harm has not occurred yet, keep the behavior if it already contains a clear risk trigger or is in an accident-prone state.\n- For borderline cases, focus on whether the behavior deserves early intervention rather than waiting for harm to happen.\n- If a behavior would commonly be stopped or warned against by family members, guardians, or caregivers, lean toward keeping it.\n- The goal is to reduce false negatives, so ambiguous cases may be judged slightly conservatively.\n\nOutput requirements for this perspective:\n- Explain what realistic harm the behavior may trigger and why it should or should not be kept under a conservative safety standard.\n- You do not need to prove that harm will definitely occur.\n- Do not exaggerate beyond an ordinary household context.\n\nTask addendum:\nReview the input video and first decide whether the video contains a risk.\nBase your judgment only on the video content. Do not assume facts outside the video, and do not invent extra events.\nJudge the main visible behavior and scene in the video.\nYou must answer based on the provided video input. Do not say that you cannot watch or inspect the video.\nOutput exactly the following English-labeled fields, with no markdown and no extra text:\nRisk presence: Yes / No\nLevel 1 scene: output one scene keyword. Prefer one of: dining room, kitchen, study, balcony, living room, bathroom, yard. If none fits, output your own concise scene keyword.\nLevel 2 subject: output one subject keyword. Prefer one of: child, older adult, young adult, middle-aged adult. If none fits, output your own concise subject keyword.\nLevel 3 risk type: if Risk presence is Yes, output one risk keyword. Prefer one of: fall/instability, heat/fire source, collision/crush injury, sharp-object danger, electrical safety, poisoning/accidental ingestion, interpersonal conflict. If none fits, output your own concise risk keyword. If Risk presence is No, output None.\nRisk description: if Risk presence is Yes, describe the risk in 1-3 sentences. If Risk presence is No, output None.\nRisk time interval: if Risk presence is Yes, localize the risk as seconds like [start,end]. If there are multiple intervals, separate them with semicolons. If the exact interval is unclear, output Unknown. If Risk presence is No, output None.\nSolution for person: if Risk presence is Yes, give a concrete action for the person or caregiver. If Risk presence is No, output None.\nSolution for hazard source: if Risk presence is Yes, give a concrete action for the hazard source or environment. If Risk presence is No, output None.\nSolution to prevent recurrence: if Risk presence is Yes, give a prevention measure to reduce recurrence. If Risk presence is No, output None.\nNormal video description: if Risk presence is No, describe the normal video content in 1-3 sentences. If Risk presence is Yes, output None.",
+  "response": "Risk presence: Yes\nLevel 1 scene: living room\nLevel 2 subject: older adult\nLevel 3 risk type: fall/instability\nRisk description: An older adult is sitting on a green sofa, watching TV, while another person in an orange shirt stands near the TV and points at it. The person in the orange shirt continues to point at the TV, which displays various images, including a person and a landscape. The older adult remains seated, holding a remote control, and the person in the orange shirt moves slightly. The older adult starts to get up from the sofa, and the person in the orange shirt continues to point at the TV. The older adult is now standing, and the person in the orange shirt is still pointing at the TV. The older adult is fully standing, and the person in the orange shirt is still pointing at the TV. The older adult and the person in the orange shirt are both standing, and the TV continues to display various images. The older adult and the person in the orange shirt remain standing, and the TV continues to display images. The older adult and the person in the orange shirt are still standing, and the TV continues to display images. The older adult and the person in the orange shirt are standing,",
+  "parsed_response": {
+    "risk_status": "abnormal",
+    "has_risk": true,
+    "risk_type": "fall_instability",
+    "video_description": "",
+    "safe_segment_desc": "",
+    "risk_description": "Level 3 risk type: fall/instability",
+    "solution": "",
+    "time_spans": []
+  },
+  "generation": {
+    "temperature": 0.0,
+    "top_p": 0.9,
+    "max_new_tokens": 256,
+    "fps": 1.0,
+    "max_frames": 16,
+    "merge_size": 2
+  },
+  "elapsed_seconds": 26.544,
+  "format_retry_used": true,
+  "first_response_before_format_retry": "In a modern living room with a green sofa, a white coffee table, and a wall-mounted TV, an older adult is seated on the sofa watching TV. A person in an orange shirt enters the room from the left and approaches the TV, pointing at the screen. The person continues to interact with the TV, possibly changing the channel or adjusting settings. The older adult on the sofa remains seated, seemingly unaffected by the person's actions. The person in the orange shirt steps back and leaves the room. The older adult continues to watch TV, and the room remains calm and undisturbed."
+}

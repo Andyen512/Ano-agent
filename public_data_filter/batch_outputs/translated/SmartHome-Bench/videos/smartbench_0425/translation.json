@@ -1,0 +1,40 @@
+{
+  "video_key": "SmartHome-Bench/videos/smartbench_0425",
+  "translations": {
+    "0": {
+      "risk_description": "视频显示一群年轻人在院子里聚集，其中一些人似乎在进行激烈的讨论或争论。这种行为偏离了家庭场景的正常日常行为，因为它涉及潜在的人际冲突。",
+      "normal_video_description": "",
+      "solution_for_person": "负责照看或管理该群体的人应该介入并尝试调解情况，鼓励各人冷静沟通，化解分歧。",
+      "solution_for_hazard_source": "环境本身不构成重大危险，但人际冲突的潜在性是存在的。",
+      "solution_to_prevent_recurrence": "鼓励成员之间进行开放沟通和冲突解决技巧，并考虑组织促进团队合作和理解的群体活动。"
+    },
+    "1": {
+      "risk_description": "",
+      "normal_video_description": "一群人在装饰好的万圣节房子里进行“不给糖就捣蛋”。他们走向门廊，按门铃，拿到糖果后离开。",
+      "solution_for_person": "",
+      "solution_for_hazard_source": "",
+      "solution_to_prevent_recurrence": ""
+    },
+    "2": {
+      "risk_description": "",
+      "normal_video_description": "视频显示穿万圣节服装的孩子们走向装饰有南瓜和悬挂装饰品的门廊，看起来在进行正常、安全的“不给糖就捣蛋”，没有任何危险或异常行为的迹象。",
+      "solution_for_person": "",
+      "solution_for_hazard_source": "",
+      "solution_to_prevent_recurrence": ""
+    },
+    "3": {
+      "risk_description": "孩子在砖柱和其他物体附近奔跑，如果他们绊倒或摔倒，可能会造成碰撞或挤压伤害。",
+      "normal_video_description": "",
+      "solution_for_person": "确保孩子有专人近距离监督，防止他们跑得太靠近砖柱或其他障碍物。",
+      "solution_for_hazard_source": "移除或固定院子里任何可能造成伤害的松散物品。",
+      "solution_to_prevent_recurrence": "安装围栏或护栏，以创建更安全的游乐区，远离潜在危险。"
+    },
+    "4": {
+      "risk_description": "阳台上的人因姿势不稳且阳台高度较大，有坠落危险。这可能导致重伤甚至死亡。",
+      "normal_video_description": "",
+      "solution_for_person": "确保此人安全坐好或站立，并提供适当支撑，以防坠落。",
+      "solution_for_hazard_source": "移除阳台区域任何潜在的危害物，最小化跌倒风险。",
+      "solution_to_prevent_recurrence": "在阳台上安装安全栏杆或护栏，以防止以后再发生类似事故。"
+    }
+  }
+}

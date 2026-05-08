@@ -1,0 +1,40 @@
+{
+  "video_key": "toyota_smarthome_mp4/mp4/Sitdown_p13_r04_v03_c04",
+  "translations": {
+    "0": {
+      "risk_description": "视频中的人正在弯腰，姿势看起来不稳，可能导致摔倒或失去平衡。",
+      "normal_video_description": "视频中的人看到在客厅里走动，从地板上捡起物品并放到茶几上。他们看起来很稳，动作控制良好。",
+      "solution_for_person": "应该让护理人员帮助此人，以确保其稳定和安全。",
+      "solution_for_hazard_source": "护理人员应确保客厅没有任何绊倒危险，如电线或杂物。",
+      "solution_to_prevent_recurrence": "护理人员应监测此人的动作，必要时提供支持，防止摔倒或失去平衡。"
+    },
+    "1": {
+      "risk_description": "",
+      "normal_video_description": "一个人站在绿色分段沙发旁，然后坐下。房间光线充足，植物和家具清晰可见。",
+      "solution_for_person": "",
+      "solution_for_hazard_source": "",
+      "solution_to_prevent_recurrence": ""
+    },
+    "2": {
+      "risk_description": "",
+      "normal_video_description": "一位中年人在客厅里从站立姿势移动到坐在绿色分段沙发上。环境安静温馨，没有出现痛苦、不稳或危险行为的迹象。",
+      "solution_for_person": "",
+      "solution_for_hazard_source": "",
+      "solution_to_prevent_recurrence": ""
+    },
+    "3": {
+      "risk_description": "此人正弯腰趴在沙发上，这可能导致摔倒或拉伤，特别是如果他们行动不便或平衡有问题时。",
+      "normal_video_description": "",
+      "solution_for_person": "确保此人缓慢而小心地坐下，以避免突然的动作。",
+      "solution_for_hazard_source": "在旁边提供额外的支撑或椅子，以帮助保持稳定。",
+      "solution_to_prevent_recurrence": "鼓励在弯腰或伸手时使用支撑，并确保客厅没有障碍物。"
+    },
+    "4": {
+      "risk_description": "此人以可能导致摔倒的方式弯腰趴在沙发上，特别是如果他们没有注意周围环境的话。这种行为有受伤风险，因为可能会失去平衡并跌倒在硬地板上。",
+      "normal_video_description": "",
+      "solution_for_person": "确保此人意识到周围环境，并考虑坐在沙发上而不是趴在上面。",
+      "solution_for_hazard_source": "",
+      "solution_to_prevent_recurrence": "鼓励此人在与沙发互动时坐直或站直，避免弯腰趴下导致摔倒的风险。"
+    }
+  }
+}

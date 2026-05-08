@@ -1,0 +1,40 @@
+{
+  "video_key": "toyota_smarthome_mp4/mp4/Cook.Usestove_p06_r01_v13_c03",
+  "translations": {
+    "0": {
+      "risk_description": "这位老年人站在椅子或凳子上够微波炉，这是一个潜在的跌倒危险。",
+      "normal_video_description": "",
+      "solution_for_person": "让护理人员或家庭成员协助老年人安全地够到微波炉。",
+      "solution_for_hazard_source": "确保微波炉放置在老年人无需使用椅子或凳子就能触及的高度。",
+      "solution_to_prevent_recurrence": "在厨房安装扶手或带有防滑表面的踏脚凳，以协助老年人安全地够到微波炉。"
+    },
+    "1": {
+      "risk_description": "这个人正在与烤箱互动，如果烤箱很热或装有热食物，则存在烫伤风险。",
+      "normal_video_description": "一位老年人在厨房里，正接近并与烤箱互动。",
+      "solution_for_person": "在打开烤箱门之前，确保烤箱未在使用中或已冷却。",
+      "solution_for_hazard_source": "在烤箱门上安装安全装置，以防止烫热时意外打开。",
+      "solution_to_prevent_recurrence": "让护理人员在允许此人接触烤箱之前检查烤箱温度。"
+    },
+    "2": {
+      "risk_description": "",
+      "normal_video_description": "一位老年人站在厨房里，打开和关闭烤箱门并向内看。这个人看起来是在正常地检查食物或调整烤箱设置。",
+      "solution_for_person": "",
+      "solution_for_hazard_source": "",
+      "solution_to_prevent_recurrence": ""
+    },
+    "3": {
+      "risk_description": "老年人站在烤箱附近，如果烤箱很热，可能会造成烫伤或热暴露风险。",
+      "normal_video_description": "",
+      "solution_for_person": "在打开烤箱之前确保其已冷却，烤箱在使用时保持安全距离。",
+      "solution_for_hazard_source": "安装隔热烤箱把手或使用隔热手套，以避免直接接触烤箱门。",
+      "solution_to_prevent_recurrence": "使用计时器提醒检查烤箱，并确保厨房通风良好。"
+    },
+    "4": {
+      "risk_description": "这位老年人站在烤箱前，如果烤箱很热或发生火灾，可能会导致烫伤。由于此人正在与烤箱互动，因此存在风险。",
+      "normal_video_description": "",
+      "solution_for_person": "在打开烤箱之前，确保烤箱已关闭并冷却，以避免烫伤。",
+      "solution_for_hazard_source": "检查烤箱温度，确保在使用前处于安全水平。",
+      "solution_to_prevent_recurrence": "在打开烤箱之前，始终仔细确认烤箱已关闭且已冷却，以防止事故。"
+    }
+  }
+}

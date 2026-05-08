@@ -1,0 +1,40 @@
+{
+  "video_key": "web_h264/bilibili__BV18yXKBwEg4",
+  "translations": {
+    "0": {
+      "risk_description": "视频显示一名年轻人在浴室里站在椅子上够洗手池，这可能会导致摔倒。该人看起来不稳定，有摔倒的风险。",
+      "normal_video_description": "",
+      "solution_for_person": "此人使用洗手池时应有护理人员协助以确保稳定。",
+      "solution_for_hazard_source": "浴室应配备安全设施，如扶手杆，以防止摔倒。",
+      "solution_to_prevent_recurrence": "此人使用洗手池时应有人监督，浴室应进行改造以降低摔倒风险，例如安装安全设施和清除绊倒危险物。"
+    },
+    "1": {
+      "risk_description": "在潮湿的浴室环境中使用吹风机可能因水和电器的存在而导致触电或火灾。",
+      "normal_video_description": "视频显示一名女性在洗漱后在浴室使用吹风机，随后是对在潮湿环境中使用电器风险的安全警告。",
+      "solution_for_person": "避免在刚洗漱后立即在潮湿的浴室中使用吹风机等电器。",
+      "solution_for_hazard_source": "确保电源插座和电器保持干燥，并在通风良好的干燥区域使用。",
+      "solution_to_prevent_recurrence": "使用电器前彻底擦干手脚，并考虑在浴室外使用电器。"
+    },
+    "2": {
+      "risk_description": "一名女性在淋浴后立即在潮湿的浴室环境中使用吹风机，因潮湿接触电器而有很高的触电或火灾风险。",
+      "normal_video_description": "",
+      "solution_for_person": "在使用电器前等待手脚和环境完全干燥。",
+      "solution_for_hazard_source": "确保电器适用于潮湿环境或仅在干燥区域使用。",
+      "solution_to_prevent_recurrence": "养成在使用任何电器设备前先擦干并通风浴室的习惯。"
+    },
+    "3": {
+      "risk_description": "在潮湿的浴室中使用吹风机有触电风险，特别是对于可能不完全意识到危险或在使用吹风机时可能意外接触到潮湿表面的人。",
+      "normal_video_description": "视频演示了在潮湿浴室中使用吹风机的危险，突出了触电风险并提供了安全建议。",
+      "solution_for_person": "在使用吹风机前确保浴室完全干燥，使用时避免接触任何潮湿表面。",
+      "solution_for_hazard_source": "在干燥环境中使用吹风机，并确保其维护良好以降低电气危险风险。",
+      "solution_to_prevent_recurrence": "在使用吹风机等电器前始终彻底擦干浴室，并教育用户了解在潮湿条件下使用此类电器的风险。"
+    },
+    "4": {
+      "risk_description": "视频显示有人插入电器，如果不正确操作可能会有触电风险。",
+      "normal_video_description": "",
+      "solution_for_person": "在重新插入电器前确保已拔掉插头以避免触电。",
+      "solution_for_hazard_source": "",
+      "solution_to_prevent_recurrence": "在清洁或维护前始终拔掉电器插头以避免电气危险。"
+    }
+  }
+}

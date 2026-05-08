@@ -1,0 +1,40 @@
+{
+  "video_key": "toyota_smarthome_mp4/mp4/Sitdown_p17_r02_v09_c02",
+  "translations": {
+    "0": {
+      "risk_description": "老年人由于桌子凌乱且坐下时缺乏支撑，有跌倒的风险。",
+      "normal_video_description": "老年人坐在餐厅的桌子旁，正在看笔记本电脑。随后他们前倾，表现出不适，护理人员赶紧过去帮助他们。",
+      "solution_for_person": "护理人员应帮助老年人找到更安全的座位，并清除桌上的潜在危险物品。",
+      "solution_for_hazard_source": "护理人员应清理桌上的杂物，确保老年人在坐下时有适当的支撑。",
+      "solution_to_prevent_recurrence": "护理人员应定期检查老年人的周围环境，清除可能的危险因素，防止跌倒。"
+    },
+    "1": {
+      "risk_description": "",
+      "normal_video_description": "一位老年人走进餐厅，坐在一张堆满各种物品的桌子旁。",
+      "solution_for_person": "",
+      "solution_for_hazard_source": "",
+      "solution_to_prevent_recurrence": ""
+    },
+    "2": {
+      "risk_description": "",
+      "normal_video_description": "在餐厅里看到一位老年人走向椅子并坐在一张有笔记本电脑和其他物品的桌子旁，行为平静，符合正常的日常活动。",
+      "solution_for_person": "",
+      "solution_for_hazard_source": "",
+      "solution_to_prevent_recurrence": ""
+    },
+    "3": {
+      "risk_description": "老年人俯身在桌子上，可能因潜在的平衡问题导致跌倒或失衡。",
+      "normal_video_description": "",
+      "solution_for_person": "确保老年人在伸手取桌上的物品时坐下或稳住身体。",
+      "solution_for_hazard_source": "清除桌上可能引起绊倒或失衡的物品。",
+      "solution_to_prevent_recurrence": "为老年人提供一把稳固的椅子，以便在取桌上物品时使用。"
+    },
+    "4": {
+      "risk_description": "老年人俯身在桌子上，如果不注意可能导致跌倒。跌倒可能导致严重伤害，对老年人尤其危险。",
+      "normal_video_description": "一位老年人在餐厅环境中俯身于桌子上。",
+      "solution_for_person": "在俯身到桌子上之前，确保该人具有良好的平衡和支撑。考虑使用有扶手的椅子提供支撑。",
+      "solution_for_hazard_source": "",
+      "solution_to_prevent_recurrence": "鼓励使用正确的搬运技巧，并在必要时提供帮助。"
+    }
+  }
+}

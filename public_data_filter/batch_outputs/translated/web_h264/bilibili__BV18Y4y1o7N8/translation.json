@@ -1,0 +1,40 @@
+{
+  "video_key": "web_h264/bilibili__BV18Y4y1o7N8",
+  "translations": {
+    "0": {
+      "risk_description": "可以看到一位年轻成年人在餐厅的地板上摔倒并滑倒，这是一种异常且潜在危险的行为。",
+      "normal_video_description": "视频显示一位年轻成年人在餐厅里走动，这是一种正常活动。",
+      "solution_for_person": "确保地面清洁且无障碍物，以防止跌倒。",
+      "solution_for_hazard_source": "检查地面是否存在可能导致跌倒的危险因素。",
+      "solution_to_prevent_recurrence": "在餐厅区域安装扶手或防滑垫，以防止以后跌倒。"
+    },
+    "1": {
+      "risk_description": "可以看到一个人在各种户外和室内环境中多次跌倒，包括在湿滑表面滑倒、被物体绊倒以及移动时失去平衡。这些行为具有真实的跌倒受伤风险。",
+      "normal_video_description": "",
+      "solution_for_person": "",
+      "solution_for_hazard_source": "",
+      "solution_to_prevent_recurrence": ""
+    },
+    "2": {
+      "risk_description": "在厨房环境中，一个人失去平衡并跌倒在地板上，这表明一次明显的失衡事件，超出正常活动范围。",
+      "normal_video_description": "",
+      "solution_for_person": "该人员应立即起身并检查是否受伤，必要时寻求医疗救治。",
+      "solution_for_hazard_source": "厨房地面应保持干燥且无障碍物，以防止滑倒。",
+      "solution_to_prevent_recurrence": "在厨房安装防滑垫并确保适当的照明，以降低跌倒风险。"
+    },
+    "3": {
+      "risk_description": "可以看到孩子在地板上跌倒并翻滚，这可能导致受伤。",
+      "normal_video_description": "",
+      "solution_for_person": "确保对孩子进行密切监护，以防跌倒。",
+      "solution_for_hazard_source": "移除任何可能导致绊倒或跌倒的障碍物。",
+      "solution_to_prevent_recurrence": "安装安全门并确保地面没有危险物品。"
+    },
+    "4": {
+      "risk_description": "该人正站在梯子上，如果梯子未固定好或该人失去平衡，可能会导致跌倒。",
+      "normal_video_description": "视频显示一个人在院子里站在梯子上，可能在进行维修或检查。",
+      "solution_for_person": "在爬梯子之前确保梯子稳固可靠；使用正确的梯子安全技术。",
+      "solution_for_hazard_source": "",
+      "solution_to_prevent_recurrence": "定期检查梯子是否损坏，并确保按照制造商的说明使用。"
+    }
+  }
+}

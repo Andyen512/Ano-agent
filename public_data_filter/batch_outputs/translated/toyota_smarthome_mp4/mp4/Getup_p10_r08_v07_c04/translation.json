@@ -1,0 +1,40 @@
+{
+  "video_key": "toyota_smarthome_mp4/mp4/Getup_p10_r08_v07_c04",
+  "translations": {
+    "0": {
+      "risk_description": "老年人正在尝试够取茶几上的物品，这可能导致他们失去平衡而摔倒。茶几较低，老年人可能难以安全地够取。",
+      "normal_video_description": "老年人坐在客厅的沙发上，够取茶几上的物品。房间光线充足，装饰有植物和家具。",
+      "solution_for_person": "护理人员应协助老年人够取物品，或提供脚凳以确保安全够取茶几上的物品。",
+      "solution_for_hazard_source": "茶几应移至更安全的位置，或在茶几上放置警告标志以提醒他人潜在危险。",
+      "solution_to_prevent_recurrence": "护理人员应定期检查老年人的环境，排查潜在危险，并采取措施预防跌倒，如清除绊倒危险物并确保地面无杂物。"
+    },
+    "1": {
+      "risk_description": "",
+      "normal_video_description": "一位老年人坐在客厅的绿色沙发上，然后站起来。房间里有一张茶几、带有书籍的边桌、植物，背景中有一扇门。",
+      "solution_for_person": "",
+      "solution_for_hazard_source": "",
+      "solution_to_prevent_recurrence": ""
+    },
+    "2": {
+      "risk_description": "",
+      "normal_video_description": "一位老年人坐在客厅的绿色沙发上，然后站起来走向茶几。环境看起来平静安全，没有明显的危险或危险活动。",
+      "solution_for_person": "",
+      "solution_for_hazard_source": "",
+      "solution_to_prevent_recurrence": ""
+    },
+    "3": {
+      "risk_description": "老年人正在尝试从沙发上站起来，这可能由于潜在的不稳定性或虚弱而造成跌倒风险。",
+      "normal_video_description": "",
+      "solution_for_person": "确保老年人在站立时有支撑，例如椅子或助行器。",
+      "solution_for_hazard_source": "清除沙发附近的障碍物，为安全移动提供清晰的路径。",
+      "solution_to_prevent_recurrence": "使用带软垫的脚凳来辅助从沙发上站立。"
+    },
+    "4": {
+      "risk_description": "老年人有从沙发上摔倒的风险，由于他们的年龄和可能对地板的猛烈撞击，可能导致严重伤害。",
+      "normal_video_description": "",
+      "solution_for_person": "确保老年人穿有良好抓地力的合适鞋子，并在客厅活动时考虑使用助行器支撑。",
+      "solution_for_hazard_source": "清除沙发附近可能造成绊倒的杂物和物品。",
+      "solution_to_prevent_recurrence": "在沙发上安装扶手，为老年人提供额外的支撑和稳定性。"
+    }
+  }
+}

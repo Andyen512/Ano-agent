@@ -1,0 +1,40 @@
+{
+  "video_key": "UR_Fall_Dataset/fall-07-cam0",
+  "translations": {
+    "0": {
+      "risk_description": "视频中的年轻人正走向书房的一把椅子，却突然失去平衡摔倒在地。这种行为明显偏离了年轻人的正常日常行为，存在受伤风险。",
+      "normal_video_description": "",
+      "solution_for_person": "人在书房走动时应更加小心，以免绊倒或摔倒。",
+      "solution_for_hazard_source": "危险源是年轻人走向的椅子。椅子应放置在安全位置，以防止事故。",
+      "solution_to_prevent_recurrence": "应提醒年轻人在书房走动时更加小心，并将椅子放在更安全的位置，以防止再次发生事故。"
+    },
+    "1": {
+      "risk_description": "视频中看到人摔倒在地上，这可能因撞击硬地面而导致受伤。",
+      "normal_video_description": "一个人在书房里走动，最终摔倒在地。",
+      "solution_for_person": "避免可能导致失去平衡的突然动作或行为。",
+      "solution_for_hazard_source": "",
+      "solution_to_prevent_recurrence": ""
+    },
+    "2": {
+      "risk_description": "行走时失去平衡并向后倒在地上，表明出现了明显的不稳定事件，超出正常活动范围。",
+      "normal_video_description": "",
+      "solution_for_person": "人员应立即站起，检查是否受伤，在未站稳之前避免匆忙或快速转身。",
+      "solution_for_hazard_source": "确保地面没有障碍物，必要时提供更好的照明。",
+      "solution_to_prevent_recurrence": "鼓励放慢动作，如平衡有顾虑，可考虑使用辅助器具。"
+    },
+    "3": {
+      "risk_description": "人员摔倒在地上，可能导致受伤，尤其是行动不便或正在康复的人。",
+      "normal_video_description": "",
+      "solution_for_person": "确保人员对周围环境有意识，行走时避免分心。",
+      "solution_for_hazard_source": "清除可能导致绊倒的障碍物，确保地面平整、畅通。",
+      "solution_to_prevent_recurrence": "在清晰路径上行走，保持平衡意识。"
+    },
+    "4": {
+      "risk_description": "视频中的人员因潜在的绊倒危险或不平整的地面而有摔倒风险，可能导致严重伤害。",
+      "normal_video_description": "",
+      "solution_for_person": "确保区域没有障碍物，提供适当照明以防止绊倒危险。",
+      "solution_for_hazard_source": "清除该区域任何潜在的绊倒危险。",
+      "solution_to_prevent_recurrence": "定期检查该区域是否存在潜在危险，并及时处理。"
+    }
+  }
+}

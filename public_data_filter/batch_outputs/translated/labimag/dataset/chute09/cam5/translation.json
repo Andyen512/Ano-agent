@@ -1,0 +1,40 @@
+{
+  "video_key": "labimag/dataset/chute09/cam5",
+  "translations": {
+    "0": {
+      "risk_description": "视频中的年轻人走过房间，然后突然摔倒在地。这种行为偏离了办公室环境中个人的正常日常行为，可能导致受伤。",
+      "normal_video_description": "",
+      "solution_for_person": "应检查该人是否受伤，必要时提供急救。还应建议他在办公室行走时更加小心，以防止再次摔倒。",
+      "solution_for_hazard_source": "应评估办公室环境是否存在可能导致跌倒的潜在危险，例如不平的地板或松散的电线。这些危险应加以处理，以防止未来跌倒。",
+      "solution_to_prevent_recurrence": "应提醒该人在办公室行走时更加小心，并将遇到的危险报告给相关人员。应在办公室进行定期安全检查，确保没有潜在危险。"
+    },
+    "1": {
+      "risk_description": "穿红色衬衫的人脸朝下躺在地板上，若没有得到适当支撑或他人未注意到其姿势，可能会导致头部或脊柱受伤。",
+      "normal_video_description": "一个穿红色衬衫的人进入房间，脸朝下躺在地板上，随后有人靠近。",
+      "solution_for_person": "确保穿红色衬衫的人得到适当照顾，必要时重新定位，以防止进一步受伤。",
+      "solution_for_hazard_source": "",
+      "solution_to_prevent_recurrence": "制定明确的规程，监测和应对在共享空间中意外倒下或躺下的人。"
+    },
+    "2": {
+      "risk_description": "",
+      "normal_video_description": "一个人走进办公室，走向地板上的床垫并躺在上面。背景中可以看到其他人进入房间。",
+      "solution_for_person": "",
+      "solution_for_hazard_source": "",
+      "solution_to_prevent_recurrence": ""
+    },
+    "3": {
+      "risk_description": "视频中的人摔倒在地板上，可能会造成伤害，尤其是对行动不便或平衡有问题的人。",
+      "normal_video_description": "",
+      "solution_for_person": "确保该人注意周围环境并小心移动，以避免滑倒或绊倒。",
+      "solution_for_hazard_source": "清除地板上的障碍物或绊倒危险，以防止跌倒。",
+      "solution_to_prevent_recurrence": "安装防滑地板并确保该区域光线充足，以提高能见度。"
+    },
+    "4": {
+      "risk_description": "穿红色衬衫的人正在进行一种背躺在垫子上滚动的活动，这可能导致跌倒或不稳定，特别是如果他们不小心。这种行为有受伤风险，因为可能失去平衡而摔倒。",
+      "normal_video_description": "",
+      "solution_for_person": "确保该人了解此活动的风险，并在需要时提供适当的监督或帮助。",
+      "solution_for_hazard_source": "",
+      "solution_to_prevent_recurrence": "鼓励该人参与更安全的活动，或提供关于如何更安全地进行该活动的指导。"
+    }
+  }
+}

@@ -1,0 +1,40 @@
+{
+  "video_key": "SmartHome-Bench/videos/smartbench_0001",
+  "translations": {
+    "0": {
+      "risk_description": "",
+      "normal_video_description": "视频显示孩子们在院子里玩耍，一个孩子骑着滑板车，另一个孩子坐在小三轮车上。一个穿粉红色衬衫的女孩站在篮球架附近，院子里停着一辆红色汽车。这个场景是孩子们在户外玩耍的典型画面。",
+      "solution_for_person": "",
+      "solution_for_hazard_source": "",
+      "solution_to_prevent_recurrence": ""
+    },
+    "1": {
+      "risk_description": "穿粉色连衣裙的孩子在篮球架附近玩耍，周围散落着玩具和器材，增加了绊倒或跌倒的风险。三轮车上的孩子和踏板车上的成年人正在混凝土路面上骑行，存在碰撞或失控的风险。",
+      "normal_video_description": "孩子们在混凝土车道上玩耍，骑着三轮车和滑板车，而一个小女孩在篮球架附近玩耍，周围散落着玩具。",
+      "solution_for_person": "应监督孩子避免在篮球架和散落的玩具附近奔跑。三轮车上的成年人和孩子应相互保持安全距离，以防碰撞。",
+      "solution_for_hazard_source": "应将篮球架附近的散落玩具和器材移到更安全的区域，以减少绊倒危险。",
+      "solution_to_prevent_recurrence": "确保玩耍区域没有障碍物，并在孩子们玩耍时进行监督，以降低风险。"
+    },
+    "2": {
+      "risk_description": "",
+      "normal_video_description": "视频显示孩子们在车道上骑滑板车并在篮球架旁玩耍。一个孩子从滑板车上摔下来后又爬起来，另一个孩子到处跑。这个场景是孩子们在住宅区户外玩耍的典型画面。",
+      "solution_for_person": "",
+      "solution_for_hazard_source": "",
+      "solution_to_prevent_recurrence": ""
+    },
+    "3": {
+      "risk_description": "孩子在篮球架和滑板车附近玩耍，如果失去平衡或没有得到适当监督，可能会造成跌倒风险。",
+      "normal_video_description": "",
+      "solution_for_person": "确保在孩子玩耍于滑板车和篮球架附近时进行密切监督，以防止跌倒。",
+      "solution_for_hazard_source": "移除或固定玩耍区域周围的松动物品，以减少绊倒危险。",
+      "solution_to_prevent_recurrence": "在玩耍区域周围安装安全护栏或围栏，为孩子创造更安全的环境。"
+    },
+    "4": {
+      "risk_description": "滑板车上的孩子因不稳有跌倒风险，可能导致轻微伤害，如擦伤或淤青。与地面上成年人的接近也增加了孩子跌倒时的碰撞风险。",
+      "normal_video_description": "视频显示一个孩子在院子里骑滑板车，旁边有成年人，说明这是一项有监督的活动。",
+      "solution_for_person": "确保孩子佩戴安全防护装备，如头盔和护膝，以减少跌倒的冲击。",
+      "solution_for_hazard_source": "",
+      "solution_to_prevent_recurrence": "在孩子骑滑板车时进行密切监督，确保其安全，必要时进行干预。"
+    }
+  }
+}

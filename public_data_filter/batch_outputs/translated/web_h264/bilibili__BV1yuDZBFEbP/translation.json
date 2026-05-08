@@ -1,0 +1,40 @@
+{
+  "video_key": "web_h264/bilibili__BV1yuDZBFEbP",
+  "translations": {
+    "0": {
+      "risk_description": "视频中的孩子坐在婴儿学步车里，位于有台阶通往地面的混凝土表面上。孩子似乎在学步车中向台阶移动，若失去平衡可能会跌倒。台阶和混凝土表面的存在增加了受伤风险。",
+      "normal_video_description": "",
+      "solution_for_person": "确保孩子始终受到监护，并将婴儿学步车放置在远离台阶的地方，以防止孩子向台阶移动。",
+      "solution_for_hazard_source": "移除台阶或设置障碍物，以防止孩子在婴儿学步车使用期间接近台阶。",
+      "solution_to_prevent_recurrence": "在孩子使用婴儿学步车时务必进行监护，并确保环境安全、无潜在危险。"
+    },
+    "1": {
+      "risk_description": "孩子在使用学步车时靠近楼梯口，存在跌落楼梯的风险。",
+      "normal_video_description": "一个在学步车中的婴儿靠近楼梯口，画面上叠加的文字表达了对潜在危险的担忧。",
+      "solution_for_person": "确保持续监护并在必要时立即干预，以防止孩子靠近楼梯口。",
+      "solution_for_hazard_source": "移除或固定楼梯口边缘，以防止学步车接近。",
+      "solution_to_prevent_recurrence": "务必将孩子的学步车系在固定点上，并确保区域没有危险的边缘。"
+    },
+    "2": {
+      "risk_description": "一个坐在带轮学步车里的婴儿不受控制地滚下楼梯，导致严重跌倒。这种行为明显超出正常玩耍范围，由于缺乏监护和危险环境，构成严重的安全隐患。",
+      "normal_video_description": "",
+      "solution_for_person": "成人必须立即监护孩子并通过身体阻挡或引导学步车，以防止其接近楼梯。",
+      "solution_for_hazard_source": "在楼梯顶部和底部安装安全门，以防止接近。",
+      "solution_to_prevent_recurrence": "务必用绳子固定学步车，或将其远离楼梯和其他落差处。"
+    },
+    "3": {
+      "risk_description": "孩子坐在学步车中靠近楼梯口，存在跌落楼梯的风险。",
+      "normal_video_description": "",
+      "solution_for_person": "确保持续监护并让孩子远离楼梯等危险区域。",
+      "solution_for_hazard_source": "在楼梯顶部安装安全栅栏或门，以防止接近。",
+      "solution_to_prevent_recurrence": "在楼梯附近务必监护幼儿，并考虑安装安全门。"
+    },
+    "4": {
+      "risk_description": "孩子站在楼梯顶部的一个小凳子上，存在跌倒的风险。楼梯看起来老旧且磨损，且没有扶手，增加了事故的可能性。",
+      "normal_video_description": "",
+      "solution_for_person": "移除小凳子并确保孩子受到监护或被转移到远离楼梯的安全位置。",
+      "solution_for_hazard_source": "在楼梯上安装扶手，以防止跌倒。",
+      "solution_to_prevent_recurrence": "定期检查和维护楼梯，确保它们使用安全。"
+    }
+  }
+}

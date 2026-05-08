@@ -1,0 +1,40 @@
+{
+  "video_key": "labimag/dataset/chute04/cam5",
+  "translations": {
+    "0": {
+      "risk_description": "可以看到这位年轻人冲向垫子，然后倒在垫子上，如果落地姿势不稳或垫子滑动，可能会导致受伤。",
+      "normal_video_description": "",
+      "solution_for_person": "应鼓励该人在跑步时保持适当的谨慎，并确保垫子在使用前稳固安全。",
+      "solution_for_hazard_source": "使用前应检查垫子是否有损坏或不稳定，并在年轻人再次使用前消除任何潜在危险。",
+      "solution_to_prevent_recurrence": "应提醒年轻人在跑步时保持适当谨慎，并确保在使用垫子前垫子稳固安全。应定期检查，确保垫子保持良好状态且使用前稳固。"
+    },
+    "1": {
+      "risk_description": "一个人正躺在房间中央的软垫上，可能会面临从垫子上掉下或在狭窄空间中被他人碰撞的风险。",
+      "normal_video_description": "视频显示一间教室，里面有各种桌子和设备。一个人进入房间，躺在中央的软垫上，其他人在空间里走动时对其进行观察。",
+      "solution_for_person": "确保该人稳固地坐在垫子上，并注意周围环境，避免可能导致跌倒的突然动作。",
+      "solution_for_hazard_source": "清理垫子周围的区域，防止碰撞并确保有足够的空间安全移动。",
+      "solution_to_prevent_recurrence": "在有限空间内使用垫子时实施安全协议，例如划定边界并限制不必要的周围活动。"
+    },
+    "2": {
+      "risk_description": "",
+      "normal_video_description": "视频显示一个人走进房间，跳到中央的床垫上，翻滚后站起来离开。该环境看起来像是一间实验室或办公室，里面有桌子和设备。",
+      "solution_for_person": "",
+      "solution_for_hazard_source": "",
+      "solution_to_prevent_recurrence": ""
+    },
+    "3": {
+      "risk_description": "年轻人倒在桌子上，这可能带来受伤风险，特别是对行动受限或平衡有问题的人。",
+      "normal_video_description": "",
+      "solution_for_person": "确保年轻人在房间内活动时有监督，以防止跌倒。",
+      "solution_for_hazard_source": "固定家具，防止倾倒或掉落。",
+      "solution_to_prevent_recurrence": "安装防滑垫或确保地面无障碍物，以降低跌倒风险。"
+    },
+    "4": {
+      "risk_description": "可以看到该人在不稳定的桌子表面行走，随后跌落在地。这种行为因高度和硬地面冲击的可能性而有受伤风险。",
+      "normal_video_description": "视频显示一个办公室环境，其中一人在桌子上行走并跌倒，突出显示了不稳定表面导致受伤的风险。",
+      "solution_for_person": "确保该人不尝试在桌子等不稳定表面上行走。如有需要，提供帮助或监督。",
+      "solution_for_hazard_source": "将桌子从用于行走的表面中移除。如果必须使用，确保其稳固且适合行走。",
+      "solution_to_prevent_recurrence": "教育个人关于在不稳定表面上行走的危险，并提供替代路线或稳固的行走表面。"
+    }
+  }
+}

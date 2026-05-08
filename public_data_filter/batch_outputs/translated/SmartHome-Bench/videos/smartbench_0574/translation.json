@@ -1,0 +1,40 @@
+{
+  "video_key": "SmartHome-Bench/videos/smartbench_0574",
+  "translations": {
+    "0": {
+      "risk_description": "孩子在爬楼梯时显得不稳定，可能会导致摔倒。",
+      "normal_video_description": "孩子在爬楼梯时显得不稳定，可能会导致摔倒。",
+      "solution_for_person": "看护者应在孩子爬楼梯时提供帮助，以确保他们的安全。",
+      "solution_for_hazard_source": "楼梯应加固并确保安全，以防止摔倒。",
+      "solution_to_prevent_recurrence": "看护者在孩子爬楼梯时应进行监督，以确保他们的安全。"
+    },
+    "1": {
+      "risk_description": "孩子在夜间跑下楼梯，增加了绊倒和摔倒的风险，可能导致受伤。",
+      "normal_video_description": "在夜间可以看到一个孩子和一个成年人，孩子正在跑下楼梯，成年人紧随其后。",
+      "solution_for_person": "应对孩子进行监督并指示他们在下楼梯时要小心，尤其在夜间视线不佳时。",
+      "solution_for_hazard_source": "确保楼梯照明充足且表面防滑，以降低滑倒的风险。",
+      "solution_to_prevent_recurrence": "在楼梯上安装额外的照明，并教育孩子楼梯安全知识。"
+    },
+    "2": {
+      "risk_description": "",
+      "normal_video_description": "视频显示孩子在夜间打开玻璃门，走到外面的阳台。随后孩子跑下楼梯，楼梯旁可以看到一棵点亮的圣诞树。孩子短暂回头看了一眼镜头，然后继续离开。",
+      "solution_for_person": "",
+      "solution_for_hazard_source": "",
+      "solution_to_prevent_recurrence": ""
+    },
+    "3": {
+      "risk_description": "可以看到孩子在阳台上奔跑和跳跃，存在跌倒的风险，尤其在光线不足的情况下。",
+      "normal_video_description": "",
+      "solution_for_person": "确保孩子受到密切监督，并远离阳台边缘。",
+      "solution_for_hazard_source": "安装安全栏杆并确保其牢固可靠。",
+      "solution_to_prevent_recurrence": "在阳台上时必须始终监督儿童，并确保栏杆等安全措施到位。"
+    },
+    "4": {
+      "risk_description": "可以看到孩子爬过栏杆，存在跌倒的风险。如果孩子失去平衡并跌倒，可能导致严重伤害。",
+      "normal_video_description": "",
+      "solution_for_person": "确保孩子受到监督，不允许其在无人看管的情况下攀爬栏杆。",
+      "solution_for_hazard_source": "在阳台上安装安全屏障或门，以防止孩子攀爬栏杆。",
+      "solution_to_prevent_recurrence": "定期检查阳台的安全设施，必要时进行维修或改进，以防止事故发生。"
+    }
+  }
+}

@@ -1,0 +1,40 @@
+{
+  "video_key": "toyota_smarthome_mp4/mp4/Walk_p18_r12_v12_c02",
+  "translations": {
+    "0": {
+      "risk_description": "",
+      "normal_video_description": "一个人站在餐厅的餐桌旁。餐桌铺着白色桌布，周围有几把椅子。桌上有一些物品，包括一个水瓶和一个小物件。这个人似乎在看桌上的东西。房间采用现代设计，配有木制橱柜和一个白色橱柜，上面摆放了一个装饰性花瓶。房间的灯光柔和而温馨。",
+      "solution_for_person": "",
+      "solution_for_hazard_source": "",
+      "solution_to_prevent_recurrence": ""
+    },
+    "1": {
+      "risk_description": "",
+      "normal_video_description": "可以看到一个人在柜台附近的背景中，随后走向餐桌，似乎在准备或调整桌上的东西。",
+      "solution_for_person": "",
+      "solution_for_hazard_source": "",
+      "solution_to_prevent_recurrence": ""
+    },
+    "2": {
+      "risk_description": "",
+      "normal_video_description": "一位中年人站在餐厅的厨房柜台旁，似乎在准备或处理物品。随后此人走向房间中心，经过配有椅子的餐桌。环境安静有序，没有危险或异常行为的迹象。",
+      "solution_for_person": "",
+      "solution_for_hazard_source": "",
+      "solution_to_prevent_recurrence": ""
+    },
+    "3": {
+      "risk_description": "该人正握着扫帚站在柜台边缘附近，可能导致失去平衡而跌倒，对行动受限或稳定性差的人构成风险。",
+      "normal_video_description": "",
+      "solution_for_person": "确保该人在柜台边缘附近扫地时抓住稳固的表面。",
+      "solution_for_hazard_source": "清理柜台附近的区域，以提供稳定的工作空间。",
+      "solution_to_prevent_recurrence": "在柜台边缘附近安装护栏或防滑垫，以防止跌倒。"
+    },
+    "4": {
+      "risk_description": "",
+      "normal_video_description": "视频显示一位中年人在餐厅环境中随意走过配有椅子的桌子。场景中没有可见的风险或危险。",
+      "solution_for_person": "",
+      "solution_for_hazard_source": "",
+      "solution_to_prevent_recurrence": ""
+    }
+  }
+}

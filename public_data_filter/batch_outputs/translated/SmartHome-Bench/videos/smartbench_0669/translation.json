@@ -1,0 +1,40 @@
+{
+  "video_key": "SmartHome-Bench/videos/smartbench_0669",
+  "translations": {
+    "0": {
+      "risk_description": "年轻人站在阳台上，手里举着一个长物，可能有坠落或失去平衡的风险。",
+      "normal_video_description": "",
+      "solution_for_person": "建议该人站在稳固的阳台上，避免握住可能导致不稳定的物品。",
+      "solution_for_hazard_source": "应检查阳台栏杆的稳定性和安全性。",
+      "solution_to_prevent_recurrence": "应提醒该人在阳台上要小心，避免进行危险行为。"
+    },
+    "1": {
+      "risk_description": "",
+      "normal_video_description": "两人在夜晚的木质平台上。一个穿蓝色衬衫和白色短裤的人手持一根长橙色杆，似乎在玩杆子末端连接的绿色物体。另一位穿栗色衬衫和黑色裤子的人站在附近，手里拿着饮料观看。平台配有白色栏杆、一把配有橙色垫子的藤椅和一些盆栽。",
+      "solution_for_person": "",
+      "solution_for_hazard_source": "",
+      "solution_to_prevent_recurrence": ""
+    },
+    "2": {
+      "risk_description": "",
+      "normal_video_description": "一个男子在阳台上用一根长杆去够高处的物品，旁边有一名女子观看。该男子失去平衡踉跄了一下，但及时稳住没有跌倒。",
+      "solution_for_person": "",
+      "solution_for_hazard_source": "",
+      "solution_to_prevent_recurrence": ""
+    },
+    "3": {
+      "risk_description": "老年人用长杆向上伸展，这可能导致失去平衡而跌倒，特别是如果他们滑倒或错误估计高度。",
+      "normal_video_description": "",
+      "solution_for_person": "确保老年人握持稳固，考虑使用踏凳以获得更好的伸展范围，避免过度伸展。",
+      "solution_for_hazard_source": "将杆固定或使用更长柄的工具，尽量减少成年人过度伸展的需求。",
+      "solution_to_prevent_recurrence": "在老年人在阳台伸手或处理物品时提供额外支撑或监督。"
+    },
+    "4": {
+      "risk_description": "该男子悬挂在固定于阳台栏杆的秋千上，存在坠落风险，可能导致严重伤害甚至死亡，如果他失去抓握或平衡。",
+      "normal_video_description": "视频显示一名男子在阳台栏杆上系着绳子荡秋千，另一人在旁观看。",
+      "solution_for_person": "该人应立即停止荡秋千，并确保秋千牢固地固定在安全稳固的结构上，远离阳台栏杆。",
+      "solution_for_hazard_source": "",
+      "solution_to_prevent_recurrence": "确保所有秋千或类似设备均按照制造商说明和安全指南安装和使用。"
+    }
+  }
+}

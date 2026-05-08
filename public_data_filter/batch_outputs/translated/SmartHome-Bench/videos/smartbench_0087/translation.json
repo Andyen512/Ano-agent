@@ -1,0 +1,40 @@
+{
+  "video_key": "SmartHome-Bench/videos/smartbench_0087",
+  "translations": {
+    "0": {
+      "risk_description": "",
+      "normal_video_description": "可以看到一只黑熊在有游泳池的后院四处走动。熊出现在白色塑料椅子和粉色充气泳池玩具附近。院子里散落着几个橙色球。熊似乎在探索这片区域，嗅着地面，四处张望。",
+      "solution_for_person": "",
+      "solution_for_hazard_source": "",
+      "solution_to_prevent_recurrence": ""
+    },
+    "1": {
+      "risk_description": "熊在蓝色防水布覆盖的泳池附近与篮球和玩具互动。存在熊意外撞到或被泳池盖或其他院子里的物体卡住的风险。",
+      "normal_video_description": "夜晚，一只熊在蓝色防水布覆盖的地下泳池附近玩篮球和玩具。",
+      "solution_for_person": "",
+      "solution_for_hazard_source": "",
+      "solution_to_prevent_recurrence": ""
+    },
+    "2": {
+      "risk_description": "",
+      "normal_video_description": "夜晚，可以看到一只黑熊在后院的露台区域四处走动，靠近覆盖的游泳池。熊在散落的篮球和泳池玩具之间悠闲地移动，没有表现出任何攻击性行为，也没有对财产或安全构成直接威胁。",
+      "solution_for_person": "",
+      "solution_for_hazard_source": "",
+      "solution_to_prevent_recurrence": ""
+    },
+    "3": {
+      "risk_description": "一只黑熊正在泳池和篮球附近的院子里探索，如果宠物或孩子在该区域，可能会造成碰撞或压伤风险。",
+      "normal_video_description": "",
+      "solution_for_person": "确保宠物和孩子与熊和泳池区域保持安全距离。",
+      "solution_for_hazard_source": "通过封闭泳池通道并把宠物留在室内或安全的封闭空间来确保区域安全。",
+      "solution_to_prevent_recurrence": "安装动作感应灯或报警器，以阻止野生动物在夜间进入院子。"
+    },
+    "4": {
+      "risk_description": "孩子在泳池附近玩球，可能导致掉入水中或摔在硬地面上，这可能导致严重伤害。",
+      "normal_video_description": "",
+      "solution_for_person": "确保孩子有监护人，并且泳池附近没有可能导致跌倒的障碍物。",
+      "solution_for_hazard_source": "清除泳池周围所有潜在的危害。",
+      "solution_to_prevent_recurrence": "在泳池周围安装围栏或屏障，以防止意外跌落。"
+    }
+  }
+}

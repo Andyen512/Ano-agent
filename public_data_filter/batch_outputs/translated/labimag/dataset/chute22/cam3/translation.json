@@ -1,0 +1,40 @@
+{
+  "video_key": "labimag/dataset/chute22/cam3",
+  "translations": {
+    "0": {
+      "risk_description": "视频中的年轻成年人走向棕色扶手椅，然后突然倒在地上。这种行为偏离了正常的坐着或稳定行走的日常活动。跌倒可能导致受伤或不稳定。",
+      "normal_video_description": "",
+      "solution_for_person": "应帮助该人安全稳固地坐在扶手椅上，以防止将来跌倒。",
+      "solution_for_hazard_source": "应检查扶手椅的稳定性，排除可能导致跌倒的潜在危险。",
+      "solution_to_prevent_recurrence": "应监测该人是否出现不稳定或眩晕的迹象，并提供支持以防止将来跌倒。定期锻炼和平衡训练也可能有助于防止将来跌倒。"
+    },
+    "1": {
+      "risk_description": "穿红色衬衫的人以倾斜姿势躺在地板上，可能导致跌倒或起身困难，尤其在他们失去意识或站立不稳的情况下。",
+      "normal_video_description": "视频显示一间书房，里面有各种家具和物品。一个穿红色衬衫的人进入，四处走动，坐在椅子上，然后躺在地板上。另一个人短暂出现在桌旁。",
+      "solution_for_person": "确保附近有人可以在该人意外需要躺下时提供帮助。",
+      "solution_for_hazard_source": "",
+      "solution_to_prevent_recurrence": ""
+    },
+    "2": {
+      "risk_description": "一个人试图坐在低矮的扶手椅上，失去平衡，向后倒在地板上。该动作表明明显的失稳导致跌倒。",
+      "normal_video_description": "",
+      "solution_for_person": "该人应小心站起，并在再次移动前评估周围环境。",
+      "solution_for_hazard_source": "确保家具稳固并放置在安全位置，防止倾倒或跌落。",
+      "solution_to_prevent_recurrence": "通过锻炼提高平衡和协调能力，并在与家具互动时保持谨慎。"
+    },
+    "3": {
+      "risk_description": "该人在坐在地板上时跌倒，这可能造成受伤风险，特别是对行动不便或平衡有问题的人。",
+      "normal_video_description": "",
+      "solution_for_person": "确保该人小心坐下，必要时使用支撑物以防止跌倒。",
+      "solution_for_hazard_source": "清除地面上的障碍物或绊倒危险，降低跌倒风险。",
+      "solution_to_prevent_recurrence": "练习安全移动，考虑在坐下时使用垫子或支撑，以防止将来跌倒。"
+    },
+    "4": {
+      "risk_description": "穿红色衬衫的人走过标有线条的房间地面，这些线条可能是绊倒危险。随后他们绊倒跌倒在地板上，可能导致受伤。",
+      "normal_video_description": "",
+      "solution_for_person": "确保地面没有任何障碍物或绊倒危险，以防止跌倒。",
+      "solution_for_hazard_source": "清除地面上可能的绊倒危险，降低跌倒风险。",
+      "solution_to_prevent_recurrence": "定期检查房间是否有潜在危险，并采取措施消除它们。"
+    }
+  }
+}

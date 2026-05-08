@@ -1,0 +1,40 @@
+{
+  "video_key": "labimag/dataset/chute10/cam4",
+  "translations": {
+    "0": {
+      "risk_description": "视频中的年轻人可以看到他跑向房间中央，然后倒在垫子上，如果他们的头或其他身体部位撞到坚硬的地板，可能会造成伤害。",
+      "normal_video_description": "",
+      "solution_for_person": "应该有人监督并鼓励他正确使用垫子以避免摔倒。",
+      "solution_for_hazard_source": "垫子应该放在柔软的表面上，以防止摔倒时受伤。",
+      "solution_to_prevent_recurrence": "应该教育他正确使用垫子以及使用垫子时安全预防措施的重要性。"
+    },
+    "1": {
+      "risk_description": "一个穿红色衬衫的人坐在高架平台旁边的地板上，如果他们试图站立或突然移动，可能会导致跌倒。",
+      "normal_video_description": "视频显示一个实验室或学习室，里面有各种工作站和设备。一个穿红色衬衫的人进来，坐在高架平台旁边的地板上，后来房间里有其他人加入。",
+      "solution_for_person": "确保穿红色衬衫的人注意到高架平台，并指示他们使用提供的椅子坐下。",
+      "solution_for_hazard_source": "高架平台应该有明确的警告标志和屏障，以防止意外跌倒。",
+      "solution_to_prevent_recurrence": "对房间里的所有人进行安全简报，说明布局和潜在危险。"
+    },
+    "2": {
+      "risk_description": "",
+      "normal_video_description": "视频显示几个成年人在实验室或办公空间里走动。一个人走过房间，另一个人坐在办公桌前，第三个人在走路时短暂跌倒，但立即站起来没有受伤。环境看起来是一个正常的工作空间，没有重大危险或危险活动。",
+      "solution_for_person": "",
+      "solution_for_hazard_source": "",
+      "solution_to_prevent_recurrence": ""
+    },
+    "3": {
+      "risk_description": "一个穿红色衬衫的人倒在办公室的床垫上，如果他们在着陆时受伤，可能会有风险，特别是如果他们行动不便或正在从疾病中恢复。",
+      "normal_video_description": "",
+      "solution_for_person": "确保该区域没有障碍物以防止跌倒。",
+      "solution_for_hazard_source": "移除或固定任何可能导致绊倒或跌倒的物品。",
+      "solution_to_prevent_recurrence": "在工作空间中安装额外的安全垫或屏障以防止类似事件发生。"
+    },
+    "4": {
+      "risk_description": "穿红色衬衫的人正在走过铺有白色垫子的房间，地板上的白色垫子可能会成为绊倒危险。还有一个人坐在办公桌前，可能没有注意到走过的人，可能会造成碰撞。",
+      "normal_video_description": "",
+      "solution_for_person": "要更加注意周围环境，注意房间里其他人。",
+      "solution_for_hazard_source": "从地板上移除白色垫子以减少绊倒的风险。",
+      "solution_to_prevent_recurrence": "确保注意周围环境，注意房间里其他人以避免碰撞。"
+    }
+  }
+}

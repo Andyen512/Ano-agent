@@ -1,0 +1,40 @@
+{
+  "video_key": "SmartHome-Bench/videos/smartbench_0932",
+  "translations": {
+    "0": {
+      "risk_description": "一只熊正向院子里的一名儿童靠近，这是一种危险的情况，因为熊可能不可预测，对人类有潜在危害。",
+      "normal_video_description": "一只熊正向院子里的一名儿童靠近，这是一种危险的情况，因为熊可能不可预测，对人类有潜在危害。",
+      "solution_for_person": "人员应立即介入以保护儿童并确保与熊保持安全距离。",
+      "solution_for_hazard_source": "应将熊安全地转移或驱离该地区，以防止将来再次遭遇。",
+      "solution_to_prevent_recurrence": "安装围栏或屏障以阻止野生动物进入院子，并对社区进行熊的安全与防范教育。"
+    },
+    "1": {
+      "risk_description": "熊靠近一只猫，可能导致碰撞或熊意外踩到猫，造成伤害。",
+      "normal_video_description": "一只熊在夜间检查混凝土表面的物品，旁边有一只猫。",
+      "solution_for_person": "",
+      "solution_for_hazard_source": "",
+      "solution_to_prevent_recurrence": ""
+    },
+    "2": {
+      "risk_description": "",
+      "normal_video_description": "一只黑熊在夜间穿过院子，靠近垃圾桶和一个水桶，一只猫坐在附近的混凝土上。熊四处嗅闻并平静地移动，没有表现出任何攻击性或危险性行为。",
+      "solution_for_person": "",
+      "solution_for_hazard_source": "",
+      "solution_to_prevent_recurrence": ""
+    },
+    "3": {
+      "risk_description": "熊靠近一只小宠物，可能在熊表现出攻击性或突然移动时导致碰撞或压伤。",
+      "normal_video_description": "",
+      "solution_for_person": "确保当有野生动物靠近时，宠物被关在室内或安全的地方。",
+      "solution_for_hazard_source": "妥善封存垃圾桶和食物来源，以防止野生动物进入院子。",
+      "solution_to_prevent_recurrence": "安装运动感应灯或警报器以驱赶野生动物，并在夜间将宠物关在室内。"
+    },
+    "4": {
+      "risk_description": "熊靠近猫及其体型可能导致严重的伤害，甚至死亡如果熊意外压死猫。因为潜在严重伤害，这是一种高风险情况。",
+      "normal_video_description": "",
+      "solution_for_person": "确保宠物在夜间待在室内，尤其是当地出现熊等野生动物时。",
+      "solution_for_hazard_source": "清除任何可能吸引熊的食物或垃圾等诱因。",
+      "solution_to_prevent_recurrence": "安装运动感应驱离装置或屏障，将熊远离住宅区。"
+    }
+  }
+}

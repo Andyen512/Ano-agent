@@ -1,0 +1,40 @@
+{
+  "video_key": "SmartHome-Bench/videos/smartbench_0115",
+  "translations": {
+    "0": {
+      "risk_description": "",
+      "normal_video_description": "视频显示一名年轻成年人夜间穿过昏暗的走廊，进入更明亮的户外区域。该人似乎手持一根细长的物体，可能是棍子或灯，在空中挥动。该人似乎在进行一种玩耍或随意的活动，没有表现出任何苦恼或危险的迹象。",
+      "solution_for_person": "",
+      "solution_for_hazard_source": "",
+      "solution_to_prevent_recurrence": ""
+    },
+    "1": {
+      "risk_description": "该人正在操作荧光灯管，若处理不当或灯管破裂，有触电风险。",
+      "normal_video_description": "一个人在夜间走出户外，手持并检查一根荧光灯管。",
+      "solution_for_person": "该人应在处理灯管前确保电源已关闭，并使用合适的工具避免直接接触电气部件。",
+      "solution_for_hazard_source": "",
+      "solution_to_prevent_recurrence": "该人应接受安全处理电气部件的培训，并使用适当的防护装备。"
+    },
+    "2": {
+      "risk_description": "",
+      "normal_video_description": "一个人在夜间从有顶的门廊走出，手持两根发光的荧光棒，并以玩耍的方式在身体周围旋转它们。该活动似乎是娱乐性的，暂无直接危险或风险。",
+      "solution_for_person": "",
+      "solution_for_hazard_source": "",
+      "solution_to_prevent_recurrence": ""
+    },
+    "3": {
+      "risk_description": "该人手持两根类似光剑的长而明亮的物体，可能被误认为是武器。这可能会引起担忧或恐惧，尤其是对那些可能不理解这些物体无害性质的脆弱人群。",
+      "normal_video_description": "",
+      "solution_for_person": "该人应意识到误解的可能性，并考虑这些物体可能被认为具有威胁性的背景或环境。",
+      "solution_for_hazard_source": "确保手持的物体被明确标识为非威胁性或装饰性，以避免混淆。",
+      "solution_to_prevent_recurrence": "该人可以使用明确的标识或口头解释来告知他人其手持物体的性质。"
+    },
+    "4": {
+      "risk_description": "该人正站在阳台边缘，由于高度且缺乏安全措施，有坠落的风险。这可能导致严重伤害甚至死亡。",
+      "normal_video_description": "",
+      "solution_for_person": "通过在阳台边缘提供栏杆或屏障，确保该人不存在坠落风险。",
+      "solution_for_hazard_source": "在阳台边缘安装栏杆或屏障以防止坠落。",
+      "solution_to_prevent_recurrence": "定期检查阳台是否存在可能导致坠落的结构问题或安全隐患。"
+    }
+  }
+}

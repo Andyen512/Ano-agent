@@ -1,0 +1,40 @@
+{
+  "video_key": "SmartHome-Bench/videos/smartbench_0546",
+  "translations": {
+    "0": {
+      "risk_description": "",
+      "normal_video_description": "一个年轻成年男子在夜间朝着一所房子走去，手里拿着一个红色物体。他走近一把蓝色椅子和水管，开始用水管喷水。场景灯光充足，这位年轻人看起来像是在进行日常任务。",
+      "solution_for_person": "",
+      "solution_for_hazard_source": "",
+      "solution_to_prevent_recurrence": ""
+    },
+    "1": {
+      "risk_description": "此人正在用水管向火坑喷水，如果火坑仍然很热或水接触到热炭，可能会导致烧伤。",
+      "normal_video_description": "一个人在夜间靠近房子，按门铃，取来水管，并向院子里的火坑喷水。",
+      "solution_for_person": "在尝试用水清洗火坑之前，应确保火坑已完全熄灭并冷却。",
+      "solution_for_hazard_source": "火坑应完全冷却后再进行任何操作。",
+      "solution_to_prevent_recurrence": "在使用水清洗之前，务必检查火坑的温度。"
+    },
+    "2": {
+      "risk_description": "",
+      "normal_video_description": "一个男人在夜间走上门廊，拿起水管，喷洒周围的水。活动简短，似乎是例行维护或玩耍，没有任何危险或不稳定的迹象。",
+      "solution_for_person": "",
+      "solution_for_hazard_source": "",
+      "solution_to_prevent_recurrence": ""
+    },
+    "3": {
+      "risk_description": "此人在靠近门廊灯的水管使用，可能会导致火灾或产生危险情况，如果水接触到电气部件。",
+      "normal_video_description": "",
+      "solution_for_person": "确保水管远离电源，避免将水喷向灯具或其他电气设备。",
+      "solution_for_hazard_source": "为电源插座和灯具安装防水罩，以防止水接触。",
+      "solution_to_prevent_recurrence": "使用非导电工具检查或调节门廊灯，而不是用水。"
+    },
+    "4": {
+      "risk_description": "此人站在阳台边缘，存在坠落风险并可能导致严重伤害。该人的行为不够谨慎，增加了事故发生的可能性。",
+      "normal_video_description": "",
+      "solution_for_person": "确保此人意识到潜在危险，建议他们远离阳台边缘。",
+      "solution_for_hazard_source": "",
+      "solution_to_prevent_recurrence": "在阳台上安装安全屏障或栏杆，以防止坠落。"
+    }
+  }
+}

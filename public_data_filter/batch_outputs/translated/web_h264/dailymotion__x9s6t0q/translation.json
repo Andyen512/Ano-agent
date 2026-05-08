@@ -1,0 +1,40 @@
+{
+  "video_key": "web_h264/dailymotion__x9s6t0q",
+  "translations": {
+    "0": {
+      "risk_description": "看到孩子在阳台上跳下，这可能导致坠落危险。",
+      "normal_video_description": "视频显示一家人在阳台上庆祝万圣节，孩子们穿着服装，大人们分发糖果。场景喜庆安全，没有可见的风险。",
+      "solution_for_person": "需要成人监督以防止从阳台坠落。",
+      "solution_for_hazard_source": "确保阳台栏杆牢固并做好儿童防护。",
+      "solution_to_prevent_recurrence": "在阳台周围安装安全网或牢固的屏障以防止坠落。"
+    },
+    "1": {
+      "risk_description": "看到孩子在木质平台上行走，地面不平整，存在潜在的绊倒危险，例如平台边缘和散落的物品，可能导致摔倒。",
+      "normal_video_description": "视频显示儿童和成年人在甲板和门廊进行户外活动的多个场景，其中可见一些万圣节装饰。",
+      "solution_for_person": "儿童需要成人监督，确保他们在甲板上小心行走，避免在边缘附近奔跑或玩耍。",
+      "solution_for_hazard_source": "确保甲板上没有绊倒危险，如松散物品或不平整的表面，并在必要时安装安全栏杆。",
+      "solution_to_prevent_recurrence": "当儿童靠近高架或不平稳的表面时，应始终进行监督，并保持清晰和稳定的环境。"
+    },
+    "2": {
+      "risk_description": "",
+      "normal_video_description": "视频显示儿童和成年人在院子里和门廊玩耍的多个场景，包括一个孩子在蹦床上跑步，一个穿着服装的人在门廊上，以及一个孩子在玩南瓜。视频中没有明显的风险或危险行为。",
+      "solution_for_person": "",
+      "solution_for_hazard_source": "",
+      "solution_to_prevent_recurrence": ""
+    },
+    "3": {
+      "risk_description": "看到一个孩子在蹦床上跑跳，这存在跌倒或不稳定的风险，特别是如果他们失去平衡或着陆不当。",
+      "normal_video_description": "",
+      "solution_for_person": "确保孩子在使用蹦床时始终受到监督，并教他们如何安全跳跃。",
+      "solution_for_hazard_source": "在蹦床周围安装安全网或护垫以降低跌倒风险。",
+      "solution_to_prevent_recurrence": "定期检查蹦床的安全功能，并确保其在安全的环境中使用。"
+    },
+    "4": {
+      "risk_description": "看到孩子在阳台上，如果没有适当的监督，可能会造成坠落风险。",
+      "normal_video_description": "",
+      "solution_for_person": "确保孩子受到监督，并考虑在阳台上安装安全屏障以防止坠落。",
+      "solution_for_hazard_source": "",
+      "solution_to_prevent_recurrence": "定期检查阳台的安全功能，并确保它们处于良好状态。"
+    }
+  }
+}

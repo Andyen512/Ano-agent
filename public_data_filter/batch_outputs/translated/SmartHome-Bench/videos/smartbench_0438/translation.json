@@ -1,0 +1,40 @@
+{
+  "video_key": "SmartHome-Bench/videos/smartbench_0438",
+  "translations": {
+    "0": {
+      "risk_description": "",
+      "normal_video_description": "夜里，在门廊上看到一只棕熊与南瓜互动。熊似乎在嗅闻并拍打南瓜，导致一些南瓜倒下。现场灯光充足，熊显得好奇而顽皮。",
+      "solution_for_person": "",
+      "solution_for_hazard_source": "",
+      "solution_to_prevent_recurrence": ""
+    },
+    "1": {
+      "risk_description": "这只熊正在房子附近与南瓜互动，若它突然移动或失去平衡，可能会撞到房屋结构或门。",
+      "normal_video_description": "夜里在房子附近看到一只熊，它通过嗅闻、啃咬和搬走南瓜来与南瓜互动。",
+      "solution_for_person": "",
+      "solution_for_hazard_source": "",
+      "solution_to_prevent_recurrence": ""
+    },
+    "2": {
+      "risk_description": "",
+      "normal_video_description": "夜里在门廊上看到一只熊，它嗅闻并吃放在前门附近的南瓜。熊在周围移动，吃掉南瓜后最终离开现场。",
+      "solution_for_person": "",
+      "solution_for_hazard_source": "",
+      "solution_to_prevent_recurrence": ""
+    },
+    "3": {
+      "risk_description": "一只熊在门廊上与南瓜互动，若有人在场，可能会造成压碎或碰撞的风险。",
+      "normal_video_description": "",
+      "solution_for_person": "",
+      "solution_for_hazard_source": "通过移除或固定南瓜来确保区域安全，防止压碎或碰撞。",
+      "solution_to_prevent_recurrence": "设置障碍物或封闭门廊区域，以防止动物进入。"
+    },
+    "4": {
+      "risk_description": "这只熊正在与一个南瓜互动，南瓜可能会被熊撞倒或压碎，导致受伤。",
+      "normal_video_description": "夜里在房子附近看到一只熊，它在与一个南瓜互动。",
+      "solution_for_person": "",
+      "solution_for_hazard_source": "",
+      "solution_to_prevent_recurrence": ""
+    }
+  }
+}

@@ -1,0 +1,40 @@
+{
+  "video_key": "SmartHome-Bench/videos/smartbench_0476",
+  "translations": {
+    "0": {
+      "risk_description": "",
+      "normal_video_description": "一只熊在一个有游泳池的后院走动，然后跳进游泳池里游泳。",
+      "solution_for_person": "",
+      "solution_for_hazard_source": "",
+      "solution_to_prevent_recurrence": ""
+    },
+    "1": {
+      "risk_description": "熊在游泳池里，存在溺水风险或在进出游泳池时滑倒的风险。",
+      "normal_video_description": "一只熊进入后院的游泳池，游了一圈，然后离开了游泳池。",
+      "solution_for_person": "",
+      "solution_for_hazard_source": "",
+      "solution_to_prevent_recurrence": ""
+    },
+    "2": {
+      "risk_description": "一只熊进入住宅游泳池并将自身浸入水中，对动物造成了直接的溺水危险。这种行为明显超出了正常活动范围，并构成重大的安全风险。",
+      "normal_video_description": "",
+      "solution_for_person": "",
+      "solution_for_hazard_source": "在游泳池周围安装物理屏障或围栏，以防止动物未经授权进入。",
+      "solution_to_prevent_recurrence": "用围栏和门封闭游泳池区域，以阻止野生动物进入。"
+    },
+    "3": {
+      "risk_description": "看到一只狗跳进游泳池，这可能会对不习惯水的宠物造成溺水风险。",
+      "normal_video_description": "",
+      "solution_for_person": "确保游泳池区域有安全围栏，防止宠物无人监督地接触水域。",
+      "solution_for_hazard_source": "安装宠物门或屏障以限制宠物进入游泳池区域。",
+      "solution_to_prevent_recurrence": "考虑为宠物配备救生衣或在游泳池附近进行密切监督。"
+    },
+    "4": {
+      "risk_description": "",
+      "normal_video_description": "视频呈现了一个静止的场景，后院设有游泳池、庭院家具和儿童游乐区。画面中没有明显的动作或活动，显示出一种宁静的环境，没有直接的风险。",
+      "solution_for_person": "",
+      "solution_for_hazard_source": "",
+      "solution_to_prevent_recurrence": ""
+    }
+  }
+}

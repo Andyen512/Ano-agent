@@ -1,0 +1,40 @@
+{
+  "video_key": "SmartHome-Bench/videos/smartbench_0940",
+  "translations": {
+    "0": {
+      "risk_description": "视频显示一名年轻人在暴风雨中跌倒，这是一种跌倒/不稳的风险类型。暴风雨的强风和暴雨造成危险环境，增加了跌倒和受伤的可能性。",
+      "normal_video_description": "",
+      "solution_for_person": "确保该年轻人穿着具有良好的抓地力的合适鞋子，并在暴风雨中行走时使用扶手或其他支撑。检查是否有任何松动或损坏的户外家具或可能造成绊倒危险的物品。",
+      "solution_for_hazard_source": "固定任何可能在暴风雨中成为抛射物的松散户外家具或物品。修剪靠近房屋的树枝，以防止它们造成损坏或成为危险。",
+      "solution_to_prevent_recurrence": "定期检查房屋和院子是否存在潜在危险，并在恶劣天气事件发生前采取措施加以固定。对年轻人进行暴风雨安全教育，强调在此类事件中采取预防措施的重要性。"
+    },
+    "1": {
+      "risk_description": "视频显示大量的烟雾和火焰，表明院子里有活跃的火灾。这带来烧伤、吸入有毒烟雾以及对附近财产可能造成结构损坏的风险。",
+      "normal_video_description": "",
+      "solution_for_person": "立即撤离该地区并拨打紧急服务电话。",
+      "solution_for_hazard_source": "使用适当的方法灭火，或等待专业帮助。",
+      "solution_to_prevent_recurrence": "确保正确处理易燃材料，并随时配备灭火安全设备。"
+    },
+    "2": {
+      "risk_description": "车道上出现巨大的火球，吞噬了一辆车并产生大量烟雾。这是一种严重的火灾危险，对财产和安全构成直接威胁。",
+      "normal_video_description": "",
+      "solution_for_person": "",
+      "solution_for_hazard_source": "",
+      "solution_to_prevent_recurrence": ""
+    },
+    "3": {
+      "risk_description": "视频显示一次大爆炸，这对附近的任何人（包括弱势群体）都构成重大的火灾和伤害风险。",
+      "normal_video_description": "",
+      "solution_for_person": "立即撤离该地区并拨打紧急服务电话。",
+      "solution_for_hazard_source": "",
+      "solution_to_prevent_recurrence": "安装火灾探测和灭火系统，并确保可能导致点燃的任何设备得到适当维护。"
+    },
+    "4": {
+      "risk_description": "视频中可见该人在阳台上，因高度和不稳的可能性而存在坠落风险。该人的动作不明确，但情况呈现出严重的伤害风险。",
+      "normal_video_description": "",
+      "solution_for_person": "确保该人安全位于阳台内，或采取必要的预防措施防止意外坠落，如安装安全护栏或扶手。",
+      "solution_for_hazard_source": "",
+      "solution_to_prevent_recurrence": "在阳台上安装安全护栏或扶手以防止坠落。"
+    }
+  }
+}

@@ -1,0 +1,40 @@
+{
+  "video_key": "web_h264/bilibili__BV1Wk4y1H7pZ",
+  "translations": {
+    "0": {
+      "risk_description": "孩子正在玩一个大靠垫，靠垫不稳定，可能会导致跌倒。孩子的行为有风险，可能会导致受伤。",
+      "normal_video_description": "",
+      "solution_for_person": "在孩子玩靠垫时，成人监督是必要的，以确保孩子的安全。",
+      "solution_for_hazard_source": "靠垫应放置在稳定安全的位置，以防止跌倒。",
+      "solution_to_prevent_recurrence": "应该教导孩子安全玩耍，使用适合其年龄和能力的适当玩具。"
+    },
+    "1": {
+      "risk_description": "孩子正在玩氢气球，氢气易燃，如果处理不当可能会导致烧伤或爆炸。",
+      "normal_video_description": "两个孩子正在客厅里玩氢气球时，气球突然爆炸，导致成人烧伤，孩子受到惊吓。",
+      "solution_for_person": "当孩子玩潜在危险的物品（如氢气球）时，要密切监督。",
+      "solution_for_hazard_source": "移除或妥善固定易燃物品，如氢气球，使其远离儿童。",
+      "solution_to_prevent_recurrence": "教育看护者关于氢气球的危险，并确保它们放在儿童接触不到的地方。"
+    },
+    "2": {
+      "risk_description": "一个孩子正在玩一个大气球，气球突然爆炸，导致闪光和火焰烧伤了附近的成人。这代表了来自不受控易燃源的明确和直接危险。",
+      "normal_video_description": "",
+      "solution_for_person": "成人应立即远离火源，并寻求医疗救助以治疗烧伤。",
+      "solution_for_hazard_source": "事件发生后应立即将气球从环境中移除，以防止进一步的风险。",
+      "solution_to_prevent_recurrence": "教育孩子玩气球的危险，并确保易燃物品远离他们的接触范围。"
+    },
+    "3": {
+      "risk_description": "视频显示一个孩子在玩氢气球，气球突然着火，造成烧伤和火灾风险。",
+      "normal_video_description": "",
+      "solution_for_person": "当孩子玩气球或其他可能着火的物品时，要密切监督。",
+      "solution_for_hazard_source": "确保儿童使用的任何物品都是防火的，避免在明火或热源附近使用易燃材料。",
+      "solution_to_prevent_recurrence": "教育儿童有关消防安全，并将火灾隐患远离他们的接触范围。"
+    },
+    "4": {
+      "risk_description": "孩子从沙发上掉到地板上，可能会导致严重伤害。成人迅速反应接住了孩子，避免了更严重的后果。",
+      "normal_video_description": "",
+      "solution_for_person": "确保儿童受到监督，并远离可能造成跌倒风险的家具。",
+      "solution_for_hazard_source": "重新布置客厅，移除任何潜在危险，例如沙发太高或不稳定。",
+      "solution_to_prevent_recurrence": "在家具边缘安装安全防护装置，并在儿童玩耍的区域提供柔软的着陆表面，如靠垫或泡沫垫。"
+    }
+  }
+}

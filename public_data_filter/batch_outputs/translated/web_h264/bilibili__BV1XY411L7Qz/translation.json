@@ -1,0 +1,40 @@
+{
+  "video_key": "web_h264/bilibili__BV1XY411L7Qz",
+  "translations": {
+    "0": {
+      "risk_description": "视频中的人似乎处于痛苦或不稳定的状态，因为他们躺在地上并挣扎着想站起来。这种行为偏离了中年人正常的日常行为，可能表明存在跌倒或不稳定的风险。",
+      "normal_video_description": "视频显示一个人站在阳台上，然后突然摔到地上。这个人似乎处于痛苦中，正在挣扎。",
+      "solution_for_person": "应检查此人的跌倒是否造成任何伤害或医疗状况。还应帮助他们站起来，并监测是否有进一步的不稳定迹象。",
+      "solution_for_hazard_source": "危险源是地面，可能不平坦或有湿滑。应为此人提供支撑和帮助以防止进一步跌倒。",
+      "solution_to_prevent_recurrence": "应为此人提供支撑和帮助以防止进一步跌倒。这可能包括在地面上提供防滑表面，提供支撑帮助此人站起来，并监测他们是否有进一步的不稳定迹象。"
+    },
+    "1": {
+      "risk_description": "院子里的老人失去平衡摔倒在地，跌倒可能造成伤害风险。",
+      "normal_video_description": "一位老人在院子里行走，然后摔倒在地。",
+      "solution_for_person": "确保老人在不平坦或湿滑的地面上行走时穿着合适的鞋履并小心谨慎。",
+      "solution_for_hazard_source": "",
+      "solution_to_prevent_recurrence": ""
+    },
+    "2": {
+      "risk_description": "看到一位老人在空旷的院子里行走，然后突然倒在地上，这表明发生了明显的跌倒事件，对身体构成直接危险。",
+      "normal_video_description": "",
+      "solution_for_person": "应立即检查此人的受伤情况，如有严重伤害迹象应联系紧急医疗服务。",
+      "solution_for_hazard_source": "确保行走区域畅通无障碍且照明充足，以防止未来跌倒。",
+      "solution_to_prevent_recurrence": "在院子里安装安全扶手或栏杆，如果此人存在平衡问题，考虑使用助行器具。"
+    },
+    "3": {
+      "risk_description": "看到一位老人在空旷区域行走然后跌倒，由于他们可能行动能力和平衡力有限，存在受伤风险。",
+      "normal_video_description": "",
+      "solution_for_person": "确保老人在空旷区域行走时有监督，以防止跌倒。",
+      "solution_for_hazard_source": "清除院子里的障碍物，确保安全的行走通道以减少绊倒风险。",
+      "solution_to_prevent_recurrence": "在院子里安装扶手或支撑结构以帮助稳定。"
+    },
+    "4": {
+      "risk_description": "视频显示一个孩子在院子里玩耍，但没有明确迹象表明存在任何风险或可能造成严重后果。",
+      "normal_video_description": "视频显示一个孩子在院子里玩耍，周围散落着各种物品。",
+      "solution_for_person": "",
+      "solution_for_hazard_source": "",
+      "solution_to_prevent_recurrence": ""
+    }
+  }
+}

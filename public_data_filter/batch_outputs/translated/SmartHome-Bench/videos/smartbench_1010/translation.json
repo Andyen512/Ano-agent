@@ -1,0 +1,40 @@
+{
+  "video_key": "SmartHome-Bench/videos/smartbench_1010",
+  "translations": {
+    "0": {
+      "risk_description": "",
+      "normal_video_description": "视频显示一个人在雪地里行走，捡起雪，然后站起来。此人的动作正常，没有表明任何风险。",
+      "solution_for_person": "",
+      "solution_for_hazard_source": "",
+      "solution_to_prevent_recurrence": ""
+    },
+    "1": {
+      "risk_description": "老年人弯下腰站在冰雪地面上，这增加了滑倒和摔倒的风险，可能导致受伤。",
+      "normal_video_description": "一位老年人走过下雪的前院，弯腰从地上捡起东西，然后站起来。",
+      "solution_for_person": "应避免在冰面上弯腰，并穿具有良好抓地力的合适鞋子。",
+      "solution_for_hazard_source": "冰雪地面应清除或用盐或沙子处理以减少滑度。",
+      "solution_to_prevent_recurrence": "确保通道和庭院定期清除积雪和冰，特别是对于弱势群体。"
+    },
+    "2": {
+      "risk_description": "",
+      "normal_video_description": "一位老年人走过下雪的前院，弯腰从地上捡起一个物品，然后站起来。这种行为在冬季环境中是正常的日常活动。",
+      "solution_for_person": "",
+      "solution_for_hazard_source": "",
+      "solution_to_prevent_recurrence": ""
+    },
+    "3": {
+      "risk_description": "老年人走在冰雪地面上，这增加了滑倒和摔倒的风险。",
+      "normal_video_description": "",
+      "solution_for_person": "老年人应缓慢行走，并在有条件的情况下使用扶手或支撑物以保持平衡。",
+      "solution_for_hazard_source": "该区域应清除积雪和冰以减少滑倒危险。",
+      "solution_to_prevent_recurrence": "定期清除人行道上的积雪和冰，并确保用盐或沙子保持良好的抓地力。"
+    },
+    "4": {
+      "risk_description": "老年人走过下雪的庭院，由于地面湿滑，增加了滑倒和摔倒的风险。这可能导致严重伤害，尤其是对老年人来说。",
+      "normal_video_description": "",
+      "solution_for_person": "确保老年人穿具有良好抓地力的合适鞋子，并考虑在湿滑地面上行走时使用扶手或协助。",
+      "solution_for_hazard_source": "清除庭院中的积雪以减少滑倒风险。",
+      "solution_to_prevent_recurrence": "定期检查和维护室外区域，确保它们在冬季条件下行走安全，特别是对于老年人。"
+    }
+  }
+}

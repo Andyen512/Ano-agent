@@ -1,0 +1,40 @@
+{
+  "video_key": "SmartHome-Bench/videos/smartbench_0173",
+  "translations": {
+    "0": {
+      "risk_description": "",
+      "normal_video_description": "视频显示一名穿橙色夹克的人走在阳台上，从桶里拿起一个南瓜，然后走回屋内。该场景正常，未显示任何风险。",
+      "solution_for_person": "",
+      "solution_for_hazard_source": "",
+      "solution_to_prevent_recurrence": ""
+    },
+    "1": {
+      "risk_description": "该人在湿木制平台上行走，这增加了滑倒和跌落的风险。",
+      "normal_video_description": "一名穿橙色连帽衫的人在后院的湿木制平台上行走，并与一只猫互动。",
+      "solution_for_person": "在湿滑表面上要小心行走，避免突然的动作。",
+      "solution_for_hazard_source": "在踏上平台前，确保它是干燥的。",
+      "solution_to_prevent_recurrence": "在平台潮湿时，使用防滑垫或防滑涂层。"
+    },
+    "2": {
+      "risk_description": "",
+      "normal_video_description": "一只猫穿过木制平台，随后一名穿橙色连帽衫的人走下台阶并在院子里走动。该场景展现了一个住宅后院正常的日常活动，没有危险或异常行为的迹象。",
+      "solution_for_person": "",
+      "solution_for_hazard_source": "",
+      "solution_to_prevent_recurrence": ""
+    },
+    "3": {
+      "risk_description": "该人在湿滑表面上搬运桶，这可能增加滑倒和跌倒的风险，尤其是对行动不便或平衡有问题的人。",
+      "normal_video_description": "",
+      "solution_for_person": "确保该人穿着防滑鞋，并仔细监测其行动，以防止滑倒。",
+      "solution_for_hazard_source": "清洁并干燥湿滑表面，以降低滑倒风险。",
+      "solution_to_prevent_recurrence": "定期检查并维护平台，确保其干燥且无危险。"
+    },
+    "4": {
+      "risk_description": "穿橙色夹克的人有从阳台跌落的风险，可能导致严重伤害甚至死亡。阳台的高度及离地面的距离增加了潜在后果的严重性。",
+      "normal_video_description": "",
+      "solution_for_person": "确保穿橙色夹克的人佩戴合适的安全装备，如安全带，并在地面上有人员监督，以便在其跌落时接住。",
+      "solution_for_hazard_source": "在阳台周围安装护栏或防护栏，以防止跌落。",
+      "solution_to_prevent_recurrence": "定期检查阳台的结构，确保其安全稳固，以防止未来事故。"
+    }
+  }
+}

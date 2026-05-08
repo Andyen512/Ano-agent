@@ -1,0 +1,40 @@
+{
+  "video_key": "web_h264/tiktok__7484246606661963038",
+  "translations": {
+    "0": {
+      "risk_description": "看到年轻人跑上楼梯然后突然摔倒，这可能导致受伤。快速的动作和对楼梯的注意力不足表明存在不稳定的风险。",
+      "normal_video_description": "",
+      "solution_for_person": "使用楼梯时应更加小心，注意脚下以防止摔倒。",
+      "solution_for_hazard_source": "楼梯应该有良好的照明并配备扶手，以提供支撑和稳定性。",
+      "solution_to_prevent_recurrence": "应提醒使用楼梯的人更加小心，并使用扶手支撑。应定期检查以确保楼梯状况良好且维护得当。"
+    },
+    "1": {
+      "risk_description": "孩子躺在楼梯上，这存在摔倒和受伤的风险。",
+      "normal_video_description": "视频显示一名男子下楼梯，随后有一个孩子躺在楼梯上，另一个人进入场景。",
+      "solution_for_person": "确保孩子受到监督并远离楼梯。",
+      "solution_for_hazard_source": "在楼梯顶部和底部安装安全门。",
+      "solution_to_prevent_recurrence": "教育孩子了解在楼梯上玩耍的危险。"
+    },
+    "2": {
+      "risk_description": "孩子在成人监督下失去平衡摔下楼梯，表明环境中存在明显的安全隐患。",
+      "normal_video_description": "",
+      "solution_for_person": "成人应立即检查孩子是否受伤并给予安抚。",
+      "solution_for_hazard_source": "在楼梯顶部和底部安装安全门，以防止无人监督的进入。",
+      "solution_to_prevent_recurrence": "确保在楼梯附近对儿童进行持续监督，并考虑采取额外的安全措施，如防滑踏板或栏杆。"
+    },
+    "3": {
+      "risk_description": "看到孩子正在爬楼梯，如果失去平衡或滑倒可能会造成摔倒风险。",
+      "normal_video_description": "",
+      "solution_for_person": "确保孩子在爬楼梯时受到监督，并教他们抓紧扶手以获得支撑。",
+      "solution_for_hazard_source": "在楼梯上安装防滑垫，确保台阶上没有障碍物。",
+      "solution_to_prevent_recurrence": "使用楼梯门来防止无人监督的情况下进入楼梯，并定期检查台阶上是否有任何危险。"
+    },
+    "4": {
+      "risk_description": "",
+      "normal_video_description": "视频显示一个孩子和一个成年人在客厅里，孩子在楼梯附近玩耍。成人正在看地上的摄像头，可能是在查看监控录像。场景中没有可见的风险或危险。",
+      "solution_for_person": "",
+      "solution_for_hazard_source": "",
+      "solution_to_prevent_recurrence": ""
+    }
+  }
+}

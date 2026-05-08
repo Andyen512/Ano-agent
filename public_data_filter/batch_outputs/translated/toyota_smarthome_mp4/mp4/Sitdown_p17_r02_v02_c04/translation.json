@@ -1,0 +1,40 @@
+{
+  "video_key": "toyota_smarthome_mp4/mp4/Sitdown_p17_r02_v02_c04",
+  "translations": {
+    "0": {
+      "risk_description": "这位老年人正站在椅子上，看起来不稳定，可能导致跌倒和潜在伤害。",
+      "normal_video_description": "这位老年人正坐在客厅的沙发上读书。",
+      "solution_for_person": "护理人员应帮助老年人坐稳在稳固的椅子或沙发上，并确保其坐姿安全。",
+      "solution_for_hazard_source": "护理人员应确保椅子或沙发稳固安全，适合老年人坐。",
+      "solution_to_prevent_recurrence": "护理人员应定期检查家具的稳固性，并帮助老年人保持安全环境以防止跌倒。"
+    },
+    "1": {
+      "risk_description": "该人在沙发上坐着时似乎不稳，一只腿抬起并向后靠，这可能增加跌倒的风险。",
+      "normal_video_description": "可以看到一位老年人站在沙发附近，然后以不稳的方式坐下。",
+      "solution_for_person": "确保该人坐姿正确，双脚放在地板上，且有扶手支撑以保持平衡。",
+      "solution_for_hazard_source": "",
+      "solution_to_prevent_recurrence": "鼓励该人坐下时小心，并在起立或坐下时使用扶手提供支撑。"
+    },
+    "2": {
+      "risk_description": "",
+      "normal_video_description": "在客厅里，一位老年人弯腰后坐在绿色沙发上。该人在坐上沙发前似乎在调整衣物或与腰部附近的物品互动。环境安静且居家，没有明显的危险或痛苦的迹象。",
+      "solution_for_person": "",
+      "solution_for_hazard_source": "",
+      "solution_to_prevent_recurrence": ""
+    },
+    "3": {
+      "risk_description": "老年人弯腰后坐在沙发上，可能因潜在的平衡问题而导致跌倒或不稳的风险。",
+      "normal_video_description": "",
+      "solution_for_person": "确保老年人慢慢坐下，并用手支撑以保持平衡。",
+      "solution_for_hazard_source": "摆放家具以提供稳固的座位选择，并确保通道畅通，防止绊倒。",
+      "solution_to_prevent_recurrence": "坐下时使用额外的支撑，如椅子或助行器，以降低跌倒风险。"
+    },
+    "4": {
+      "risk_description": "",
+      "normal_video_description": "视频显示一位老年人坐在客厅的绿色沙发上使用手机。画面中没有明显的风险或危险。",
+      "solution_for_person": "",
+      "solution_for_hazard_source": "",
+      "solution_to_prevent_recurrence": ""
+    }
+  }
+}

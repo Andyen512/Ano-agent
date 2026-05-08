@@ -1,0 +1,40 @@
+{
+  "video_key": "toyota_smarthome_mp4/mp4/Laydown_p10_r02_v03_c04",
+  "translations": {
+    "0": {
+      "risk_description": "老年人由于躺在沙发上的姿势而存在跌倒风险，他们的腿悬在边缘外面，身上盖着毯子。这种姿势可能导致不稳定，如果他们跌倒，可能会造成潜在伤害。",
+      "normal_video_description": "",
+      "solution_for_person": "护理人员应确保老年人在沙发上处于更稳定的姿势，双脚放在地板上或脚凳上，毯子安全地覆盖身体且不妨碍他们活动。",
+      "solution_for_hazard_source": "护理人员还应确保沙发稳定安全，周围区域没有绊倒危险。",
+      "solution_to_prevent_recurrence": "护理人员应定期检查老年人，确保他们处于安全稳定的姿势，并进行必要的调整以防止跌倒。"
+    },
+    "1": {
+      "risk_description": "",
+      "normal_video_description": "老年人在陈设完善的客厅里坐在绿色沙发上，然后躺下，用毯子盖住自己。",
+      "solution_for_person": "",
+      "solution_for_hazard_source": "",
+      "solution_to_prevent_recurrence": ""
+    },
+    "2": {
+      "risk_description": "",
+      "normal_video_description": "老年人在客厅的绿色沙发上坐下，然后躺下休息，拉过毯子盖在身上。这个场景描述了一个平静正常的日常活动，没有任何风险或危险的迹象。",
+      "solution_for_person": "",
+      "solution_for_hazard_source": "",
+      "solution_to_prevent_recurrence": ""
+    },
+    "3": {
+      "risk_description": "老年人躺在沙发上，身上盖着毯子，如果他们试图移动或翻身，可能会滚落并从沙发上摔下来，这可能造成风险。",
+      "normal_video_description": "",
+      "solution_for_person": "确保老年人在沙发上处于安全的位置，考虑使用额外的支撑或枕头来防止滚动或移动。",
+      "solution_for_hazard_source": "使用防滑毯子或添加额外的垫子来固定老年人的位置。",
+      "solution_to_prevent_recurrence": "在老年人身下放置防滑垫或额外的支撑物以防止跌倒。"
+    },
+    "4": {
+      "risk_description": "老年人有从沙发上跌落的风险，由于他们的年龄和可能对地板造成的硬性撞击，可能导致严重伤害。",
+      "normal_video_description": "",
+      "solution_for_person": "确保这个人在客厅活动时有适当的支撑或帮助以防止跌倒。",
+      "solution_for_hazard_source": "清除沙发周围区域的障碍物或杂物，以减少绊倒的风险。",
+      "solution_to_prevent_recurrence": "考虑在沙发附近安装扶手或抓杆，以提供额外的支撑和稳定性。"
+    }
+  }
+}

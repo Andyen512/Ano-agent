@@ -1,0 +1,40 @@
+{
+  "video_key": "labimag/dataset/chute08/cam1",
+  "translations": {
+    "0": {
+      "risk_description": "可以看到这位年轻人冲向垫子并倒在上面，如果他们落地姿势不稳或垫子滑动，可能会导致受伤。",
+      "normal_video_description": "视频显示一名年轻人在自习室里冲向垫子并倒在上面。房间灯光充足，摆有几张桌子和椅子。此人似乎没有受伤，几秒后从垫子上站起身来。",
+      "solution_for_person": "应鼓励此人在进入房间时保持适当谨慎，正确使用垫子以防止跌倒。",
+      "solution_for_hazard_source": "垫子应放置在稳固的表面上，并应指导此人正确使用垫子以防止跌倒。",
+      "solution_to_prevent_recurrence": "应提醒此人在进入房间时保持适当谨慎，正确使用垫子以防止跌倒。垫子应放置在稳固的表面上，并应指导此人正确使用垫子以防止跌倒。"
+    },
+    "1": {
+      "risk_description": "此人正躺在房间中央的抬高的床垫上，如果他们翻滚或突然起身，可能会导致跌倒。",
+      "normal_video_description": "一个人走进房间，躺在位于房间中央的抬高的床垫上，其他人旁观。",
+      "solution_for_person": "确保床垫牢牢固定在地板上，以防止滚动。",
+      "solution_for_hazard_source": "",
+      "solution_to_prevent_recurrence": "将床垫固定以防止移动。"
+    },
+    "2": {
+      "risk_description": "",
+      "normal_video_description": "一个人走进房间，跳到地板上的垫子，然后起身。背景中有其他人，房间看起来像是配有桌子和设备的实验室或办公空间。",
+      "solution_for_person": "",
+      "solution_for_hazard_source": "",
+      "solution_to_prevent_recurrence": ""
+    },
+    "3": {
+      "risk_description": "穿红色衬衫的人躺在检查台上，检查台可能不稳定并有跌倒风险，尤其对行动不便或平衡有障碍的人更为危险。",
+      "normal_video_description": "",
+      "solution_for_person": "在躺下之前，确保检查台稳固安全。",
+      "solution_for_hazard_source": "将检查台固定以防止倾斜。",
+      "solution_to_prevent_recurrence": "使用稳固且有适当支撑的表面进行躺卧。"
+    },
+    "4": {
+      "risk_description": "此人正躺在房间中央的床垫上，这可能表明缺乏适当的支撑或不稳定，可能导致跌倒和受伤。",
+      "normal_video_description": "",
+      "solution_for_person": "确保床垫放置在稳固且有足够支撑的表面上，以防止跌倒。",
+      "solution_for_hazard_source": "",
+      "solution_to_prevent_recurrence": "提供适当的支撑并确保床垫放置在稳固的表面上，以防止跌倒。"
+    }
+  }
+}

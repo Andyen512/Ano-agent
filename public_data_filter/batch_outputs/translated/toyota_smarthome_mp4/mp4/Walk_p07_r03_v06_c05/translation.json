@@ -1,0 +1,40 @@
+{
+  "video_key": "toyota_smarthome_mp4/mp4/Walk_p07_r03_v06_c05",
+  "translations": {
+    "0": {
+      "risk_description": "视频中的人似乎在行走时难以保持平衡，这可能导致跌倒。该人还扶着头部，可能表明头晕或不适。",
+      "normal_video_description": "",
+      "solution_for_person": "应让护理人员或家庭成员协助该人，以确保其在行走时保持稳定和安全。",
+      "solution_for_hazard_source": "应检查环境是否存在绊倒危险，如电线或杂物，并予以清除，以降低跌倒风险。",
+      "solution_to_prevent_recurrence": "应鼓励该人在感到疲劳或不适时定期休息。若出现持续的头晕或平衡问题，也应建议其就医。"
+    },
+    "1": {
+      "risk_description": "",
+      "normal_video_description": "一个人站在客厅里，一边打电话，一边在家具之间走动。",
+      "solution_for_person": "",
+      "solution_for_hazard_source": "",
+      "solution_to_prevent_recurrence": ""
+    },
+    "2": {
+      "risk_description": "",
+      "normal_video_description": "可以看到一位老年人在客厅里站着，在茶几和绿色沙发附近走动。房间照明良好，电视开着，该人看起来在进行正常的日常活动，未出现任何不适或危险的迹象。",
+      "solution_for_person": "",
+      "solution_for_hazard_source": "",
+      "solution_to_prevent_recurrence": ""
+    },
+    "3": {
+      "risk_description": "该人正把手机贴在耳边，似乎在沙发的狭窄边缘上行走，这可能导致跌倒或失去平衡。",
+      "normal_video_description": "",
+      "solution_for_person": "该人在打电话时应坐在沙发上或在沙发上稳住身体，以防止跌倒。",
+      "solution_for_hazard_source": "确保沙发区域畅通无阻，以提供更安全的行走空间。",
+      "solution_to_prevent_recurrence": "该人在通话时应避免在狭窄表面上行走。"
+    },
+    "4": {
+      "risk_description": "该人由于姿势不稳以及沙发的高度，有从沙发跌落的风险。这可能导致严重伤害。",
+      "normal_video_description": "",
+      "solution_for_person": "确保该人坐在地上或站在地上，而不是坐在沙发上，以避免跌倒风险。",
+      "solution_for_hazard_source": "",
+      "solution_to_prevent_recurrence": "鼓励该人在看电视时坐在地上或站在地上，以避免将来出现类似风险。"
+    }
+  }
+}

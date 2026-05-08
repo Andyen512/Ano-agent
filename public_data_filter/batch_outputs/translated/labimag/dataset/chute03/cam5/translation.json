@@ -1,0 +1,40 @@
+{
+  "video_key": "labimag/dataset/chute03/cam5",
+  "translations": {
+    "0": {
+      "risk_description": "可以看到年轻人冲向房间中心，然后倒在垫子上，如果他们的头部或其他身体部位撞到硬地板，可能会导致受伤。",
+      "normal_video_description": "",
+      "solution_for_person": "该人在房间内移动时应更加小心，并应考虑使用更柔软的表面或缓冲材料以降低受伤风险。",
+      "solution_for_hazard_source": "垫子应放置在更柔软的表面或缓冲材料上，以降低受伤风险。",
+      "solution_to_prevent_recurrence": "应提醒该人在房间内移动时更加小心，并采取适当的安全措施以防止跌倒。"
+    },
+    "1": {
+      "risk_description": "该人俯卧在房间中央的缓冲表面上，若支撑不稳或表面不稳定，可能导致摔倒。",
+      "normal_video_description": "一个人进入工作间，走到中央，俯卧在缓冲表面上，其他人观看。",
+      "solution_for_person": "在躺下前，确保缓冲表面已牢固固定且稳固。",
+      "solution_for_hazard_source": "核实缓冲表面设计用于安全使用且不会意外移动。",
+      "solution_to_prevent_recurrence": "在工作间进行安全简报，讲解设备和表面的正确使用方法。"
+    },
+    "2": {
+      "risk_description": "",
+      "normal_video_description": "一个人走进房间，走向地板上的床垫，短暂躺下后起身离开。环境似乎是配备有桌子和设备的实验室或办公空间。",
+      "solution_for_person": "",
+      "solution_for_hazard_source": "",
+      "solution_to_prevent_recurrence": ""
+    },
+    "3": {
+      "risk_description": "",
+      "normal_video_description": "视频显示一个人穿过有桌子和椅子的房间，其他人正在桌旁工作。房间似乎是书房或办公室空间。",
+      "solution_for_person": "",
+      "solution_for_hazard_source": "",
+      "solution_to_prevent_recurrence": ""
+    },
+    "4": {
+      "risk_description": "视频中的人正在走钢丝，存在跌倒并可能受伤的风险。此活动需要高度的技巧和专注力以保持平衡。",
+      "normal_video_description": "",
+      "solution_for_person": "在尝试走钢丝之前，确保该人具备适当的训练和经验。提供支撑或安全网以防止跌落。",
+      "solution_for_hazard_source": "清除钢丝区域的任何障碍物或干扰物，以降低失去平衡的风险。",
+      "solution_to_prevent_recurrence": "定期检查钢丝及其周围是否有损坏或危险因素，以防止事故风险增加。"
+    }
+  }
+}

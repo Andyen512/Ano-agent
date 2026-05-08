@@ -1,0 +1,40 @@
+{
+  "video_key": "labimag/dataset/chute11/cam3",
+  "translations": {
+    "0": {
+      "risk_description": "这位年轻人走向地板上的垫子，然后倒在上面。这种行为偏离了正常的日常行走活动，可能存在受伤风险。",
+      "normal_video_description": "",
+      "solution_for_person": "一个人在垫子上行走时应更加小心，确保在踏上垫子前站稳脚跟。",
+      "solution_for_hazard_source": "垫子应放置在更稳固、安全的位置，以防止摔倒。",
+      "solution_to_prevent_recurrence": "应提醒该人在垫子上行走时更加小心，确保在踏上垫子前站稳脚跟。垫子应放置在更稳固、安全的位置，以防止摔倒。"
+    },
+    "1": {
+      "risk_description": "",
+      "normal_video_description": "一个人在房间内摆放垫子，另一个人躺在垫子上，其他人旁观。",
+      "solution_for_person": "",
+      "solution_for_hazard_source": "",
+      "solution_to_prevent_recurrence": ""
+    },
+    "2": {
+      "risk_description": "",
+      "normal_video_description": "视频中显示一个人走进房间，躺在地板上的床垫上，然后坐起来。另一个人进入房间，坐在桌子旁。该房间看起来像是书房或办公室，桌面上和架子上摆满了各种物品。",
+      "solution_for_person": "",
+      "solution_for_hazard_source": "",
+      "solution_to_prevent_recurrence": ""
+    },
+    "3": {
+      "risk_description": "躺在垫子上的人在尝试起身时如果缺乏支撑，可能会跌落，尤其是行动不便或力量不足时。",
+      "normal_video_description": "",
+      "solution_for_person": "确保该人在尝试从垫子上起身时有支撑或帮助。",
+      "solution_for_hazard_source": "在垫子边缘加装侧栏或垫子，以提供额外的稳定性。",
+      "solution_to_prevent_recurrence": "使用稳固、安全的平面躺下，并在起身时提供帮助。"
+    },
+    "4": {
+      "risk_description": "这个人躺在地板上的床垫上，可能意味着跌倒或不稳的风险。房间里有椅子和其他家具，增加了如果有人绊倒时的受伤可能性。",
+      "normal_video_description": "",
+      "solution_for_person": "确保该人在床垫上有支撑或帮助，以安全地起身，防止从床垫上跌落。",
+      "solution_for_hazard_source": "清除床垫周围的潜在绊倒危险，降低跌倒风险。",
+      "solution_to_prevent_recurrence": "定期检查床垫及周围家具的稳固性，确保它们安全可靠，不存在倾倒风险。"
+    }
+  }
+}

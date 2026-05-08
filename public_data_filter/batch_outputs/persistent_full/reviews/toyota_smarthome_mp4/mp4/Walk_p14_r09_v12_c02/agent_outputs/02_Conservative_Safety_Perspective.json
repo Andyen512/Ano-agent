@@ -1,0 +1,30 @@
+{
+  "backend": "tarsier2",
+  "description": "Bytedance Tarsier2 single-video inference",
+  "model_id": "omni-research/Tarsier2-7b-0115",
+  "model_path": "/data_4/liuyuan/lifebench/models/Tarsier2-7b-0115",
+  "video_path": "/data_4/liuyuan/lifebench/data/public_data/toyota_smarthome_mp4/mp4/Walk_p14_r09_v12_c02.mp4",
+  "prompt": "You are acting as a conservative safety reviewer.\nYour task is to minimize missed risks. If a candidate behavior has a realistic possibility of injury, loss of control, or accident triggering, it may be kept as a risk anomaly.\n\nFollow these principles:\n- Apply a cautious safety standard, prioritizing behaviors that may lead to falls, collisions, burns, electric shock, accidental ingestion, cuts, or other household injuries.\n- Even if harm has not occurred yet, keep the behavior if it already contains a clear risk trigger or is in an accident-prone state.\n- For borderline cases, focus on whether the behavior deserves early intervention rather than waiting for harm to happen.\n- If a behavior would commonly be stopped or warned against by family members, guardians, or caregivers, lean toward keeping it.\n- The goal is to reduce false negatives, so ambiguous cases may be judged slightly conservatively.\n\nOutput requirements for this perspective:\n- Explain what realistic harm the behavior may trigger and why it should or should not be kept under a conservative safety standard.\n- You do not need to prove that harm will definitely occur.\n- Do not exaggerate beyond an ordinary household context.\n\nTask addendum:\nReview the input video and first decide whether the video contains a risk.\nBase your judgment only on the video content. Do not assume facts outside the video, and do not invent extra events.\nJudge the main visible behavior and scene in the video.\nYou must answer based on the provided video input. Do not say that you cannot watch or inspect the video.\nOutput exactly the following English-labeled fields, with no markdown and no extra text:\nRisk presence: Yes / No\nLevel 1 scene: output one scene keyword. Prefer one of: dining room, kitchen, study, balcony, living room, bathroom, yard. If none fits, output your own concise scene keyword.\nLevel 2 subject: output one subject keyword. Prefer one of: child, older adult, young adult, middle-aged adult. If none fits, output your own concise subject keyword.\nLevel 3 risk type: if Risk presence is Yes, output one risk keyword. Prefer one of: fall/instability, heat/fire source, collision/crush injury, sharp-object danger, electrical safety, poisoning/accidental ingestion, interpersonal conflict. If none fits, output your own concise risk keyword. If Risk presence is No, output None.\nRisk description: if Risk presence is Yes, describe the risk in 1-3 sentences. If Risk presence is No, output None.\nRisk time interval: if Risk presence is Yes, localize the risk as seconds like [start,end]. If there are multiple intervals, separate them with semicolons. If the exact interval is unclear, output Unknown. If Risk presence is No, output None.\nSolution for person: if Risk presence is Yes, give a concrete action for the person or caregiver. If Risk presence is No, output None.\nSolution for hazard source: if Risk presence is Yes, give a concrete action for the hazard source or environment. If Risk presence is No, output None.\nSolution to prevent recurrence: if Risk presence is Yes, give a prevention measure to reduce recurrence. If Risk presence is No, output None.\nNormal video description: if Risk presence is No, describe the normal video content in 1-3 sentences. If Risk presence is Yes, output None.",
+  "response": "A man wearing a striped shirt walks towards a dining table in a modern kitchen with wooden cabinets and a large window in the background. The table has several items on it, including a plate, a can, a cup, and some food wrappers. The man reaches the table and begins to lean forward, appearing to inspect or reach for something on the table. He continues to lean further, getting closer to the items on the table. The man’s posture suggests he is about to pick up or interact with the items on the table. The man remains in this position, indicating he is engaged with the items on the table.",
+  "parsed_response": {
+    "risk_status": "abnormal",
+    "has_risk": true,
+    "risk_type": "fall_instability",
+    "video_description": "",
+    "safe_segment_desc": "",
+    "risk_description": "A man wearing a striped shirt walks towards a dining table in a modern kitchen with wooden cabinets and a large window in the background",
+    "solution": "",
+    "time_spans": []
+  },
+  "generation": {
+    "temperature": 0.0,
+    "top_p": 0.9,
+    "max_new_tokens": 256,
+    "fps": 1.0,
+    "max_frames": 16,
+    "merge_size": 2
+  },
+  "elapsed_seconds": 13.45,
+  "format_retry_used": true,
+  "first_response_before_format_retry": "A man wearing a striped shirt walks towards a dining table in a modern kitchen with wooden cabinets and a large window in the background. He approaches the table, which has various items on it, including a plate, a can, a cup, and some food items. The man reaches the table and begins to interact with the items on it. He picks up a can and appears to be preparing to clean up or move the items. The man continues to handle the items on the table, possibly organizing or cleaning them. The background remains consistent with the modern kitchen setting, and the man is focused on the task at hand."
+}

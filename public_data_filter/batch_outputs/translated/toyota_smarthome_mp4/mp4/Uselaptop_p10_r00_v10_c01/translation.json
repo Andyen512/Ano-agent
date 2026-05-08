@@ -1,0 +1,40 @@
+{
+  "video_key": "toyota_smarthome_mp4/mp4/Uselaptop_p10_r00_v10_c01",
+  "translations": {
+    "0": {
+      "risk_description": "",
+      "normal_video_description": "视频中显示一位老人坐在餐桌旁使用笔记本电脑。环境看起来是一间明亮现代的餐厅，配有白色家具和木制橱柜。这位老人专注于笔记本电脑，打字并偶尔查看屏幕。桌上有一些物品，包括水瓶、玻璃杯和一些食物容器。整体场景平静，典型的是在家工作或浏览互联网的情景。",
+      "solution_for_person": "",
+      "solution_for_hazard_source": "",
+      "solution_to_prevent_recurrence": ""
+    },
+    "1": {
+      "risk_description": "",
+      "normal_video_description": "一位老人坐在餐桌旁使用笔记本电脑，桌上放着各种物品，背景是现代化的厨房。",
+      "solution_for_person": "",
+      "solution_for_hazard_source": "",
+      "solution_to_prevent_recurrence": ""
+    },
+    "2": {
+      "risk_description": "",
+      "normal_video_description": "一位老人坐在餐厅的白色餐桌旁使用笔记本电脑，正在打字并偶尔抬头，桌上放着水瓶、杯子等物品。环境看起来平静安全，没有可见的危险或风险行为。",
+      "solution_for_person": "",
+      "solution_for_hazard_source": "",
+      "solution_to_prevent_recurrence": ""
+    },
+    "3": {
+      "risk_description": "",
+      "normal_video_description": "一位老人坐在餐桌旁使用笔记本电脑。环境看起来安全整洁，没有可见的对被拍摄者的风险。",
+      "solution_for_person": "",
+      "solution_for_hazard_source": "",
+      "solution_to_prevent_recurrence": ""
+    },
+    "4": {
+      "risk_description": "",
+      "normal_video_description": "视频显示一位中年人士坐在厨房的桌旁使用笔记本电脑。场景中没有可见的风险或危险。",
+      "solution_for_person": "",
+      "solution_for_hazard_source": "",
+      "solution_to_prevent_recurrence": ""
+    }
+  }
+}

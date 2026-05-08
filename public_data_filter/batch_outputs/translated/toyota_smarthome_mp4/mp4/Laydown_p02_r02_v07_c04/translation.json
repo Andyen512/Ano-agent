@@ -1,0 +1,40 @@
+{
+  "video_key": "toyota_smarthome_mp4/mp4/Laydown_p02_r02_v07_c04",
+  "translations": {
+    "0": {
+      "risk_description": "老年人躺在沙发上盖着毯子，如果在没有适当支撑的情况下起身，可能会增加跌倒或不稳定的风险。",
+      "normal_video_description": "老年人坐在沙发上，盖着毯子，看起来正在休息或放松。",
+      "solution_for_person": "在老年人尝试从沙发上起身之前，确保他们有适当的支撑，如助行器或护理人员的帮助。",
+      "solution_for_hazard_source": "未发现具体危险源。",
+      "solution_to_prevent_recurrence": "定期检查老年人的安全状况，并根据需要提供支撑，以防止跌倒和不稳定。"
+    },
+    "1": {
+      "risk_description": "",
+      "normal_video_description": "老年人在客厅的绿色组合沙发上调整毯子并躺下。房间有大窗户配有条纹窗帘、盆栽植物和一张放有物品的小桌子。",
+      "solution_for_person": "",
+      "solution_for_hazard_source": "",
+      "solution_to_prevent_recurrence": ""
+    },
+    "2": {
+      "risk_description": "",
+      "normal_video_description": "老年人在客厅的绿色组合沙发上活动，调整姿势并拉过毯子盖住自己。环境看起来平静温馨，没有可见的危险或危险活动。",
+      "solution_for_person": "",
+      "solution_for_hazard_source": "",
+      "solution_to_prevent_recurrence": ""
+    },
+    "3": {
+      "risk_description": "老年人试图在盖着毯子的情况下坐起来，这可能因活动能力下降或头晕而导致跌倒或失去平衡。",
+      "normal_video_description": "",
+      "solution_for_person": "确保老年人缓慢小心地坐起，用手在沙发上支撑。",
+      "solution_for_hazard_source": "提供额外的支撑，如垫子或扶手，以帮助坐起。",
+      "solution_to_prevent_recurrence": "使用支撑垫或椅子帮助坐起，并确保毯子不会妨碍行动。"
+    },
+    "4": {
+      "risk_description": "老年人有从沙发上跌落的风险，可能会因年龄和可能对地板的硬撞击而导致严重伤害。",
+      "normal_video_description": "",
+      "solution_for_person": "确保老年人坐得稳固并有适当的支撑，或考虑在起身时提供帮助。",
+      "solution_for_hazard_source": "",
+      "solution_to_prevent_recurrence": "在沙发附近安装扶手或抓杆，以便老年人在起身或坐下时获得额外支撑。"
+    }
+  }
+}

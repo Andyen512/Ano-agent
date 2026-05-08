@@ -1,0 +1,40 @@
+{
+  "video_key": "toyota_smarthome_mp4/mp4/Walk_p03_r23_v02_c04",
+  "translations": {
+    "0": {
+      "risk_description": "",
+      "normal_video_description": "一个穿格子衬衫和卡其色裤子的男人走进客厅，客厅里有一张绿色沙发、一张摆放着各种物品的咖啡桌和一盏落地灯。他走向沙发，似乎在找东西或准备坐下。房间光线充足，自然光透过窗帘洒入。",
+      "solution_for_person": "",
+      "solution_for_hazard_source": "",
+      "solution_to_prevent_recurrence": ""
+    },
+    "1": {
+      "risk_description": "",
+      "normal_video_description": "一个穿格子衬衫的人走进客厅，客厅里有绿色的分段沙发、植物和一张放有报纸的咖啡桌。他们走向咖啡桌。",
+      "solution_for_person": "",
+      "solution_for_hazard_source": "",
+      "solution_to_prevent_recurrence": ""
+    },
+    "2": {
+      "risk_description": "",
+      "normal_video_description": "一个年轻人走进客厅，走向一张放有杂志的咖啡桌，短暂地翻看了桌上的物品后离开。环境宁静且没有危险。",
+      "solution_for_person": "",
+      "solution_for_hazard_source": "",
+      "solution_to_prevent_recurrence": ""
+    },
+    "3": {
+      "risk_description": "",
+      "normal_video_description": "一个穿格子衬衫的人站在客厅里，注视着一张放有杂志和其他物品的咖啡桌。房间光线充足，背景有绿色沙发、装饰枕头和植物。",
+      "solution_for_person": "",
+      "solution_for_hazard_source": "",
+      "solution_to_prevent_recurrence": ""
+    },
+    "4": {
+      "risk_description": "",
+      "normal_video_description": "一个穿格子衬衫的男人站在客厅里，低头看着一张摆放着各种物品的咖啡桌。",
+      "solution_for_person": "",
+      "solution_for_hazard_source": "",
+      "solution_to_prevent_recurrence": ""
+    }
+  }
+}

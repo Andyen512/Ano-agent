@@ -1,0 +1,40 @@
+{
+  "video_key": "labimag/dataset/chute01/cam4",
+  "translations": {
+    "0": {
+      "risk_description": "可以看到这位年轻人跑向垫子并摔倒在上面，如果落地姿势不稳或垫子滑动，可能会造成伤害。",
+      "normal_video_description": "",
+      "solution_for_person": "在接近垫子时应该更加小心，确保有安全着陆的区域。",
+      "solution_for_hazard_source": "垫子应放在稳固、平整的表面上，以防滑。",
+      "solution_to_prevent_recurrence": "应提醒该人在接近垫子时更加小心，并确保垫子放在稳固的表面上。"
+    },
+    "1": {
+      "risk_description": "有一个人躺在房间中央标有网格线的床垫上，这块床垫可能不稳定或并非为躺卧设计，增加了跌倒的风险。",
+      "normal_video_description": "视频显示一间配有桌子、电脑的房间，中间有一张床垫。一个人操作电脑、在房间里走动，最后躺到床垫上，其他人进来并在房间里走动。",
+      "solution_for_person": "如果床垫并非用于躺卧，请避免躺在上面。",
+      "solution_for_hazard_source": "确保床垫放在稳固、适合躺卧的表面上。",
+      "solution_to_prevent_recurrence": "明确标注不适合躺卧的区域，并提供指定的休息场所。"
+    },
+    "2": {
+      "risk_description": "",
+      "normal_video_description": "视频显示一个人在实验室或办公室环境中，地板上放着一张床垫。此人在房间里走动，靠近床垫后躺下。另一人进入房间并走过去。这些动作似乎是房间内正常活动或实验的一部分。",
+      "solution_for_person": "",
+      "solution_for_hazard_source": "",
+      "solution_to_prevent_recurrence": ""
+    },
+    "3": {
+      "risk_description": "可以看到有人在办公室的床垫上躺着，这可能会对他人造成绊倒危险，尤其是行动不便或平衡有障碍的人。",
+      "normal_video_description": "",
+      "solution_for_person": "确保躺在床垫上的人注意周围环境，其他人在该区域附近行走时要小心。",
+      "solution_for_hazard_source": "移除或固定床垫，以防止其成为绊倒危险。",
+      "solution_to_prevent_recurrence": "清理通道上的障碍物，保持工作空间有序，尽量减少跌倒风险。"
+    },
+    "4": {
+      "risk_description": "",
+      "normal_video_description": "视频显示一间办公室，一个人坐在桌子前使用电脑。另一人进入房间并在另一张桌子前坐下。场景中没有显示任何风险或潜在危险。",
+      "solution_for_person": "",
+      "solution_for_hazard_source": "",
+      "solution_to_prevent_recurrence": ""
+    }
+  }
+}

@@ -1,0 +1,40 @@
+{
+  "video_key": "toyota_smarthome_mp4/mp4/Getup_p09_r02_v02_c04",
+  "translations": {
+    "0": {
+      "risk_description": "",
+      "normal_video_description": "视频中显示一名中年成人躺在客厅的绿色沙发上，周围有盆栽、放着书本和杯子的茶几以及落地灯。此人看起来在休息或放松，没有任何风险或危险的迹象。",
+      "solution_for_person": "",
+      "solution_for_hazard_source": "",
+      "solution_to_prevent_recurrence": ""
+    },
+    "1": {
+      "risk_description": "此人以不舒适的姿势躺在沙发上，这可能在试图坐起时导致突然跌倒或失去平衡，从而可能导致受伤。",
+      "normal_video_description": "一个人躺在客厅的绿色沙发上，调整姿势后最终坐起。",
+      "solution_for_person": "确保此人慢慢而小心地坐起，并利用扶手作为支撑。",
+      "solution_for_hazard_source": "",
+      "solution_to_prevent_recurrence": ""
+    },
+    "2": {
+      "risk_description": "",
+      "normal_video_description": "视频中看到一名中年成人躺在客厅的绿色组合沙发上，随后坐起并调整姿势。场景中有常见的家居物品，如枕头、书本和茶几，没有危险或异常行为的迹象。",
+      "solution_for_person": "",
+      "solution_for_hazard_source": "",
+      "solution_to_prevent_recurrence": ""
+    },
+    "3": {
+      "risk_description": "老年人躺在沙发上，若突然坐起或移动可能会导致跌倒，因潜在的不稳定性而存在风险。",
+      "normal_video_description": "",
+      "solution_for_person": "确保老年人慢慢而小心地坐起，以避免突然动作。",
+      "solution_for_hazard_source": "提供额外的支撑，如枕头或扶手，以帮助坐起。",
+      "solution_to_prevent_recurrence": "使用支撑垫或请护理人员协助换位。"
+    },
+    "4": {
+      "risk_description": "此人以放松的姿势躺在沙发上，如果没有适当支撑突然坐起或移动，可能会导致跌倒，可能造成轻微伤害。",
+      "normal_video_description": "",
+      "solution_for_person": "确保此人在坐起或从沙发上移动时有适当的支撑，以防跌倒。",
+      "solution_for_hazard_source": "",
+      "solution_to_prevent_recurrence": "鼓励此人在坐起或从沙发上移动时使用适当的支撑，以防止跌倒。"
+    }
+  }
+}

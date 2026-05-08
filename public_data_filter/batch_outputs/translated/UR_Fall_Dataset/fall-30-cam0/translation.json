@@ -1,0 +1,40 @@
+{
+  "video_key": "UR_Fall_Dataset/fall-30-cam0",
+  "translations": {
+    "0": {
+      "risk_description": "视频中这位中年人弯腰后倒在地上，这存在跌倒和不稳定的潜在风险。这种行为在研究环境中的中年人身上并不典型，可能需要关注以防止未来跌倒。",
+      "normal_video_description": "",
+      "solution_for_person": "应帮助此人从地上站起来，并检查是否有受伤。还应建议他们在弯腰时小心谨慎以避免未来跌倒。",
+      "solution_for_hazard_source": "危险源在于此人弯腰时缺乏适当的支撑或帮助。应该评估环境是否存在绊倒危险或障碍物可能导致跌倒。",
+      "solution_to_prevent_recurrence": "应建议此人定期休息和伸展以避免肌肉劳损和疲劳。还应鼓励他们使用正确的举重技巧并在需要时寻求帮助。环境应进行改造以清除任何绊倒危险或障碍物，确保地面没有杂物或障碍物。"
+    },
+    "1": {
+      "risk_description": "此人正坐在椅子边缘，这是一个不稳定的姿势，很容易导致跌倒和受伤。",
+      "normal_video_description": "视频显示一个人坐在椅子边缘，然后摔到地上。",
+      "solution_for_person": "此人应该避免坐在椅子边缘，保持稳定的坐姿。",
+      "solution_for_hazard_source": "",
+      "solution_to_prevent_recurrence": "确保此人正确坐在椅子上，双脚放在地上，背部靠在椅背上。"
+    },
+    "2": {
+      "risk_description": "此人在从椅子上站起来时失去平衡，向后倒在地上，这表明发生了明显的不稳定事件，超出了正常活动范围。",
+      "normal_video_description": "",
+      "solution_for_person": "此人应该慢慢站起来，并在从坐姿站起时使用扶手或稳定的表面作为支撑。",
+      "solution_for_hazard_source": "确保椅子有稳定的底座和扶手，并考虑使用有靠背支撑的椅子来帮助站立。",
+      "solution_to_prevent_recurrence": "鼓励此人缓慢而谨慎地移动，如果平衡有问题，考虑使用辅助设备。"
+    },
+    "3": {
+      "risk_description": "此人向后从椅子上摔下来，这可能会造成受伤风险，特别是对于行动不便或平衡问题的人。",
+      "normal_video_description": "",
+      "solution_for_person": "确保此人坐得安全，并考虑使用重心较低或具有额外稳定性功能的椅子。",
+      "solution_for_hazard_source": "提供额外的支撑或稳定性辅助工具，如脚凳或防滑垫，以防止跌倒。",
+      "solution_to_prevent_recurrence": "实施安全措施，如椅子稳定性检查，并鼓励使用支撑性座椅设备。"
+    },
+    "4": {
+      "risk_description": "此人在椅子上站立时因失去平衡而有跌倒风险。这可能导致严重伤害。",
+      "normal_video_description": "",
+      "solution_for_person": "确保此人坐在或站在稳定的地面上以防止跌倒。",
+      "solution_for_hazard_source": "将椅子从该区域移走以消除风险。",
+      "solution_to_prevent_recurrence": "提供关于安全移动和平衡技术的适当培训。"
+    }
+  }
+}

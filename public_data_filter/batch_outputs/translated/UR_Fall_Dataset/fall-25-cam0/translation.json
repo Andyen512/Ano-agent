@@ -1,0 +1,40 @@
+{
+  "video_key": "UR_Fall_Dataset/fall-25-cam0",
+  "translations": {
+    "0": {
+      "risk_description": "可以看到年轻人朝椅子跑去并摔倒在地，这可能会导致受伤。",
+      "normal_video_description": "可以看到年轻人在学习区域走动，但突然朝椅子跑去并摔倒在地。",
+      "solution_for_person": "人员在学习区域走动时应更加小心，以避免绊倒或摔倒。",
+      "solution_for_hazard_source": "椅子应该放置在更稳定的位置，以防止被撞倒。",
+      "solution_to_prevent_recurrence": "应该提醒人员更加注意周围环境，慢慢移动以避免事故。"
+    },
+    "1": {
+      "risk_description": "",
+      "normal_video_description": "视频显示一个人走进一间有办公家具的房间，然后摔倒在地。",
+      "solution_for_person": "",
+      "solution_for_hazard_source": "",
+      "solution_to_prevent_recurrence": ""
+    },
+    "2": {
+      "risk_description": "",
+      "normal_video_description": "一名中年人走进书房，走近镜头，然后躺在地板上。这个动作看起来是故意的、有控制的，而不是意外跌倒或失衡。",
+      "solution_for_person": "",
+      "solution_for_hazard_source": "",
+      "solution_to_prevent_recurrence": ""
+    },
+    "3": {
+      "risk_description": "视频中的人似乎正在失去平衡并摔倒在地，这可能会造成伤害风险，特别是对于行动不便或平衡问题的人。",
+      "normal_video_description": "",
+      "solution_for_person": "确保有人在旁边支撑，并在摔倒后检查是否受伤。",
+      "solution_for_hazard_source": "清除绊倒危险，确保地板干净整洁，保持稳定。",
+      "solution_to_prevent_recurrence": "在需要时提供稳定辅助工具，并确保工作空间有序，防止摔倒。"
+    },
+    "4": {
+      "risk_description": "一个人在办公室环境中行走，突然失去平衡，可能导致摔倒。摔倒可能造成严重伤害，特别是如果撞到坚硬表面或从高处跌落。",
+      "normal_video_description": "视频显示一个人在办公室环境中行走，没有明显风险。",
+      "solution_for_person": "确保穿着合适的鞋子，提供良好支撑，并考虑在行走时提供帮助或指导以保持平衡。",
+      "solution_for_hazard_source": "",
+      "solution_to_prevent_recurrence": "定期检查办公室地板是否有绊倒危险，确保区域光线充足，防止意外。"
+    }
+  }
+}

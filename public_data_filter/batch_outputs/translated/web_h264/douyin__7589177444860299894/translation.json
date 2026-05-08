@@ -1,0 +1,40 @@
+{
+  "video_key": "web_h264/douyin__7589177444860299894",
+  "translations": {
+    "0": {
+      "risk_description": "孩子正在玩一个会冒烟的玩具，这可能是一个潜在的火灾隐患。孩子还在房间里四处走动，增加了跌倒或撞到物体的风险。",
+      "normal_video_description": "",
+      "solution_for_person": "在孩子玩玩具时，需要成人监督以确保孩子的安全。",
+      "solution_for_hazard_source": "玩具应检查是否存在潜在的火灾隐患，并远离易燃材料。",
+      "solution_to_prevent_recurrence": "应教导孩子安全玩耍，并在玩耍时进行监督，以防止将来发生类似事件。"
+    },
+    "1": {
+      "risk_description": "客厅里有一辆玩具车正在冒烟，存在火灾或吸入有毒烟雾的风险。",
+      "normal_video_description": "一个孩子正在客厅里玩，而客厅里有一辆玩具车正在冒烟。",
+      "solution_for_person": "应立即将孩子从冒烟的玩具车旁移开。",
+      "solution_for_hazard_source": "应关闭冒烟的玩具车并断开任何电源，以防止继续冒烟。",
+      "solution_to_prevent_recurrence": "确保所有电动玩具定期检查安全性，并在不使用时妥善存放。"
+    },
+    "2": {
+      "risk_description": "客厅里的一辆玩具车正在冒烟，似乎在自燃，形成直接的火灾隐患。孩子在房间里，明显被这种情况吓到了。",
+      "normal_video_description": "",
+      "solution_for_person": "看护人应立即离开房间以确保安全并拨打消防部门电话。",
+      "solution_for_hazard_source": "应将玩具车从房间移走并进行检查或处置，以防止进一步燃烧。",
+      "solution_to_prevent_recurrence": "定期检查和维护儿童玩具，确保它们安全且不存在火灾风险。"
+    },
+    "3": {
+      "risk_description": "孩子正在玩一辆冒烟的玩具车，存在火灾风险。",
+      "normal_video_description": "",
+      "solution_for_person": "看护人在孩子玩玩具时应密切监督，并确保任何出现故障的玩具立即被移除。",
+      "solution_for_hazard_source": "移除或更换故障的玩具车，以防止火灾隐患。",
+      "solution_to_prevent_recurrence": "定期检查玩具是否存在损坏或故障的迹象，并确保孩子在玩耍时受到监督。"
+    },
+    "4": {
+      "risk_description": "孩子在婴儿门附近玩耍，如果门倒塌或孩子试图爬过去，可能会导致跌倒或被卡住的风险。孩子若从高处摔下，也有受伤的潜在危险。",
+      "normal_video_description": "视频显示一个孩子在客厅里玩耍，旁边有婴儿门。",
+      "solution_for_person": "确保婴儿门安装牢固并正常工作。在孩子靠近门玩耍时密切监督。",
+      "solution_for_hazard_source": "",
+      "solution_to_prevent_recurrence": "定期检查和维护婴儿门，以确保其安全性并保持正常功能。"
+    }
+  }
+}

@@ -1,0 +1,40 @@
+{
+  "video_key": "SmartHome-Bench/videos/smartbench_0701",
+  "translations": {
+    "0": {
+      "risk_description": "骑自行车的人有摔倒或失去对自行车控制的风险，可能导致受伤。",
+      "normal_video_description": "",
+      "solution_for_person": "骑自行车的人应佩戴头盔，并确保在尝试在车库内骑行之前对自行车有良好的控制。",
+      "solution_for_hazard_source": "车库地面应保持畅通，无障碍物或碎屑，以免导致骑车人失去对自行车的控制。",
+      "solution_to_prevent_recurrence": "骑自行车的人应在受控环境中练习骑行后再尝试在车库内骑行，并应始终佩戴头盔和手套等防护装备。"
+    },
+    "1": {
+      "risk_description": "在车道上骑自行车的人有与停放的车辆发生碰撞的风险，可能导致受伤或车辆损坏。",
+      "normal_video_description": "两辆车夜间停在车道上。一个人骑着自行车进入车道，在车辆附近停下，下车后走开。",
+      "solution_for_person": "应避免在停放车辆的车道上骑自行车，以防止碰撞。",
+      "solution_for_hazard_source": "车辆应移至远离车道的更安全位置，以降低碰撞风险。",
+      "solution_to_prevent_recurrence": "安装障碍物或标志牌以限制在车道区域骑自行车。"
+    },
+    "2": {
+      "risk_description": "",
+      "normal_video_description": "一个人夜间在两辆停放的车辆之间骑着自行车沿着车道行驶，然后骑走。该场景是一个标准住宅车道，没有可见的危险或危险行为。",
+      "solution_for_person": "",
+      "solution_for_hazard_source": "",
+      "solution_to_prevent_recurrence": ""
+    },
+    "3": {
+      "risk_description": "一个孩子在两辆停放的车辆之间的车道上骑自行车，这存在碰撞或摔倒的风险，尤其是如果他们失去平衡的话。",
+      "normal_video_description": "",
+      "solution_for_person": "确保孩子佩戴头盔，并在他们骑行时进行监督。",
+      "solution_for_hazard_source": "将车辆停放得更远一些，为孩子创造更安全的通行路径。",
+      "solution_to_prevent_recurrence": "建造一条远离停放车辆的自行车友好路径或区域，以降低风险。"
+    },
+    "4": {
+      "risk_description": "骑自行车的年轻人有与停放的车辆发生碰撞的风险，可能导致严重受伤或车辆损坏。",
+      "normal_video_description": "",
+      "solution_for_person": "年轻人在骑自行车时应更加小心，并与停放的车辆保持安全距离。",
+      "solution_for_hazard_source": "",
+      "solution_to_prevent_recurrence": "年轻人应该更加注意周围环境，避免骑自行车离停放的车辆太近。"
+    }
+  }
+}

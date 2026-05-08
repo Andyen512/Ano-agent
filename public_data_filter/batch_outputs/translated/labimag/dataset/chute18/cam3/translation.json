@@ -1,0 +1,40 @@
+{
+  "video_key": "labimag/dataset/chute18/cam3",
+  "translations": {
+    "0": {
+      "risk_description": "视频中看到一名年轻人跑过房间，然后摔倒在地上，这可能会造成伤害。摔倒可能是由于注意力不集中或地面湿滑所致。",
+      "normal_video_description": "",
+      "solution_for_person": "人员在办公室走动时应更加小心，注意周围环境以避免摔倒。",
+      "solution_for_hazard_source": "办公室应确保地面清洁，无任何可能导致滑倒和摔倒的危险因素。",
+      "solution_to_prevent_recurrence": "办公室应提供工作场所安全培训，确保员工了解工作场所中潜在的危险。"
+    },
+    "1": {
+      "risk_description": "穿红色衬衫的人进行了一种平躺在地上的身体活动，这可能会增加跌倒或失去平衡的风险，可能导致受伤。",
+      "normal_video_description": "视频显示一个铺有瓷砖的房间，里面有各种办公家具。一个穿红色衬衫的人进来，进行了一种平躺在地上的身体活动，并得到了其他人的帮助。",
+      "solution_for_person": "在进行涉及平躺在地上的身体活动时，确保有适当的监督，以防止跌倒或失去平衡。",
+      "solution_for_hazard_source": "",
+      "solution_to_prevent_recurrence": "在较软的表面上或使用额外支撑进行类似活动，以减少跌倒造成伤害的风险。"
+    },
+    "2": {
+      "risk_description": "一个穿红色衬衫的人走进房间，坐在椅子上，然后突然平摔在地上。这个动作很突然，导致完全失去平衡，明显是一次不稳定事件。",
+      "normal_video_description": "",
+      "solution_for_person": "人员应立即站起来检查是否受伤。如果疼痛或头晕持续，应寻求医疗帮助。",
+      "solution_for_hazard_source": "确保椅子稳定且放置在平坦的表面上。清除地板上任何可能的绊倒危险物。",
+      "solution_to_prevent_recurrence": "建议人员在坐下时要小心，确保在做出突然动作前保持平衡。定期检查家具的稳定性。"
+    },
+    "3": {
+      "risk_description": "人员躺在地上，这可能会造成滑倒或摔倒的风险，特别是如果他们行动不便或正在康复中。",
+      "normal_video_description": "",
+      "solution_for_person": "确保人员了解周围环境，并在他们在地板上时提供必要的帮助。",
+      "solution_for_hazard_source": "清除地板上任何可能导致绊倒或摔倒的物体。",
+      "solution_to_prevent_recurrence": "保持地面整洁干净，最大限度地减少跌倒风险。"
+    },
+    "4": {
+      "risk_description": "看到穿红色衬衫的人跑过房间，然后摔倒在地，这可能导致严重伤害。这种行为存在跌倒/不稳定风险。",
+      "normal_video_description": "",
+      "solution_for_person": "确保人员在从事可能导致绊倒或摔倒的活动之前了解周围环境和任何潜在危险。",
+      "solution_for_hazard_source": "清除地板上的绊倒危险物，如电线或可能导致人绊倒的物体。",
+      "solution_to_prevent_recurrence": "鼓励人员在房间里走动时小心谨慎，注意脚下以避免事故。"
+    }
+  }
+}

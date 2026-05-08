@@ -1,0 +1,40 @@
+{
+  "video_key": "UR_Fall_Dataset/fall-22-cam0",
+  "translations": {
+    "0": {
+      "risk_description": "在视频中可以看到这位年轻人弯腰伸手去拿地板上的东西，这可能会导致他们失去平衡而跌倒。该行为是一种风险异常，因为它偏离了在研究中坐着或站立时的正常日常行为。",
+      "normal_video_description": "",
+      "solution_for_person": "应当提醒该人保持正确的姿势，避免在研究期间坐着或站立时伸手去拿地板上的物品。",
+      "solution_for_hazard_source": "危险来源是地板，地板可能湿滑或不平，导致该人失去平衡。",
+      "solution_to_prevent_recurrence": "应鼓励该人在研究期间使用脚凳或其他支撑物去够取地板上的物品，以防止跌倒。"
+    },
+    "1": {
+      "risk_description": "该人以坐姿躺在地板上，这会增加跌倒的风险，并因不稳而导致潜在伤害。",
+      "normal_video_description": "视频显示一个人在类似研究室的房间里坐在桌子旁，然后以坐姿躺在地板上。",
+      "solution_for_person": "避免以坐姿躺在地板上，以降低跌倒的风险。",
+      "solution_for_hazard_source": "",
+      "solution_to_prevent_recurrence": "确保该人正确坐在椅子上，避免躺在地板上。"
+    },
+    "2": {
+      "risk_description": "",
+      "normal_video_description": "一位年轻人在研究房间里坐在椅子上，随后前倾并向后倒向地板。该动作似乎是自发失去平衡或玩耍式的动作，而非危险事件。",
+      "solution_for_person": "",
+      "solution_for_hazard_source": "",
+      "solution_to_prevent_recurrence": ""
+    },
+    "3": {
+      "risk_description": "该人从椅子上向后倒下，这可能会造成受伤风险，尤其是如果他们在跌倒时撞到头部或受到其他伤害。",
+      "normal_video_description": "",
+      "solution_for_person": "确保该人坐得稳固，并提醒他们在坐着时保持脚放在地面上，以防止跌倒。",
+      "solution_for_hazard_source": "摆放家具以提供稳固的座位区域，并确保有足够的空间以防止绊倒或跌倒。",
+      "solution_to_prevent_recurrence": "使用带有扶手的椅子以增加稳定性，并鼓励在地板上使用防滑垫。"
+    },
+    "4": {
+      "risk_description": "该儿童正在尝试爬上椅子，这是一种冒险行为，可能导致跌倒和潜在伤害。办公室环境因电线和其他物品的存在而增加额外风险，若儿童跌倒可能被撞倒或造成伤害。",
+      "normal_video_description": "",
+      "solution_for_person": "确保该儿童受到监督，并在办公室空间内提供安全玩耍的指导。",
+      "solution_for_hazard_source": "移除地板上不必要的物品，以最大程度降低绊倒或跌倒的风险。",
+      "solution_to_prevent_recurrence": "在办公区域制定明确的玩耍规则和界限，以防止类似事件再次发生。"
+    }
+  }
+}

@@ -1,0 +1,40 @@
+{
+  "video_key": "toyota_smarthome_mp4/mp4/Getup_p14_r15_v02_c05",
+  "translations": {
+    "0": {
+      "risk_description": "看到一个年轻人弯腰伸手去拿地板上的东西，这可能会导致他们失去平衡而摔倒。此外，茶几上有几个物品可能会被撞倒造成伤害。",
+      "normal_video_description": "",
+      "solution_for_person": "年轻人应该更加注意周围环境，避免在坐在沙发上时伸手去拿地板上的东西。他们还应该考虑使用脚凳或其他支撑来帮助保持平衡。",
+      "solution_for_hazard_source": "茶几应该清理干净任何可能被撞倒造成伤害的物品。",
+      "solution_to_prevent_recurrence": "应该提醒年轻人在伸手去拿地板上的东西时更加小心，必要时使用支撑。茶几应该定期清理任何可能构成危险的物品。"
+    },
+    "1": {
+      "risk_description": "",
+      "normal_video_description": "一个年轻人坐在客厅的沙发上，然后站起来走开。房间光线充足，包含典型的家具和装饰。",
+      "solution_for_person": "",
+      "solution_for_hazard_source": "",
+      "solution_to_prevent_recurrence": ""
+    },
+    "2": {
+      "risk_description": "",
+      "normal_video_description": "一个中年人出现在客厅里，最初坐在绿色沙发上，然后站起来走向电视区域。环境看起来平静有序，没有明显的危险或不安全条件。",
+      "solution_for_person": "",
+      "solution_for_hazard_source": "",
+      "solution_to_prevent_recurrence": ""
+    },
+    "3": {
+      "risk_description": "这个人正弯腰趴在沙发上，这可能导致摔倒或不稳定，特别是如果他们失去平衡的话。",
+      "normal_video_description": "",
+      "solution_for_person": "确保这个人在弯腰时保持稳定的姿势，必要时考虑使用支撑。",
+      "solution_for_hazard_source": "保持客厅畅通无阻，减少绊倒或摔倒的风险。",
+      "solution_to_prevent_recurrence": "鼓励在伸手取低处物品时使用稳定的椅子或凳子。"
+    },
+    "4": {
+      "risk_description": "这个人有从沙发上摔下来的风险，这可能导致严重伤害。摔倒可能导致一系列伤害，包括骨折、扭伤，甚至头部外伤。",
+      "normal_video_description": "",
+      "solution_for_person": "确保这个人在从沙发上站起来之前先坐好，以避免摔倒。",
+      "solution_for_hazard_source": "",
+      "solution_to_prevent_recurrence": "鼓励这个人在沙发上改变姿势时缓慢而小心地移动。"
+    }
+  }
+}

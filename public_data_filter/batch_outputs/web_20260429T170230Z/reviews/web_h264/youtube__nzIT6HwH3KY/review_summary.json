@@ -1,0 +1,478 @@
+{
+  "manifest": {
+    "video_path": "/data_4/liuyuan/lifebench/data/public_data/web_h264/youtube__nzIT6HwH3KY.mp4",
+    "rule_path": "/data_4/liuyuan/lifebench/public_data_filter/rule.md",
+    "prompt_language": "en",
+    "output_schema_version": "risk_full_en_v2",
+    "candidate_text": null,
+    "seed": 0,
+    "persistent_runner": true,
+    "reuse_agent_outputs": true,
+    "early_stop_majority": false,
+    "model_pool": [
+      {
+        "model_id": "Qwen/Qwen3.5-9B",
+        "backend": "qwen35vl"
+      },
+      {
+        "model_id": "openbmb/MiniCPM-V-4_5",
+        "backend": "minicpmv45"
+      },
+      {
+        "model_id": "mPLUG/mPLUG-Owl3-7B-241101",
+        "backend": "mplugowl3"
+      },
+      {
+        "model_id": "DAMO-NLP-SG/VideoLLaMA3-7B",
+        "backend": "videollama3"
+      },
+      {
+        "model_id": "OpenGVLab/InternVL3_5-8B",
+        "backend": "internvl35"
+      }
+    ],
+    "assignments": [
+      {
+        "perspective": {
+          "index": 1,
+          "name": "Daily Behavior Baseline Perspective",
+          "prompt": "You are acting as a daily-behavior baseline reviewer.\nYour task is to judge, from ordinary household experience, whether a candidate behavior clearly deviates from acceptable daily behavior and should be kept as a risk anomaly.\n\nFollow these principles:\n- Use common behavior patterns in ordinary home environments as the reference point. Do not use an overly sensitive or overly permissive standard.\n- If a behavior is usually normal, brief, and acceptable in most household scenes, do not easily mark it as a risk anomaly.\n- If a behavior clearly exceeds the normal range of daily activities and shows instability, a safety trigger, or potential harm, mark it as a risk anomaly.\n- For borderline cases, focus on whether the behavior has shifted from an acceptable daily activity into an abnormal risk behavior that deserves attention.\n- Keep the judgment close to ordinary common sense rather than medical, legal, or extreme safety standards.\n\nOutput requirements for this perspective:\n- Explain whether the behavior clearly deviates from the daily behavior baseline.\n- Keep the explanation concise, specific, and grounded only in the video content.\n- Do not mark a behavior as anomalous merely because it looks active.\n- Do not assume extra events outside the video."
+        },
+        "model": {
+          "model_id": "mPLUG/mPLUG-Owl3-7B-241101",
+          "backend": "mplugowl3"
+        }
+      },
+      {
+        "perspective": {
+          "index": 2,
+          "name": "Conservative Safety Perspective",
+          "prompt": "You are acting as a conservative safety reviewer.\nYour task is to minimize missed risks. If a candidate behavior has a realistic possibility of injury, loss of control, or accident triggering, it may be kept as a risk anomaly.\n\nFollow these principles:\n- Apply a cautious safety standard, prioritizing behaviors that may lead to falls, collisions, burns, electric shock, accidental ingestion, cuts, or other household injuries.\n- Even if harm has not occurred yet, keep the behavior if it already contains a clear risk trigger or is in an accident-prone state.\n- For borderline cases, focus on whether the behavior deserves early intervention rather than waiting for harm to happen.\n- If a behavior would commonly be stopped or warned against by family members, guardians, or caregivers, lean toward keeping it.\n- The goal is to reduce false negatives, so ambiguous cases may be judged slightly conservatively.\n\nOutput requirements for this perspective:\n- Explain what realistic harm the behavior may trigger and why it should or should not be kept under a conservative safety standard.\n- You do not need to prove that harm will definitely occur.\n- Do not exaggerate beyond an ordinary household context."
+        },
+        "model": {
+          "model_id": "openbmb/MiniCPM-V-4_5",
+          "backend": "minicpmv45"
+        }
+      },
+      {
+        "perspective": {
+          "index": 3,
+          "name": "Permissive Behavior Tolerance Perspective",
+          "prompt": "You are acting as a permissive behavior-tolerance reviewer.\nYour task is to judge from a higher tolerance threshold whether a candidate behavior truly reaches the level of a risk anomaly. Only keep it when the behavior clearly exceeds normal activity, playfulness, exploration, or brief mistakes.\n\nFollow these principles:\n- Maintain reasonable tolerance for common active behavior, brief imbalance, and minor irregular actions in household scenes.\n- Keep a behavior only when it has clear, direct, and realistic danger, or when it clearly leaves the boundary of generally acceptable daily behavior.\n- If a behavior has some uncertainty but commonly occurs in real life and would not usually be considered dangerous enough for special intervention, lean toward not keeping it.\n- For borderline cases, prioritize avoiding over-definition of ordinary life behavior as abnormal.\n- The goal is to reduce false positives, so keep only when the evidence is reasonably strong.\n\nOutput requirements for this perspective:\n- Explain whether the behavior remains within a tolerable daily behavior range.\n- Do not keep a behavior merely because it has a small possible risk.\n- Do not automatically treat all child play, pet activity, slow elderly movement, or similar ordinary behavior as abnormal."
+        },
+        "model": {
+          "model_id": "Qwen/Qwen3.5-9B",
+          "backend": "qwen35vl"
+        }
+      },
+      {
+        "perspective": {
+          "index": 4,
+          "name": "Vulnerable-Subject-First Perspective",
+          "prompt": "You are acting as a vulnerable-subject-first reviewer.\nYour task is to judge the candidate behavior with priority given to the safety of children, older adults, people with limited mobility, people recovering from illness, pregnant people, pets, or other vulnerable subjects. If the behavior creates a realistic additional risk for a vulnerable subject, lean toward keeping it as a risk anomaly.\n\nFollow these principles:\n- Focus on whether the behavior creates disproportionate risk for a subject with weaker body control, weaker risk awareness, or limited self-protection ability.\n- A behavior that may not be abnormal for an ordinary adult can still be a risk anomaly if its danger clearly increases for a child, older adult, pet, or other vulnerable subject.\n- For borderline cases, consider whether the vulnerable subject would have more difficulty avoiding injury, would suffer more serious consequences, or would receive help more slowly.\n- In caregiving, companionship, or household life scenes, pay special attention to insufficient supervision, missing protection, or an environment that does not fit the subject's needs.\n- The core standard is not whether the behavior is dangerous for an average adult, but whether it has reached a level requiring attention or intervention for the vulnerable subject shown in the video.\n\nOutput requirements for this perspective:\n- Explain the specific risk to the vulnerable subject, if one is present.\n- Do not invent illness, disability, age, or severe impairment that is not supported by the video.\n- Do not generalize vulnerability without evidence from the video."
+        },
+        "model": {
+          "model_id": "OpenGVLab/InternVL3_5-8B",
+          "backend": "internvl35"
+        }
+      },
+      {
+        "perspective": {
+          "index": 5,
+          "name": "Consequence-Severity-First Perspective",
+          "prompt": "You are acting as a consequence-severity-first reviewer.\nYour task is to focus on whether the potential consequences of a risk event would be serious, hard to reverse, or costly to intervene in. Even if the probability is not the highest, keep the behavior if the realistic potential consequence is severe enough.\n\nFollow these principles:\n- Prioritize behaviors that could realistically lead to severe injury, long-term impact, emergency medical care, lasting functional impairment, or major property or environmental damage.\n- Judge not only whether an accident is likely, but also how costly the consequence would be if it occurred.\n- For borderline cases, analyze whether the most realistic negative consequence is already too significant to ignore.\n- If a behavior may lead to burns from heat, electric shock, falling from height, severe collision, poisoning, suffocation, or other serious outcomes, lean toward keeping it.\n- The standard emphasizes prevention of severe consequences, so low-probability but high-damage scenarios may justify keeping the behavior.\n\nOutput requirements for this perspective:\n- Explain the realistic severity of the possible consequence if the behavior develops into an accident.\n- Do not exaggerate minor or unimportant consequences.\n- Do not rely on extremely rare catastrophic scenarios without realistic support from the video."
+        },
+        "model": {
+          "model_id": "DAMO-NLP-SG/VideoLLaMA3-7B",
+          "backend": "videollama3"
+        }
+      }
+    ]
+  },
+  "agent_results": [
+    {
+      "perspective": {
+        "index": 1,
+        "name": "Daily Behavior Baseline Perspective",
+        "prompt": "You are acting as a daily-behavior baseline reviewer.\nYour task is to judge, from ordinary household experience, whether a candidate behavior clearly deviates from acceptable daily behavior and should be kept as a risk anomaly.\n\nFollow these principles:\n- Use common behavior patterns in ordinary home environments as the reference point. Do not use an overly sensitive or overly permissive standard.\n- If a behavior is usually normal, brief, and acceptable in most household scenes, do not easily mark it as a risk anomaly.\n- If a behavior clearly exceeds the normal range of daily activities and shows instability, a safety trigger, or potential harm, mark it as a risk anomaly.\n- For borderline cases, focus on whether the behavior has shifted from an acceptable daily activity into an abnormal risk behavior that deserves attention.\n- Keep the judgment close to ordinary common sense rather than medical, legal, or extreme safety standards.\n\nOutput requirements for this perspective:\n- Explain whether the behavior clearly deviates from the daily behavior baseline.\n- Keep the explanation concise, specific, and grounded only in the video content.\n- Do not mark a behavior as anomalous merely because it looks active.\n- Do not assume extra events outside the video."
+      },
+      "model": {
+        "model_id": "mPLUG/mPLUG-Owl3-7B-241101",
+        "backend": "mplugowl3"
+      },
+      "prompt_file": "/data_4/liuyuan/lifebench/public_data_filter/batch_outputs/web_20260429T170230Z/reviews/web_h264/youtube__nzIT6HwH3KY/prompts/01_Daily_Behavior_Baseline_Perspective.txt",
+      "output_json": "/data_4/liuyuan/lifebench/public_data_filter/batch_outputs/web_20260429T170230Z/reviews/web_h264/youtube__nzIT6HwH3KY/agent_outputs/01_Daily_Behavior_Baseline_Perspective.json",
+      "stdout_log": "/data_4/liuyuan/lifebench/public_data_filter/batch_outputs/web_20260429T170230Z/reviews/web_h264/youtube__nzIT6HwH3KY/logs/01_Daily_Behavior_Baseline_Perspective.stdout.log",
+      "stderr_log": "/data_4/liuyuan/lifebench/public_data_filter/batch_outputs/web_20260429T170230Z/reviews/web_h264/youtube__nzIT6HwH3KY/logs/01_Daily_Behavior_Baseline_Perspective.stderr.log",
+      "worker_id": "07_mplugowl3_gpu6",
+      "gpu_id": "6",
+      "returncode": 0,
+      "elapsed_seconds": 11.135,
+      "response": "Risk presence: Yes\nLevel 1 scene: living room\nLevel 2 subject: child\nLevel 3 risk type: fall/instability\nRisk description: The child is playing near the stairs, which could lead to a fall if they lose their balance.\nRisk time interval: [0, 10]\nSolution for person: Adult supervision is needed to ensure the child's safety while playing near the stairs.\nSolution for hazard source: The stairs should be made safer for the child by adding railings or padding.\nSolution to prevent recurrence: The child should be taught to be cautious while playing near the stairs, and the area should be regularly checked for any potential hazards.",
+      "parsed_decision": {
+        "candidate_behavior": "",
+        "risk_presence_raw": "Yes",
+        "risk_presence": "Yes",
+        "keep_raw": "Yes",
+        "keep": true,
+        "level1_scene": "living room",
+        "level2_subject": "child",
+        "level3_risk_type": "fall/instability",
+        "risk_description": "The child is playing near the stairs, which could lead to a fall if they lose their balance.",
+        "risk_time_interval": "[0, 10]",
+        "solution_for_person": "Adult supervision is needed to ensure the child's safety while playing near the stairs.",
+        "solution_for_hazard_source": "The stairs should be made safer for the child by adding railings or padding.",
+        "solution_to_prevent_recurrence": "The child should be taught to be cautious while playing near the stairs, and the area should be regularly checked for any potential hazards.",
+        "normal_video_description": "",
+        "reason": ""
+      },
+      "runner_payload": {
+        "backend": "mplugowl3",
+        "description": "mPLUG-Owl3 video chat model",
+        "model_id": "mPLUG/mPLUG-Owl3-7B-241101",
+        "model_path": "/data_4/liuyuan/lifebench/models/mPLUG__mPLUG-Owl3-7B-241101",
+        "video_path": "/data_4/liuyuan/lifebench/data/public_data/web_h264/youtube__nzIT6HwH3KY.mp4",
+        "prompt": "You are acting as a daily-behavior baseline reviewer.\nYour task is to judge, from ordinary household experience, whether a candidate behavior clearly deviates from acceptable daily behavior and should be kept as a risk anomaly.\n\nFollow these principles:\n- Use common behavior patterns in ordinary home environments as the reference point. Do not use an overly sensitive or overly permissive standard.\n- If a behavior is usually normal, brief, and acceptable in most household scenes, do not easily mark it as a risk anomaly.\n- If a behavior clearly exceeds the normal range of daily activities and shows instability, a safety trigger, or potential harm, mark it as a risk anomaly.\n- For borderline cases, focus on whether the behavior has shifted from an acceptable daily activity into an abnormal risk behavior that deserves attention.\n- Keep the judgment close to ordinary common sense rather than medical, legal, or extreme safety standards.\n\nOutput requirements for this perspective:\n- Explain whether the behavior clearly deviates from the daily behavior baseline.\n- Keep the explanation concise, specific, and grounded only in the video content.\n- Do not mark a behavior as anomalous merely because it looks active.\n- Do not assume extra events outside the video.\n\nTask addendum:\nReview the input video and first decide whether the video contains a risk.\nBase your judgment only on the video content. Do not assume facts outside the video, and do not invent extra events.\nJudge the main visible behavior and scene in the video.\nYou must answer based on the provided video input. Do not say that you cannot watch or inspect the video.\nOutput exactly the following English-labeled fields, with no markdown and no extra text:\nRisk presence: Yes / No\nLevel 1 scene: output one scene keyword. Prefer one of: dining room, kitchen, study, balcony, living room, bathroom, yard. If none fits, output your own concise scene keyword.\nLevel 2 subject: output one subject keyword. Prefer one of: child, older adult, young adult, middle-aged adult. If none fits, output your own concise subject keyword.\nLevel 3 risk type: if Risk presence is Yes, output one risk keyword. Prefer one of: fall/instability, heat/fire source, collision/crush injury, sharp-object danger, electrical safety, poisoning/accidental ingestion, interpersonal conflict. If none fits, output your own concise risk keyword. If Risk presence is No, output None.\nRisk description: if Risk presence is Yes, describe the risk in 1-3 sentences. If Risk presence is No, output None.\nRisk time interval: if Risk presence is Yes, localize the risk as seconds like [start,end]. If there are multiple intervals, separate them with semicolons. If the exact interval is unclear, output Unknown. If Risk presence is No, output None.\nSolution for person: if Risk presence is Yes, give a concrete action for the person or caregiver. If Risk presence is No, output None.\nSolution for hazard source: if Risk presence is Yes, give a concrete action for the hazard source or environment. If Risk presence is No, output None.\nSolution to prevent recurrence: if Risk presence is Yes, give a prevention measure to reduce recurrence. If Risk presence is No, output None.\nNormal video description: if Risk presence is No, describe the normal video content in 1-3 sentences. If Risk presence is Yes, output None.",
+        "response": "Risk presence: Yes\nLevel 1 scene: living room\nLevel 2 subject: child\nLevel 3 risk type: fall/instability\nRisk description: The child is playing near the stairs, which could lead to a fall if they lose their balance.\nRisk time interval: [0, 10]\nSolution for person: Adult supervision is needed to ensure the child's safety while playing near the stairs.\nSolution for hazard source: The stairs should be made safer for the child by adding railings or padding.\nSolution to prevent recurrence: The child should be taught to be cautious while playing near the stairs, and the area should be regularly checked for any potential hazards.",
+        "parsed_response": {
+          "risk_status": "normal",
+          "has_risk": false,
+          "risk_type": "",
+          "video_description": "Risk presence: Yes Level 1 scene: living room Level 2 subject: child Level 3 risk type: fall/instability Risk description: The child is playing near the stairs, which could lead to a fall if they lose their balance. Risk time interval: [0, 10] Solution for person: Adult supervision is needed to ensure the child's safety while playing near the stairs. Solution for hazard source: The stairs should be made safer for the child by adding railings or padding. Solution to prevent recurrence: The child should be taught to be cautious while playing near the stairs, and the area should be regularly checked for any potential hazards.",
+          "safe_segment_desc": "Risk presence: Yes Level 1 scene: living room Level 2 subject: child Level 3 risk type: fall/instability Risk description: The child is playing near the stairs, which could lead to a fall if they lose their balance. Risk time interval: [0, 10] Solution for person: Adult supervision is needed to ensure the child's safety while playing near the stairs. Solution for hazard source: The stairs should be made safer for the child by adding railings or padding. Solution to prevent recurrence: The child should be taught to be cautious while playing near the stairs, and the area should be regularly checked for any potential hazards.",
+          "risk_description": "",
+          "solution": "",
+          "time_spans": []
+        },
+        "generation": {
+          "temperature": 0.0,
+          "top_p": 0.9,
+          "max_new_tokens": 256,
+          "fps": 1.0,
+          "max_frames": 16,
+          "merge_size": 2
+        },
+        "elapsed_seconds": 11.135
+      }
+    },
+    {
+      "perspective": {
+        "index": 2,
+        "name": "Conservative Safety Perspective",
+        "prompt": "You are acting as a conservative safety reviewer.\nYour task is to minimize missed risks. If a candidate behavior has a realistic possibility of injury, loss of control, or accident triggering, it may be kept as a risk anomaly.\n\nFollow these principles:\n- Apply a cautious safety standard, prioritizing behaviors that may lead to falls, collisions, burns, electric shock, accidental ingestion, cuts, or other household injuries.\n- Even if harm has not occurred yet, keep the behavior if it already contains a clear risk trigger or is in an accident-prone state.\n- For borderline cases, focus on whether the behavior deserves early intervention rather than waiting for harm to happen.\n- If a behavior would commonly be stopped or warned against by family members, guardians, or caregivers, lean toward keeping it.\n- The goal is to reduce false negatives, so ambiguous cases may be judged slightly conservatively.\n\nOutput requirements for this perspective:\n- Explain what realistic harm the behavior may trigger and why it should or should not be kept under a conservative safety standard.\n- You do not need to prove that harm will definitely occur.\n- Do not exaggerate beyond an ordinary household context."
+      },
+      "model": {
+        "model_id": "openbmb/MiniCPM-V-4_5",
+        "backend": "minicpmv45"
+      },
+      "prompt_file": "/data_4/liuyuan/lifebench/public_data_filter/batch_outputs/web_20260429T170230Z/reviews/web_h264/youtube__nzIT6HwH3KY/prompts/02_Conservative_Safety_Perspective.txt",
+      "output_json": "/data_4/liuyuan/lifebench/public_data_filter/batch_outputs/web_20260429T170230Z/reviews/web_h264/youtube__nzIT6HwH3KY/agent_outputs/02_Conservative_Safety_Perspective.json",
+      "stdout_log": "/data_4/liuyuan/lifebench/public_data_filter/batch_outputs/web_20260429T170230Z/reviews/web_h264/youtube__nzIT6HwH3KY/logs/02_Conservative_Safety_Perspective.stdout.log",
+      "stderr_log": "/data_4/liuyuan/lifebench/public_data_filter/batch_outputs/web_20260429T170230Z/reviews/web_h264/youtube__nzIT6HwH3KY/logs/02_Conservative_Safety_Perspective.stderr.log",
+      "worker_id": null,
+      "gpu_id": null,
+      "returncode": 0,
+      "elapsed_seconds": 0.0,
+      "reused_agent_output": true,
+      "response": "Risk presence: Yes\nLevel 1 scene: living room\nLevel 2 subject: child\nLevel 3 risk type: heat/fire source\nRisk description: A fire is visible near the kitchen area, posing a risk of burns or smoke inhalation to the child and others in the vicinity.\nRisk time interval: Unknown\nSolution for person: The child should be quickly moved away from the fire area to a safe location.\nSolution for hazard source: The fire should be extinguished immediately using a fire extinguisher or by calling emergency services.\nSolution to prevent recurrence: Install smoke detectors and fire extinguishers in the home, and ensure all family members know how to use them. Keep flammable materials away from heat sources.\nNormal video description: The video shows a living room where a fire breaks out near the kitchen, with a child present and reacting to the situation.",
+      "parsed_decision": {
+        "candidate_behavior": "",
+        "risk_presence_raw": "Yes",
+        "risk_presence": "Yes",
+        "keep_raw": "Yes",
+        "keep": true,
+        "level1_scene": "living room",
+        "level2_subject": "child",
+        "level3_risk_type": "heat/fire source",
+        "risk_description": "A fire is visible near the kitchen area, posing a risk of burns or smoke inhalation to the child and others in the vicinity.",
+        "risk_time_interval": "Unknown",
+        "solution_for_person": "The child should be quickly moved away from the fire area to a safe location.",
+        "solution_for_hazard_source": "The fire should be extinguished immediately using a fire extinguisher or by calling emergency services.",
+        "solution_to_prevent_recurrence": "Install smoke detectors and fire extinguishers in the home, and ensure all family members know how to use them. Keep flammable materials away from heat sources.",
+        "normal_video_description": "The video shows a living room where a fire breaks out near the kitchen, with a child present and reacting to the situation.",
+        "reason": ""
+      },
+      "runner_payload": {
+        "backend": "minicpmv45",
+        "description": "MiniCPM-V 4.5 efficient image/video understanding model",
+        "model_id": "openbmb/MiniCPM-V-4_5",
+        "model_path": "/data_4/liuyuan/lifebench/models/openbmb__MiniCPM-V-4_5",
+        "video_path": "/data_4/liuyuan/lifebench/data/public_data/web_h264/youtube__nzIT6HwH3KY.mp4",
+        "prompt": "You are acting as a conservative safety reviewer.\nYour task is to minimize missed risks. If a candidate behavior has a realistic possibility of injury, loss of control, or accident triggering, it may be kept as a risk anomaly.\n\nFollow these principles:\n- Apply a cautious safety standard, prioritizing behaviors that may lead to falls, collisions, burns, electric shock, accidental ingestion, cuts, or other household injuries.\n- Even if harm has not occurred yet, keep the behavior if it already contains a clear risk trigger or is in an accident-prone state.\n- For borderline cases, focus on whether the behavior deserves early intervention rather than waiting for harm to happen.\n- If a behavior would commonly be stopped or warned against by family members, guardians, or caregivers, lean toward keeping it.\n- The goal is to reduce false negatives, so ambiguous cases may be judged slightly conservatively.\n\nOutput requirements for this perspective:\n- Explain what realistic harm the behavior may trigger and why it should or should not be kept under a conservative safety standard.\n- You do not need to prove that harm will definitely occur.\n- Do not exaggerate beyond an ordinary household context.\n\nTask addendum:\nReview the input video and first decide whether the video contains a risk.\nBase your judgment only on the video content. Do not assume facts outside the video, and do not invent extra events.\nJudge the main visible behavior and scene in the video.\nYou must answer based on the provided video input. Do not say that you cannot watch or inspect the video.\nOutput exactly the following English-labeled fields, with no markdown and no extra text:\nRisk presence: Yes / No\nLevel 1 scene: output one scene keyword. Prefer one of: dining room, kitchen, study, balcony, living room, bathroom, yard. If none fits, output your own concise scene keyword.\nLevel 2 subject: output one subject keyword. Prefer one of: child, older adult, young adult, middle-aged adult. If none fits, output your own concise subject keyword.\nLevel 3 risk type: if Risk presence is Yes, output one risk keyword. Prefer one of: fall/instability, heat/fire source, collision/crush injury, sharp-object danger, electrical safety, poisoning/accidental ingestion, interpersonal conflict. If none fits, output your own concise risk keyword. If Risk presence is No, output None.\nRisk description: if Risk presence is Yes, describe the risk in 1-3 sentences. If Risk presence is No, output None.\nRisk time interval: if Risk presence is Yes, localize the risk as seconds like [start,end]. If there are multiple intervals, separate them with semicolons. If the exact interval is unclear, output Unknown. If Risk presence is No, output None.\nSolution for person: if Risk presence is Yes, give a concrete action for the person or caregiver. If Risk presence is No, output None.\nSolution for hazard source: if Risk presence is Yes, give a concrete action for the hazard source or environment. If Risk presence is No, output None.\nSolution to prevent recurrence: if Risk presence is Yes, give a prevention measure to reduce recurrence. If Risk presence is No, output None.\nNormal video description: if Risk presence is No, describe the normal video content in 1-3 sentences. If Risk presence is Yes, output None.",
+        "response": "Risk presence: Yes\nLevel 1 scene: living room\nLevel 2 subject: child\nLevel 3 risk type: heat/fire source\nRisk description: A fire is visible near the kitchen area, posing a risk of burns or smoke inhalation to the child and others in the vicinity.\nRisk time interval: Unknown\nSolution for person: The child should be quickly moved away from the fire area to a safe location.\nSolution for hazard source: The fire should be extinguished immediately using a fire extinguisher or by calling emergency services.\nSolution to prevent recurrence: Install smoke detectors and fire extinguishers in the home, and ensure all family members know how to use them. Keep flammable materials away from heat sources.\nNormal video description: The video shows a living room where a fire breaks out near the kitchen, with a child present and reacting to the situation.",
+        "parsed_response": {
+          "risk_status": "normal",
+          "has_risk": false,
+          "risk_type": "",
+          "video_description": "Risk presence: Yes Level 1 scene: living room Level 2 subject: child Level 3 risk type: heat/fire source Risk description: A fire is visible near the kitchen area, posing a risk of burns or smoke inhalation to the child and others in the vicinity. Risk time interval: Unknown Solution for person: The child should be quickly moved away from the fire area to a safe location. Solution for hazard source: The fire should be extinguished immediately using a fire extinguisher or by calling emergency services. Solution to prevent recurrence: Install smoke detectors and fire extinguishers in the home, and ensure all family members know how to use them. Keep flammable materials away from heat sources. Normal video description: The video shows a living room where a fire breaks out near the kitchen, with a child present and reacting to the situation.",
+          "safe_segment_desc": "Risk presence: Yes Level 1 scene: living room Level 2 subject: child Level 3 risk type: heat/fire source Risk description: A fire is visible near the kitchen area, posing a risk of burns or smoke inhalation to the child and others in the vicinity. Risk time interval: Unknown Solution for person: The child should be quickly moved away from the fire area to a safe location. Solution for hazard source: The fire should be extinguished immediately using a fire extinguisher or by calling emergency services. Solution to prevent recurrence: Install smoke detectors and fire extinguishers in the home, and ensure all family members know how to use them. Keep flammable materials away from heat sources. Normal video description: The video shows a living room where a fire breaks out near the kitchen, with a child present and reacting to the situation.",
+          "risk_description": "",
+          "solution": "",
+          "time_spans": []
+        },
+        "generation": {
+          "temperature": 0.0,
+          "top_p": 0.9,
+          "max_new_tokens": 256,
+          "fps": 1.0,
+          "max_frames": 16,
+          "merge_size": 2
+        },
+        "elapsed_seconds": 38.996
+      }
+    },
+    {
+      "perspective": {
+        "index": 3,
+        "name": "Permissive Behavior Tolerance Perspective",
+        "prompt": "You are acting as a permissive behavior-tolerance reviewer.\nYour task is to judge from a higher tolerance threshold whether a candidate behavior truly reaches the level of a risk anomaly. Only keep it when the behavior clearly exceeds normal activity, playfulness, exploration, or brief mistakes.\n\nFollow these principles:\n- Maintain reasonable tolerance for common active behavior, brief imbalance, and minor irregular actions in household scenes.\n- Keep a behavior only when it has clear, direct, and realistic danger, or when it clearly leaves the boundary of generally acceptable daily behavior.\n- If a behavior has some uncertainty but commonly occurs in real life and would not usually be considered dangerous enough for special intervention, lean toward not keeping it.\n- For borderline cases, prioritize avoiding over-definition of ordinary life behavior as abnormal.\n- The goal is to reduce false positives, so keep only when the evidence is reasonably strong.\n\nOutput requirements for this perspective:\n- Explain whether the behavior remains within a tolerable daily behavior range.\n- Do not keep a behavior merely because it has a small possible risk.\n- Do not automatically treat all child play, pet activity, slow elderly movement, or similar ordinary behavior as abnormal."
+      },
+      "model": {
+        "model_id": "Qwen/Qwen3.5-9B",
+        "backend": "qwen35vl"
+      },
+      "prompt_file": "/data_4/liuyuan/lifebench/public_data_filter/batch_outputs/web_20260429T170230Z/reviews/web_h264/youtube__nzIT6HwH3KY/prompts/03_Permissive_Behavior_Tolerance_Perspective.txt",
+      "output_json": "/data_4/liuyuan/lifebench/public_data_filter/batch_outputs/web_20260429T170230Z/reviews/web_h264/youtube__nzIT6HwH3KY/agent_outputs/03_Permissive_Behavior_Tolerance_Perspective.json",
+      "stdout_log": "/data_4/liuyuan/lifebench/public_data_filter/batch_outputs/web_20260429T170230Z/reviews/web_h264/youtube__nzIT6HwH3KY/logs/03_Permissive_Behavior_Tolerance_Perspective.stdout.log",
+      "stderr_log": "/data_4/liuyuan/lifebench/public_data_filter/batch_outputs/web_20260429T170230Z/reviews/web_h264/youtube__nzIT6HwH3KY/logs/03_Permissive_Behavior_Tolerance_Perspective.stderr.log",
+      "worker_id": null,
+      "gpu_id": null,
+      "returncode": 0,
+      "elapsed_seconds": 0.0,
+      "reused_agent_output": true,
+      "response": "Risk presence: Yes\nLevel 1 scene: kitchen\nLevel 2 subject: child\nLevel 3 risk type: heat/fire source\nRisk description: A child is seen near a kitchen counter where an air fryer suddenly ignites, causing a fire that spreads to nearby items. This represents a clear and direct fire hazard originating from a common household appliance.\nRisk time interval: [0, 10]\nSolution for person: The child should be immediately moved to a safe distance from the fire, and the appliance should be unplugged if it is safe to do so.\nSolution for hazard source: The air fryer should be turned off and unplugged immediately upon detecting the fire.\nSolution to prevent recurrence: Ensure that air fryers and other kitchen appliances are not left unattended while in use, and keep them away from children. Regularly check for any signs of malfunction or overheating.\nNormal video description: None",
+      "parsed_decision": {
+        "candidate_behavior": "",
+        "risk_presence_raw": "Yes",
+        "risk_presence": "Yes",
+        "keep_raw": "Yes",
+        "keep": true,
+        "level1_scene": "kitchen",
+        "level2_subject": "child",
+        "level3_risk_type": "heat/fire source",
+        "risk_description": "A child is seen near a kitchen counter where an air fryer suddenly ignites, causing a fire that spreads to nearby items. This represents a clear and direct fire hazard originating from a common household appliance.",
+        "risk_time_interval": "[0, 10]",
+        "solution_for_person": "The child should be immediately moved to a safe distance from the fire, and the appliance should be unplugged if it is safe to do so.",
+        "solution_for_hazard_source": "The air fryer should be turned off and unplugged immediately upon detecting the fire.",
+        "solution_to_prevent_recurrence": "Ensure that air fryers and other kitchen appliances are not left unattended while in use, and keep them away from children. Regularly check for any signs of malfunction or overheating.",
+        "normal_video_description": "None",
+        "reason": ""
+      },
+      "runner_payload": {
+        "backend": "qwen35vl",
+        "description": "Qwen3.5 multimodal single-video inference",
+        "model_id": "Qwen/Qwen3.5-9B",
+        "model_path": "/data_4/liuyuan/lifebench/models/Qwen/Qwen3.5-9B",
+        "video_path": "/data_4/liuyuan/lifebench/data/public_data/web_h264/youtube__nzIT6HwH3KY.mp4",
+        "prompt": "You are acting as a permissive behavior-tolerance reviewer.\nYour task is to judge from a higher tolerance threshold whether a candidate behavior truly reaches the level of a risk anomaly. Only keep it when the behavior clearly exceeds normal activity, playfulness, exploration, or brief mistakes.\n\nFollow these principles:\n- Maintain reasonable tolerance for common active behavior, brief imbalance, and minor irregular actions in household scenes.\n- Keep a behavior only when it has clear, direct, and realistic danger, or when it clearly leaves the boundary of generally acceptable daily behavior.\n- If a behavior has some uncertainty but commonly occurs in real life and would not usually be considered dangerous enough for special intervention, lean toward not keeping it.\n- For borderline cases, prioritize avoiding over-definition of ordinary life behavior as abnormal.\n- The goal is to reduce false positives, so keep only when the evidence is reasonably strong.\n\nOutput requirements for this perspective:\n- Explain whether the behavior remains within a tolerable daily behavior range.\n- Do not keep a behavior merely because it has a small possible risk.\n- Do not automatically treat all child play, pet activity, slow elderly movement, or similar ordinary behavior as abnormal.\n\nTask addendum:\nReview the input video and first decide whether the video contains a risk.\nBase your judgment only on the video content. Do not assume facts outside the video, and do not invent extra events.\nJudge the main visible behavior and scene in the video.\nYou must answer based on the provided video input. Do not say that you cannot watch or inspect the video.\nOutput exactly the following English-labeled fields, with no markdown and no extra text:\nRisk presence: Yes / No\nLevel 1 scene: output one scene keyword. Prefer one of: dining room, kitchen, study, balcony, living room, bathroom, yard. If none fits, output your own concise scene keyword.\nLevel 2 subject: output one subject keyword. Prefer one of: child, older adult, young adult, middle-aged adult. If none fits, output your own concise subject keyword.\nLevel 3 risk type: if Risk presence is Yes, output one risk keyword. Prefer one of: fall/instability, heat/fire source, collision/crush injury, sharp-object danger, electrical safety, poisoning/accidental ingestion, interpersonal conflict. If none fits, output your own concise risk keyword. If Risk presence is No, output None.\nRisk description: if Risk presence is Yes, describe the risk in 1-3 sentences. If Risk presence is No, output None.\nRisk time interval: if Risk presence is Yes, localize the risk as seconds like [start,end]. If there are multiple intervals, separate them with semicolons. If the exact interval is unclear, output Unknown. If Risk presence is No, output None.\nSolution for person: if Risk presence is Yes, give a concrete action for the person or caregiver. If Risk presence is No, output None.\nSolution for hazard source: if Risk presence is Yes, give a concrete action for the hazard source or environment. If Risk presence is No, output None.\nSolution to prevent recurrence: if Risk presence is Yes, give a prevention measure to reduce recurrence. If Risk presence is No, output None.\nNormal video description: if Risk presence is No, describe the normal video content in 1-3 sentences. If Risk presence is Yes, output None.",
+        "response": "Risk presence: Yes\nLevel 1 scene: kitchen\nLevel 2 subject: child\nLevel 3 risk type: heat/fire source\nRisk description: A child is seen near a kitchen counter where an air fryer suddenly ignites, causing a fire that spreads to nearby items. This represents a clear and direct fire hazard originating from a common household appliance.\nRisk time interval: [0, 10]\nSolution for person: The child should be immediately moved to a safe distance from the fire, and the appliance should be unplugged if it is safe to do so.\nSolution for hazard source: The air fryer should be turned off and unplugged immediately upon detecting the fire.\nSolution to prevent recurrence: Ensure that air fryers and other kitchen appliances are not left unattended while in use, and keep them away from children. Regularly check for any signs of malfunction or overheating.\nNormal video description: None",
+        "parsed_response": {
+          "risk_status": "normal",
+          "has_risk": false,
+          "risk_type": "",
+          "video_description": "Risk presence: Yes Level 1 scene: kitchen Level 2 subject: child Level 3 risk type: heat/fire source Risk description: A child is seen near a kitchen counter where an air fryer suddenly ignites, causing a fire that spreads to nearby items. This represents a clear and direct fire hazard originating from a common household appliance. Risk time interval: [0, 10] Solution for person: The child should be immediately moved to a safe distance from the fire, and the appliance should be unplugged if it is safe to do so. Solution for hazard source: The air fryer should be turned off and unplugged immediately upon detecting the fire. Solution to prevent recurrence: Ensure that air fryers and other kitchen appliances are not left unattended while in use, and keep them away from children. Regularly check for any signs of malfunction or overheating. Normal video description: None",
+          "safe_segment_desc": "Risk presence: Yes Level 1 scene: kitchen Level 2 subject: child Level 3 risk type: heat/fire source Risk description: A child is seen near a kitchen counter where an air fryer suddenly ignites, causing a fire that spreads to nearby items. This represents a clear and direct fire hazard originating from a common household appliance. Risk time interval: [0, 10] Solution for person: The child should be immediately moved to a safe distance from the fire, and the appliance should be unplugged if it is safe to do so. Solution for hazard source: The air fryer should be turned off and unplugged immediately upon detecting the fire. Solution to prevent recurrence: Ensure that air fryers and other kitchen appliances are not left unattended while in use, and keep them away from children. Regularly check for any signs of malfunction or overheating. Normal video description: None",
+          "risk_description": "",
+          "solution": "",
+          "time_spans": []
+        },
+        "generation": {
+          "temperature": 0.0,
+          "top_p": 0.9,
+          "max_new_tokens": 256,
+          "fps": 1.0,
+          "max_frames": 16,
+          "merge_size": 2
+        },
+        "elapsed_seconds": 52.514
+      }
+    },
+    {
+      "perspective": {
+        "index": 4,
+        "name": "Vulnerable-Subject-First Perspective",
+        "prompt": "You are acting as a vulnerable-subject-first reviewer.\nYour task is to judge the candidate behavior with priority given to the safety of children, older adults, people with limited mobility, people recovering from illness, pregnant people, pets, or other vulnerable subjects. If the behavior creates a realistic additional risk for a vulnerable subject, lean toward keeping it as a risk anomaly.\n\nFollow these principles:\n- Focus on whether the behavior creates disproportionate risk for a subject with weaker body control, weaker risk awareness, or limited self-protection ability.\n- A behavior that may not be abnormal for an ordinary adult can still be a risk anomaly if its danger clearly increases for a child, older adult, pet, or other vulnerable subject.\n- For borderline cases, consider whether the vulnerable subject would have more difficulty avoiding injury, would suffer more serious consequences, or would receive help more slowly.\n- In caregiving, companionship, or household life scenes, pay special attention to insufficient supervision, missing protection, or an environment that does not fit the subject's needs.\n- The core standard is not whether the behavior is dangerous for an average adult, but whether it has reached a level requiring attention or intervention for the vulnerable subject shown in the video.\n\nOutput requirements for this perspective:\n- Explain the specific risk to the vulnerable subject, if one is present.\n- Do not invent illness, disability, age, or severe impairment that is not supported by the video.\n- Do not generalize vulnerability without evidence from the video."
+      },
+      "model": {
+        "model_id": "OpenGVLab/InternVL3_5-8B",
+        "backend": "internvl35"
+      },
+      "prompt_file": "/data_4/liuyuan/lifebench/public_data_filter/batch_outputs/web_20260429T170230Z/reviews/web_h264/youtube__nzIT6HwH3KY/prompts/04_Vulnerable-Subject-First_Perspective.txt",
+      "output_json": "/data_4/liuyuan/lifebench/public_data_filter/batch_outputs/web_20260429T170230Z/reviews/web_h264/youtube__nzIT6HwH3KY/agent_outputs/04_Vulnerable-Subject-First_Perspective.json",
+      "stdout_log": "/data_4/liuyuan/lifebench/public_data_filter/batch_outputs/web_20260429T170230Z/reviews/web_h264/youtube__nzIT6HwH3KY/logs/04_Vulnerable-Subject-First_Perspective.stdout.log",
+      "stderr_log": "/data_4/liuyuan/lifebench/public_data_filter/batch_outputs/web_20260429T170230Z/reviews/web_h264/youtube__nzIT6HwH3KY/logs/04_Vulnerable-Subject-First_Perspective.stderr.log",
+      "worker_id": null,
+      "gpu_id": null,
+      "returncode": 0,
+      "elapsed_seconds": 0.0,
+      "reused_agent_output": true,
+      "response": "Risk presence: Yes\nLevel 1 scene: living room\nLevel 2 subject: child\nLevel 3 risk type: fire hazard\nRisk description: The video shows a child in the living room while a fire ignites in the background, posing a significant risk of injury or worse due to the proximity to the flames.\nRisk time interval: [10, 20]\nSolution for person: Ensure the child is kept at a safe distance from any potential fire hazards and supervised closely to prevent accidental contact with fire sources.\nSolution for hazard source: Install smoke detectors and ensure fire extinguishers are accessible in the home. Educate household members on fire safety and prevention.\nSolution to prevent recurrence: Conduct regular fire safety checks and drills, especially in areas where children are present. Secure any flammable materials and ensure open flames or heat sources are safely managed.\nNormal video description: None",
+      "parsed_decision": {
+        "candidate_behavior": "",
+        "risk_presence_raw": "Yes",
+        "risk_presence": "Yes",
+        "keep_raw": "Yes",
+        "keep": true,
+        "level1_scene": "living room",
+        "level2_subject": "child",
+        "level3_risk_type": "fire hazard",
+        "risk_description": "The video shows a child in the living room while a fire ignites in the background, posing a significant risk of injury or worse due to the proximity to the flames.",
+        "risk_time_interval": "[10, 20]",
+        "solution_for_person": "Ensure the child is kept at a safe distance from any potential fire hazards and supervised closely to prevent accidental contact with fire sources.",
+        "solution_for_hazard_source": "Install smoke detectors and ensure fire extinguishers are accessible in the home. Educate household members on fire safety and prevention.",
+        "solution_to_prevent_recurrence": "Conduct regular fire safety checks and drills, especially in areas where children are present. Secure any flammable materials and ensure open flames or heat sources are safely managed.",
+        "normal_video_description": "None",
+        "reason": ""
+      },
+      "runner_payload": {
+        "backend": "internvl35",
+        "description": "InternVL3.5 8B multimodal video chat model",
+        "model_id": "OpenGVLab/InternVL3_5-8B",
+        "model_path": "/data_4/liuyuan/lifebench/models/OpenGVLab__InternVL3_5-8B",
+        "video_path": "/data_4/liuyuan/lifebench/data/public_data/web_h264/youtube__nzIT6HwH3KY.mp4",
+        "prompt": "You are acting as a vulnerable-subject-first reviewer.\nYour task is to judge the candidate behavior with priority given to the safety of children, older adults, people with limited mobility, people recovering from illness, pregnant people, pets, or other vulnerable subjects. If the behavior creates a realistic additional risk for a vulnerable subject, lean toward keeping it as a risk anomaly.\n\nFollow these principles:\n- Focus on whether the behavior creates disproportionate risk for a subject with weaker body control, weaker risk awareness, or limited self-protection ability.\n- A behavior that may not be abnormal for an ordinary adult can still be a risk anomaly if its danger clearly increases for a child, older adult, pet, or other vulnerable subject.\n- For borderline cases, consider whether the vulnerable subject would have more difficulty avoiding injury, would suffer more serious consequences, or would receive help more slowly.\n- In caregiving, companionship, or household life scenes, pay special attention to insufficient supervision, missing protection, or an environment that does not fit the subject's needs.\n- The core standard is not whether the behavior is dangerous for an average adult, but whether it has reached a level requiring attention or intervention for the vulnerable subject shown in the video.\n\nOutput requirements for this perspective:\n- Explain the specific risk to the vulnerable subject, if one is present.\n- Do not invent illness, disability, age, or severe impairment that is not supported by the video.\n- Do not generalize vulnerability without evidence from the video.\n\nTask addendum:\nReview the input video and first decide whether the video contains a risk.\nBase your judgment only on the video content. Do not assume facts outside the video, and do not invent extra events.\nJudge the main visible behavior and scene in the video.\nYou must answer based on the provided video input. Do not say that you cannot watch or inspect the video.\nOutput exactly the following English-labeled fields, with no markdown and no extra text:\nRisk presence: Yes / No\nLevel 1 scene: output one scene keyword. Prefer one of: dining room, kitchen, study, balcony, living room, bathroom, yard. If none fits, output your own concise scene keyword.\nLevel 2 subject: output one subject keyword. Prefer one of: child, older adult, young adult, middle-aged adult. If none fits, output your own concise subject keyword.\nLevel 3 risk type: if Risk presence is Yes, output one risk keyword. Prefer one of: fall/instability, heat/fire source, collision/crush injury, sharp-object danger, electrical safety, poisoning/accidental ingestion, interpersonal conflict. If none fits, output your own concise risk keyword. If Risk presence is No, output None.\nRisk description: if Risk presence is Yes, describe the risk in 1-3 sentences. If Risk presence is No, output None.\nRisk time interval: if Risk presence is Yes, localize the risk as seconds like [start,end]. If there are multiple intervals, separate them with semicolons. If the exact interval is unclear, output Unknown. If Risk presence is No, output None.\nSolution for person: if Risk presence is Yes, give a concrete action for the person or caregiver. If Risk presence is No, output None.\nSolution for hazard source: if Risk presence is Yes, give a concrete action for the hazard source or environment. If Risk presence is No, output None.\nSolution to prevent recurrence: if Risk presence is Yes, give a prevention measure to reduce recurrence. If Risk presence is No, output None.\nNormal video description: if Risk presence is No, describe the normal video content in 1-3 sentences. If Risk presence is Yes, output None.",
+        "response": "Risk presence: Yes\nLevel 1 scene: living room\nLevel 2 subject: child\nLevel 3 risk type: fire hazard\nRisk description: The video shows a child in the living room while a fire ignites in the background, posing a significant risk of injury or worse due to the proximity to the flames.\nRisk time interval: [10, 20]\nSolution for person: Ensure the child is kept at a safe distance from any potential fire hazards and supervised closely to prevent accidental contact with fire sources.\nSolution for hazard source: Install smoke detectors and ensure fire extinguishers are accessible in the home. Educate household members on fire safety and prevention.\nSolution to prevent recurrence: Conduct regular fire safety checks and drills, especially in areas where children are present. Secure any flammable materials and ensure open flames or heat sources are safely managed.\nNormal video description: None",
+        "parsed_response": {
+          "risk_status": "normal",
+          "has_risk": false,
+          "risk_type": "",
+          "video_description": "Risk presence: Yes Level 1 scene: living room Level 2 subject: child Level 3 risk type: fire hazard Risk description: The video shows a child in the living room while a fire ignites in the background, posing a significant risk of injury or worse due to the proximity to the flames. Risk time interval: [10, 20] Solution for person: Ensure the child is kept at a safe distance from any potential fire hazards and supervised closely to prevent accidental contact with fire sources. Solution for hazard source: Install smoke detectors and ensure fire extinguishers are accessible in the home. Educate household members on fire safety and prevention. Solution to prevent recurrence: Conduct regular fire safety checks and drills, especially in areas where children are present. Secure any flammable materials and ensure open flames or heat sources are safely managed. Normal video description: None",
+          "safe_segment_desc": "Risk presence: Yes Level 1 scene: living room Level 2 subject: child Level 3 risk type: fire hazard Risk description: The video shows a child in the living room while a fire ignites in the background, posing a significant risk of injury or worse due to the proximity to the flames. Risk time interval: [10, 20] Solution for person: Ensure the child is kept at a safe distance from any potential fire hazards and supervised closely to prevent accidental contact with fire sources. Solution for hazard source: Install smoke detectors and ensure fire extinguishers are accessible in the home. Educate household members on fire safety and prevention. Solution to prevent recurrence: Conduct regular fire safety checks and drills, especially in areas where children are present. Secure any flammable materials and ensure open flames or heat sources are safely managed. Normal video description: None",
+          "risk_description": "",
+          "solution": "",
+          "time_spans": []
+        },
+        "generation": {
+          "temperature": 0.0,
+          "top_p": 0.9,
+          "max_new_tokens": 256,
+          "fps": 1.0,
+          "max_frames": 16,
+          "merge_size": 2
+        },
+        "elapsed_seconds": 18.085
+      }
+    },
+    {
+      "perspective": {
+        "index": 5,
+        "name": "Consequence-Severity-First Perspective",
+        "prompt": "You are acting as a consequence-severity-first reviewer.\nYour task is to focus on whether the potential consequences of a risk event would be serious, hard to reverse, or costly to intervene in. Even if the probability is not the highest, keep the behavior if the realistic potential consequence is severe enough.\n\nFollow these principles:\n- Prioritize behaviors that could realistically lead to severe injury, long-term impact, emergency medical care, lasting functional impairment, or major property or environmental damage.\n- Judge not only whether an accident is likely, but also how costly the consequence would be if it occurred.\n- For borderline cases, analyze whether the most realistic negative consequence is already too significant to ignore.\n- If a behavior may lead to burns from heat, electric shock, falling from height, severe collision, poisoning, suffocation, or other serious outcomes, lean toward keeping it.\n- The standard emphasizes prevention of severe consequences, so low-probability but high-damage scenarios may justify keeping the behavior.\n\nOutput requirements for this perspective:\n- Explain the realistic severity of the possible consequence if the behavior develops into an accident.\n- Do not exaggerate minor or unimportant consequences.\n- Do not rely on extremely rare catastrophic scenarios without realistic support from the video."
+      },
+      "model": {
+        "model_id": "DAMO-NLP-SG/VideoLLaMA3-7B",
+        "backend": "videollama3"
+      },
+      "prompt_file": "/data_4/liuyuan/lifebench/public_data_filter/batch_outputs/web_20260429T170230Z/reviews/web_h264/youtube__nzIT6HwH3KY/prompts/05_Consequence-Severity-First_Perspective.txt",
+      "output_json": "/data_4/liuyuan/lifebench/public_data_filter/batch_outputs/web_20260429T170230Z/reviews/web_h264/youtube__nzIT6HwH3KY/agent_outputs/05_Consequence-Severity-First_Perspective.json",
+      "stdout_log": "/data_4/liuyuan/lifebench/public_data_filter/batch_outputs/web_20260429T170230Z/reviews/web_h264/youtube__nzIT6HwH3KY/logs/05_Consequence-Severity-First_Perspective.stdout.log",
+      "stderr_log": "/data_4/liuyuan/lifebench/public_data_filter/batch_outputs/web_20260429T170230Z/reviews/web_h264/youtube__nzIT6HwH3KY/logs/05_Consequence-Severity-First_Perspective.stderr.log",
+      "worker_id": null,
+      "gpu_id": null,
+      "returncode": 0,
+      "elapsed_seconds": 0.0,
+      "reused_agent_output": true,
+      "response": "Risk presence: Yes\nLevel 1 scene: kitchen\nLevel 2 subject: young adult\nLevel 3 risk type: heat/fire source\nRisk description: The video shows a person in a kitchen with smoke and fire, indicating a potential fire hazard. The individual is seen moving around the kitchen, which could lead to burns or other injuries if the fire is not controlled.\nRisk time interval: [0, 59.4]\nSolution for person: Evacuate the premises immediately and call emergency services.\nSolution for hazard source: Extinguish the fire using a fire extinguisher or by opening a window to let fresh air in.\nSolution to prevent recurrence: Ensure that all electrical appliances are properly maintained and not overloaded. Keep flammable materials away from heat sources.\nNormal video description: None",
+      "parsed_decision": {
+        "candidate_behavior": "",
+        "risk_presence_raw": "Yes",
+        "risk_presence": "Yes",
+        "keep_raw": "Yes",
+        "keep": true,
+        "level1_scene": "kitchen",
+        "level2_subject": "young adult",
+        "level3_risk_type": "heat/fire source",
+        "risk_description": "The video shows a person in a kitchen with smoke and fire, indicating a potential fire hazard. The individual is seen moving around the kitchen, which could lead to burns or other injuries if the fire is not controlled.",
+        "risk_time_interval": "[0, 59.4]",
+        "solution_for_person": "Evacuate the premises immediately and call emergency services.",
+        "solution_for_hazard_source": "Extinguish the fire using a fire extinguisher or by opening a window to let fresh air in.",
+        "solution_to_prevent_recurrence": "Ensure that all electrical appliances are properly maintained and not overloaded. Keep flammable materials away from heat sources.",
+        "normal_video_description": "None",
+        "reason": ""
+      },
+      "runner_payload": {
+        "backend": "videollama3",
+        "description": "VideoLLaMA3 7B video chat model",
+        "model_id": "DAMO-NLP-SG/VideoLLaMA3-7B",
+        "model_path": "/data_4/liuyuan/lifebench/models/DAMO-NLP-SG__VideoLLaMA3-7B",
+        "video_path": "/data_4/liuyuan/lifebench/data/public_data/web_h264/youtube__nzIT6HwH3KY.mp4",
+        "prompt": "You are acting as a consequence-severity-first reviewer.\nYour task is to focus on whether the potential consequences of a risk event would be serious, hard to reverse, or costly to intervene in. Even if the probability is not the highest, keep the behavior if the realistic potential consequence is severe enough.\n\nFollow these principles:\n- Prioritize behaviors that could realistically lead to severe injury, long-term impact, emergency medical care, lasting functional impairment, or major property or environmental damage.\n- Judge not only whether an accident is likely, but also how costly the consequence would be if it occurred.\n- For borderline cases, analyze whether the most realistic negative consequence is already too significant to ignore.\n- If a behavior may lead to burns from heat, electric shock, falling from height, severe collision, poisoning, suffocation, or other serious outcomes, lean toward keeping it.\n- The standard emphasizes prevention of severe consequences, so low-probability but high-damage scenarios may justify keeping the behavior.\n\nOutput requirements for this perspective:\n- Explain the realistic severity of the possible consequence if the behavior develops into an accident.\n- Do not exaggerate minor or unimportant consequences.\n- Do not rely on extremely rare catastrophic scenarios without realistic support from the video.\n\nTask addendum:\nReview the input video and first decide whether the video contains a risk.\nBase your judgment only on the video content. Do not assume facts outside the video, and do not invent extra events.\nJudge the main visible behavior and scene in the video.\nYou must answer based on the provided video input. Do not say that you cannot watch or inspect the video.\nOutput exactly the following English-labeled fields, with no markdown and no extra text:\nRisk presence: Yes / No\nLevel 1 scene: output one scene keyword. Prefer one of: dining room, kitchen, study, balcony, living room, bathroom, yard. If none fits, output your own concise scene keyword.\nLevel 2 subject: output one subject keyword. Prefer one of: child, older adult, young adult, middle-aged adult. If none fits, output your own concise subject keyword.\nLevel 3 risk type: if Risk presence is Yes, output one risk keyword. Prefer one of: fall/instability, heat/fire source, collision/crush injury, sharp-object danger, electrical safety, poisoning/accidental ingestion, interpersonal conflict. If none fits, output your own concise risk keyword. If Risk presence is No, output None.\nRisk description: if Risk presence is Yes, describe the risk in 1-3 sentences. If Risk presence is No, output None.\nRisk time interval: if Risk presence is Yes, localize the risk as seconds like [start,end]. If there are multiple intervals, separate them with semicolons. If the exact interval is unclear, output Unknown. If Risk presence is No, output None.\nSolution for person: if Risk presence is Yes, give a concrete action for the person or caregiver. If Risk presence is No, output None.\nSolution for hazard source: if Risk presence is Yes, give a concrete action for the hazard source or environment. If Risk presence is No, output None.\nSolution to prevent recurrence: if Risk presence is Yes, give a prevention measure to reduce recurrence. If Risk presence is No, output None.\nNormal video description: if Risk presence is No, describe the normal video content in 1-3 sentences. If Risk presence is Yes, output None.",
+        "response": "Risk presence: Yes\nLevel 1 scene: kitchen\nLevel 2 subject: young adult\nLevel 3 risk type: heat/fire source\nRisk description: The video shows a person in a kitchen with smoke and fire, indicating a potential fire hazard. The individual is seen moving around the kitchen, which could lead to burns or other injuries if the fire is not controlled.\nRisk time interval: [0, 59.4]\nSolution for person: Evacuate the premises immediately and call emergency services.\nSolution for hazard source: Extinguish the fire using a fire extinguisher or by opening a window to let fresh air in.\nSolution to prevent recurrence: Ensure that all electrical appliances are properly maintained and not overloaded. Keep flammable materials away from heat sources.\nNormal video description: None",
+        "parsed_response": {
+          "risk_status": "normal",
+          "has_risk": false,
+          "risk_type": "",
+          "video_description": "Risk presence: Yes Level 1 scene: kitchen Level 2 subject: young adult Level 3 risk type: heat/fire source Risk description: The video shows a person in a kitchen with smoke and fire, indicating a potential fire hazard. The individual is seen moving around the kitchen, which could lead to burns or other injuries if the fire is not controlled. Risk time interval: [0, 59.4] Solution for person: Evacuate the premises immediately and call emergency services. Solution for hazard source: Extinguish the fire using a fire extinguisher or by opening a window to let fresh air in. Solution to prevent recurrence: Ensure that all electrical appliances are properly maintained and not overloaded. Keep flammable materials away from heat sources. Normal video description: None",
+          "safe_segment_desc": "Risk presence: Yes Level 1 scene: kitchen Level 2 subject: young adult Level 3 risk type: heat/fire source Risk description: The video shows a person in a kitchen with smoke and fire, indicating a potential fire hazard. The individual is seen moving around the kitchen, which could lead to burns or other injuries if the fire is not controlled. Risk time interval: [0, 59.4] Solution for person: Evacuate the premises immediately and call emergency services. Solution for hazard source: Extinguish the fire using a fire extinguisher or by opening a window to let fresh air in. Solution to prevent recurrence: Ensure that all electrical appliances are properly maintained and not overloaded. Keep flammable materials away from heat sources. Normal video description: None",
+          "risk_description": "",
+          "solution": "",
+          "time_spans": []
+        },
+        "generation": {
+          "temperature": 0.0,
+          "top_p": 0.9,
+          "max_new_tokens": 256,
+          "fps": 1.0,
+          "max_frames": 16,
+          "merge_size": 2
+        },
+        "elapsed_seconds": 31.037
+      }
+    }
+  ],
+  "majority_vote": {
+    "complete": true,
+    "keep": true,
+    "risk_presence": "Yes",
+    "yes_count": 5,
+    "no_count": 0,
+    "threshold": 3,
+    "votes_cast": 5,
+    "expected_votes": 5,
+    "kept_by_perspectives": [
+      "Daily Behavior Baseline Perspective",
+      "Conservative Safety Perspective",
+      "Permissive Behavior Tolerance Perspective",
+      "Vulnerable-Subject-First Perspective",
+      "Consequence-Severity-First Perspective"
+    ],
+    "rejected_by_perspectives": [],
+    "level1_scene_keywords": [
+      {
+        "keyword": "living room",
+        "count": 3
+      },
+      {
+        "keyword": "kitchen",
+        "count": 2
+      }
+    ],
+    "level1_scene_top": "living room",
+    "level2_subject_keywords": [
+      {
+        "keyword": "child",
+        "count": 4
+      },
+      {
+        "keyword": "young adult",
+        "count": 1
+      }
+    ],
+    "level2_subject_top": "child",
+    "level3_risk_type_keywords": [
+      {
+        "keyword": "heat/fire source",
+        "count": 3
+      },
+      {
+        "keyword": "fall/instability",
+        "count": 1
+      },
+      {
+        "keyword": "fire hazard",
+        "count": 1
+      }
+    ],
+    "level3_risk_type_top": "heat/fire source"
+  }
+}

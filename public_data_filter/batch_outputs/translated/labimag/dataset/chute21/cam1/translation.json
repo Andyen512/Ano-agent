@@ -1,0 +1,40 @@
+{
+  "video_key": "labimag/dataset/chute21/cam1",
+  "translations": {
+    "0": {
+      "risk_description": "视频中的年轻人坐在棕色椅子上时失去平衡，摔倒在地上，可能导致受伤。",
+      "normal_video_description": "视频中显示一位年轻人坐在客厅的棕色椅子上，周围有棋盘、桌子和沙发等物品。年轻人失去平衡摔倒在地，这是一种需要加以干预的危险行为。",
+      "solution_for_person": "应当由护理人员帮助此人，以确保其不受伤害并防止再次跌倒。",
+      "solution_for_hazard_source": "应当使地面不那么光滑，椅子应更稳固，以防止跌倒。",
+      "solution_to_prevent_recurrence": "在坐椅子时应有人监督，并应使环境更安全，以防止跌倒。"
+    },
+    "1": {
+      "risk_description": "此人面朝下倒在地板上，若不及时处理可能导致头部或颈部受伤。",
+      "normal_video_description": "一个穿红色衬衫的人与棕色扶手椅互动，最终面朝下倒在地上。",
+      "solution_for_person": "立即检查此人的反应能力，并将其移动到安全位置。",
+      "solution_for_hazard_source": "",
+      "solution_to_prevent_recurrence": ""
+    },
+    "2": {
+      "risk_description": "某人试图坐在一个低矮柔软的扶手椅上，却失去平衡，向后倒在地上。该动作表明明显的失稳导致跌倒。",
+      "normal_video_description": "",
+      "solution_for_person": "在坐低矮或不稳定的家具时应当谨慎，并在向后靠之前确保有稳固的支撑点。",
+      "solution_for_hazard_source": "应检查扶手椅的稳定性，必要时更换为更稳固的家具或使用靠背。",
+      "solution_to_prevent_recurrence": "应当注意自己的重心，避免在低矮家具上过度后仰。"
+    },
+    "3": {
+      "risk_description": "那个人在试图坐下时从扶手椅摔下来，可能导致受伤，尤其是对行动不便或平衡有问题的人风险更大。",
+      "normal_video_description": "",
+      "solution_for_person": "确保扶手椅稳固，并考虑使用带扶手的椅子以获得更好的支撑。",
+      "solution_for_hazard_source": "加强扶手椅的稳固性或提供额外支撑，以防止跌倒。",
+      "solution_to_prevent_recurrence": "使用更稳固的座位或添加垫子提供支撑，以降低跌倒风险。"
+    },
+    "4": {
+      "risk_description": "看到此人坐在放在房间中央、地板上有标记线的豆袋椅上。随后他躺在豆袋上，似乎在休息或睡觉。没有明显的危险会导致跌倒或失稳。",
+      "normal_video_description": "视频显示一个办公室空间，里面有各种家具和设备。一个人进入房间，坐在豆袋椅上，然后躺在上面。",
+      "solution_for_person": "",
+      "solution_for_hazard_source": "",
+      "solution_to_prevent_recurrence": ""
+    }
+  }
+}

@@ -1,0 +1,40 @@
+{
+  "video_key": "labimag/dataset/chute08/cam2",
+  "translations": {
+    "0": {
+      "risk_description": "这位年轻人正在尝试在床垫上进行杂技表演，而床垫不稳，可能导致跌倒。由于不稳定的表面，该人有受伤风险。",
+      "normal_video_description": "视频显示一位年轻人正在学习环境中尝试在床垫上进行杂技表演。该人从床垫上摔下来，落在地上。",
+      "solution_for_person": "应建议该人在安全且可控的环境（如体育馆或蹦床）中进行杂技表演，并使用适当的防护装备。",
+      "solution_for_hazard_source": "应将床垫从学习区移除，换成稳固安全的表面用于体育活动。",
+      "solution_to_prevent_recurrence": "应教育该人在进行杂技表演时注意安全和正确使用设备，并重新安排学习区以防止类似事故再次发生。"
+    },
+    "1": {
+      "risk_description": "该人正躺在一个可能不稳的大垫子上，位于工作场所环境中，如果垫子移动或被意外推动，可能导致跌倒。",
+      "normal_video_description": "一个人进入工作场所，躺在一个大垫子上，随后另一个人靠近。",
+      "solution_for_person": "在躺下之前，确保垫子已牢固固定且稳定。",
+      "solution_for_hazard_source": "固定垫子以防止移动。",
+      "solution_to_prevent_recurrence": "定期检查垫子及周围设备的稳定性。"
+    },
+    "2": {
+      "risk_description": "",
+      "normal_video_description": "一个年轻人走进房间，跳到地板上的床垫上，然后起身离开。该房间似乎是学习区或实验室，墙边摆放着桌子和设备。",
+      "solution_for_person": "",
+      "solution_for_hazard_source": "",
+      "solution_to_prevent_recurrence": ""
+    },
+    "3": {
+      "risk_description": "这位年轻人躺在地板上的床垫上，床垫可能不稳，存在跌倒风险，尤其是对行动不便或平衡差的人。",
+      "normal_video_description": "",
+      "solution_for_person": "在躺下之前，确保床垫得到稳固支撑且保持稳定。",
+      "solution_for_hazard_source": "为床垫增加额外支撑以防止倾斜。",
+      "solution_to_prevent_recurrence": "在学习区使用更稳固的表面或平台进行躺卧。"
+    },
+    "4": {
+      "risk_description": "该人试图跳到未固定好的床垫上，可能导致跌倒并受伤。",
+      "normal_video_description": "一个穿红衬衫的人进入办公空间，尝试跳到放置在地板上未固定好的床垫上。",
+      "solution_for_person": "在尝试跳上床垫之前，确保床垫已稳固放在地板上。",
+      "solution_for_hazard_source": "",
+      "solution_to_prevent_recurrence": "提供正确的安全跳跃技巧培训，并确保在使用床垫进行跳跃时始终将其固定好。"
+    }
+  }
+}

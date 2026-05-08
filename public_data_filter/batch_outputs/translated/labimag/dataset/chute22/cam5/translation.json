@@ -1,0 +1,40 @@
+{
+  "video_key": "labimag/dataset/chute22/cam5",
+  "translations": {
+    "0": {
+      "risk_description": "视频中的年轻人试图坐在椅子上，但失去平衡摔倒在地上。这种行为偏离了正常的日常坐椅活动，可能会造成伤害风险。",
+      "normal_video_description": "",
+      "solution_for_person": "应帮助该人寻找更稳定的座位选择，或提供支撑以防止将来跌倒。",
+      "solution_for_hazard_source": "应评估办公室环境是否存在可能导致跌倒的潜在危险，例如地面不平或表面湿滑。",
+      "solution_to_prevent_recurrence": "应教育该人正确的坐姿技巧以及在必要时使用支撑的重要性。应定期检查以确保办公室环境没有可能导致跌倒的危险。"
+    },
+    "1": {
+      "risk_description": "年轻人以斜躺的姿势躺在地板上，这可能导致跌倒或起身困难，尤其当地板坚硬或湿滑时。",
+      "normal_video_description": "一个穿红色衬衫的人进入房间，靠近椅子，然后以斜躺的姿势躺在地板上。",
+      "solution_for_person": "确保该年轻人坐在或躺在柔软的表面上，以降低跌倒受伤的风险。",
+      "solution_for_hazard_source": "",
+      "solution_to_prevent_recurrence": ""
+    },
+    "2": {
+      "risk_description": "",
+      "normal_video_description": "一个人走进办公室，走向中央扶手椅，坐下后向后靠。另一人短暂经过背景。动作平静，属于正常日常行为。",
+      "solution_for_person": "",
+      "solution_for_hazard_source": "",
+      "solution_to_prevent_recurrence": ""
+    },
+    "3": {
+      "risk_description": "穿红色衬衫的人爬上扶手椅，如果失去平衡可能会摔倒，造成伤害风险。",
+      "normal_video_description": "",
+      "solution_for_person": "在爬上去之前，确保该人了解家具的稳定性。",
+      "solution_for_hazard_source": "固定或搬走扶手椅，以防止攀爬。",
+      "solution_to_prevent_recurrence": "教育个人关于攀爬家具的危险，并通过移除或固定此类物品来确保环境安全。"
+    },
+    "4": {
+      "risk_description": "穿红色衬衫的人坐在豆袋椅上存在跌倒风险，可能导致严重伤害。椅子不稳定，且似乎放置在升高的平台上。",
+      "normal_video_description": "视频展示了一个办公室空间，里面有各种家具和设备。一个穿红色衬衫的人进入房间并坐在放置在升高平台上的豆袋椅上。",
+      "solution_for_person": "将豆袋椅从升高平台上移除，以防止跌倒。",
+      "solution_for_hazard_source": "",
+      "solution_to_prevent_recurrence": "确保办公室内的所有家具稳固安全，以防止事故发生。"
+    }
+  }
+}

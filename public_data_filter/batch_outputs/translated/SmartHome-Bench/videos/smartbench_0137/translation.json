@@ -1,0 +1,40 @@
+{
+  "video_key": "SmartHome-Bench/videos/smartbench_0137",
+  "translations": {
+    "0": {
+      "risk_description": "",
+      "normal_video_description": "在夜间，一只熊正走上门廊的台阶。",
+      "solution_for_person": "",
+      "solution_for_hazard_source": "",
+      "solution_to_prevent_recurrence": ""
+    },
+    "1": {
+      "risk_description": "熊正在进入住宅区并靠近门廊，如果它们与人或车辆互动，存在碰撞或被碾压的风险。",
+      "normal_video_description": "视频展示了住宅车道和门廊区域的夜间画面。一辆深色SUV停在车道上，门廊灯亮着，照亮了该区域。",
+      "solution_for_person": "待在室内并锁好门窗，以防熊进入屋内。",
+      "solution_for_hazard_source": "联系当地野生动物管理部门，将熊安全地从住宅区移走。",
+      "solution_to_prevent_recurrence": "安装感应灯并固定垃圾桶，以防止熊靠近房产。"
+    },
+    "2": {
+      "risk_description": "一只熊走上门廊并靠近摄像机，这对在场人员构成直接安全威胁。熊在住宅区的出现会导致高风险的碰撞或伤害。",
+      "normal_video_description": "",
+      "solution_for_person": "立即退回室内并锁好门。",
+      "solution_for_hazard_source": "",
+      "solution_to_prevent_recurrence": "安装感应灯并固定垃圾桶，以驱赶野生动物。"
+    },
+    "3": {
+      "risk_description": "视频显示熊进入门廊区域，若附近有儿童或宠物，可能会导致碰撞或压伤风险。",
+      "normal_video_description": "",
+      "solution_for_person": "当熊在附近时，确保儿童、老年人或宠物待在室内或远离门廊区域。",
+      "solution_for_hazard_source": "用障碍物或灯光封闭门廊区域，以防止熊进入。",
+      "solution_to_prevent_recurrence": "安装感应灯或驱熊装置，以阻止熊靠近门廊。"
+    },
+    "4": {
+      "risk_description": "熊在门廊区域四处活动，若人们不小心可能会与其相撞，导致严重伤害。",
+      "normal_video_description": "在夜间，可以看到两只黑熊在房子的门廊区域四处走动。它们先是向车道走去，然后又回到房子附近。",
+      "solution_for_person": "注意熊的存在并保持安全距离。不要靠近或挑衅它们。",
+      "solution_for_hazard_source": "",
+      "solution_to_prevent_recurrence": "监视熊的活动并向当地有关部门报告任何异常情况。"
+    }
+  }
+}

@@ -1,0 +1,40 @@
+{
+  "video_key": "labimag/dataset/chute20/cam2",
+  "translations": {
+    "0": {
+      "risk_description": "视频中的年轻人试图搬动一张沉重的棕色扶手椅，结果失去平衡摔倒在地上。该行为偏离了日常行为基线，因为不当搬运重物可能导致受伤风险。",
+      "normal_video_description": "视频显示一间客厅，里面有各种家具和设备。一位年轻人走进房间，试图搬动一张沉重的棕色扶手椅，结果失去平衡摔倒在地上。",
+      "solution_for_person": "应建议该人在搬运重物时寻求帮助，以避免潜在的受伤。",
+      "solution_for_hazard_source": "不需要对危险源采取具体解决方案，但该人以后搬运重物时应保持谨慎。",
+      "solution_to_prevent_recurrence": "应向该人宣传正确的搬运技巧以及在搬运重物时寻求帮助的重要性，以防止跌倒和受伤。"
+    },
+    "1": {
+      "risk_description": "该人平趴在地板上，这可能导致呼吸困难或活动受限，增加窒息风险或在需要时无法迅速站起的可能性。",
+      "normal_video_description": "视频显示一间空旷的房间，里面有家具和设备。一个人进来，搬动一把椅子，然后平趴在地上。",
+      "solution_for_person": "该人应避免在开放的空地上平趴在地上，因为在这种环境中可能不易被看到或获得帮助。",
+      "solution_for_hazard_source": "",
+      "solution_to_prevent_recurrence": "确保该人了解在开放区域平趴在地上的风险，并鼓励他们改为侧卧或仰卧。"
+    },
+    "2": {
+      "risk_description": "一个年轻人试图搬动一张沉重的扶手椅，却失去平衡摔倒在地上，这表明一次明显的失稳事件，超出了正常活动范围。",
+      "normal_video_description": "",
+      "solution_for_person": "该人应立即站起，检查是否有受伤，并在没有帮助或适当设备的情况下避免搬动重型家具。",
+      "solution_for_hazard_source": "应将扶手椅固定或搬至不阻碍行走且不需要用力移动的位置。",
+      "solution_to_prevent_recurrence": "实施安全措施，如使用家具滑轮、搬运重物时寻求帮助或确保通道畅通，以防止类似的跌倒。"
+    },
+    "3": {
+      "risk_description": "该人摔到地板上，可能造成受伤风险，尤其是对于行动不便或平衡有问题的个体。",
+      "normal_video_description": "",
+      "solution_for_person": "确保该人了解周围环境，避免突然动作以防跌倒。",
+      "solution_for_hazard_source": "清除地板上的障碍物或绊倒危险，以降低跌倒风险。",
+      "solution_to_prevent_recurrence": "在客厅区域增设照明或防滑垫，以提高安全性。"
+    },
+    "4": {
+      "risk_description": "穿红色衬衫的人在标记的地板上行走，暗示这是在办公室或健身房等受控环境。他们绊倒并仰面倒地，提示因地面不平或注意力不集中而导致受伤风险。",
+      "normal_video_description": "视频显示一间办公室，里面有各种桌子、椅子和设备。一个穿红色衬衫的人在标记的地板上行走，绊倒后仰面倒地。",
+      "solution_for_person": "确保地面没有障碍物，并让该人穿合适的鞋子以防止滑倒。",
+      "solution_for_hazard_source": "",
+      "solution_to_prevent_recurrence": "定期检查地面是否有危险，并保持安全的行走表面。"
+    }
+  }
+}

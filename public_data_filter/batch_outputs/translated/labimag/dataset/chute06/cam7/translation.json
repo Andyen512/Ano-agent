@@ -1,0 +1,40 @@
+{
+  "video_key": "labimag/dataset/chute06/cam7",
+  "translations": {
+    "0": {
+      "risk_description": "这位年轻人躺在一个不稳的大白色物体上，且没有穿戴任何安全装备。这存在跌倒并受伤的风险。",
+      "normal_video_description": "这位年轻人躺在一个不稳的大白色物体上，且没有穿戴任何安全装备。这存在跌倒并受伤的风险。",
+      "solution_for_person": "应指示该人穿戴适当的安全装备并躺在稳固的表面上。",
+      "solution_for_hazard_source": "危险源是那个不稳的大白色物体。应用稳固的表面替换它。",
+      "solution_to_prevent_recurrence": "应监督该人并在进行有跌倒风险的活动时指示其使用适当的安全装备。"
+    },
+    "1": {
+      "risk_description": "该人躺在一个可能不稳的大垫子上，位于开阔区域且没有明显的约束，可能导致滑倒或滚落，从而造成伤害。",
+      "normal_video_description": "一个人躺在一个大垫子上，房间里摆放着桌子和设备，其他人则在附近走动。",
+      "solution_for_person": "确保垫子牢固固定在地面上，并在该人躺在上面时进行监督。",
+      "solution_for_hazard_source": "将垫子固定以防止移动，并确保周围区域没有障碍物。",
+      "solution_to_prevent_recurrence": "在开阔区域进行躺卧时，使用约束装置或更稳固的表面。"
+    },
+    "2": {
+      "risk_description": "",
+      "normal_video_description": "一位年轻人走进房间，躺在地板上的床垫上，然后起身。其他人进入房间并观察。该环境看起来是受控的场景，可能用于测试或训练，没有危险或异常行为的迹象。",
+      "solution_for_person": "",
+      "solution_for_hazard_source": "",
+      "solution_to_prevent_recurrence": ""
+    },
+    "3": {
+      "risk_description": "躺在软垫上的人在试图无支撑地起身时可能面临风险，尤其是当其活动能力或力量受限时。",
+      "normal_video_description": "",
+      "solution_for_person": "确保该人在从软垫上起身时有支撑或帮助。",
+      "solution_for_hazard_source": "如果该人需要频繁躺下，应提供额外的支撑或更安全的表面供其使用。",
+      "solution_to_prevent_recurrence": "使用更稳固且有支撑的表面进行躺卧，并确保在需要时有人可以提供帮助。"
+    },
+    "4": {
+      "risk_description": "该人躺在地板上的床垫上，如果他们移动或滚下床垫，可能会导致跌倒或不稳定的风险，可能导致受伤。",
+      "normal_video_description": "看到一个人走进办公室房间并躺在地板上的床垫上。",
+      "solution_for_person": "确保床垫放置在稳固安全的位置，以防止任何跌倒或不稳定的风险。",
+      "solution_for_hazard_source": "",
+      "solution_to_prevent_recurrence": "将床垫放在坚硬平整的表面上，以防止任何跌倒或不稳定的风险。"
+    }
+  }
+}

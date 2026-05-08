@@ -1,0 +1,40 @@
+{
+  "video_key": "web_h264/youtube__pUx5WiTxHS8",
+  "translations": {
+    "0": {
+      "risk_description": "视频显示一群年轻人围坐在餐厅的桌子旁，进行激烈的讨论。气氛看起来紧张，有升级为肢体冲突的风险。",
+      "normal_video_description": "视频显示一群年轻人围坐在餐厅的桌子旁，进行讨论。气氛看起来紧张，但没有升级为肢体冲突的风险。",
+      "solution_for_person": "看护者或调解人应介入以平息局势，防止任何肢体冲突。",
+      "solution_for_hazard_source": "看护者或调解人应处理导致冲突的根本问题，并努力解决它们。",
+      "solution_to_prevent_recurrence": "定期沟通和冲突解决培训有助于防止此类事件的再次发生。"
+    },
+    "1": {
+      "risk_description": "一个孩子在楼梯上玩耍，存在跌倒和受伤的风险。",
+      "normal_video_description": "视频显示一个孩子在沙龙内的楼梯上玩耍，成年人正在桌子旁为顾客服务。",
+      "solution_for_person": "孩子在楼梯附近时应由成年人监督。",
+      "solution_for_hazard_source": "在楼梯的顶部和底部安装安全护栏或门，以防止进入。",
+      "solution_to_prevent_recurrence": "教育孩子玩耍楼梯的危险，并确保有成年人持续监督。"
+    },
+    "2": {
+      "risk_description": "看到一名孩子在没有监督的情况下爬楼梯，滑倒后失去平衡摔下楼梯。这种行为明显超过了正常的玩耍，涉及直接的身体危险。",
+      "normal_video_description": "",
+      "solution_for_person": "成年人应立即介入，抓住或支撑孩子，以防止跌倒。",
+      "solution_for_hazard_source": "在楼梯的顶部和底部安装安全门或栏杆，以防止无人监督的进入。",
+      "solution_to_prevent_recurrence": "确保孩子在靠近楼梯或其他高处时始终受到监督。"
+    },
+    "3": {
+      "risk_description": "看到孩子在楼梯上玩耍并跌倒，由于楼梯的不稳定性，存在受伤风险。",
+      "normal_video_description": "",
+      "solution_for_person": "确保孩子在楼梯上玩耍时受到密切监督，以防止跌倒。",
+      "solution_for_hazard_source": "在楼梯的顶部和底部安装安全门或护栏，以防止进入。",
+      "solution_to_prevent_recurrence": "教育孩子楼梯玩耍的危险，并确保持续监督。"
+    },
+    "4": {
+      "risk_description": "",
+      "normal_video_description": "视频显示一名中年人坐在餐厅的桌子旁吃喝。现场没有可见的风险或危险。",
+      "solution_for_person": "",
+      "solution_for_hazard_source": "",
+      "solution_to_prevent_recurrence": ""
+    }
+  }
+}

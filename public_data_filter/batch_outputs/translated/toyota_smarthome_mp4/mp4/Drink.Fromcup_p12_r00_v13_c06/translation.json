@@ -1,0 +1,40 @@
+{
+  "video_key": "toyota_smarthome_mp4/mp4/Drink.Fromcup_p12_r00_v13_c06",
+  "translations": {
+    "0": {
+      "risk_description": "视频中的人站在椅子或凳子上够高架子上的东西，存在潜在的跌倒危险。",
+      "normal_video_description": "视频中的人站在厨房里，伸手去够高架子上的东西。他们穿着红色衬衫，似乎专注于手头的任务。厨房光线充足，配备现代化电器。",
+      "solution_for_person": "这个人应该请求帮助或使用带防滑底座的踏脚凳，以安全地够取高架子上的物品。",
+      "solution_for_hazard_source": "厨房应配备带防滑底座的踏脚凳或其他安全措施，以防止跌倒。",
+      "solution_to_prevent_recurrence": "应提醒该人在够取高架子上的物品时使用适当的安全措施。"
+    },
+    "1": {
+      "risk_description": "这个人站在厨房岛台附近，台面上放有笔记本电脑和似乎是电脑主机的设备。电脑主机被抬高放在岛台上，存在意外接触电气部件的风险。",
+      "normal_video_description": "一个人在厨房靠近柜台站着，柜台上放有笔记本电脑和电脑主机，背景中有一台电视在播放。",
+      "solution_for_person": "确保该人注意到升高的电气设备，并与其保持安全距离，以防意外接触。",
+      "solution_for_hazard_source": "将电脑主机移至更安全的位置，远离厨房岛台，以降低意外接触的风险。",
+      "solution_to_prevent_recurrence": "所有电气设备，特别是有裸露部件的设备，应远离厨房的食品准备区域。"
+    },
+    "2": {
+      "risk_description": "",
+      "normal_video_description": "一位老年人在现代化的厨房里站着，手里拿着杯子正在喝东西。环境整洁，没有可见的危险或不安全的情况。",
+      "solution_for_person": "",
+      "solution_for_hazard_source": "",
+      "solution_to_prevent_recurrence": ""
+    },
+    "3": {
+      "risk_description": "老年人拿着玻璃杯靠近炉灶，这可能导致烫伤或意外破碎的风险。",
+      "normal_video_description": "",
+      "solution_for_person": "确保老年人注意炉灶的热度，并与尖锐物体保持安全距离。",
+      "solution_for_hazard_source": "保持炉灶区域没有尖锐物体，并在不使用时确保炉灶已关闭。",
+      "solution_to_prevent_recurrence": "对尖锐物体使用防护套，并在使用炉灶时进行监控。"
+    },
+    "4": {
+      "risk_description": "",
+      "normal_video_description": "视频中一位穿红色衬衫的老年人在现代化厨房里，似乎在柜台旁进行某种活动。现场未观察到明显的风险或危险行为。",
+      "solution_for_person": "",
+      "solution_for_hazard_source": "",
+      "solution_to_prevent_recurrence": ""
+    }
+  }
+}

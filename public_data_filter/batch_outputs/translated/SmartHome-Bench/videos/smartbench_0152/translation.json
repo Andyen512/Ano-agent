@@ -1,0 +1,40 @@
+{
+  "video_key": "SmartHome-Bench/videos/smartbench_0152",
+  "translations": {
+    "0": {
+      "risk_description": "一群蜜蜂正朝房屋入口飞来，对可能在庭院里的人构成潜在危险。如果有人试图躲避它们或它们变得有攻击性，蜜蜂可能导致碰撞或挤压伤害。",
+      "normal_video_description": "",
+      "solution_for_person": "如果有人在庭院里，他们应进入室内躲避蜜蜂。如果无法进入室内，应保持静止并慢慢后退，远离蜜蜂，以免激怒它们。",
+      "solution_for_hazard_source": "蜜蜂是危险的根源。没有特定的解决方案可以阻止蜜蜂靠近房屋，但可以考虑种植对蜜蜂友好的花园或使用驱蜂植物来阻止蜜蜂进入该区域。",
+      "solution_to_prevent_recurrence": "为防止再次发生，可考虑安装对蜜蜂友好的花园或使用驱蜂植物来阻止蜜蜂靠近该区域。此外，可在房屋入口安装防蜂网或其他驱蜂措施，以防止蜜蜂进入。"
+    },
+    "1": {
+      "risk_description": "",
+      "normal_video_description": "视频显示大量蜜蜂在石拱门周围飞舞，背景中可见花园和房屋。",
+      "solution_for_person": "",
+      "solution_for_hazard_source": "",
+      "solution_to_prevent_recurrence": ""
+    },
+    "2": {
+      "risk_description": "一大群蜜蜂正在袭击镜头，造成混乱的蜂群，可能对附近的人构成被蜇或受伤的风险。",
+      "normal_video_description": "",
+      "solution_for_person": "留在室内或远离蜂群，以免被蜇。",
+      "solution_for_hazard_source": "联系专业害虫防治服务，安全移除蜂群。",
+      "solution_to_prevent_recurrence": "在窗户和门上安装纱窗，防止蜜蜂日后进入。"
+    },
+    "3": {
+      "risk_description": "视频显示蜂群在门口附近袭击，存在被蜇和过敏反应的风险，对儿童、老年人或行动不便者等弱势群体尤其危险。",
+      "normal_video_description": "",
+      "solution_for_person": "看护者应确保弱势群体留在室内并远离蜂群，以避免潜在的过敏反应或蜜蜂蜇伤。",
+      "solution_for_hazard_source": "应由专业害虫防治或蜜蜂清除服务处理蜂群，以消除威胁。",
+      "solution_to_prevent_recurrence": "在门口安装纱窗或防蜂措施，防止将来蜂群进入该区域。"
+    },
+    "4": {
+      "risk_description": "",
+      "normal_video_description": "视频显示从屋内透过窗户望向庭院，庭院里有石墙、绿色灌木，远处有红色屋顶的建筑。画面中没有可见的风险或危险。",
+      "solution_for_person": "",
+      "solution_for_hazard_source": "",
+      "solution_to_prevent_recurrence": ""
+    }
+  }
+}

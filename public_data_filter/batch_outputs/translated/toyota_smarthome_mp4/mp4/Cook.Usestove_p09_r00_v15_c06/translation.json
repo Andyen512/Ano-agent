@@ -1,0 +1,40 @@
+{
+  "video_key": "toyota_smarthome_mp4/mp4/Cook.Usestove_p09_r00_v15_c06",
+  "translations": {
+    "0": {
+      "risk_description": "",
+      "normal_video_description": "一个男人站在现代厨房里，正在与烤箱互动。他似乎正在检查或从烤箱中取东西。厨房照明良好，设计时尚，设有中央岛台和嵌入式烤箱。岛台上放着几样物品，包括一个绿色杯子和一个小装饰品。男人穿着格子衬衫和深色裤子。",
+      "solution_for_person": "",
+      "solution_for_hazard_source": "",
+      "solution_to_prevent_recurrence": ""
+    },
+    "1": {
+      "risk_description": "此人正在与一台正在使用的烤箱互动，可能会暴露于烧伤或热相关伤害的风险中。",
+      "normal_video_description": "一个人在厨房里与烤箱互动。",
+      "solution_for_person": "在烤箱使用期间保持安全距离，必要时使用隔热手套。",
+      "solution_for_hazard_source": "确保烤箱得到适当监控，不使用时关闭电源。",
+      "solution_to_prevent_recurrence": "定期检查烤箱安全功能，确保正确使用防护装备。"
+    },
+    "2": {
+      "risk_description": "",
+      "normal_video_description": "一位老年人站在现代厨房里，检查烤箱内的食物。这个场景描绘的是日常家务活动，没有明显危险或异常行为的迹象。",
+      "solution_for_person": "",
+      "solution_for_hazard_source": "",
+      "solution_to_prevent_recurrence": ""
+    },
+    "3": {
+      "risk_description": "老年人站在打开的烤箱附近，存在烧伤或热暴露的风险。",
+      "normal_video_description": "",
+      "solution_for_person": "在靠近烤箱之前，确保烤箱已关闭并冷却。",
+      "solution_for_hazard_source": "使用隔热手套或布来操作烤箱门，避免直接接触热量。",
+      "solution_to_prevent_recurrence": "不使用时保持烤箱门关闭，并确保烤箱周围区域冷却至可触碰。"
+    },
+    "4": {
+      "risk_description": "此人站在灯亮着的烤箱前，这可能表明存在潜在的火灾隐患，如果不妥善监控的话。烤箱的热量也存在烧伤风险。",
+      "normal_video_description": "",
+      "solution_for_person": "确保烤箱不使用时关闭，并保持安全距离以避免烧伤。",
+      "solution_for_hazard_source": "定期检查和维护烤箱，以防止任何故障或过热。",
+      "solution_to_prevent_recurrence": "实施安全措施，例如在处理热物品时使用隔热手套，并使易燃材料远离烤箱。"
+    }
+  }
+}

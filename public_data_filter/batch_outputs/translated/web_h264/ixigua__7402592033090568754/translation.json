@@ -1,0 +1,40 @@
+{
+  "video_key": "web_h264/ixigua__7402592033090568754",
+  "translations": {
+    "0": {
+      "risk_description": "孩子正在玩打火机和纸，这可能导致火灾隐患。孩子还坐在床边，可能会导致摔倒。",
+      "normal_video_description": "",
+      "solution_for_person": "看护者应密切监督孩子，确保他们不玩火或不攀爬家具。",
+      "solution_for_hazard_source": "打火机和纸应放在孩子够不到的地方。",
+      "solution_to_prevent_recurrence": "看护者应教育孩子了解火的危险性，并确保他们无法接触到危险物品。"
+    },
+    "1": {
+      "risk_description": "孩子正在使用吹风机烘干衣服，意外起火，造成烧伤和火灾风险。",
+      "normal_video_description": "孩子正在床上用吹风机烘干衣服，着火后孩子通过拔掉吹风机插头来灭火。",
+      "solution_for_person": "孩子使用电器时应受到监督，并学习消防安全知识。",
+      "solution_for_hazard_source": "吹风机不使用时应立即拔掉插头，并远离易燃物品。",
+      "solution_to_prevent_recurrence": "教育孩子了解在易燃物品附近使用电器的危险性，确保此类活动时有成人监督。"
+    },
+    "2": {
+      "risk_description": "孩子将吹风机开着放在被子下面，导致织物起火。这构成了明显的直接火灾隐患，已导致实际火灾事件。",
+      "normal_video_description": "",
+      "solution_for_person": "孩子使用电器时应始终受到监督，特别是在床品周围。",
+      "solution_for_hazard_source": "吹风机使用后应立即拔掉插头，绝不能无人看管。",
+      "solution_to_prevent_recurrence": "教育孩子了解让电器无人看管的危险性，并确保他们使用电器时有成人监督。"
+    },
+    "3": {
+      "risk_description": "孩子正在用吹风机烘干被子，导致起火。孩子试图通过拔掉吹风机插头和使用水容器来灭火。",
+      "normal_video_description": "",
+      "solution_for_person": "孩子使用电器时应密切监督，并确保他们了解消防安全。",
+      "solution_for_hazard_source": "将电器远离易燃物品，确保在通风良好的地方使用。",
+      "solution_to_prevent_recurrence": "教育孩子了解在易燃物品附近使用电器的危险性，并确保始终有成人监督。"
+    },
+    "4": {
+      "risk_description": "由于孩子的位置和床的高度，孩子有从床上摔下来的危险。这可能导致严重伤害。",
+      "normal_video_description": "",
+      "solution_for_person": "确保孩子受到监督，不要让他们在床上无人看管，以防摔倒。",
+      "solution_for_hazard_source": "移除任何可能导致孩子滚下床的物体，或提供防护栏以防止摔倒。",
+      "solution_to_prevent_recurrence": "在床上安装护栏或将床放置在靠近地面的位置，以减少摔倒的风险。"
+    }
+  }
+}

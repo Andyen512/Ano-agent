@@ -1,0 +1,40 @@
+{
+  "video_key": "labimag/dataset/chute07/cam7",
+  "translations": {
+    "0": {
+      "risk_description": "年轻人正躺在一个放在房间中央地板上的大型白色软垫物体上。该物体看起来不稳定，且该年轻人没有穿戴任何安全护具。如果他们起身或突然移动，可能会导致跌倒或受伤。",
+      "normal_video_description": "",
+      "solution_for_person": "应建议年轻人在尝试移动该物体之前佩戴适当的安全装备，如头盔和护膝。还应指示他们缓慢而小心地靠近该物体，以避免任何可能导致失去平衡的突然动作。",
+      "solution_for_hazard_source": "该物体应固定在地板或稳定表面上，以防止其移动或翻倒。房间也应清除任何障碍物或绊倒危险，以确保为年轻人提供安全环境。",
+      "solution_to_prevent_recurrence": "在尝试移动该物体时，年轻人应受到监督，并应定期检查以确保该物体保持稳定和安全。房间应定期检查是否存在潜在危险。"
+    },
+    "1": {
+      "risk_description": "此人正躺在一个位于地板上有网格线的房间中央的大型软物上，这可能不稳定或意外移动，增加跌倒风险。",
+      "normal_video_description": "一个人在有网格线的房间中躺在一个大型软物上，周围环绕着桌子和设备。",
+      "solution_for_person": "在躺上软物之前，确保其已安全放置且稳固。",
+      "solution_for_hazard_source": "将软物固定以防止移动。",
+      "solution_to_prevent_recurrence": "将软物靠墙放置或固定在地板上，以减少移动。"
+    },
+    "2": {
+      "risk_description": "",
+      "normal_video_description": "一个人走进房间，躺在放在地板上的床垫上，然后坐起来。另一个人进入房间并站在附近。环境看起来是一个实验室或办公室空间，有桌子和设备。",
+      "solution_for_person": "",
+      "solution_for_hazard_source": "",
+      "solution_to_prevent_recurrence": ""
+    },
+    "3": {
+      "risk_description": "此人躺在软垫表面上，如果他们试图滚动或突然移动，可能会带来风险，可能导致跌倒或不稳定。",
+      "normal_video_description": "",
+      "solution_for_person": "确保此人了解周围环境，缓慢移动以避免突然动作。",
+      "solution_for_hazard_source": "固定软垫表面以防止其意外移动。",
+      "solution_to_prevent_recurrence": "提供关于在软垫表面周围安全移动做法的明确指示。"
+    },
+    "4": {
+      "risk_description": "穿红色衬衫的人正躺在地板上，这可能表明跌倒或不稳定的风险。如果不及时处理，这种情况可能导致严重伤害。",
+      "normal_video_description": "一个穿红色衬衫的人走进办公室空间并躺在地板上，可能是由于跌倒或不稳定问题。",
+      "solution_for_person": "确保此人安全，必要时提供帮助。",
+      "solution_for_hazard_source": "未发现任何情况。",
+      "solution_to_prevent_recurrence": "在进行任何活动之前，确保该区域没有绊倒危险，且该人保持稳定。"
+    }
+  }
+}

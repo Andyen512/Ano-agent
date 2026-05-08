@@ -1,0 +1,40 @@
+{
+  "video_key": "labimag/dataset/chute10/cam7",
+  "translations": {
+    "0": {
+      "risk_description": "可以看到这位年轻人跑向垫子并倒在上面，若他们落地姿势不稳或垫子滑动，可能会导致受伤。",
+      "normal_video_description": "",
+      "solution_for_person": "应鼓励该人在进入房间时保持适当的谨慎，避免奔跑或做出可能导致失去平衡的突然动作。",
+      "solution_for_hazard_source": "垫子应放置在稳固平整的表面上以防止滑动，房间应保持没有绊倒危险物，如电线或松散物品。",
+      "solution_to_prevent_recurrence": "应提醒该人注意周围环境，避免在房间里进行冒险行为。应定期检查以确保垫子固定安全，房间没有危险物品。"
+    },
+    "1": {
+      "risk_description": "穿红衬衫的人正躺在地板上的床垫上，这在当前环境中并非稳固或预期的睡眠表面。如果床垫移动或该人突然起身，可能导致跌倒或受伤。",
+      "normal_video_description": "一个穿红衬衫的人进入有床垫放在地板上的房间，躺在床垫上，房间里其他人观察。",
+      "solution_for_person": "确保床垫放在稳固、平坦的睡眠专用表面上，例如床架上。",
+      "solution_for_hazard_source": "将床垫从地板上移除，放到合适的床架上，以防止不稳定。",
+      "solution_to_prevent_recurrence": "明确将该区域标记为禁止睡眠区，或确保提供合适的睡眠设施。"
+    },
+    "2": {
+      "risk_description": "",
+      "normal_video_description": "一个人走进房间，走向地板上的床垫，躺下后坐起并离开。另一个人在背景中走过。此活动似乎是安全室内环境中的正常探索或玩耍。",
+      "solution_for_person": "",
+      "solution_for_hazard_source": "",
+      "solution_to_prevent_recurrence": ""
+    },
+    "3": {
+      "risk_description": "这位老年人正躺在地板上的床垫上，如果没有适当支撑试图起身，可能导致跌倒。",
+      "normal_video_description": "",
+      "solution_for_person": "确保老年人在从地板起身时有稳固的支撑面或有人协助。",
+      "solution_for_hazard_source": "提供缓冲或支撑表面以防止跌倒。",
+      "solution_to_prevent_recurrence": "使用防滑垫或确保地面没有障碍物，以降低跌倒风险。"
+    },
+    "4": {
+      "risk_description": "该人正试图抬起床垫，如果处理不当可能导致跌倒或失衡。抬起重物时存在滑倒或失去平衡的受伤风险。",
+      "normal_video_description": "一个穿红衬衫的人进入办公空间并试图抬起地板上放置的床垫。背景中还有其他人在工作桌前。",
+      "solution_for_person": "确保使用正确的抬起技巧，如屈膝并保持背部挺直，以减少受伤风险。",
+      "solution_for_hazard_source": "",
+      "solution_to_prevent_recurrence": "提供安全抬起技巧的培训，并确保个人了解搬运重物所涉及的风险。"
+    }
+  }
+}

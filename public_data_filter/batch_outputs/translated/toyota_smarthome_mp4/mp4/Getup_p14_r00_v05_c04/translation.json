@@ -1,0 +1,40 @@
+{
+  "video_key": "toyota_smarthome_mp4/mp4/Getup_p14_r00_v05_c04",
+  "translations": {
+    "0": {
+      "risk_description": "年轻人身体前倾，似乎失去平衡，可能导致跌倒并造成潜在伤害。",
+      "normal_video_description": "这位年轻人坐在客厅的绿色沙发上，周围有植物和咖啡桌，上面放着各种物品。此人似乎身体前倾并失去平衡，可能导致跌倒并造成潜在伤害。",
+      "solution_for_person": "应鼓励此人坐直，避免过度前倾，以防止跌倒。",
+      "solution_for_hazard_source": "客厅里没有明显的危险因素可能导致跌倒。",
+      "solution_to_prevent_recurrence": "应提醒此人在坐在沙发上时注意姿势，避免过度前倾。"
+    },
+    "1": {
+      "risk_description": "",
+      "normal_video_description": "一个人坐在客厅的绿色分段沙发上，随后站起来。房间里有咖啡桌，上面放着零食和饮料，旁边有放书籍和遥控器的边几，大型植物以及落地灯。",
+      "solution_for_person": "",
+      "solution_for_hazard_source": "",
+      "solution_to_prevent_recurrence": ""
+    },
+    "2": {
+      "risk_description": "",
+      "normal_video_description": "一个年轻人坐在客厅的绿色分段沙发上。身体前倾，把手放在沙发垫子上，然后站起来离开。环境安静，没有明显的危险或危险活动。",
+      "solution_for_person": "",
+      "solution_for_hazard_source": "",
+      "solution_to_prevent_recurrence": ""
+    },
+    "3": {
+      "risk_description": "此人正尝试从低矮的沙发上站起，这可能会导致跌倒风险，特别是对于行动受限或平衡问题的人。",
+      "normal_video_description": "",
+      "solution_for_person": "确保此人有所依靠，或使用坐位更高的椅子，以降低跌倒风险。",
+      "solution_for_hazard_source": "提供稳固的支撑面或辅助设备，帮助从低矮家具上站起。",
+      "solution_to_prevent_recurrence": "使用坐位更高的家具，或添加垫子以降低站立时的重心。"
+    },
+    "4": {
+      "risk_description": "老年人有从沙发上跌倒的风险，可能因年龄因素和撞击地面造成严重伤害。",
+      "normal_video_description": "",
+      "solution_for_person": "确保老年人在从沙发站起时有适当的支撑或帮助，以防止跌倒。",
+      "solution_for_hazard_source": "移除沙发附近可能导致绊倒的物品。",
+      "solution_to_prevent_recurrence": "在沙发附近安装扶手或抓杆，为老年人提供额外支撑。"
+    }
+  }
+}

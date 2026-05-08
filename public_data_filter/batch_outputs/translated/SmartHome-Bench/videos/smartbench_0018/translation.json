@@ -1,0 +1,40 @@
+{
+  "video_key": "SmartHome-Bench/videos/smartbench_0018",
+  "translations": {
+    "0": {
+      "risk_description": "",
+      "normal_video_description": "视频显示了一个典型的郊区院子场景，一辆白色货车停在街上，一只白狗站在草地上，一个穿着蓝色夹克和黑色裤子的人正朝货车走去。这个人看起来是个孩子，场景平静正常。",
+      "solution_for_person": "",
+      "solution_for_hazard_source": "",
+      "solution_to_prevent_recurrence": ""
+    },
+    "1": {
+      "risk_description": "年轻人赤脚在不平坦的沥青路面上跑步，这增加了绊倒和跌倒的风险，可能导致受伤。",
+      "normal_video_description": "视频显示一个年轻人在住宅院子的沥青车道上赤脚跑步，旁边有一辆白色货车和一只狗。",
+      "solution_for_person": "年轻人应该穿适当的鞋子，以降低在沥青路面上跑步时滑倒或绊倒的风险。",
+      "solution_for_hazard_source": "",
+      "solution_to_prevent_recurrence": "确保在院子里不平坦的表面上跑步或玩耍时穿鞋。"
+    },
+    "2": {
+      "risk_description": "",
+      "normal_video_description": "一个孩子在住宅院子的车道上跑过，背景中可见一只狗和一辆停放的货车。该场景描绘了正常的户外玩耍，没有危险或不稳定的迹象。",
+      "solution_for_person": "",
+      "solution_for_hazard_source": "",
+      "solution_to_prevent_recurrence": ""
+    },
+    "3": {
+      "risk_description": "孩子在跑步和扔东西，这可能导致跌倒或碰撞，尤其是在草地附近不平坦的路面上。",
+      "normal_video_description": "",
+      "solution_for_person": "应密切监督孩子，确保他们待在安全区域内，避免在路边或不平坦的表面上奔跑。",
+      "solution_for_hazard_source": "应保持路边区域没有障碍物，以降低绊倒或跌倒的风险。",
+      "solution_to_prevent_recurrence": "安装额外的监督或屏障，防止孩子跑得太靠近路边或不平坦的区域。"
+    },
+    "4": {
+      "risk_description": "孩子在蹦床上跳跃，这可能导致跌倒和潜在伤害。蹦床的稳定性和孩子安全着陆的能力存在风险。",
+      "normal_video_description": "一个孩子在院子里的蹦床上玩耍，旁边停着一辆白色货车。",
+      "solution_for_person": "确保孩子在使用蹦床时有成人监督，并理解如何安全使用。",
+      "solution_for_hazard_source": "",
+      "solution_to_prevent_recurrence": "定期检查蹦床是否有损坏，并确保它安装在坚固、平整的地面上。"
+    }
+  }
+}

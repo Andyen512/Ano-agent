@@ -1,0 +1,40 @@
+{
+  "video_key": "labimag/dataset/chute20/cam6",
+  "translations": {
+    "0": {
+      "risk_description": "视频中可见一位年轻人走向客厅的棕色扶手椅，随后突然倒地，似乎处于困境中。这种行为与正常年轻人的日常行为不符，年轻人不会无缘无故突然摔倒。",
+      "normal_video_description": "",
+      "solution_for_person": "应对此人进行检查，确认是否有受伤并在必要时提供帮助。还应监测其是否出现进一步的失衡或跌倒情况。",
+      "solution_for_hazard_source": "跌倒的原因尚不清楚，可能是因为地面光滑、绊倒危险或健康状况。需要找出危险源并加以处理，以防再次发生。",
+      "solution_to_prevent_recurrence": "为防止再次发生，应对客厅进行彻底检查，排除潜在危险，如松动的地毯、地面不平或杂物。还要鼓励年轻人在客厅行走时更加小心，并向医疗专业人员报告任何健康状况或担忧。普通视频"
+    },
+    "1": {
+      "risk_description": "该人躺在地板上，姿势可能导致起身困难，增加站立时跌倒或拉伤的风险。",
+      "normal_video_description": "视频显示一间客厅，中央放着一把棕色扶手椅。一名穿红色衬衫的人进入，走向椅子，然后躺在椅子旁边的地板上。背景中另有一人在办公桌前工作。",
+      "solution_for_person": "确保此人意识到从该姿势起身可能会很困难，并在需要时提供帮助。",
+      "solution_for_hazard_source": "",
+      "solution_to_prevent_recurrence": ""
+    },
+    "2": {
+      "risk_description": "有人试图搬动沉重的扶手椅，却失去平衡摔倒在地上，表明存在明显的身体不稳和跌倒风险。",
+      "normal_video_description": "",
+      "solution_for_person": "摔倒的人应立即起身并检查是否有受伤，避免在没有帮助或适当设备的情况下尝试搬动重家具。",
+      "solution_for_hazard_source": "应将扶手椅固定或移动到不会造成绊倒或倾倒危险的位置。",
+      "solution_to_prevent_recurrence": "采取安全措施，如使用家具固定带或确保地面防滑，以防止类似事故再次发生。"
+    },
+    "3": {
+      "risk_description": "穿红色衬衫的人倒在地板上，这可能会导致受伤，特别是对行动不便或平衡问题的人风险更大。",
+      "normal_video_description": "",
+      "solution_for_person": "确保此人了解周围环境并小心移动，以免绊倒或跌倒。",
+      "solution_for_hazard_source": "清除地面上的障碍物或绊倒危险，降低跌倒风险。",
+      "solution_to_prevent_recurrence": "实施安全措施，如改善照明、铺设防滑地面或加强监督，以防止将来再次跌倒。"
+    },
+    "4": {
+      "risk_description": "该人试图坐到椅子上，却向后倒下，提示存在因椅子不稳或使用不当而导致受伤的风险。",
+      "normal_video_description": "",
+      "solution_for_person": "在尝试坐下之前，确保椅子稳固且安全。",
+      "solution_for_hazard_source": "",
+      "solution_to_prevent_recurrence": "使用椅子前检查其稳定性，并确保其放置在平坦的地面上。"
+    }
+  }
+}

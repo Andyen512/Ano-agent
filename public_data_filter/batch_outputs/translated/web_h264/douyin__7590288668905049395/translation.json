@@ -1,0 +1,40 @@
+{
+  "video_key": "web_h264/douyin__7590288668905049395",
+  "translations": {
+    "0": {
+      "risk_description": "视频显示一名年轻成年人使用喷雾瓶清洁桌子，这是一项潜在不稳定活动。该人在使用喷雾瓶时可能会失去平衡或滑倒，导致跌倒或不稳的风险。",
+      "normal_video_description": "",
+      "solution_for_person": "确保该人穿着防滑鞋，并牢固握持喷雾瓶，以防止滑倒或失去平衡。",
+      "solution_for_hazard_source": "将喷雾瓶放置在稳固的表面上，或使用带防滑握柄的喷雾瓶，以防止其从手中滑落。",
+      "solution_to_prevent_recurrence": "鼓励该人在清洁时使用稳固的表面或带防滑握柄的喷雾瓶，以降低跌倒或不稳的风险。"
+    },
+    "1": {
+      "risk_description": "视频显示一颗水晶球聚焦阳光，导致椅子起火。这表明了明显的热/火源风险，因为聚焦的阳光可能会点燃易燃材料。",
+      "normal_video_description": "视频记录了一起事故，水晶球因聚焦阳光而导致椅子起火，突显了安全隐患。",
+      "solution_for_person": "避免在室内或易燃材料附近使用水晶球或类似物品聚焦阳光。",
+      "solution_for_hazard_source": "移除或固定水晶球，以防止其意外聚焦阳光。",
+      "solution_to_prevent_recurrence": "教育人们注意使用反射物体聚焦阳光的危险，并将这些物品安全地存放在远离易燃物品的地方。"
+    },
+    "2": {
+      "risk_description": "水晶球将阳光聚焦到木椅把手上，导致其冒烟并发光，表明存在火灾隐患。聚焦的光线产生了直接且现实的点燃危险。",
+      "normal_video_description": "",
+      "solution_for_person": "立即将水晶球从椅子及其他任何易燃材料旁移开。",
+      "solution_for_hazard_source": "将水晶球重新放置在安全区域，使其无法将阳光聚焦到可燃物品上。",
+      "solution_to_prevent_recurrence": "将水晶球或类似物品远离直射阳光和易燃物品，以避免意外火灾。"
+    },
+    "3": {
+      "risk_description": "视频显示一颗水晶球聚焦阳光并导致椅子起火，对餐厅构成火灾风险。",
+      "normal_video_description": "",
+      "solution_for_person": "将水晶球从直射阳光处移开，并确保附近没有易燃材料。",
+      "solution_for_hazard_source": "移除或妥善存放水晶球，以防止阳光聚焦。",
+      "solution_to_prevent_recurrence": "将易燃物品远离直射阳光，并定期检查潜在的火灾隐患。"
+    },
+    "4": {
+      "risk_description": "视频显示一个孩子在玩打火机，如果打火机没有被放在够不着的地方，可能导致误食有害物质。此外，篮子里还有各种物品，可能会造成窒息危险或误食危险。",
+      "normal_video_description": "视频显示一个孩子在玩打火机和篮子里各种物品，这些物品可能会造成窒息危险或误食危险。",
+      "solution_for_person": "将打火机和其他危险物品放在孩子够不着的地方，并在他们玩耍时密切监督。",
+      "solution_for_hazard_source": "",
+      "solution_to_prevent_recurrence": "将危险物品存放在安全的地方，并教育孩子玩弄这些物品的危险性。"
+    }
+  }
+}

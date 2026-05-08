@@ -1,0 +1,40 @@
+{
+  "video_key": "UR_Fall_Dataset/fall-03-cam1",
+  "translations": {
+    "0": {
+      "risk_description": "可以看到这位年轻人走过客厅时突然跌倒在地，这表明存在不稳定或失去平衡的风险。",
+      "normal_video_description": "",
+      "solution_for_person": "应帮助此人站起来并检查是否有受伤。还应建议他在湿滑或不平的地面上行走时更加小心。",
+      "solution_for_hazard_source": "应检查地板是否存在可能导致跌倒的危险，例如松动的地毯或不平的表面。",
+      "solution_to_prevent_recurrence": "应建议此人在行走时更加小心，并在必要时使用扶手或其他支撑。应检查客厅是否存在危险并加以处理，以防止将来跌倒。"
+    },
+    "1": {
+      "risk_description": "此人在办公室/学习区的地毯地板上躺下，这不是一个指定的睡眠或休息场所。这种行为可能导致跌倒或起床困难，尤其是当此人身体不稳或地面不平时。",
+      "normal_video_description": "一个人进入办公室/学习区，靠近一把椅子，然后在地毯地板上躺下。",
+      "solution_for_person": "此人在办公室/学习区应避免躺在地板上，而应使用合适的家具坐着或休息。",
+      "solution_for_hazard_source": "",
+      "solution_to_prevent_recurrence": "确保此人了解在办公室/学习区躺在地板上的风险，并鼓励其使用椅子或床休息。"
+    },
+    "2": {
+      "risk_description": "此人在移动时失去平衡，向后跌倒在地，这表明明显的不稳定事件，超出正常活动范围。",
+      "normal_video_description": "",
+      "solution_for_person": "此人应立即起身并检查是否受伤，并考虑在地面湿滑时放慢速度或使用扶手。",
+      "solution_for_hazard_source": "检查地板是否有障碍物或可能导致跌倒的滑溜物质。",
+      "solution_to_prevent_recurrence": "确保地板干净干燥，并清除任何可能的绊倒危险。"
+    },
+    "3": {
+      "risk_description": "此人似乎失去平衡并跌倒在地，这对行动不便或协调能力差的人来说尤其危险。",
+      "normal_video_description": "",
+      "solution_for_person": "确保此人在有人监督和帮助的情况下活动，以防止跌倒，特别是在有绊倒危险的区域。",
+      "solution_for_hazard_source": "清除地板上的障碍物或绊倒危险，以降低跌倒风险。",
+      "solution_to_prevent_recurrence": "在客厅安装额外的照明和防滑地板，以增强稳定性和可见性。"
+    },
+    "4": {
+      "risk_description": "可以看到此人不稳地行走，然后跌倒在地，可能导致严重伤害。跌倒似乎是由于不稳定或失去平衡。",
+      "normal_video_description": "",
+      "solution_for_person": "确保此人穿着具有良好抓地力的合适鞋子，以防止滑倒和跌倒。",
+      "solution_for_hazard_source": "清除地板上的绊倒危险，如电线或松散物品。",
+      "solution_to_prevent_recurrence": "鼓励此人在感到疲劳或头晕时休息，如跌倒后出现持续症状应及时就医。"
+    }
+  }
+}

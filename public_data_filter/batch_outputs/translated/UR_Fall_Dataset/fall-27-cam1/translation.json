@@ -1,0 +1,40 @@
+{
+  "video_key": "UR_Fall_Dataset/fall-27-cam1",
+  "translations": {
+    "0": {
+      "risk_description": "这位年轻人正在客厅里做后空翻，这是一项高风险活动，可能导致跌倒和受伤。",
+      "normal_video_description": "",
+      "solution_for_person": "应该建议在有适当安全设备和监督的受控环境中进行此类活动。",
+      "solution_for_hazard_source": "客厅应清理掉任何可能在跌倒时造成伤害的物品。",
+      "solution_to_prevent_recurrence": "应鼓励该人从事更安全的体育活动，并始终佩戴适当的安全装备。"
+    },
+    "1": {
+      "risk_description": "",
+      "normal_video_description": "视频显示一间配有桌子、椅子和地毯的房间。一个穿着格子衬衫和牛仔裤的人俯卧在地毯上。视频左侧似乎是同一场景的分割或深度图。",
+      "solution_for_person": "",
+      "solution_for_hazard_source": "",
+      "solution_to_prevent_recurrence": ""
+    },
+    "2": {
+      "risk_description": "",
+      "normal_video_description": "视频显示一个人走进办公室房间后躺倒在地。该场景似乎是正常的日常活动，没有明显的风险或危险。",
+      "solution_for_person": "",
+      "solution_for_hazard_source": "",
+      "solution_to_prevent_recurrence": ""
+    },
+    "3": {
+      "risk_description": "可以看到一个孩子摔倒在地上，如果姿势不当可能会导致受伤。",
+      "normal_video_description": "",
+      "solution_for_person": "确保孩子受到密切监督，以防止跌倒。",
+      "solution_for_hazard_source": "清除地面上的任何障碍物或可能导致绊倒的危险物品。",
+      "solution_to_prevent_recurrence": "安装安全门或栏杆，以阻止进入高风险区域。"
+    },
+    "4": {
+      "risk_description": "可以看到该人向后倒在地上，坚硬的地板以及可能与附近物体相撞可能导致严重伤害。",
+      "normal_video_description": "",
+      "solution_for_person": "确保该人穿着具有良好抓地力的合适鞋类，以防止在光滑地板上滑倒。",
+      "solution_for_hazard_source": "清除该人行走区域中的任何潜在绊倒危险。",
+      "solution_to_prevent_recurrence": "实施安全培训计划，教育员工正确的行走技巧以及在办公室移动时保持平衡的重要性。"
+    }
+  }
+}

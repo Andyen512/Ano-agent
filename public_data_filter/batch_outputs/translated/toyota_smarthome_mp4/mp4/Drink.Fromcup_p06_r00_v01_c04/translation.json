@@ -1,0 +1,40 @@
+{
+  "video_key": "toyota_smarthome_mp4/mp4/Drink.Fromcup_p06_r00_v01_c04",
+  "translations": {
+    "0": {
+      "risk_description": "老年人坐在沙发上，伸手去够茶几上的物品，这可能会导致他们失去平衡而跌倒。",
+      "normal_video_description": "",
+      "solution_for_person": "护理人员应该协助老年人拿取茶几上的物品，以防止跌倒。",
+      "solution_for_hazard_source": "应该重新布置茶几，将物品放在老年人易于够到的地方，以防止跌倒。",
+      "solution_to_prevent_recurrence": "护理人员应该定期检查老年人的平衡状况，并根据需要提供支撑，以防止跌倒。"
+    },
+    "1": {
+      "risk_description": "此人正手持红色杯子饮用。如果杯中装有热饮料，则有烫伤手或嘴巴的风险。",
+      "normal_video_description": "一位老年人坐在客厅的绿色沙发上，喝着红色杯子里的饮料，然后将其放在桌子上。",
+      "solution_for_person": "饮用前应检查饮料温度，以避免烫伤。",
+      "solution_for_hazard_source": "",
+      "solution_to_prevent_recurrence": "确保热饮料在饮用前冷却到安全温度，特别是对于更容易烫伤的老年人。"
+    },
+    "2": {
+      "risk_description": "",
+      "normal_video_description": "一位老年人坐在客厅的绿色沙发上，手持红色杯子饮用。然后将杯子放在旁边的桌子上。场景平静，没有危险或异常行为的迹象。",
+      "solution_for_person": "",
+      "solution_for_hazard_source": "",
+      "solution_to_prevent_recurrence": ""
+    },
+    "3": {
+      "risk_description": "老年人伸手将杯子放在桌子上，这可能导致失去平衡而跌倒。",
+      "normal_video_description": "",
+      "solution_for_person": "确保老年人坐直，用双手将杯子放在桌子上，以保持更好的稳定性。",
+      "solution_for_hazard_source": "提供易于够到的稳定表面，以减少向前伸手的需要。",
+      "solution_to_prevent_recurrence": "使用更靠近沙发的边桌，或确保当前的桌子对老年人来说高度舒适。"
+    },
+    "4": {
+      "risk_description": "",
+      "normal_video_description": "一位老年人坐在客厅的绿色沙发上，正在看书。他们穿着粉红色开衫，看起来专注于阅读材料。",
+      "solution_for_person": "",
+      "solution_for_hazard_source": "",
+      "solution_to_prevent_recurrence": ""
+    }
+  }
+}

@@ -1,0 +1,40 @@
+{
+  "video_key": "SmartHome-Bench/videos/smartbench_0941",
+  "translations": {
+    "0": {
+      "risk_description": "年轻人在院子里骑自行车时失去控制，导致自行车摔倒。这可能导致年轻人受伤。",
+      "normal_video_description": "",
+      "solution_for_person": "年轻人在骑自行车时应佩戴防护装备，如头盔和护膝，以降低受伤风险。",
+      "solution_for_hazard_source": "年轻人在院子里骑自行车时应更加小心，避免障碍物或不平坦的地形。",
+      "solution_to_prevent_recurrence": "年轻人应该参加自行车安全课程，学习正确的骑行技术和安全措施，以防止摔倒和受伤。"
+    },
+    "1": {
+      "risk_description": "此人从自行车上下来并将其留在人行道上，造成绊倒危险。自行车被放置在可能被绊倒的位置，如果有人绊倒，可能会造成碰撞或挤压伤害。",
+      "normal_video_description": "一个人在人行道上骑自行车，下车后将一个箱子放在地上，然后将自行车留在人行道上后骑走。",
+      "solution_for_person": "此人应将自行车正确停放在指定的自行车架上或移出人行道，以避免绊倒危险。",
+      "solution_for_hazard_source": "自行车应移动到更安全的位置，不要阻碍人行道。",
+      "solution_to_prevent_recurrence": "应提醒此人在不使用自行车时，尤其是公共场所，务必妥善停放。"
+    },
+    "2": {
+      "risk_description": "一个骑自行车的人接近门廊，抓起一个包裹后骑走，这构成了盗窃事件。",
+      "normal_video_description": "",
+      "solution_for_person": "",
+      "solution_for_hazard_source": "",
+      "solution_to_prevent_recurrence": "安装监控摄像头或运动传感器以阻止盗窃。"
+    },
+    "3": {
+      "risk_description": "骑自行车的人带着一个箱子，这可能阻碍其视野和平衡，增加碰撞或摔倒的风险，特别是在遇到不平坦的路面或障碍物时。",
+      "normal_video_description": "",
+      "solution_for_person": "确保箱子固定牢固，骑行时不会遮挡视线。",
+      "solution_for_hazard_source": "清除车道上所有可能的障碍物，确保道路畅通。",
+      "solution_to_prevent_recurrence": "在可控环境中练习携带包裹骑行，以提高平衡能力和意识。"
+    },
+    "4": {
+      "risk_description": "此人正在人行道上骑自行车，如果失去控制或遇到障碍物，可能会导致摔倒。",
+      "normal_video_description": "",
+      "solution_for_person": "骑自行车时应佩戴头盔和护膝等防护装备。",
+      "solution_for_hazard_source": "",
+      "solution_to_prevent_recurrence": "确保人行道没有障碍物，骑行时保持安全速度。"
+    }
+  }
+}

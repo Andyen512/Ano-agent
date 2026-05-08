@@ -1,0 +1,40 @@
+{
+  "video_key": "web_h264/bilibili__BV1eB4y1n78c",
+  "translations": {
+    "0": {
+      "risk_description": "孩子正在玩一个会冒烟的玩具，这可能是一个潜在的火灾隐患。孩子还在客厅里四处走动，这增加了跌倒或撞到家具的风险。",
+      "normal_video_description": "",
+      "solution_for_person": "建议在孩子玩玩具时进行成人监督，以确保孩子的安全。",
+      "solution_for_hazard_source": "应检查玩具是否存在潜在的火灾隐患，并远离易燃材料。",
+      "solution_to_prevent_recurrence": "应教育孩子安全玩耍，并让其意识到客厅中的潜在危险。"
+    },
+    "1": {
+      "risk_description": "一个孩子正在室内骑电动平衡车。车辆突然起火，存在烧伤和吸入烟雾的风险。",
+      "normal_video_description": "一个孩子在客厅里玩电动平衡车。平衡车起火，孩子跑开了。",
+      "solution_for_person": "应密切监督孩子，并立即将其从燃烧的车辆旁移开。",
+      "solution_for_hazard_source": "电动平衡车在不使用时应关闭电源并拔掉插头，远离易燃材料。",
+      "solution_to_prevent_recurrence": "在家中安装烟雾探测器和灭火器，并教育孩子了解在室内玩电气设备的危险。"
+    },
+    "2": {
+      "risk_description": "一个孩子正在室内骑电动平衡车，车辆突然冒出大量烟雾并似乎起火，造成即时火灾隐患。",
+      "normal_video_description": "",
+      "solution_for_person": "孩子应立即停止使用该设备，远离烟雾，并提醒大人拨打紧急服务电话。",
+      "solution_for_hazard_source": "电动平衡车应立即拔掉插头并从室内环境中移走。",
+      "solution_to_prevent_recurrence": "由于存在火灾和吸入烟雾的风险，电动平衡车及类似设备不应在室内使用。"
+    },
+    "3": {
+      "risk_description": "孩子正在室内玩滑板车，滑板车起火，存在烧伤或吸入烟雾的风险。",
+      "normal_video_description": "",
+      "solution_for_person": "当孩子在室内玩电动玩具时应密切监督，确保他们处于远离易燃材料的安全区域。",
+      "solution_for_hazard_source": "确保电动玩具安全使用，并设计为适合室内使用，具有适当的防火安全功能。",
+      "solution_to_prevent_recurrence": "将电动玩具和滑板车远离易燃材料，确保在通风良好的区域使用以降低火灾风险。"
+    },
+    "4": {
+      "risk_description": "孩子正在地板上玩玩具，这可能存在跌倒或绊倒的风险。此外，附近有一台吸尘器，可能会造成绊倒危险。",
+      "normal_video_description": "",
+      "solution_for_person": "确保孩子在玩耍时有人监督，并且该区域没有绊倒危险。",
+      "solution_for_hazard_source": "将吸尘器从该区域移走以降低绊倒风险。",
+      "solution_to_prevent_recurrence": "定期检查客厅是否存在潜在的绊倒危险，并确保孩子在玩耍时始终有人监督。"
+    }
+  }
+}

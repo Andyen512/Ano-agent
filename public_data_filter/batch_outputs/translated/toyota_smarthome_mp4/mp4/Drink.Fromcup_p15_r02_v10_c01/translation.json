@@ -1,0 +1,40 @@
+{
+  "video_key": "toyota_smarthome_mp4/mp4/Drink.Fromcup_p15_r02_v10_c01",
+  "translations": {
+    "0": {
+      "risk_description": "",
+      "normal_video_description": "视频显示一名中年成年人坐在餐厅的餐桌旁，手持杯子饮用。人物看起来在进行正常活动，没有任何风险或危险的迹象。餐厅光线充足，桌上有报纸、一副眼镜和一些杯子等物品。人物似乎在享用饮品，状态放松。",
+      "solution_for_person": "",
+      "solution_for_hazard_source": "",
+      "solution_to_prevent_recurrence": ""
+    },
+    "1": {
+      "risk_description": "",
+      "normal_video_description": "一位年长者坐在餐桌旁，手持杯子饮用，并以平静的方式处理桌上的物品。",
+      "solution_for_person": "",
+      "solution_for_hazard_source": "",
+      "solution_to_prevent_recurrence": ""
+    },
+    "2": {
+      "risk_description": "",
+      "normal_video_description": "一位年长者坐在光线充足的房间的餐桌旁，手持杯子饮水，同时阅读杂志。环境看起来平静安全，没有可见的危险或危险行为。",
+      "solution_for_person": "",
+      "solution_for_hazard_source": "",
+      "solution_to_prevent_recurrence": ""
+    },
+    "3": {
+      "risk_description": "年长者将杯子靠近面部，这可能导致溢出或意外掉落，若他们向后跌倒则有碰撞或挤压伤害的风险。",
+      "normal_video_description": "",
+      "solution_for_person": "年长者应确保自己坐稳，并将杯子保持在离面部安全距离，以防止事故。",
+      "solution_for_hazard_source": "桌面布局应包括物品的稳定放置，以降低溢出或掉落的风险。",
+      "solution_to_prevent_recurrence": "在杯子下使用防滑垫，并确保年长者坐得舒适，以最大程度降低跌倒风险。"
+    },
+    "4": {
+      "risk_description": "",
+      "normal_video_description": "一位年长者坐在餐厅的桌子旁，手持罐装饮品并阅读杂志。环境看起来安全，没有明显的危险。",
+      "solution_for_person": "",
+      "solution_for_hazard_source": "",
+      "solution_to_prevent_recurrence": ""
+    }
+  }
+}

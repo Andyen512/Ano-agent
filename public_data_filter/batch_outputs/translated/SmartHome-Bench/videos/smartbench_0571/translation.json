@@ -1,0 +1,40 @@
+{
+  "video_key": "SmartHome-Bench/videos/smartbench_0571",
+  "translations": {
+    "0": {
+      "risk_description": "",
+      "normal_video_description": "一只棕熊在阳台上被看到，正在与一个南瓜和一个小物体互动。然后熊从阳台离开，画面恢复正常。",
+      "solution_for_person": "",
+      "solution_for_hazard_source": "",
+      "solution_to_prevent_recurrence": ""
+    },
+    "1": {
+      "risk_description": "这只熊在门廊上探索并与物体互动，可能导致误食有害物品或与家具碰撞。野生动物出现在住宅区会对动物和潜在的住户造成伤害风险。",
+      "normal_video_description": "一只熊在带纱窗的门廊上被看到，正在嗅闻并与南瓜和其他物体互动，随后在门廊区域活动。",
+      "solution_for_person": "",
+      "solution_for_hazard_source": "",
+      "solution_to_prevent_recurrence": ""
+    },
+    "2": {
+      "risk_description": "",
+      "normal_video_description": "一只熊走进木质门廊，嗅了嗅一些南瓜，四处看了看，然后离开。画面显示正常的动物探索，没有危险或风险的迹象。",
+      "solution_for_person": "",
+      "solution_for_hazard_source": "",
+      "solution_to_prevent_recurrence": ""
+    },
+    "3": {
+      "risk_description": "一只熊正在探索阳台区域，这对宠物有碰撞或压伤的风险，尤其是体型小或活动能力受限的宠物。",
+      "normal_video_description": "",
+      "solution_for_person": "确保宠物安全地关在室内或安全的区域，远离野生动物。",
+      "solution_for_hazard_source": "安装防熊屏障或安全围栏，防止野生动物进入阳台。",
+      "solution_to_prevent_recurrence": "使用运动感应灯或警报器来阻止野生动物靠近阳台区域。"
+    },
+    "4": {
+      "risk_description": "熊在阳台上，如果它失去平衡或试图跳跃，可能会导致坠落风险。这可能导致儿童严重受伤甚至死亡。",
+      "normal_video_description": "",
+      "solution_for_person": "确保儿童受到监督并保持在离熊的安全距离之外。",
+      "solution_for_hazard_source": "清除任何熊可能用作杠杆来跳或爬上阳台栏杆的物体。",
+      "solution_to_prevent_recurrence": "在阳台栏杆周围安装安全的屏障，以防止熊接触到栏杆。"
+    }
+  }
+}

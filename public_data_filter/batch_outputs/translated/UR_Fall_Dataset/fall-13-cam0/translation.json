@@ -1,0 +1,40 @@
+{
+  "video_key": "UR_Fall_Dataset/fall-13-cam0",
+  "translations": {
+    "0": {
+      "risk_description": "看到这位年轻人在不稳定的椅子上跑步和跳跃，椅子容易倾倒，存在跌倒和受伤的风险。",
+      "normal_video_description": "",
+      "solution_for_person": "应建议这位年轻人正确坐在椅子上，避免在椅子上跳跃或跑步，以防止跌倒和受伤。",
+      "solution_for_hazard_source": "应更换椅子为更稳固安全的座位，以降低跌倒风险。",
+      "solution_to_prevent_recurrence": "应教育这位年轻人正确使用椅子，了解在椅子上跳跃或跑步的风险，并定期检查椅子状态，确保其良好且不易倾倒。"
+    },
+    "1": {
+      "risk_description": "",
+      "normal_video_description": "两名年轻人在学习室里。一人站在桌子旁，另一人穿过房间时摔倒在地上。",
+      "solution_for_person": "",
+      "solution_for_hazard_source": "",
+      "solution_to_prevent_recurrence": ""
+    },
+    "2": {
+      "risk_description": "一名年轻人在房间里失去平衡摔倒在地上，表明出现了明显的不稳定事件，超出正常活动范围。",
+      "normal_video_description": "",
+      "solution_for_person": "此人应立即起身检查是否有受伤，并在必要时就医。",
+      "solution_for_hazard_source": "确保地面无障碍物，区域照明充足，以防止类似事故。",
+      "solution_to_prevent_recurrence": "鼓励此人在走动时更加小心，若地面光滑可考虑安装防滑垫等安全措施。"
+    },
+    "3": {
+      "risk_description": "这位年轻人做前滚或跳水动作，若落地不稳可能导致受伤，尤其是行动不便或平衡障碍者风险更大。",
+      "normal_video_description": "",
+      "solution_for_person": "确保这位年轻人在进行体育活动时了解周围环境并保持平衡。",
+      "solution_for_hazard_source": "清除区域内的障碍物，降低绊倒或跌倒的风险。",
+      "solution_to_prevent_recurrence": "在安全环境中练习，并在体育活动时考虑监督。"
+    },
+    "4": {
+      "risk_description": "这位年轻人正在做前滚动作，若执行不仔细可能导致跌倒和潜在受伤。",
+      "normal_video_description": "",
+      "solution_for_person": "确保活动区域内无可能导致绊倒或跌倒的障碍物。",
+      "solution_for_hazard_source": "",
+      "solution_to_prevent_recurrence": "提供正确的前滚技巧指导，以降低受伤风险。"
+    }
+  }
+}

@@ -1,0 +1,40 @@
+{
+  "video_key": "toyota_smarthome_mp4/mp4/Sitdown_p10_r00_v07_c04",
+  "translations": {
+    "0": {
+      "risk_description": "由于客厅环境杂乱，咖啡桌、沙发和盆栽靠得很近，老年人有跌倒的风险。该成年人还穿着宽松的衣服，可能会增加绊倒或跌倒的风险。",
+      "normal_video_description": "",
+      "solution_for_person": "护理人员应帮助老年人清理咖啡桌并重新布置客厅，以创建更安全的空间。护理人员还应确保老年人穿更合身的衣服，并在客厅走动时提供支持。",
+      "solution_for_hazard_source": "护理人员应清除任何绊倒危险，如电线或电缆，并确保盆栽安全放置，防止倾倒。",
+      "solution_to_prevent_recurrence": "护理人员应定期检查客厅环境是否存在潜在危险，并确保老年人在客厅走动时遵循安全做法。护理人员还应定期为老年人提供支持和帮助，以防止跌倒。"
+    },
+    "1": {
+      "risk_description": "此人站立和坐着时显得不稳，这可能增加跌倒的风险，尤其考虑到其年龄和姿势。",
+      "normal_video_description": "看见一位老年人先是站着，然后坐在客厅的沙发上。",
+      "solution_for_person": "确保此人小心坐下，如有需要使用支撑。",
+      "solution_for_hazard_source": "",
+      "solution_to_prevent_recurrence": ""
+    },
+    "2": {
+      "risk_description": "",
+      "normal_video_description": "看见一位老年人在客厅站立，微微弯腰后坐在绿色沙发上。环境显得平静安全，没有可见的危险或危险活动。",
+      "solution_for_person": "",
+      "solution_for_hazard_source": "",
+      "solution_to_prevent_recurrence": ""
+    },
+    "3": {
+      "risk_description": "老年人似乎正在经历不适或疼痛，这可能导致失去平衡而跌倒，带来受伤风险。",
+      "normal_video_description": "",
+      "solution_for_person": "老年人应坐在沙发上以避免跌倒，如不适持续应及时就医。",
+      "solution_for_hazard_source": "确保客厅没有绊倒危险，且家具稳固，以防止跌倒。",
+      "solution_to_prevent_recurrence": "老年人如有需要应使用支撑拐杖，并定期进行检查以及时处理健康问题。"
+    },
+    "4": {
+      "risk_description": "",
+      "normal_video_description": "视频显示一位老年人坐在客厅的绿色沙发上，显得焦虑或不适。场景中没有可见的风险或危险。",
+      "solution_for_person": "",
+      "solution_for_hazard_source": "",
+      "solution_to_prevent_recurrence": ""
+    }
+  }
+}

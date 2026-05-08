@@ -1,0 +1,40 @@
+{
+  "video_key": "web_h264/1188912969383835",
+  "translations": {
+    "0": {
+      "risk_description": "厨房起火，有火焰和烟雾可见。年轻人没有主动尝试灭火或远离危险。",
+      "normal_video_description": "视频显示一名年轻人在厨房里走来走去，除此之外没有其他异常。",
+      "solution_for_person": "年轻人应立即远离火源并拨打紧急服务电话报告火灾。",
+      "solution_for_hazard_source": "火灾来源不可见，但可能是厨房电器或电源。需确定危险源并加以处理，以防止未来火灾。",
+      "solution_to_prevent_recurrence": "应向年轻人普及火灾安全知识，强调家中安装正常工作烟雾报警器的重要性。还应定期维护厨房电器和电气系统，以防止未来火灾。"
+    },
+    "1": {
+      "risk_description": "客厅区域燃起火焰，迅速蔓延，厨房被烟雾和火焰充满，造成严重烧伤和窒息风险。",
+      "normal_video_description": "视频显示在火灾爆发前，年轻人曾在厨房和客厅区域活动。",
+      "solution_for_person": "立即撤离到远离火源的安全地点。",
+      "solution_for_hazard_source": "使用灭火器灭火，或在无法控制时拨打紧急服务电话。",
+      "solution_to_prevent_recurrence": "在厨房和客厅安装烟雾报警器和灭火器，并确保其正常运行。"
+    },
+    "2": {
+      "risk_description": "客厅区域突然燃起大火，迅速充满浓烟和烈焰，形成严重且立即危及生命的情况。",
+      "normal_video_description": "",
+      "solution_for_person": "立即撤离建筑物并拨打紧急服务电话。",
+      "solution_for_hazard_source": "如果安全的情况下，移除火源并使用适当的设备灭火。",
+      "solution_to_prevent_recurrence": "安装烟雾报警器并确保其正常工作。"
+    },
+    "3": {
+      "risk_description": "视频显示厨房起火，存在显著的伤害或财产损失风险，尤其对可能难以迅速撤离的弱势人群影响更大。",
+      "normal_video_description": "",
+      "solution_for_person": "立即撤离现场，如尚未报警则拨打紧急服务电话。",
+      "solution_for_hazard_source": "如安全可使用灭火器灭火，并确保所有出口畅通。",
+      "solution_to_prevent_recurrence": "安装烟雾报警器并确保其正常工作；避免无人看管烹饪。"
+    },
+    "4": {
+      "risk_description": "",
+      "normal_video_description": "视频显示厨房里有各种电器和台面上的物品。视频中没有可见的风险或危险活动。",
+      "solution_for_person": "",
+      "solution_for_hazard_source": "",
+      "solution_to_prevent_recurrence": ""
+    }
+  }
+}

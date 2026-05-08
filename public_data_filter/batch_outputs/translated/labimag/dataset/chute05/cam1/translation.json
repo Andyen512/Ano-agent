@@ -1,0 +1,40 @@
+{
+  "video_key": "labimag/dataset/chute05/cam1",
+  "translations": {
+    "0": {
+      "risk_description": "可以看到这名年轻人躺在地板上，这在实验室环境中不是一个正常的位置。这可能会导致跌倒或不稳定，可能造成伤害。",
+      "normal_video_description": "视频显示了一个配备各种设备和用品的实验室环境。一个人躺在地板上，这在实验室环境中不是一个正常的位置。",
+      "solution_for_person": "应协助该人转移到安全位置，并检查是否有受伤。",
+      "solution_for_hazard_source": "应找出跌倒的原因并加以处理，以防止再次发生。",
+      "solution_to_prevent_recurrence": "应监督该人并提供适当的培训，教他们如何在实验室环境中安全移动。"
+    },
+    "1": {
+      "risk_description": "",
+      "normal_video_description": "视频显示了一个教室环境，有桌子、椅子和地板上的床垫。人们在走动，一个人躺在床垫上，其他人站在附近。该环境看起来是一个教育或培训空间，没有明显的直接危险。",
+      "solution_for_person": "",
+      "solution_for_hazard_source": "",
+      "solution_to_prevent_recurrence": ""
+    },
+    "2": {
+      "risk_description": "",
+      "normal_video_description": "一个人走进房间，跳到地板上的白色垫子上，然后站起来。房间里有桌子、椅子和墙上的各种物品，看起来像是一个书房或办公空间。",
+      "solution_for_person": "",
+      "solution_for_hazard_source": "",
+      "solution_to_prevent_recurrence": ""
+    },
+    "3": {
+      "risk_description": "一个人躺在桌子上，如果他们在没有适当支撑的情况下试图起来，可能会造成跌倒风险，尤其是对于行动受限的人。",
+      "normal_video_description": "",
+      "solution_for_person": "确保该人在试图从桌子上起来时有支撑或帮助。",
+      "solution_for_hazard_source": "在附近提供一个稳定的表面或椅子作为支撑。",
+      "solution_to_prevent_recurrence": "使用防滑垫或确保地板干净以防止滑倒。"
+    },
+    "4": {
+      "risk_description": "这个人正试图在地上的床垫上保持平衡，这可能会导致跌倒和潜在伤害。",
+      "normal_video_description": "",
+      "solution_for_person": "确保床垫安全地放在地板上，并提供支撑或指导以防止跌倒。",
+      "solution_for_hazard_source": "",
+      "solution_to_prevent_recurrence": "在进行平衡练习时提供适当的培训和监督，以最大限度地减少跌倒风险。"
+    }
+  }
+}

@@ -1,0 +1,40 @@
+{
+  "video_key": "toyota_smarthome_mp4/mp4/Pour.Frombottle_p25_r00_v04_c05",
+  "translations": {
+    "0": {
+      "risk_description": "",
+      "normal_video_description": "视频显示一位中年成年人在客厅里整理茶几上的物品。场景正常，没有显示任何风险。",
+      "solution_for_person": "",
+      "solution_for_hazard_source": "",
+      "solution_to_prevent_recurrence": ""
+    },
+    "1": {
+      "risk_description": "此人站在沙发扶手上，姿势不稳定，增加了跌倒风险。",
+      "normal_video_description": "一个人在客厅里站在沙发扶手上。",
+      "solution_for_person": "避免站在家具上以防止跌倒。",
+      "solution_for_hazard_source": "确保家具稳固，不要将其用作台阶。",
+      "solution_to_prevent_recurrence": "提醒此人使用稳固的表面并避免危险姿势。"
+    },
+    "2": {
+      "risk_description": "",
+      "normal_video_description": "一位老年人在客厅里站着弯腰在茶几上操作物品。房间里有绿色沙发、白色扶手椅、墙上挂着的电视和几盆植物。此人的动作缓慢而谨慎，与在家中的正常日常活动一致。",
+      "solution_for_person": "",
+      "solution_for_hazard_source": "",
+      "solution_to_prevent_recurrence": ""
+    },
+    "3": {
+      "risk_description": "老年人在操作茶几上的物品时弯腰，这可能因潜在的不稳定性或有限的行动能力而增加跌倒风险。",
+      "normal_video_description": "",
+      "solution_for_person": "确保老年人在处理物品时坐下，以降低跌倒风险。",
+      "solution_for_hazard_source": "清理茶几上的杂物，提供稳定安全的工作区域。",
+      "solution_to_prevent_recurrence": "在茶几附近放置垫子或支撑物，以协助弯腰时的稳定性。"
+    },
+    "4": {
+      "risk_description": "老年人弯腰在茶几上操作物品，如果失去平衡可能会导致跌倒。跌倒是老年人受伤的常见原因，可能导致骨折或头部外伤等严重后果。",
+      "normal_video_description": "",
+      "solution_for_person": "确保茶几周围区域畅通无阻，并在老年人站在附近时提供支持或帮助。",
+      "solution_for_hazard_source": "",
+      "solution_to_prevent_recurrence": "清除该区域的绊倒危险物，并考虑在地板上添加防滑垫或防滑胶带以提高抓地力。"
+    }
+  }
+}

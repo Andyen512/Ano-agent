@@ -1,0 +1,40 @@
+{
+  "video_key": "toyota_smarthome_mp4/mp4/Leave_p10_r04_v13_c03",
+  "translations": {
+    "0": {
+      "risk_description": "",
+      "normal_video_description": "视频显示一名中年成人走过一个现代化的厨房，厨房配有木质台面和不锈钢电器。厨房照明良好，看起来干净整洁。该人身穿绿色衬衫和白色裤子。视频中没有可见的危险或风险。",
+      "solution_for_person": "",
+      "solution_for_hazard_source": "",
+      "solution_to_prevent_recurrence": ""
+    },
+    "1": {
+      "risk_description": "",
+      "normal_video_description": "一位老年人在厨房里背对镜头行走，向右离开画面。厨房里有水槽、台面电器和嵌入式烤箱。",
+      "solution_for_person": "",
+      "solution_for_hazard_source": "",
+      "solution_to_prevent_recurrence": ""
+    },
+    "2": {
+      "risk_description": "",
+      "normal_video_description": "一位老年人正在走过一个现代化的厨房，从背景向画面右侧移动。环境整洁、照明良好，没有可见的危险或安全隐患。",
+      "solution_for_person": "",
+      "solution_for_hazard_source": "",
+      "solution_to_prevent_recurrence": ""
+    },
+    "3": {
+      "risk_description": "老年人在厨房中行走，存在绊倒或摔倒的风险，特别是对于行动不便或平衡问题的人来说。",
+      "normal_video_description": "",
+      "solution_for_person": "确保老年人在需要时使用助行器，并保持畅通无阻的行走通道。",
+      "solution_for_hazard_source": "清除任何可能的绊倒危险，例如地面上的物品，并确保厨房有良好的照明。",
+      "solution_to_prevent_recurrence": "保持厨房无杂物，并考虑安装扶手或防滑地板以提高安全性。"
+    },
+    "4": {
+      "risk_description": "",
+      "normal_video_description": "视频显示一个现代化的厨房静态画面，没有可见的可能导致风险的动作或行为。",
+      "solution_for_person": "",
+      "solution_for_hazard_source": "",
+      "solution_to_prevent_recurrence": ""
+    }
+  }
+}

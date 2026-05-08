@@ -1,0 +1,40 @@
+{
+  "video_key": "web_h264/youtube__XM2kiuguYxE",
+  "translations": {
+    "0": {
+      "risk_description": "视频中的年轻人似乎很匆忙，没有注意周围环境。他们快速且粗心地移动，这增加了跌倒或绊倒的风险。此外，厨房里堆满了各种物品，也会增加事故的风险。",
+      "normal_video_description": "",
+      "solution_for_person": "应提醒年轻人在厨房里要更加小心，注意周围环境。还应鼓励他们慢慢来，不要匆忙完成任务。",
+      "solution_for_hazard_source": "厨房应该整理干净，以降低事故风险。",
+      "solution_to_prevent_recurrence": "应提醒年轻人要更加小心，注意厨房周围的环境。厨房应定期清洁整理，以降低事故风险。"
+    },
+    "1": {
+      "risk_description": "厨房发生爆炸，可能是煤气灶或电器引起的，导致碎片和烟雾。这种行为包含明显的风险触发因素，可能导致烧伤、吸入烟雾以及火势蔓延。",
+      "normal_video_description": "视频中有人在一个现代化的厨房里准备食物。",
+      "solution_for_person": "该人员应立即撤离现场并拨打紧急电话。",
+      "solution_for_hazard_source": "确保煤气器具定期检查和维护；将易燃物品远离热源。",
+      "solution_to_prevent_recurrence": "在厨房安装烟雾探测器和灭火器；普及正确使用煤气灶和电器的方法。"
+    },
+    "2": {
+      "risk_description": "站在厨房柜台旁的人被从上方掉落的大物件撞倒，导致其跌倒在地。这是一种明显且直接的身体危险，导致跌倒。",
+      "normal_video_description": "",
+      "solution_for_person": "人员应立即站起并检查是否受伤，如有需要及时就医。",
+      "solution_for_hazard_source": "需要找出掉落物体的来源并加以固定，以防止类似事故再次发生。",
+      "solution_to_prevent_recurrence": "实施安全措施，如固定高处的物品，确保厨房区域没有潜在危险。"
+    },
+    "3": {
+      "risk_description": "视频显示有人在厨房里使用锋利物品，可能造成割伤或受伤，尤其对于行动不便或意识受限的弱势群体风险更大。",
+      "normal_video_description": "",
+      "solution_for_person": "确保使用锋利物品时小心安全，必要时考虑佩戴防护装备。",
+      "solution_for_hazard_source": "将锋利物品安全存放，放在儿童或弱势人群够不到的地方。",
+      "solution_to_prevent_recurrence": "实施安全措施，如将锋利物品锁在柜子里，并提供正确的安全使用培训。"
+    },
+    "4": {
+      "risk_description": "",
+      "normal_video_description": "视频显示一位穿橙色围裙的人站在厨房里，背对摄像机。他们似乎在柜台旁进行某种活动，可能在烹饪或准备食物。视频中没有出现可见的风险或危险行为。",
+      "solution_for_person": "",
+      "solution_for_hazard_source": "",
+      "solution_to_prevent_recurrence": ""
+    }
+  }
+}

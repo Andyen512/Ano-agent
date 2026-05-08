@@ -1,0 +1,40 @@
+{
+  "video_key": "SmartHome-Bench/videos/smartbench_0510",
+  "translations": {
+    "0": {
+      "risk_description": "一个年轻人被发现走路时努力保持平衡，这可能导致摔倒和潜在伤害。",
+      "normal_video_description": "",
+      "solution_for_person": "这个人应该由护理人员协助，以确保他们在行走时有适当的支撑和稳定性。",
+      "solution_for_hazard_source": "应该检查走廊是否有绊倒危险，如松散的电线或不平的地板，并采取措施防止摔倒。",
+      "solution_to_prevent_recurrence": "应该鼓励这个人在行走时使用扶手或其他支撑系统，并定期进行检查以监测他们的平衡和活动能力。"
+    },
+    "1": {
+      "risk_description": "这个人正在狭窄的走廊里蹲下并靠在墙上，这增加了失去平衡和摔倒的风险，可能导致受伤。",
+      "normal_video_description": "一个穿着蓝色衬衫的人被发现在一个狭窄的走廊里蹲下并靠在墙上，与墙上的某个东西互动。",
+      "solution_for_person": "这个人应该避免在这样狭窄的空间里蹲下以防止摔倒。",
+      "solution_for_hazard_source": "确保走廊足够宽敞，以允许安全移动而不必蹲下。",
+      "solution_to_prevent_recurrence": "安装扶手杆或加宽走廊，以降低类似情况下摔倒的风险。"
+    },
+    "2": {
+      "risk_description": "一个人被发现使用工具撬开邮箱门，这构成盗窃或故意破坏行为。此行为明显超出正常活动范围，直接侵犯财产权，当该人受到质问并被迫逃跑时，情况升级为冲突。",
+      "normal_video_description": "",
+      "solution_for_person": "应识别此人并向当局报告，以便调查和采取法律行动。",
+      "solution_for_hazard_source": "安装可清晰看到邮箱的安全摄像头，并考虑添加运动感应灯或警报器以阻止未来事件。",
+      "solution_to_prevent_recurrence": "加强邮箱周围的安全措施，如安装可锁邮箱或安全投递箱，并确保该区域光线充足且受到监控。"
+    },
+    "3": {
+      "risk_description": "这个人正以可能导致摔倒的方式蹲下和移动，特别是如果他们有活动能力受限或平衡问题。",
+      "normal_video_description": "",
+      "solution_for_person": "确保此人在移动时注意周围环境并保持平衡。",
+      "solution_for_hazard_source": "清除走廊中的障碍物以减少绊倒危险。",
+      "solution_to_prevent_recurrence": "在走廊安装额外的照明和防滑地板，以提高可见度和稳定性。"
+    },
+    "4": {
+      "risk_description": "",
+      "normal_video_description": "视频显示一个穿蓝色衬衫和深色裤子的成年人在浅色墙壁和红棕色地板的狭窄走廊里行走。这个人以稳定的步伐行走，画面中没有可见的危险或风险。",
+      "solution_for_person": "",
+      "solution_for_hazard_source": "",
+      "solution_to_prevent_recurrence": ""
+    }
+  }
+}

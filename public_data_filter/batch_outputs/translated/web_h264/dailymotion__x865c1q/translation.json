@@ -1,0 +1,40 @@
+{
+  "video_key": "web_h264/dailymotion__x865c1q",
+  "translations": {
+    "0": {
+      "risk_description": "视频中的年轻人绕着餐桌走动，餐桌铺着白色桌布，上面放着各种物品，包括一个蓝色碗和一些盘子。这个年轻人看起来很匆忙，没有注意周围环境，这增加了跌倒或绊倒的风险。",
+      "normal_video_description": "",
+      "solution_for_person": "护理人员应确保年轻人注意周围环境，不要匆忙绕着餐桌走动。他们还应确保餐桌上没有任何可能导致年轻人绊倒或跌倒的物品。",
+      "solution_for_hazard_source": "护理人员应确保餐桌上没有任何可能导致年轻人绊倒或跌倒的物品。他们还应确保地板清洁，没有可能使年轻人绊倒或跌倒的障碍物。",
+      "solution_to_prevent_recurrence": "护理人员应监测年轻人的行动，确保他们注意周围环境。他们还应确保餐桌和地板上没有可能导致年轻人绊倒或跌倒的物品。"
+    },
+    "1": {
+      "risk_description": "穿蓝色衬衫的男子在与孩子互动和绕餐桌走动时反复失去平衡并跌倒，存在跌倒受伤的风险。",
+      "normal_video_description": "一个穿蓝色衬衫的男子在餐桌附近与一个穿红色衬衫的孩子互动，移动椅子并伸手拿东西，另一个人站在背景中。",
+      "solution_for_person": "应监督或指导年轻人更谨慎地移动以避免跌倒。",
+      "solution_for_hazard_source": "",
+      "solution_to_prevent_recurrence": "确保用餐区域没有障碍物，并为年轻人提供稳定的座位。"
+    },
+    "2": {
+      "risk_description": "",
+      "normal_video_description": "视频显示一个穿红色衬衫的孩子站在餐桌附近，而一个穿蓝色衬衫的成年人坐在桌旁。成年人站起来，绕着餐桌走动，并与桌上的物品互动，而孩子则在附近。这个场景似乎是正常的家庭活动，没有明显的风险或危险行为。",
+      "solution_for_person": "",
+      "solution_for_hazard_source": "",
+      "solution_to_prevent_recurrence": ""
+    },
+    "3": {
+      "risk_description": "孩子与正在餐桌周围移动的成年人距离很近，如果成年人失去平衡或孩子突然移动，可能会导致碰撞或挤压伤。",
+      "normal_video_description": "",
+      "solution_for_person": "确保当成年人在餐桌周围移动时，孩子保持在安全距离之外。",
+      "solution_for_hazard_source": "成年人在绕餐桌移动时应小心谨慎，避免可能导致碰撞的突然动作。",
+      "solution_to_prevent_recurrence": "成年人应密切监督孩子，确保他们在绕餐桌移动时孩子不进入餐桌区域。"
+    },
+    "4": {
+      "risk_description": "",
+      "normal_video_description": "视频显示一个孩子和一个成年人在餐厅场景中，成年人在桌子旁帮助孩子。视频中没有观察到明显的风险或危险行为。",
+      "solution_for_person": "",
+      "solution_for_hazard_source": "",
+      "solution_to_prevent_recurrence": ""
+    }
+  }
+}

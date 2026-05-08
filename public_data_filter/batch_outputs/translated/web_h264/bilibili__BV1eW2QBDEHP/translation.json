@@ -1,0 +1,40 @@
+{
+  "video_key": "web_h264/bilibili__BV1eW2QBDEHP",
+  "translations": {
+    "0": {
+      "risk_description": "孩子在不稳固的沙发上玩耍，有摔倒的风险。孩子还在玩遥控器，如果无人监管可能会造成潜在危险。",
+      "normal_video_description": "",
+      "solution_for_person": "需要成人监护以防止摔倒并确保孩子在玩耍时的安全。",
+      "solution_for_hazard_source": "应将沙发更换为更稳固的家具，并把遥控器放在孩子够不到的地方。",
+      "solution_to_prevent_recurrence": "定期检查家具的稳固性，确保危险物品安全存放以防止事故。"
+    },
+    "1": {
+      "risk_description": "孩子在沙发上跳，增加了摔倒的风险。茶具在茶几上，如果孩子摔倒撞到茶具，会产生热/火灾危险。",
+      "normal_video_description": "孩子们在客厅的沙发上玩耍。",
+      "solution_for_person": "在有可能存在危险的区域玩耍时，密切监护孩子。",
+      "solution_for_hazard_source": "将茶具及其他易碎物品移除或固定，避免放在孩子可能跳跃或玩耍的地方。",
+      "solution_to_prevent_recurrence": "指定安全的游戏区域，远离易碎物品，并严格执行禁止在家具上跳跃的规则。"
+    },
+    "2": {
+      "risk_description": "孩子在沙发上跳跃时失去平衡并跌倒，头部撞到茶几。跌倒突然且与家具产生硬性碰撞，形成明显的安全隐患。",
+      "normal_video_description": "",
+      "solution_for_person": "看护者应立即检查孩子是否受伤，必要时寻求医疗救治。",
+      "solution_for_hazard_source": "将茶几等家具移走或固定，避免放在儿童频繁玩耍的区域，或使用防护垫。",
+      "solution_to_prevent_recurrence": "禁止孩子在沙发等软体家具上跳跃，以防止摔倒和碰撞。"
+    },
+    "3": {
+      "risk_description": "孩子从沙发上跌落，撞到茶杯导致破裂。这既有摔倒受伤的风险，也可能因破碎的茶杯产生锋利碎片造成伤害。",
+      "normal_video_description": "",
+      "solution_for_person": "确保在家具上玩耍时持续监督孩子，并将易碎物品从孩子活动的区域移除。",
+      "solution_for_hazard_source": "将桌子上及其他孩子可触及的表面上的易碎物品移除或固定。",
+      "solution_to_prevent_recurrence": "在家具边缘安装安全垫，并保持客厅没有小的易碎物品。"
+    },
+    "4": {
+      "risk_description": "孩子有从沙发上跌落的风险，可能导致严重伤害。成人在沙发上的坐姿也存在跌倒并受伤的风险。",
+      "normal_video_description": "",
+      "solution_for_person": "确保孩子在沙发上玩耍时有监护，不单独留在沙发上，以防摔倒。",
+      "solution_for_hazard_source": "移除孩子可能用作踏脚爬上沙发的任何物品。",
+      "solution_to_prevent_recurrence": "考虑在沙发上使用安全护栏或软垫，以防止跌落。"
+    }
+  }
+}

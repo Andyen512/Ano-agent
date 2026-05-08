@@ -1,0 +1,40 @@
+{
+  "video_key": "toyota_smarthome_mp4/mp4/Sitdown_p12_r02_v03_c04",
+  "translations": {
+    "0": {
+      "risk_description": "老年人弯腰从地板上捡东西时，有跌倒的风险。",
+      "normal_video_description": "老年人坐在客厅的绿色沙发上，面前有一张咖啡桌。他们正弯腰从地板上捡东西。",
+      "solution_for_person": "护理人员应帮助老年人从地板上捡东西，以防跌倒。",
+      "solution_for_hazard_source": "护理人员应确保地面没有任何绊倒危险。",
+      "solution_to_prevent_recurrence": "护理人员应定期检查老年人的住宅是否存在潜在的跌倒危险，并采取措施将其消除。"
+    },
+    "1": {
+      "risk_description": "此人在试图坐到沙发上时显得不稳，可能会因失去平衡而导致跌倒。",
+      "normal_video_description": "在客厅里看到一位老年人试图坐到沙发上，显得不稳。",
+      "solution_for_person": "确保附近有人帮助坐下和站起，以防跌倒。",
+      "solution_for_hazard_source": "",
+      "solution_to_prevent_recurrence": "鼓励在坐下或站起时使用扶手支撑。"
+    },
+    "2": {
+      "risk_description": "",
+      "normal_video_description": "在客厅里看到一位老年人坐在绿色沙发上。此人从站立姿势转为坐姿，在坐到沙发上时调整姿势和腿部。",
+      "solution_for_person": "",
+      "solution_for_hazard_source": "",
+      "solution_to_prevent_recurrence": ""
+    },
+    "3": {
+      "risk_description": "老年人弯腰并坐到沙发上，可能因潜在的平衡问题而导致跌倒或不稳定。",
+      "normal_video_description": "",
+      "solution_for_person": "确保老年人缓慢坐下，并用手支撑以保持平衡。",
+      "solution_for_hazard_source": "合理安排家具，提供稳固的座位选择，并确保走道畅通，以防绊倒。",
+      "solution_to_prevent_recurrence": "使用垫子或支撑性座椅来帮助稳定，必要时考虑安装扶手杆。"
+    },
+    "4": {
+      "risk_description": "老年人弯腰后坐到沙发边缘，如果失去平衡可能导致跌倒。跌倒是老年人受伤的常见原因，可能导致骨折或头部创伤等严重后果。",
+      "normal_video_description": "",
+      "solution_for_person": "确保老年人在重新站起之前，双脚平放在地板上，安全地坐在沙发上。",
+      "solution_for_hazard_source": "",
+      "solution_to_prevent_recurrence": "鼓励老年人在从沙发上站起时使用椅子或扶手，以降低跌倒风险。"
+    }
+  }
+}

@@ -1,0 +1,40 @@
+{
+  "video_key": "SmartHome-Bench/videos/smartbench_0198",
+  "translations": {
+    "0": {
+      "risk_description": "",
+      "normal_video_description": "视频显示一名年轻人走向停在院子里的黑色汽车，然后走回房屋，最后从地上捡起一个白色物体。该行为看起来正常，不表示任何风险。",
+      "solution_for_person": "",
+      "solution_for_hazard_source": "",
+      "solution_to_prevent_recurrence": ""
+    },
+    "1": {
+      "risk_description": "这辆黑色SUV似乎在排放烟雾，表明可能存在机械故障或过热，可能导致火灾或进一步的机械故障。",
+      "normal_video_description": "一个人驾驶黑色SUV进入车道，停下后走向邮箱。SUV在此人靠近时排放烟雾。",
+      "solution_for_person": "此人应与车辆保持安全距离，在专业人员解决问题之前避免触碰。",
+      "solution_for_hazard_source": "应尽快让合格的机械师检查车辆，找出烟雾的来源。",
+      "solution_to_prevent_recurrence": "定期维护车辆并对异常排放及时关注，有助于防止此类事故。"
+    },
+    "2": {
+      "risk_description": "可以看到一个人在院子里与地面上的小火或燃烧物互动，这构成了潜在的火灾危险。该行为涉及在户外住宅环境中使用明火或处理高温材料。",
+      "normal_video_description": "",
+      "solution_for_person": "此人应立即使用水或灭火器扑灭火源，并撤离到安全距离。",
+      "solution_for_hazard_source": "把易燃物品从现场移走，并确保火已完全熄灭后再离开。",
+      "solution_to_prevent_recurrence": "普及安全用火知识，并在院子里常备灭火器。"
+    },
+    "3": {
+      "risk_description": "该年轻人站在邮箱和停放的汽车附近，如果车辆意外移动，可能会造成碰撞或被撞击的风险。",
+      "normal_video_description": "",
+      "solution_for_person": "年轻人在靠近汽车和邮箱时应保持警惕，确保了解周围环境。",
+      "solution_for_hazard_source": "车辆应停放在与邮箱保持足够距离的位置，以防意外碰撞。",
+      "solution_to_prevent_recurrence": "确保停放的车辆与邮箱之间保持足够间距，以降低碰撞风险。"
+    },
+    "4": {
+      "risk_description": "",
+      "normal_video_description": "视频显示一名年轻人在院子里推着一个木托盘。没有明显的风险或危险活动。",
+      "solution_for_person": "",
+      "solution_for_hazard_source": "",
+      "solution_to_prevent_recurrence": ""
+    }
+  }
+}

@@ -1,0 +1,40 @@
+{
+  "video_key": "toyota_smarthome_mp4/mp4/Pour.Frombottle_p25_r00_v05_c04",
+  "translations": {
+    "0": {
+      "risk_description": "",
+      "normal_video_description": "视频显示一位中年成年人站在客厅里，与一张小桌子互动。此人似乎在整理或摆放桌上的物品。客厅光线充足，有一张绿色沙发、一张白色咖啡桌和几盆盆栽。此人身穿无袖上衣和白色短裤。视频中未显示任何风险或危险迹象。",
+      "solution_for_person": "",
+      "solution_for_hazard_source": "",
+      "solution_to_prevent_recurrence": ""
+    },
+    "1": {
+      "risk_description": "此人正在弯腰俯向一张低矮的桌子，这增加了失去平衡和跌倒的风险，对于老年人来说尤其如此。",
+      "normal_video_description": "一位老年人正在客厅里，与低桌上的一个物品互动。",
+      "solution_for_person": "确保此人保持稳定的站姿，避免弯腰俯向过低的物体，以防止跌倒。",
+      "solution_for_hazard_source": "将桌子高度升高，或为此人提供一个稳定的平台站在上面使用桌子。",
+      "solution_to_prevent_recurrence": "在座位区域附近安装扶手杆，确保光线充足，以减少绊倒危险。"
+    },
+    "2": {
+      "risk_description": "",
+      "normal_video_description": "一位老年人站在客厅里，弯腰从咖啡桌上捡起一个物品，然后站起来。环境看起来平静安全，没有可见的危险或危险动作。",
+      "solution_for_person": "",
+      "solution_for_hazard_source": "",
+      "solution_to_prevent_recurrence": ""
+    },
+    "3": {
+      "risk_description": "老年人正在弯腰俯向桌子，这可能因潜在的不稳定性或平衡问题而增加跌倒风险。",
+      "normal_video_description": "",
+      "solution_for_person": "确保老年人在弯腰时使用稳定的支撑，必要时可考虑使用椅子来保持稳定。",
+      "solution_for_hazard_source": "清理桌子周围的区域，以提供更多空间并减少绊倒危险。",
+      "solution_to_prevent_recurrence": "在频繁弯腰的区域放置防滑垫，并确保光线充足以提高能见度。"
+    },
+    "4": {
+      "risk_description": "此人正在弯腰俯向咖啡桌，如果失去平衡可能会导致跌倒。这对于可能有活动能力或平衡能力下降的老年人来说尤其令人担忧。",
+      "normal_video_description": "",
+      "solution_for_person": "确保此人光线充足且站立表面稳固；考虑在桌子附近使用扶手杆或防滑垫。",
+      "solution_for_hazard_source": "",
+      "solution_to_prevent_recurrence": "鼓励此人在从坐姿站起来时缓慢小心，必要时考虑提供支撑或帮助。"
+    }
+  }
+}

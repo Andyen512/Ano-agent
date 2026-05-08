@@ -1,0 +1,40 @@
+{
+  "video_key": "SmartHome-Bench/videos/smartbench_0635",
+  "translations": {
+    "0": {
+      "risk_description": "",
+      "normal_video_description": "视频显示一名年轻成年人夜间站在门廊上，与悬挂的喂鸟器互动。该人似乎正试图从喂鸟器获取食物，画面为黑白。门廊灯光充足，背景中可见树木和一辆停放的汽车。随后该人离开门廊，视频结束。",
+      "solution_for_person": "",
+      "solution_for_hazard_source": "",
+      "solution_to_prevent_recurrence": ""
+    },
+    "1": {
+      "risk_description": "熊正在与门廊上的悬挂物体互动，若该物体掉落或熊在够取时失去平衡，都存在碰撞或被物体击中的风险。",
+      "normal_video_description": "两只熊在夜间靠近门廊，其中一只试图够取悬挂的物体。",
+      "solution_for_person": "",
+      "solution_for_hazard_source": "",
+      "solution_to_prevent_recurrence": ""
+    },
+    "2": {
+      "risk_description": "一只大型野生动物（熊）进入住宅门廊区域并向摄像机靠近，对拍摄者构成直接的物理威胁，并有碰撞或受伤的潜在危险。",
+      "normal_video_description": "",
+      "solution_for_person": "立即撤退至安全地点，并联系当地野生动物管理部门或紧急救援服务。",
+      "solution_for_hazard_source": "",
+      "solution_to_prevent_recurrence": "安装感应灯或驱赶装置，以阻止野生动物靠近房产。"
+    },
+    "3": {
+      "risk_description": "视频显示一只熊在夜间出现在住宅庭院中，因其行为不可预测，可能会与宠物或人发生碰撞或压伤。",
+      "normal_video_description": "",
+      "solution_for_person": "将宠物关在室内或安全围栏内，以防止与野生动物接触。",
+      "solution_for_hazard_source": "安装感应灯或警报器，以阻止野生动物进入庭院。",
+      "solution_to_prevent_recurrence": "使用防熊容器并锁好垃圾桶，以减少对野生动物的吸引。"
+    },
+    "4": {
+      "risk_description": "",
+      "normal_video_description": "视频显示夜间住宅区的门廊和停放的汽车场景。可以看到一个孩子在人行道上行走，画面中并无明显的风险或危险。",
+      "solution_for_person": "",
+      "solution_for_hazard_source": "",
+      "solution_to_prevent_recurrence": ""
+    }
+  }
+}

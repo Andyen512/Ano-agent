@@ -1,0 +1,40 @@
+{
+  "video_key": "SmartHome-Bench/videos/smartbench_0477",
+  "translations": {
+    "0": {
+      "risk_description": "看到这位年轻人坐在地上，这可能表明其跌倒或失去平衡。随后该人站起来并走开，这可能表明他们没有受重伤，但仍需要关注。",
+      "normal_video_description": "",
+      "solution_for_person": "检查这位年轻人是否受伤严重，如有需要提供帮助。",
+      "solution_for_hazard_source": "确保阳台没有绊倒危险，且该人没有再次跌倒的风险。",
+      "solution_to_prevent_recurrence": "在阳台上安装安全栏杆，并提供正确使用说明。定期检查阳台是否有潜在危险并及时处理。"
+    },
+    "1": {
+      "risk_description": "该人失去平衡摔倒在地，可能导致受伤。",
+      "normal_video_description": "有一个人站在阳台上，绊倒、跌倒，然后站起来。",
+      "solution_for_person": "确保穿合适的鞋子并在不平坦的表面上移动时保持谨慎。",
+      "solution_for_hazard_source": "",
+      "solution_to_prevent_recurrence": "在阳台地面上安装防滑垫。"
+    },
+    "2": {
+      "risk_description": "该人在门廊上失去平衡摔倒在地，表明发生了明显的失稳事件，超出正常日常活动。",
+      "normal_video_description": "",
+      "solution_for_person": "该人应立即站起，检查是否有受伤，如有需要则寻求医疗帮助。",
+      "solution_for_hazard_source": "确保门廊地面平整且无障碍物，以防止将来跌倒。",
+      "solution_to_prevent_recurrence": "改善照明并在门廊区域增加防滑垫以提升安全性。"
+    },
+    "3": {
+      "risk_description": "该人似乎已跌倒并坐在地上，如果他们无法安全站起，可能会造成受伤风险。",
+      "normal_video_description": "",
+      "solution_for_person": "该人应确保能够安全地站立并从地面起身，以避免进一步受伤。",
+      "solution_for_hazard_source": "确保阳台区域没有任何可能导致跌倒的障碍物。",
+      "solution_to_prevent_recurrence": "该人在阳台上移动时应保持谨慎，确保该区域稳固且无危险。"
+    },
+    "4": {
+      "risk_description": "看到该人坐在阳台边缘，存在跌倒风险。若他们失去平衡坠落，这种行为可能导致严重伤害甚至死亡。",
+      "normal_video_description": "",
+      "solution_for_person": "确保该人不会在阳台边缘无人看管，并提供支持或帮助以防止其坠落。",
+      "solution_for_hazard_source": "在阳台周围安装栏杆或屏障以防止跌落。",
+      "solution_to_prevent_recurrence": "教育该人坐在阳台边缘的危险，鼓励他们在以后避免此类行为。"
+    }
+  }
+}

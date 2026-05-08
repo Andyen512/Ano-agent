@@ -1,0 +1,40 @@
+{
+  "video_key": "web_h264/douyin__7564261010521984294",
+  "translations": {
+    "0": {
+      "risk_description": "年轻人正在与孩子进行激烈的互动，这可能导致身体冲突并造成潜在伤害。",
+      "normal_video_description": "",
+      "solution_for_person": "看护者应介入并将年轻人和孩子分开，以防止冲突进一步升级。",
+      "solution_for_hazard_source": "看护者应监测年轻人的行为，确保他们不对孩子采取攻击性举动。",
+      "solution_to_prevent_recurrence": "看护者应为年轻人提供表达情绪的其他方式，并教授他们解决冲突的技巧，以防止类似事件再次发生。"
+    },
+    "1": {
+      "risk_description": "年轻人正在用吹风机给孩子吹头发时，吹风机突然起火并冒出烟雾，对孩子和年轻人都构成烧伤风险。",
+      "normal_video_description": "当吹风机起火时，一位年轻女子正在客厅里用吹风机给孩子吹头发。",
+      "solution_for_person": "年轻人应立即停止使用吹风机，并将其远离孩子，以防止进一步的受热或火灾。",
+      "solution_for_hazard_source": "应拔掉吹风机的电源插头，并检查其是否有导致起火的电气或机械故障。",
+      "solution_to_prevent_recurrence": "使用前应确保所有电器工作状态良好，且在运行时不要无人看管。"
+    },
+    "2": {
+      "risk_description": "一位女子在使用吹风机给孩子吹头发时，突然发现设备起火并喷出火花，这对孩子及周围环境构成直接火灾危险。",
+      "normal_video_description": "",
+      "solution_for_person": "立即停止使用吹风机，将孩子远离热源，若火势无法控制则扑灭火焰或拨打紧急救援电话。",
+      "solution_for_hazard_source": "立即拔掉吹风机电源插头并检查是否受损；在专业人员检查之前不要再使用。",
+      "solution_to_prevent_recurrence": "使用具备安全功能的吹风机，例如过热时自动关机，并避免使用损坏或老旧的设备。"
+    },
+    "3": {
+      "risk_description": "吹风机起火，对站在附近的孩子构成严重的烧伤风险。",
+      "normal_video_description": "",
+      "solution_for_person": "看护者应立即停止使用吹风机，并将孩子从火源处移开。",
+      "solution_for_hazard_source": "应对吹风机进行检查并维修或更换，以防止类似事故再次发生。",
+      "solution_to_prevent_recurrence": "确保安全使用电器，远离易燃材料，尤其是在儿童周围。"
+    },
+    "4": {
+      "risk_description": "视频显示，由于成年人的攻击性行为，孩子面临潜在的身体伤害风险。视频中成年人抓住并推搡孩子，可能导致受伤或长期的心理影响。",
+      "normal_video_description": "视频描述了一位成年人在教室环境中与孩子互动，成年人似乎正在对孩子进行身体约束。",
+      "solution_for_person": "确保监督孩子的成年人接受过正向纪律技巧的培训，并了解为儿童维持安全、尊重环境的重要性。",
+      "solution_for_hazard_source": "",
+      "solution_to_prevent_recurrence": "为与儿童工作的成年人定期开展关于适当行为和沟通技巧的培训，以防止此类事件的发生。"
+    }
+  }
+}

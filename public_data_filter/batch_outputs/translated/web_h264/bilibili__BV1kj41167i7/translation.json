@@ -1,0 +1,40 @@
+{
+  "video_key": "web_h264/bilibili__BV1kj41167i7",
+  "translations": {
+    "0": {
+      "risk_description": "可以看到这位老年人在下楼梯时努力保持平衡，这可能导致跌倒并造成潜在伤害。",
+      "normal_video_description": "",
+      "solution_for_person": "护理人员应在老年人上下楼梯时提供支持和指导。",
+      "solution_for_hazard_source": "应通过安装扶手或防滑表面使楼梯更安全，以防止跌倒。",
+      "solution_to_prevent_recurrence": "定期锻炼和平衡训练有助于提高老年人的稳定性，降低跌倒风险。"
+    },
+    "1": {
+      "risk_description": "可以看到一位老年人在楼梯附近跌跌撞撞并摔倒，表明跌倒可能导致伤害。",
+      "normal_video_description": "一位老年人在楼梯附近跌倒，突出跌倒对老年人的危害。",
+      "solution_for_person": "确保老年人在上下楼梯或行走不平地面时穿着合适的鞋子并获得帮助。",
+      "solution_for_hazard_source": "在楼梯上安装扶手，确保该区域没有绊倒危险。",
+      "solution_to_prevent_recurrence": "定期进行环境安全检查，必要时提供行动辅助用具。"
+    },
+    "2": {
+      "risk_description": "一位老年人在台阶上失去平衡并摔倒在地，显示出明显的不稳定危险。",
+      "normal_video_description": "",
+      "solution_for_person": "当事人应立即小心地站起，检查是否有受伤，如有疼痛或不适，应及时就医。",
+      "solution_for_hazard_source": "在台阶上安装扶手或防滑垫，以提高稳定性并防止再次跌倒。",
+      "solution_to_prevent_recurrence": "鼓励使用拐杖或步行器等辅助设备，并确保行走路径畅通无阻。"
+    },
+    "3": {
+      "risk_description": "画面中显示老年人从楼梯上跌落，因其活动能力受限且可能导致严重伤害，存在重大受伤风险。",
+      "normal_video_description": "",
+      "solution_for_person": "确保老年人在上下楼梯时有支撑或帮助，以防止跌倒。",
+      "solution_for_hazard_source": "在楼梯上安装扶手或防滑表面，以降低滑倒风险。",
+      "solution_to_prevent_recurrence": "定期进行居家安全检查，发现并消除潜在跌倒危险，特别是在老年人活动的区域。"
+    },
+    "4": {
+      "risk_description": "视频中显示老年人从楼梯上跌下，可能导致严重伤害或长期影响。",
+      "normal_video_description": "",
+      "solution_for_person": "确保老年人在下楼梯时有护理人员陪同或使用扶手。",
+      "solution_for_hazard_source": "在楼梯上安装扶手，为老年人提供支撑和稳定性。",
+      "solution_to_prevent_recurrence": "定期检查并维护楼梯的状况，以确保其使用安全。"
+    }
+  }
+}

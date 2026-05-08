@@ -1,0 +1,40 @@
+{
+  "video_key": "toyota_smarthome_mp4/mp4/Getup_p17_r00_v09_c01",
+  "translations": {
+    "0": {
+      "risk_description": "",
+      "normal_video_description": "视频显示一位老人坐在餐桌旁，使用电脑鼠标和笔记本电脑。该人似乎正在进行正常活动，没有任何风险或危险的迹象。餐厅光线充足，场景中没有可见的危险或障碍物。",
+      "solution_for_person": "",
+      "solution_for_hazard_source": "",
+      "solution_to_prevent_recurrence": ""
+    },
+    "1": {
+      "risk_description": "该人正从一张放有笔记本电脑和其他物品的桌子旁的椅子上站起来，这可能导致失去平衡和跌倒。",
+      "normal_video_description": "一位老人坐在有笔记本电脑和其他物品的餐桌旁，然后从椅子上站起来。",
+      "solution_for_person": "确保该人慢慢小心地站起来，如需要可用椅子支撑。",
+      "solution_for_hazard_source": "",
+      "solution_to_prevent_recurrence": ""
+    },
+    "2": {
+      "risk_description": "",
+      "normal_video_description": "一位老人坐在餐桌旁，桌上放着笔记本电脑和一罐饮料，手里拿着一个瓶子和一个白色物体。该人从椅子上站起来并离开桌子。场景似乎是家庭环境中的正常日常活动。",
+      "solution_for_person": "",
+      "solution_for_hazard_source": "",
+      "solution_to_prevent_recurrence": ""
+    },
+    "3": {
+      "risk_description": "老人正在拿瓶子，这可能导致溢漏或破损，可能造成伤害或造成滑倒危险。",
+      "normal_video_description": "",
+      "solution_for_person": "确保老人坐稳，并小心处理瓶子以避免溢出。",
+      "solution_for_hazard_source": "在瓶子下面使用防滑垫，并确保桌面干净整洁。",
+      "solution_to_prevent_recurrence": "保持用餐区域整洁，处理物品时使用稳定、防滑的表面。"
+    },
+    "4": {
+      "risk_description": "老人正站在椅子上，这存在跌倒风险，可能造成受伤。由于椅子高度和不稳定性，这种行为可能导致严重伤害。",
+      "normal_video_description": "一位老人站在餐厅的椅子上，使用放在桌上的笔记本电脑。",
+      "solution_for_person": "确保老人在使用笔记本电脑前先坐在稳定的椅子上。",
+      "solution_for_hazard_source": "",
+      "solution_to_prevent_recurrence": "鼓励使用脚凳或带扶手的椅子以增加稳定性，方便取高处物品。"
+    }
+  }
+}

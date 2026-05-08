@@ -1,0 +1,40 @@
+{
+  "video_key": "SmartHome-Bench/videos/smartbench_0325",
+  "translations": {
+    "0": {
+      "risk_description": "",
+      "normal_video_description": "视频显示一个年轻人戴黄色安全帽、穿蓝色衣服，在阳台区域四处走动。此人似乎在进行某种活动，可能与建筑或维修有关，因为该区域散落着各种工具和材料。人物移动迅速，似乎专注于任务。视频中没有显示任何风险或危险的迹象。",
+      "solution_for_person": "",
+      "solution_for_hazard_source": "",
+      "solution_to_prevent_recurrence": ""
+    },
+    "1": {
+      "risk_description": "此人正在奔跑并背着沉重的背包，这增加了在不平整的砖块表面上绊倒或失去平衡的风险，可能导致跌倒。",
+      "normal_video_description": "一个戴黄色头盔、穿蓝色夹克的人背着大背包冲过杂乱的庭院，随后离开画面。",
+      "solution_for_person": "此人应放慢脚步、更加小心，尤其在携带重物时，以保持平衡并避免绊倒。",
+      "solution_for_hazard_source": "确保院子没有杂物，地面更平整，以减少绊倒危险。",
+      "solution_to_prevent_recurrence": "应提醒此人在杂乱或不平整的区域行走时要小心，特别是在携带重物时。"
+    },
+    "2": {
+      "risk_description": "",
+      "normal_video_description": "一个戴黄色头盔的孩子冲过杂乱的庭院露台区域，穿过椅子、箱子、自行车等物品。孩子快速穿过场景后离开画面，没有受伤或与环境的危险互动迹象。",
+      "solution_for_person": "",
+      "solution_for_hazard_source": "",
+      "solution_to_prevent_recurrence": ""
+    },
+    "3": {
+      "risk_description": "视频显示一个孩子在杂乱的车库里奔跑玩耍，这存在与物体碰撞或被杂物绊倒的风险。",
+      "normal_video_description": "",
+      "solution_for_person": "确保孩子在车库里始终受到监护，以防止事故。",
+      "solution_for_hazard_source": "清理车库中的杂物和碎屑，以减少绊倒和碰撞危险。",
+      "solution_to_prevent_recurrence": "实施安全措施，例如固定松散物品并确保该区域已进行儿童防护处理。"
+    },
+    "4": {
+      "risk_description": "孩子正在阳台边缘附近玩耍，存在跌落风险。阳台栏杆较低，且孩子体型小，增加了事故的可能性。",
+      "normal_video_description": "",
+      "solution_for_person": "确保孩子始终受到监护，防止其离阳台边缘过近。",
+      "solution_for_hazard_source": "在阳台上安装更高的栏杆或屏障以防止跌落。",
+      "solution_to_prevent_recurrence": "定期检查阳台的安全设施并进行必要的维修或改进，以防止事故。"
+    }
+  }
+}

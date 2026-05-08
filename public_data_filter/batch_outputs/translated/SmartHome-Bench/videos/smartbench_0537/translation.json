@@ -1,0 +1,40 @@
+{
+  "video_key": "SmartHome-Bench/videos/smartbench_0537",
+  "translations": {
+    "0": {
+      "risk_description": "",
+      "normal_video_description": "一只熊站在一辆停在院子里夜间停放的黑色汽车的车顶上，旁边还有另一辆车停靠。",
+      "solution_for_person": "",
+      "solution_for_hazard_source": "",
+      "solution_to_prevent_recurrence": ""
+    },
+    "1": {
+      "risk_description": "一只熊在汽车的车顶上，存在它可能跌落并可能伤害自身或附近的人，或对车辆造成损害的风险。",
+      "normal_video_description": "夜间，一只熊在车道上的一辆汽车的车顶上。",
+      "solution_for_person": "",
+      "solution_for_hazard_source": "",
+      "solution_to_prevent_recurrence": ""
+    },
+    "2": {
+      "risk_description": "一只大型熊站在停放的小型面包车车顶上，这对车内乘员或车辆本身都有造成碾压伤害的重大风险。",
+      "normal_video_description": "夜间，一只大型熊站在停放的黑色小型面包车车顶上，旁边是一辆银色面包车。",
+      "solution_for_person": "",
+      "solution_for_hazard_source": "",
+      "solution_to_prevent_recurrence": ""
+    },
+    "3": {
+      "risk_description": "一只大型动物（比如宠物）蹲在汽车的车顶上，如果失去平衡可能会跌落，可能危及这只宠物。",
+      "normal_video_description": "",
+      "solution_for_person": "确保车辆周围区域畅通，以便为动物提供安全移动的空间。",
+      "solution_for_hazard_source": "仔细观察动物，确保它保持平衡，不尝试跳下。",
+      "solution_to_prevent_recurrence": "考虑使用宠物围栏或屏障，将动物安全地限制在指定区域内。"
+    },
+    "4": {
+      "risk_description": "",
+      "normal_video_description": "视频展示了停车场的静态夜间画面，两辆车并排停放。没有可见的运动或动作发生，场景显得平静而平凡。",
+      "solution_for_person": "",
+      "solution_for_hazard_source": "",
+      "solution_to_prevent_recurrence": ""
+    }
+  }
+}

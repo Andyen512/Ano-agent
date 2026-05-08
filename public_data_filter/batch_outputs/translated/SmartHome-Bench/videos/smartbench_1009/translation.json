@@ -1,0 +1,40 @@
+{
+  "video_key": "SmartHome-Bench/videos/smartbench_1009",
+  "translations": {
+    "0": {
+      "risk_description": "老年人在不安全地使用扶梯，这增加了摔倒或失去平衡的风险。",
+      "normal_video_description": "老年人在安全地使用扶梯，抓住扶手并保持稳定的步伐。",
+      "solution_for_person": "老年人在使用扶梯时应使用扶手并保持稳定的步伐。",
+      "solution_for_hazard_source": "扶梯应有清晰的安全指南和用户警告。",
+      "solution_to_prevent_recurrence": "应提醒老年人正确使用扶梯，并在需要时提供额外支持。"
+    },
+    "1": {
+      "risk_description": "老年人在扶梯上推购物车，这可能导致失去平衡或难以控制购物车，增加摔倒风险。",
+      "normal_video_description": "一名身穿绿色衬衫和紫色裤子的老年人被看到在购物中心推着购物车上扶梯，另一个人站在扶梯顶部。",
+      "solution_for_person": "应建议老年人避免在扶梯上使用购物车，改走楼梯。",
+      "solution_for_hazard_source": "扶梯应有清晰的标识表明购物车不允许使用。",
+      "solution_to_prevent_recurrence": "安装额外的标识或障碍物以防止购物车被带上扶梯。"
+    },
+    "2": {
+      "risk_description": "老年人在拿着助行器跑上扶梯，这是一种不稳定且危险的行为，大大增加了摔倒风险。该行为明显超出正常活动范围，由于高受伤可能性而超出了可接受的日常行为边界。",
+      "normal_video_description": "",
+      "solution_for_person": "该人应立即停止奔跑，正确使用扶梯，站立不动或缓慢行走，必要时不使用助行器。",
+      "solution_for_hazard_source": "确保扶梯区域维护良好，并有清晰的使用说明标识。",
+      "solution_to_prevent_recurrence": "教育老年人安全使用扶梯并在需要时提供帮助。"
+    },
+    "3": {
+      "risk_description": "老年人在使用扶梯时没有适当的支撑，可能导致摔倒或失去平衡。",
+      "normal_video_description": "",
+      "solution_for_person": "老年人在使用扶梯时应使用扶手支撑。",
+      "solution_for_hazard_source": "如果扶梯经常被老年人使用，应安装额外的扶手或提供稳定性平台。",
+      "solution_to_prevent_recurrence": "确保老年人了解正确的扶梯使用方法，并在必要时提供额外的支撑选项。"
+    },
+    "4": {
+      "risk_description": "由于扶梯表面不稳定，该人有摔倒的风险。",
+      "normal_video_description": "",
+      "solution_for_person": "在扶梯上抓住扶手并保持平衡。",
+      "solution_for_hazard_source": "确保扶梯维护良好且正常运行。",
+      "solution_to_prevent_recurrence": "定期检查和维护扶梯以防止事故。"
+    }
+  }
+}

@@ -1,0 +1,40 @@
+{
+  "video_key": "labimag/dataset/chute05/cam7",
+  "translations": {
+    "0": {
+      "risk_description": "年轻人躺在地板上的大型白色物体上，这似乎是不稳定的。随后他起身离开，物体留在原地。这种行为可能导致跌倒或与不稳定相关的伤害。",
+      "normal_video_description": "视频显示一名年轻人在办公室环境中躺在地板上的大型白色物体上。随后他起身离开，物体留在原地。在普通家庭环境中，这种行为不被视为有风险。",
+      "solution_for_person": "确保对年轻人进行监督，防止其从事危险行为，如躺在不稳定的物体上。",
+      "solution_for_hazard_source": "将大型白色物体从办公室地板上移除，以防止进一步的与不稳定相关的意外。",
+      "solution_to_prevent_recurrence": "向办公室的年轻人及其他人员普及不稳定物体的危险以及保持安全工作环境的重要性。"
+    },
+    "1": {
+      "risk_description": "一个人躺在网格标记地板中间的大型软垫物体上，这可能不稳定或不适合躺卧，会增加跌倒的风险。",
+      "normal_video_description": "一个人躺在网格标记地板中间的软垫物体上，四周是办公桌和设备。",
+      "solution_for_person": "在使用前确保软垫物体稳定且设计适合躺卧。",
+      "solution_for_hazard_source": "固定软垫物体，防止其意外移动。",
+      "solution_to_prevent_recurrence": "对所有用于躺卧的物体进行安全评估，确保其稳定性。"
+    },
+    "2": {
+      "risk_description": "",
+      "normal_video_description": "一个人进入铺有大地白色垫子的房间，跳上垫子后起身。另一个人从右侧走进房间。该房间看起来是学习或办公空间，摆有桌子和椅子。",
+      "solution_for_person": "",
+      "solution_for_hazard_source": "",
+      "solution_to_prevent_recurrence": ""
+    },
+    "3": {
+      "risk_description": "年轻人躺在软垫表面后尝试翻身，若失去平衡可能导致跌倒或不稳定。",
+      "normal_video_description": "",
+      "solution_for_person": "确保年轻人在翻身时有支撑或稳固的表面，以防止跌倒。",
+      "solution_for_hazard_source": "固定软垫表面，防止滑移或滚落。",
+      "solution_to_prevent_recurrence": "在表面边缘添加额外垫子或支撑，以增强稳定性。"
+    },
+    "4": {
+      "risk_description": "这个人躺在固定在地板上的床垫上，若翻身或被困在床垫下，可能会导致受伤。也有可能与房间周围的物体碰撞。",
+      "normal_video_description": "",
+      "solution_for_person": "确保床垫固定良好，且周围有足够空间，以防止卡住或受伤。",
+      "solution_for_hazard_source": "移除任何可能在人从床垫上滚落时导致伤害的物体。",
+      "solution_to_prevent_recurrence": "定期检查床垫及其固定带，确保它们状态良好且功能正常。"
+    }
+  }
+}

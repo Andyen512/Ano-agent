@@ -1,0 +1,40 @@
+{
+  "video_key": "web_h264/2517137665303057",
+  "translations": {
+    "0": {
+      "risk_description": "视频显示一所房子起火，火焰和烟雾从窗户和屋顶冒出。火势猛烈，似乎在迅速蔓延。消防员和应急车辆的出现表明情况危险，需要立即处理。",
+      "normal_video_description": "",
+      "solution_for_person": "消防员正在努力扑灭大火，确保住户的安全。",
+      "solution_for_hazard_source": "从视频中看不出火灾的原因，但消防员正在调查处理。",
+      "solution_to_prevent_recurrence": "视频没有提供关于如何防止此类风险再次发生的信息。但是，配备正常工作的烟雾探测器、制定火灾逃生计划并做好应急准备非常重要。"
+    },
+    "1": {
+      "risk_description": "房屋被火焰吞噬，附近任何人都面临严重的烧伤风险。高温以及火灾可能引发的爆炸会导致严重伤害甚至死亡。",
+      "normal_video_description": "夜间一所房子起火，火势猛烈，浓烟滚滚。现场有消防员和警察等应急响应人员，正在努力控制火势并封锁现场。",
+      "solution_for_person": "公众应与火场保持安全距离，遵循应急响应人员的指示，以免受到高温和火焰的伤害。",
+      "solution_for_hazard_source": "消防员正在扑灭大火，这是降低火灾危害的首要行动。",
+      "solution_to_prevent_recurrence": "确保配备有效的消防安全措施，例如正常运作的烟雾探测器、灭火器以及明确的疏散计划。"
+    },
+    "2": {
+      "risk_description": "房屋被熊熊大火吞噬，火焰吞噬屋顶和结构，存在严重的烧伤、结构坍塌和财产损毁风险。",
+      "normal_video_description": "",
+      "solution_for_person": "立即撤离现场并保持安全距离，直至紧急服务部门宣布现场安全。",
+      "solution_for_hazard_source": "专业消防员已到场，正在扑灭火灾并防止火势蔓延。",
+      "solution_to_prevent_recurrence": "调查火灾原因并采取安全措施，以防止类似事件再次发生。"
+    },
+    "3": {
+      "risk_description": "视频显示一场大火吞噬了建筑物，对现场人员，包括儿童、老年人或行动不便者等弱势群体，构成严重的伤亡风险。",
+      "normal_video_description": "",
+      "solution_for_person": "立即撤离现场并联系紧急服务（如尚未报警）。",
+      "solution_for_hazard_source": "消防员应积极扑灭火灾，确保现场安全。",
+      "solution_to_prevent_recurrence": "进行彻底调查以确定火灾原因，并实施安全措施防止再次发生。"
+    },
+    "4": {
+      "risk_description": "视频显示一所房子起火，火焰和烟雾从屋顶冒出。火灾对屋内住户以及可能在场消防员构成严重风险。严重烧伤、吸入烟雾以及结构坍塌的风险都很高。",
+      "normal_video_description": "",
+      "solution_for_person": "立即撤离房屋并拨打紧急电话报警。",
+      "solution_for_hazard_source": "消防员应使用适当的设备扑灭火灾，防止火势蔓延至邻近房屋。",
+      "solution_to_prevent_recurrence": "在房屋内安装烟雾探测器和火灾警报器，并确保所有住户了解火灾发生时的疏散程序。"
+    }
+  }
+}

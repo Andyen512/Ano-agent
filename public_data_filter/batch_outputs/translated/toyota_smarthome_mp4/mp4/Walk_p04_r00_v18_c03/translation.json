@@ -1,0 +1,40 @@
+{
+  "video_key": "toyota_smarthome_mp4/mp4/Walk_p04_r00_v18_c03",
+  "translations": {
+    "0": {
+      "risk_description": "老年人在厨房里行走，动作缓慢且小心。他们可能有摔倒或被地板上的东西绊倒的风险。",
+      "normal_video_description": "",
+      "solution_for_person": "看护者应监测老年人在厨房里的动作，如果他们看起来吃力或有摔倒风险，应提供帮助。",
+      "solution_for_hazard_source": "看护者应确保厨房地面没有任何障碍物或光滑表面，以免老年人绊倒或滑倒。",
+      "solution_to_prevent_recurrence": "看护者应定期检查厨房地面是否存在危险，并采取措施防止以后再出现。同时应鼓励老年人在需要时定期休息，以降低疲劳和不稳定性风险。"
+    },
+    "1": {
+      "risk_description": "",
+      "normal_video_description": "老年人穿过厨房，转身并弯腰捡起地上的布。",
+      "solution_for_person": "",
+      "solution_for_hazard_source": "",
+      "solution_to_prevent_recurrence": ""
+    },
+    "2": {
+      "risk_description": "",
+      "normal_video_description": "老年人走进现代化的厨房，转身并走向水槽区域。环境整洁，没有可见的危险，没有不稳的迹象、锋利物品或其他危险情况。",
+      "solution_for_person": "",
+      "solution_for_hazard_source": "",
+      "solution_to_prevent_recurrence": ""
+    },
+    "3": {
+      "risk_description": "老年人在厨房里行走，动作表明他们可能有绊倒或摔倒的风险，尤其是行动不便或平衡有问题的老年人。",
+      "normal_video_description": "",
+      "solution_for_person": "确保老年人穿有支撑性的鞋子，必要时考虑使用助行工具。",
+      "solution_for_hazard_source": "清除绊倒危险，如松动的地板或杂物，保持厨房区域畅通。",
+      "solution_to_prevent_recurrence": "在厨房安装额外的照明和防滑垫，以提高安全性。"
+    },
+    "4": {
+      "risk_description": "老年人在厨房里行走不稳，增加了摔倒的风险，可能导致受伤，尤其是如果他们不够小心。",
+      "normal_video_description": "",
+      "solution_for_person": "确保老年人在厨房行走时扶着柜台或稳定的物体，以防止摔倒。",
+      "solution_for_hazard_source": "",
+      "solution_to_prevent_recurrence": "鼓励老年人穿防滑鞋，并考虑使用拐杖或助行器，在厨房行走时提供额外的稳定性。"
+    }
+  }
+}

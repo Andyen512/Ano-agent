@@ -1,0 +1,40 @@
+{
+  "video_key": "SmartHome-Bench/videos/smartbench_0619",
+  "translations": {
+    "0": {
+      "risk_description": "一只熊正走近一位躺在泳池旁躺椅上的人。此人似乎没有注意到熊的存在，这构成了动物袭击的重大风险。",
+      "normal_video_description": "",
+      "solution_for_person": "应当让此人意识到熊的存在，并指示其保持冷静，慢慢后退，不要背对熊。",
+      "solution_for_hazard_source": "应当安全、迅速地将熊从该区域移除，以防止进一步事故。",
+      "solution_to_prevent_recurrence": "应当对人员进行关于熊遭遇时的应对措施教育，并对该区域进行监测以防潜在的野生动物危险。"
+    },
+    "1": {
+      "risk_description": "一只熊正走近一位躺在泳池旁躺椅上的人。熊靠近此人，若熊变得好斗或受惊，可能会导致碰撞或压伤风险。",
+      "normal_video_description": "一个人在泳池旁的躺椅上放松，而一只熊正走近该区域。",
+      "solution_for_person": "保持冷静，避免突然动作，以防惊吓熊。",
+      "solution_for_hazard_source": "",
+      "solution_to_prevent_recurrence": ""
+    },
+    "2": {
+      "risk_description": "一只熊走近在泳池旁放松的人，抢走了他们的鞋子，造成直接的物理威胁，可能导致伤害或事态升级。",
+      "normal_video_description": "",
+      "solution_for_person": "立即站起并远离熊，保持安全距离。",
+      "solution_for_hazard_source": "应让熊自行离开该区域，不要挑衅或追赶。",
+      "solution_to_prevent_recurrence": "确保该区域安全且没有吸引物，以防止野生动物进入。"
+    },
+    "3": {
+      "risk_description": "一只熊正走近一位坐在泳池旁躺椅上的老人，若熊近距离接触，可能导致碰撞或压伤风险。",
+      "normal_video_description": "",
+      "solution_for_person": "老人应保持坐姿，避免突然动作，以防惊吓熊。",
+      "solution_for_hazard_source": "封闭该区域防止野生动物进入，并考虑使用威慑装置，如运动感应灯或噪音设备。",
+      "solution_to_prevent_recurrence": "在院子周围安装防熊围栏，并保持环境整洁，避免吸引野生动物。"
+    },
+    "4": {
+      "risk_description": "",
+      "normal_video_description": "视频显示一个宁静的后院场景，泳池边可以看到一只熊在池边。一名男子正在泳池旁的躺椅上放松，似乎没有注意到熊的存在。",
+      "solution_for_person": "",
+      "solution_for_hazard_source": "",
+      "solution_to_prevent_recurrence": ""
+    }
+  }
+}

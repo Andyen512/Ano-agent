@@ -1,0 +1,40 @@
+{
+  "video_key": "UR_Fall_Dataset/fall-11-cam0",
+  "translations": {
+    "0": {
+      "risk_description": "视频中可见一名年轻人在办公环境中行走时突然倒地，表明存在不稳或失衡的风险。",
+      "normal_video_description": "视频显示一名年轻人在办公环境中行走时突然倒地，表明存在不稳或失衡的风险。",
+      "solution_for_person": "应建议该人员在办公环境中行走时更加小心，并确保其工作空间没有可能导致绊倒或跌倒的潜在危险。",
+      "solution_for_hazard_source": "应检查办公环境是否存在可能导致人员绊倒或跌倒的潜在危险，如松散的电缆、地面不平或走道凌乱。",
+      "solution_to_prevent_recurrence": "应鼓励该人员保持工作空间整洁有序，并定期休息、伸展和活动，以降低疲劳和失衡的风险。"
+    },
+    "1": {
+      "risk_description": "可见该人员站立后倒在地板上，跌倒本身可能造成伤害风险。",
+      "normal_video_description": "一个人在类似办公室的房间里站立后倒在地板上。",
+      "solution_for_person": "确保该人员了解潜在的绊倒危险，并学会在跌倒时安全落地。",
+      "solution_for_hazard_source": "",
+      "solution_to_prevent_recurrence": ""
+    },
+    "2": {
+      "risk_description": "该人员失去平衡向后倒在地板上，表现出明显的失稳，可能导致受伤。",
+      "normal_video_description": "",
+      "solution_for_person": "该人员应立即起身并检查是否有受伤，必要时寻求医疗救治。",
+      "solution_for_hazard_source": "确保地面无障碍物并提供充足照明，以防止类似事件再次发生。",
+      "solution_to_prevent_recurrence": "鼓励该人员在移动时更加小心，并考虑在地面湿滑的情况下安装防滑垫等安全措施。"
+    },
+    "3": {
+      "risk_description": "该人员跌倒在地，可能导致受伤风险，尤其是行动不便或正在康复的人员。",
+      "normal_video_description": "",
+      "solution_for_person": "确保该人员了解周围环境，以避免绊倒或跌倒。",
+      "solution_for_hazard_source": "清除地面上的任何障碍物或绊倒危险。",
+      "solution_to_prevent_recurrence": "进行平衡训练以提高稳定性和协调性。"
+    },
+    "4": {
+      "risk_description": "视频中的人员因注意力不足以及办公环境中潜在的绊倒危险而面临跌倒风险。",
+      "normal_video_description": "",
+      "solution_for_person": "确保该人员了解周围环境以及办公室中的潜在危险，以防止跌倒。",
+      "solution_for_hazard_source": "清除办公室地面上任何绊倒危险或障碍物，以降低跌倒风险。",
+      "solution_to_prevent_recurrence": "定期开展安全培训，提升员工对潜在危险的意识并教导如何防范。"
+    }
+  }
+}

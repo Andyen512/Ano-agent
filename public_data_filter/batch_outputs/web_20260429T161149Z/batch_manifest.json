@@ -1,0 +1,67 @@
+{
+  "run_id": "20260429T161149Z",
+  "data_root": "/data_4/liuyuan/lifebench/data/public_data",
+  "datasets": [
+    "web"
+  ],
+  "output_root": "/data_4/liuyuan/lifebench/public_data_filter/batch_outputs/web_20260429T161149Z",
+  "prompt_language": "en",
+  "output_schema_version": "risk_full_en_v2",
+  "gpu_ids": [
+    "0",
+    "1",
+    "2",
+    "3",
+    "4",
+    "5",
+    "6",
+    "7"
+  ],
+  "worker_backends": [
+    "qwen35vl",
+    "mplugowl3",
+    "minicpmv45",
+    "internvl35",
+    "videollama3",
+    "qwen35vl",
+    "mplugowl3",
+    "minicpmv45"
+  ],
+  "worker_plan": {
+    "qwen35vl": 2,
+    "mplugowl3": 2,
+    "minicpmv45": 2,
+    "internvl35": 1,
+    "videollama3": 1
+  },
+  "seed": 0,
+  "task_count": 192,
+  "skipped_existing_count": 0,
+  "reuse_agent_outputs": true,
+  "early_stop_majority": false,
+  "replace_tarsier2_with_minicpmv45": true,
+  "model_pool": [
+    {
+      "model_id": "Qwen/Qwen3.5-9B",
+      "backend": "qwen35vl"
+    },
+    {
+      "model_id": "openbmb/MiniCPM-V-4_5",
+      "backend": "minicpmv45"
+    },
+    {
+      "model_id": "mPLUG/mPLUG-Owl3-7B-241101",
+      "backend": "mplugowl3"
+    },
+    {
+      "model_id": "DAMO-NLP-SG/VideoLLaMA3-7B",
+      "backend": "videollama3"
+    },
+    {
+      "model_id": "OpenGVLab/InternVL3_5-8B",
+      "backend": "internvl35"
+    }
+  ],
+  "persistent_runner": true,
+  "dry_run": false
+}

@@ -1,0 +1,40 @@
+{
+  "video_key": "web_h264/dailymotion__x8rnkoq",
+  "translations": {
+    "0": {
+      "risk_description": "可以看到一位年轻人跑着跳上滑板，结果失去平衡摔倒。随后他站起来走开，似乎没有受伤。",
+      "normal_video_description": "",
+      "solution_for_person": "应当建议该人在滑板时佩戴头盔、护膝等防护装备，以防受伤。",
+      "solution_for_hazard_source": "应检查滑板是否有缺陷或损坏，以免出现故障导致跌倒。",
+      "solution_to_prevent_recurrence": "应鼓励该人在受控的环境（如滑板公园）练习滑板，并学习保持平衡和控制的技术。"
+    },
+    "1": {
+      "risk_description": "该人在房车附近跑动并摔倒，面临跌倒或与车辆碰撞受伤的风险。该人部分被房车遮挡，增加了未能及时被发现而避免碰撞的危险。",
+      "normal_video_description": "视频显示一个人在院子靠近房车的地方跑动，失去平衡摔倒，随后站起来离开。",
+      "solution_for_person": "该人在靠近房车跑动时应更加谨慎，避免绊倒或与房车碰撞。",
+      "solution_for_hazard_source": "房车应停放在留有更多周围空间的位置，以降低被人撞到的风险。",
+      "solution_to_prevent_recurrence": "应提醒该人在大型车辆附近移动时要注意周围环境，并且房车应停放在不那么拥挤的区域。"
+    },
+    "2": {
+      "risk_description": "一名年轻人在车辆旁的草径上行走时失去平衡摔倒在地，这是一次明显的失稳事件。",
+      "normal_video_description": "",
+      "solution_for_person": "该人应立即站起来检查是否受伤，并避免在不平整或湿滑的路面上行走。",
+      "solution_for_hazard_source": "确保道路畅通且光线充足，以防止类似事故再次发生。",
+      "solution_to_prevent_recurrence": "改善路面的稳定性，并考虑在该区域增设扶手或更好的照明。"
+    },
+    "3": {
+      "risk_description": "这位年轻人在靠近露营车行走时摔倒，如果他们行动不便或正在康复，可能会特别令人担忧。",
+      "normal_video_description": "",
+      "solution_for_person": "确保该区域没有障碍物，必要时可考虑使用助行器。",
+      "solution_for_hazard_source": "清除或固定院子里可能导致绊倒的松散物品。",
+      "solution_to_prevent_recurrence": "安装额外的照明，并考虑在道路沿线铺设防滑垫。"
+    },
+    "4": {
+      "risk_description": "可以看到该人在狭窄的道路上拿着滑板行走，若失去平衡可能会导致摔倒。",
+      "normal_video_description": "",
+      "solution_for_person": "确保该人在滑板时佩戴适当的防护装备并注意周围环境。",
+      "solution_for_hazard_source": "",
+      "solution_to_prevent_recurrence": "鼓励该人在更安全的环境（如滑板公园或平坦开阔场地）练习滑板。"
+    }
+  }
+}

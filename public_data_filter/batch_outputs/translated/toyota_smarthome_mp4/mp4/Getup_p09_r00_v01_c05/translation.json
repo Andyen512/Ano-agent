@@ -1,0 +1,40 @@
+{
+  "video_key": "toyota_smarthome_mp4/mp4/Getup_p09_r00_v01_c05",
+  "translations": {
+    "0": {
+      "risk_description": "视频中可以看到此人弯腰伸手去捡地上的东西，这可能导致他/她失去平衡而摔倒。此外，此人正坐在电视前的沙发上，如果在看电视时伸手去捡地上的东西，也会增加跌倒的风险。",
+      "normal_video_description": "",
+      "solution_for_person": "应鼓励他/她在捡东西时使用椅子或其他支撑，以降低摔倒风险。还要提醒他/她在看电视时保持平衡。",
+      "solution_for_hazard_source": "危险源是地面，可能湿滑或不平。应鼓励他/她穿防滑鞋，并注意地面的障碍物。",
+      "solution_to_prevent_recurrence": "应提醒他/她在捡东西时要小心，必要时使用支撑。还要鼓励他/她在看电视时保持平衡，并注意地面的障碍物。"
+    },
+    "1": {
+      "risk_description": "",
+      "normal_video_description": "有一个人坐在客厅的沙发上观看电视。随后他/她站起来，走向茶几。房间光线充足，摆放着典型的客厅家具和装饰。",
+      "solution_for_person": "",
+      "solution_for_hazard_source": "",
+      "solution_to_prevent_recurrence": ""
+    },
+    "2": {
+      "risk_description": "",
+      "normal_video_description": "可以看到一位年轻成年人在客厅里走动，从绿色沙发上起身，走向茶几。房间里有一台电视、一把白色扶手椅、一盏落地灯和几盆盆栽，没有明显的危险或危险行为。",
+      "solution_for_person": "",
+      "solution_for_hazard_source": "",
+      "solution_to_prevent_recurrence": ""
+    },
+    "3": {
+      "risk_description": "此人正试图翻越沙发，这可能导致摔倒或失去平衡，带来受伤风险。",
+      "normal_video_description": "",
+      "solution_for_person": "确保此人使用稳固的台阶或避免翻越家具，以防摔倒。",
+      "solution_for_hazard_source": "移除或固定任何可能被不安全地用于攀爬的障碍物。",
+      "solution_to_prevent_recurrence": "提供替代的座位安排，并确保通道畅通，以避免需要翻越家具。"
+    },
+    "4": {
+      "risk_description": "此人面临从沙发上跌落的风险，可能导致严重伤害。跌倒可能引起剧烈疼痛、潜在的骨折或其他可能需要医疗处理的伤害。",
+      "normal_video_description": "可以看到一个人站在客厅的绿色沙发上，准备坐下。",
+      "solution_for_person": "确保他/她已经坐下并保持稳定，再尝试从沙发上站起。",
+      "solution_for_hazard_source": "",
+      "solution_to_prevent_recurrence": "鼓励他/她用手臂推自己从沙发上起身，而不是跳跃或仅用腿部。"
+    }
+  }
+}

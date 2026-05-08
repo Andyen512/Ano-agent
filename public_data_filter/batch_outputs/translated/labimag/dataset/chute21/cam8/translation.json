@@ -1,0 +1,40 @@
+{
+  "video_key": "labimag/dataset/chute21/cam8",
+  "translations": {
+    "0": {
+      "risk_description": "视频中的年轻人试图坐在椅子上，但失去平衡摔倒在地。这种行为与正常坐下的日常活动不符，可能导致受伤。",
+      "normal_video_description": "",
+      "solution_for_person": "应帮助该人正确坐下，以防止将来摔倒。",
+      "solution_for_hazard_source": "应检查椅子的稳定性，并清除该区域中的任何潜在危险。",
+      "solution_to_prevent_recurrence": "该人在尝试坐到椅子上时应有监督，并采取适当的安全措施以防止跌倒。"
+    },
+    "1": {
+      "risk_description": "该人俯卧在地板上，如果其无法移动或有人踩踏，则有头部或颈部受伤的风险。",
+      "normal_video_description": "一个人进入房间，坐在沙发上，然后俯卧在地板上。",
+      "solution_for_person": "应鼓励该人坐在沙发上或躺在沙发上，而不是地板上。",
+      "solution_for_hazard_source": "",
+      "solution_to_prevent_recurrence": "确保该人了解躺在地板上的风险，并提供替代的座位选项。"
+    },
+    "2": {
+      "risk_description": "一个人试图坐在一个低矮的圆形扶手椅上，失去平衡，向后倒在地板上。该动作表明明显的失衡导致跌倒。",
+      "normal_video_description": "",
+      "solution_for_person": "在坐在靠背低或底座不稳的家具时，应格外小心，以防止跌倒。",
+      "solution_for_hazard_source": "确保靠背低或形状圆润的家具稳固，且靠背足够高，以安全支撑使用者的重量。",
+      "solution_to_prevent_recurrence": "在家具下方放置防滑垫，或使用靠背较高的家具，以防止跌倒。"
+    },
+    "3": {
+      "risk_description": "穿红色衬衫的人在试图坐到沙发上时摔倒在地板上，这可能导致受伤，尤其是对于行动不便或平衡有问题的人。",
+      "normal_video_description": "",
+      "solution_for_person": "确保此人小心坐下，如果平衡有问题，考虑使用有扶手的椅子。",
+      "solution_for_hazard_source": "清除任何障碍物，或以最小化绊倒危险的方式摆放家具。",
+      "solution_to_prevent_recurrence": "在坐下时提供额外的支撑或监督，并确保生活空间没有潜在危险。"
+    },
+    "4": {
+      "risk_description": "该人坐在豆袋椅上向后倒下，可能导致轻伤。然而，不能排除更严重后果，例如头部受伤或脊柱损伤。",
+      "normal_video_description": "",
+      "solution_for_person": "确保豆袋椅放置在稳固的表面上，并考虑使用靠背以防止跌倒。",
+      "solution_for_hazard_source": "",
+      "solution_to_prevent_recurrence": "定期检查豆袋椅是否有磨损或损坏的迹象，必要时予以更换。"
+    }
+  }
+}

@@ -1,0 +1,40 @@
+{
+  "video_key": "SmartHome-Bench/videos/smartbench_0760",
+  "translations": {
+    "0": {
+      "risk_description": "",
+      "normal_video_description": "视频展示了一系列来自Ring门铃摄像头的片段，捕捉了房屋内部及周围的各种场景和活动。片段包括一只熊与喂鸟器互动的画面，一个人拥抱一个孩子，一群人在门廊上，一个人遛狗，以及一个穿着军装的人带着孩子行走。视频未显示任何风险或异常。",
+      "solution_for_person": "",
+      "solution_for_hazard_source": "",
+      "solution_to_prevent_recurrence": ""
+    },
+    "1": {
+      "risk_description": "一只大型黑熊正以后腿站立，靠在门廊栏杆上，试图够到喂鸟器。这种行为存在熊失去平衡跌倒的风险，可能导致自身或周围的人受伤。",
+      "normal_video_description": "夜间，一只黑熊在门廊上，用后腿站立并靠在栏杆上，试图够到喂鸟器。",
+      "solution_for_person": "",
+      "solution_for_hazard_source": "",
+      "solution_to_prevent_recurrence": ""
+    },
+    "2": {
+      "risk_description": "",
+      "normal_video_description": "视频显示一只黑熊在门廊上以后腿站立，伸手去吃挂在上面的喂鸟器。随后画面切换成一组不同的Ring安全摄像头片段，展示住宅环境中的不同人物和动物。",
+      "solution_for_person": "",
+      "solution_for_hazard_source": "",
+      "solution_to_prevent_recurrence": ""
+    },
+    "3": {
+      "risk_description": "一个孩子站在门廊靠近门的地方，这可能在孩子失去平衡或门廊地面光滑的情况下导致跌倒风险。",
+      "normal_video_description": "",
+      "solution_for_person": "确保孩子受到监督，并远离门廊边缘。",
+      "solution_for_hazard_source": "固定门廊区域以防止跌倒，例如安装安全门或确保地面防滑。",
+      "solution_to_prevent_recurrence": "在门廊上安装额外的安全措施，如门或防滑垫，以防止将来跌倒。"
+    },
+    "4": {
+      "risk_description": "孩子有从阳台跌落的风险，可能导致严重伤害甚至死亡。",
+      "normal_video_description": "",
+      "solution_for_person": "确保孩子始终受到监督，绝不要在阳台上让其独自留下。",
+      "solution_for_hazard_source": "在阳台周围安装坚固的栏杆以防止跌落。",
+      "solution_to_prevent_recurrence": "定期检查阳台栏杆是否有损坏或磨损，并及时进行必要的维修。"
+    }
+  }
+}

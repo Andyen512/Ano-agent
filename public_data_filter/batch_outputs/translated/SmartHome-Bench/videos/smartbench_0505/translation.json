@@ -1,0 +1,40 @@
+{
+  "video_key": "SmartHome-Bench/videos/smartbench_0505",
+  "translations": {
+    "0": {
+      "risk_description": "",
+      "normal_video_description": "视频展示了木制平台的景色，平台上有一张桌子、椅子和一个用白色罩子覆盖的烤架。一只黑熊正站在平台的栏杆上，四处张望。平台四周环绕着木制栏杆，背景是一片草地和林木。黑熊看起来很好奇，没有表现出任何攻击行为。",
+      "solution_for_person": "",
+      "solution_for_hazard_source": "",
+      "solution_to_prevent_recurrence": ""
+    },
+    "1": {
+      "risk_description": "一只黑熊正站在木制平台上，爬上栏杆并站立，若失去平衡或受到惊吓，存在跌落或被压伤的风险。",
+      "normal_video_description": "一只黑熊进入后院，探索木制平台，爬上栏杆并嗅闻各种物品。",
+      "solution_for_person": "",
+      "solution_for_hazard_source": "",
+      "solution_to_prevent_recurrence": ""
+    },
+    "2": {
+      "risk_description": "一只黑熊爬上阳台栏杆并在顶部行走，对平台上的任何人构成直接的人身威胁。该动物靠近边缘并沿栏杆移动，显示出明显的跌落或碰撞危险。",
+      "normal_video_description": "",
+      "solution_for_person": "立即撤离阳台并封锁该区域，以防止动物进入房屋。",
+      "solution_for_hazard_source": "联系当地野生动物管理部门进行安全移除黑熊。",
+      "solution_to_prevent_recurrence": "妥善保管所有食物来源和垃圾，防止吸引野生动物到该物业。"
+    },
+    "3": {
+      "risk_description": "阳台上有黑熊，可能会跌倒或导致平台不稳，特别是对反应较慢的宠物或小孩。",
+      "normal_video_description": "",
+      "solution_for_person": "确保宠物或儿童安全地待在室内，防止他们与黑熊接触。",
+      "solution_for_hazard_source": "加固阳台栏杆，防止黑熊攀爬越过或导致跌落。",
+      "solution_to_prevent_recurrence": "安装防熊容器并妥善固定户外物品，以阻止野生动物进入阳台区域。"
+    },
+    "4": {
+      "risk_description": "",
+      "normal_video_description": "视频中显示一只黑熊在木制平台上，这是一种不寻常且潜在危险的情形。但画面中没有任何可见的风险或危险需要立即采取行动或预防措施。",
+      "solution_for_person": "",
+      "solution_for_hazard_source": "",
+      "solution_to_prevent_recurrence": ""
+    }
+  }
+}

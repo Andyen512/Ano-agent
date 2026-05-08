@@ -1,0 +1,40 @@
+{
+  "video_key": "SmartHome-Bench/videos/smartbench_0710",
+  "translations": {
+    "0": {
+      "risk_description": "视频中的年轻人正在停车场里四处走动，这可能导致不稳定甚至跌倒，尤其在他们不注意周围环境时。",
+      "normal_video_description": "视频显示一名年轻人在夜间走过停车场，周围停着几辆车。此人似乎在寻找某物或某人，但没有留意周围环境。",
+      "solution_for_person": "应提醒此人注意周围环境，在停车场行走时要格外小心。",
+      "solution_for_hazard_source": "视频中没有明显的危险源，但此人应对停车场中可能出现的潜在危险保持警惕。",
+      "solution_to_prevent_recurrence": "应提醒此人在停车场行走时更加谨慎，以防止此类风险再次发生。"
+    },
+    "1": {
+      "risk_description": "",
+      "normal_video_description": "视频展示了夜间停车场的场景，几辆车停放其中。身穿浅色衣服的人从画面右侧走来，靠近一辆深色汽车，触碰了一下，然后走向画面左侧。背景中还能看到另一个人短暂出现，正背向摄像机离开。",
+      "solution_for_person": "",
+      "solution_for_hazard_source": "",
+      "solution_to_prevent_recurrence": ""
+    },
+    "2": {
+      "risk_description": "视频中可见一名穿着连帽衫的人在夜间在停放的汽车之间行走并与车辆互动，这符合可疑行为或潜在盗窃的特征。",
+      "normal_video_description": "",
+      "solution_for_person": "",
+      "solution_for_hazard_source": "",
+      "solution_to_prevent_recurrence": ""
+    },
+    "3": {
+      "risk_description": "视频显示有人在进行挑衅性行为，这可能升级为身体冲突，对附近的任何人（包括弱势对象）构成风险。",
+      "normal_video_description": "",
+      "solution_for_person": "人们应避免挑衅性行为，寻求和平解决或主动离开现场。",
+      "solution_for_hazard_source": "安装监控设备以监视并可能威慑挑衅性行为。",
+      "solution_to_prevent_recurrence": "鼓励社区提高警惕并开展冲突解决培训，以降低此类事件发生的可能性。"
+    },
+    "4": {
+      "risk_description": "",
+      "normal_video_description": "视频展示了夜间停车场的场景，一名人员在停放的汽车之间行走。画面中没有可见的风险或危险。",
+      "solution_for_person": "",
+      "solution_for_hazard_source": "",
+      "solution_to_prevent_recurrence": ""
+    }
+  }
+}

@@ -1,0 +1,40 @@
+{
+  "video_key": "UR_Fall_Dataset/adl-32-cam0",
+  "translations": {
+    "0": {
+      "risk_description": "这位年轻人被看到弯腰伸手去捡地上的东西，如果失去平衡，可能会导致跌倒或失衡。",
+      "normal_video_description": "这位年轻人站在书房里，环顾四周，然后弯腰捡起地上的东西。",
+      "solution_for_person": "应提醒该人在弯腰时保持谨慎，并采用正确的身体姿势以防止跌倒。",
+      "solution_for_hazard_source": "危险源是地面，可能湿滑或不平，导致人失去平衡。",
+      "solution_to_prevent_recurrence": "应鼓励该人在书房内移动时保持谨慎，并保持地面清洁，排除可能导致绊倒或滑倒的障碍物。"
+    },
+    "1": {
+      "risk_description": "该人弯腰并在地上爬行，这可能导致跌倒或失去平衡，可能造成伤害。",
+      "normal_video_description": "视频显示一个人在书房里弯腰并在地上爬行。",
+      "solution_for_person": "该人应避免以这种方式弯腰或在地上爬行，以降低跌倒的风险。",
+      "solution_for_hazard_source": "",
+      "solution_to_prevent_recurrence": "确保该人了解弯腰或在地上爬行时的跌倒风险。"
+    },
+    "2": {
+      "risk_description": "",
+      "normal_video_description": "一位年轻人在办公环境中走向镜头，跪下，然后躺在地板上。该行为似乎是故意的动作或玩耍，而非事故或不稳定的迹象。",
+      "solution_for_person": "",
+      "solution_for_hazard_source": "",
+      "solution_to_prevent_recurrence": ""
+    },
+    "3": {
+      "risk_description": "视频中的人似乎在尝试可能导致跌倒的身体动作，尤其是失去平衡时。对于行动不便或协调性差的人来说，这可能尤为危险。",
+      "normal_video_description": "",
+      "solution_for_person": "确保该人有稳固的支撑面，并考虑使用垫子或软垫防止跌倒。",
+      "solution_for_hazard_source": "清除房间内可能导致不稳的障碍物。",
+      "solution_to_prevent_recurrence": "在更安全的环境中进行练习，并在必要时确保有适当的监督。"
+    },
+    "4": {
+      "risk_description": "该人被看到跌倒在地，可能导致严重伤害。该跌倒似乎是意外，若有更好的平衡或更安全的环境本可以避免。",
+      "normal_video_description": "视频采用分屏画面，左侧为黑白图像，右侧为彩色图像。彩色图像中显示一个人站在办公室里，然后跌倒在地。",
+      "solution_for_person": "在尝试从椅子上站起之前，确保该人具有良好的平衡和稳定性，必要时提供帮助。",
+      "solution_for_hazard_source": "",
+      "solution_to_prevent_recurrence": "清除该区域内的绊倒危险，确保地面无障碍物。"
+    }
+  }
+}

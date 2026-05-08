@@ -1,0 +1,40 @@
+{
+  "video_key": "web_h264/tiktok__7202910756000648450",
+  "translations": {
+    "0": {
+      "risk_description": "这位老年人行走于阳台时挣扎保持平衡，可能导致跌倒。轮椅的存在和需要帮助进一步表明该老年人可能有跌倒的风险。",
+      "normal_video_description": "",
+      "solution_for_person": "看护者应向老年人提供支撑和帮助，以帮助他们保持平衡并防止跌倒。",
+      "solution_for_hazard_source": "看护者应确保阳台没有障碍物和光滑表面，以降低跌倒风险。",
+      "solution_to_prevent_recurrence": "看护者应监测老年人的活动并在需要时提供支撑以防止跌倒。规律的锻炼和平衡训练也有助于降低老年人跌倒的风险。"
+    },
+    "1": {
+      "risk_description": "老年人推轮椅上坡时向后跌倒，无法站起，需要爬楼梯。",
+      "normal_video_description": "老年人尝试推轮椅上坡，向后跌倒，无法站立，需要他人帮助爬楼梯。",
+      "solution_for_person": "在协助行动任务时，要确保提供适当的支撑和监督。",
+      "solution_for_hazard_source": "",
+      "solution_to_prevent_recurrence": "使用合适的设备和技巧来推轮椅上坡，并考虑替代方式进入建筑。"
+    },
+    "2": {
+      "risk_description": "老年人推轮椅上坡失去平衡，向后跌倒，无法立即站起，这种情况因跌倒及从地面站起困难而存在明显的受伤风险。",
+      "normal_video_description": "",
+      "solution_for_person": "若无法站起，此人应小心尝试站起或呼叫帮助。",
+      "solution_for_hazard_source": "确保坡道稳固且防滑，以防止将来跌倒。",
+      "solution_to_prevent_recurrence": "安装扶手或改进坡道设计，以提高轮椅使用者的安全性。"
+    },
+    "3": {
+      "risk_description": "老年人在尝试携带轮椅上楼梯时跌倒，因活动能力受限和站起困难而存在受伤风险。",
+      "normal_video_description": "",
+      "solution_for_person": "确保老年人在上楼梯时有支撑，并考虑使用坡道或替代的无障碍通道。",
+      "solution_for_hazard_source": "在楼梯上安装扶手并确保通道清晰，防止绊倒。",
+      "solution_to_prevent_recurrence": "提供安全移动技术的培训，并确保环境适应无障碍需求。"
+    },
+    "4": {
+      "risk_description": "老年人由于站立位置不稳且靠近阳台边缘，有从阳台跌落的风险。",
+      "normal_video_description": "",
+      "solution_for_person": "在移动老年人之前，确保他们已安全坐好或站稳并有支撑。",
+      "solution_for_hazard_source": "清除阳台区域的潜在绊倒障碍物。",
+      "solution_to_prevent_recurrence": "在阳台上安装扶手或防滑表面以防止跌倒。"
+    }
+  }
+}

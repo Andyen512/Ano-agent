@@ -1,0 +1,40 @@
+{
+  "video_key": "toyota_smarthome_mp4/mp4/Cook.Usestove_p09_r00_v15_c03",
+  "translations": {
+    "0": {
+      "risk_description": "",
+      "normal_video_description": "视频显示一位中年人在厨房里与嵌入式烤箱互动。该人似乎在检查或取出烤箱里的东西。厨房配备齐全，拥有现代化的电器和带水龙头的水槽。该人身穿格子衬衫和深色裤子。场景属于典型的日常厨房活动，未显示任何风险或异常。",
+      "solution_for_person": "",
+      "solution_for_hazard_source": "",
+      "solution_to_prevent_recurrence": ""
+    },
+    "1": {
+      "risk_description": "该人正在操作烤箱，烤箱内可能存在热的表面或食物，若处理不当可能导致烫伤。",
+      "normal_video_description": "一个人在厨房里打开并关闭烤箱门。",
+      "solution_for_person": "打开烤箱门之前，请确保烤箱已关闭并已冷却，以避免烫伤。",
+      "solution_for_hazard_source": "打开烤箱门之前，请确认烤箱未在使用或已适当冷却。",
+      "solution_to_prevent_recurrence": "打开烤箱门之前，务必检查烤箱是否已关闭且安全可操作。"
+    },
+    "2": {
+      "risk_description": "",
+      "normal_video_description": "一位中年人在厨房里打开并关闭烤箱门，同时检查内部。环境看起来是标准厨房布局，没有明显的危险或不安全行为。",
+      "solution_for_person": "",
+      "solution_for_hazard_source": "",
+      "solution_to_prevent_recurrence": ""
+    },
+    "3": {
+      "risk_description": "老年人正弯腰伸手进入烤箱，靠近热表面可能导致烫伤或跌倒。",
+      "normal_video_description": "",
+      "solution_for_person": "在打开烤箱前请确保其已关闭，使用时保持与烤箱的安全距离。",
+      "solution_for_hazard_source": "为防止意外打开，请在烤箱上安装儿童锁等安全装置。",
+      "solution_to_prevent_recurrence": "使用隔热手套，并确保老年人在操作烤箱时有人监督。"
+    },
+    "4": {
+      "risk_description": "该人正倾斜身体进入烤箱，如果烤箱仍在运行且温度很高，可能会导致烫伤或其他热相关伤害。",
+      "normal_video_description": "",
+      "solution_for_person": "打开烤箱前请确保已关闭，以免烫伤。",
+      "solution_for_hazard_source": "在打开烤箱前请确认其未在使用。",
+      "solution_to_prevent_recurrence": "打开烤箱前务必检查其状态，以确保安全。"
+    }
+  }
+}

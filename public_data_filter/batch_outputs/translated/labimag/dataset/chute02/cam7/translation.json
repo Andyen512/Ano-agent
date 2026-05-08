@@ -1,0 +1,40 @@
+{
+  "video_key": "labimag/dataset/chute02/cam7",
+  "translations": {
+    "0": {
+      "risk_description": "这个年轻人躺在一个大的白色物体上，这个物体不稳定，有坠落和可能受伤的风险。",
+      "normal_video_description": "这个年轻人躺在一个办公室环境中的大的白色物体上。这个物体不稳定，有坠落和可能受伤的风险。",
+      "solution_for_person": "应建议此人躺在稳定的表面上，避免躺在非设计用于躺卧的物体上。",
+      "solution_for_hazard_source": "办公室应确保房间内所有物体都稳定且用于其预期用途。",
+      "solution_to_prevent_recurrence": "办公室应进行安全审计，以识别和解决房间内任何潜在危险。"
+    },
+    "1": {
+      "risk_description": "此人躺在一个未固定好的白色物体上，该物体位于标记区域的中央，可能导致失去控制或与周围设备和家具碰撞。",
+      "normal_video_description": "实验室中有两个人，一个人在工作台旁工作，另一个人在走动。一个白色物体被放置在地板上一个标记网格区域的中央。一个年轻人接近这个白色物体，跪下并躺在上面，另一个人站在旁边。",
+      "solution_for_person": "避免躺在不安全的物体上，特别是在有潜在危险的区域。",
+      "solution_for_hazard_source": "固定白色物体以防止移动，并确保周围有清晰的通道。",
+      "solution_to_prevent_recurrence": "进行安全简报，说明设备和指定区域的正确使用。"
+    },
+    "2": {
+      "risk_description": "",
+      "normal_video_description": "一个人走进一个房间，躺在地板上的床垫上，然后起身离开。房间里有桌子、椅子和墙上的各种物品。",
+      "solution_for_person": "",
+      "solution_for_hazard_source": "",
+      "solution_to_prevent_recurrence": ""
+    },
+    "3": {
+      "risk_description": "如果垫面不稳定或者他们意外移动，躺在垫面上的人有坠落的风险。这对于行动不便或平衡问题的人来说尤其令人担忧。",
+      "normal_video_description": "",
+      "solution_for_person": "确保垫面安全稳定，必要时提供支撑以防止跌落。",
+      "solution_for_hazard_source": "固定垫面以防止其倾斜或意外移动。",
+      "solution_to_prevent_recurrence": "使用防滑垫或额外填充物来稳定表面，防止未来跌落。"
+    },
+    "4": {
+      "risk_description": "",
+      "normal_video_description": "视频显示了一个办公室环境，地板上放着一个床垫，周围有红色和蓝色线条。一个人走进房间躺在床垫上，而另一个人在背景中的桌子旁工作。场景中没有明显的风险或危险。",
+      "solution_for_person": "",
+      "solution_for_hazard_source": "",
+      "solution_to_prevent_recurrence": ""
+    }
+  }
+}

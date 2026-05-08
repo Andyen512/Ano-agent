@@ -1,0 +1,40 @@
+{
+  "video_key": "toyota_smarthome_mp4/mp4/Getup_p19_r06_v05_c05",
+  "translations": {
+    "0": {
+      "risk_description": "老年人在沙发上的姿势以及扶手缺乏支撑，存在跌倒风险。",
+      "normal_video_description": "老年人坐在客厅的沙发上看电视。然后他们向前倾身，把手放在茶几上，似乎感到不适。",
+      "solution_for_person": "护理人员应帮助老年人坐直，并使用扶手支撑。",
+      "solution_for_hazard_source": "沙发应增加额外支撑，如扶手或靠背，以防止跌倒。",
+      "solution_to_prevent_recurrence": "护理人员应定期检查老年人，确保他们在坐下或站立时使用适当的支撑。"
+    },
+    "1": {
+      "risk_description": "",
+      "normal_video_description": "一位穿橙色衬衫的老年人坐在客厅的绿色沙发上看电视。然后他们站起来，朝电视柜走去。房间光线充足，窗户上挂着条纹窗帘，自然光透入。",
+      "solution_for_person": "",
+      "solution_for_hazard_source": "",
+      "solution_to_prevent_recurrence": ""
+    },
+    "2": {
+      "risk_description": "",
+      "normal_video_description": "一位老年人坐在客厅的绿色沙发上看电视。然后他们站起来，从沙发走向房间中央。环境看起来平静安全，没有明显的危险或危险活动。",
+      "solution_for_person": "",
+      "solution_for_hazard_source": "",
+      "solution_to_prevent_recurrence": ""
+    },
+    "3": {
+      "risk_description": "老年人从沙发上斜靠的姿势站起来，由于可能的不稳定或虚弱，存在跌倒风险。",
+      "normal_video_description": "",
+      "solution_for_person": "确保老年人在站立时使用扶手或椅子的支撑。",
+      "solution_for_hazard_source": "在沙发附近提供稳定的支撑面或扶手杆。",
+      "solution_to_prevent_recurrence": "鼓励使用支撑性或辅助性设备来帮助站立和坐下。"
+    },
+    "4": {
+      "risk_description": "老年人弯腰趴在茶几上，如果失去平衡可能导致跌倒。跌倒是老年人受伤的常见原因，可能导致骨折或头部外伤等严重后果。",
+      "normal_video_description": "视频显示一位老年人在客厅场景中弯腰趴在茶几上边看电视。",
+      "solution_for_person": "确保老年人在该区域光线充足且地面防滑。鼓励他们在从沙发或椅子上站立时使用扶手。",
+      "solution_for_hazard_source": "",
+      "solution_to_prevent_recurrence": "在沙发附近安装扶手杆，并在老年人站立或移动时提供帮助。"
+    }
+  }
+}

@@ -1,0 +1,40 @@
+{
+  "video_key": "toyota_smarthome_mp4/mp4/Getup_p10_r02_v06_c04",
+  "translations": {
+    "0": {
+      "risk_description": "老年人由于姿势不稳以及家具或房间内其他物品缺乏支撑，存在跌倒风险。",
+      "normal_video_description": "老年人坐在客厅的沙发上读书，然后站起来开始走向茶几。",
+      "solution_for_person": "护理人员应帮助老年人坐直，并提供支撑以防止跌倒。",
+      "solution_for_hazard_source": "护理人员应确保客厅没有绊倒危险，家具摆放应为老年人提供支撑。",
+      "solution_to_prevent_recurrence": "护理人员应定期查看老年人，并根据需要提供支撑，以防止跌倒和其他安全风险。"
+    },
+    "1": {
+      "risk_description": "",
+      "normal_video_description": "一位老年人坐在客厅的绿色沙发上，然后站起来走开。房间光线充足，可见植物、茶几和边桌。",
+      "solution_for_person": "",
+      "solution_for_hazard_source": "",
+      "solution_to_prevent_recurrence": ""
+    },
+    "2": {
+      "risk_description": "",
+      "normal_video_description": "一位老年人坐在客厅的绿色沙发上，然后站起来向前走。环境安静整洁，没有可见的危险或危险动作。",
+      "solution_for_person": "",
+      "solution_for_hazard_source": "",
+      "solution_to_prevent_recurrence": ""
+    },
+    "3": {
+      "risk_description": "老年人试图从沙发上站起来，这可能会因潜在的不稳定性或虚弱而导致跌倒风险。",
+      "normal_video_description": "",
+      "solution_for_person": "确保老年人在站立时有支撑，如椅子或护理人员。",
+      "solution_for_hazard_source": "清除沙发附近的障碍物，为安全移动提供清晰的路径。",
+      "solution_to_prevent_recurrence": "使用稳定的支撑物，如扶手杆或辅助设备，以帮助安全站立。"
+    },
+    "4": {
+      "risk_description": "老年人弯腰越过沙发，如果失去平衡可能会导致跌倒。跌倒是老年人受伤的常见原因，可能导致骨折或头部外伤等严重后果。",
+      "normal_video_description": "视频显示一位老年人在客厅弯腰越过绿色沙发。场景中没有明显的即时风险或危险迹象。",
+      "solution_for_person": "确保老年人有良好的照明和防滑鞋，以降低跌倒风险。鼓励他们在从沙发上站起来时使用扶手。",
+      "solution_for_hazard_source": "",
+      "solution_to_prevent_recurrence": "在沙发附近安装扶手杆，以在站立时提供支撑。"
+    }
+  }
+}

@@ -1,0 +1,40 @@
+{
+  "video_key": "SmartHome-Bench/videos/smartbench_0094",
+  "translations": {
+    "0": {
+      "risk_description": "",
+      "normal_video_description": "一个穿着蓝色夹克和白色鞋子的人在夜晚的院子里走动。看起来他在院子里四处走动，可能在检查或处理某事。院子被单一光源照亮，周围散落着一些物品，包括一把椅子和一些箱子。随后他坐在椅子上继续工作。",
+      "solution_for_person": "",
+      "solution_for_hazard_source": "",
+      "solution_to_prevent_recurrence": ""
+    },
+    "1": {
+      "risk_description": "该人在尝试爬上梯子或调整梯子上的东西时似乎失去平衡而跌倒，这有导致跌倒受伤的风险。",
+      "normal_video_description": "一个穿蓝色连帽衫和黑色短裤的人走进一个有拱形开口的遮蔽室外区域，走向一把红色梯子，尝试爬上梯子或调整梯子上的东西，失去平衡后从梯子上摔下来。",
+      "solution_for_person": "在尝试爬上梯子或调整梯子上的物品之前，人员应确保握持牢固、脚部站稳。",
+      "solution_for_hazard_source": "梯子应放置在平坦、稳固的表面上，必要时进行固定，以防倾倒。",
+      "solution_to_prevent_recurrence": "应提醒人员小心爬梯子，避免可能导致失去平衡的突然动作。"
+    },
+    "2": {
+      "risk_description": "",
+      "normal_video_description": "一个人夜晚穿过遮蔽的室外区域，从画面左侧向右移动，然后离开视野。场景被头顶灯光照亮，没有显示危险或异常活动的迹象。",
+      "solution_for_person": "",
+      "solution_for_hazard_source": "",
+      "solution_to_prevent_recurrence": ""
+    },
+    "3": {
+      "risk_description": "该人似乎移动很快，可能会绊倒或跌倒，特别是如果他们携带东西或行动受限。",
+      "normal_video_description": "",
+      "solution_for_person": "确保该人行走时小心谨慎，避免分心。",
+      "solution_for_hazard_source": "清除通道上的障碍物或绊倒危险物。",
+      "solution_to_prevent_recurrence": "安装更好的照明并清除该区域潜在绊倒危险物。"
+    },
+    "4": {
+      "risk_description": "该人正站在梯子上，如果梯子未固定好或该人失去平衡，可能会导致跌倒。从梯子上跌落可能导致严重伤害。",
+      "normal_video_description": "",
+      "solution_for_person": "在爬上梯子前确保梯子稳固安全；使用正确的梯子安全技术。",
+      "solution_for_hazard_source": "清除梯子周围潜在的危害物。",
+      "solution_to_prevent_recurrence": "定期检查梯子是否有损坏，并确保按照制造商说明使用。"
+    }
+  }
+}

@@ -1,0 +1,40 @@
+{
+  "video_key": "SmartHome-Bench/videos/smartbench_0995",
+  "translations": {
+    "0": {
+      "risk_description": "孩子有从秋千上掉下来的风险，可能会导致受伤。",
+      "normal_video_description": "",
+      "solution_for_person": "看护者应确保孩子安全地坐在秋千上，并且秋千离地面不要太低。",
+      "solution_for_hazard_source": "秋千应放置在客厅的安全区域，远离任何家具或物体，以防孩子跌落时撞到。",
+      "solution_to_prevent_recurrence": "看护者在孩子使用秋千时应进行监督，并确保秋千固定正确且维护良好。"
+    },
+    "1": {
+      "risk_description": "",
+      "normal_video_description": "一个孩子正在客厅的绿色和黄色学步车里玩耍。一位成人走进来，抱起孩子，带着他们离开了学步车。",
+      "solution_for_person": "",
+      "solution_for_hazard_source": "",
+      "solution_to_prevent_recurrence": ""
+    },
+    "2": {
+      "risk_description": "坐在摇椅上的孩子失去平衡向后倒在地板上，这表明该家具存在明显的不稳定性风险。",
+      "normal_video_description": "",
+      "solution_for_person": "一位成人立即进入现场，抱起孩子并检查他们的情况。",
+      "solution_for_hazard_source": "确保摇椅放置在防滑表面上，并考虑使用安全带或在下方放置软垫。",
+      "solution_to_prevent_recurrence": "在孩子使用摇椅时密切监督，并确保椅子稳定且适合孩子的年龄和体重。"
+    },
+    "3": {
+      "risk_description": "孩子正在客厅的小秋千架上玩耍，如果秋千翻倒或孩子失去平衡，存在跌落的风险。",
+      "normal_video_description": "",
+      "solution_for_person": "确保有成年人在孩子玩秋千架时密切监督。",
+      "solution_for_hazard_source": "将秋千架固定以防止翻倒，或考虑使用为儿童设计的安全游戏区域。",
+      "solution_to_prevent_recurrence": "将秋千架放置在更稳定和封闭的区域，远离孩子可能跌落的开阔空间。"
+    },
+    "4": {
+      "risk_description": "",
+      "normal_video_description": "视频显示一个孩子在客厅玩玩具，一位成人坐在背景中的沙发上。场景中没有可见的风险或危险。",
+      "solution_for_person": "",
+      "solution_for_hazard_source": "",
+      "solution_to_prevent_recurrence": ""
+    }
+  }
+}

@@ -1,0 +1,40 @@
+{
+  "video_key": "toyota_smarthome_mp4/mp4/Walk_p17_r05_v15_c07",
+  "translations": {
+    "0": {
+      "risk_description": "老年人正在处理一个小物件，可能是香料或调味料，并似乎正在摄入它。这种行为有中毒或意外摄入的风险。",
+      "normal_video_description": "",
+      "solution_for_person": "护理人员应立即干预，确保此人不再摄入任何该物质。如有需要，还应寻求医疗救助。",
+      "solution_for_hazard_source": "护理人员应确保所有可能有危险的物质都安全存放，并放在此人够不到的地方。",
+      "solution_to_prevent_recurrence": "护理人员应密切监控此人的行为，确保他们不在监督下处理或摄入任何可能有危险的物质。他们还应教育此人了解摄入不明物质的危险。"
+    },
+    "1": {
+      "risk_description": "此人正在处理炉灶上的锅，如果处理不当可能会很热，存在烫伤风险。",
+      "normal_video_description": "一位老年人在厨房里，伸手去够炉灶上的锅，旁边砧板上有一把刀。",
+      "solution_for_person": "处理前确保锅不太热，并使用隔热手套或锅垫。",
+      "solution_for_hazard_source": "处理锅之前确认炉灶已关闭或处于安全温度。",
+      "solution_to_prevent_recurrence": "始终在使用前检查炊具温度，并使用适当的防护装备。"
+    },
+    "2": {
+      "risk_description": "",
+      "normal_video_description": "一位老年人站在厨房里，拿着一个小瓶子并将其内容物倒入炉灶上的锅中。旁边台面上可见一把刀和砧板。",
+      "solution_for_person": "",
+      "solution_for_hazard_source": "",
+      "solution_to_prevent_recurrence": ""
+    },
+    "3": {
+      "risk_description": "老年人正在炉灶上的锅旁边处理香料容器，如果容器破裂或溢出热内容物可能会有风险。",
+      "normal_video_description": "",
+      "solution_for_person": "确保老年人稳稳地握住香料容器，并与锅保持安全距离。",
+      "solution_for_hazard_source": "使用不易碎的香料容器，并确保锅在炉灶上稳固。",
+      "solution_to_prevent_recurrence": "安全存放香料容器，并使其远离热源。"
+    },
+    "4": {
+      "risk_description": "",
+      "normal_video_description": "视频显示一位老年人在厨房里向炉灶上的锅中添加配料。此场景中没有可见的严重后果风险。",
+      "solution_for_person": "",
+      "solution_for_hazard_source": "",
+      "solution_to_prevent_recurrence": ""
+    }
+  }
+}

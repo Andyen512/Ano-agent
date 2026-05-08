@@ -1,0 +1,40 @@
+{
+  "video_key": "SmartHome-Bench/videos/smartbench_0414",
+  "translations": {
+    "0": {
+      "risk_description": "这个人看起来失去平衡，可能会从阳台上摔下来。",
+      "normal_video_description": "这个人站在阳台上，手里拿着烧烤架，似乎在准备烹饪。",
+      "solution_for_person": "应该让附近的人协助此人，防止其从阳台摔落。",
+      "solution_for_hazard_source": "应该检查阳台栏杆的稳定性，必要时进行加固。",
+      "solution_to_prevent_recurrence": "应该提醒此人在阳台上行走时要小心，如果感觉不稳定要扶住栏杆。"
+    },
+    "1": {
+      "risk_description": "这个人正在活跃火源旁操作灭火器，如果火势没有得到适当控制，存在烫伤或失控的风险。",
+      "normal_video_description": "一个穿红衬衫的人在后院的木制平台上，正在小火旁操作灭火器，旁边有一只狗。",
+      "solution_for_person": "在离开该区域前确保火已完全熄灭，处理消防设备时要穿戴防护装备。",
+      "solution_for_hazard_source": "将易燃物品远离火源，确保火势被控制在安全区域内。",
+      "solution_to_prevent_recurrence": "定期检查和维护消防安全设备，并教育正确的火灾处理方法。"
+    },
+    "2": {
+      "risk_description": "一个人将燃烧的物体扔到草地上，引发了火势蔓延和烟雾火焰。这个动作在住宅户外区域造成了不受控制的火灾隐患。",
+      "normal_video_description": "",
+      "solution_for_person": "此人应立即使用可用方法灭火，或在无法控制时拨打紧急救援电话。",
+      "solution_for_hazard_source": "将易燃物品从附近区域移走，确保火完全熄灭后再离开现场。",
+      "solution_to_prevent_recurrence": "教育安全处理燃烧物品的方法，并实施措施防止院子里发生意外火灾。"
+    },
+    "3": {
+      "risk_description": "视频显示一个人在院子里处理火源，存在烫伤或火灾蔓延的风险，特别是如果有儿童或宠物在场时。",
+      "normal_video_description": "",
+      "solution_for_person": "确保此人与火源保持安全距离，并佩戴适当的防护装备。",
+      "solution_for_hazard_source": "将火源控制在容器内并密切监控，防止火势蔓延。",
+      "solution_to_prevent_recurrence": "在指定的安全区域使用火坑或类似设备，并确保始终有人监督。"
+    },
+    "4": {
+      "risk_description": "这个人正站在冒烟的烧烤架旁，存在烫伤或火灾相关事故的潜在风险。",
+      "normal_video_description": "",
+      "solution_for_person": "与烧烤架保持安全距离，避免接触高温表面。",
+      "solution_for_hazard_source": "确保按照制造商说明正确维护和使用烧烤架。",
+      "solution_to_prevent_recurrence": "定期检查烧烤架是否有磨损或损坏的迹象，以防止事故发生。"
+    }
+  }
+}

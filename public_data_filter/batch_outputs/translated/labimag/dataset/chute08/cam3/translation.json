@@ -1,0 +1,40 @@
+{
+  "video_key": "labimag/dataset/chute08/cam3",
+  "translations": {
+    "0": {
+      "risk_description": "这个年轻人正躺在地板上的床垫上，这不是安全的睡觉或休息的地方。这种行为可能导致跌倒和受伤。",
+      "normal_video_description": "视频显示一个年轻人躺在学习室里地板上的床垫上。这人似乎正在休息或睡觉。",
+      "solution_for_person": "应该鼓励这个人睡在床上或安全的表面上。",
+      "solution_for_hazard_source": "应该将床垫移到更合适的位置，例如床上或指定的睡眠区域。",
+      "solution_to_prevent_recurrence": "应该教育这个人睡在安全表面的重要性以及睡在地板上的风险。"
+    },
+    "1": {
+      "risk_description": "这个人正躺在房间中央的床垫上，周围有各种设备和家具，如果他们突然移动，可能会导致绊倒或碰撞。",
+      "normal_video_description": "一个年轻人进入学习室，走到中央的床垫旁，然后躺下。",
+      "solution_for_person": "确保这个人在躺在床垫上时意识到周围环境，避免突然的动作。",
+      "solution_for_hazard_source": "移除或固定任何可能造成绊倒的松散设备或家具。",
+      "solution_to_prevent_recurrence": "指定一个清晰的、无障碍物的区域供躺下使用，并确保所有设备在不使用时得到适当的存放。"
+    },
+    "2": {
+      "risk_description": "",
+      "normal_video_description": "一个人走进房间，跳到中央的床垫上，然后站起来。另一人进入房间，走向一张桌子。环境看起来像是一个实验室或测试设施，设备和家具的布置是为了观察或实验。",
+      "solution_for_person": "",
+      "solution_for_hazard_source": "",
+      "solution_to_prevent_recurrence": ""
+    },
+    "3": {
+      "risk_description": "这个年轻人在床垫上做翻转，如果他们落地姿势不稳或床垫没有妥善固定，可能会造成伤害风险。",
+      "normal_video_description": "",
+      "solution_for_person": "确保床垫放置在稳定的表面上，区域没有障碍物，以防止绊倒。",
+      "solution_for_hazard_source": "固定床垫，防止在翻转过程中移动。",
+      "solution_to_prevent_recurrence": "在受控环境中练习翻转，并确保有适当的安全措施。"
+    },
+    "4": {
+      "risk_description": "穿红衬衫的人正在从事涉及跳上床垫的体育活动，如果不仔细进行，可能会导致跌倒和潜在伤害。",
+      "normal_video_description": "",
+      "solution_for_person": "确保为执行活动的人提供适当的监督和指导，以防止跌倒和伤害。",
+      "solution_for_hazard_source": "",
+      "solution_to_prevent_recurrence": "提供有关涉及跳跃或体力活动安全实践的培训，以尽量减少跌倒和伤害的风险。"
+    }
+  }
+}

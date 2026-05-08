@@ -1,0 +1,40 @@
+{
+  "video_key": "UR_Fall_Dataset/fall-26-cam0",
+  "translations": {
+    "0": {
+      "risk_description": "可以看到这名年轻人弯腰后摔倒在地，这可能导致受伤。",
+      "normal_video_description": "可以看到这名年轻人在学习区的椅子上坐着，然后起身走出画面。",
+      "solution_for_person": "该人员在学习区走动时应更加小心，以避免摔倒。",
+      "solution_for_hazard_source": "应通过清除绊倒危险或光滑表面来使学习区更加安全。",
+      "solution_to_prevent_recurrence": "应提醒该人员在学习区走动时更加谨慎，以防止以后摔倒。"
+    },
+    "1": {
+      "risk_description": "可以看到该人员坐在椅子上后倒在地板上，如果没有适当支撑可能导致摔倒或受伤。",
+      "normal_video_description": "有一个人坐在学习室里，然后躺在地板上。",
+      "solution_for_person": "确保该人员坐姿正确，且在无人帮助的情况下不要试图躺在地板上。",
+      "solution_for_hazard_source": "",
+      "solution_to_prevent_recurrence": "当该人员独自在房间时进行监督，以防止无人监管的危险行为。"
+    },
+    "2": {
+      "risk_description": "该人员在从椅子上站起时失去平衡，向后倒在地板上，这表明一次明显的失衡事件，已超出正常活动范围。",
+      "normal_video_description": "",
+      "solution_for_person": "该人员应立即站起检查是否有受伤，若平衡仍有问题则再坐下。",
+      "solution_for_hazard_source": "确保椅子稳固，地板防滑，以防止类似事件再次发生。",
+      "solution_to_prevent_recurrence": "必要时加强平衡训练或使用辅助设备。"
+    },
+    "3": {
+      "risk_description": "视频中的人员似乎失去平衡并摔倒在地，这对行动不便或平衡有问题的人来说尤其有受伤风险。",
+      "normal_video_description": "",
+      "solution_for_person": "确保该人员坐姿稳固，若出现不稳迹象及时提供帮助。",
+      "solution_for_hazard_source": "清除所有绊倒危险，确保地面平整且无障碍物。",
+      "solution_to_prevent_recurrence": "使用防滑垫，并确保该人员了解周围环境，以避免突然动作。"
+    },
+    "4": {
+      "risk_description": "该人员在试图接球时因失去平衡而面临摔倒风险，若未佩戴防护装备或地面坚硬，可能导致严重受伤。",
+      "normal_video_description": "",
+      "solution_for_person": "确保该人员穿有良好抓地力的合适鞋子，并考虑提供安全接球培训，以防止摔倒。",
+      "solution_for_hazard_source": "",
+      "solution_to_prevent_recurrence": "定期进行安全检查和培训，确保所有人都了解潜在危险并知道如何防范。"
+    }
+  }
+}

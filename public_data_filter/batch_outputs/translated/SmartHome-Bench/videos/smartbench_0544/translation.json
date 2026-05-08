@@ -1,0 +1,40 @@
+{
+  "video_key": "SmartHome-Bench/videos/smartbench_0544",
+  "translations": {
+    "0": {
+      "risk_description": "",
+      "normal_video_description": "一个坐在蓝色皮划艇上的人正靠在码头，手握划桨。码头周围是绿色的水面，码头上有一些物品，如一个蓝色包和一个黄色桶。该人似乎正准备划动皮划艇。",
+      "solution_for_person": "",
+      "solution_for_hazard_source": "",
+      "solution_to_prevent_recurrence": ""
+    },
+    "1": {
+      "risk_description": "皮划艇中的人正伸手去拿码头上的一个包，若不满足居民的要求，可能会升级为肢体冲突，甚至导致伤害。",
+      "normal_video_description": "一个皮划艇上的人试图拿取码头上的一个包，同时被一位声称已将他们拍摄下来并要求归还包的居民口头对峙。",
+      "solution_for_person": "皮划艇中的人应停止伸手拿包，并遵从居民的要求，以防止事态升级。",
+      "solution_for_hazard_source": "居民应保持语气平和，避免使用攻击性语言，以缓解局势。",
+      "solution_to_prevent_recurrence": "安装清晰的标识或障碍物，以防止未经授权的人员进入码头上个人财产。"
+    },
+    "2": {
+      "risk_description": "皮划艇上的人抓住留在码头上的一个包，导致与码头所有者发生口头对峙，场面被摄像头记录。行为从轻微的财产互动升级为直接冲突，超越了日常可接受行为的界限。",
+      "normal_video_description": "",
+      "solution_for_person": "皮划艇中的人应立即将包放回原位并道歉，以缓解局势。",
+      "solution_for_hazard_source": "码头所有者应将个人物品放入上锁的容器或更安全的地方，以防止未经授权的取用。",
+      "solution_to_prevent_recurrence": "在码头上安装物理障碍或锁具，防止皮划艇轻易拿到个人物品，并考虑张贴警告偷盗的标识。"
+    },
+    "3": {
+      "risk_description": "皮划艇上的年轻人正伸手去拿码头上的包，这可能导致不稳并跌入水中。",
+      "normal_video_description": "",
+      "solution_for_person": "那个年轻人应在伸手拿包时保持平衡，并确保自己坐稳在皮划艇里。",
+      "solution_for_hazard_source": "将包固定好，防止被轻易抓取或导致失衡。",
+      "solution_to_prevent_recurrence": "确保皮划艇保持稳定，且人在伸手拿码头上的物品时保持牢固握持。"
+    },
+    "4": {
+      "risk_description": "视频中的人物因靠近边缘且缺乏安全防护，正面临从阳台坠落的危险。",
+      "normal_video_description": "",
+      "solution_for_person": "确保此人穿戴适当的安全装备，如救生衣或安全带，并由一名负责任的成年人进行监督。",
+      "solution_for_hazard_source": "在阳台上安装护栏或其他安全屏障，以防止坠落。",
+      "solution_to_prevent_recurrence": "定期检查阳台是否存在潜在危险，并确保所有安全措施到位。"
+    }
+  }
+}

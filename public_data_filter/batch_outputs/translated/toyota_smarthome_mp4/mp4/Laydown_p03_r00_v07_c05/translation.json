@@ -1,0 +1,40 @@
+{
+  "video_key": "toyota_smarthome_mp4/mp4/Laydown_p03_r00_v07_c05",
+  "translations": {
+    "0": {
+      "risk_description": "这位年轻人正躺在沙发上，头部悬在沙发边缘，这可能导致跌倒并造成潜在伤害。",
+      "normal_video_description": "",
+      "solution_for_person": "确保这位年轻人坐在沙发上时保持直立姿势，并获得适当支撑，以防止跌倒。",
+      "solution_for_hazard_source": "未发现特定危险源。",
+      "solution_to_prevent_recurrence": "鼓励这位年轻人坐直，并利用沙发靠垫提供支撑，以防止以后跌倒。"
+    },
+    "1": {
+      "risk_description": "",
+      "normal_video_description": "一个人坐在客厅的沙发上观看电视。他们伸手去够茶几上的东西，然后躺在沙发上，看起来很放松。",
+      "solution_for_person": "",
+      "solution_for_hazard_source": "",
+      "solution_to_prevent_recurrence": ""
+    },
+    "2": {
+      "risk_description": "",
+      "normal_video_description": "一位年轻人坐在客厅的绿色沙发上观看电视。该人不断变换姿势，最终躺在沙发上，而电视仍在背景中播放。",
+      "solution_for_person": "",
+      "solution_for_hazard_source": "",
+      "solution_to_prevent_recurrence": ""
+    },
+    "3": {
+      "risk_description": "坐在沙发上的人似乎在向后伸手，这可能导致跌倒或失去平衡，尤其是当他们感到疲倦或行动受限时。",
+      "normal_video_description": "",
+      "solution_for_person": "确保该人坐稳，避免在坐着时向后伸手，以防止跌倒。",
+      "solution_for_hazard_source": "安排家具布局，确保通道畅通，减少向后伸手的需求。",
+      "solution_to_prevent_recurrence": "鼓励使用支撑性枕头或垫子，以保持坐姿的稳定性。"
+    },
+    "4": {
+      "risk_description": "该人把脚翘起躺在沙发上，如果失去平衡或沙发因承重而塌陷，可能导致跌倒。",
+      "normal_video_description": "",
+      "solution_for_person": "在躺下之前，确保沙发稳固可靠。",
+      "solution_for_hazard_source": "检查沙发的稳定性，并清除该区域的潜在危险。",
+      "solution_to_prevent_recurrence": "定期检查家具的磨损情况，必要时予以更换。"
+    }
+  }
+}

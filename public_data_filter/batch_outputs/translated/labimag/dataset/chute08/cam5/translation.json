@@ -1,0 +1,40 @@
+{
+  "video_key": "labimag/dataset/chute08/cam5",
+  "translations": {
+    "0": {
+      "risk_description": "视频中的年轻人被看到跑过房间然后摔倒在地板上，这可能会导致受伤。如果这位年轻人更加谨慎并注意周围环境，这次跌倒本来是可以避免的。",
+      "normal_video_description": "视频显示一位年轻人走过一间办公室，然后突然跑步并摔倒在地板上。视频的其余部分显示这位年轻人站起来继续工作。",
+      "solution_for_person": "这位年轻人应该更加注意自己的动作，并小心避免将来绊倒或滑倒。",
+      "solution_for_hazard_source": "办公室环境中没有明显的可能导致跌倒的危险因素。",
+      "solution_to_prevent_recurrence": "应该提醒这位年轻人要更加谨慎并注意周围环境，以防止将来跌倒。"
+    },
+    "1": {
+      "risk_description": "穿红色衬衫的人平躺在房间中央的软垫表面上，如果不加以适当固定或表面不稳定，可能会导致跌倒。",
+      "normal_video_description": "一个穿红色衬衫的人进入教室，走到中央，躺在软垫上，其他人在旁边观察。",
+      "solution_for_person": "确保躺在软垫上的人员得到适当固定或监督，以防止滑落或滚落。",
+      "solution_for_hazard_source": "验证软垫的稳定性和安全性，确保它能够支撑人的体重而不会移动。",
+      "solution_to_prevent_recurrence": "实施使用软垫的安全协议，例如用带子固定人员或安排一名监督者在场。"
+    },
+    "2": {
+      "risk_description": "一个人冲进房间扑向床垫，导致失去平衡而跌倒。这种行为超出正常活动范围，由于突然的冲击和不受控制的着陆，存在明显的身体伤害风险。",
+      "normal_video_description": "",
+      "solution_for_person": "应该建议该人避免在室内跑步，并在快速移动时采取适当的谨慎措施以防止跌倒。",
+      "solution_for_hazard_source": "确保该区域没有障碍物，床垫摆放安全，以最大程度降低跌倒时的受伤风险。",
+      "solution_to_prevent_recurrence": "实施安全措施，例如清除通道上的障碍物，并提供关于在房间内安全移动的明确指示。"
+    },
+    "3": {
+      "risk_description": "年轻人摔倒在软垫上，如果软垫没有适当缓冲或摔倒高度较大，可能会造成风险。",
+      "normal_video_description": "",
+      "solution_for_person": "确保软垫有适当的缓冲且稳固，以防止跌倒。",
+      "solution_for_hazard_source": "检查并维护体育馆软垫的稳定性和安全性。",
+      "solution_to_prevent_recurrence": "定期检查和维护所有设备和表面，以确保它们可以安全使用。"
+    },
+    "4": {
+      "risk_description": "视频中的人被看到走过房间然后摔倒在椅子上，这可能导致严重受伤。这种行为存在跌倒/不稳定的风险。",
+      "normal_video_description": "",
+      "solution_for_person": "确保该人在走过房间之前了解周围环境和任何潜在危险。",
+      "solution_for_hazard_source": "清除房间里的障碍物或绊倒危险，以降低跌倒风险。",
+      "solution_to_prevent_recurrence": "鼓励该人缓慢小心地行走，并在穿过房间时保持谨慎。"
+    }
+  }
+}

@@ -1,0 +1,40 @@
+{
+  "video_key": "SmartHome-Bench/videos/smartbench_0535",
+  "translations": {
+    "0": {
+      "risk_description": "",
+      "normal_video_description": "视频显示一个人走向一所房子，靠近门，然后走开。场景正常，没有显示任何风险。",
+      "solution_for_person": "",
+      "solution_for_hazard_source": "",
+      "solution_to_prevent_recurrence": ""
+    },
+    "1": {
+      "risk_description": "这些人正在非法入侵私人财产并采取对抗行为，这可能会升级为肢体冲突或言语虐待。",
+      "normal_video_description": "两个穿连帽衫的人靠近一所房子，其中一人敲门，他们似乎在从事可疑活动，随后被一个声音质问。",
+      "solution_for_person": "这些人应该立即离开该物业并避免进一步对抗。",
+      "solution_for_hazard_source": "",
+      "solution_to_prevent_recurrence": "安装额外的安全措施，如运动感应灯或安保系统以阻止非法入侵者。"
+    },
+    "2": {
+      "risk_description": "一个戴面具的人进入院子，似乎正在与屋内的人互动，这暗示了潜在的冲突或入侵。在住宅区戴面具并靠近房屋的行为引发了安全担忧，可能涉及犯罪活动。",
+      "normal_video_description": "",
+      "solution_for_person": "屋内的人应保持冷静，避免直接对抗。应立即联系当地执法部门报告可疑活动。",
+      "solution_for_hazard_source": "应通过执法部门识别并逮捕该个人以确保公共安全。",
+      "solution_to_prevent_recurrence": "安装额外的安全措施，如运动感应灯、安保摄像头和警报器，以阻止未来的入侵。"
+    },
+    "3": {
+      "risk_description": "可以看到这个人穿着带帽夹克和手套靠近房屋，这可能表明可疑行为。文字叠加显示言语对抗，表明潜在的人际冲突。",
+      "normal_video_description": "",
+      "solution_for_person": "在允许进入前，确保该个人已被识别并获得授权。",
+      "solution_for_hazard_source": "安装安全的门铃摄像系统来监控和记录访客。",
+      "solution_to_prevent_recurrence": "实施访客筛选程序，并教育居民识别潜在安全威胁。"
+    },
+    "4": {
+      "risk_description": "",
+      "normal_video_description": "视频显示一个人在院子里行走，没有呈现任何重大风险。",
+      "solution_for_person": "",
+      "solution_for_hazard_source": "",
+      "solution_to_prevent_recurrence": ""
+    }
+  }
+}

@@ -1,0 +1,40 @@
+{
+  "video_key": "SmartHome-Bench/videos/smartbench_0538",
+  "translations": {
+    "0": {
+      "risk_description": "",
+      "normal_video_description": "视频显示一名身穿蓝色夹克和戴帽子的的人在夜间在院子里的一艘船上工作。该人正在弯腰处理船上的物品。场景很平静，没有紧张或危险的迹象。",
+      "solution_for_person": "",
+      "solution_for_hazard_source": "",
+      "solution_to_prevent_recurrence": ""
+    },
+    "1": {
+      "risk_description": "该人正在车辆和船附近处理汽油容器，如果不正确处理或附近有火花，会带来火灾或爆炸风险。",
+      "normal_video_description": "一个人被看到在夜间光线昏暗的院子里在卡车和船附近处理汽油容器。",
+      "solution_for_person": "确保在远离任何火源（如车辆排气管或电气部件）的地方处理汽油容器，并在转移燃料时遵循正确的安全程序。",
+      "solution_for_hazard_source": "",
+      "solution_to_prevent_recurrence": "将燃料容器存放在安全、通风良好的区域，远离车辆和热源，只在指定的安全地点使用。"
+    },
+    "2": {
+      "risk_description": "一个人被看到在夜间将红色容器中的液体倒入船的引擎区域，这是一项涉及潜在火灾或爆炸的高风险活动。该行为明显超出正常日常活动范围，构成直接安全隐患。",
+      "normal_video_description": "",
+      "solution_for_person": "立即停止该活动，不要在引擎附近倾倒易燃液体。",
+      "solution_for_hazard_source": "将易燃液体存放在远离火源的安全指定位置。",
+      "solution_to_prevent_recurrence": "教育安全处理燃料和其他易燃材料，并确保正确存放。"
+    },
+    "3": {
+      "risk_description": "该人正在车辆附近处理燃气罐，如果处理不当会带来火灾或爆炸风险，特别是对于行动能力或意识受限的人来说更加令人担忧。",
+      "normal_video_description": "",
+      "solution_for_person": "处理易燃液体时确保通风良好，并在附近配备灭火器。",
+      "solution_for_hazard_source": "将燃气罐存放在通风良好的区域，远离火源。",
+      "solution_to_prevent_recurrence": "如有可能使用挥发性较低的燃料或电动设备，并确保该区域清除任何潜在的火源。"
+    },
+    "4": {
+      "risk_description": "",
+      "normal_video_description": "视频显示夜间院子里停着两辆汽车和一艘船的静止场景。没有可见的物体之间或与任何人的互动或行为。",
+      "solution_for_person": "",
+      "solution_for_hazard_source": "",
+      "solution_to_prevent_recurrence": ""
+    }
+  }
+}

@@ -1,0 +1,40 @@
+{
+  "video_key": "web_h264/bilibili__BV1ST411F7n1",
+  "translations": {
+    "0": {
+      "risk_description": "孩子正在地板上玩耍，地板不是孩子玩耍的安全地方，孩子有摔倒受伤的风险。",
+      "normal_video_description": "",
+      "solution_for_person": "看护者应该监督孩子，确保他们在安全的区域玩耍。",
+      "solution_for_hazard_source": "看护者应该清除地板上的危险物品，如尖锐物品或可能被孩子捡起放进嘴里的小物件。",
+      "solution_to_prevent_recurrence": "看护者应该建立孩子玩耍的规律，确保孩子始终受到监督。他们还应该教育孩子安全玩耍的重要性以及避开危险区域。"
+    },
+    "1": {
+      "risk_description": "孩子在一个杂乱的客厅里玩耍，各种物品散落在地上，增加了绊倒和摔倒的风险。孩子还将筷子放在嘴边，如果掉落会有误吞的风险。",
+      "normal_video_description": "一个孩子在杂乱的客厅里玩耍，与地板上的物品互动，并将筷子放在嘴边。",
+      "solution_for_person": "密切监督孩子以防止摔倒，并确保他们将筷子等尖锐物品远离嘴边。",
+      "solution_for_hazard_source": "整理客厅以消除绊倒危险，并将尖锐物品安全存放在儿童够不到的地方。",
+      "solution_to_prevent_recurrence": "教育孩子玩耍尖锐物品的危险性，并保持客厅整洁以减少摔倒风险。"
+    },
+    "2": {
+      "risk_description": "一个孩子嘴里含着筷子走路，存在尖锐物品危险。孩子绊倒摔倒，筷子从嘴里掉出，造成伤害风险。",
+      "normal_video_description": "",
+      "solution_for_person": "应该密切监督孩子，防止他们将物品放进嘴里。",
+      "solution_for_hazard_source": "将筷子等尖锐物品放在儿童够不到的地方。",
+      "solution_to_prevent_recurrence": "教育孩子将物品放进嘴里的危险，并在他们进食或玩耍时监督他们。"
+    },
+    "3": {
+      "risk_description": "看到孩子嘴里含着筷子摔倒，这既有摔倒受伤的风险，也有筷子造成的窒息危险。",
+      "normal_video_description": "",
+      "solution_for_person": "确保密切监督孩子，避免将筷子等小物品放进他们嘴里。",
+      "solution_for_hazard_source": "移除或固定可能造成窒息危险的物品。",
+      "solution_to_prevent_recurrence": "实施持续监督，并教育孩子将物品放进嘴里的危险。"
+    },
+    "4": {
+      "risk_description": "孩子正在窗帘打开的窗边玩耍，存在坠落风险。窗户的高度可能导致孩子坠落时严重受伤。",
+      "normal_video_description": "",
+      "solution_for_person": "确保监督孩子，并让他们远离窗户以防止坠落。",
+      "solution_for_hazard_source": "在窗户周围安装安全护栏或屏障以防止进入。",
+      "solution_to_prevent_recurrence": "定期检查窗户区域是否存在潜在危险，并确保在不使用时将窗帘安全关闭。"
+    }
+  }
+}

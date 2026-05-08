@@ -1,0 +1,40 @@
+{
+  "video_key": "toyota_smarthome_mp4/mp4/Laydown_p15_r02_v02_c04",
+  "translations": {
+    "0": {
+      "risk_description": "视频中的人躺在沙发上，姿势不稳，有跌倒或失去平衡的风险。",
+      "normal_video_description": "视频中的人坐在客厅的沙发上，然后以不稳的姿势躺在沙发上。",
+      "solution_for_person": "应该鼓励这个人坐直，避免以不稳的姿势躺在沙发上，以降低跌倒风险。",
+      "solution_for_hazard_source": "视频中没有可见的隐患可能导致跌倒风险。",
+      "solution_to_prevent_recurrence": "应该提醒这个人坐直，避免以不稳的姿势躺在沙发上，以防止风险再次发生。"
+    },
+    "1": {
+      "risk_description": "这位老年人坐在转角沙发的边缘，试图躺下，这可能导致失去平衡和跌倒，可能造成伤害。",
+      "normal_video_description": "一位老年人在客厅的绿色转角沙发上坐着，然后躺下并在沙发上调整姿势。",
+      "solution_for_person": "在尝试躺下之前，确保这位老年人坐得稳固，如有需要提供帮助。",
+      "solution_for_hazard_source": "",
+      "solution_to_prevent_recurrence": "鼓励在沙发上换姿势时使用扶手或寻求帮助。"
+    },
+    "2": {
+      "risk_description": "",
+      "normal_video_description": "视频中看到一位老年人在客厅的绿色沙发上坐着，然后向后靠去舒服地躺下。该场景描述的是正常的、放松的日常行为，没有危险或不稳定的迹象。",
+      "solution_for_person": "",
+      "solution_for_hazard_source": "",
+      "solution_to_prevent_recurrence": ""
+    },
+    "3": {
+      "risk_description": "这位老年人正试图躺在沙发上，由于潜在的力量不足或行动受限，可能导致跌倒或不稳定。",
+      "normal_video_description": "",
+      "solution_for_person": "确保这位老年人在躺下时得到支撑，并使用枕头增加稳定性。",
+      "solution_for_hazard_source": "提供额外的支撑或垫子以防止滑倒或跌倒。",
+      "solution_to_prevent_recurrence": "使用支撑性床垫或垫子，并确保沙发高度适中以便更容易上下。"
+    },
+    "4": {
+      "risk_description": "这个人有从沙发上跌倒的风险，可能导致严重伤害。跌倒可能导致头部或身体受到严重撞击，可能造成长期损害或需要紧急医疗护理。",
+      "normal_video_description": "",
+      "solution_for_person": "确保这个人坐直，不要在沙发上向后靠得太远，以防止跌倒。",
+      "solution_for_hazard_source": "",
+      "solution_to_prevent_recurrence": "鼓励这个人坐直，避免突然的动作，以免失去平衡从沙发上摔下来。"
+    }
+  }
+}

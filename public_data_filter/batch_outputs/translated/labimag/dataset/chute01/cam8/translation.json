@@ -1,0 +1,40 @@
+{
+  "video_key": "labimag/dataset/chute01/cam8",
+  "translations": {
+    "0": {
+      "risk_description": "看到这位年轻人试图跳上不稳定的白色物体，随后摔倒，可能导致受伤。",
+      "normal_video_description": "",
+      "solution_for_person": "确保这位年轻人有监督，且在缺乏适当安全措施的情况下不进行冒险活动。",
+      "solution_for_hazard_source": "将白色物体固定，防止其移动或倾倒。",
+      "solution_to_prevent_recurrence": "对这位年轻人进行安全教育，强调安全的重要性以及缺乏适当预防措施的危险行为风险。"
+    },
+    "1": {
+      "risk_description": "该人躺在一个看似测试或实验设施的软垫表面上，可能会出现突然移动或意外力量，导致跌倒或失控。",
+      "normal_video_description": "视频显示一人进入类似实验室的房间，拿起一件外套，躺到房间中央的软垫上。其他人在背景中走动。",
+      "solution_for_person": "在软垫上进行活动前，确保已配备适当的安全约束或监督。",
+      "solution_for_hazard_source": "确认软垫已牢固固定，并专为预定活动设计，以防止意外移动。",
+      "solution_to_prevent_recurrence": "对实验装置进行安全审查，确认所有安全协议均已遵守。"
+    },
+    "2": {
+      "risk_description": "",
+      "normal_video_description": "一个人进入房间，从椅子上取下外套，躺在房间中央的床垫上，然后起身离开。该环境看起来像是实验室或检测设施，四周摆放着设备和家具。",
+      "solution_for_person": "",
+      "solution_for_hazard_source": "",
+      "solution_to_prevent_recurrence": ""
+    },
+    "3": {
+      "risk_description": "躺在软垫上的人在试图起身而没有适当支撑时，可能会面临跌落的风险，尤其是行动能力或力量有限的情况下。",
+      "normal_video_description": "",
+      "solution_for_person": "确保该人有一个稳固且有支撑的起立面，例如椅子或他人帮助。",
+      "solution_for_hazard_source": "在软垫周围加装侧栏或护栏，以防止跌落。",
+      "solution_to_prevent_recurrence": "当此人躺下或试图起身时，提供额外的支撑和监督。"
+    },
+    "4": {
+      "risk_description": "该人正躺在房间中央的床垫上，若他们移动或床垫未妥善固定，可能会导致跌落的风险，进而可能导致严重伤害。",
+      "normal_video_description": "视频显示一间教室，床垫放在房间中央，周围环绕着椅子和桌子。一个人进入房间并躺在床垫上。",
+      "solution_for_person": "躺在床垫上之前，确保床垫已妥善固定且稳固。",
+      "solution_for_hazard_source": "",
+      "solution_to_prevent_recurrence": "定期检查床垫及其周围区域，以确保其稳固并正确固定。"
+    }
+  }
+}

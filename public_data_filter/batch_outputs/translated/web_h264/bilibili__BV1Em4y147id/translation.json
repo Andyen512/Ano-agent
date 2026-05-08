@@ -1,0 +1,40 @@
+{
+  "video_key": "web_h264/bilibili__BV1Em4y147id",
+  "translations": {
+    "0": {
+      "risk_description": "视频中的年轻人正走着，随后突然摔倒在地，这可能导致不稳定的风险。该人看起来不稳，可能失去平衡导致摔倒。",
+      "normal_video_description": "",
+      "solution_for_person": "应由护理人员或附近的人帮助该人，以确保其稳定且不再有跌倒风险。他们可能需要检查是否受伤，并提供支持以防止将来跌倒。",
+      "solution_for_hazard_source": "危险源是院子里不平的地面，这可能是导致摔倒的原因。应检查该区域是否存在绊倒危险，并使其更适合安全行走。",
+      "solution_to_prevent_recurrence": "为防止再次发生，应鼓励该人走路时更慢更小心，尤其在不平的表面上。他们也可以通过物理治疗或练习来改善平衡和稳定性。院子应定期维护，确保没有绊倒危险且行走安全。"
+    },
+    "1": {
+      "risk_description": "该女子踩到一张纸，结果发现纸上浸有油，导致她失去平衡而摔倒。此行为存在因滑倒而受伤的风险。",
+      "normal_video_description": "一名女子在院子里打羽毛球，踩到一张纸，结果发现纸上浸有油，摔倒后花了一些时间才站起来。",
+      "solution_for_person": "该女子应避免踩到地面上不明的物体，并确保穿合适的鞋子以防止滑倒。",
+      "solution_for_hazard_source": "浸油的纸应及时从该区域移除，以消除滑倒危险。",
+      "solution_to_prevent_recurrence": "定期检查并清洁院子地面，以清除潜在的滑倒危险。"
+    },
+    "2": {
+      "risk_description": "一名女子在院子里行走时踩到地上一块油渍而滑倒。摔倒突发，她倒地，说明存在明显的不稳定危险。",
+      "normal_video_description": "",
+      "solution_for_person": "该人应立即起身，检查是否受伤，并清理油渍以防止再次滑倒。",
+      "solution_for_hazard_source": "立即清理油渍以防止将来摔倒。",
+      "solution_to_prevent_recurrence": "定期检查并清洁院子，以清除潜在的滑倒危险。"
+    },
+    "3": {
+      "risk_description": "视频显示一人在湿滑表面上滑倒并摔倒，这可能导致受伤风险，尤其对行动不便或平衡有障碍的人更为危险。",
+      "normal_video_description": "",
+      "solution_for_person": "在进行可能导致滑倒的活动之前，应确保该区域干燥。",
+      "solution_for_hazard_source": "湿滑表面应立即清理，以防止滑倒危险。",
+      "solution_to_prevent_recurrence": "定期检查并清洁院子，以确保行走安全，特别是在雨后或清洗活动后。"
+    },
+    "4": {
+      "risk_description": "该人站在阳台边缘，存在坠落风险，可能导致严重伤害。",
+      "normal_video_description": "",
+      "solution_for_person": "确保该人不要站得离阳台边缘太近，保持安全距离。",
+      "solution_for_hazard_source": "在阳台沿边安装扶手或防护栏，以防止坠落。",
+      "solution_to_prevent_recurrence": "定期检查阳台是否存在结构问题或可能导致坠落的危险。"
+    }
+  }
+}

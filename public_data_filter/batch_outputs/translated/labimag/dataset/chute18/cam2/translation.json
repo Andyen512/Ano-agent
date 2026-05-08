@@ -1,0 +1,40 @@
+{
+  "video_key": "labimag/dataset/chute18/cam2",
+  "translations": {
+    "0": {
+      "risk_description": "视频中可以看到一个人躺在地板上并努力站起来，这可能导致摔倒或不稳定。这种行为在研究环境中的中年人身上并不典型，可能表明存在伤害风险。",
+      "normal_video_description": "",
+      "solution_for_person": "应该协助这个人从地板上站起来，以防止进一步受伤。",
+      "solution_for_hazard_source": "危险源是这个人无法从地板上站起来。",
+      "solution_to_prevent_recurrence": "应该监测这个人是否有不稳定或难以站起的迹象，并根据需要提供支持，以防止未来摔倒。"
+    },
+    "1": {
+      "risk_description": "这个人平躺在地板上，这可能导致摔倒或难以站起来，特别是如果地板是硬的或光滑的。",
+      "normal_video_description": "视频显示一个空房间，墙上有各种设备和海报。一个穿红衬衫的人进入，平躺在地板上，然后拿着一个物体站起来。",
+      "solution_for_person": "确保这个人在躺在地板上时有人监督，并在需要起身时提供帮助。",
+      "solution_for_hazard_source": "",
+      "solution_to_prevent_recurrence": ""
+    },
+    "2": {
+      "risk_description": "受试者在行走时失去平衡，平摔到地板上，表明发生了明显的超过正常活动的不稳定事件。",
+      "normal_video_description": "",
+      "solution_for_person": "这个人应该立即站起来，检查是否有受伤，如果有头晕就坐下或躺下。",
+      "solution_for_hazard_source": "确保地板上没有障碍物，并提供更好的照明，以防止类似的摔倒。",
+      "solution_to_prevent_recurrence": "鼓励这个人穿合适的鞋子，并考虑在需要时使用辅助设备。"
+    },
+    "3": {
+      "risk_description": "这个人摔到地板上，然后试图站起来，这可能构成伤害风险，特别是对于行动不便或平衡问题的人。",
+      "normal_video_description": "",
+      "solution_for_person": "确保这个人了解周围环境，并在移动时格外小心以避免摔倒。",
+      "solution_for_hazard_source": "清除地板上的任何障碍物或绊倒危险，以降低摔倒风险。",
+      "solution_to_prevent_recurrence": "练习改善平衡和协调性的运动，并考虑在必要时使用辅助设备。"
+    },
+    "4": {
+      "risk_description": "可以看到一个穿红衬衫的人在带有标记线的房间里走动，这可能是一个体育馆或类似的空间。他们带着相机，看起来在拍摄或拍照。然后这个人摔到地上，由于地板表面坚硬，可能会导致受伤。",
+      "normal_video_description": "",
+      "solution_for_person": "确保这个人穿着具有良好抓地力的合适鞋子，以防止滑倒和摔倒。",
+      "solution_for_hazard_source": "清除地板上可能引起绊倒或滑倒的任何障碍物或危险。",
+      "solution_to_prevent_recurrence": "提供正确行走技术和周围环境意识方面的培训，以最大限度地降低摔倒风险。"
+    }
+  }
+}

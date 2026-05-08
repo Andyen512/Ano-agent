@@ -1,0 +1,40 @@
+{
+  "video_key": "SmartHome-Bench/videos/smartbench_0478",
+  "translations": {
+    "0": {
+      "risk_description": "",
+      "normal_video_description": "一只大型黑熊在夜晚的阳台上行走，被串灯照亮。熊似乎在探索该区域，嗅闻四周并观察周围环境。阳台有木质栏杆，背景中有一些植物、一张小桌子和一把椅子。熊最终从镜头前走开，视频以空无一人的阳台结束。",
+      "solution_for_person": "",
+      "solution_for_hazard_source": "",
+      "solution_to_prevent_recurrence": ""
+    },
+    "1": {
+      "risk_description": "一只大型黑熊在夜晚出现在门廊上，靠近镜头并四处嗅探。熊的存在对门廊上的任何人构成碰撞或挤压伤害的风险。",
+      "normal_video_description": "一只熊在夜晚走上门廊，四处嗅探，然后离开。",
+      "solution_for_person": "",
+      "solution_for_hazard_source": "",
+      "solution_to_prevent_recurrence": ""
+    },
+    "2": {
+      "risk_description": "一只大熊在夜晚走上住宅阳台，非常靠近镜头并在空间里走动。这种行为对阳台上的人构成明显的碰撞或挤压伤害风险。",
+      "normal_video_description": "",
+      "solution_for_person": "立即撤离阳台并确保区域安全以保障人身安全。",
+      "solution_for_hazard_source": "不要试图靠近或喂食动物；保持安全距离。",
+      "solution_to_prevent_recurrence": "封闭户外区域并清除吸引物，防止野生动物进入居住空间。"
+    },
+    "3": {
+      "risk_description": "一只大型动物，可能是熊，在阳台上，对阳台上的任何人或任何东西构成碰撞或挤压伤害的风险，特别是儿童或宠物等弱势群体。",
+      "normal_video_description": "",
+      "solution_for_person": "确保儿童、老年人或宠物在动物出现时安全地待在室内或远离阳台区域。",
+      "solution_for_hazard_source": "封闭阳台区域并阻止接近动物以避免任何潜在的碰撞或伤害。",
+      "solution_to_prevent_recurrence": "在阳台上安装安全屏障或门并监控野生动物活动以防止未来发生事故。"
+    },
+    "4": {
+      "risk_description": "熊在阳台上，存在坠落并造成严重伤害或死亡的风险。熊靠近栏杆增加了此类事故发生的可能性。",
+      "normal_video_description": "一只大型黑熊在夜晚的阳台上，在地板上的一个碗周围嗅探。",
+      "solution_for_person": "移除任何可能被熊用作武器或工具的物体；确保该区域光线充足以阻止熊；并始终与熊保持安全距离。",
+      "solution_for_hazard_source": "固定阳台栏杆以防止熊翻越；清除可能吸引熊的食物来源；并考虑将熊转移到更安全的环境。",
+      "solution_to_prevent_recurrence": "在阳台周围安装防熊围栏；使用威慑装置如运动感应洒水器或超声波设备；并教育居民有关熊的安全措施。"
+    }
+  }
+}

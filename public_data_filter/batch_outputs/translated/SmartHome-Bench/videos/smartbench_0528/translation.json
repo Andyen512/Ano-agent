@@ -1,0 +1,40 @@
+{
+  "video_key": "SmartHome-Bench/videos/smartbench_0528",
+  "translations": {
+    "0": {
+      "risk_description": "",
+      "normal_video_description": "视频显示后院有游泳池、庭院家具，还有一只熊在四处走动。一个人坐在椅子上，背景中有烤架和棚屋。场景宁静，没有危险或痛苦的迹象。",
+      "solution_for_person": "",
+      "solution_for_hazard_source": "",
+      "solution_to_prevent_recurrence": ""
+    },
+    "1": {
+      "risk_description": "一只熊进入院子，走向泳池区域，那里有一位中年人正在放松。熊的存在对这个人构成碰撞或挤压伤害的风险。",
+      "normal_video_description": "视频显示后院有游泳池、庭院家具，一个人在躺椅上放松。一只熊走进院子，向泳池区域靠近。",
+      "solution_for_person": "人员应保持坐姿，避免突然动作，以免惊吓熊。",
+      "solution_for_hazard_source": "熊应被野生动物管理部门安全地从该地点移走。",
+      "solution_to_prevent_recurrence": "在物业周边安装动作感应安全摄像头和响亮的警报器，以阻止野生动物入侵。"
+    },
+    "2": {
+      "risk_description": "一只熊进入居民后院，靠近正在泳池边放松的人，造成直接的人身伤害或碰撞威胁。",
+      "normal_video_description": "",
+      "solution_for_person": "人员应立即转移到远离熊的安全地点，并联系当地政府部门或动物管理部门。",
+      "solution_for_hazard_source": "熊应由专业人员安全地从该地区移走。",
+      "solution_to_prevent_recurrence": "在物业周围安装防熊围栏或威慑装置，避免留下食物或诱饵。"
+    },
+    "3": {
+      "risk_description": "视频中显示一名儿童在泳池区域附近，这存在跌入泳池的风险，特别是如果没有密切监督。",
+      "normal_video_description": "",
+      "solution_for_person": "确保对泳池附近的儿童进行持续监督，防止跌落。",
+      "solution_for_hazard_source": "安装泳池围栏，并考虑使用地面泳池盖，以防止未经监督的进入。",
+      "solution_to_prevent_recurrence": "始终对水体附近的儿童保持密切监督，并确保安全屏障到位。"
+    },
+    "4": {
+      "risk_description": "",
+      "normal_video_description": "视频显示宁静的后院，有游泳池、躺椅和房子。没有可见的风险或需要关注的行为。",
+      "solution_for_person": "",
+      "solution_for_hazard_source": "",
+      "solution_to_prevent_recurrence": ""
+    }
+  }
+}

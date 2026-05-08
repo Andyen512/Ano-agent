@@ -1,0 +1,40 @@
+{
+  "video_key": "labimag/dataset/chute10/cam8",
+  "translations": {
+    "0": {
+      "risk_description": "视频中的人正在尝试搬动一个看起来像床垫的大型重物，但没有适当的支撑或帮助。这会导致不稳定，可能导致跌倒或被压伤。",
+      "normal_video_description": "",
+      "solution_for_person": "人员应寻求他人帮助来安全搬动重物，避免受伤。",
+      "solution_for_hazard_source": "危险来源是重物（床垫）以及搬运过程中缺乏适当支撑或帮助。",
+      "solution_to_prevent_recurrence": "为防止再次发生，搬运重物时应始终寻求帮助，并确保使用适当的支撑和技术以避免受伤。"
+    },
+    "1": {
+      "risk_description": "穿红衬衫的人正躺在地板上的大白垫子上，这不是一个稳定的睡眠或休息表面，增加跌落受伤的风险。",
+      "normal_video_description": "一个穿红衬衫的人走进教室，走向地板上的大白垫子并躺下。背景中有其他人进行各种活动。",
+      "solution_for_person": "避免躺在地板的垫子上；应使用合适的床或指定的休息区。",
+      "solution_for_hazard_source": "确保垫子在教室环境中不作为睡眠表面使用。",
+      "solution_to_prevent_recurrence": "教育安全睡眠做法以及正确使用教室设备。"
+    },
+    "2": {
+      "risk_description": "",
+      "normal_video_description": "视频中显示一个人走进实验室，走向椅子和地板上的床垫，然后离开。环境看起来是一个受控的工作空间，设备和家具摆放整齐。",
+      "solution_for_person": "",
+      "solution_for_hazard_source": "",
+      "solution_to_prevent_recurrence": ""
+    },
+    "3": {
+      "risk_description": "穿红衬衫的人跪在地上并在床周围移动，这可能导致跌倒或失去平衡，尤其在搬动床时更容易失衡。",
+      "normal_video_description": "",
+      "solution_for_person": "确保人员在床周围移动时注意周围环境并保持平衡。",
+      "solution_for_hazard_source": "将床固定并确保其稳固，防止倾斜或移动导致跌倒。",
+      "solution_to_prevent_recurrence": "在搬动家具时提供额外支持或监督，以防止跌倒。"
+    },
+    "4": {
+      "risk_description": "穿红衬衫的人在走平衡绳，这是一种高风险活动，可能导致严重跌倒和受伤。平衡绳设在一个教室环境中，现场还有其他人，可能被跌倒者撞到。",
+      "normal_video_description": "",
+      "solution_for_person": "人员应佩戴头盔、护膝等防护装备，以减少跌倒时的受伤风险。",
+      "solution_for_hazard_source": "平衡绳应设置在更隔离的区域，或采取适当的安全措施，以防止事故发生。",
+      "solution_to_prevent_recurrence": "在尝试在教室环境下走平衡绳之前，人员应接受适当的培训并有监督。"
+    }
+  }
+}

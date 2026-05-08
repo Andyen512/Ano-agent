@@ -1,0 +1,40 @@
+{
+  "video_key": "web_h264/bilibili__BV1NTLZzZE4e",
+  "translations": {
+    "0": {
+      "risk_description": "孩子正探身在高餐椅上，似乎有跌倒的风险。照护者应确保孩子安全就座并受到监督。",
+      "normal_video_description": "",
+      "solution_for_person": "照护者应确保孩子安全就座并受到监督。",
+      "solution_for_hazard_source": "应调整高餐椅以确保孩子安全就座。",
+      "solution_to_prevent_recurrence": "照护者在孩子待在餐厅时应始终监督，并确保高餐椅调整到位以防止跌落。"
+    },
+    "1": {
+      "risk_description": "孩子正在餐桌下爬行，存在与桌腿或椅子碰撞的风险。孩子在餐厅走动时似乎也不稳定，增加了跌倒的风险。",
+      "normal_video_description": "视频显示一个孩子坐在高餐椅上，然后在餐桌附近的地板上爬行。一位成人进来把孩子抱起。",
+      "solution_for_person": "确保孩子受到监督，远离可能造成伤害的家具区域。",
+      "solution_for_hazard_source": "移动椅子和桌子，为孩子创造更安全的玩耍区域。",
+      "solution_to_prevent_recurrence": "当孩子无人看管时，在餐厅周围安装安全门。"
+    },
+    "2": {
+      "risk_description": "",
+      "normal_video_description": "孩子从高餐椅上爬下来，在餐桌周围走动，随后被照护者抱起。这个场景展示了正常的日常家庭活动，没有危险行为或风险。",
+      "solution_for_person": "",
+      "solution_for_hazard_source": "",
+      "solution_to_prevent_recurrence": ""
+    },
+    "3": {
+      "risk_description": "孩子从餐桌上跌落，存在受伤风险。照护者迅速响应以确保孩子的安全。",
+      "normal_video_description": "",
+      "solution_for_person": "照护者应确保孩子受到安全的监督，并远离高处表面以防止跌落。",
+      "solution_for_hazard_source": "在餐桌周围安装安全门或屏障，以防止孩子在无人看管时进入。",
+      "solution_to_prevent_recurrence": "在高处表面附近始终密切监督孩子，并考虑采取儿童安全措施来固定餐厅区域。"
+    },
+    "4": {
+      "risk_description": "由于高餐椅的位置不稳定，孩子有从高餐椅跌落的风险。",
+      "normal_video_description": "",
+      "solution_for_person": "在将孩子单独留下之前，确保高餐椅已正确固定且稳定。",
+      "solution_for_hazard_source": "",
+      "solution_to_prevent_recurrence": "定期检查高餐椅的稳定性，并根据需要进行必要的调整或维修。"
+    }
+  }
+}

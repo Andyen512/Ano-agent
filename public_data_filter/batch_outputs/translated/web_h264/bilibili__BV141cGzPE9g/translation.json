@@ -1,0 +1,40 @@
+{
+  "video_key": "web_h264/bilibili__BV141cGzPE9g",
+  "translations": {
+    "0": {
+      "risk_description": "孩子正坐在一张桌子上，桌子不够稳固，存在孩子跌倒受伤的风险。",
+      "normal_video_description": "孩子正坐在一张桌子上，桌子不够稳固，存在孩子跌倒受伤的风险。",
+      "solution_for_person": "看护者应将孩子移至更安全的地方，例如地板或适合儿童使用的座位。",
+      "solution_for_hazard_source": "不应将桌子作为儿童的座位。",
+      "solution_to_prevent_recurrence": "看护者应始终监督孩子，确保他们坐在安全、合适的位置。"
+    },
+    "1": {
+      "risk_description": "孩子站在湿滑、凹凸不平的表面上，这增加了滑倒和跌倒的风险。",
+      "normal_video_description": "视频展示了多个孩子进行不同活动的场景，其中一些存在潜在风险。",
+      "solution_for_person": "密切监督孩子，确保他们穿着适合该表面的合适鞋子。",
+      "solution_for_hazard_source": "擦干湿滑表面或为孩子提供更安全的玩耍区域。",
+      "solution_to_prevent_recurrence": "在没有成人监督的情况下，避免儿童接触潮湿或光滑的户外表面。"
+    },
+    "2": {
+      "risk_description": "视频中看到孩子站在卫生间的马桶座圈上，这是一种不稳定的姿势，容易导致跌倒。孩子的姿势和位置表明有很高的失去平衡并跌入马桶的风险。",
+      "normal_video_description": "",
+      "solution_for_person": "看护者应立即介入，防止孩子站在马桶座圈上，并确保孩子安全坐下或受到监督。",
+      "solution_for_hazard_source": "应固定或取下马桶座圈，以防止孩子站在上面。",
+      "solution_to_prevent_recurrence": "教育孩子认识到站在不稳固表面上的危险，并确保卫生间对孩子来说是安全的环境。"
+    },
+    "3": {
+      "risk_description": "孩子正坐在客厅的一张小凳子上，如果凳子倾斜则有跌倒的风险。",
+      "normal_video_description": "",
+      "solution_for_person": "确保孩子坐在稳定、安全的环境中，并使用更大、更稳固的凳子。",
+      "solution_for_hazard_source": "将小凳子换成更大、更稳固的凳子。",
+      "solution_to_prevent_recurrence": "密切监督孩子，确保环境安全且稳固。"
+    },
+    "4": {
+      "risk_description": "视频显示一个孩子坐在高脚椅上，如果椅子不稳或未正确固定，可能会有跌倒的风险。此外，地板上有一口锅，可能被孩子碰倒，导致受伤或损坏。",
+      "normal_video_description": "视频显示一个孩子坐在高脚椅上，旁边有一位成年人。成年人正在与孩子互动，似乎在监督孩子。",
+      "solution_for_person": "在将孩子放入高脚椅之前，确保椅子稳固安全。清除该区域的潜在危险，例如锅。",
+      "solution_for_hazard_source": "",
+      "solution_to_prevent_recurrence": "定期检查高脚椅的稳定性，确保其固定良好。将潜在危险放在儿童够不到的地方。"
+    }
+  }
+}

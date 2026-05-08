@@ -1,0 +1,40 @@
+{
+  "video_key": "SmartHome-Bench/videos/smartbench_0054",
+  "translations": {
+    "0": {
+      "risk_description": "视频中可以看到该人在办公室走动时努力保持平衡，这可能导致跌倒并受伤。",
+      "normal_video_description": "视频显示一个人在办公环境中工作，没有出现不稳定或受伤风险的迹象。",
+      "solution_for_person": "此人应在走动时由护理人员或同事提供帮助，以确保其稳定和安全。",
+      "solution_for_hazard_source": "应对办公环境进行评估，查找可能导致跌倒的潜在危险，例如松动的电缆或湿滑的地板，并采取相应措施。",
+      "solution_to_prevent_recurrence": "应为该人在办公室提供额外的支撑和帮助，例如使用助行器或拐杖，以防止将来跌倒和受伤。"
+    },
+    "1": {
+      "risk_description": "此人正在爬到桌子上，这有跌倒的风险，可能与桌子或其他家具碰撞，导致受伤。",
+      "normal_video_description": "可以看到一个人坐在客厅的书桌前工作。",
+      "solution_for_person": "避免攀爬家具，以防跌倒和碰撞。",
+      "solution_for_hazard_source": "确保家具稳固，不将其用作攀爬结构。",
+      "solution_to_prevent_recurrence": "向此人宣传攀爬家具的危险性，并监督其活动。"
+    },
+    "2": {
+      "risk_description": "办公室里发生了肢体冲突，其中一人爬到桌子上，似乎在与另一人进行身体接触，显示出明显的超出正常行为的升级。",
+      "normal_video_description": "",
+      "solution_for_person": "当事人应立即分开并保持安全距离，以防止进一步的肢体伤害。",
+      "solution_for_hazard_source": "清除任何可能在冲突中用作武器或导致伤害的物品。",
+      "solution_to_prevent_recurrence": "实施安全措施，如安装摄像头，并制定明确的争议处理规程，以防止将来发生类似事件。"
+    },
+    "3": {
+      "risk_description": "视频显示一个人爬到桌子上，这可能导致跌倒或不稳定，尤其是对行动不便或平衡有障碍的人。",
+      "normal_video_description": "",
+      "solution_for_person": "确保该人在攀爬家具时受到监督，并提供稳固的表面以避免跌倒。",
+      "solution_for_hazard_source": "固定家具以防止倾倒，并明确警示不要攀爬桌子。",
+      "solution_to_prevent_recurrence": "在家具附近安装安全垫或防滑表面，并对员工进行安全操作教育。"
+    },
+    "4": {
+      "risk_description": "",
+      "normal_video_description": "视频展示了一个办公室环境，一个人坐在桌前使用电脑。没有明显的风险或危险活动发生。",
+      "solution_for_person": "",
+      "solution_for_hazard_source": "",
+      "solution_to_prevent_recurrence": ""
+    }
+  }
+}

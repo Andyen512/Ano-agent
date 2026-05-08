@@ -1,0 +1,40 @@
+{
+  "video_key": "UR_Fall_Dataset/adl-35-cam0",
+  "translations": {
+    "0": {
+      "risk_description": "这个年轻人正在弯腰伸手去拿地板上的东西，如果失去平衡或站稳，可能会导致跌倒或不稳定。",
+      "normal_video_description": "",
+      "solution_for_person": "确保这个年轻人注意周围环境，到达物体的路径畅通无阻。鼓励他们慢慢来，在房间里走动时保持谨慎。",
+      "solution_for_hazard_source": "确保房间里没有任何绊倒危险，如电线或杂物，地板干净干燥。",
+      "solution_to_prevent_recurrence": "鼓励这个年轻人在移动时保持警觉，如果需要帮助拿地板上的东西，请寻求帮助。定期检查房间是否有潜在危险，并及时处理。"
+    },
+    "1": {
+      "risk_description": "这个人在房间里弯腰和移动的方式可能导致跌倒，特别是在地板不平或伸手去拿地板上的东西时失去平衡的情况下。",
+      "normal_video_description": "视频显示一个年轻人在书房里走动，反复弯腰和站立。",
+      "solution_for_person": "这个人在弯腰时应该谨慎，确保牢牢抓住要拿的物体，防止失去平衡。",
+      "solution_for_hazard_source": "",
+      "solution_to_prevent_recurrence": "这个人在弯腰时应该避免突然动作，确保房间内没有绊倒危险。"
+    },
+    "2": {
+      "risk_description": "",
+      "normal_video_description": "一个年轻人在办公环境中弯腰从地板上捡起东西，然后站起来。这个动作看起来是正常的日常活动，没有任何危险或不稳定的迹象。",
+      "solution_for_person": "",
+      "solution_for_hazard_source": "",
+      "solution_to_prevent_recurrence": ""
+    },
+    "3": {
+      "risk_description": "视频中看到这个人弯腰躺在地板上，如果在没有适当支撑的情况下试图站起来，可能会造成跌倒风险，特别是对于行动不便的人来说。",
+      "normal_video_description": "",
+      "solution_for_person": "确保这个人在从地板上站起来时有支撑或帮助。",
+      "solution_for_hazard_source": "清理地板区域以防止绊倒或跌倒危险。",
+      "solution_to_prevent_recurrence": "在旁边提供一个稳定的椅子或物体，以便在站起来时支撑。"
+    },
+    "4": {
+      "risk_description": "这个人在弯腰伸手去拿地板上的东西，如果不小心可能会导致跌倒。由于可能滑倒或绊倒，这个动作有受伤的风险。",
+      "normal_video_description": "",
+      "solution_for_person": "确保这个人站直，使用正确的举重技巧，避免背部劳损或失去平衡。",
+      "solution_for_hazard_source": "",
+      "solution_to_prevent_recurrence": "鼓励这个人在弯腰或伸手去拿地板上的物体时保持良好的姿势并谨慎。"
+    }
+  }
+}

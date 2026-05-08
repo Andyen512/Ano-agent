@@ -1,0 +1,40 @@
+{
+  "video_key": "toyota_smarthome_mp4/mp4/Sitdown_p06_r00_v27_c01",
+  "translations": {
+    "0": {
+      "risk_description": "这位老年人站在椅子上够桌子，存在跌倒风险。",
+      "normal_video_description": "这位老年人站在椅子上够餐厅的桌子。",
+      "solution_for_person": "让他人协助这位老年人安全地从椅子上下来。",
+      "solution_for_hazard_source": "确保不要用椅子作为够高处物品的方式，必要时提供合适的脚凳。",
+      "solution_to_prevent_recurrence": "在餐桌附近安装扶手或抓杆，以便于从椅子上起身和坐下。"
+    },
+    "1": {
+      "risk_description": "",
+      "normal_video_description": "一位老年人站在桌子旁，然后坐下，在书房或办公室环境中与桌上的物品互动。",
+      "solution_for_person": "",
+      "solution_for_hazard_source": "",
+      "solution_to_prevent_recurrence": ""
+    },
+    "2": {
+      "risk_description": "",
+      "normal_video_description": "一位老年人在光线充足的房间里坐在餐桌旁。老人动作缓慢而谨慎，在坐进椅子前先将双手放在桌上。环境看起来平静安全，没有可见的危险或痛苦的迹象。",
+      "solution_for_person": "",
+      "solution_for_hazard_source": "",
+      "solution_to_prevent_recurrence": ""
+    },
+    "3": {
+      "risk_description": "这位老年人正靠在桌子上，这可能导致跌倒或失去平衡，特别是如果他们突然试图站起来的话。",
+      "normal_video_description": "",
+      "solution_for_person": "确保这位老年人慢慢坐直，并在尝试站立前有支撑。",
+      "solution_for_hazard_source": "在桌子附近提供稳定的椅子或支撑物以帮助站立。",
+      "solution_to_prevent_recurrence": "使用有扶手的椅子以便于支撑，并确保用餐区域没有障碍物。"
+    },
+    "4": {
+      "risk_description": "这位老年人在试图坐到桌旁时存在跌倒风险，可能会因其年龄和可能的体弱而导致严重伤害。",
+      "normal_video_description": "",
+      "solution_for_person": "确保这个人在坐下时有人协助或支撑以避免跌倒。",
+      "solution_for_hazard_source": "",
+      "solution_to_prevent_recurrence": "在桌子附近安装扶手或抓杆，以便个人坐下时提供支撑。"
+    }
+  }
+}

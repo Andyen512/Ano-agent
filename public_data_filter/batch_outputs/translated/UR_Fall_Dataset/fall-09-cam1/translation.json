@@ -1,0 +1,40 @@
+{
+  "video_key": "UR_Fall_Dataset/fall-09-cam1",
+  "translations": {
+    "0": {
+      "risk_description": "视频中看到的年轻人正在进行后空翻，这是一种高风险动作，可能导致跌倒和受伤。该人没有穿戴任何防护装备，且客厅地面是硬质的，增加了跌倒受伤的风险。",
+      "normal_video_description": "",
+      "solution_for_person": "应建议该人在安全的环境中佩戴适当的防护装备进行此类活动，例如健身房或蹦床公园。",
+      "solution_for_hazard_source": "客厅应通过移除可能绊倒或导致跌倒的物品，并在地板上铺设软垫或地毯等柔软表面来提升安全性。",
+      "solution_to_prevent_recurrence": "应向该人普及高风险活动未采取适当防范措施的风险，鼓励其在从事此类活动时寻求专业指导或监督。"
+    },
+    "1": {
+      "risk_description": "可以看到该人躺在地板上，这可能导致跌倒受伤或难以站起的风险。",
+      "normal_video_description": "一个人进入房间，四处走动，然后躺在地板上。",
+      "solution_for_person": "应确保该人有人监督和帮助，避免长时间躺在地板上。",
+      "solution_for_hazard_source": "",
+      "solution_to_prevent_recurrence": "在书房区域安装扶手或防滑垫。"
+    },
+    "2": {
+      "risk_description": "",
+      "normal_video_description": "一位穿蓝色衬衫的年轻人走进办公室，在办公桌和椅子之间走动，然后躺在地板上。这些动作看起来是玩耍或探索行为，没有危险或不稳定的迹象。",
+      "solution_for_person": "",
+      "solution_for_hazard_source": "",
+      "solution_to_prevent_recurrence": ""
+    },
+    "3": {
+      "risk_description": "该人正在做一个翻转动作，如果落地不稳可能导致跌倒或受伤，对行动不便或平衡障碍者构成风险。",
+      "normal_video_description": "",
+      "solution_for_person": "确保该人拥有柔软的落地表面，并考虑进行监督以防止受伤。",
+      "solution_for_hazard_source": "使用垫子或柔软表面以降低跌倒受伤的风险。",
+      "solution_to_prevent_recurrence": "在安全的环境中进行练习，配以适当的监督，并确保场地无障碍物。"
+    },
+    "4": {
+      "risk_description": "视频中看到该人走路后突然摔倒，这可能导致严重伤害。摔倒似乎是因失去平衡或被地板上的物体绊倒所致。",
+      "normal_video_description": "视频显示一个人在办公环境中走动，随后摔倒在地上。",
+      "solution_for_person": "确保该区域没有障碍物和绊倒危险，以防止跌倒。",
+      "solution_for_hazard_source": "",
+      "solution_to_prevent_recurrence": "定期检查该区域是否存在潜在危险，并及时处理。"
+    }
+  }
+}

@@ -1,0 +1,40 @@
+{
+  "video_key": "web_h264/youtube__T2jNHWatZvs",
+  "translations": {
+    "0": {
+      "risk_description": "孩子正在燃烧的物体附近玩耍，存在跌倒或被烧伤的风险。",
+      "normal_video_description": "视频显示一名女子和一名孩子在客厅里玩耍，旁边有一个燃烧的物体。孩子没有得到监管，女子也未意识到潜在的危险。",
+      "solution_for_person": "需要成人监护以确保孩子的安全。",
+      "solution_for_hazard_source": "应将燃烧的物体移出客厅，以防止进一步的风险。",
+      "solution_to_prevent_recurrence": "应监护孩子并对其进行消防安全教育，以防止未来发生类似事件。"
+    },
+    "1": {
+      "risk_description": "一名孩子在客厅的明火附近玩耍，存在被烧伤或意外接触火焰的风险。",
+      "normal_video_description": "视频显示孩子在客厅的明火附近玩耍，成年人正试图控制局面。",
+      "solution_for_person": "应让孩子与火保持安全距离，以防止烧伤或意外接触。",
+      "solution_for_hazard_source": "应扑灭或控制火源，以消除热源/火源危险。",
+      "solution_to_prevent_recurrence": "在火源周围安装安全屏障，并向孩子进行消防安全教育。"
+    },
+    "2": {
+      "risk_description": "一名孩子正在玩一个突然冒出大量烟雾并起火的装置，在客厅造成了即时的严重火灾危险。",
+      "normal_video_description": "",
+      "solution_for_person": "孩子及其他家庭成员应立即撤离到远离火源的安全地点。",
+      "solution_for_hazard_source": "应关闭该装置并将其从现场移走，以防止进一步点燃。",
+      "solution_to_prevent_recurrence": "父母在孩子玩电子设备时应密切监督，并确保这些设备在安全的环境中使用。"
+    },
+    "3": {
+      "risk_description": "看到孩子向客厅的火跑去，存在被烧伤或吸入烟雾的重大风险。",
+      "normal_video_description": "",
+      "solution_for_person": "确保孩子与火保持安全距离并密切监督。",
+      "solution_for_hazard_source": "使用灭火器或拨打紧急服务来控制火势。",
+      "solution_to_prevent_recurrence": "安装烟雾探测器并确保采取消防安全措施，以防止未来事故。"
+    },
+    "4": {
+      "risk_description": "看到孩子在家具上奔跑和跳跃，可能导致跌倒并造成潜在伤害。",
+      "normal_video_description": "",
+      "solution_for_person": "确保孩子受到监督，家具稳固安全，以防跌倒。",
+      "solution_for_hazard_source": "将不稳或易碎的物品从家具上移除，以最大程度降低受伤风险。",
+      "solution_to_prevent_recurrence": "教导孩子安全玩耍，并提供风险较低的替代游戏场所。"
+    }
+  }
+}

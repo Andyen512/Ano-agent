@@ -1,0 +1,40 @@
+{
+  "video_key": "UR_Fall_Dataset/fall-27-cam0",
+  "translations": {
+    "0": {
+      "risk_description": "年轻人在书房里行走时突然倒地，这可能导致受伤。",
+      "normal_video_description": "年轻人在书房里行走时突然倒地。",
+      "solution_for_person": "应帮助此人站起来，并检查是否有受伤。",
+      "solution_for_hazard_source": "应检查地板是否有绊倒危险，并使该区域更加稳固以防止未来跌倒。",
+      "solution_to_prevent_recurrence": "此人在书房行走时应更加小心，并使该区域更加稳固以防止未来跌倒。"
+    },
+    "1": {
+      "risk_description": "",
+      "normal_video_description": "一个人走进书房，靠近书桌，然后躺在地板上。",
+      "solution_for_person": "",
+      "solution_for_hazard_source": "",
+      "solution_to_prevent_recurrence": ""
+    },
+    "2": {
+      "risk_description": "",
+      "normal_video_description": "一个中年人走进办公室，走向房间中央，然后有意地在地板上做了一个前滚动作。这个动作看起来是受控的且有意的，而不是意外或危险的。",
+      "solution_for_person": "",
+      "solution_for_hazard_source": "",
+      "solution_to_prevent_recurrence": ""
+    },
+    "3": {
+      "risk_description": "视频中的人似乎失去平衡并摔倒在地上，这可能会造成受伤风险，尤其是对行动不便或平衡问题的人。",
+      "normal_video_description": "",
+      "solution_for_person": "确保此人了解周围环境，如果感到不稳定，考虑使用支撑或帮助。",
+      "solution_for_hazard_source": "清除任何绊倒危险，确保地板干净整洁。",
+      "solution_to_prevent_recurrence": "练习平衡运动，必要时考虑使用助行工具。"
+    },
+    "4": {
+      "risk_description": "看到此人行走不稳然后摔倒在地上，这可能导致严重受伤。这次跌倒似乎是由于不稳定或失去平衡造成的。",
+      "normal_video_description": "视频显示一个人走进办公室然后摔倒在地上。",
+      "solution_for_person": "确保此人穿着合适的鞋子并具有良好的抓地力，考虑提供支撑或帮助以在行走时保持平衡。",
+      "solution_for_hazard_source": "",
+      "solution_to_prevent_recurrence": "提供正确的步行技巧和平衡运动的培训，以减少跌倒风险。"
+    }
+  }
+}

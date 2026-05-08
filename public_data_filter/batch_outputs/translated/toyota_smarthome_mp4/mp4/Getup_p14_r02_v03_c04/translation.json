@@ -1,0 +1,40 @@
+{
+  "video_key": "toyota_smarthome_mp4/mp4/Getup_p14_r02_v03_c04",
+  "translations": {
+    "0": {
+      "risk_description": "视频中的人在沙发上坐着时似乎难以保持平衡。他们向前倾，最终从沙发上掉下来，这可能导致受伤。",
+      "normal_video_description": "视频中的人坐在客厅的沙发上，周围有植物和一张摆满各种物品的茶几。他们看起来很放松，但突然难以保持平衡，从沙发上摔下来。",
+      "solution_for_person": "应为该人提供护理人员或家庭成员的帮助，以确保其安全并防止跌倒。",
+      "solution_for_hazard_source": "沙发应加固额外的支撑，例如扶手或护栏，以防止跌倒。",
+      "solution_to_prevent_recurrence": "应监测此人是否出现不稳或保持平衡困难的迹象，并采取适当措施解决潜在问题，如药物副作用或物理治疗。"
+    },
+    "1": {
+      "risk_description": "",
+      "normal_video_description": "一名年轻成年人正坐在客厅的绿色组合沙发上，随后从沙发上站起来。房间里有一张摆有物品的茶几、放着书的边桌以及大型植物。",
+      "solution_for_person": "",
+      "solution_for_hazard_source": "",
+      "solution_to_prevent_recurrence": ""
+    },
+    "2": {
+      "risk_description": "",
+      "normal_video_description": "一名中年成年人正坐在客厅的绿色组合沙发上，先向前倾身，随后坐直。房间里有一张摆有物品的茶几、放着书的边桌以及窗边的盆栽。",
+      "solution_for_person": "",
+      "solution_for_hazard_source": "",
+      "solution_to_prevent_recurrence": ""
+    },
+    "3": {
+      "risk_description": "此人站在沙发的边缘，如果失去平衡则有跌倒的风险。这对行动不便或稳定性较差的人来说尤其危险。",
+      "normal_video_description": "",
+      "solution_for_person": "确保此人保持稳定姿势，如果需要在沙发上站立，考虑使用椅子或凳子来提供支撑。",
+      "solution_for_hazard_source": "提供更安全的替代方案，如踏脚凳，以免在家具上站立。",
+      "solution_to_prevent_recurrence": "在沙发上使用防滑垫或坐垫，以提供额外的稳定性并防止跌倒。"
+    },
+    "4": {
+      "risk_description": "老年人有从沙发上跌落的风险，由于沙发的高度以及可能在硬地面上冲击，可能导致严重伤害。",
+      "normal_video_description": "",
+      "solution_for_person": "确保老年人在沙发周围活动时有适当的支撑或帮助，以防止跌倒。",
+      "solution_for_hazard_source": "清除沙发附近可能导致绊倒的物品。",
+      "solution_to_prevent_recurrence": "在沙发附近安装扶手或抓杆，以提供额外支撑。"
+    }
+  }
+}

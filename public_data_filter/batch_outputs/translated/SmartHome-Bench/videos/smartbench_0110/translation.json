@@ -1,0 +1,40 @@
+{
+  "video_key": "SmartHome-Bench/videos/smartbench_0110",
+  "translations": {
+    "0": {
+      "risk_description": "这只熊正用后腿站立，看起来不稳定，可能会导致摔倒并造成潜在伤害。",
+      "normal_video_description": "这只熊正用后腿站立，看起来不稳定，可能会导致摔倒并造成潜在伤害。",
+      "solution_for_person": "",
+      "solution_for_hazard_source": "",
+      "solution_to_prevent_recurrence": ""
+    },
+    "1": {
+      "risk_description": "一只熊正在接近一扇门，如果门关闭或附近有人，可能会导致碰撞或挤压伤害。",
+      "normal_video_description": "可以看到一只熊在夜间接近一扇门，四处嗅探并向摄像机靠近。",
+      "solution_for_person": "当熊靠近时，确保所有门窗都牢固关闭，以防止意外接触。",
+      "solution_for_hazard_source": "",
+      "solution_to_prevent_recurrence": "安装运动感应灯或警报器，以阻止熊在夜间接近门。"
+    },
+    "2": {
+      "risk_description": "",
+      "normal_video_description": "一只大熊在夜间走上门廊，靠近摄像机，四处嗅探，然后离开。这种行为与野生动物探索行为一致，不构成风险异常。",
+      "solution_for_person": "",
+      "solution_for_hazard_source": "",
+      "solution_to_prevent_recurrence": ""
+    },
+    "3": {
+      "risk_description": "可以看到一只浣熊正在进入房屋，如果它遇到行动受限的儿童或宠物，可能会造成碰撞或挤压伤害的风险。",
+      "normal_video_description": "",
+      "solution_for_person": "确保无人监管时门保持关闭或安装宠物防护装置，以防止浣熊进入。",
+      "solution_for_hazard_source": "安装运动感应灯或警报器，以阻止野生动物进入房屋。",
+      "solution_to_prevent_recurrence": "使用牢固的野生动物防护门，并考虑使用驱避剂，以阻止浣熊接近房屋。"
+    },
+    "4": {
+      "risk_description": "这只熊正在从建筑物上爬下来，如果它失去抓握力或平衡，可能会导致摔倒，这可能会对熊造成伤害。",
+      "normal_video_description": "视频显示一只熊在夜间谨慎地从建筑物上下来，由安全摄像机拍摄。",
+      "solution_for_person": "",
+      "solution_for_hazard_source": "确保熊附近的任何结构都牢固稳定，以防止摔倒。",
+      "solution_to_prevent_recurrence": "定期检查和维护结构，以确保它们对动物是安全的。"
+    }
+  }
+}

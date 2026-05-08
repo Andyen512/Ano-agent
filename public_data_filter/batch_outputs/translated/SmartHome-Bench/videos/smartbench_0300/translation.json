@@ -1,0 +1,40 @@
+{
+  "video_key": "SmartHome-Bench/videos/smartbench_0300",
+  "translations": {
+    "0": {
+      "risk_description": "",
+      "normal_video_description": "可以看到一个人从停在车道上的白色SUV下来。该人身穿黑色夹克，似乎正在下车。车道两侧环绕着绿色植物，远处可见一条道路。随后该人关上车门并离开。",
+      "solution_for_person": "",
+      "solution_for_hazard_source": "",
+      "solution_to_prevent_recurrence": ""
+    },
+    "1": {
+      "risk_description": "一只熊在车道上与打开的车门互动，存在碰撞或挤压伤害熊的风险。",
+      "normal_video_description": "一只熊靠近并与车道上打开的车门互动。",
+      "solution_for_person": "在有野生动物出没的地区，不使用时应确保车门关闭。",
+      "solution_for_hazard_source": "",
+      "solution_to_prevent_recurrence": "在野生动物频繁出没的地区，安装感应式驱赶装置或对车辆进行固定防护。"
+    },
+    "2": {
+      "risk_description": "一只熊通过打开车门并进入车内部与停放的车辆互动，这对车内任何乘员都构成直接的碰撞或挤压伤害风险。",
+      "normal_video_description": "一只黑熊靠近停在车道上的白色面包车，打开驾驶座车门并进入车内。",
+      "solution_for_person": "",
+      "solution_for_hazard_source": "",
+      "solution_to_prevent_recurrence": ""
+    },
+    "3": {
+      "risk_description": "打开的车门存在宠物从车中掉出的风险，尤其是当宠物没有被安全固定或试图跳出时。",
+      "normal_video_description": "",
+      "solution_for_person": "确保车门牢固关闭，或使用宠物隔离栏以防止宠物掉落。",
+      "solution_for_hazard_source": "在车门上安装儿童/宠物安全锁，以在停车时保持车门关闭。",
+      "solution_to_prevent_recurrence": "离开车辆时务必检查车门是否已正确关闭，特别是有宠物在车内时。"
+    },
+    "4": {
+      "risk_description": "",
+      "normal_video_description": "视频显示一辆白色货车停在车道上，后门打开。可以看到一个人从货车下来并离开。场景中没有可见的风险或危险。",
+      "solution_for_person": "",
+      "solution_for_hazard_source": "",
+      "solution_to_prevent_recurrence": ""
+    }
+  }
+}

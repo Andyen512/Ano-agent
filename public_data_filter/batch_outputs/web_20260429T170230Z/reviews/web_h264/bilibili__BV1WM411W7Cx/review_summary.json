@@ -1,0 +1,466 @@
+{
+  "manifest": {
+    "video_path": "/data_4/liuyuan/lifebench/data/public_data/web_h264/bilibili__BV1WM411W7Cx.mp4",
+    "rule_path": "/data_4/liuyuan/lifebench/public_data_filter/rule.md",
+    "prompt_language": "en",
+    "output_schema_version": "risk_full_en_v2",
+    "candidate_text": null,
+    "seed": 0,
+    "persistent_runner": true,
+    "reuse_agent_outputs": true,
+    "early_stop_majority": false,
+    "model_pool": [
+      {
+        "model_id": "Qwen/Qwen3.5-9B",
+        "backend": "qwen35vl"
+      },
+      {
+        "model_id": "openbmb/MiniCPM-V-4_5",
+        "backend": "minicpmv45"
+      },
+      {
+        "model_id": "mPLUG/mPLUG-Owl3-7B-241101",
+        "backend": "mplugowl3"
+      },
+      {
+        "model_id": "DAMO-NLP-SG/VideoLLaMA3-7B",
+        "backend": "videollama3"
+      },
+      {
+        "model_id": "OpenGVLab/InternVL3_5-8B",
+        "backend": "internvl35"
+      }
+    ],
+    "assignments": [
+      {
+        "perspective": {
+          "index": 1,
+          "name": "Daily Behavior Baseline Perspective",
+          "prompt": "You are acting as a daily-behavior baseline reviewer.\nYour task is to judge, from ordinary household experience, whether a candidate behavior clearly deviates from acceptable daily behavior and should be kept as a risk anomaly.\n\nFollow these principles:\n- Use common behavior patterns in ordinary home environments as the reference point. Do not use an overly sensitive or overly permissive standard.\n- If a behavior is usually normal, brief, and acceptable in most household scenes, do not easily mark it as a risk anomaly.\n- If a behavior clearly exceeds the normal range of daily activities and shows instability, a safety trigger, or potential harm, mark it as a risk anomaly.\n- For borderline cases, focus on whether the behavior has shifted from an acceptable daily activity into an abnormal risk behavior that deserves attention.\n- Keep the judgment close to ordinary common sense rather than medical, legal, or extreme safety standards.\n\nOutput requirements for this perspective:\n- Explain whether the behavior clearly deviates from the daily behavior baseline.\n- Keep the explanation concise, specific, and grounded only in the video content.\n- Do not mark a behavior as anomalous merely because it looks active.\n- Do not assume extra events outside the video."
+        },
+        "model": {
+          "model_id": "mPLUG/mPLUG-Owl3-7B-241101",
+          "backend": "mplugowl3"
+        }
+      },
+      {
+        "perspective": {
+          "index": 2,
+          "name": "Conservative Safety Perspective",
+          "prompt": "You are acting as a conservative safety reviewer.\nYour task is to minimize missed risks. If a candidate behavior has a realistic possibility of injury, loss of control, or accident triggering, it may be kept as a risk anomaly.\n\nFollow these principles:\n- Apply a cautious safety standard, prioritizing behaviors that may lead to falls, collisions, burns, electric shock, accidental ingestion, cuts, or other household injuries.\n- Even if harm has not occurred yet, keep the behavior if it already contains a clear risk trigger or is in an accident-prone state.\n- For borderline cases, focus on whether the behavior deserves early intervention rather than waiting for harm to happen.\n- If a behavior would commonly be stopped or warned against by family members, guardians, or caregivers, lean toward keeping it.\n- The goal is to reduce false negatives, so ambiguous cases may be judged slightly conservatively.\n\nOutput requirements for this perspective:\n- Explain what realistic harm the behavior may trigger and why it should or should not be kept under a conservative safety standard.\n- You do not need to prove that harm will definitely occur.\n- Do not exaggerate beyond an ordinary household context."
+        },
+        "model": {
+          "model_id": "openbmb/MiniCPM-V-4_5",
+          "backend": "minicpmv45"
+        }
+      },
+      {
+        "perspective": {
+          "index": 3,
+          "name": "Permissive Behavior Tolerance Perspective",
+          "prompt": "You are acting as a permissive behavior-tolerance reviewer.\nYour task is to judge from a higher tolerance threshold whether a candidate behavior truly reaches the level of a risk anomaly. Only keep it when the behavior clearly exceeds normal activity, playfulness, exploration, or brief mistakes.\n\nFollow these principles:\n- Maintain reasonable tolerance for common active behavior, brief imbalance, and minor irregular actions in household scenes.\n- Keep a behavior only when it has clear, direct, and realistic danger, or when it clearly leaves the boundary of generally acceptable daily behavior.\n- If a behavior has some uncertainty but commonly occurs in real life and would not usually be considered dangerous enough for special intervention, lean toward not keeping it.\n- For borderline cases, prioritize avoiding over-definition of ordinary life behavior as abnormal.\n- The goal is to reduce false positives, so keep only when the evidence is reasonably strong.\n\nOutput requirements for this perspective:\n- Explain whether the behavior remains within a tolerable daily behavior range.\n- Do not keep a behavior merely because it has a small possible risk.\n- Do not automatically treat all child play, pet activity, slow elderly movement, or similar ordinary behavior as abnormal."
+        },
+        "model": {
+          "model_id": "Qwen/Qwen3.5-9B",
+          "backend": "qwen35vl"
+        }
+      },
+      {
+        "perspective": {
+          "index": 4,
+          "name": "Vulnerable-Subject-First Perspective",
+          "prompt": "You are acting as a vulnerable-subject-first reviewer.\nYour task is to judge the candidate behavior with priority given to the safety of children, older adults, people with limited mobility, people recovering from illness, pregnant people, pets, or other vulnerable subjects. If the behavior creates a realistic additional risk for a vulnerable subject, lean toward keeping it as a risk anomaly.\n\nFollow these principles:\n- Focus on whether the behavior creates disproportionate risk for a subject with weaker body control, weaker risk awareness, or limited self-protection ability.\n- A behavior that may not be abnormal for an ordinary adult can still be a risk anomaly if its danger clearly increases for a child, older adult, pet, or other vulnerable subject.\n- For borderline cases, consider whether the vulnerable subject would have more difficulty avoiding injury, would suffer more serious consequences, or would receive help more slowly.\n- In caregiving, companionship, or household life scenes, pay special attention to insufficient supervision, missing protection, or an environment that does not fit the subject's needs.\n- The core standard is not whether the behavior is dangerous for an average adult, but whether it has reached a level requiring attention or intervention for the vulnerable subject shown in the video.\n\nOutput requirements for this perspective:\n- Explain the specific risk to the vulnerable subject, if one is present.\n- Do not invent illness, disability, age, or severe impairment that is not supported by the video.\n- Do not generalize vulnerability without evidence from the video."
+        },
+        "model": {
+          "model_id": "OpenGVLab/InternVL3_5-8B",
+          "backend": "internvl35"
+        }
+      },
+      {
+        "perspective": {
+          "index": 5,
+          "name": "Consequence-Severity-First Perspective",
+          "prompt": "You are acting as a consequence-severity-first reviewer.\nYour task is to focus on whether the potential consequences of a risk event would be serious, hard to reverse, or costly to intervene in. Even if the probability is not the highest, keep the behavior if the realistic potential consequence is severe enough.\n\nFollow these principles:\n- Prioritize behaviors that could realistically lead to severe injury, long-term impact, emergency medical care, lasting functional impairment, or major property or environmental damage.\n- Judge not only whether an accident is likely, but also how costly the consequence would be if it occurred.\n- For borderline cases, analyze whether the most realistic negative consequence is already too significant to ignore.\n- If a behavior may lead to burns from heat, electric shock, falling from height, severe collision, poisoning, suffocation, or other serious outcomes, lean toward keeping it.\n- The standard emphasizes prevention of severe consequences, so low-probability but high-damage scenarios may justify keeping the behavior.\n\nOutput requirements for this perspective:\n- Explain the realistic severity of the possible consequence if the behavior develops into an accident.\n- Do not exaggerate minor or unimportant consequences.\n- Do not rely on extremely rare catastrophic scenarios without realistic support from the video."
+        },
+        "model": {
+          "model_id": "DAMO-NLP-SG/VideoLLaMA3-7B",
+          "backend": "videollama3"
+        }
+      }
+    ]
+  },
+  "agent_results": [
+    {
+      "perspective": {
+        "index": 1,
+        "name": "Daily Behavior Baseline Perspective",
+        "prompt": "You are acting as a daily-behavior baseline reviewer.\nYour task is to judge, from ordinary household experience, whether a candidate behavior clearly deviates from acceptable daily behavior and should be kept as a risk anomaly.\n\nFollow these principles:\n- Use common behavior patterns in ordinary home environments as the reference point. Do not use an overly sensitive or overly permissive standard.\n- If a behavior is usually normal, brief, and acceptable in most household scenes, do not easily mark it as a risk anomaly.\n- If a behavior clearly exceeds the normal range of daily activities and shows instability, a safety trigger, or potential harm, mark it as a risk anomaly.\n- For borderline cases, focus on whether the behavior has shifted from an acceptable daily activity into an abnormal risk behavior that deserves attention.\n- Keep the judgment close to ordinary common sense rather than medical, legal, or extreme safety standards.\n\nOutput requirements for this perspective:\n- Explain whether the behavior clearly deviates from the daily behavior baseline.\n- Keep the explanation concise, specific, and grounded only in the video content.\n- Do not mark a behavior as anomalous merely because it looks active.\n- Do not assume extra events outside the video."
+      },
+      "model": {
+        "model_id": "mPLUG/mPLUG-Owl3-7B-241101",
+        "backend": "mplugowl3"
+      },
+      "prompt_file": "/data_4/liuyuan/lifebench/public_data_filter/batch_outputs/web_20260429T170230Z/reviews/web_h264/bilibili__BV1WM411W7Cx/prompts/01_Daily_Behavior_Baseline_Perspective.txt",
+      "output_json": "/data_4/liuyuan/lifebench/public_data_filter/batch_outputs/web_20260429T170230Z/reviews/web_h264/bilibili__BV1WM411W7Cx/agent_outputs/01_Daily_Behavior_Baseline_Perspective.json",
+      "stdout_log": "/data_4/liuyuan/lifebench/public_data_filter/batch_outputs/web_20260429T170230Z/reviews/web_h264/bilibili__BV1WM411W7Cx/logs/01_Daily_Behavior_Baseline_Perspective.stdout.log",
+      "stderr_log": "/data_4/liuyuan/lifebench/public_data_filter/batch_outputs/web_20260429T170230Z/reviews/web_h264/bilibili__BV1WM411W7Cx/logs/01_Daily_Behavior_Baseline_Perspective.stderr.log",
+      "worker_id": "02_mplugowl3_gpu1",
+      "gpu_id": "1",
+      "returncode": 0,
+      "elapsed_seconds": 17.828,
+      "response": "Risk presence: Yes\nLevel 1 scene: dining room\nLevel 2 subject: child\nLevel 3 risk type: fall/instability\nRisk description: The child is at risk of falling from the high chair, which could result in injury.\nRisk time interval: [0, 10]\nSolution for person: Ensure the child is securely fastened in the high chair and supervised at all times.\nSolution for hazard source: Check the high chair for stability and ensure it is properly set up.\nSolution to prevent recurrence: Regularly inspect the high chair and the child's seating area for any potential hazards and ensure proper use of safety restraints.",
+      "parsed_decision": {
+        "candidate_behavior": "",
+        "risk_presence_raw": "Yes",
+        "risk_presence": "Yes",
+        "keep_raw": "Yes",
+        "keep": true,
+        "level1_scene": "dining room",
+        "level2_subject": "child",
+        "level3_risk_type": "fall/instability",
+        "risk_description": "The child is at risk of falling from the high chair, which could result in injury.",
+        "risk_time_interval": "[0, 10]",
+        "solution_for_person": "Ensure the child is securely fastened in the high chair and supervised at all times.",
+        "solution_for_hazard_source": "Check the high chair for stability and ensure it is properly set up.",
+        "solution_to_prevent_recurrence": "Regularly inspect the high chair and the child's seating area for any potential hazards and ensure proper use of safety restraints.",
+        "normal_video_description": "",
+        "reason": ""
+      },
+      "runner_payload": {
+        "backend": "mplugowl3",
+        "description": "mPLUG-Owl3 video chat model",
+        "model_id": "mPLUG/mPLUG-Owl3-7B-241101",
+        "model_path": "/data_4/liuyuan/lifebench/models/mPLUG__mPLUG-Owl3-7B-241101",
+        "video_path": "/data_4/liuyuan/lifebench/data/public_data/web_h264/bilibili__BV1WM411W7Cx.mp4",
+        "prompt": "You are acting as a daily-behavior baseline reviewer.\nYour task is to judge, from ordinary household experience, whether a candidate behavior clearly deviates from acceptable daily behavior and should be kept as a risk anomaly.\n\nFollow these principles:\n- Use common behavior patterns in ordinary home environments as the reference point. Do not use an overly sensitive or overly permissive standard.\n- If a behavior is usually normal, brief, and acceptable in most household scenes, do not easily mark it as a risk anomaly.\n- If a behavior clearly exceeds the normal range of daily activities and shows instability, a safety trigger, or potential harm, mark it as a risk anomaly.\n- For borderline cases, focus on whether the behavior has shifted from an acceptable daily activity into an abnormal risk behavior that deserves attention.\n- Keep the judgment close to ordinary common sense rather than medical, legal, or extreme safety standards.\n\nOutput requirements for this perspective:\n- Explain whether the behavior clearly deviates from the daily behavior baseline.\n- Keep the explanation concise, specific, and grounded only in the video content.\n- Do not mark a behavior as anomalous merely because it looks active.\n- Do not assume extra events outside the video.\n\nTask addendum:\nReview the input video and first decide whether the video contains a risk.\nBase your judgment only on the video content. Do not assume facts outside the video, and do not invent extra events.\nJudge the main visible behavior and scene in the video.\nYou must answer based on the provided video input. Do not say that you cannot watch or inspect the video.\nOutput exactly the following English-labeled fields, with no markdown and no extra text:\nRisk presence: Yes / No\nLevel 1 scene: output one scene keyword. Prefer one of: dining room, kitchen, study, balcony, living room, bathroom, yard. If none fits, output your own concise scene keyword.\nLevel 2 subject: output one subject keyword. Prefer one of: child, older adult, young adult, middle-aged adult. If none fits, output your own concise subject keyword.\nLevel 3 risk type: if Risk presence is Yes, output one risk keyword. Prefer one of: fall/instability, heat/fire source, collision/crush injury, sharp-object danger, electrical safety, poisoning/accidental ingestion, interpersonal conflict. If none fits, output your own concise risk keyword. If Risk presence is No, output None.\nRisk description: if Risk presence is Yes, describe the risk in 1-3 sentences. If Risk presence is No, output None.\nRisk time interval: if Risk presence is Yes, localize the risk as seconds like [start,end]. If there are multiple intervals, separate them with semicolons. If the exact interval is unclear, output Unknown. If Risk presence is No, output None.\nSolution for person: if Risk presence is Yes, give a concrete action for the person or caregiver. If Risk presence is No, output None.\nSolution for hazard source: if Risk presence is Yes, give a concrete action for the hazard source or environment. If Risk presence is No, output None.\nSolution to prevent recurrence: if Risk presence is Yes, give a prevention measure to reduce recurrence. If Risk presence is No, output None.\nNormal video description: if Risk presence is No, describe the normal video content in 1-3 sentences. If Risk presence is Yes, output None.",
+        "response": "Risk presence: Yes\nLevel 1 scene: dining room\nLevel 2 subject: child\nLevel 3 risk type: fall/instability\nRisk description: The child is at risk of falling from the high chair, which could result in injury.\nRisk time interval: [0, 10]\nSolution for person: Ensure the child is securely fastened in the high chair and supervised at all times.\nSolution for hazard source: Check the high chair for stability and ensure it is properly set up.\nSolution to prevent recurrence: Regularly inspect the high chair and the child's seating area for any potential hazards and ensure proper use of safety restraints.",
+        "parsed_response": {
+          "risk_status": "normal",
+          "has_risk": false,
+          "risk_type": "",
+          "video_description": "Risk presence: Yes Level 1 scene: dining room Level 2 subject: child Level 3 risk type: fall/instability Risk description: The child is at risk of falling from the high chair, which could result in injury. Risk time interval: [0, 10] Solution for person: Ensure the child is securely fastened in the high chair and supervised at all times. Solution for hazard source: Check the high chair for stability and ensure it is properly set up. Solution to prevent recurrence: Regularly inspect the high chair and the child's seating area for any potential hazards and ensure proper use of safety restraints.",
+          "safe_segment_desc": "Risk presence: Yes Level 1 scene: dining room Level 2 subject: child Level 3 risk type: fall/instability Risk description: The child is at risk of falling from the high chair, which could result in injury. Risk time interval: [0, 10] Solution for person: Ensure the child is securely fastened in the high chair and supervised at all times. Solution for hazard source: Check the high chair for stability and ensure it is properly set up. Solution to prevent recurrence: Regularly inspect the high chair and the child's seating area for any potential hazards and ensure proper use of safety restraints.",
+          "risk_description": "",
+          "solution": "",
+          "time_spans": []
+        },
+        "generation": {
+          "temperature": 0.0,
+          "top_p": 0.9,
+          "max_new_tokens": 256,
+          "fps": 1.0,
+          "max_frames": 16,
+          "merge_size": 2
+        },
+        "elapsed_seconds": 17.828
+      }
+    },
+    {
+      "perspective": {
+        "index": 2,
+        "name": "Conservative Safety Perspective",
+        "prompt": "You are acting as a conservative safety reviewer.\nYour task is to minimize missed risks. If a candidate behavior has a realistic possibility of injury, loss of control, or accident triggering, it may be kept as a risk anomaly.\n\nFollow these principles:\n- Apply a cautious safety standard, prioritizing behaviors that may lead to falls, collisions, burns, electric shock, accidental ingestion, cuts, or other household injuries.\n- Even if harm has not occurred yet, keep the behavior if it already contains a clear risk trigger or is in an accident-prone state.\n- For borderline cases, focus on whether the behavior deserves early intervention rather than waiting for harm to happen.\n- If a behavior would commonly be stopped or warned against by family members, guardians, or caregivers, lean toward keeping it.\n- The goal is to reduce false negatives, so ambiguous cases may be judged slightly conservatively.\n\nOutput requirements for this perspective:\n- Explain what realistic harm the behavior may trigger and why it should or should not be kept under a conservative safety standard.\n- You do not need to prove that harm will definitely occur.\n- Do not exaggerate beyond an ordinary household context."
+      },
+      "model": {
+        "model_id": "openbmb/MiniCPM-V-4_5",
+        "backend": "minicpmv45"
+      },
+      "prompt_file": "/data_4/liuyuan/lifebench/public_data_filter/batch_outputs/web_20260429T170230Z/reviews/web_h264/bilibili__BV1WM411W7Cx/prompts/02_Conservative_Safety_Perspective.txt",
+      "output_json": "/data_4/liuyuan/lifebench/public_data_filter/batch_outputs/web_20260429T170230Z/reviews/web_h264/bilibili__BV1WM411W7Cx/agent_outputs/02_Conservative_Safety_Perspective.json",
+      "stdout_log": "/data_4/liuyuan/lifebench/public_data_filter/batch_outputs/web_20260429T170230Z/reviews/web_h264/bilibili__BV1WM411W7Cx/logs/02_Conservative_Safety_Perspective.stdout.log",
+      "stderr_log": "/data_4/liuyuan/lifebench/public_data_filter/batch_outputs/web_20260429T170230Z/reviews/web_h264/bilibili__BV1WM411W7Cx/logs/02_Conservative_Safety_Perspective.stderr.log",
+      "worker_id": null,
+      "gpu_id": null,
+      "returncode": 0,
+      "elapsed_seconds": 0.0,
+      "reused_agent_output": true,
+      "response": "Risk presence: Yes\nLevel 1 scene: living room\nLevel 2 subject: child\nLevel 3 risk type: fall/instability\nRisk description: The baby was placed in a high chair without proper safety restraints, leading to a fall and potential injury.\nRisk time interval: Unknown\nSolution for person: Ensure the child is always secured with proper safety restraints when placed in elevated positions.\nSolution for hazard source: None\nSolution to prevent recurrence: Always use safety harnesses or straps when placing a child in a high chair or similar elevated seating.\nNormal video description: The video shows a child falling from a high chair after being placed there without safety restraints, followed by parents attending to the child.",
+      "parsed_decision": {
+        "candidate_behavior": "",
+        "risk_presence_raw": "Yes",
+        "risk_presence": "Yes",
+        "keep_raw": "Yes",
+        "keep": true,
+        "level1_scene": "living room",
+        "level2_subject": "child",
+        "level3_risk_type": "fall/instability",
+        "risk_description": "The baby was placed in a high chair without proper safety restraints, leading to a fall and potential injury.",
+        "risk_time_interval": "Unknown",
+        "solution_for_person": "Ensure the child is always secured with proper safety restraints when placed in elevated positions.",
+        "solution_for_hazard_source": "None",
+        "solution_to_prevent_recurrence": "Always use safety harnesses or straps when placing a child in a high chair or similar elevated seating.",
+        "normal_video_description": "The video shows a child falling from a high chair after being placed there without safety restraints, followed by parents attending to the child.",
+        "reason": ""
+      },
+      "runner_payload": {
+        "backend": "minicpmv45",
+        "description": "MiniCPM-V 4.5 efficient image/video understanding model",
+        "model_id": "openbmb/MiniCPM-V-4_5",
+        "model_path": "/data_4/liuyuan/lifebench/models/openbmb__MiniCPM-V-4_5",
+        "video_path": "/data_4/liuyuan/lifebench/data/public_data/web_h264/bilibili__BV1WM411W7Cx.mp4",
+        "prompt": "You are acting as a conservative safety reviewer.\nYour task is to minimize missed risks. If a candidate behavior has a realistic possibility of injury, loss of control, or accident triggering, it may be kept as a risk anomaly.\n\nFollow these principles:\n- Apply a cautious safety standard, prioritizing behaviors that may lead to falls, collisions, burns, electric shock, accidental ingestion, cuts, or other household injuries.\n- Even if harm has not occurred yet, keep the behavior if it already contains a clear risk trigger or is in an accident-prone state.\n- For borderline cases, focus on whether the behavior deserves early intervention rather than waiting for harm to happen.\n- If a behavior would commonly be stopped or warned against by family members, guardians, or caregivers, lean toward keeping it.\n- The goal is to reduce false negatives, so ambiguous cases may be judged slightly conservatively.\n\nOutput requirements for this perspective:\n- Explain what realistic harm the behavior may trigger and why it should or should not be kept under a conservative safety standard.\n- You do not need to prove that harm will definitely occur.\n- Do not exaggerate beyond an ordinary household context.\n\nTask addendum:\nReview the input video and first decide whether the video contains a risk.\nBase your judgment only on the video content. Do not assume facts outside the video, and do not invent extra events.\nJudge the main visible behavior and scene in the video.\nYou must answer based on the provided video input. Do not say that you cannot watch or inspect the video.\nOutput exactly the following English-labeled fields, with no markdown and no extra text:\nRisk presence: Yes / No\nLevel 1 scene: output one scene keyword. Prefer one of: dining room, kitchen, study, balcony, living room, bathroom, yard. If none fits, output your own concise scene keyword.\nLevel 2 subject: output one subject keyword. Prefer one of: child, older adult, young adult, middle-aged adult. If none fits, output your own concise subject keyword.\nLevel 3 risk type: if Risk presence is Yes, output one risk keyword. Prefer one of: fall/instability, heat/fire source, collision/crush injury, sharp-object danger, electrical safety, poisoning/accidental ingestion, interpersonal conflict. If none fits, output your own concise risk keyword. If Risk presence is No, output None.\nRisk description: if Risk presence is Yes, describe the risk in 1-3 sentences. If Risk presence is No, output None.\nRisk time interval: if Risk presence is Yes, localize the risk as seconds like [start,end]. If there are multiple intervals, separate them with semicolons. If the exact interval is unclear, output Unknown. If Risk presence is No, output None.\nSolution for person: if Risk presence is Yes, give a concrete action for the person or caregiver. If Risk presence is No, output None.\nSolution for hazard source: if Risk presence is Yes, give a concrete action for the hazard source or environment. If Risk presence is No, output None.\nSolution to prevent recurrence: if Risk presence is Yes, give a prevention measure to reduce recurrence. If Risk presence is No, output None.\nNormal video description: if Risk presence is No, describe the normal video content in 1-3 sentences. If Risk presence is Yes, output None.",
+        "response": "Risk presence: Yes\nLevel 1 scene: living room\nLevel 2 subject: child\nLevel 3 risk type: fall/instability\nRisk description: The baby was placed in a high chair without proper safety restraints, leading to a fall and potential injury.\nRisk time interval: Unknown\nSolution for person: Ensure the child is always secured with proper safety restraints when placed in elevated positions.\nSolution for hazard source: None\nSolution to prevent recurrence: Always use safety harnesses or straps when placing a child in a high chair or similar elevated seating.\nNormal video description: The video shows a child falling from a high chair after being placed there without safety restraints, followed by parents attending to the child.",
+        "parsed_response": {
+          "risk_status": "normal",
+          "has_risk": false,
+          "risk_type": "",
+          "video_description": "Risk presence: Yes Level 1 scene: living room Level 2 subject: child Level 3 risk type: fall/instability Risk description: The baby was placed in a high chair without proper safety restraints, leading to a fall and potential injury. Risk time interval: Unknown Solution for person: Ensure the child is always secured with proper safety restraints when placed in elevated positions. Solution for hazard source: None Solution to prevent recurrence: Always use safety harnesses or straps when placing a child in a high chair or similar elevated seating. Normal video description: The video shows a child falling from a high chair after being placed there without safety restraints, followed by parents attending to the child.",
+          "safe_segment_desc": "Risk presence: Yes Level 1 scene: living room Level 2 subject: child Level 3 risk type: fall/instability Risk description: The baby was placed in a high chair without proper safety restraints, leading to a fall and potential injury. Risk time interval: Unknown Solution for person: Ensure the child is always secured with proper safety restraints when placed in elevated positions. Solution for hazard source: None Solution to prevent recurrence: Always use safety harnesses or straps when placing a child in a high chair or similar elevated seating. Normal video description: The video shows a child falling from a high chair after being placed there without safety restraints, followed by parents attending to the child.",
+          "risk_description": "",
+          "solution": "",
+          "time_spans": []
+        },
+        "generation": {
+          "temperature": 0.0,
+          "top_p": 0.9,
+          "max_new_tokens": 256,
+          "fps": 1.0,
+          "max_frames": 16,
+          "merge_size": 2
+        },
+        "elapsed_seconds": 16.262
+      }
+    },
+    {
+      "perspective": {
+        "index": 3,
+        "name": "Permissive Behavior Tolerance Perspective",
+        "prompt": "You are acting as a permissive behavior-tolerance reviewer.\nYour task is to judge from a higher tolerance threshold whether a candidate behavior truly reaches the level of a risk anomaly. Only keep it when the behavior clearly exceeds normal activity, playfulness, exploration, or brief mistakes.\n\nFollow these principles:\n- Maintain reasonable tolerance for common active behavior, brief imbalance, and minor irregular actions in household scenes.\n- Keep a behavior only when it has clear, direct, and realistic danger, or when it clearly leaves the boundary of generally acceptable daily behavior.\n- If a behavior has some uncertainty but commonly occurs in real life and would not usually be considered dangerous enough for special intervention, lean toward not keeping it.\n- For borderline cases, prioritize avoiding over-definition of ordinary life behavior as abnormal.\n- The goal is to reduce false positives, so keep only when the evidence is reasonably strong.\n\nOutput requirements for this perspective:\n- Explain whether the behavior remains within a tolerable daily behavior range.\n- Do not keep a behavior merely because it has a small possible risk.\n- Do not automatically treat all child play, pet activity, slow elderly movement, or similar ordinary behavior as abnormal."
+      },
+      "model": {
+        "model_id": "Qwen/Qwen3.5-9B",
+        "backend": "qwen35vl"
+      },
+      "prompt_file": "/data_4/liuyuan/lifebench/public_data_filter/batch_outputs/web_20260429T170230Z/reviews/web_h264/bilibili__BV1WM411W7Cx/prompts/03_Permissive_Behavior_Tolerance_Perspective.txt",
+      "output_json": "/data_4/liuyuan/lifebench/public_data_filter/batch_outputs/web_20260429T170230Z/reviews/web_h264/bilibili__BV1WM411W7Cx/agent_outputs/03_Permissive_Behavior_Tolerance_Perspective.json",
+      "stdout_log": "/data_4/liuyuan/lifebench/public_data_filter/batch_outputs/web_20260429T170230Z/reviews/web_h264/bilibili__BV1WM411W7Cx/logs/03_Permissive_Behavior_Tolerance_Perspective.stdout.log",
+      "stderr_log": "/data_4/liuyuan/lifebench/public_data_filter/batch_outputs/web_20260429T170230Z/reviews/web_h264/bilibili__BV1WM411W7Cx/logs/03_Permissive_Behavior_Tolerance_Perspective.stderr.log",
+      "worker_id": null,
+      "gpu_id": null,
+      "returncode": 0,
+      "elapsed_seconds": 0.0,
+      "reused_agent_output": true,
+      "response": "Risk presence: Yes\nLevel 1 scene: dining room\nLevel 2 subject: child\nLevel 3 risk type: fall/instability\nRisk description: A caregiver places a child in a high chair but fails to secure the safety straps, causing the child to fall out. This represents a clear safety failure where the child was left unsecured in a piece of furniture that is not stable enough to hold them without restraints.\nRisk time interval: [00:00, 00:08]\nSolution for person: The caregiver must immediately secure the child with the safety straps and ensure the child is properly seated before leaving them unattended.\nSolution for hazard source: The high chair should be used with all safety features engaged, and potentially replaced with a more secure option if the current one is unreliable.\nSolution to prevent recurrence: Caregivers should always double-check that safety straps are fastened correctly before placing a child in any elevated seat and never leave a child unattended in a high chair.\nNormal video description: None",
+      "parsed_decision": {
+        "candidate_behavior": "",
+        "risk_presence_raw": "Yes",
+        "risk_presence": "Yes",
+        "keep_raw": "Yes",
+        "keep": true,
+        "level1_scene": "dining room",
+        "level2_subject": "child",
+        "level3_risk_type": "fall/instability",
+        "risk_description": "A caregiver places a child in a high chair but fails to secure the safety straps, causing the child to fall out. This represents a clear safety failure where the child was left unsecured in a piece of furniture that is not stable enough to hold them without restraints.",
+        "risk_time_interval": "[00:00, 00:08]",
+        "solution_for_person": "The caregiver must immediately secure the child with the safety straps and ensure the child is properly seated before leaving them unattended.",
+        "solution_for_hazard_source": "The high chair should be used with all safety features engaged, and potentially replaced with a more secure option if the current one is unreliable.",
+        "solution_to_prevent_recurrence": "Caregivers should always double-check that safety straps are fastened correctly before placing a child in any elevated seat and never leave a child unattended in a high chair.",
+        "normal_video_description": "None",
+        "reason": ""
+      },
+      "runner_payload": {
+        "backend": "qwen35vl",
+        "description": "Qwen3.5 multimodal single-video inference",
+        "model_id": "Qwen/Qwen3.5-9B",
+        "model_path": "/data_4/liuyuan/lifebench/models/Qwen/Qwen3.5-9B",
+        "video_path": "/data_4/liuyuan/lifebench/data/public_data/web_h264/bilibili__BV1WM411W7Cx.mp4",
+        "prompt": "You are acting as a permissive behavior-tolerance reviewer.\nYour task is to judge from a higher tolerance threshold whether a candidate behavior truly reaches the level of a risk anomaly. Only keep it when the behavior clearly exceeds normal activity, playfulness, exploration, or brief mistakes.\n\nFollow these principles:\n- Maintain reasonable tolerance for common active behavior, brief imbalance, and minor irregular actions in household scenes.\n- Keep a behavior only when it has clear, direct, and realistic danger, or when it clearly leaves the boundary of generally acceptable daily behavior.\n- If a behavior has some uncertainty but commonly occurs in real life and would not usually be considered dangerous enough for special intervention, lean toward not keeping it.\n- For borderline cases, prioritize avoiding over-definition of ordinary life behavior as abnormal.\n- The goal is to reduce false positives, so keep only when the evidence is reasonably strong.\n\nOutput requirements for this perspective:\n- Explain whether the behavior remains within a tolerable daily behavior range.\n- Do not keep a behavior merely because it has a small possible risk.\n- Do not automatically treat all child play, pet activity, slow elderly movement, or similar ordinary behavior as abnormal.\n\nTask addendum:\nReview the input video and first decide whether the video contains a risk.\nBase your judgment only on the video content. Do not assume facts outside the video, and do not invent extra events.\nJudge the main visible behavior and scene in the video.\nYou must answer based on the provided video input. Do not say that you cannot watch or inspect the video.\nOutput exactly the following English-labeled fields, with no markdown and no extra text:\nRisk presence: Yes / No\nLevel 1 scene: output one scene keyword. Prefer one of: dining room, kitchen, study, balcony, living room, bathroom, yard. If none fits, output your own concise scene keyword.\nLevel 2 subject: output one subject keyword. Prefer one of: child, older adult, young adult, middle-aged adult. If none fits, output your own concise subject keyword.\nLevel 3 risk type: if Risk presence is Yes, output one risk keyword. Prefer one of: fall/instability, heat/fire source, collision/crush injury, sharp-object danger, electrical safety, poisoning/accidental ingestion, interpersonal conflict. If none fits, output your own concise risk keyword. If Risk presence is No, output None.\nRisk description: if Risk presence is Yes, describe the risk in 1-3 sentences. If Risk presence is No, output None.\nRisk time interval: if Risk presence is Yes, localize the risk as seconds like [start,end]. If there are multiple intervals, separate them with semicolons. If the exact interval is unclear, output Unknown. If Risk presence is No, output None.\nSolution for person: if Risk presence is Yes, give a concrete action for the person or caregiver. If Risk presence is No, output None.\nSolution for hazard source: if Risk presence is Yes, give a concrete action for the hazard source or environment. If Risk presence is No, output None.\nSolution to prevent recurrence: if Risk presence is Yes, give a prevention measure to reduce recurrence. If Risk presence is No, output None.\nNormal video description: if Risk presence is No, describe the normal video content in 1-3 sentences. If Risk presence is Yes, output None.",
+        "response": "Risk presence: Yes\nLevel 1 scene: dining room\nLevel 2 subject: child\nLevel 3 risk type: fall/instability\nRisk description: A caregiver places a child in a high chair but fails to secure the safety straps, causing the child to fall out. This represents a clear safety failure where the child was left unsecured in a piece of furniture that is not stable enough to hold them without restraints.\nRisk time interval: [00:00, 00:08]\nSolution for person: The caregiver must immediately secure the child with the safety straps and ensure the child is properly seated before leaving them unattended.\nSolution for hazard source: The high chair should be used with all safety features engaged, and potentially replaced with a more secure option if the current one is unreliable.\nSolution to prevent recurrence: Caregivers should always double-check that safety straps are fastened correctly before placing a child in any elevated seat and never leave a child unattended in a high chair.\nNormal video description: None",
+        "parsed_response": {
+          "risk_status": "normal",
+          "has_risk": false,
+          "risk_type": "",
+          "video_description": "Risk presence: Yes Level 1 scene: dining room Level 2 subject: child Level 3 risk type: fall/instability Risk description: A caregiver places a child in a high chair but fails to secure the safety straps, causing the child to fall out. This represents a clear safety failure where the child was left unsecured in a piece of furniture that is not stable enough to hold them without restraints. Risk time interval: [00:00, 00:08] Solution for person: The caregiver must immediately secure the child with the safety straps and ensure the child is properly seated before leaving them unattended. Solution for hazard source: The high chair should be used with all safety features engaged, and potentially replaced with a more secure option if the current one is unreliable. Solution to prevent recurrence: Caregivers should always double-check that safety straps are fastened correctly before placing a child in any elevated seat and never leave a child unattended in a high chair. Normal video description: None",
+          "safe_segment_desc": "Risk presence: Yes Level 1 scene: dining room Level 2 subject: child Level 3 risk type: fall/instability Risk description: A caregiver places a child in a high chair but fails to secure the safety straps, causing the child to fall out. This represents a clear safety failure where the child was left unsecured in a piece of furniture that is not stable enough to hold them without restraints. Risk time interval: [00:00, 00:08] Solution for person: The caregiver must immediately secure the child with the safety straps and ensure the child is properly seated before leaving them unattended. Solution for hazard source: The high chair should be used with all safety features engaged, and potentially replaced with a more secure option if the current one is unreliable. Solution to prevent recurrence: Caregivers should always double-check that safety straps are fastened correctly before placing a child in any elevated seat and never leave a child unattended in a high chair. Normal video description: None",
+          "risk_description": "",
+          "solution": "",
+          "time_spans": []
+        },
+        "generation": {
+          "temperature": 0.0,
+          "top_p": 0.9,
+          "max_new_tokens": 256,
+          "fps": 1.0,
+          "max_frames": 16,
+          "merge_size": 2
+        },
+        "elapsed_seconds": 31.527
+      }
+    },
+    {
+      "perspective": {
+        "index": 4,
+        "name": "Vulnerable-Subject-First Perspective",
+        "prompt": "You are acting as a vulnerable-subject-first reviewer.\nYour task is to judge the candidate behavior with priority given to the safety of children, older adults, people with limited mobility, people recovering from illness, pregnant people, pets, or other vulnerable subjects. If the behavior creates a realistic additional risk for a vulnerable subject, lean toward keeping it as a risk anomaly.\n\nFollow these principles:\n- Focus on whether the behavior creates disproportionate risk for a subject with weaker body control, weaker risk awareness, or limited self-protection ability.\n- A behavior that may not be abnormal for an ordinary adult can still be a risk anomaly if its danger clearly increases for a child, older adult, pet, or other vulnerable subject.\n- For borderline cases, consider whether the vulnerable subject would have more difficulty avoiding injury, would suffer more serious consequences, or would receive help more slowly.\n- In caregiving, companionship, or household life scenes, pay special attention to insufficient supervision, missing protection, or an environment that does not fit the subject's needs.\n- The core standard is not whether the behavior is dangerous for an average adult, but whether it has reached a level requiring attention or intervention for the vulnerable subject shown in the video.\n\nOutput requirements for this perspective:\n- Explain the specific risk to the vulnerable subject, if one is present.\n- Do not invent illness, disability, age, or severe impairment that is not supported by the video.\n- Do not generalize vulnerability without evidence from the video."
+      },
+      "model": {
+        "model_id": "OpenGVLab/InternVL3_5-8B",
+        "backend": "internvl35"
+      },
+      "prompt_file": "/data_4/liuyuan/lifebench/public_data_filter/batch_outputs/web_20260429T170230Z/reviews/web_h264/bilibili__BV1WM411W7Cx/prompts/04_Vulnerable-Subject-First_Perspective.txt",
+      "output_json": "/data_4/liuyuan/lifebench/public_data_filter/batch_outputs/web_20260429T170230Z/reviews/web_h264/bilibili__BV1WM411W7Cx/agent_outputs/04_Vulnerable-Subject-First_Perspective.json",
+      "stdout_log": "/data_4/liuyuan/lifebench/public_data_filter/batch_outputs/web_20260429T170230Z/reviews/web_h264/bilibili__BV1WM411W7Cx/logs/04_Vulnerable-Subject-First_Perspective.stdout.log",
+      "stderr_log": "/data_4/liuyuan/lifebench/public_data_filter/batch_outputs/web_20260429T170230Z/reviews/web_h264/bilibili__BV1WM411W7Cx/logs/04_Vulnerable-Subject-First_Perspective.stderr.log",
+      "worker_id": null,
+      "gpu_id": null,
+      "returncode": 0,
+      "elapsed_seconds": 0.0,
+      "reused_agent_output": true,
+      "response": "Risk presence: Yes\nLevel 1 scene: living room\nLevel 2 subject: child\nLevel 3 risk type: fall/instability\nRisk description: The child falls from a high chair, which poses a risk of injury due to the fall.\nRisk time interval: [0,10]; [10,20]\nSolution for person: Ensure the child is always supervised and secured with a safety harness when placed in a high chair.\nSolution for hazard source: Install a safety gate around the high chair area to prevent falls.\nSolution to prevent recurrence: Always use a childproofing device or safety harness when placing a child in a high chair and ensure constant supervision.\nNormal video description: None",
+      "parsed_decision": {
+        "candidate_behavior": "",
+        "risk_presence_raw": "Yes",
+        "risk_presence": "Yes",
+        "keep_raw": "Yes",
+        "keep": true,
+        "level1_scene": "living room",
+        "level2_subject": "child",
+        "level3_risk_type": "fall/instability",
+        "risk_description": "The child falls from a high chair, which poses a risk of injury due to the fall.",
+        "risk_time_interval": "[0,10]; [10,20]",
+        "solution_for_person": "Ensure the child is always supervised and secured with a safety harness when placed in a high chair.",
+        "solution_for_hazard_source": "Install a safety gate around the high chair area to prevent falls.",
+        "solution_to_prevent_recurrence": "Always use a childproofing device or safety harness when placing a child in a high chair and ensure constant supervision.",
+        "normal_video_description": "None",
+        "reason": ""
+      },
+      "runner_payload": {
+        "backend": "internvl35",
+        "description": "InternVL3.5 8B multimodal video chat model",
+        "model_id": "OpenGVLab/InternVL3_5-8B",
+        "model_path": "/data_4/liuyuan/lifebench/models/OpenGVLab__InternVL3_5-8B",
+        "video_path": "/data_4/liuyuan/lifebench/data/public_data/web_h264/bilibili__BV1WM411W7Cx.mp4",
+        "prompt": "You are acting as a vulnerable-subject-first reviewer.\nYour task is to judge the candidate behavior with priority given to the safety of children, older adults, people with limited mobility, people recovering from illness, pregnant people, pets, or other vulnerable subjects. If the behavior creates a realistic additional risk for a vulnerable subject, lean toward keeping it as a risk anomaly.\n\nFollow these principles:\n- Focus on whether the behavior creates disproportionate risk for a subject with weaker body control, weaker risk awareness, or limited self-protection ability.\n- A behavior that may not be abnormal for an ordinary adult can still be a risk anomaly if its danger clearly increases for a child, older adult, pet, or other vulnerable subject.\n- For borderline cases, consider whether the vulnerable subject would have more difficulty avoiding injury, would suffer more serious consequences, or would receive help more slowly.\n- In caregiving, companionship, or household life scenes, pay special attention to insufficient supervision, missing protection, or an environment that does not fit the subject's needs.\n- The core standard is not whether the behavior is dangerous for an average adult, but whether it has reached a level requiring attention or intervention for the vulnerable subject shown in the video.\n\nOutput requirements for this perspective:\n- Explain the specific risk to the vulnerable subject, if one is present.\n- Do not invent illness, disability, age, or severe impairment that is not supported by the video.\n- Do not generalize vulnerability without evidence from the video.\n\nTask addendum:\nReview the input video and first decide whether the video contains a risk.\nBase your judgment only on the video content. Do not assume facts outside the video, and do not invent extra events.\nJudge the main visible behavior and scene in the video.\nYou must answer based on the provided video input. Do not say that you cannot watch or inspect the video.\nOutput exactly the following English-labeled fields, with no markdown and no extra text:\nRisk presence: Yes / No\nLevel 1 scene: output one scene keyword. Prefer one of: dining room, kitchen, study, balcony, living room, bathroom, yard. If none fits, output your own concise scene keyword.\nLevel 2 subject: output one subject keyword. Prefer one of: child, older adult, young adult, middle-aged adult. If none fits, output your own concise subject keyword.\nLevel 3 risk type: if Risk presence is Yes, output one risk keyword. Prefer one of: fall/instability, heat/fire source, collision/crush injury, sharp-object danger, electrical safety, poisoning/accidental ingestion, interpersonal conflict. If none fits, output your own concise risk keyword. If Risk presence is No, output None.\nRisk description: if Risk presence is Yes, describe the risk in 1-3 sentences. If Risk presence is No, output None.\nRisk time interval: if Risk presence is Yes, localize the risk as seconds like [start,end]. If there are multiple intervals, separate them with semicolons. If the exact interval is unclear, output Unknown. If Risk presence is No, output None.\nSolution for person: if Risk presence is Yes, give a concrete action for the person or caregiver. If Risk presence is No, output None.\nSolution for hazard source: if Risk presence is Yes, give a concrete action for the hazard source or environment. If Risk presence is No, output None.\nSolution to prevent recurrence: if Risk presence is Yes, give a prevention measure to reduce recurrence. If Risk presence is No, output None.\nNormal video description: if Risk presence is No, describe the normal video content in 1-3 sentences. If Risk presence is Yes, output None.",
+        "response": "Risk presence: Yes\nLevel 1 scene: living room\nLevel 2 subject: child\nLevel 3 risk type: fall/instability\nRisk description: The child falls from a high chair, which poses a risk of injury due to the fall.\nRisk time interval: [0,10]; [10,20]\nSolution for person: Ensure the child is always supervised and secured with a safety harness when placed in a high chair.\nSolution for hazard source: Install a safety gate around the high chair area to prevent falls.\nSolution to prevent recurrence: Always use a childproofing device or safety harness when placing a child in a high chair and ensure constant supervision.\nNormal video description: None",
+        "parsed_response": {
+          "risk_status": "normal",
+          "has_risk": false,
+          "risk_type": "",
+          "video_description": "Risk presence: Yes Level 1 scene: living room Level 2 subject: child Level 3 risk type: fall/instability Risk description: The child falls from a high chair, which poses a risk of injury due to the fall. Risk time interval: [0,10]; [10,20] Solution for person: Ensure the child is always supervised and secured with a safety harness when placed in a high chair. Solution for hazard source: Install a safety gate around the high chair area to prevent falls. Solution to prevent recurrence: Always use a childproofing device or safety harness when placing a child in a high chair and ensure constant supervision. Normal video description: None",
+          "safe_segment_desc": "Risk presence: Yes Level 1 scene: living room Level 2 subject: child Level 3 risk type: fall/instability Risk description: The child falls from a high chair, which poses a risk of injury due to the fall. Risk time interval: [0,10]; [10,20] Solution for person: Ensure the child is always supervised and secured with a safety harness when placed in a high chair. Solution for hazard source: Install a safety gate around the high chair area to prevent falls. Solution to prevent recurrence: Always use a childproofing device or safety harness when placing a child in a high chair and ensure constant supervision. Normal video description: None",
+          "risk_description": "",
+          "solution": "",
+          "time_spans": []
+        },
+        "generation": {
+          "temperature": 0.0,
+          "top_p": 0.9,
+          "max_new_tokens": 256,
+          "fps": 1.0,
+          "max_frames": 16,
+          "merge_size": 2
+        },
+        "elapsed_seconds": 30.762
+      }
+    },
+    {
+      "perspective": {
+        "index": 5,
+        "name": "Consequence-Severity-First Perspective",
+        "prompt": "You are acting as a consequence-severity-first reviewer.\nYour task is to focus on whether the potential consequences of a risk event would be serious, hard to reverse, or costly to intervene in. Even if the probability is not the highest, keep the behavior if the realistic potential consequence is severe enough.\n\nFollow these principles:\n- Prioritize behaviors that could realistically lead to severe injury, long-term impact, emergency medical care, lasting functional impairment, or major property or environmental damage.\n- Judge not only whether an accident is likely, but also how costly the consequence would be if it occurred.\n- For borderline cases, analyze whether the most realistic negative consequence is already too significant to ignore.\n- If a behavior may lead to burns from heat, electric shock, falling from height, severe collision, poisoning, suffocation, or other serious outcomes, lean toward keeping it.\n- The standard emphasizes prevention of severe consequences, so low-probability but high-damage scenarios may justify keeping the behavior.\n\nOutput requirements for this perspective:\n- Explain the realistic severity of the possible consequence if the behavior develops into an accident.\n- Do not exaggerate minor or unimportant consequences.\n- Do not rely on extremely rare catastrophic scenarios without realistic support from the video."
+      },
+      "model": {
+        "model_id": "DAMO-NLP-SG/VideoLLaMA3-7B",
+        "backend": "videollama3"
+      },
+      "prompt_file": "/data_4/liuyuan/lifebench/public_data_filter/batch_outputs/web_20260429T170230Z/reviews/web_h264/bilibili__BV1WM411W7Cx/prompts/05_Consequence-Severity-First_Perspective.txt",
+      "output_json": "/data_4/liuyuan/lifebench/public_data_filter/batch_outputs/web_20260429T170230Z/reviews/web_h264/bilibili__BV1WM411W7Cx/agent_outputs/05_Consequence-Severity-First_Perspective.json",
+      "stdout_log": "/data_4/liuyuan/lifebench/public_data_filter/batch_outputs/web_20260429T170230Z/reviews/web_h264/bilibili__BV1WM411W7Cx/logs/05_Consequence-Severity-First_Perspective.stdout.log",
+      "stderr_log": "/data_4/liuyuan/lifebench/public_data_filter/batch_outputs/web_20260429T170230Z/reviews/web_h264/bilibili__BV1WM411W7Cx/logs/05_Consequence-Severity-First_Perspective.stderr.log",
+      "worker_id": null,
+      "gpu_id": null,
+      "returncode": 0,
+      "elapsed_seconds": 0.0,
+      "reused_agent_output": true,
+      "response": "Risk presence: Yes\nLevel 1 scene: dining room\nLevel 2 subject: child\nLevel 3 risk type: fall/instability\nRisk description: The child is playing with a toy on the floor, which could pose a risk of falling and injuring themselves. Additionally, there are various objects within reach that could be knocked over or cause a hazard if the child were to move quickly.\nRisk time interval: Unknown\nSolution for person: Ensure that the child is supervised while playing and provide a safe environment by removing any potential hazards from their reach.\nSolution for hazard source: None\nSolution to prevent recurrence: Regularly check the area for potential hazards and ensure that the child's play area is safe and free from obstacles.\nNormal video description: The video shows a child playing in a dining room with various toys and objects around them.",
+      "parsed_decision": {
+        "candidate_behavior": "",
+        "risk_presence_raw": "Yes",
+        "risk_presence": "Yes",
+        "keep_raw": "Yes",
+        "keep": true,
+        "level1_scene": "dining room",
+        "level2_subject": "child",
+        "level3_risk_type": "fall/instability",
+        "risk_description": "The child is playing with a toy on the floor, which could pose a risk of falling and injuring themselves. Additionally, there are various objects within reach that could be knocked over or cause a hazard if the child were to move quickly.",
+        "risk_time_interval": "Unknown",
+        "solution_for_person": "Ensure that the child is supervised while playing and provide a safe environment by removing any potential hazards from their reach.",
+        "solution_for_hazard_source": "None",
+        "solution_to_prevent_recurrence": "Regularly check the area for potential hazards and ensure that the child's play area is safe and free from obstacles.",
+        "normal_video_description": "The video shows a child playing in a dining room with various toys and objects around them.",
+        "reason": ""
+      },
+      "runner_payload": {
+        "backend": "videollama3",
+        "description": "VideoLLaMA3 7B video chat model",
+        "model_id": "DAMO-NLP-SG/VideoLLaMA3-7B",
+        "model_path": "/data_4/liuyuan/lifebench/models/DAMO-NLP-SG__VideoLLaMA3-7B",
+        "video_path": "/data_4/liuyuan/lifebench/data/public_data/web_h264/bilibili__BV1WM411W7Cx.mp4",
+        "prompt": "You are acting as a consequence-severity-first reviewer.\nYour task is to focus on whether the potential consequences of a risk event would be serious, hard to reverse, or costly to intervene in. Even if the probability is not the highest, keep the behavior if the realistic potential consequence is severe enough.\n\nFollow these principles:\n- Prioritize behaviors that could realistically lead to severe injury, long-term impact, emergency medical care, lasting functional impairment, or major property or environmental damage.\n- Judge not only whether an accident is likely, but also how costly the consequence would be if it occurred.\n- For borderline cases, analyze whether the most realistic negative consequence is already too significant to ignore.\n- If a behavior may lead to burns from heat, electric shock, falling from height, severe collision, poisoning, suffocation, or other serious outcomes, lean toward keeping it.\n- The standard emphasizes prevention of severe consequences, so low-probability but high-damage scenarios may justify keeping the behavior.\n\nOutput requirements for this perspective:\n- Explain the realistic severity of the possible consequence if the behavior develops into an accident.\n- Do not exaggerate minor or unimportant consequences.\n- Do not rely on extremely rare catastrophic scenarios without realistic support from the video.\n\nTask addendum:\nReview the input video and first decide whether the video contains a risk.\nBase your judgment only on the video content. Do not assume facts outside the video, and do not invent extra events.\nJudge the main visible behavior and scene in the video.\nYou must answer based on the provided video input. Do not say that you cannot watch or inspect the video.\nOutput exactly the following English-labeled fields, with no markdown and no extra text:\nRisk presence: Yes / No\nLevel 1 scene: output one scene keyword. Prefer one of: dining room, kitchen, study, balcony, living room, bathroom, yard. If none fits, output your own concise scene keyword.\nLevel 2 subject: output one subject keyword. Prefer one of: child, older adult, young adult, middle-aged adult. If none fits, output your own concise subject keyword.\nLevel 3 risk type: if Risk presence is Yes, output one risk keyword. Prefer one of: fall/instability, heat/fire source, collision/crush injury, sharp-object danger, electrical safety, poisoning/accidental ingestion, interpersonal conflict. If none fits, output your own concise risk keyword. If Risk presence is No, output None.\nRisk description: if Risk presence is Yes, describe the risk in 1-3 sentences. If Risk presence is No, output None.\nRisk time interval: if Risk presence is Yes, localize the risk as seconds like [start,end]. If there are multiple intervals, separate them with semicolons. If the exact interval is unclear, output Unknown. If Risk presence is No, output None.\nSolution for person: if Risk presence is Yes, give a concrete action for the person or caregiver. If Risk presence is No, output None.\nSolution for hazard source: if Risk presence is Yes, give a concrete action for the hazard source or environment. If Risk presence is No, output None.\nSolution to prevent recurrence: if Risk presence is Yes, give a prevention measure to reduce recurrence. If Risk presence is No, output None.\nNormal video description: if Risk presence is No, describe the normal video content in 1-3 sentences. If Risk presence is Yes, output None.",
+        "response": "Risk presence: Yes\nLevel 1 scene: dining room\nLevel 2 subject: child\nLevel 3 risk type: fall/instability\nRisk description: The child is playing with a toy on the floor, which could pose a risk of falling and injuring themselves. Additionally, there are various objects within reach that could be knocked over or cause a hazard if the child were to move quickly.\nRisk time interval: Unknown\nSolution for person: Ensure that the child is supervised while playing and provide a safe environment by removing any potential hazards from their reach.\nSolution for hazard source: None\nSolution to prevent recurrence: Regularly check the area for potential hazards and ensure that the child's play area is safe and free from obstacles.\nNormal video description: The video shows a child playing in a dining room with various toys and objects around them.",
+        "parsed_response": {
+          "risk_status": "normal",
+          "has_risk": false,
+          "risk_type": "",
+          "video_description": "Risk presence: Yes Level 1 scene: dining room Level 2 subject: child Level 3 risk type: fall/instability Risk description: The child is playing with a toy on the floor, which could pose a risk of falling and injuring themselves. Additionally, there are various objects within reach that could be knocked over or cause a hazard if the child were to move quickly. Risk time interval: Unknown Solution for person: Ensure that the child is supervised while playing and provide a safe environment by removing any potential hazards from their reach. Solution for hazard source: None Solution to prevent recurrence: Regularly check the area for potential hazards and ensure that the child's play area is safe and free from obstacles. Normal video description: The video shows a child playing in a dining room with various toys and objects around them.",
+          "safe_segment_desc": "Risk presence: Yes Level 1 scene: dining room Level 2 subject: child Level 3 risk type: fall/instability Risk description: The child is playing with a toy on the floor, which could pose a risk of falling and injuring themselves. Additionally, there are various objects within reach that could be knocked over or cause a hazard if the child were to move quickly. Risk time interval: Unknown Solution for person: Ensure that the child is supervised while playing and provide a safe environment by removing any potential hazards from their reach. Solution for hazard source: None Solution to prevent recurrence: Regularly check the area for potential hazards and ensure that the child's play area is safe and free from obstacles. Normal video description: The video shows a child playing in a dining room with various toys and objects around them.",
+          "risk_description": "",
+          "solution": "",
+          "time_spans": []
+        },
+        "generation": {
+          "temperature": 0.0,
+          "top_p": 0.9,
+          "max_new_tokens": 256,
+          "fps": 1.0,
+          "max_frames": 16,
+          "merge_size": 2
+        },
+        "elapsed_seconds": 18.618
+      }
+    }
+  ],
+  "majority_vote": {
+    "complete": true,
+    "keep": true,
+    "risk_presence": "Yes",
+    "yes_count": 5,
+    "no_count": 0,
+    "threshold": 3,
+    "votes_cast": 5,
+    "expected_votes": 5,
+    "kept_by_perspectives": [
+      "Daily Behavior Baseline Perspective",
+      "Conservative Safety Perspective",
+      "Permissive Behavior Tolerance Perspective",
+      "Vulnerable-Subject-First Perspective",
+      "Consequence-Severity-First Perspective"
+    ],
+    "rejected_by_perspectives": [],
+    "level1_scene_keywords": [
+      {
+        "keyword": "dining room",
+        "count": 3
+      },
+      {
+        "keyword": "living room",
+        "count": 2
+      }
+    ],
+    "level1_scene_top": "dining room",
+    "level2_subject_keywords": [
+      {
+        "keyword": "child",
+        "count": 5
+      }
+    ],
+    "level2_subject_top": "child",
+    "level3_risk_type_keywords": [
+      {
+        "keyword": "fall/instability",
+        "count": 5
+      }
+    ],
+    "level3_risk_type_top": "fall/instability"
+  }
+}

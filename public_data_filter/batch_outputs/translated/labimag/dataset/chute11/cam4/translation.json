@@ -1,0 +1,40 @@
+{
+  "video_key": "labimag/dataset/chute11/cam4",
+  "translations": {
+    "0": {
+      "risk_description": "这位年轻人正走过房间，突然摔倒在地板的垫子上。如果不小心，可能会导致受伤。",
+      "normal_video_description": "这位年轻人正走过房间，突然摔倒在地板的垫子上。如果不小心，可能会导致受伤。",
+      "solution_for_person": "这个人在穿过房间时应该更加小心，以避免摔倒。",
+      "solution_for_hazard_source": "这种情况下没有危险源，但这个人在穿过房间时应该更加小心。",
+      "solution_to_prevent_recurrence": "这个人在穿过房间时应该更加注意周围环境，缓慢行走，以避免摔倒。"
+    },
+    "1": {
+      "risk_description": "一个人脸朝下趴在有网格线的房间里的软垫上，这可能表明这是一个测试或实验环境。如果软垫没有固定好或者活动期间没有得到适当监督，这种行为可能会导致摔倒或失去控制。",
+      "normal_video_description": "视频显示一个人进入一个类似实验室的房间，随后另一个人脸朝下躺在软垫上。随后有多人进入房间，其中一些人在操作设备。",
+      "solution_for_person": "确保活动期间有适当的监督和安全协议，以防止摔倒或失去控制。",
+      "solution_for_hazard_source": "验证软垫是否牢固固定在地板上，网格线是否属于受控测试环境的一部分。",
+      "solution_to_prevent_recurrence": "为所有参与者制定明确的安全准则，并定期检查测试区域的稳定性和危险因素。"
+    },
+    "2": {
+      "risk_description": "",
+      "normal_video_description": "视频显示一群年轻人在实验室或学习室里。其中一人穿过房间躺在中间的垫子上，另一个人坐在右侧的桌子旁。这个场景展现了室内环境中正常的、非危险的活动。",
+      "solution_for_person": "",
+      "solution_for_hazard_source": "",
+      "solution_to_prevent_recurrence": ""
+    },
+    "3": {
+      "risk_description": "一个穿白衬衫的人倒在办公室的床垫上，如果他们在撞击时受伤，可能会造成风险，尤其是当他们行动不便或正在康复时。",
+      "normal_video_description": "",
+      "solution_for_person": "确保这个人意识到周围环境，以避免绊倒或摔倒。",
+      "solution_for_hazard_source": "固定工作空间以减少绊倒危险，比如保持通道畅通。",
+      "solution_to_prevent_recurrence": "安装额外的照明或标识以突出办公室中潜在的绊倒危险。"
+    },
+    "4": {
+      "risk_description": "这个人正躺在办公室中间的垫子上，这可能表明存在摔倒或失去平衡的潜在风险，尤其是当他们迅速起身时。这种情况可能导致受伤，特别是当这个人不够小心时。",
+      "normal_video_description": "",
+      "solution_for_person": "确保这个人从垫子上缓慢而小心地起身，避免任何可能导致摔倒的突然动作。",
+      "solution_for_hazard_source": "",
+      "solution_to_prevent_recurrence": "鼓励这个人在从垫子上起身时注意自己的动作，以最大程度地减少摔倒的风险。"
+    }
+  }
+}

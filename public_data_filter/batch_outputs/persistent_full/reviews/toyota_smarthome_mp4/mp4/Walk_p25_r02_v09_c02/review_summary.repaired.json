@@ -1,0 +1,477 @@
+{
+  "manifest": {
+    "video_path": "/data_4/liuyuan/lifebench/data/public_data/toyota_smarthome_mp4/mp4/Walk_p25_r02_v09_c02.mp4",
+    "rule_path": "/data_4/liuyuan/lifebench/public_data_filter/rule.md",
+    "prompt_language": "en",
+    "output_schema_version": "risk_full_en_v2",
+    "candidate_text": null,
+    "seed": 0,
+    "persistent_runner": true,
+    "reuse_agent_outputs": true,
+    "early_stop_majority": false,
+    "model_pool": [
+      {
+        "model_id": "Qwen/Qwen3.5-9B",
+        "backend": "qwen35vl"
+      },
+      {
+        "model_id": "omni-research/Tarsier2-7b-0115",
+        "backend": "tarsier2"
+      },
+      {
+        "model_id": "mPLUG/mPLUG-Owl3-7B-241101",
+        "backend": "mplugowl3"
+      },
+      {
+        "model_id": "DAMO-NLP-SG/VideoLLaMA3-7B",
+        "backend": "videollama3"
+      },
+      {
+        "model_id": "OpenGVLab/InternVL3_5-8B",
+        "backend": "internvl35"
+      }
+    ],
+    "assignments": [
+      {
+        "perspective": {
+          "index": 1,
+          "name": "Daily Behavior Baseline Perspective",
+          "prompt": "You are acting as a daily-behavior baseline reviewer.\nYour task is to judge, from ordinary household experience, whether a candidate behavior clearly deviates from acceptable daily behavior and should be kept as a risk anomaly.\n\nFollow these principles:\n- Use common behavior patterns in ordinary home environments as the reference point. Do not use an overly sensitive or overly permissive standard.\n- If a behavior is usually normal, brief, and acceptable in most household scenes, do not easily mark it as a risk anomaly.\n- If a behavior clearly exceeds the normal range of daily activities and shows instability, a safety trigger, or potential harm, mark it as a risk anomaly.\n- For borderline cases, focus on whether the behavior has shifted from an acceptable daily activity into an abnormal risk behavior that deserves attention.\n- Keep the judgment close to ordinary common sense rather than medical, legal, or extreme safety standards.\n\nOutput requirements for this perspective:\n- Explain whether the behavior clearly deviates from the daily behavior baseline.\n- Keep the explanation concise, specific, and grounded only in the video content.\n- Do not mark a behavior as anomalous merely because it looks active.\n- Do not assume extra events outside the video."
+        },
+        "model": {
+          "model_id": "mPLUG/mPLUG-Owl3-7B-241101",
+          "backend": "mplugowl3"
+        }
+      },
+      {
+        "perspective": {
+          "index": 2,
+          "name": "Conservative Safety Perspective",
+          "prompt": "You are acting as a conservative safety reviewer.\nYour task is to minimize missed risks. If a candidate behavior has a realistic possibility of injury, loss of control, or accident triggering, it may be kept as a risk anomaly.\n\nFollow these principles:\n- Apply a cautious safety standard, prioritizing behaviors that may lead to falls, collisions, burns, electric shock, accidental ingestion, cuts, or other household injuries.\n- Even if harm has not occurred yet, keep the behavior if it already contains a clear risk trigger or is in an accident-prone state.\n- For borderline cases, focus on whether the behavior deserves early intervention rather than waiting for harm to happen.\n- If a behavior would commonly be stopped or warned against by family members, guardians, or caregivers, lean toward keeping it.\n- The goal is to reduce false negatives, so ambiguous cases may be judged slightly conservatively.\n\nOutput requirements for this perspective:\n- Explain what realistic harm the behavior may trigger and why it should or should not be kept under a conservative safety standard.\n- You do not need to prove that harm will definitely occur.\n- Do not exaggerate beyond an ordinary household context."
+        },
+        "model": {
+          "model_id": "omni-research/Tarsier2-7b-0115",
+          "backend": "tarsier2"
+        }
+      },
+      {
+        "perspective": {
+          "index": 3,
+          "name": "Permissive Behavior Tolerance Perspective",
+          "prompt": "You are acting as a permissive behavior-tolerance reviewer.\nYour task is to judge from a higher tolerance threshold whether a candidate behavior truly reaches the level of a risk anomaly. Only keep it when the behavior clearly exceeds normal activity, playfulness, exploration, or brief mistakes.\n\nFollow these principles:\n- Maintain reasonable tolerance for common active behavior, brief imbalance, and minor irregular actions in household scenes.\n- Keep a behavior only when it has clear, direct, and realistic danger, or when it clearly leaves the boundary of generally acceptable daily behavior.\n- If a behavior has some uncertainty but commonly occurs in real life and would not usually be considered dangerous enough for special intervention, lean toward not keeping it.\n- For borderline cases, prioritize avoiding over-definition of ordinary life behavior as abnormal.\n- The goal is to reduce false positives, so keep only when the evidence is reasonably strong.\n\nOutput requirements for this perspective:\n- Explain whether the behavior remains within a tolerable daily behavior range.\n- Do not keep a behavior merely because it has a small possible risk.\n- Do not automatically treat all child play, pet activity, slow elderly movement, or similar ordinary behavior as abnormal."
+        },
+        "model": {
+          "model_id": "Qwen/Qwen3.5-9B",
+          "backend": "qwen35vl"
+        }
+      },
+      {
+        "perspective": {
+          "index": 4,
+          "name": "Vulnerable-Subject-First Perspective",
+          "prompt": "You are acting as a vulnerable-subject-first reviewer.\nYour task is to judge the candidate behavior with priority given to the safety of children, older adults, people with limited mobility, people recovering from illness, pregnant people, pets, or other vulnerable subjects. If the behavior creates a realistic additional risk for a vulnerable subject, lean toward keeping it as a risk anomaly.\n\nFollow these principles:\n- Focus on whether the behavior creates disproportionate risk for a subject with weaker body control, weaker risk awareness, or limited self-protection ability.\n- A behavior that may not be abnormal for an ordinary adult can still be a risk anomaly if its danger clearly increases for a child, older adult, pet, or other vulnerable subject.\n- For borderline cases, consider whether the vulnerable subject would have more difficulty avoiding injury, would suffer more serious consequences, or would receive help more slowly.\n- In caregiving, companionship, or household life scenes, pay special attention to insufficient supervision, missing protection, or an environment that does not fit the subject's needs.\n- The core standard is not whether the behavior is dangerous for an average adult, but whether it has reached a level requiring attention or intervention for the vulnerable subject shown in the video.\n\nOutput requirements for this perspective:\n- Explain the specific risk to the vulnerable subject, if one is present.\n- Do not invent illness, disability, age, or severe impairment that is not supported by the video.\n- Do not generalize vulnerability without evidence from the video."
+        },
+        "model": {
+          "model_id": "OpenGVLab/InternVL3_5-8B",
+          "backend": "internvl35"
+        }
+      },
+      {
+        "perspective": {
+          "index": 5,
+          "name": "Consequence-Severity-First Perspective",
+          "prompt": "You are acting as a consequence-severity-first reviewer.\nYour task is to focus on whether the potential consequences of a risk event would be serious, hard to reverse, or costly to intervene in. Even if the probability is not the highest, keep the behavior if the realistic potential consequence is severe enough.\n\nFollow these principles:\n- Prioritize behaviors that could realistically lead to severe injury, long-term impact, emergency medical care, lasting functional impairment, or major property or environmental damage.\n- Judge not only whether an accident is likely, but also how costly the consequence would be if it occurred.\n- For borderline cases, analyze whether the most realistic negative consequence is already too significant to ignore.\n- If a behavior may lead to burns from heat, electric shock, falling from height, severe collision, poisoning, suffocation, or other serious outcomes, lean toward keeping it.\n- The standard emphasizes prevention of severe consequences, so low-probability but high-damage scenarios may justify keeping the behavior.\n\nOutput requirements for this perspective:\n- Explain the realistic severity of the possible consequence if the behavior develops into an accident.\n- Do not exaggerate minor or unimportant consequences.\n- Do not rely on extremely rare catastrophic scenarios without realistic support from the video."
+        },
+        "model": {
+          "model_id": "DAMO-NLP-SG/VideoLLaMA3-7B",
+          "backend": "videollama3"
+        }
+      }
+    ]
+  },
+  "agent_results": [
+    {
+      "perspective": {
+        "index": 1,
+        "name": "Daily Behavior Baseline Perspective",
+        "prompt": "You are acting as a daily-behavior baseline reviewer.\nYour task is to judge, from ordinary household experience, whether a candidate behavior clearly deviates from acceptable daily behavior and should be kept as a risk anomaly.\n\nFollow these principles:\n- Use common behavior patterns in ordinary home environments as the reference point. Do not use an overly sensitive or overly permissive standard.\n- If a behavior is usually normal, brief, and acceptable in most household scenes, do not easily mark it as a risk anomaly.\n- If a behavior clearly exceeds the normal range of daily activities and shows instability, a safety trigger, or potential harm, mark it as a risk anomaly.\n- For borderline cases, focus on whether the behavior has shifted from an acceptable daily activity into an abnormal risk behavior that deserves attention.\n- Keep the judgment close to ordinary common sense rather than medical, legal, or extreme safety standards.\n\nOutput requirements for this perspective:\n- Explain whether the behavior clearly deviates from the daily behavior baseline.\n- Keep the explanation concise, specific, and grounded only in the video content.\n- Do not mark a behavior as anomalous merely because it looks active.\n- Do not assume extra events outside the video."
+      },
+      "model": {
+        "model_id": "mPLUG/mPLUG-Owl3-7B-241101",
+        "backend": "mplugowl3"
+      },
+      "prompt_file": "/data_4/liuyuan/lifebench/public_data_filter/batch_outputs/persistent_full/reviews/toyota_smarthome_mp4/mp4/Walk_p25_r02_v09_c02/prompts/01_Daily_Behavior_Baseline_Perspective.txt",
+      "output_json": "/data_4/liuyuan/lifebench/public_data_filter/batch_outputs/persistent_full/reviews/toyota_smarthome_mp4/mp4/Walk_p25_r02_v09_c02/agent_outputs/01_Daily_Behavior_Baseline_Perspective.json",
+      "stdout_log": "/data_4/liuyuan/lifebench/public_data_filter/batch_outputs/persistent_full/reviews/toyota_smarthome_mp4/mp4/Walk_p25_r02_v09_c02/logs/01_Daily_Behavior_Baseline_Perspective.stdout.log",
+      "stderr_log": "/data_4/liuyuan/lifebench/public_data_filter/batch_outputs/persistent_full/reviews/toyota_smarthome_mp4/mp4/Walk_p25_r02_v09_c02/logs/01_Daily_Behavior_Baseline_Perspective.stderr.log",
+      "worker_id": "07_mplugowl3_gpu6",
+      "gpu_id": "6",
+      "returncode": 0,
+      "elapsed_seconds": 6.01,
+      "response": "Risk presence: No\nLevel 1 scene: dining room\nLevel 2 subject: middle-aged adult\nLevel 3 risk type: None\nRisk description: None\nRisk time interval: None\nSolution for person: None\nSolution for hazard source: None\nSolution to prevent recurrence: None\nNormal video description: A middle-aged adult is standing near a dining table in a dining room. The table has a white top and wooden sides, and there are red and white chairs around it. The room has a modern design with wooden cabinets and a large window in the background. The adult appears to be preparing something on the table.",
+      "parsed_decision": {
+        "candidate_behavior": "",
+        "risk_presence_raw": "No",
+        "risk_presence": "No",
+        "keep_raw": "No",
+        "keep": false,
+        "level1_scene": "dining room",
+        "level2_subject": "middle-aged adult",
+        "level3_risk_type": "None",
+        "risk_description": "None",
+        "risk_time_interval": "None",
+        "solution_for_person": "None",
+        "solution_for_hazard_source": "None",
+        "solution_to_prevent_recurrence": "None",
+        "normal_video_description": "A middle-aged adult is standing near a dining table in a dining room. The table has a white top and wooden sides, and there are red and white chairs around it. The room has a modern design with wooden cabinets and a large window in the background. The adult appears to be preparing something on the table.",
+        "reason": ""
+      },
+      "runner_payload": {
+        "backend": "mplugowl3",
+        "description": "mPLUG-Owl3 video chat model",
+        "model_id": "mPLUG/mPLUG-Owl3-7B-241101",
+        "model_path": "/data_4/liuyuan/lifebench/models/mPLUG__mPLUG-Owl3-7B-241101",
+        "video_path": "/data_4/liuyuan/lifebench/data/public_data/toyota_smarthome_mp4/mp4/Walk_p25_r02_v09_c02.mp4",
+        "prompt": "You are acting as a daily-behavior baseline reviewer.\nYour task is to judge, from ordinary household experience, whether a candidate behavior clearly deviates from acceptable daily behavior and should be kept as a risk anomaly.\n\nFollow these principles:\n- Use common behavior patterns in ordinary home environments as the reference point. Do not use an overly sensitive or overly permissive standard.\n- If a behavior is usually normal, brief, and acceptable in most household scenes, do not easily mark it as a risk anomaly.\n- If a behavior clearly exceeds the normal range of daily activities and shows instability, a safety trigger, or potential harm, mark it as a risk anomaly.\n- For borderline cases, focus on whether the behavior has shifted from an acceptable daily activity into an abnormal risk behavior that deserves attention.\n- Keep the judgment close to ordinary common sense rather than medical, legal, or extreme safety standards.\n\nOutput requirements for this perspective:\n- Explain whether the behavior clearly deviates from the daily behavior baseline.\n- Keep the explanation concise, specific, and grounded only in the video content.\n- Do not mark a behavior as anomalous merely because it looks active.\n- Do not assume extra events outside the video.\n\nTask addendum:\nReview the input video and first decide whether the video contains a risk.\nBase your judgment only on the video content. Do not assume facts outside the video, and do not invent extra events.\nJudge the main visible behavior and scene in the video.\nYou must answer based on the provided video input. Do not say that you cannot watch or inspect the video.\nOutput exactly the following English-labeled fields, with no markdown and no extra text:\nRisk presence: Yes / No\nLevel 1 scene: output one scene keyword. Prefer one of: dining room, kitchen, study, balcony, living room, bathroom, yard. If none fits, output your own concise scene keyword.\nLevel 2 subject: output one subject keyword. Prefer one of: child, older adult, young adult, middle-aged adult. If none fits, output your own concise subject keyword.\nLevel 3 risk type: if Risk presence is Yes, output one risk keyword. Prefer one of: fall/instability, heat/fire source, collision/crush injury, sharp-object danger, electrical safety, poisoning/accidental ingestion, interpersonal conflict. If none fits, output your own concise risk keyword. If Risk presence is No, output None.\nRisk description: if Risk presence is Yes, describe the risk in 1-3 sentences. If Risk presence is No, output None.\nRisk time interval: if Risk presence is Yes, localize the risk as seconds like [start,end]. If there are multiple intervals, separate them with semicolons. If the exact interval is unclear, output Unknown. If Risk presence is No, output None.\nSolution for person: if Risk presence is Yes, give a concrete action for the person or caregiver. If Risk presence is No, output None.\nSolution for hazard source: if Risk presence is Yes, give a concrete action for the hazard source or environment. If Risk presence is No, output None.\nSolution to prevent recurrence: if Risk presence is Yes, give a prevention measure to reduce recurrence. If Risk presence is No, output None.\nNormal video description: if Risk presence is No, describe the normal video content in 1-3 sentences. If Risk presence is Yes, output None.",
+        "response": "Risk presence: No\nLevel 1 scene: dining room\nLevel 2 subject: middle-aged adult\nLevel 3 risk type: None\nRisk description: None\nRisk time interval: None\nSolution for person: None\nSolution for hazard source: None\nSolution to prevent recurrence: None\nNormal video description: A middle-aged adult is standing near a dining table in a dining room. The table has a white top and wooden sides, and there are red and white chairs around it. The room has a modern design with wooden cabinets and a large window in the background. The adult appears to be preparing something on the table.",
+        "parsed_response": {
+          "risk_status": "normal",
+          "has_risk": false,
+          "risk_type": "",
+          "video_description": "Risk presence: No Level 1 scene: dining room Level 2 subject: middle-aged adult Level 3 risk type: None Risk description: None Risk time interval: None Solution for person: None Solution for hazard source: None Solution to prevent recurrence: None Normal video description: A middle-aged adult is standing near a dining table in a dining room. The table has a white top and wooden sides, and there are red and white chairs around it. The room has a modern design with wooden cabinets and a large window in the background. The adult appears to be preparing something on the table.",
+          "safe_segment_desc": "Risk presence: No Level 1 scene: dining room Level 2 subject: middle-aged adult Level 3 risk type: None Risk description: None Risk time interval: None Solution for person: None Solution for hazard source: None Solution to prevent recurrence: None Normal video description: A middle-aged adult is standing near a dining table in a dining room. The table has a white top and wooden sides, and there are red and white chairs around it. The room has a modern design with wooden cabinets and a large window in the background. The adult appears to be preparing something on the table.",
+          "risk_description": "",
+          "solution": "",
+          "time_spans": []
+        },
+        "generation": {
+          "temperature": 0.0,
+          "top_p": 0.9,
+          "max_new_tokens": 256,
+          "fps": 1.0,
+          "max_frames": 16,
+          "merge_size": 2
+        },
+        "elapsed_seconds": 6.01
+      }
+    },
+    {
+      "perspective": {
+        "index": 2,
+        "name": "Conservative Safety Perspective",
+        "prompt": "You are acting as a conservative safety reviewer.\nYour task is to minimize missed risks. If a candidate behavior has a realistic possibility of injury, loss of control, or accident triggering, it may be kept as a risk anomaly.\n\nFollow these principles:\n- Apply a cautious safety standard, prioritizing behaviors that may lead to falls, collisions, burns, electric shock, accidental ingestion, cuts, or other household injuries.\n- Even if harm has not occurred yet, keep the behavior if it already contains a clear risk trigger or is in an accident-prone state.\n- For borderline cases, focus on whether the behavior deserves early intervention rather than waiting for harm to happen.\n- If a behavior would commonly be stopped or warned against by family members, guardians, or caregivers, lean toward keeping it.\n- The goal is to reduce false negatives, so ambiguous cases may be judged slightly conservatively.\n\nOutput requirements for this perspective:\n- Explain what realistic harm the behavior may trigger and why it should or should not be kept under a conservative safety standard.\n- You do not need to prove that harm will definitely occur.\n- Do not exaggerate beyond an ordinary household context."
+      },
+      "model": {
+        "model_id": "openbmb/MiniCPM-V-4_5",
+        "backend": "minicpmv45"
+      },
+      "prompt_file": "/data_4/liuyuan/lifebench/public_data_filter/batch_outputs/persistent_full/reviews/toyota_smarthome_mp4/mp4/Walk_p25_r02_v09_c02/prompts/02_Conservative_Safety_Perspective.txt",
+      "output_json": "/data_4/liuyuan/lifebench/public_data_filter/batch_outputs/persistent_full/reviews/toyota_smarthome_mp4/mp4/Walk_p25_r02_v09_c02/agent_outputs/02_Conservative_Safety_Perspective.minicpmv45.json",
+      "stdout_log": "/data_4/liuyuan/lifebench/public_data_filter/batch_outputs/persistent_full/reviews/toyota_smarthome_mp4/mp4/Walk_p25_r02_v09_c02/logs/02_Conservative_Safety_Perspective.minicpmv45.stdout.log",
+      "stderr_log": "/data_4/liuyuan/lifebench/public_data_filter/batch_outputs/persistent_full/reviews/toyota_smarthome_mp4/mp4/Walk_p25_r02_v09_c02/logs/02_Conservative_Safety_Perspective.minicpmv45.stderr.log",
+      "worker_id": "07_minicpmv45_gpu6",
+      "gpu_id": "6",
+      "returncode": 0,
+      "elapsed_seconds": 5.354,
+      "response": "Risk presence: No\nLevel 1 scene: dining room\nLevel 2 subject: middle-aged adult\nLevel 3 risk type: None\nRisk description: None\nRisk time interval: None\nSolution for person: None\nSolution for hazard source: None\nSolution to prevent recurrence: None\nNormal video description: A middle-aged adult is standing near a counter in a dining room, holding an object. The room has a large table with chairs, a cabinet, and a window with curtains.",
+      "parsed_decision": {
+        "candidate_behavior": "",
+        "risk_presence_raw": "No",
+        "risk_presence": "No",
+        "keep_raw": "No",
+        "keep": false,
+        "level1_scene": "dining room",
+        "level2_subject": "middle-aged adult",
+        "level3_risk_type": "None",
+        "risk_description": "None",
+        "risk_time_interval": "None",
+        "solution_for_person": "None",
+        "solution_for_hazard_source": "None",
+        "solution_to_prevent_recurrence": "None",
+        "normal_video_description": "A middle-aged adult is standing near a counter in a dining room, holding an object. The room has a large table with chairs, a cabinet, and a window with curtains.",
+        "reason": ""
+      },
+      "runner_payload": {
+        "backend": "minicpmv45",
+        "description": "MiniCPM-V 4.5 efficient image/video understanding model",
+        "model_id": "openbmb/MiniCPM-V-4_5",
+        "model_path": "/data_4/liuyuan/lifebench/models/openbmb__MiniCPM-V-4_5",
+        "video_path": "/data_4/liuyuan/lifebench/data/public_data/toyota_smarthome_mp4/mp4/Walk_p25_r02_v09_c02.mp4",
+        "prompt": "You are acting as a conservative safety reviewer.\nYour task is to minimize missed risks. If a candidate behavior has a realistic possibility of injury, loss of control, or accident triggering, it may be kept as a risk anomaly.\n\nFollow these principles:\n- Apply a cautious safety standard, prioritizing behaviors that may lead to falls, collisions, burns, electric shock, accidental ingestion, cuts, or other household injuries.\n- Even if harm has not occurred yet, keep the behavior if it already contains a clear risk trigger or is in an accident-prone state.\n- For borderline cases, focus on whether the behavior deserves early intervention rather than waiting for harm to happen.\n- If a behavior would commonly be stopped or warned against by family members, guardians, or caregivers, lean toward keeping it.\n- The goal is to reduce false negatives, so ambiguous cases may be judged slightly conservatively.\n\nOutput requirements for this perspective:\n- Explain what realistic harm the behavior may trigger and why it should or should not be kept under a conservative safety standard.\n- You do not need to prove that harm will definitely occur.\n- Do not exaggerate beyond an ordinary household context.\n\nTask addendum:\nReview the input video and first decide whether the video contains a risk.\nBase your judgment only on the video content. Do not assume facts outside the video, and do not invent extra events.\nJudge the main visible behavior and scene in the video.\nYou must answer based on the provided video input. Do not say that you cannot watch or inspect the video.\nOutput exactly the following English-labeled fields, with no markdown and no extra text:\nRisk presence: Yes / No\nLevel 1 scene: output one scene keyword. Prefer one of: dining room, kitchen, study, balcony, living room, bathroom, yard. If none fits, output your own concise scene keyword.\nLevel 2 subject: output one subject keyword. Prefer one of: child, older adult, young adult, middle-aged adult. If none fits, output your own concise subject keyword.\nLevel 3 risk type: if Risk presence is Yes, output one risk keyword. Prefer one of: fall/instability, heat/fire source, collision/crush injury, sharp-object danger, electrical safety, poisoning/accidental ingestion, interpersonal conflict. If none fits, output your own concise risk keyword. If Risk presence is No, output None.\nRisk description: if Risk presence is Yes, describe the risk in 1-3 sentences. If Risk presence is No, output None.\nRisk time interval: if Risk presence is Yes, localize the risk as seconds like [start,end]. If there are multiple intervals, separate them with semicolons. If the exact interval is unclear, output Unknown. If Risk presence is No, output None.\nSolution for person: if Risk presence is Yes, give a concrete action for the person or caregiver. If Risk presence is No, output None.\nSolution for hazard source: if Risk presence is Yes, give a concrete action for the hazard source or environment. If Risk presence is No, output None.\nSolution to prevent recurrence: if Risk presence is Yes, give a prevention measure to reduce recurrence. If Risk presence is No, output None.\nNormal video description: if Risk presence is No, describe the normal video content in 1-3 sentences. If Risk presence is Yes, output None.",
+        "response": "Risk presence: No\nLevel 1 scene: dining room\nLevel 2 subject: middle-aged adult\nLevel 3 risk type: None\nRisk description: None\nRisk time interval: None\nSolution for person: None\nSolution for hazard source: None\nSolution to prevent recurrence: None\nNormal video description: A middle-aged adult is standing near a counter in a dining room, holding an object. The room has a large table with chairs, a cabinet, and a window with curtains.",
+        "parsed_response": {
+          "risk_status": "normal",
+          "has_risk": false,
+          "risk_type": "",
+          "video_description": "Risk presence: No Level 1 scene: dining room Level 2 subject: middle-aged adult Level 3 risk type: None Risk description: None Risk time interval: None Solution for person: None Solution for hazard source: None Solution to prevent recurrence: None Normal video description: A middle-aged adult is standing near a counter in a dining room, holding an object. The room has a large table with chairs, a cabinet, and a window with curtains.",
+          "safe_segment_desc": "Risk presence: No Level 1 scene: dining room Level 2 subject: middle-aged adult Level 3 risk type: None Risk description: None Risk time interval: None Solution for person: None Solution for hazard source: None Solution to prevent recurrence: None Normal video description: A middle-aged adult is standing near a counter in a dining room, holding an object. The room has a large table with chairs, a cabinet, and a window with curtains.",
+          "risk_description": "",
+          "solution": "",
+          "time_spans": []
+        },
+        "generation": {
+          "temperature": 0.0,
+          "top_p": 0.9,
+          "max_new_tokens": 256,
+          "fps": 1.0,
+          "max_frames": 16,
+          "merge_size": 2
+        },
+        "elapsed_seconds": 5.354
+      }
+    },
+    {
+      "perspective": {
+        "index": 3,
+        "name": "Permissive Behavior Tolerance Perspective",
+        "prompt": "You are acting as a permissive behavior-tolerance reviewer.\nYour task is to judge from a higher tolerance threshold whether a candidate behavior truly reaches the level of a risk anomaly. Only keep it when the behavior clearly exceeds normal activity, playfulness, exploration, or brief mistakes.\n\nFollow these principles:\n- Maintain reasonable tolerance for common active behavior, brief imbalance, and minor irregular actions in household scenes.\n- Keep a behavior only when it has clear, direct, and realistic danger, or when it clearly leaves the boundary of generally acceptable daily behavior.\n- If a behavior has some uncertainty but commonly occurs in real life and would not usually be considered dangerous enough for special intervention, lean toward not keeping it.\n- For borderline cases, prioritize avoiding over-definition of ordinary life behavior as abnormal.\n- The goal is to reduce false positives, so keep only when the evidence is reasonably strong.\n\nOutput requirements for this perspective:\n- Explain whether the behavior remains within a tolerable daily behavior range.\n- Do not keep a behavior merely because it has a small possible risk.\n- Do not automatically treat all child play, pet activity, slow elderly movement, or similar ordinary behavior as abnormal."
+      },
+      "model": {
+        "model_id": "Qwen/Qwen3.5-9B",
+        "backend": "qwen35vl"
+      },
+      "prompt_file": "/data_4/liuyuan/lifebench/public_data_filter/batch_outputs/persistent_full/reviews/toyota_smarthome_mp4/mp4/Walk_p25_r02_v09_c02/prompts/03_Permissive_Behavior_Tolerance_Perspective.txt",
+      "output_json": "/data_4/liuyuan/lifebench/public_data_filter/batch_outputs/persistent_full/reviews/toyota_smarthome_mp4/mp4/Walk_p25_r02_v09_c02/agent_outputs/03_Permissive_Behavior_Tolerance_Perspective.json",
+      "stdout_log": "/data_4/liuyuan/lifebench/public_data_filter/batch_outputs/persistent_full/reviews/toyota_smarthome_mp4/mp4/Walk_p25_r02_v09_c02/logs/03_Permissive_Behavior_Tolerance_Perspective.stdout.log",
+      "stderr_log": "/data_4/liuyuan/lifebench/public_data_filter/batch_outputs/persistent_full/reviews/toyota_smarthome_mp4/mp4/Walk_p25_r02_v09_c02/logs/03_Permissive_Behavior_Tolerance_Perspective.stderr.log",
+      "worker_id": "06_qwen35vl_gpu5",
+      "gpu_id": "5",
+      "returncode": 0,
+      "elapsed_seconds": 7.555,
+      "response": "Risk presence: No\nLevel 1 scene: dining room\nLevel 2 subject: older adult\nLevel 3 risk type: None\nRisk description: None\nRisk time interval: None\nSolution for person: None\nSolution for hazard source: None\nSolution to prevent recurrence: None\nNormal video description: An older adult is standing near a kitchen counter in a modern dining room, holding an object and appearing to prepare or organize items. The scene is calm and orderly with no signs of danger or abnormal behavior.",
+      "parsed_decision": {
+        "candidate_behavior": "",
+        "risk_presence_raw": "No",
+        "risk_presence": "No",
+        "keep_raw": "No",
+        "keep": false,
+        "level1_scene": "dining room",
+        "level2_subject": "older adult",
+        "level3_risk_type": "None",
+        "risk_description": "None",
+        "risk_time_interval": "None",
+        "solution_for_person": "None",
+        "solution_for_hazard_source": "None",
+        "solution_to_prevent_recurrence": "None",
+        "normal_video_description": "An older adult is standing near a kitchen counter in a modern dining room, holding an object and appearing to prepare or organize items. The scene is calm and orderly with no signs of danger or abnormal behavior.",
+        "reason": ""
+      },
+      "runner_payload": {
+        "backend": "qwen35vl",
+        "description": "Qwen3.5 multimodal single-video inference",
+        "model_id": "Qwen/Qwen3.5-9B",
+        "model_path": "/data_4/liuyuan/lifebench/models/Qwen/Qwen3.5-9B",
+        "video_path": "/data_4/liuyuan/lifebench/data/public_data/toyota_smarthome_mp4/mp4/Walk_p25_r02_v09_c02.mp4",
+        "prompt": "You are acting as a permissive behavior-tolerance reviewer.\nYour task is to judge from a higher tolerance threshold whether a candidate behavior truly reaches the level of a risk anomaly. Only keep it when the behavior clearly exceeds normal activity, playfulness, exploration, or brief mistakes.\n\nFollow these principles:\n- Maintain reasonable tolerance for common active behavior, brief imbalance, and minor irregular actions in household scenes.\n- Keep a behavior only when it has clear, direct, and realistic danger, or when it clearly leaves the boundary of generally acceptable daily behavior.\n- If a behavior has some uncertainty but commonly occurs in real life and would not usually be considered dangerous enough for special intervention, lean toward not keeping it.\n- For borderline cases, prioritize avoiding over-definition of ordinary life behavior as abnormal.\n- The goal is to reduce false positives, so keep only when the evidence is reasonably strong.\n\nOutput requirements for this perspective:\n- Explain whether the behavior remains within a tolerable daily behavior range.\n- Do not keep a behavior merely because it has a small possible risk.\n- Do not automatically treat all child play, pet activity, slow elderly movement, or similar ordinary behavior as abnormal.\n\nTask addendum:\nReview the input video and first decide whether the video contains a risk.\nBase your judgment only on the video content. Do not assume facts outside the video, and do not invent extra events.\nJudge the main visible behavior and scene in the video.\nYou must answer based on the provided video input. Do not say that you cannot watch or inspect the video.\nOutput exactly the following English-labeled fields, with no markdown and no extra text:\nRisk presence: Yes / No\nLevel 1 scene: output one scene keyword. Prefer one of: dining room, kitchen, study, balcony, living room, bathroom, yard. If none fits, output your own concise scene keyword.\nLevel 2 subject: output one subject keyword. Prefer one of: child, older adult, young adult, middle-aged adult. If none fits, output your own concise subject keyword.\nLevel 3 risk type: if Risk presence is Yes, output one risk keyword. Prefer one of: fall/instability, heat/fire source, collision/crush injury, sharp-object danger, electrical safety, poisoning/accidental ingestion, interpersonal conflict. If none fits, output your own concise risk keyword. If Risk presence is No, output None.\nRisk description: if Risk presence is Yes, describe the risk in 1-3 sentences. If Risk presence is No, output None.\nRisk time interval: if Risk presence is Yes, localize the risk as seconds like [start,end]. If there are multiple intervals, separate them with semicolons. If the exact interval is unclear, output Unknown. If Risk presence is No, output None.\nSolution for person: if Risk presence is Yes, give a concrete action for the person or caregiver. If Risk presence is No, output None.\nSolution for hazard source: if Risk presence is Yes, give a concrete action for the hazard source or environment. If Risk presence is No, output None.\nSolution to prevent recurrence: if Risk presence is Yes, give a prevention measure to reduce recurrence. If Risk presence is No, output None.\nNormal video description: if Risk presence is No, describe the normal video content in 1-3 sentences. If Risk presence is Yes, output None.",
+        "response": "Risk presence: No\nLevel 1 scene: dining room\nLevel 2 subject: older adult\nLevel 3 risk type: None\nRisk description: None\nRisk time interval: None\nSolution for person: None\nSolution for hazard source: None\nSolution to prevent recurrence: None\nNormal video description: An older adult is standing near a kitchen counter in a modern dining room, holding an object and appearing to prepare or organize items. The scene is calm and orderly with no signs of danger or abnormal behavior.",
+        "parsed_response": {
+          "risk_status": "abnormal",
+          "has_risk": true,
+          "risk_type": "None",
+          "video_description": "",
+          "safe_segment_desc": "",
+          "risk_description": "",
+          "solution": "",
+          "time_spans": []
+        },
+        "generation": {
+          "temperature": 0.0,
+          "top_p": 0.9,
+          "max_new_tokens": 256,
+          "fps": 1.0,
+          "max_frames": 16,
+          "merge_size": 2
+        },
+        "elapsed_seconds": 7.555
+      }
+    },
+    {
+      "perspective": {
+        "index": 4,
+        "name": "Vulnerable-Subject-First Perspective",
+        "prompt": "You are acting as a vulnerable-subject-first reviewer.\nYour task is to judge the candidate behavior with priority given to the safety of children, older adults, people with limited mobility, people recovering from illness, pregnant people, pets, or other vulnerable subjects. If the behavior creates a realistic additional risk for a vulnerable subject, lean toward keeping it as a risk anomaly.\n\nFollow these principles:\n- Focus on whether the behavior creates disproportionate risk for a subject with weaker body control, weaker risk awareness, or limited self-protection ability.\n- A behavior that may not be abnormal for an ordinary adult can still be a risk anomaly if its danger clearly increases for a child, older adult, pet, or other vulnerable subject.\n- For borderline cases, consider whether the vulnerable subject would have more difficulty avoiding injury, would suffer more serious consequences, or would receive help more slowly.\n- In caregiving, companionship, or household life scenes, pay special attention to insufficient supervision, missing protection, or an environment that does not fit the subject's needs.\n- The core standard is not whether the behavior is dangerous for an average adult, but whether it has reached a level requiring attention or intervention for the vulnerable subject shown in the video.\n\nOutput requirements for this perspective:\n- Explain the specific risk to the vulnerable subject, if one is present.\n- Do not invent illness, disability, age, or severe impairment that is not supported by the video.\n- Do not generalize vulnerability without evidence from the video."
+      },
+      "model": {
+        "model_id": "OpenGVLab/InternVL3_5-8B",
+        "backend": "internvl35"
+      },
+      "prompt_file": "/data_4/liuyuan/lifebench/public_data_filter/batch_outputs/persistent_full/reviews/toyota_smarthome_mp4/mp4/Walk_p25_r02_v09_c02/prompts/04_Vulnerable-Subject-First_Perspective.txt",
+      "output_json": "/data_4/liuyuan/lifebench/public_data_filter/batch_outputs/persistent_full/reviews/toyota_smarthome_mp4/mp4/Walk_p25_r02_v09_c02/agent_outputs/04_Vulnerable-Subject-First_Perspective.json",
+      "stdout_log": "/data_4/liuyuan/lifebench/public_data_filter/batch_outputs/persistent_full/reviews/toyota_smarthome_mp4/mp4/Walk_p25_r02_v09_c02/logs/04_Vulnerable-Subject-First_Perspective.stdout.log",
+      "stderr_log": "/data_4/liuyuan/lifebench/public_data_filter/batch_outputs/persistent_full/reviews/toyota_smarthome_mp4/mp4/Walk_p25_r02_v09_c02/logs/04_Vulnerable-Subject-First_Perspective.stderr.log",
+      "worker_id": "04_internvl35_gpu3",
+      "gpu_id": "3",
+      "returncode": 0,
+      "elapsed_seconds": 9.137,
+      "response": "Risk presence: Yes\nLevel 1 scene: dining room\nLevel 2 subject: child\nLevel 3 risk type: fall/instability\nRisk description: The child is walking on a narrow ledge near the counter, which could pose a fall risk if they lose balance.\nRisk time interval: [5,20]\nSolution for person: Ensure the child is supervised closely and kept away from narrow ledges or elevated surfaces.\nSolution for hazard source: Install a safety railing or barrier along the ledge to prevent falls.\nSolution to prevent recurrence: Always keep a close watch on children near elevated or narrow areas and consider adding safety barriers.\nNormal video description: None",
+      "parsed_decision": {
+        "candidate_behavior": "",
+        "risk_presence_raw": "Yes",
+        "risk_presence": "Yes",
+        "keep_raw": "Yes",
+        "keep": true,
+        "level1_scene": "dining room",
+        "level2_subject": "child",
+        "level3_risk_type": "fall/instability",
+        "risk_description": "The child is walking on a narrow ledge near the counter, which could pose a fall risk if they lose balance.",
+        "risk_time_interval": "[5,20]",
+        "solution_for_person": "Ensure the child is supervised closely and kept away from narrow ledges or elevated surfaces.",
+        "solution_for_hazard_source": "Install a safety railing or barrier along the ledge to prevent falls.",
+        "solution_to_prevent_recurrence": "Always keep a close watch on children near elevated or narrow areas and consider adding safety barriers.",
+        "normal_video_description": "None",
+        "reason": ""
+      },
+      "runner_payload": {
+        "backend": "internvl35",
+        "description": "InternVL3.5 8B multimodal video chat model",
+        "model_id": "OpenGVLab/InternVL3_5-8B",
+        "model_path": "/data_4/liuyuan/lifebench/models/OpenGVLab__InternVL3_5-8B",
+        "video_path": "/data_4/liuyuan/lifebench/data/public_data/toyota_smarthome_mp4/mp4/Walk_p25_r02_v09_c02.mp4",
+        "prompt": "You are acting as a vulnerable-subject-first reviewer.\nYour task is to judge the candidate behavior with priority given to the safety of children, older adults, people with limited mobility, people recovering from illness, pregnant people, pets, or other vulnerable subjects. If the behavior creates a realistic additional risk for a vulnerable subject, lean toward keeping it as a risk anomaly.\n\nFollow these principles:\n- Focus on whether the behavior creates disproportionate risk for a subject with weaker body control, weaker risk awareness, or limited self-protection ability.\n- A behavior that may not be abnormal for an ordinary adult can still be a risk anomaly if its danger clearly increases for a child, older adult, pet, or other vulnerable subject.\n- For borderline cases, consider whether the vulnerable subject would have more difficulty avoiding injury, would suffer more serious consequences, or would receive help more slowly.\n- In caregiving, companionship, or household life scenes, pay special attention to insufficient supervision, missing protection, or an environment that does not fit the subject's needs.\n- The core standard is not whether the behavior is dangerous for an average adult, but whether it has reached a level requiring attention or intervention for the vulnerable subject shown in the video.\n\nOutput requirements for this perspective:\n- Explain the specific risk to the vulnerable subject, if one is present.\n- Do not invent illness, disability, age, or severe impairment that is not supported by the video.\n- Do not generalize vulnerability without evidence from the video.\n\nTask addendum:\nReview the input video and first decide whether the video contains a risk.\nBase your judgment only on the video content. Do not assume facts outside the video, and do not invent extra events.\nJudge the main visible behavior and scene in the video.\nYou must answer based on the provided video input. Do not say that you cannot watch or inspect the video.\nOutput exactly the following English-labeled fields, with no markdown and no extra text:\nRisk presence: Yes / No\nLevel 1 scene: output one scene keyword. Prefer one of: dining room, kitchen, study, balcony, living room, bathroom, yard. If none fits, output your own concise scene keyword.\nLevel 2 subject: output one subject keyword. Prefer one of: child, older adult, young adult, middle-aged adult. If none fits, output your own concise subject keyword.\nLevel 3 risk type: if Risk presence is Yes, output one risk keyword. Prefer one of: fall/instability, heat/fire source, collision/crush injury, sharp-object danger, electrical safety, poisoning/accidental ingestion, interpersonal conflict. If none fits, output your own concise risk keyword. If Risk presence is No, output None.\nRisk description: if Risk presence is Yes, describe the risk in 1-3 sentences. If Risk presence is No, output None.\nRisk time interval: if Risk presence is Yes, localize the risk as seconds like [start,end]. If there are multiple intervals, separate them with semicolons. If the exact interval is unclear, output Unknown. If Risk presence is No, output None.\nSolution for person: if Risk presence is Yes, give a concrete action for the person or caregiver. If Risk presence is No, output None.\nSolution for hazard source: if Risk presence is Yes, give a concrete action for the hazard source or environment. If Risk presence is No, output None.\nSolution to prevent recurrence: if Risk presence is Yes, give a prevention measure to reduce recurrence. If Risk presence is No, output None.\nNormal video description: if Risk presence is No, describe the normal video content in 1-3 sentences. If Risk presence is Yes, output None.",
+        "response": "Risk presence: Yes\nLevel 1 scene: dining room\nLevel 2 subject: child\nLevel 3 risk type: fall/instability\nRisk description: The child is walking on a narrow ledge near the counter, which could pose a fall risk if they lose balance.\nRisk time interval: [5,20]\nSolution for person: Ensure the child is supervised closely and kept away from narrow ledges or elevated surfaces.\nSolution for hazard source: Install a safety railing or barrier along the ledge to prevent falls.\nSolution to prevent recurrence: Always keep a close watch on children near elevated or narrow areas and consider adding safety barriers.\nNormal video description: None",
+        "parsed_response": {
+          "risk_status": "normal",
+          "has_risk": false,
+          "risk_type": "",
+          "video_description": "Risk presence: Yes Level 1 scene: dining room Level 2 subject: child Level 3 risk type: fall/instability Risk description: The child is walking on a narrow ledge near the counter, which could pose a fall risk if they lose balance. Risk time interval: [5,20] Solution for person: Ensure the child is supervised closely and kept away from narrow ledges or elevated surfaces. Solution for hazard source: Install a safety railing or barrier along the ledge to prevent falls. Solution to prevent recurrence: Always keep a close watch on children near elevated or narrow areas and consider adding safety barriers. Normal video description: None",
+          "safe_segment_desc": "Risk presence: Yes Level 1 scene: dining room Level 2 subject: child Level 3 risk type: fall/instability Risk description: The child is walking on a narrow ledge near the counter, which could pose a fall risk if they lose balance. Risk time interval: [5,20] Solution for person: Ensure the child is supervised closely and kept away from narrow ledges or elevated surfaces. Solution for hazard source: Install a safety railing or barrier along the ledge to prevent falls. Solution to prevent recurrence: Always keep a close watch on children near elevated or narrow areas and consider adding safety barriers. Normal video description: None",
+          "risk_description": "",
+          "solution": "",
+          "time_spans": []
+        },
+        "generation": {
+          "temperature": 0.0,
+          "top_p": 0.9,
+          "max_new_tokens": 256,
+          "fps": 1.0,
+          "max_frames": 16,
+          "merge_size": 2
+        },
+        "elapsed_seconds": 9.137
+      }
+    },
+    {
+      "perspective": {
+        "index": 5,
+        "name": "Consequence-Severity-First Perspective",
+        "prompt": "You are acting as a consequence-severity-first reviewer.\nYour task is to focus on whether the potential consequences of a risk event would be serious, hard to reverse, or costly to intervene in. Even if the probability is not the highest, keep the behavior if the realistic potential consequence is severe enough.\n\nFollow these principles:\n- Prioritize behaviors that could realistically lead to severe injury, long-term impact, emergency medical care, lasting functional impairment, or major property or environmental damage.\n- Judge not only whether an accident is likely, but also how costly the consequence would be if it occurred.\n- For borderline cases, analyze whether the most realistic negative consequence is already too significant to ignore.\n- If a behavior may lead to burns from heat, electric shock, falling from height, severe collision, poisoning, suffocation, or other serious outcomes, lean toward keeping it.\n- The standard emphasizes prevention of severe consequences, so low-probability but high-damage scenarios may justify keeping the behavior.\n\nOutput requirements for this perspective:\n- Explain the realistic severity of the possible consequence if the behavior develops into an accident.\n- Do not exaggerate minor or unimportant consequences.\n- Do not rely on extremely rare catastrophic scenarios without realistic support from the video."
+      },
+      "model": {
+        "model_id": "DAMO-NLP-SG/VideoLLaMA3-7B",
+        "backend": "videollama3"
+      },
+      "prompt_file": "/data_4/liuyuan/lifebench/public_data_filter/batch_outputs/persistent_full/reviews/toyota_smarthome_mp4/mp4/Walk_p25_r02_v09_c02/prompts/05_Consequence-Severity-First_Perspective.txt",
+      "output_json": "/data_4/liuyuan/lifebench/public_data_filter/batch_outputs/persistent_full/reviews/toyota_smarthome_mp4/mp4/Walk_p25_r02_v09_c02/agent_outputs/05_Consequence-Severity-First_Perspective.json",
+      "stdout_log": "/data_4/liuyuan/lifebench/public_data_filter/batch_outputs/persistent_full/reviews/toyota_smarthome_mp4/mp4/Walk_p25_r02_v09_c02/logs/05_Consequence-Severity-First_Perspective.stdout.log",
+      "stderr_log": "/data_4/liuyuan/lifebench/public_data_filter/batch_outputs/persistent_full/reviews/toyota_smarthome_mp4/mp4/Walk_p25_r02_v09_c02/logs/05_Consequence-Severity-First_Perspective.stderr.log",
+      "worker_id": "05_videollama3_gpu4",
+      "gpu_id": "4",
+      "returncode": 0,
+      "elapsed_seconds": 4.663,
+      "response": "Risk presence: No\nLevel 1 scene: dining room\nLevel 2 subject: child\nLevel 3 risk type: None\nRisk description: None\nRisk time interval: Unknown\nSolution for person: None\nSolution for hazard source: None\nSolution to prevent recurrence: None\nNormal video description: A child is walking in a modern dining room, carrying a tray with items on it. The child appears to be moving towards the kitchen area.",
+      "parsed_decision": {
+        "candidate_behavior": "",
+        "risk_presence_raw": "No",
+        "risk_presence": "No",
+        "keep_raw": "No",
+        "keep": false,
+        "level1_scene": "dining room",
+        "level2_subject": "child",
+        "level3_risk_type": "None",
+        "risk_description": "None",
+        "risk_time_interval": "Unknown",
+        "solution_for_person": "None",
+        "solution_for_hazard_source": "None",
+        "solution_to_prevent_recurrence": "None",
+        "normal_video_description": "A child is walking in a modern dining room, carrying a tray with items on it. The child appears to be moving towards the kitchen area.",
+        "reason": ""
+      },
+      "runner_payload": {
+        "backend": "videollama3",
+        "description": "VideoLLaMA3 7B video chat model",
+        "model_id": "DAMO-NLP-SG/VideoLLaMA3-7B",
+        "model_path": "/data_4/liuyuan/lifebench/models/DAMO-NLP-SG__VideoLLaMA3-7B",
+        "video_path": "/data_4/liuyuan/lifebench/data/public_data/toyota_smarthome_mp4/mp4/Walk_p25_r02_v09_c02.mp4",
+        "prompt": "You are acting as a consequence-severity-first reviewer.\nYour task is to focus on whether the potential consequences of a risk event would be serious, hard to reverse, or costly to intervene in. Even if the probability is not the highest, keep the behavior if the realistic potential consequence is severe enough.\n\nFollow these principles:\n- Prioritize behaviors that could realistically lead to severe injury, long-term impact, emergency medical care, lasting functional impairment, or major property or environmental damage.\n- Judge not only whether an accident is likely, but also how costly the consequence would be if it occurred.\n- For borderline cases, analyze whether the most realistic negative consequence is already too significant to ignore.\n- If a behavior may lead to burns from heat, electric shock, falling from height, severe collision, poisoning, suffocation, or other serious outcomes, lean toward keeping it.\n- The standard emphasizes prevention of severe consequences, so low-probability but high-damage scenarios may justify keeping the behavior.\n\nOutput requirements for this perspective:\n- Explain the realistic severity of the possible consequence if the behavior develops into an accident.\n- Do not exaggerate minor or unimportant consequences.\n- Do not rely on extremely rare catastrophic scenarios without realistic support from the video.\n\nTask addendum:\nReview the input video and first decide whether the video contains a risk.\nBase your judgment only on the video content. Do not assume facts outside the video, and do not invent extra events.\nJudge the main visible behavior and scene in the video.\nYou must answer based on the provided video input. Do not say that you cannot watch or inspect the video.\nOutput exactly the following English-labeled fields, with no markdown and no extra text:\nRisk presence: Yes / No\nLevel 1 scene: output one scene keyword. Prefer one of: dining room, kitchen, study, balcony, living room, bathroom, yard. If none fits, output your own concise scene keyword.\nLevel 2 subject: output one subject keyword. Prefer one of: child, older adult, young adult, middle-aged adult. If none fits, output your own concise subject keyword.\nLevel 3 risk type: if Risk presence is Yes, output one risk keyword. Prefer one of: fall/instability, heat/fire source, collision/crush injury, sharp-object danger, electrical safety, poisoning/accidental ingestion, interpersonal conflict. If none fits, output your own concise risk keyword. If Risk presence is No, output None.\nRisk description: if Risk presence is Yes, describe the risk in 1-3 sentences. If Risk presence is No, output None.\nRisk time interval: if Risk presence is Yes, localize the risk as seconds like [start,end]. If there are multiple intervals, separate them with semicolons. If the exact interval is unclear, output Unknown. If Risk presence is No, output None.\nSolution for person: if Risk presence is Yes, give a concrete action for the person or caregiver. If Risk presence is No, output None.\nSolution for hazard source: if Risk presence is Yes, give a concrete action for the hazard source or environment. If Risk presence is No, output None.\nSolution to prevent recurrence: if Risk presence is Yes, give a prevention measure to reduce recurrence. If Risk presence is No, output None.\nNormal video description: if Risk presence is No, describe the normal video content in 1-3 sentences. If Risk presence is Yes, output None.",
+        "response": "Risk presence: No\nLevel 1 scene: dining room\nLevel 2 subject: child\nLevel 3 risk type: None\nRisk description: None\nRisk time interval: Unknown\nSolution for person: None\nSolution for hazard source: None\nSolution to prevent recurrence: None\nNormal video description: A child is walking in a modern dining room, carrying a tray with items on it. The child appears to be moving towards the kitchen area.",
+        "parsed_response": {
+          "risk_status": "normal",
+          "has_risk": false,
+          "risk_type": "",
+          "video_description": "Risk presence: No Level 1 scene: dining room Level 2 subject: child Level 3 risk type: None Risk description: None Risk time interval: Unknown Solution for person: None Solution for hazard source: None Solution to prevent recurrence: None Normal video description: A child is walking in a modern dining room, carrying a tray with items on it. The child appears to be moving towards the kitchen area.",
+          "safe_segment_desc": "Risk presence: No Level 1 scene: dining room Level 2 subject: child Level 3 risk type: None Risk description: None Risk time interval: Unknown Solution for person: None Solution for hazard source: None Solution to prevent recurrence: None Normal video description: A child is walking in a modern dining room, carrying a tray with items on it. The child appears to be moving towards the kitchen area.",
+          "risk_description": "",
+          "solution": "",
+          "time_spans": []
+        },
+        "generation": {
+          "temperature": 0.0,
+          "top_p": 0.9,
+          "max_new_tokens": 256,
+          "fps": 1.0,
+          "max_frames": 16,
+          "merge_size": 2
+        },
+        "elapsed_seconds": 4.663
+      }
+    }
+  ],
+  "majority_vote": {
+    "complete": true,
+    "keep": false,
+    "risk_presence": "No",
+    "yes_count": 1,
+    "no_count": 4,
+    "threshold": 3,
+    "votes_cast": 5,
+    "expected_votes": 5,
+    "kept_by_perspectives": [
+      "Vulnerable-Subject-First Perspective"
+    ],
+    "rejected_by_perspectives": [
+      "Daily Behavior Baseline Perspective",
+      "Conservative Safety Perspective",
+      "Permissive Behavior Tolerance Perspective",
+      "Consequence-Severity-First Perspective"
+    ],
+    "normal_level1_scene_keywords": [
+      {
+        "keyword": "dining room",
+        "count": 4
+      }
+    ],
+    "normal_level1_scene_top": "dining room",
+    "normal_level2_subject_keywords": [
+      {
+        "keyword": "middle-aged adult",
+        "count": 2
+      },
+      {
+        "keyword": "older adult",
+        "count": 1
+      },
+      {
+        "keyword": "child",
+        "count": 1
+      }
+    ],
+    "normal_level2_subject_top": "middle-aged adult",
+    "normal_video_descriptions": [
+      "A middle-aged adult is standing near a dining table in a dining room. The table has a white top and wooden sides, and there are red and white chairs around it. The room has a modern design with wooden cabinets and a large window in the background. The adult appears to be preparing something on the table.",
+      "A middle-aged adult is standing near a counter in a dining room, holding an object. The room has a large table with chairs, a cabinet, and a window with curtains.",
+      "An older adult is standing near a kitchen counter in a modern dining room, holding an object and appearing to prepare or organize items. The scene is calm and orderly with no signs of danger or abnormal behavior.",
+      "A child is walking in a modern dining room, carrying a tray with items on it. The child appears to be moving towards the kitchen area."
+    ]
+  },
+  "repair": {
+    "repaired_at": "20260427T102039Z",
+    "method": "replace_conservative_safety_perspective",
+    "source_summary_json": "/data_4/liuyuan/lifebench/public_data_filter/batch_outputs/persistent_full/reviews/toyota_smarthome_mp4/mp4/Walk_p25_r02_v09_c02/review_summary.json",
+    "replacement_backend": "minicpmv45",
+    "replacement_model_id": "openbmb/MiniCPM-V-4_5",
+    "replacement_output_json": "/data_4/liuyuan/lifebench/public_data_filter/batch_outputs/persistent_full/reviews/toyota_smarthome_mp4/mp4/Walk_p25_r02_v09_c02/agent_outputs/02_Conservative_Safety_Perspective.minicpmv45.json",
+    "original_backend": "tarsier2",
+    "original_model_id": "omni-research/Tarsier2-7b-0115",
+    "original_output_json": "/data_4/liuyuan/lifebench/public_data_filter/batch_outputs/persistent_full/reviews/toyota_smarthome_mp4/mp4/Walk_p25_r02_v09_c02/agent_outputs/02_Conservative_Safety_Perspective.json"
+  }
+}

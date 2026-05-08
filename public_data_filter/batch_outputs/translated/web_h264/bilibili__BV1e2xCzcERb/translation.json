@@ -1,0 +1,40 @@
+{
+  "video_key": "web_h264/bilibili__BV1e2xCzcERb",
+  "translations": {
+    "0": {
+      "risk_description": "孩子在地板上玩耍，地板对儿童来说并不是安全场所，孩子有跌倒和受伤的风险。",
+      "normal_video_description": "",
+      "solution_for_person": "看护者应监督孩子，确保孩子在安全区域玩耍。",
+      "solution_for_hazard_source": "看护者应清除地板上的任何危险物品，例如可能导致孩子绊倒或跌倒的玩具或物体。",
+      "solution_to_prevent_recurrence": "看护者应为孩子的玩耍时间制定规律，并确保孩子始终受到监督。"
+    },
+    "1": {
+      "risk_description": "孩子在地板上玩耍，靠近成年人，存在碰撞或被成年人踩到的风险。",
+      "normal_video_description": "一位成年人坐在客厅的沙发上，孩子在附近的地板上玩耍，与玩具和成年人互动。",
+      "solution_for_person": "成年人应更加注意孩子的位置和动作，避免不小心踩到或撞到孩子。",
+      "solution_for_hazard_source": "",
+      "solution_to_prevent_recurrence": "确保成年人在坐着时与孩子保持安全距离，并密切关注孩子的动作。"
+    },
+    "2": {
+      "risk_description": "孩子在看护人附近从沙发跌落到地板。虽然看护人缓冲了跌倒，但该事件已构成明显的跌倒危险，已超出正常玩耍的风险。",
+      "normal_video_description": "",
+      "solution_for_person": "看护者应立即检查孩子是否受伤，并给予安慰。",
+      "solution_for_hazard_source": "确保孩子不单独留在沙发等升高的家具上。",
+      "solution_to_prevent_recurrence": "使用安全门或护栏防止孩子接近升高的家具，并始终严密监督孩子。"
+    },
+    "3": {
+      "risk_description": "在成年人的监督下，孩子跌倒到地板上。虽然成年人本可以在场接住孩子，但跌倒仍有受伤风险。",
+      "normal_video_description": "",
+      "solution_for_person": "成年人应确保孩子得到稳固的支撑，并密切监视以防止跌倒。",
+      "solution_for_hazard_source": "移除游戏区域中的任何障碍物或不稳固物品，以降低跌倒风险。",
+      "solution_to_prevent_recurrence": "确保游戏区域没有危险，且孩子始终在成年人的注意范围内。"
+    },
+    "4": {
+      "risk_description": "",
+      "normal_video_description": "视频显示，孩子坐在客厅的地板上，玩玩具并与成年人互动。孩子看起来安全且专注于玩耍。",
+      "solution_for_person": "",
+      "solution_for_hazard_source": "",
+      "solution_to_prevent_recurrence": ""
+    }
+  }
+}

@@ -1,0 +1,40 @@
+{
+  "video_key": "UR_Fall_Dataset/fall-18-cam1",
+  "translations": {
+    "0": {
+      "risk_description": "由于坐在椅子上的姿势以及缺乏适当的支撑，孩子有跌倒的风险。",
+      "normal_video_description": "孩子坐在客厅的椅子上，然后从椅子上摔下来。",
+      "solution_for_person": "护理人员应确保孩子在椅子上的坐姿正确且稳固，有适当的支撑和监督。",
+      "solution_for_hazard_source": "护理人员应确保椅子稳固安全，并且孩子不要以可能导致失去平衡的方式坐着。",
+      "solution_to_prevent_recurrence": "护理人员应定期检查孩子，确保他们安全稳固地坐着，并且椅子状态良好。"
+    },
+    "1": {
+      "risk_description": "该人以坐姿躺在地板上，存在跌倒或失去平衡的风险，可能导致受伤。",
+      "normal_video_description": "看到一个人在书房或办公室环境中站着，然后躺在地板上。",
+      "solution_for_person": "避免在缺乏适当支撑的情况下以坐姿躺在地板上。",
+      "solution_for_hazard_source": "",
+      "solution_to_prevent_recurrence": "确保该人在不站立时坐在椅子上或稳固的表面上。"
+    },
+    "2": {
+      "risk_description": "该人失去平衡向后倒在地上，表明出现了明显的不稳事件，超出正常活动范围。",
+      "normal_video_description": "",
+      "solution_for_person": "该人应立即起身检查是否受伤，必要时寻求医疗帮助。",
+      "solution_for_hazard_source": "确保地板上没有障碍物并提供更好的照明，以防止类似事件再次发生。",
+      "solution_to_prevent_recurrence": "鼓励使用防滑鞋，并考虑在容易发生跌倒的区域安装安全垫。"
+    },
+    "3": {
+      "risk_description": "孩子正在尝试前滚翻，如果动作不当可能导致跌倒或受伤，对身体控制能力有限的儿童构成风险。",
+      "normal_video_description": "",
+      "solution_for_person": "确保孩子受到密切监督，并在他们进行翻滚有困难时提供支撑。",
+      "solution_for_hazard_source": "移除附近可能导致绊倒或受伤的障碍物。",
+      "solution_to_prevent_recurrence": "在柔软的表面上练习翻滚，并确保孩子对动作感到舒适和自信。"
+    },
+    "4": {
+      "risk_description": "看到孩子在奔跑后摔倒在地，可能导致轻微伤害，但由于摔倒的性质，也可能造成更严重的后果，如头部受伤或扭伤。",
+      "normal_video_description": "",
+      "solution_for_person": "确保孩子受到监督，并在办公室环境中为其提供安全玩耍和移动的适当指导。",
+      "solution_for_hazard_source": "移除孩子玩耍区域中的绊倒危险或障碍物。",
+      "solution_to_prevent_recurrence": "教育孩子在室内跑步时要小心，并为其提供更安全的替代活动。"
+    }
+  }
+}

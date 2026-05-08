@@ -1,0 +1,40 @@
+{
+  "video_key": "toyota_smarthome_mp4/mp4/Sitdown_p10_r06_v05_c04",
+  "translations": {
+    "0": {
+      "risk_description": "老年人因姿势以及客厅里有茶几而面临跌倒的风险。",
+      "normal_video_description": "老年人坐在客厅的沙发上，周围环绕着植物和茶几。他们看起来不舒服，正用手托着头。",
+      "solution_for_person": "护理人员应帮助老年人坐下，并提供支撑以防止跌倒。",
+      "solution_for_hazard_source": "应将茶几移至更安全的位置，以降低跌倒风险。",
+      "solution_to_prevent_recurrence": "护理人员应监测老年人的活动，并在需要时提供支撑，以防止将来跌倒。"
+    },
+    "1": {
+      "risk_description": "此人正站在沙发上，这是不稳定的表面，存在跌倒风险，可能导致受伤。",
+      "normal_video_description": "一位老年人先站在客厅的沙发上，然后坐下。",
+      "solution_for_person": "避免站在家具上，以防跌倒。",
+      "solution_for_hazard_source": "确保家具稳固，不要将其用作站立平台。",
+      "solution_to_prevent_recurrence": "当该人在客厅时进行监督，并提醒他们不要站在沙发上。"
+    },
+    "2": {
+      "risk_description": "",
+      "normal_video_description": "看到一位老年人坐在客厅的绿色沙发上，调整姿势并用手遮住脸部。场景看起来平静、居家，没有明显的危险或危险活动。",
+      "solution_for_person": "",
+      "solution_for_hazard_source": "",
+      "solution_to_prevent_recurrence": ""
+    },
+    "3": {
+      "risk_description": "老年人似乎感到不适，托着头，这可能表明有潜在的跌倒或受伤风险。他们坐在沙发上，如果试图站立，沙发可能无法提供足够的支撑。",
+      "normal_video_description": "",
+      "solution_for_person": "确保老年人在尝试站立或移动时得到支撑，并检查是否有受伤。",
+      "solution_for_hazard_source": "提供额外的支撑或在旁边放置椅子，以防止跌倒。",
+      "solution_to_prevent_recurrence": "保持客厅没有绊倒危险，并确保老年人在移动时有支撑。"
+    },
+    "4": {
+      "risk_description": "",
+      "normal_video_description": "一位老年人坐在客厅的绿色沙发上，用手遮住脸部。场景中没有可见的风险或危险。",
+      "solution_for_person": "",
+      "solution_for_hazard_source": "",
+      "solution_to_prevent_recurrence": ""
+    }
+  }
+}

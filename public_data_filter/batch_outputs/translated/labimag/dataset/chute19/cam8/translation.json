@@ -1,0 +1,40 @@
+{
+  "video_key": "labimag/dataset/chute19/cam8",
+  "translations": {
+    "0": {
+      "risk_description": "视频中的年轻人试图搬动一把大型沉重的棕色扶手椅。他们努力抬起和移动椅子，最终导致失去平衡摔倒在地。这种行为偏离了正常的日常搬动家具活动，因为它存在因椅子尺寸和重量造成的受伤风险。",
+      "normal_video_description": "",
+      "solution_for_person": "应建议此人在搬动重型家具时寻求他人帮助，以避免潜在的受伤。",
+      "solution_for_hazard_source": "不需要对危险源采取特定解决方案，因为风险与个人行为有关。",
+      "solution_to_prevent_recurrence": "应教育此人正确搬动重型家具的技巧，以及在必要时寻求帮助以防止跌倒和受伤的重要性。"
+    },
+    "1": {
+      "risk_description": "穿红衬衫的人试图爬上扶手椅，失去平衡摔到地板上。这种行为存在跌倒受伤的风险。",
+      "normal_video_description": "一个穿红衬衫的人进入房间，走向扶手椅，试图爬上去，结果摔倒了。",
+      "solution_for_person": "避免在没有适当支撑或监督的情况下试图攀爬或跳上家具。",
+      "solution_for_hazard_source": "确保家具稳固，不要将其用作攀爬工具。",
+      "solution_to_prevent_recurrence": "教育有关攀爬家具的危险性，并执行禁止此类行为的规则。"
+    },
+    "2": {
+      "risk_description": "一个年轻人在穿过房间时失去平衡摔到地板上，这表明一个明显的失稳事件，超过了正常活动范围。",
+      "normal_video_description": "",
+      "solution_for_person": "此人应立即起身并检查是否受伤，必要时寻求医疗救治。",
+      "solution_for_hazard_source": "移除或固定步行通道中的障碍物，以防止将来绊倒或摔倒。",
+      "solution_to_prevent_recurrence": "改善照明，清理杂物，确保地面防滑，以减少类似事件的风险。"
+    },
+    "3": {
+      "risk_description": "视频中的人摔倒在地板上，这可能会造成受伤风险，尤其是对于行动不便或平衡问题的人。",
+      "normal_video_description": "",
+      "solution_for_person": "确保此人意识到周围环境，谨慎行动以避免绊倒或摔倒。",
+      "solution_for_hazard_source": "移除地板上的任何障碍物或绊倒危险，以降低摔倒风险。",
+      "solution_to_prevent_recurrence": "安装额外的照明或防滑地板，以提高客厅区域的安全性。"
+    },
+    "4": {
+      "risk_description": "视频中的人穿过房间后摔倒在豆袋椅上，可能会造成轻微伤害。然而，如果这个人摔在坚硬表面上或从更高的地方摔落，后果可能更严重。",
+      "normal_video_description": "一个人穿过有桌子和椅子的房间，然后摔倒在豆袋椅上。",
+      "solution_for_person": "",
+      "solution_for_hazard_source": "",
+      "solution_to_prevent_recurrence": "确保地板上没有障碍物，并提供适当的照明以避免绊倒危险。"
+    }
+  }
+}

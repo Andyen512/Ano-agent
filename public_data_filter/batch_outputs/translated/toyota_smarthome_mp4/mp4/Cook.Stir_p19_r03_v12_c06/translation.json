@@ -1,0 +1,40 @@
+{
+  "video_key": "toyota_smarthome_mp4/mp4/Cook.Stir_p19_r03_v12_c06",
+  "translations": {
+    "0": {
+      "risk_description": "",
+      "normal_video_description": "视频中显示一位身穿橙色衬衫的老年人在现代化的厨房里，站在炉灶旁准备食物。厨房光线充足，配备不锈钢抽油烟机、木质岛屿内置电磁炉，以及各种厨房电器和用具。背景包括客厅区域，配有白色沙发、平板电视和盆栽。场景似乎是典型的日常活动，没有任何风险或异常迹象。",
+      "solution_for_person": "",
+      "solution_for_hazard_source": "",
+      "solution_to_prevent_recurrence": ""
+    },
+    "1": {
+      "risk_description": "",
+      "normal_video_description": "一位老年人站在厨房里，穿着橙色衬衫，正在炉灶上搅拌锅中的食物。厨房现代化，配备不锈钢电器、木质岛屿，背景中有一台电视。",
+      "solution_for_person": "",
+      "solution_for_hazard_source": "",
+      "solution_to_prevent_recurrence": ""
+    },
+    "2": {
+      "risk_description": "",
+      "normal_video_description": "一位老年人站在厨房岛屿旁，搅拌炉灶上锅中的东西。场景平静，描绘的是正常的家庭日常活动，没有任何可见的危险或风险迹象。",
+      "solution_for_person": "",
+      "solution_for_hazard_source": "",
+      "solution_to_prevent_recurrence": ""
+    },
+    "3": {
+      "risk_description": "",
+      "normal_video_description": "一位老年人在现代化厨房里做饭，正在炉灶上搅拌锅。厨房光线充足，采用时尚设计，配有大型岛屿和现代电器。",
+      "solution_for_person": "",
+      "solution_for_hazard_source": "",
+      "solution_to_prevent_recurrence": ""
+    },
+    "4": {
+      "risk_description": "",
+      "normal_video_description": "一位老年人在现代化厨房里做饭，正在炉灶上搅拌锅中的东西。厨房配备齐全，拥有现代电器，外观干净整洁。",
+      "solution_for_person": "",
+      "solution_for_hazard_source": "",
+      "solution_to_prevent_recurrence": ""
+    }
+  }
+}

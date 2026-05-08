@@ -1,0 +1,40 @@
+{
+  "video_key": "SmartHome-Bench/videos/smartbench_0484",
+  "translations": {
+    "0": {
+      "risk_description": "这位年轻人正试图抬起一个沉重的绿色垃圾桶，它看起来不稳定，可能会倾倒，导致受伤。",
+      "normal_video_description": "",
+      "solution_for_person": "该人应寻求他人的帮助，以安全地抬起和移动沉重的垃圾桶。",
+      "solution_for_hazard_source": "应将垃圾桶放置在更稳定的表面或使用正确的搬运方式，以防止倾倒。",
+      "solution_to_prevent_recurrence": "该人应接受正确搬运技巧及使用设备搬运重物的培训。"
+    },
+    "1": {
+      "risk_description": "穿粉色上衣和黑色裤子的那个人在走向拿绿色垃圾桶的男子时跌倒在地，摔倒可能导致受伤。",
+      "normal_video_description": "一名男子在草坪上倒空绿色垃圾桶，另一人向他走来时摔倒在地。",
+      "solution_for_person": "该人应注意脚下的地面和周围环境，以避免绊倒或摔倒。",
+      "solution_for_hazard_source": "",
+      "solution_to_prevent_recurrence": "确保通道畅通并清除院子里的障碍物，以减少绊倒危险。"
+    },
+    "2": {
+      "risk_description": "一个在草地上奔跑的孩子失去平衡摔倒在地上，显示出不稳的风险和潜在的伤害。",
+      "normal_video_description": "",
+      "solution_for_person": "成人应立即上前检查孩子是否受伤并给予安慰。",
+      "solution_for_hazard_source": "确保游戏区域没有障碍物和危险，以防止类似的跌倒。",
+      "solution_to_prevent_recurrence": "在户外活动时密切监督儿童，并确保环境安全适合玩耍。"
+    },
+    "3": {
+      "risk_description": "这位老年人弯腰靠近垃圾桶，这可能增加因不稳或失衡而跌倒的风险。",
+      "normal_video_description": "",
+      "solution_for_person": "老年人在弯腰时应确保有适当的支撑或稳定性，例如握住垃圾桶或使用踏脚凳。",
+      "solution_for_hazard_source": "垃圾桶应放置在稳固的地面上，以减少倾倒的风险。",
+      "solution_to_prevent_recurrence": "老年人应避免过度弯腰，并考虑使用工具来帮助搬动或抬起重物。"
+    },
+    "4": {
+      "risk_description": "",
+      "normal_video_description": "视频中显示一个孩子在院子里玩耍，推着一辆绿色手推车。场景中没有明显的风险或危险。",
+      "solution_for_person": "",
+      "solution_for_hazard_source": "",
+      "solution_to_prevent_recurrence": ""
+    }
+  }
+}

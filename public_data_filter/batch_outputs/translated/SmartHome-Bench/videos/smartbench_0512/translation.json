@@ -1,0 +1,40 @@
+{
+  "video_key": "SmartHome-Bench/videos/smartbench_0512",
+  "translations": {
+    "0": {
+      "risk_description": "",
+      "normal_video_description": "一个人在雪天走上门廊的台阶。他们打开门，走进屋里。",
+      "solution_for_person": "",
+      "solution_for_hazard_source": "",
+      "solution_to_prevent_recurrence": ""
+    },
+    "1": {
+      "risk_description": "那个人失去平衡，从台阶上摔下来，可能导致受伤。",
+      "normal_video_description": "一个人在下雪的社区里走下门廊的前台阶时滑倒并摔了下来。",
+      "solution_for_person": "下台阶时要小心，尤其是在下雪的情况下。",
+      "solution_for_hazard_source": "确保台阶上没有积雪和冰，以防滑倒。",
+      "solution_to_prevent_recurrence": "在雪天要穿合适的鞋子，如有扶手请使用。"
+    },
+    "2": {
+      "risk_description": "那个人在走下积雪的台阶时滑倒并摔倒，说明因湿滑导致失去平衡。",
+      "normal_video_description": "",
+      "solution_for_person": "在湿滑地面上行走时应格外小心，并考虑使用扶手或防滑鞋。",
+      "solution_for_hazard_source": "清除台阶上的雪和冰，以防以后滑倒。",
+      "solution_to_prevent_recurrence": "在台阶上安装防滑垫或涂抹防滑处理，以降低以后滑倒的风险。"
+    },
+    "3": {
+      "risk_description": "看起来那个人在结冰的楼梯上滑倒并摔倒，这对行动受限或平衡不佳的人尤其存在受伤风险。",
+      "normal_video_description": "",
+      "solution_for_person": "确保那个人安全站起并在摔倒后检查伤势。",
+      "solution_for_hazard_source": "清除楼梯上的冰，并考虑安装防滑垫或撒盐，以防止以后滑倒。",
+      "solution_to_prevent_recurrence": "定期检查并清除楼梯上的冰，特别是在降雪后，并安装扶手或防滑表面等安全设施。"
+    },
+    "4": {
+      "risk_description": "那个人在雪面上行走，可能会湿滑并增加跌倒风险。扶手提供了一定的安全保障，但此人的行为似乎没有考虑到潜在的危害。",
+      "normal_video_description": "一个人正走下一段楼梯，来到住宅区积雪覆盖的门廊。",
+      "solution_for_person": "在积雪的表面上要小心缓慢行走，必要时可扶着扶手。",
+      "solution_for_hazard_source": "",
+      "solution_to_prevent_recurrence": "确保该区域已清除积雪和冰，以减少滑倒危险。"
+    }
+  }
+}

@@ -1,0 +1,40 @@
+{
+  "video_key": "labimag/dataset/chute21/cam7",
+  "translations": {
+    "0": {
+      "risk_description": "视频中的年轻人被看到穿过办公室，然后突然倒地。这种行为偏离了正常的日常活动（走路和坐在椅子上），存在受伤风险。",
+      "normal_video_description": "",
+      "solution_for_person": "应检查此人是否有任何受伤，并在必要时提供急救。还应建议他们在办公室行走时保持谨慎，以避免未来发生类似事件。",
+      "solution_for_hazard_source": "应评估办公室环境是否存在可能导致跌倒的潜在危险，例如地面不平整或绊倒危险。这些危险因素应加以处理以防止未来的跌倒。",
+      "solution_to_prevent_recurrence": "应提醒此人注意周围环境，在办公室行走时保持谨慎。定期检查以确保办公室环境安全且无危险。"
+    },
+    "1": {
+      "risk_description": "此人平躺在办公室的地板上，存在因跌倒或难以站起而受伤的风险。",
+      "normal_video_description": "视频显示一个配有桌椅和各种物品的办公空间。一个人将椅子推到中间，坐下，然后平躺在地板上，之后又站起来。",
+      "solution_for_person": "确保此人在平躺于地板时有人监督或协助，以防止长时间不动或受伤。",
+      "solution_for_hazard_source": "",
+      "solution_to_prevent_recurrence": "教育此人了解在办公室环境中平躺在地板上的风险，并在需要时提供帮助。"
+    },
+    "2": {
+      "risk_description": "主体坐在扶手椅上，失去平衡，然后向后倒在地上。这表明明显失去稳定性并发生了跌倒事件。",
+      "normal_video_description": "",
+      "solution_for_person": "此人应立即起身并检查是否有受伤。",
+      "solution_for_hazard_source": "确保扶手椅稳定且状况良好。",
+      "solution_to_prevent_recurrence": "通过锻炼或使用辅助设备（如有必要）来改善平衡和稳定性。"
+    },
+    "3": {
+      "risk_description": "老年人从扶手椅上跌落并摔到地板上，由于他们可能有限的行动能力和平衡感，可能会导致受伤。",
+      "normal_video_description": "",
+      "solution_for_person": "确保老年人在从椅子移到地板时有支撑，以防止跌倒。",
+      "solution_for_hazard_source": "清除绊倒危险，确保地板畅通，以减少跌倒风险。",
+      "solution_to_prevent_recurrence": "在座位区域附近安装扶手或辅助设备，以提供稳定性和支撑。"
+    },
+    "4": {
+      "risk_description": "视频中的人被看到坐在椅子上，然后摔到地上，这可能导致严重受伤。这种风险贯穿整个视频。",
+      "normal_video_description": "视频显示一个办公环境，有一个人坐在椅子上，然后摔到地上。",
+      "solution_for_person": "在尝试从椅子上站起来之前，确保此人的姿势稳定。",
+      "solution_for_hazard_source": "",
+      "solution_to_prevent_recurrence": "提供正确的培训，教导如何安全地从坐姿站立以防止跌倒。"
+    }
+  }
+}

@@ -1,0 +1,176 @@
+{
+  "manifest": {
+    "generated_at": "20260427T162421Z",
+    "reviews_root": "/data_4/liuyuan/lifebench/public_data_filter/batch_outputs/persistent_full/reviews",
+    "output_root": "/data_4/liuyuan/lifebench/public_data_filter/batch_outputs/persistent_full",
+    "output_stem": "strict_english_schema_smoke",
+    "effective_output_stem": "strict_english_schema_smoke",
+    "model_path": null,
+    "num_shards": 1,
+    "shard_index": null,
+    "merged_from_shards": [],
+    "schema": {
+      "Risk": [
+        "Yes",
+        "No"
+      ],
+      "Level 1 scene": [
+        "dining room",
+        "kitchen",
+        "study",
+        "balcony",
+        "living room",
+        "bathroom",
+        "yard"
+      ],
+      "Level 2 subject": [
+        "child",
+        "older adult",
+        "young adult",
+        "middle-aged adult"
+      ],
+      "Level 3 risk type": [
+        "fall/instability",
+        "heat/fire source",
+        "collision/crush injury",
+        "sharp-object danger",
+        "electrical safety",
+        "poisoning/accidental ingestion",
+        "interpersonal conflict",
+        "None"
+      ],
+      "Risk localization": "Integer intervals like [start,end]; use semicolons for multiple; no-risk is None; missing evidence is Unknown"
+    }
+  },
+  "summary": {
+    "processed_videos": 2,
+    "risk_counts": {
+      "No": 2
+    },
+    "method_counts": {
+      "fallback": 2
+    },
+    "rows_with_validation_errors": 0
+  },
+  "results": [
+    {
+      "video_relpath": "Multiple_users_compound_event/data/p101/Cook_Sequence_Afternoon/00101_c5s0.mp4",
+      "video_path": "/data_4/liuyuan/lifebench/data/public_data/Multiple_users_compound_event/data/p101/Cook_Sequence_Afternoon/00101_c5s0.mp4",
+      "summary_json": "/data_4/liuyuan/lifebench/public_data_filter/batch_outputs/persistent_full/reviews/Multiple_users_compound_event/data/p101/Cook_Sequence_Afternoon/00101_c5s0/review_summary.repaired.json",
+      "Risk": "No",
+      "Level 1 scene": "kitchen",
+      "Level 2 subject": "middle-aged adult",
+      "Level 3 risk type": "None",
+      "Normal-video description or risk description": "The video shows a person in a white robe and blue slippers performing routine kitchen tasks such as washing dishes and preparing food. The person appears to be engaged in normal daily activities without any signs of distress or unusual behavior.",
+      "Risk localization": "None",
+      "Solutions-For person": "None",
+      "Solutions-For hazard source": "None",
+      "Solutions-Prevent recurrence": "None",
+      "formatted_text": "Risk: No\nVideo content labels:\nLevel 1: scene: kitchen\nLevel 2: subject: middle-aged adult\nLevel 3: risk type: None\nNormal-video description or risk description: The video shows a person in a white robe and blue slippers performing routine kitchen tasks such as washing dishes and preparing food. The person appears to be engaged in normal daily activities without any signs of distress or unusual behavior.\nRisk localization: None\nSolutions:\nFor person: None\nFor hazard source: None\nPrevent recurrence: None",
+      "extraction_method": "fallback",
+      "validation_errors": [],
+      "source_majority_vote": {
+        "complete": true,
+        "keep": false,
+        "risk_presence": "No",
+        "yes_count": 0,
+        "no_count": 5,
+        "threshold": 3,
+        "votes_cast": 5,
+        "expected_votes": 5,
+        "kept_by_perspectives": [],
+        "rejected_by_perspectives": [
+          "Daily Behavior Baseline Perspective",
+          "Conservative Safety Perspective",
+          "Permissive Behavior Tolerance Perspective",
+          "Vulnerable-Subject-First Perspective",
+          "Consequence-Severity-First Perspective"
+        ],
+        "normal_level1_scene_keywords": [
+          {
+            "keyword": "kitchen",
+            "count": 5
+          }
+        ],
+        "normal_level1_scene_top": "kitchen",
+        "normal_level2_subject_keywords": [
+          {
+            "keyword": "middle-aged adult",
+            "count": 3
+          },
+          {
+            "keyword": "older adult",
+            "count": 1
+          }
+        ],
+        "normal_level2_subject_top": "middle-aged adult",
+        "normal_video_descriptions": [
+          "The video shows a person in a white robe and blue slippers performing routine kitchen tasks such as washing dishes and preparing food. The person appears to be engaged in normal daily activities without any signs of distress or unusual behavior.",
+          "A person in a white robe, pink apron, and blue shoe covers moves around the kitchen, opening the dishwasher, handling items near the sink, and interacting with the stove area. The kitchen is well-lit with natural light, and various kitchen items are visible on the countertops.",
+          "An older adult wearing a white robe and blue shoe covers is seen in a kitchen preparing food at the counter and stove. The individual moves around the room normally, handling items and cooking without any signs of instability or danger.",
+          "The video shows a person in a white protective suit and blue shoe covers entering a kitchen, opening the dishwasher, and then moving around the kitchen to perform tasks at the sink and stove. The kitchen is well-lit and appears to be in use.",
+          "The video shows a person in a white protective suit and blue shoes standing in a kitchen, facing away from the camera. They appear to be engaged in some activity at the counter, possibly cleaning or preparing something. There is no visible risk or hazardous behavior in the scene."
+        ]
+      }
+    },
+    {
+      "video_relpath": "Multiple_users_compound_event/data/p101/Cook_Sequence_Afternoon/00101_c6s0.mp4",
+      "video_path": "/data_4/liuyuan/lifebench/data/public_data/Multiple_users_compound_event/data/p101/Cook_Sequence_Afternoon/00101_c6s0.mp4",
+      "summary_json": "/data_4/liuyuan/lifebench/public_data_filter/batch_outputs/persistent_full/reviews/Multiple_users_compound_event/data/p101/Cook_Sequence_Afternoon/00101_c6s0/review_summary.repaired.json",
+      "Risk": "No",
+      "Level 1 scene": "kitchen",
+      "Level 2 subject": "young adult",
+      "Level 3 risk type": "None",
+      "Normal-video description or risk description": "The video shows a person in a white shirt and apron working in the kitchen, washing dishes and handling kitchen items. The scene is typical of daily kitchen activities and does not indicate any risk or anomaly.",
+      "Risk localization": "None",
+      "Solutions-For person": "None",
+      "Solutions-For hazard source": "None",
+      "Solutions-Prevent recurrence": "None",
+      "formatted_text": "Risk: No\nVideo content labels:\nLevel 1: scene: kitchen\nLevel 2: subject: young adult\nLevel 3: risk type: None\nNormal-video description or risk description: The video shows a person in a white shirt and apron working in the kitchen, washing dishes and handling kitchen items. The scene is typical of daily kitchen activities and does not indicate any risk or anomaly.\nRisk localization: None\nSolutions:\nFor person: None\nFor hazard source: None\nPrevent recurrence: None",
+      "extraction_method": "fallback",
+      "validation_errors": [],
+      "source_majority_vote": {
+        "complete": true,
+        "keep": false,
+        "risk_presence": "No",
+        "yes_count": 2,
+        "no_count": 3,
+        "threshold": 3,
+        "votes_cast": 5,
+        "expected_votes": 5,
+        "kept_by_perspectives": [
+          "Conservative Safety Perspective",
+          "Vulnerable-Subject-First Perspective"
+        ],
+        "rejected_by_perspectives": [
+          "Daily Behavior Baseline Perspective",
+          "Permissive Behavior Tolerance Perspective",
+          "Consequence-Severity-First Perspective"
+        ],
+        "normal_level1_scene_keywords": [
+          {
+            "keyword": "kitchen",
+            "count": 3
+          }
+        ],
+        "normal_level1_scene_top": "kitchen",
+        "normal_level2_subject_keywords": [
+          {
+            "keyword": "young adult",
+            "count": 2
+          },
+          {
+            "keyword": "older adult",
+            "count": 1
+          }
+        ],
+        "normal_level2_subject_top": "young adult",
+        "normal_video_descriptions": [
+          "The video shows a person in a white shirt and apron working in the kitchen, washing dishes and handling kitchen items. The scene is typical of daily kitchen activities and does not indicate any risk or anomaly.",
+          "A person wearing an apron is seen moving around a kitchen, standing at the sink, and interacting with items on the counter. The environment appears to be a typical household kitchen with various items like a kettle, paper towels, and bottles visible.",
+          "The video shows an older adult in a white outfit standing at a kitchen counter, engaged in some activity. The kitchen is equipped with various items such as a kettle, a paper towel roll, and food containers on the counter. There are no visible risks or hazards in the scene."
+        ]
+      }
+    }
+  ]
+}

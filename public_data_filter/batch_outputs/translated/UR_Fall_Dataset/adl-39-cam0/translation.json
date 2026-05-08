@@ -1,0 +1,40 @@
+{
+  "video_key": "UR_Fall_Dataset/adl-39-cam0",
+  "translations": {
+    "0": {
+      "risk_description": "年轻人在卧室里快速而笨拙地移动，可能导致跌倒或失衡。",
+      "normal_video_description": "视频显示一名年轻人进入卧室，快速而笨拙地移动，然后摔倒在地板上。",
+      "solution_for_person": "应鼓励该人在卧室里缓慢而小心地移动，以防止跌倒。",
+      "solution_for_hazard_source": "应通过移除绊倒危险物并确保地板不湿滑来使卧室环境更安全。",
+      "solution_to_prevent_recurrence": "应提醒该人在卧室里更加小心，并向护理人员报告任何跌倒或受伤情况。"
+    },
+    "1": {
+      "risk_description": "该人在床前的一个小地毯上做了一个前滚翻，可能会导致滑倒或失去平衡，摔倒在硬地板上。",
+      "normal_video_description": "一个人进入卧室，在地毯上做了一个前滚翻，然后离开画面。",
+      "solution_for_person": "该人应在更大、更稳定的表面上做翻滚，或确保地毯固定牢靠以防止滑倒。",
+      "solution_for_hazard_source": "确保地毯防滑，周围区域无障碍物，以减少绊倒危险。",
+      "solution_to_prevent_recurrence": "监督或指导该人使用更安全的翻滚技巧，并确保锻炼区域已妥善准备。"
+    },
+    "2": {
+      "risk_description": "",
+      "normal_video_description": "一个年轻人从走廊进入卧室，走到房间中央，然后躺在地板垫上。该动作似乎是正常的日常活动，没有任何危险或不稳定的迹象。",
+      "solution_for_person": "",
+      "solution_for_hazard_source": "",
+      "solution_to_prevent_recurrence": ""
+    },
+    "3": {
+      "risk_description": "视频中的人似乎在保持平衡方面有困难并摔倒在地板上，这可能造成伤害风险，尤其是对行动不便或平衡问题的人。",
+      "normal_video_description": "",
+      "solution_for_person": "如果该人表现出不稳定或行走困难的迹象，应给予支持。",
+      "solution_for_hazard_source": "移除任何绊倒危险物，如地板上的电缆，以减少跌倒风险。",
+      "solution_to_prevent_recurrence": "使用防滑垫或确保地板无障碍物，以防止将来跌倒。"
+    },
+    "4": {
+      "risk_description": "该人进入房间并弯腰捡起一个物体，如果不小心可能会导致跌倒。这个动作存在受伤风险，因为有可能滑倒或绊倒。",
+      "normal_video_description": "",
+      "solution_for_person": "确保该人小心地捡起物体，注意脚下和平衡，以避免滑倒或绊倒。",
+      "solution_for_hazard_source": "",
+      "solution_to_prevent_recurrence": "鼓励该人在房间里保持良好的照明，并在捡起物体时注意自己的动作，以减少跌倒风险。"
+    }
+  }
+}

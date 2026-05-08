@@ -1,0 +1,40 @@
+{
+  "video_key": "toyota_smarthome_mp4/mp4/Walk_p11_r04_v13_c07",
+  "translations": {
+    "0": {
+      "risk_description": "",
+      "normal_video_description": "一个人正在厨房里，用一块蓝色抹布擦拭台面。他们看起来专注于自己的任务，在厨房里正常地走动。",
+      "solution_for_person": "",
+      "solution_for_hazard_source": "",
+      "solution_to_prevent_recurrence": ""
+    },
+    "1": {
+      "risk_description": "这位老人在擦拭台面时弯腰，这可能导致失去平衡而摔倒。",
+      "normal_video_description": "一位老人正在厨房里擦拭台面，炉灶上放着一个带有勺子的锅。",
+      "solution_for_person": "确保老年人在清洁时保持稳定的姿势，必要时可使用凳子支撑。",
+      "solution_for_hazard_source": "",
+      "solution_to_prevent_recurrence": "鼓励使用防滑垫或确保地面无障碍物，以减少绊倒危险。"
+    },
+    "2": {
+      "risk_description": "",
+      "normal_video_description": "一位老人正在用抹布擦拭厨房台面。这个人在台面周围移动，清洁不同的区域，旁边炉灶上放着一个锅。这种行为是一种日常家务清洁活动，没有危险或不稳定的迹象。",
+      "solution_for_person": "",
+      "solution_for_hazard_source": "",
+      "solution_to_prevent_recurrence": ""
+    },
+    "3": {
+      "risk_description": "这位老人靠在台面上，如果失去平衡可能会导致摔倒。",
+      "normal_video_description": "",
+      "solution_for_person": "确保老年人使用稳定的支撑，并考虑使用椅子以增加稳定性。",
+      "solution_for_hazard_source": "清理台面空间以减少绊倒危险，并提供一个稳定的支撑表面。",
+      "solution_to_prevent_recurrence": "在台面附近安装扶手或防滑垫以增加安全性。"
+    },
+    "4": {
+      "risk_description": "这个人由于站在不稳定表面上而有跌倒风险，可能导致严重伤害。",
+      "normal_video_description": "",
+      "solution_for_person": "确保这个人站在稳定安全的表面上以防止跌倒。",
+      "solution_for_hazard_source": "清除这个人站立区域的所有潜在绊倒危险。",
+      "solution_to_prevent_recurrence": "在容易不稳定的区域安装防滑垫或地板以减少跌倒风险。"
+    }
+  }
+}

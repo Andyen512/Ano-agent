@@ -1,0 +1,462 @@
+{
+  "manifest": {
+    "video_path": "/data_4/liuyuan/lifebench/data/public_data/web_h264/tiktok__7613670543622999303.mp4",
+    "rule_path": "/data_4/liuyuan/lifebench/public_data_filter/rule.md",
+    "prompt_language": "en",
+    "output_schema_version": "risk_full_en_v2",
+    "candidate_text": null,
+    "seed": 0,
+    "persistent_runner": true,
+    "reuse_agent_outputs": true,
+    "early_stop_majority": false,
+    "model_pool": [
+      {
+        "model_id": "Qwen/Qwen3.5-9B",
+        "backend": "qwen35vl"
+      },
+      {
+        "model_id": "openbmb/MiniCPM-V-4_5",
+        "backend": "minicpmv45"
+      },
+      {
+        "model_id": "mPLUG/mPLUG-Owl3-7B-241101",
+        "backend": "mplugowl3"
+      },
+      {
+        "model_id": "DAMO-NLP-SG/VideoLLaMA3-7B",
+        "backend": "videollama3"
+      },
+      {
+        "model_id": "OpenGVLab/InternVL3_5-8B",
+        "backend": "internvl35"
+      }
+    ],
+    "assignments": [
+      {
+        "perspective": {
+          "index": 1,
+          "name": "Daily Behavior Baseline Perspective",
+          "prompt": "You are acting as a daily-behavior baseline reviewer.\nYour task is to judge, from ordinary household experience, whether a candidate behavior clearly deviates from acceptable daily behavior and should be kept as a risk anomaly.\n\nFollow these principles:\n- Use common behavior patterns in ordinary home environments as the reference point. Do not use an overly sensitive or overly permissive standard.\n- If a behavior is usually normal, brief, and acceptable in most household scenes, do not easily mark it as a risk anomaly.\n- If a behavior clearly exceeds the normal range of daily activities and shows instability, a safety trigger, or potential harm, mark it as a risk anomaly.\n- For borderline cases, focus on whether the behavior has shifted from an acceptable daily activity into an abnormal risk behavior that deserves attention.\n- Keep the judgment close to ordinary common sense rather than medical, legal, or extreme safety standards.\n\nOutput requirements for this perspective:\n- Explain whether the behavior clearly deviates from the daily behavior baseline.\n- Keep the explanation concise, specific, and grounded only in the video content.\n- Do not mark a behavior as anomalous merely because it looks active.\n- Do not assume extra events outside the video."
+        },
+        "model": {
+          "model_id": "mPLUG/mPLUG-Owl3-7B-241101",
+          "backend": "mplugowl3"
+        }
+      },
+      {
+        "perspective": {
+          "index": 2,
+          "name": "Conservative Safety Perspective",
+          "prompt": "You are acting as a conservative safety reviewer.\nYour task is to minimize missed risks. If a candidate behavior has a realistic possibility of injury, loss of control, or accident triggering, it may be kept as a risk anomaly.\n\nFollow these principles:\n- Apply a cautious safety standard, prioritizing behaviors that may lead to falls, collisions, burns, electric shock, accidental ingestion, cuts, or other household injuries.\n- Even if harm has not occurred yet, keep the behavior if it already contains a clear risk trigger or is in an accident-prone state.\n- For borderline cases, focus on whether the behavior deserves early intervention rather than waiting for harm to happen.\n- If a behavior would commonly be stopped or warned against by family members, guardians, or caregivers, lean toward keeping it.\n- The goal is to reduce false negatives, so ambiguous cases may be judged slightly conservatively.\n\nOutput requirements for this perspective:\n- Explain what realistic harm the behavior may trigger and why it should or should not be kept under a conservative safety standard.\n- You do not need to prove that harm will definitely occur.\n- Do not exaggerate beyond an ordinary household context."
+        },
+        "model": {
+          "model_id": "openbmb/MiniCPM-V-4_5",
+          "backend": "minicpmv45"
+        }
+      },
+      {
+        "perspective": {
+          "index": 3,
+          "name": "Permissive Behavior Tolerance Perspective",
+          "prompt": "You are acting as a permissive behavior-tolerance reviewer.\nYour task is to judge from a higher tolerance threshold whether a candidate behavior truly reaches the level of a risk anomaly. Only keep it when the behavior clearly exceeds normal activity, playfulness, exploration, or brief mistakes.\n\nFollow these principles:\n- Maintain reasonable tolerance for common active behavior, brief imbalance, and minor irregular actions in household scenes.\n- Keep a behavior only when it has clear, direct, and realistic danger, or when it clearly leaves the boundary of generally acceptable daily behavior.\n- If a behavior has some uncertainty but commonly occurs in real life and would not usually be considered dangerous enough for special intervention, lean toward not keeping it.\n- For borderline cases, prioritize avoiding over-definition of ordinary life behavior as abnormal.\n- The goal is to reduce false positives, so keep only when the evidence is reasonably strong.\n\nOutput requirements for this perspective:\n- Explain whether the behavior remains within a tolerable daily behavior range.\n- Do not keep a behavior merely because it has a small possible risk.\n- Do not automatically treat all child play, pet activity, slow elderly movement, or similar ordinary behavior as abnormal."
+        },
+        "model": {
+          "model_id": "Qwen/Qwen3.5-9B",
+          "backend": "qwen35vl"
+        }
+      },
+      {
+        "perspective": {
+          "index": 4,
+          "name": "Vulnerable-Subject-First Perspective",
+          "prompt": "You are acting as a vulnerable-subject-first reviewer.\nYour task is to judge the candidate behavior with priority given to the safety of children, older adults, people with limited mobility, people recovering from illness, pregnant people, pets, or other vulnerable subjects. If the behavior creates a realistic additional risk for a vulnerable subject, lean toward keeping it as a risk anomaly.\n\nFollow these principles:\n- Focus on whether the behavior creates disproportionate risk for a subject with weaker body control, weaker risk awareness, or limited self-protection ability.\n- A behavior that may not be abnormal for an ordinary adult can still be a risk anomaly if its danger clearly increases for a child, older adult, pet, or other vulnerable subject.\n- For borderline cases, consider whether the vulnerable subject would have more difficulty avoiding injury, would suffer more serious consequences, or would receive help more slowly.\n- In caregiving, companionship, or household life scenes, pay special attention to insufficient supervision, missing protection, or an environment that does not fit the subject's needs.\n- The core standard is not whether the behavior is dangerous for an average adult, but whether it has reached a level requiring attention or intervention for the vulnerable subject shown in the video.\n\nOutput requirements for this perspective:\n- Explain the specific risk to the vulnerable subject, if one is present.\n- Do not invent illness, disability, age, or severe impairment that is not supported by the video.\n- Do not generalize vulnerability without evidence from the video."
+        },
+        "model": {
+          "model_id": "OpenGVLab/InternVL3_5-8B",
+          "backend": "internvl35"
+        }
+      },
+      {
+        "perspective": {
+          "index": 5,
+          "name": "Consequence-Severity-First Perspective",
+          "prompt": "You are acting as a consequence-severity-first reviewer.\nYour task is to focus on whether the potential consequences of a risk event would be serious, hard to reverse, or costly to intervene in. Even if the probability is not the highest, keep the behavior if the realistic potential consequence is severe enough.\n\nFollow these principles:\n- Prioritize behaviors that could realistically lead to severe injury, long-term impact, emergency medical care, lasting functional impairment, or major property or environmental damage.\n- Judge not only whether an accident is likely, but also how costly the consequence would be if it occurred.\n- For borderline cases, analyze whether the most realistic negative consequence is already too significant to ignore.\n- If a behavior may lead to burns from heat, electric shock, falling from height, severe collision, poisoning, suffocation, or other serious outcomes, lean toward keeping it.\n- The standard emphasizes prevention of severe consequences, so low-probability but high-damage scenarios may justify keeping the behavior.\n\nOutput requirements for this perspective:\n- Explain the realistic severity of the possible consequence if the behavior develops into an accident.\n- Do not exaggerate minor or unimportant consequences.\n- Do not rely on extremely rare catastrophic scenarios without realistic support from the video."
+        },
+        "model": {
+          "model_id": "DAMO-NLP-SG/VideoLLaMA3-7B",
+          "backend": "videollama3"
+        }
+      }
+    ]
+  },
+  "agent_results": [
+    {
+      "perspective": {
+        "index": 1,
+        "name": "Daily Behavior Baseline Perspective",
+        "prompt": "You are acting as a daily-behavior baseline reviewer.\nYour task is to judge, from ordinary household experience, whether a candidate behavior clearly deviates from acceptable daily behavior and should be kept as a risk anomaly.\n\nFollow these principles:\n- Use common behavior patterns in ordinary home environments as the reference point. Do not use an overly sensitive or overly permissive standard.\n- If a behavior is usually normal, brief, and acceptable in most household scenes, do not easily mark it as a risk anomaly.\n- If a behavior clearly exceeds the normal range of daily activities and shows instability, a safety trigger, or potential harm, mark it as a risk anomaly.\n- For borderline cases, focus on whether the behavior has shifted from an acceptable daily activity into an abnormal risk behavior that deserves attention.\n- Keep the judgment close to ordinary common sense rather than medical, legal, or extreme safety standards.\n\nOutput requirements for this perspective:\n- Explain whether the behavior clearly deviates from the daily behavior baseline.\n- Keep the explanation concise, specific, and grounded only in the video content.\n- Do not mark a behavior as anomalous merely because it looks active.\n- Do not assume extra events outside the video."
+      },
+      "model": {
+        "model_id": "mPLUG/mPLUG-Owl3-7B-241101",
+        "backend": "mplugowl3"
+      },
+      "prompt_file": "/data_4/liuyuan/lifebench/public_data_filter/batch_outputs/web_20260429T170230Z/reviews/web_h264/tiktok__7613670543622999303/prompts/01_Daily_Behavior_Baseline_Perspective.txt",
+      "output_json": "/data_4/liuyuan/lifebench/public_data_filter/batch_outputs/web_20260429T170230Z/reviews/web_h264/tiktok__7613670543622999303/agent_outputs/01_Daily_Behavior_Baseline_Perspective.json",
+      "stdout_log": "/data_4/liuyuan/lifebench/public_data_filter/batch_outputs/web_20260429T170230Z/reviews/web_h264/tiktok__7613670543622999303/logs/01_Daily_Behavior_Baseline_Perspective.stdout.log",
+      "stderr_log": "/data_4/liuyuan/lifebench/public_data_filter/batch_outputs/web_20260429T170230Z/reviews/web_h264/tiktok__7613670543622999303/logs/01_Daily_Behavior_Baseline_Perspective.stderr.log",
+      "worker_id": "07_mplugowl3_gpu6",
+      "gpu_id": "6",
+      "returncode": 0,
+      "elapsed_seconds": 9.507,
+      "response": "Risk presence: Yes\nLevel 1 scene: office\nLevel 2 subject: young adult\nLevel 3 risk type: fall/instability\nRisk description: The young adult is sitting on the floor of an office, surrounded by scattered items, and appears to have fallen from a chair. This situation poses a risk of injury due to the fall and the potential for further accidents in the cluttered environment.\nRisk time interval: [start, end] (exact interval is unclear)\nSolution for person: Ensure the young adult is checked for injuries and provided with assistance to safely get up and move to a safer location. Offer support to prevent further falls or accidents.\nSolution for hazard source: Clear the cluttered area around the young adult and ensure the office environment is safe and stable for all occupants.\nSolution to prevent recurrence: Regularly inspect the office for potential hazards, provide training on safe office practices, and encourage employees to report any unsafe conditions.",
+      "parsed_decision": {
+        "candidate_behavior": "",
+        "risk_presence_raw": "Yes",
+        "risk_presence": "Yes",
+        "keep_raw": "Yes",
+        "keep": true,
+        "level1_scene": "office",
+        "level2_subject": "young adult",
+        "level3_risk_type": "fall/instability",
+        "risk_description": "The young adult is sitting on the floor of an office, surrounded by scattered items, and appears to have fallen from a chair. This situation poses a risk of injury due to the fall and the potential for further accidents in the cluttered environment.",
+        "risk_time_interval": "[start, end] (exact interval is unclear)",
+        "solution_for_person": "Ensure the young adult is checked for injuries and provided with assistance to safely get up and move to a safer location. Offer support to prevent further falls or accidents.",
+        "solution_for_hazard_source": "Clear the cluttered area around the young adult and ensure the office environment is safe and stable for all occupants.",
+        "solution_to_prevent_recurrence": "Regularly inspect the office for potential hazards, provide training on safe office practices, and encourage employees to report any unsafe conditions.",
+        "normal_video_description": "",
+        "reason": ""
+      },
+      "runner_payload": {
+        "backend": "mplugowl3",
+        "description": "mPLUG-Owl3 video chat model",
+        "model_id": "mPLUG/mPLUG-Owl3-7B-241101",
+        "model_path": "/data_4/liuyuan/lifebench/models/mPLUG__mPLUG-Owl3-7B-241101",
+        "video_path": "/data_4/liuyuan/lifebench/data/public_data/web_h264/tiktok__7613670543622999303.mp4",
+        "prompt": "You are acting as a daily-behavior baseline reviewer.\nYour task is to judge, from ordinary household experience, whether a candidate behavior clearly deviates from acceptable daily behavior and should be kept as a risk anomaly.\n\nFollow these principles:\n- Use common behavior patterns in ordinary home environments as the reference point. Do not use an overly sensitive or overly permissive standard.\n- If a behavior is usually normal, brief, and acceptable in most household scenes, do not easily mark it as a risk anomaly.\n- If a behavior clearly exceeds the normal range of daily activities and shows instability, a safety trigger, or potential harm, mark it as a risk anomaly.\n- For borderline cases, focus on whether the behavior has shifted from an acceptable daily activity into an abnormal risk behavior that deserves attention.\n- Keep the judgment close to ordinary common sense rather than medical, legal, or extreme safety standards.\n\nOutput requirements for this perspective:\n- Explain whether the behavior clearly deviates from the daily behavior baseline.\n- Keep the explanation concise, specific, and grounded only in the video content.\n- Do not mark a behavior as anomalous merely because it looks active.\n- Do not assume extra events outside the video.\n\nTask addendum:\nReview the input video and first decide whether the video contains a risk.\nBase your judgment only on the video content. Do not assume facts outside the video, and do not invent extra events.\nJudge the main visible behavior and scene in the video.\nYou must answer based on the provided video input. Do not say that you cannot watch or inspect the video.\nOutput exactly the following English-labeled fields, with no markdown and no extra text:\nRisk presence: Yes / No\nLevel 1 scene: output one scene keyword. Prefer one of: dining room, kitchen, study, balcony, living room, bathroom, yard. If none fits, output your own concise scene keyword.\nLevel 2 subject: output one subject keyword. Prefer one of: child, older adult, young adult, middle-aged adult. If none fits, output your own concise subject keyword.\nLevel 3 risk type: if Risk presence is Yes, output one risk keyword. Prefer one of: fall/instability, heat/fire source, collision/crush injury, sharp-object danger, electrical safety, poisoning/accidental ingestion, interpersonal conflict. If none fits, output your own concise risk keyword. If Risk presence is No, output None.\nRisk description: if Risk presence is Yes, describe the risk in 1-3 sentences. If Risk presence is No, output None.\nRisk time interval: if Risk presence is Yes, localize the risk as seconds like [start,end]. If there are multiple intervals, separate them with semicolons. If the exact interval is unclear, output Unknown. If Risk presence is No, output None.\nSolution for person: if Risk presence is Yes, give a concrete action for the person or caregiver. If Risk presence is No, output None.\nSolution for hazard source: if Risk presence is Yes, give a concrete action for the hazard source or environment. If Risk presence is No, output None.\nSolution to prevent recurrence: if Risk presence is Yes, give a prevention measure to reduce recurrence. If Risk presence is No, output None.\nNormal video description: if Risk presence is No, describe the normal video content in 1-3 sentences. If Risk presence is Yes, output None.",
+        "response": "Risk presence: Yes\nLevel 1 scene: office\nLevel 2 subject: young adult\nLevel 3 risk type: fall/instability\nRisk description: The young adult is sitting on the floor of an office, surrounded by scattered items, and appears to have fallen from a chair. This situation poses a risk of injury due to the fall and the potential for further accidents in the cluttered environment.\nRisk time interval: [start, end] (exact interval is unclear)\nSolution for person: Ensure the young adult is checked for injuries and provided with assistance to safely get up and move to a safer location. Offer support to prevent further falls or accidents.\nSolution for hazard source: Clear the cluttered area around the young adult and ensure the office environment is safe and stable for all occupants.\nSolution to prevent recurrence: Regularly inspect the office for potential hazards, provide training on safe office practices, and encourage employees to report any unsafe conditions.",
+        "parsed_response": {
+          "risk_status": "normal",
+          "has_risk": false,
+          "risk_type": "",
+          "video_description": "Risk presence: Yes Level 1 scene: office Level 2 subject: young adult Level 3 risk type: fall/instability Risk description: The young adult is sitting on the floor of an office, surrounded by scattered items, and appears to have fallen from a chair. This situation poses a risk of injury due to the fall and the potential for further accidents in the cluttered environment. Risk time interval: [start, end] (exact interval is unclear) Solution for person: Ensure the young adult is checked for injuries and provided with assistance to safely get up and move to a safer location. Offer support to prevent further falls or accidents. Solution for hazard source: Clear the cluttered area around the young adult and ensure the office environment is safe and stable for all occupants. Solution to prevent recurrence: Regularly inspect the office for potential hazards, provide training on safe office practices, and encourage employees to report any unsafe conditions.",
+          "safe_segment_desc": "Risk presence: Yes Level 1 scene: office Level 2 subject: young adult Level 3 risk type: fall/instability Risk description: The young adult is sitting on the floor of an office, surrounded by scattered items, and appears to have fallen from a chair. This situation poses a risk of injury due to the fall and the potential for further accidents in the cluttered environment. Risk time interval: [start, end] (exact interval is unclear) Solution for person: Ensure the young adult is checked for injuries and provided with assistance to safely get up and move to a safer location. Offer support to prevent further falls or accidents. Solution for hazard source: Clear the cluttered area around the young adult and ensure the office environment is safe and stable for all occupants. Solution to prevent recurrence: Regularly inspect the office for potential hazards, provide training on safe office practices, and encourage employees to report any unsafe conditions.",
+          "risk_description": "",
+          "solution": "",
+          "time_spans": []
+        },
+        "generation": {
+          "temperature": 0.0,
+          "top_p": 0.9,
+          "max_new_tokens": 256,
+          "fps": 1.0,
+          "max_frames": 16,
+          "merge_size": 2
+        },
+        "elapsed_seconds": 9.507
+      }
+    },
+    {
+      "perspective": {
+        "index": 2,
+        "name": "Conservative Safety Perspective",
+        "prompt": "You are acting as a conservative safety reviewer.\nYour task is to minimize missed risks. If a candidate behavior has a realistic possibility of injury, loss of control, or accident triggering, it may be kept as a risk anomaly.\n\nFollow these principles:\n- Apply a cautious safety standard, prioritizing behaviors that may lead to falls, collisions, burns, electric shock, accidental ingestion, cuts, or other household injuries.\n- Even if harm has not occurred yet, keep the behavior if it already contains a clear risk trigger or is in an accident-prone state.\n- For borderline cases, focus on whether the behavior deserves early intervention rather than waiting for harm to happen.\n- If a behavior would commonly be stopped or warned against by family members, guardians, or caregivers, lean toward keeping it.\n- The goal is to reduce false negatives, so ambiguous cases may be judged slightly conservatively.\n\nOutput requirements for this perspective:\n- Explain what realistic harm the behavior may trigger and why it should or should not be kept under a conservative safety standard.\n- You do not need to prove that harm will definitely occur.\n- Do not exaggerate beyond an ordinary household context."
+      },
+      "model": {
+        "model_id": "openbmb/MiniCPM-V-4_5",
+        "backend": "minicpmv45"
+      },
+      "prompt_file": "/data_4/liuyuan/lifebench/public_data_filter/batch_outputs/web_20260429T170230Z/reviews/web_h264/tiktok__7613670543622999303/prompts/02_Conservative_Safety_Perspective.txt",
+      "output_json": "/data_4/liuyuan/lifebench/public_data_filter/batch_outputs/web_20260429T170230Z/reviews/web_h264/tiktok__7613670543622999303/agent_outputs/02_Conservative_Safety_Perspective.json",
+      "stdout_log": "/data_4/liuyuan/lifebench/public_data_filter/batch_outputs/web_20260429T170230Z/reviews/web_h264/tiktok__7613670543622999303/logs/02_Conservative_Safety_Perspective.stdout.log",
+      "stderr_log": "/data_4/liuyuan/lifebench/public_data_filter/batch_outputs/web_20260429T170230Z/reviews/web_h264/tiktok__7613670543622999303/logs/02_Conservative_Safety_Perspective.stderr.log",
+      "worker_id": null,
+      "gpu_id": null,
+      "returncode": 0,
+      "elapsed_seconds": 0.0,
+      "reused_agent_output": true,
+      "response": "Risk presence: Yes\nLevel 1 scene: office\nLevel 2 subject: young adult\nLevel 3 risk type: fall/instability\nRisk description: The woman loses balance while pushing a cart filled with items, causing her to fall and spill the contents on the floor.\nRisk time interval: [0.00, 3.00]\nSolution for person: The person should ensure they have a firm grip on the cart and maintain balance while pushing it.\nSolution for hazard source: None\nSolution to prevent recurrence: The person should avoid overloading the cart and push it steadily to maintain control.\nNormal video description: A woman is pushing a cart filled with various items in an office setting, loses her balance, and falls, spilling the items on the floor.",
+      "parsed_decision": {
+        "candidate_behavior": "",
+        "risk_presence_raw": "Yes",
+        "risk_presence": "Yes",
+        "keep_raw": "Yes",
+        "keep": true,
+        "level1_scene": "office",
+        "level2_subject": "young adult",
+        "level3_risk_type": "fall/instability",
+        "risk_description": "The woman loses balance while pushing a cart filled with items, causing her to fall and spill the contents on the floor.",
+        "risk_time_interval": "[0.00, 3.00]",
+        "solution_for_person": "The person should ensure they have a firm grip on the cart and maintain balance while pushing it.",
+        "solution_for_hazard_source": "None",
+        "solution_to_prevent_recurrence": "The person should avoid overloading the cart and push it steadily to maintain control.",
+        "normal_video_description": "A woman is pushing a cart filled with various items in an office setting, loses her balance, and falls, spilling the items on the floor.",
+        "reason": ""
+      },
+      "runner_payload": {
+        "backend": "minicpmv45",
+        "description": "MiniCPM-V 4.5 efficient image/video understanding model",
+        "model_id": "openbmb/MiniCPM-V-4_5",
+        "model_path": "/data_4/liuyuan/lifebench/models/openbmb__MiniCPM-V-4_5",
+        "video_path": "/data_4/liuyuan/lifebench/data/public_data/web_h264/tiktok__7613670543622999303.mp4",
+        "prompt": "You are acting as a conservative safety reviewer.\nYour task is to minimize missed risks. If a candidate behavior has a realistic possibility of injury, loss of control, or accident triggering, it may be kept as a risk anomaly.\n\nFollow these principles:\n- Apply a cautious safety standard, prioritizing behaviors that may lead to falls, collisions, burns, electric shock, accidental ingestion, cuts, or other household injuries.\n- Even if harm has not occurred yet, keep the behavior if it already contains a clear risk trigger or is in an accident-prone state.\n- For borderline cases, focus on whether the behavior deserves early intervention rather than waiting for harm to happen.\n- If a behavior would commonly be stopped or warned against by family members, guardians, or caregivers, lean toward keeping it.\n- The goal is to reduce false negatives, so ambiguous cases may be judged slightly conservatively.\n\nOutput requirements for this perspective:\n- Explain what realistic harm the behavior may trigger and why it should or should not be kept under a conservative safety standard.\n- You do not need to prove that harm will definitely occur.\n- Do not exaggerate beyond an ordinary household context.\n\nTask addendum:\nReview the input video and first decide whether the video contains a risk.\nBase your judgment only on the video content. Do not assume facts outside the video, and do not invent extra events.\nJudge the main visible behavior and scene in the video.\nYou must answer based on the provided video input. Do not say that you cannot watch or inspect the video.\nOutput exactly the following English-labeled fields, with no markdown and no extra text:\nRisk presence: Yes / No\nLevel 1 scene: output one scene keyword. Prefer one of: dining room, kitchen, study, balcony, living room, bathroom, yard. If none fits, output your own concise scene keyword.\nLevel 2 subject: output one subject keyword. Prefer one of: child, older adult, young adult, middle-aged adult. If none fits, output your own concise subject keyword.\nLevel 3 risk type: if Risk presence is Yes, output one risk keyword. Prefer one of: fall/instability, heat/fire source, collision/crush injury, sharp-object danger, electrical safety, poisoning/accidental ingestion, interpersonal conflict. If none fits, output your own concise risk keyword. If Risk presence is No, output None.\nRisk description: if Risk presence is Yes, describe the risk in 1-3 sentences. If Risk presence is No, output None.\nRisk time interval: if Risk presence is Yes, localize the risk as seconds like [start,end]. If there are multiple intervals, separate them with semicolons. If the exact interval is unclear, output Unknown. If Risk presence is No, output None.\nSolution for person: if Risk presence is Yes, give a concrete action for the person or caregiver. If Risk presence is No, output None.\nSolution for hazard source: if Risk presence is Yes, give a concrete action for the hazard source or environment. If Risk presence is No, output None.\nSolution to prevent recurrence: if Risk presence is Yes, give a prevention measure to reduce recurrence. If Risk presence is No, output None.\nNormal video description: if Risk presence is No, describe the normal video content in 1-3 sentences. If Risk presence is Yes, output None.",
+        "response": "Risk presence: Yes\nLevel 1 scene: office\nLevel 2 subject: young adult\nLevel 3 risk type: fall/instability\nRisk description: The woman loses balance while pushing a cart filled with items, causing her to fall and spill the contents on the floor.\nRisk time interval: [0.00, 3.00]\nSolution for person: The person should ensure they have a firm grip on the cart and maintain balance while pushing it.\nSolution for hazard source: None\nSolution to prevent recurrence: The person should avoid overloading the cart and push it steadily to maintain control.\nNormal video description: A woman is pushing a cart filled with various items in an office setting, loses her balance, and falls, spilling the items on the floor.",
+        "parsed_response": {
+          "risk_status": "normal",
+          "has_risk": false,
+          "risk_type": "",
+          "video_description": "Risk presence: Yes Level 1 scene: office Level 2 subject: young adult Level 3 risk type: fall/instability Risk description: The woman loses balance while pushing a cart filled with items, causing her to fall and spill the contents on the floor. Risk time interval: [0.00, 3.00] Solution for person: The person should ensure they have a firm grip on the cart and maintain balance while pushing it. Solution for hazard source: None Solution to prevent recurrence: The person should avoid overloading the cart and push it steadily to maintain control. Normal video description: A woman is pushing a cart filled with various items in an office setting, loses her balance, and falls, spilling the items on the floor.",
+          "safe_segment_desc": "Risk presence: Yes Level 1 scene: office Level 2 subject: young adult Level 3 risk type: fall/instability Risk description: The woman loses balance while pushing a cart filled with items, causing her to fall and spill the contents on the floor. Risk time interval: [0.00, 3.00] Solution for person: The person should ensure they have a firm grip on the cart and maintain balance while pushing it. Solution for hazard source: None Solution to prevent recurrence: The person should avoid overloading the cart and push it steadily to maintain control. Normal video description: A woman is pushing a cart filled with various items in an office setting, loses her balance, and falls, spilling the items on the floor.",
+          "risk_description": "",
+          "solution": "",
+          "time_spans": []
+        },
+        "generation": {
+          "temperature": 0.0,
+          "top_p": 0.9,
+          "max_new_tokens": 256,
+          "fps": 1.0,
+          "max_frames": 16,
+          "merge_size": 2
+        },
+        "elapsed_seconds": 12.668
+      }
+    },
+    {
+      "perspective": {
+        "index": 3,
+        "name": "Permissive Behavior Tolerance Perspective",
+        "prompt": "You are acting as a permissive behavior-tolerance reviewer.\nYour task is to judge from a higher tolerance threshold whether a candidate behavior truly reaches the level of a risk anomaly. Only keep it when the behavior clearly exceeds normal activity, playfulness, exploration, or brief mistakes.\n\nFollow these principles:\n- Maintain reasonable tolerance for common active behavior, brief imbalance, and minor irregular actions in household scenes.\n- Keep a behavior only when it has clear, direct, and realistic danger, or when it clearly leaves the boundary of generally acceptable daily behavior.\n- If a behavior has some uncertainty but commonly occurs in real life and would not usually be considered dangerous enough for special intervention, lean toward not keeping it.\n- For borderline cases, prioritize avoiding over-definition of ordinary life behavior as abnormal.\n- The goal is to reduce false positives, so keep only when the evidence is reasonably strong.\n\nOutput requirements for this perspective:\n- Explain whether the behavior remains within a tolerable daily behavior range.\n- Do not keep a behavior merely because it has a small possible risk.\n- Do not automatically treat all child play, pet activity, slow elderly movement, or similar ordinary behavior as abnormal."
+      },
+      "model": {
+        "model_id": "Qwen/Qwen3.5-9B",
+        "backend": "qwen35vl"
+      },
+      "prompt_file": "/data_4/liuyuan/lifebench/public_data_filter/batch_outputs/web_20260429T170230Z/reviews/web_h264/tiktok__7613670543622999303/prompts/03_Permissive_Behavior_Tolerance_Perspective.txt",
+      "output_json": "/data_4/liuyuan/lifebench/public_data_filter/batch_outputs/web_20260429T170230Z/reviews/web_h264/tiktok__7613670543622999303/agent_outputs/03_Permissive_Behavior_Tolerance_Perspective.json",
+      "stdout_log": "/data_4/liuyuan/lifebench/public_data_filter/batch_outputs/web_20260429T170230Z/reviews/web_h264/tiktok__7613670543622999303/logs/03_Permissive_Behavior_Tolerance_Perspective.stdout.log",
+      "stderr_log": "/data_4/liuyuan/lifebench/public_data_filter/batch_outputs/web_20260429T170230Z/reviews/web_h264/tiktok__7613670543622999303/logs/03_Permissive_Behavior_Tolerance_Perspective.stderr.log",
+      "worker_id": null,
+      "gpu_id": null,
+      "returncode": 0,
+      "elapsed_seconds": 0.0,
+      "reused_agent_output": true,
+      "response": "Risk presence: Yes\nLevel 1 scene: office\nLevel 2 subject: young adult\nLevel 3 risk type: fall/instability\nRisk description: A young adult pushing a shopping cart in an office environment loses balance and falls to the ground, causing the cart to overturn and its contents to scatter. This behavior clearly exceeds normal activity due to the loss of stability and the resulting accident.\nRisk time interval: [0, 5]\nSolution for person: The person should immediately stop pushing the cart, regain balance, and ensure safety before attempting to pick up items.\nSolution for hazard source: The shopping cart should be designed with better stability features to prevent tipping over easily.\nSolution to prevent recurrence: The person should be advised to push the cart in a more stable manner, possibly by standing upright rather than leaning forward excessively.\nNormal video description: None",
+      "parsed_decision": {
+        "candidate_behavior": "",
+        "risk_presence_raw": "Yes",
+        "risk_presence": "Yes",
+        "keep_raw": "Yes",
+        "keep": true,
+        "level1_scene": "office",
+        "level2_subject": "young adult",
+        "level3_risk_type": "fall/instability",
+        "risk_description": "A young adult pushing a shopping cart in an office environment loses balance and falls to the ground, causing the cart to overturn and its contents to scatter. This behavior clearly exceeds normal activity due to the loss of stability and the resulting accident.",
+        "risk_time_interval": "[0, 5]",
+        "solution_for_person": "The person should immediately stop pushing the cart, regain balance, and ensure safety before attempting to pick up items.",
+        "solution_for_hazard_source": "The shopping cart should be designed with better stability features to prevent tipping over easily.",
+        "solution_to_prevent_recurrence": "The person should be advised to push the cart in a more stable manner, possibly by standing upright rather than leaning forward excessively.",
+        "normal_video_description": "None",
+        "reason": ""
+      },
+      "runner_payload": {
+        "backend": "qwen35vl",
+        "description": "Qwen3.5 multimodal single-video inference",
+        "model_id": "Qwen/Qwen3.5-9B",
+        "model_path": "/data_4/liuyuan/lifebench/models/Qwen/Qwen3.5-9B",
+        "video_path": "/data_4/liuyuan/lifebench/data/public_data/web_h264/tiktok__7613670543622999303.mp4",
+        "prompt": "You are acting as a permissive behavior-tolerance reviewer.\nYour task is to judge from a higher tolerance threshold whether a candidate behavior truly reaches the level of a risk anomaly. Only keep it when the behavior clearly exceeds normal activity, playfulness, exploration, or brief mistakes.\n\nFollow these principles:\n- Maintain reasonable tolerance for common active behavior, brief imbalance, and minor irregular actions in household scenes.\n- Keep a behavior only when it has clear, direct, and realistic danger, or when it clearly leaves the boundary of generally acceptable daily behavior.\n- If a behavior has some uncertainty but commonly occurs in real life and would not usually be considered dangerous enough for special intervention, lean toward not keeping it.\n- For borderline cases, prioritize avoiding over-definition of ordinary life behavior as abnormal.\n- The goal is to reduce false positives, so keep only when the evidence is reasonably strong.\n\nOutput requirements for this perspective:\n- Explain whether the behavior remains within a tolerable daily behavior range.\n- Do not keep a behavior merely because it has a small possible risk.\n- Do not automatically treat all child play, pet activity, slow elderly movement, or similar ordinary behavior as abnormal.\n\nTask addendum:\nReview the input video and first decide whether the video contains a risk.\nBase your judgment only on the video content. Do not assume facts outside the video, and do not invent extra events.\nJudge the main visible behavior and scene in the video.\nYou must answer based on the provided video input. Do not say that you cannot watch or inspect the video.\nOutput exactly the following English-labeled fields, with no markdown and no extra text:\nRisk presence: Yes / No\nLevel 1 scene: output one scene keyword. Prefer one of: dining room, kitchen, study, balcony, living room, bathroom, yard. If none fits, output your own concise scene keyword.\nLevel 2 subject: output one subject keyword. Prefer one of: child, older adult, young adult, middle-aged adult. If none fits, output your own concise subject keyword.\nLevel 3 risk type: if Risk presence is Yes, output one risk keyword. Prefer one of: fall/instability, heat/fire source, collision/crush injury, sharp-object danger, electrical safety, poisoning/accidental ingestion, interpersonal conflict. If none fits, output your own concise risk keyword. If Risk presence is No, output None.\nRisk description: if Risk presence is Yes, describe the risk in 1-3 sentences. If Risk presence is No, output None.\nRisk time interval: if Risk presence is Yes, localize the risk as seconds like [start,end]. If there are multiple intervals, separate them with semicolons. If the exact interval is unclear, output Unknown. If Risk presence is No, output None.\nSolution for person: if Risk presence is Yes, give a concrete action for the person or caregiver. If Risk presence is No, output None.\nSolution for hazard source: if Risk presence is Yes, give a concrete action for the hazard source or environment. If Risk presence is No, output None.\nSolution to prevent recurrence: if Risk presence is Yes, give a prevention measure to reduce recurrence. If Risk presence is No, output None.\nNormal video description: if Risk presence is No, describe the normal video content in 1-3 sentences. If Risk presence is Yes, output None.",
+        "response": "Risk presence: Yes\nLevel 1 scene: office\nLevel 2 subject: young adult\nLevel 3 risk type: fall/instability\nRisk description: A young adult pushing a shopping cart in an office environment loses balance and falls to the ground, causing the cart to overturn and its contents to scatter. This behavior clearly exceeds normal activity due to the loss of stability and the resulting accident.\nRisk time interval: [0, 5]\nSolution for person: The person should immediately stop pushing the cart, regain balance, and ensure safety before attempting to pick up items.\nSolution for hazard source: The shopping cart should be designed with better stability features to prevent tipping over easily.\nSolution to prevent recurrence: The person should be advised to push the cart in a more stable manner, possibly by standing upright rather than leaning forward excessively.\nNormal video description: None",
+        "parsed_response": {
+          "risk_status": "normal",
+          "has_risk": false,
+          "risk_type": "",
+          "video_description": "Risk presence: Yes Level 1 scene: office Level 2 subject: young adult Level 3 risk type: fall/instability Risk description: A young adult pushing a shopping cart in an office environment loses balance and falls to the ground, causing the cart to overturn and its contents to scatter. This behavior clearly exceeds normal activity due to the loss of stability and the resulting accident. Risk time interval: [0, 5] Solution for person: The person should immediately stop pushing the cart, regain balance, and ensure safety before attempting to pick up items. Solution for hazard source: The shopping cart should be designed with better stability features to prevent tipping over easily. Solution to prevent recurrence: The person should be advised to push the cart in a more stable manner, possibly by standing upright rather than leaning forward excessively. Normal video description: None",
+          "safe_segment_desc": "Risk presence: Yes Level 1 scene: office Level 2 subject: young adult Level 3 risk type: fall/instability Risk description: A young adult pushing a shopping cart in an office environment loses balance and falls to the ground, causing the cart to overturn and its contents to scatter. This behavior clearly exceeds normal activity due to the loss of stability and the resulting accident. Risk time interval: [0, 5] Solution for person: The person should immediately stop pushing the cart, regain balance, and ensure safety before attempting to pick up items. Solution for hazard source: The shopping cart should be designed with better stability features to prevent tipping over easily. Solution to prevent recurrence: The person should be advised to push the cart in a more stable manner, possibly by standing upright rather than leaning forward excessively. Normal video description: None",
+          "risk_description": "",
+          "solution": "",
+          "time_spans": []
+        },
+        "generation": {
+          "temperature": 0.0,
+          "top_p": 0.9,
+          "max_new_tokens": 256,
+          "fps": 1.0,
+          "max_frames": 16,
+          "merge_size": 2
+        },
+        "elapsed_seconds": 12.651
+      }
+    },
+    {
+      "perspective": {
+        "index": 4,
+        "name": "Vulnerable-Subject-First Perspective",
+        "prompt": "You are acting as a vulnerable-subject-first reviewer.\nYour task is to judge the candidate behavior with priority given to the safety of children, older adults, people with limited mobility, people recovering from illness, pregnant people, pets, or other vulnerable subjects. If the behavior creates a realistic additional risk for a vulnerable subject, lean toward keeping it as a risk anomaly.\n\nFollow these principles:\n- Focus on whether the behavior creates disproportionate risk for a subject with weaker body control, weaker risk awareness, or limited self-protection ability.\n- A behavior that may not be abnormal for an ordinary adult can still be a risk anomaly if its danger clearly increases for a child, older adult, pet, or other vulnerable subject.\n- For borderline cases, consider whether the vulnerable subject would have more difficulty avoiding injury, would suffer more serious consequences, or would receive help more slowly.\n- In caregiving, companionship, or household life scenes, pay special attention to insufficient supervision, missing protection, or an environment that does not fit the subject's needs.\n- The core standard is not whether the behavior is dangerous for an average adult, but whether it has reached a level requiring attention or intervention for the vulnerable subject shown in the video.\n\nOutput requirements for this perspective:\n- Explain the specific risk to the vulnerable subject, if one is present.\n- Do not invent illness, disability, age, or severe impairment that is not supported by the video.\n- Do not generalize vulnerability without evidence from the video."
+      },
+      "model": {
+        "model_id": "OpenGVLab/InternVL3_5-8B",
+        "backend": "internvl35"
+      },
+      "prompt_file": "/data_4/liuyuan/lifebench/public_data_filter/batch_outputs/web_20260429T170230Z/reviews/web_h264/tiktok__7613670543622999303/prompts/04_Vulnerable-Subject-First_Perspective.txt",
+      "output_json": "/data_4/liuyuan/lifebench/public_data_filter/batch_outputs/web_20260429T170230Z/reviews/web_h264/tiktok__7613670543622999303/agent_outputs/04_Vulnerable-Subject-First_Perspective.json",
+      "stdout_log": "/data_4/liuyuan/lifebench/public_data_filter/batch_outputs/web_20260429T170230Z/reviews/web_h264/tiktok__7613670543622999303/logs/04_Vulnerable-Subject-First_Perspective.stdout.log",
+      "stderr_log": "/data_4/liuyuan/lifebench/public_data_filter/batch_outputs/web_20260429T170230Z/reviews/web_h264/tiktok__7613670543622999303/logs/04_Vulnerable-Subject-First_Perspective.stderr.log",
+      "worker_id": null,
+      "gpu_id": null,
+      "returncode": 0,
+      "elapsed_seconds": 0.0,
+      "reused_agent_output": true,
+      "response": "Risk presence: Yes\nLevel 1 scene: office\nLevel 2 subject: young adult\nLevel 3 risk type: fall/instability\nRisk description: The young adult is pushing a cart with unstable contents, leading to a fall and scattering of items, which could pose a tripping hazard or injury risk.\nRisk time interval: [5,15]\nSolution for person: Ensure the cart is loaded securely and maintain a steady pace to avoid tipping.\nSolution for hazard source: Secure the items in the cart with straps or containers to prevent spillage.\nSolution to prevent recurrence: Train staff on safe handling of carts and ensure regular maintenance of cart stability.\nNormal video description: None",
+      "parsed_decision": {
+        "candidate_behavior": "",
+        "risk_presence_raw": "Yes",
+        "risk_presence": "Yes",
+        "keep_raw": "Yes",
+        "keep": true,
+        "level1_scene": "office",
+        "level2_subject": "young adult",
+        "level3_risk_type": "fall/instability",
+        "risk_description": "The young adult is pushing a cart with unstable contents, leading to a fall and scattering of items, which could pose a tripping hazard or injury risk.",
+        "risk_time_interval": "[5,15]",
+        "solution_for_person": "Ensure the cart is loaded securely and maintain a steady pace to avoid tipping.",
+        "solution_for_hazard_source": "Secure the items in the cart with straps or containers to prevent spillage.",
+        "solution_to_prevent_recurrence": "Train staff on safe handling of carts and ensure regular maintenance of cart stability.",
+        "normal_video_description": "None",
+        "reason": ""
+      },
+      "runner_payload": {
+        "backend": "internvl35",
+        "description": "InternVL3.5 8B multimodal video chat model",
+        "model_id": "OpenGVLab/InternVL3_5-8B",
+        "model_path": "/data_4/liuyuan/lifebench/models/OpenGVLab__InternVL3_5-8B",
+        "video_path": "/data_4/liuyuan/lifebench/data/public_data/web_h264/tiktok__7613670543622999303.mp4",
+        "prompt": "You are acting as a vulnerable-subject-first reviewer.\nYour task is to judge the candidate behavior with priority given to the safety of children, older adults, people with limited mobility, people recovering from illness, pregnant people, pets, or other vulnerable subjects. If the behavior creates a realistic additional risk for a vulnerable subject, lean toward keeping it as a risk anomaly.\n\nFollow these principles:\n- Focus on whether the behavior creates disproportionate risk for a subject with weaker body control, weaker risk awareness, or limited self-protection ability.\n- A behavior that may not be abnormal for an ordinary adult can still be a risk anomaly if its danger clearly increases for a child, older adult, pet, or other vulnerable subject.\n- For borderline cases, consider whether the vulnerable subject would have more difficulty avoiding injury, would suffer more serious consequences, or would receive help more slowly.\n- In caregiving, companionship, or household life scenes, pay special attention to insufficient supervision, missing protection, or an environment that does not fit the subject's needs.\n- The core standard is not whether the behavior is dangerous for an average adult, but whether it has reached a level requiring attention or intervention for the vulnerable subject shown in the video.\n\nOutput requirements for this perspective:\n- Explain the specific risk to the vulnerable subject, if one is present.\n- Do not invent illness, disability, age, or severe impairment that is not supported by the video.\n- Do not generalize vulnerability without evidence from the video.\n\nTask addendum:\nReview the input video and first decide whether the video contains a risk.\nBase your judgment only on the video content. Do not assume facts outside the video, and do not invent extra events.\nJudge the main visible behavior and scene in the video.\nYou must answer based on the provided video input. Do not say that you cannot watch or inspect the video.\nOutput exactly the following English-labeled fields, with no markdown and no extra text:\nRisk presence: Yes / No\nLevel 1 scene: output one scene keyword. Prefer one of: dining room, kitchen, study, balcony, living room, bathroom, yard. If none fits, output your own concise scene keyword.\nLevel 2 subject: output one subject keyword. Prefer one of: child, older adult, young adult, middle-aged adult. If none fits, output your own concise subject keyword.\nLevel 3 risk type: if Risk presence is Yes, output one risk keyword. Prefer one of: fall/instability, heat/fire source, collision/crush injury, sharp-object danger, electrical safety, poisoning/accidental ingestion, interpersonal conflict. If none fits, output your own concise risk keyword. If Risk presence is No, output None.\nRisk description: if Risk presence is Yes, describe the risk in 1-3 sentences. If Risk presence is No, output None.\nRisk time interval: if Risk presence is Yes, localize the risk as seconds like [start,end]. If there are multiple intervals, separate them with semicolons. If the exact interval is unclear, output Unknown. If Risk presence is No, output None.\nSolution for person: if Risk presence is Yes, give a concrete action for the person or caregiver. If Risk presence is No, output None.\nSolution for hazard source: if Risk presence is Yes, give a concrete action for the hazard source or environment. If Risk presence is No, output None.\nSolution to prevent recurrence: if Risk presence is Yes, give a prevention measure to reduce recurrence. If Risk presence is No, output None.\nNormal video description: if Risk presence is No, describe the normal video content in 1-3 sentences. If Risk presence is Yes, output None.",
+        "response": "Risk presence: Yes\nLevel 1 scene: office\nLevel 2 subject: young adult\nLevel 3 risk type: fall/instability\nRisk description: The young adult is pushing a cart with unstable contents, leading to a fall and scattering of items, which could pose a tripping hazard or injury risk.\nRisk time interval: [5,15]\nSolution for person: Ensure the cart is loaded securely and maintain a steady pace to avoid tipping.\nSolution for hazard source: Secure the items in the cart with straps or containers to prevent spillage.\nSolution to prevent recurrence: Train staff on safe handling of carts and ensure regular maintenance of cart stability.\nNormal video description: None",
+        "parsed_response": {
+          "risk_status": "normal",
+          "has_risk": false,
+          "risk_type": "",
+          "video_description": "Risk presence: Yes Level 1 scene: office Level 2 subject: young adult Level 3 risk type: fall/instability Risk description: The young adult is pushing a cart with unstable contents, leading to a fall and scattering of items, which could pose a tripping hazard or injury risk. Risk time interval: [5,15] Solution for person: Ensure the cart is loaded securely and maintain a steady pace to avoid tipping. Solution for hazard source: Secure the items in the cart with straps or containers to prevent spillage. Solution to prevent recurrence: Train staff on safe handling of carts and ensure regular maintenance of cart stability. Normal video description: None",
+          "safe_segment_desc": "Risk presence: Yes Level 1 scene: office Level 2 subject: young adult Level 3 risk type: fall/instability Risk description: The young adult is pushing a cart with unstable contents, leading to a fall and scattering of items, which could pose a tripping hazard or injury risk. Risk time interval: [5,15] Solution for person: Ensure the cart is loaded securely and maintain a steady pace to avoid tipping. Solution for hazard source: Secure the items in the cart with straps or containers to prevent spillage. Solution to prevent recurrence: Train staff on safe handling of carts and ensure regular maintenance of cart stability. Normal video description: None",
+          "risk_description": "",
+          "solution": "",
+          "time_spans": []
+        },
+        "generation": {
+          "temperature": 0.0,
+          "top_p": 0.9,
+          "max_new_tokens": 256,
+          "fps": 1.0,
+          "max_frames": 16,
+          "merge_size": 2
+        },
+        "elapsed_seconds": 12.068
+      }
+    },
+    {
+      "perspective": {
+        "index": 5,
+        "name": "Consequence-Severity-First Perspective",
+        "prompt": "You are acting as a consequence-severity-first reviewer.\nYour task is to focus on whether the potential consequences of a risk event would be serious, hard to reverse, or costly to intervene in. Even if the probability is not the highest, keep the behavior if the realistic potential consequence is severe enough.\n\nFollow these principles:\n- Prioritize behaviors that could realistically lead to severe injury, long-term impact, emergency medical care, lasting functional impairment, or major property or environmental damage.\n- Judge not only whether an accident is likely, but also how costly the consequence would be if it occurred.\n- For borderline cases, analyze whether the most realistic negative consequence is already too significant to ignore.\n- If a behavior may lead to burns from heat, electric shock, falling from height, severe collision, poisoning, suffocation, or other serious outcomes, lean toward keeping it.\n- The standard emphasizes prevention of severe consequences, so low-probability but high-damage scenarios may justify keeping the behavior.\n\nOutput requirements for this perspective:\n- Explain the realistic severity of the possible consequence if the behavior develops into an accident.\n- Do not exaggerate minor or unimportant consequences.\n- Do not rely on extremely rare catastrophic scenarios without realistic support from the video."
+      },
+      "model": {
+        "model_id": "DAMO-NLP-SG/VideoLLaMA3-7B",
+        "backend": "videollama3"
+      },
+      "prompt_file": "/data_4/liuyuan/lifebench/public_data_filter/batch_outputs/web_20260429T170230Z/reviews/web_h264/tiktok__7613670543622999303/prompts/05_Consequence-Severity-First_Perspective.txt",
+      "output_json": "/data_4/liuyuan/lifebench/public_data_filter/batch_outputs/web_20260429T170230Z/reviews/web_h264/tiktok__7613670543622999303/agent_outputs/05_Consequence-Severity-First_Perspective.json",
+      "stdout_log": "/data_4/liuyuan/lifebench/public_data_filter/batch_outputs/web_20260429T170230Z/reviews/web_h264/tiktok__7613670543622999303/logs/05_Consequence-Severity-First_Perspective.stdout.log",
+      "stderr_log": "/data_4/liuyuan/lifebench/public_data_filter/batch_outputs/web_20260429T170230Z/reviews/web_h264/tiktok__7613670543622999303/logs/05_Consequence-Severity-First_Perspective.stderr.log",
+      "worker_id": null,
+      "gpu_id": null,
+      "returncode": 0,
+      "elapsed_seconds": 0.0,
+      "reused_agent_output": true,
+      "response": "Risk presence: Yes\nLevel 1 scene: office\nLevel 2 subject: young adult\nLevel 3 risk type: fall/instability\nRisk description: The person is pushing a cart with various items in an office environment, which leads to a fall and potential injury. The risk involves the instability of the cart and the possibility of falling objects causing harm.\nRisk time interval: [0,4]\nSolution for person: Ensure that the cart is stable and secure before moving it, and consider using a cart with wheels that lock to prevent accidental movement.\nSolution for hazard source: None\nSolution to prevent recurrence: Regularly inspect carts for stability and ensure they are used safely to prevent accidents.\nNormal video description: A person is seen pushing a cart filled with various items in an office setting.",
+      "parsed_decision": {
+        "candidate_behavior": "",
+        "risk_presence_raw": "Yes",
+        "risk_presence": "Yes",
+        "keep_raw": "Yes",
+        "keep": true,
+        "level1_scene": "office",
+        "level2_subject": "young adult",
+        "level3_risk_type": "fall/instability",
+        "risk_description": "The person is pushing a cart with various items in an office environment, which leads to a fall and potential injury. The risk involves the instability of the cart and the possibility of falling objects causing harm.",
+        "risk_time_interval": "[0,4]",
+        "solution_for_person": "Ensure that the cart is stable and secure before moving it, and consider using a cart with wheels that lock to prevent accidental movement.",
+        "solution_for_hazard_source": "None",
+        "solution_to_prevent_recurrence": "Regularly inspect carts for stability and ensure they are used safely to prevent accidents.",
+        "normal_video_description": "A person is seen pushing a cart filled with various items in an office setting.",
+        "reason": ""
+      },
+      "runner_payload": {
+        "backend": "videollama3",
+        "description": "VideoLLaMA3 7B video chat model",
+        "model_id": "DAMO-NLP-SG/VideoLLaMA3-7B",
+        "model_path": "/data_4/liuyuan/lifebench/models/DAMO-NLP-SG__VideoLLaMA3-7B",
+        "video_path": "/data_4/liuyuan/lifebench/data/public_data/web_h264/tiktok__7613670543622999303.mp4",
+        "prompt": "You are acting as a consequence-severity-first reviewer.\nYour task is to focus on whether the potential consequences of a risk event would be serious, hard to reverse, or costly to intervene in. Even if the probability is not the highest, keep the behavior if the realistic potential consequence is severe enough.\n\nFollow these principles:\n- Prioritize behaviors that could realistically lead to severe injury, long-term impact, emergency medical care, lasting functional impairment, or major property or environmental damage.\n- Judge not only whether an accident is likely, but also how costly the consequence would be if it occurred.\n- For borderline cases, analyze whether the most realistic negative consequence is already too significant to ignore.\n- If a behavior may lead to burns from heat, electric shock, falling from height, severe collision, poisoning, suffocation, or other serious outcomes, lean toward keeping it.\n- The standard emphasizes prevention of severe consequences, so low-probability but high-damage scenarios may justify keeping the behavior.\n\nOutput requirements for this perspective:\n- Explain the realistic severity of the possible consequence if the behavior develops into an accident.\n- Do not exaggerate minor or unimportant consequences.\n- Do not rely on extremely rare catastrophic scenarios without realistic support from the video.\n\nTask addendum:\nReview the input video and first decide whether the video contains a risk.\nBase your judgment only on the video content. Do not assume facts outside the video, and do not invent extra events.\nJudge the main visible behavior and scene in the video.\nYou must answer based on the provided video input. Do not say that you cannot watch or inspect the video.\nOutput exactly the following English-labeled fields, with no markdown and no extra text:\nRisk presence: Yes / No\nLevel 1 scene: output one scene keyword. Prefer one of: dining room, kitchen, study, balcony, living room, bathroom, yard. If none fits, output your own concise scene keyword.\nLevel 2 subject: output one subject keyword. Prefer one of: child, older adult, young adult, middle-aged adult. If none fits, output your own concise subject keyword.\nLevel 3 risk type: if Risk presence is Yes, output one risk keyword. Prefer one of: fall/instability, heat/fire source, collision/crush injury, sharp-object danger, electrical safety, poisoning/accidental ingestion, interpersonal conflict. If none fits, output your own concise risk keyword. If Risk presence is No, output None.\nRisk description: if Risk presence is Yes, describe the risk in 1-3 sentences. If Risk presence is No, output None.\nRisk time interval: if Risk presence is Yes, localize the risk as seconds like [start,end]. If there are multiple intervals, separate them with semicolons. If the exact interval is unclear, output Unknown. If Risk presence is No, output None.\nSolution for person: if Risk presence is Yes, give a concrete action for the person or caregiver. If Risk presence is No, output None.\nSolution for hazard source: if Risk presence is Yes, give a concrete action for the hazard source or environment. If Risk presence is No, output None.\nSolution to prevent recurrence: if Risk presence is Yes, give a prevention measure to reduce recurrence. If Risk presence is No, output None.\nNormal video description: if Risk presence is No, describe the normal video content in 1-3 sentences. If Risk presence is Yes, output None.",
+        "response": "Risk presence: Yes\nLevel 1 scene: office\nLevel 2 subject: young adult\nLevel 3 risk type: fall/instability\nRisk description: The person is pushing a cart with various items in an office environment, which leads to a fall and potential injury. The risk involves the instability of the cart and the possibility of falling objects causing harm.\nRisk time interval: [0,4]\nSolution for person: Ensure that the cart is stable and secure before moving it, and consider using a cart with wheels that lock to prevent accidental movement.\nSolution for hazard source: None\nSolution to prevent recurrence: Regularly inspect carts for stability and ensure they are used safely to prevent accidents.\nNormal video description: A person is seen pushing a cart filled with various items in an office setting.",
+        "parsed_response": {
+          "risk_status": "normal",
+          "has_risk": false,
+          "risk_type": "",
+          "video_description": "Risk presence: Yes Level 1 scene: office Level 2 subject: young adult Level 3 risk type: fall/instability Risk description: The person is pushing a cart with various items in an office environment, which leads to a fall and potential injury. The risk involves the instability of the cart and the possibility of falling objects causing harm. Risk time interval: [0,4] Solution for person: Ensure that the cart is stable and secure before moving it, and consider using a cart with wheels that lock to prevent accidental movement. Solution for hazard source: None Solution to prevent recurrence: Regularly inspect carts for stability and ensure they are used safely to prevent accidents. Normal video description: A person is seen pushing a cart filled with various items in an office setting.",
+          "safe_segment_desc": "Risk presence: Yes Level 1 scene: office Level 2 subject: young adult Level 3 risk type: fall/instability Risk description: The person is pushing a cart with various items in an office environment, which leads to a fall and potential injury. The risk involves the instability of the cart and the possibility of falling objects causing harm. Risk time interval: [0,4] Solution for person: Ensure that the cart is stable and secure before moving it, and consider using a cart with wheels that lock to prevent accidental movement. Solution for hazard source: None Solution to prevent recurrence: Regularly inspect carts for stability and ensure they are used safely to prevent accidents. Normal video description: A person is seen pushing a cart filled with various items in an office setting.",
+          "risk_description": "",
+          "solution": "",
+          "time_spans": []
+        },
+        "generation": {
+          "temperature": 0.0,
+          "top_p": 0.9,
+          "max_new_tokens": 256,
+          "fps": 1.0,
+          "max_frames": 16,
+          "merge_size": 2
+        },
+        "elapsed_seconds": 5.684
+      }
+    }
+  ],
+  "majority_vote": {
+    "complete": true,
+    "keep": true,
+    "risk_presence": "Yes",
+    "yes_count": 5,
+    "no_count": 0,
+    "threshold": 3,
+    "votes_cast": 5,
+    "expected_votes": 5,
+    "kept_by_perspectives": [
+      "Daily Behavior Baseline Perspective",
+      "Conservative Safety Perspective",
+      "Permissive Behavior Tolerance Perspective",
+      "Vulnerable-Subject-First Perspective",
+      "Consequence-Severity-First Perspective"
+    ],
+    "rejected_by_perspectives": [],
+    "level1_scene_keywords": [
+      {
+        "keyword": "office",
+        "count": 5
+      }
+    ],
+    "level1_scene_top": "office",
+    "level2_subject_keywords": [
+      {
+        "keyword": "young adult",
+        "count": 5
+      }
+    ],
+    "level2_subject_top": "young adult",
+    "level3_risk_type_keywords": [
+      {
+        "keyword": "fall/instability",
+        "count": 5
+      }
+    ],
+    "level3_risk_type_top": "fall/instability"
+  }
+}

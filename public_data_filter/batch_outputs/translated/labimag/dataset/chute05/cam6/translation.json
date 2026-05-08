@@ -1,0 +1,40 @@
+{
+  "video_key": "labimag/dataset/chute05/cam6",
+  "translations": {
+    "0": {
+      "risk_description": "这位年轻人躺在地板上的床垫上，这不是安全的睡眠或休息地点。这种行为可能导致跌倒和受伤。",
+      "normal_video_description": "视频显示一位年轻人躺在学习室地板上的床垫上。此人似乎正在休息或睡觉。",
+      "solution_for_person": "应鼓励该人在床或安全表面上睡觉。",
+      "solution_for_hazard_source": "应将床垫搬至更合适的位置，例如床或指定的睡眠区域。",
+      "solution_to_prevent_recurrence": "应向此人教育在安全表面上睡觉的重要性以及在地板上睡觉的相关风险。"
+    },
+    "1": {
+      "risk_description": "一个人躺在似乎是受控环境中的缓冲垫上，可能用于测试或模拟。如果垫子未牢固固定，或人在活动过程中失去平衡，则存在跌倒或不稳定的风险。",
+      "normal_video_description": "在实验室或学习环境中，一个人躺在缓冲垫上，其他人则在旁边观察或在桌旁工作。",
+      "solution_for_person": "在躺上缓冲垫之前，应确保其已正确固定且稳定。如活动需要，应穿戴适当的安全装备。",
+      "solution_for_hazard_source": "确认缓冲垫已牢固固定在地板上，并能够支撑该人的体重而不产生滑动。",
+      "solution_to_prevent_recurrence": "在使用前对缓冲垫进行检查，以确认其稳定性和牢固的固定。"
+    },
+    "2": {
+      "risk_description": "",
+      "normal_video_description": "一个人进入房间，躺在地板上的床垫上，然后起身。另一个人走进房间，站在桌子附近。该房间似乎是实验室或学习区，配有各种设备和家具。",
+      "solution_for_person": "",
+      "solution_for_hazard_source": "",
+      "solution_to_prevent_recurrence": ""
+    },
+    "3": {
+      "risk_description": "这位年轻人躺在地板上的床垫上，如果没有适当的支撑试图起身，可能会造成跌倒风险，特别是当他们活动能力或力量受限时。",
+      "normal_video_description": "",
+      "solution_for_person": "确保这位年轻人拥有稳定的表面或帮助，以便他们能够安全地从地板上起身。",
+      "solution_for_hazard_source": "在旁边提供稳固的椅子或支撑，以帮助防止跌倒。",
+      "solution_to_prevent_recurrence": "使用防滑垫或确保地面没有障碍物，以降低滑倒或跌倒的风险。"
+    },
+    "4": {
+      "risk_description": "此人躺在健身垫上，然后试图坐起，若不小心可能导致跌倒。此动作有受伤风险，因为有可能跌倒并撞击地面。",
+      "normal_video_description": "",
+      "solution_for_person": "在尝试从垫子上坐起之前，确保此人有一个稳固的坐面。",
+      "solution_for_hazard_source": "",
+      "solution_to_prevent_recurrence": "提供关于正确的从躺卧姿势坐起的技巧指导，以最大程度降低跌倒和受伤的风险。"
+    }
+  }
+}

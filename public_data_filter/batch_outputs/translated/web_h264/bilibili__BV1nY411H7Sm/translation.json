@@ -1,0 +1,40 @@
+{
+  "video_key": "web_h264/bilibili__BV1nY411H7Sm",
+  "translations": {
+    "0": {
+      "risk_description": "视频中的孩子坐在高脚椅上，看起来不太稳。然后孩子从椅子上摔下来，这可能造成伤害风险。",
+      "normal_video_description": "",
+      "solution_for_person": "照顾者应确保孩子在高脚椅上被正确固定，并且椅子稳固，才可以让孩子坐上去。",
+      "solution_for_hazard_source": "高脚椅使用前应检查是否有缺陷或不稳定情况。",
+      "solution_to_prevent_recurrence": "照顾者在孩子坐在高脚椅上时应该始终监督，并且在离开孩子身边前确保孩子被正确固定、椅子稳固。"
+    },
+    "1": {
+      "risk_description": "孩子坐在凳子上并摇晃它，这可能导致凳子翻倒并造成摔倒。",
+      "normal_video_description": "一个孩子坐在餐厅的凳子上，通过摇晃凳子来玩耍。",
+      "solution_for_person": "应该监督孩子并警告他们不要摇晃凳子。",
+      "solution_for_hazard_source": "凳子应该固定好或移动到更稳定的位置。",
+      "solution_to_prevent_recurrence": "确保孩子理解摇晃不稳定家具的危险性。"
+    },
+    "2": {
+      "risk_description": "一个孩子坐在高凳子上，由于不稳定而摔下来，这构成了明显的身体危险。",
+      "normal_video_description": "",
+      "solution_for_person": "照顾者在孩子坐在高架家具上时应密切监督，并确保家具稳固。",
+      "solution_for_hazard_source": "使用带防滑底座或安全带的凳子，并将其放置在孩子不太可能无人监督攀爬或玩耍的区域。",
+      "solution_to_prevent_recurrence": "教育孩子了解攀爬不稳定家具的危险，并加强家庭环境中的安全规则。"
+    },
+    "3": {
+      "risk_description": "孩子坐在柜台边缘附近的凳子上，如果凳子翻倒则有摔倒风险。",
+      "normal_video_description": "",
+      "solution_for_person": "确保孩子坐得稳固并受到监督以防止翻倒。",
+      "solution_for_hazard_source": "固定凳子或为孩子提供一个稳固的椅子。",
+      "solution_to_prevent_recurrence": "在凳子下面放置防滑垫，并确保该区域畅通无障碍物。"
+    },
+    "4": {
+      "risk_description": "孩子站在厨房的凳子上，如果失去平衡可能导致摔倒。这是潜在的伤害风险。",
+      "normal_video_description": "视频显示一个孩子坐在厨房的凳子上，可能在准备食物或进行柜台上的活动。",
+      "solution_for_person": "确保孩子受到监督，考虑使用带侧栏的踏脚凳以增加稳定性。",
+      "solution_for_hazard_source": "",
+      "solution_to_prevent_recurrence": "提供替代的座位选项或使用带侧栏的踏脚凳以防止将来跌倒。"
+    }
+  }
+}

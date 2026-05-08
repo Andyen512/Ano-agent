@@ -1,0 +1,40 @@
+{
+  "video_key": "SmartHome-Bench/videos/smartbench_1008",
+  "translations": {
+    "0": {
+      "risk_description": "老年人正在艰难地上楼梯，这可能导致跌倒和潜在伤害。",
+      "normal_video_description": "老年人正在艰难地上楼梯，护理人员正在协助他们。",
+      "solution_for_person": "护理人员应该协助老年人上楼梯或提供支撑以防止跌倒。",
+      "solution_for_hazard_source": "应该检查扶手的稳定性和安全性，楼梯应该有良好的照明以提高能见度。",
+      "solution_to_prevent_recurrence": "护理人员应该监测老年人的行动能力，并根据需要提供协助以防止将来跌倒。"
+    },
+    "1": {
+      "risk_description": "老年人正在上楼梯，而另一个人在清洁台阶，这造成了因楼梯上的清洁活动而绊倒或跌倒的风险。",
+      "normal_video_description": "一位老年人正在上楼梯，而另一个人在下面的台阶上进行清洁。",
+      "solution_for_person": "老年人应该在清洁完成后再继续上楼梯。",
+      "solution_for_hazard_source": "清洁人员应确保楼梯在允许他人使用前完全清除任何清洁工具或物质。",
+      "solution_to_prevent_recurrence": "在楼梯两侧安装扶手并确保充足的照明以降低跌倒风险。"
+    },
+    "2": {
+      "risk_description": "一位老年人在被另一个人跟随时失去平衡并跌下楼梯，表明楼梯不稳定明显存在受伤风险。",
+      "normal_video_description": "",
+      "solution_for_person": "应该立即检查跌倒的人，必要时呼叫医疗援助，并在尝试帮助其起身前确保该区域安全。",
+      "solution_for_hazard_source": "在楼梯上安装扶手或防滑垫以提高稳定性并防止将来跌倒。",
+      "solution_to_prevent_recurrence": "对家居环境进行定期安全检查，特别是老年人经常活动的区域，并考虑安装额外的安全设施如抓杆或改善照明。"
+    },
+    "3": {
+      "risk_description": "老年人在上楼梯时，另一个人在地上，这可能导致老年人跌倒或不稳定。",
+      "normal_video_description": "",
+      "solution_for_person": "确保老年人在上楼梯时得到支撑和监督。",
+      "solution_for_hazard_source": "在楼梯上安装额外的扶手或防滑垫。",
+      "solution_to_prevent_recurrence": "提供稳定性辅助工具如扶手，并确保在上楼梯时有适当的监督。"
+    },
+    "4": {
+      "risk_description": "老年人由于年龄和杂乱的环境有从楼梯上跌倒的风险，这可能导致严重伤害。",
+      "normal_video_description": "",
+      "solution_for_person": "确保老年人在下楼梯时有适当的支撑和协助，例如使用扶手或有人陪同。",
+      "solution_for_hazard_source": "清除楼梯上的任何杂物或障碍物以降低绊倒或跌倒的风险。",
+      "solution_to_prevent_recurrence": "在楼梯两侧安装扶手并确保它们状况良好，为老年人提供充分的支撑。"
+    }
+  }
+}

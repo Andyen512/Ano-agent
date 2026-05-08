@@ -1,0 +1,40 @@
+{
+  "video_key": "web_h264/bilibili__BV1ZCKgzsE7f",
+  "translations": {
+    "0": {
+      "risk_description": "孩子在椅子上玩耍时摔到地上，这存在潜在的跌落危险。",
+      "normal_video_description": "",
+      "solution_for_person": "成人应更加警觉，确保在孩子玩耍时进行监督。",
+      "solution_for_hazard_source": "椅子应放置在更安全的位置或固定好，以防止孩子攀爬。",
+      "solution_to_prevent_recurrence": "成人应定期检查孩子的游戏区域是否存在潜在危险，并确保孩子始终受到监督。"
+    },
+    "1": {
+      "risk_description": "孩子试图攀爬餐厅区的椅子，这本身就存在不稳定因素，有跌倒和受伤的风险。",
+      "normal_video_description": "看到孩子在有其他人在场的情况下试图攀爬餐厅区的椅子。",
+      "solution_for_person": "应监督孩子，并告诫其不要攀爬餐厅区的家具。",
+      "solution_for_hazard_source": "移除或固定椅子以防止攀爬。",
+      "solution_to_prevent_recurrence": "教育孩子攀爬家具的危险性，并确保在此类活动中有成人监督。"
+    },
+    "2": {
+      "risk_description": "孩子爬上椅子并试图坐在边缘，导致椅子变得不稳定而翻倒，孩子摔到地上。",
+      "normal_video_description": "",
+      "solution_for_person": "成人应立即干预，防止孩子攀爬不稳定的家具。",
+      "solution_for_hazard_source": "确保椅子和凳子稳固，不要用作台阶或攀爬辅助工具。",
+      "solution_to_prevent_recurrence": "教育孩子攀爬家具的危险性，并在玩耍时密切监督他们。"
+    },
+    "3": {
+      "risk_description": "孩子试图攀爬椅子导致跌倒，由于孩子身体控制能力和自我保护能力有限，存在受伤风险。",
+      "normal_video_description": "",
+      "solution_for_person": "确保密切监督孩子，不让其尝试攀爬家具等危险动作。",
+      "solution_for_hazard_source": "移除或固定椅子，防止其被用作台阶。",
+      "solution_to_prevent_recurrence": "安装安全门或护栏隔离家具，防止攀爬和跌倒。"
+    },
+    "4": {
+      "risk_description": "穿黑色衬衫的人因椅子位置不稳定而有跌倒危险，可能导致严重伤害。",
+      "normal_video_description": "",
+      "solution_for_person": "坐下前确保椅子稳固安全。",
+      "solution_for_hazard_source": "移除可能导致椅子翻倒的潜在危险或障碍物。",
+      "solution_to_prevent_recurrence": "定期检查和维护家具，确保其稳定性和安全性。"
+    }
+  }
+}

@@ -1,0 +1,40 @@
+{
+  "video_key": "labimag/dataset/chute02/cam8",
+  "translations": {
+    "0": {
+      "risk_description": "这位年轻人正躺在地板上的床垫上，这种姿势既不稳定也不安全。如果他们突然起身或床垫移动，可能会导致跌倒或受伤。",
+      "normal_video_description": "",
+      "solution_for_person": "应鼓励此人躺在稳固的表面（如床或沙发）上，以降低跌倒或受伤的风险。",
+      "solution_for_hazard_source": "应将床垫从地板上移开，放置在稳固的表面上，以防止将来跌倒或受伤。",
+      "solution_to_prevent_recurrence": "应提醒此人在休息或睡觉时始终躺在稳固的表面上，以降低跌倒或受伤的风险。"
+    },
+    "1": {
+      "risk_description": "一个人躺在标记区域中间的柔软表面上，如果表面移动或他人在其周围不加注意地走动，可能会导致跌倒。",
+      "normal_video_description": "视频显示房间中央有一块柔软的表面。一个人进入房间，躺在垫子上，房间里的人对其进行观察。",
+      "solution_for_person": "确保此人在垫子上稳固坐好并留意周围环境。",
+      "solution_for_hazard_source": "固定垫子以防止移动，并明确标记该区域以提醒他人。",
+      "solution_to_prevent_recurrence": "为在共享空间中躺卧于表面的活动制定安全规程。"
+    },
+    "2": {
+      "risk_description": "",
+      "normal_video_description": "视频显示一个人走进实验室，躺在地板中央的白色垫子上。实验室里有桌子、椅子和科学设备，此人的动作似乎是受控实验或程序的一部分。",
+      "solution_for_person": "",
+      "solution_for_hazard_source": "",
+      "solution_to_prevent_recurrence": ""
+    },
+    "3": {
+      "risk_description": "年轻人躺在地板上的床垫上，这可能不稳定，尤其是对于行动不便或平衡有问题的人，存在跌倒风险。",
+      "normal_video_description": "",
+      "solution_for_person": "确保床垫放在稳固的表面上，并在躺下时提供支撑。",
+      "solution_for_hazard_source": "使用稳固且安全的表面（如床或沙发）躺下。",
+      "solution_to_prevent_recurrence": "将床垫固定在地板上或使用额外支撑，以防止其移动。"
+    },
+    "4": {
+      "risk_description": "此人正躺在房间中央的气垫床上，如果他们移动或气垫意外放气，可能导致跌倒。硬地板表面会增加受伤风险。",
+      "normal_video_description": "一个人走进有桌子和电脑的房间，躺在气垫床上后起身。稍后另一个人进入房间。",
+      "solution_for_person": "在使用前确保气垫床充气适当且固定，以防止意外放气或移动导致跌倒。",
+      "solution_for_hazard_source": "",
+      "solution_to_prevent_recurrence": "定期检查气垫床的状态，确保其状况良好，以防止意外放气或不稳定。"
+    }
+  }
+}

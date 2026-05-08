@@ -1,0 +1,40 @@
+{
+  "video_key": "toyota_smarthome_mp4/mp4/Laydown_p09_r00_v07_c05",
+  "translations": {
+    "0": {
+      "risk_description": "视频中的人被看到躺在客厅的地板上，这可能表明摔倒或不稳定。重要的是确保该人没有受伤，并采取措施防止未来摔倒。",
+      "normal_video_description": "视频中的人被看到在客厅的沙发上放松，看电视。然后他们起身躺在地板上，这可能表明摔倒或不稳定。",
+      "solution_for_person": "检查该人确保没有受伤，并提供任何必要的帮助。",
+      "solution_for_hazard_source": "确保客厅没有绊倒危险，该人在需要时有适当的支撑，如助行器或拐杖。",
+      "solution_to_prevent_recurrence": "定期检查该人以确保安全，并采取措施防止摔倒，如安装扶手或防滑垫。"
+    },
+    "1": {
+      "risk_description": "该人躺在沙发上，双腿悬在边缘，这增加了从沙发上摔下来并可能受伤的风险。",
+      "normal_video_description": "一个人在客厅的绿色沙发上坐着看电视。然后他们躺在沙发上，双腿悬在边缘。",
+      "solution_for_person": "该人应避免双腿悬在边缘躺在沙发上，以防止摔倒。",
+      "solution_for_hazard_source": "",
+      "solution_to_prevent_recurrence": "确保该人正确坐在沙发上，不要双腿悬在边缘躺着。"
+    },
+    "2": {
+      "risk_description": "",
+      "normal_video_description": "看到一个年轻成年人在客厅的绿色沙发上放松，躺着看电视。房间光线充足，自然光透过窗帘照进来，可以看到各种家居用品和植物，营造出宁静舒适的环境。",
+      "solution_for_person": "",
+      "solution_for_hazard_source": "",
+      "solution_to_prevent_recurrence": ""
+    },
+    "3": {
+      "risk_description": "该人躺在沙发上，脚搁在茶几上，如果他们突然起身或茶几不稳定，可能会导致摔倒。",
+      "normal_video_description": "",
+      "solution_for_person": "确保该人注意自己的姿势，以及可能导致摔倒的突然动作。",
+      "solution_for_hazard_source": "固定茶几，防止它被用作脚凳而可能导致不稳定。",
+      "solution_to_prevent_recurrence": "使用稳定的表面搁脚，并确保该人正确坐着以降低摔倒风险。"
+    },
+    "4": {
+      "risk_description": "",
+      "normal_video_description": "视频显示一个人在客厅的绿色沙发上躺着看电视。场景中没有可见的风险或危险。",
+      "solution_for_person": "",
+      "solution_for_hazard_source": "",
+      "solution_to_prevent_recurrence": ""
+    }
+  }
+}

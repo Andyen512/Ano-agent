@@ -1,0 +1,40 @@
+{
+  "video_key": "toyota_smarthome_mp4/mp4/Laydown_p09_r00_v06_c05",
+  "translations": {
+    "0": {
+      "risk_description": "年轻人躺在沙发上，双腿悬在沙发边缘，如果突然移动可能会导致跌倒。",
+      "normal_video_description": "",
+      "solution_for_person": "应该鼓励这个人坐直，避免双腿悬在沙发边缘躺着，以防止跌倒。",
+      "solution_for_hazard_source": "此场景中没有危险源。",
+      "solution_to_prevent_recurrence": "应该提醒这个人坐直，避免在沙发上采取危险姿势，以防止未来跌倒。"
+    },
+    "1": {
+      "risk_description": "这个人躺在沙发上处于斜躺姿势，这可能会增加从沙发上滑落或失去平衡的风险，可能导致跌倒。",
+      "normal_video_description": "一个人坐在客厅的绿色沙发上看电视。他们在继续看电视的同时斜躺下来。",
+      "solution_for_person": "确保这个人在看电视时坐直或处于更稳定的位置，以降低从沙发上跌落的风险。",
+      "solution_for_hazard_source": "",
+      "solution_to_prevent_recurrence": "让某人定期检查这个人，确保他们保持安全姿势。"
+    },
+    "2": {
+      "risk_description": "",
+      "normal_video_description": "一个年轻人正躺在客厅的绿色沙发上放松，看电视。场景描绘了一种平静正常的日常活动，没有危险或异常行为的迹象。",
+      "solution_for_person": "",
+      "solution_for_hazard_source": "",
+      "solution_to_prevent_recurrence": ""
+    },
+    "3": {
+      "risk_description": "老年人在沙发上躺着，双脚放在茶几上，如果他们移动或失去平衡可能会导致跌倒。",
+      "normal_video_description": "",
+      "solution_for_person": "确保老年人坐起来或调整姿势，避免把脚放在茶几上。",
+      "solution_for_hazard_source": "移除或固定茶几上的任何物品，以防止绊倒或跌倒。",
+      "solution_to_prevent_recurrence": "使用脚凳或确保茶几为空，以保持稳定性。"
+    },
+    "4": {
+      "risk_description": "",
+      "normal_video_description": "一个人躺在客厅的绿色沙发上看电视。他们穿着一件格子衬衫和牛仔裤，脚搭在沙发的扶手上。电视正在播放某个节目或电影，背景中有一些植物和一盏灯。",
+      "solution_for_person": "",
+      "solution_for_hazard_source": "",
+      "solution_to_prevent_recurrence": ""
+    }
+  }
+}

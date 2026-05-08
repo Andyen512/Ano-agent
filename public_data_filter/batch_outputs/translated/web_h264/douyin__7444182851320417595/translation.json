@@ -1,0 +1,40 @@
+{
+  "video_key": "web_h264/douyin__7444182851320417595",
+  "translations": {
+    "0": {
+      "risk_description": "一位中年人被看到在医院环境中跌倒并接受医护人员的照料。这个人似乎已经跌倒并正在被其他人帮助。",
+      "normal_video_description": "",
+      "solution_for_person": "应该检查这个人是否受伤并提供适当的医疗护理。",
+      "solution_for_hazard_source": "应该查明跌倒的原因并加以解决以防止未来事件的发生。",
+      "solution_to_prevent_recurrence": "应该评估环境中的潜在危险，并采取措施确保该区域行走和活动安全。"
+    },
+    "1": {
+      "risk_description": "",
+      "normal_video_description": "视频描述了医院走廊中一个年轻人倒下的一场医疗紧急情况，医护人员迅速响应提供救命护理。",
+      "solution_for_person": "",
+      "solution_for_hazard_source": "",
+      "solution_to_prevent_recurrence": ""
+    },
+    "2": {
+      "risk_description": "一个在医院走廊行走的男子突然倒在地上，表明突然失去稳定性和平衡，直接造成伤害风险。",
+      "normal_video_description": "",
+      "solution_for_person": "医护人员应该立即照料这个人以评估其状况并提供必要的护理。",
+      "solution_for_hazard_source": "确保该区域没有障碍物，并且有医护人员在场以协助紧急情况。",
+      "solution_to_prevent_recurrence": "实施定期健康检查，并为可能有突发健康问题风险的个人提供支持。"
+    },
+    "3": {
+      "risk_description": "这个中年男子在医院走廊跌倒，由于他虚弱的身体状况和医护人员可能无法立即响应而造成伤害风险。",
+      "normal_video_description": "",
+      "solution_for_person": "确保医护人员保持警惕并准备立即协助跌倒或突发健康问题的情况。",
+      "solution_for_hazard_source": "在医院走廊安装额外的扶手和防滑地板以防止跌倒。",
+      "solution_to_prevent_recurrence": "在医院环境中进行定期安全检查和员工跌倒预防及紧急响应培训。"
+    },
+    "4": {
+      "risk_description": "视频显示一位老年人由于不稳定的步态和湿滑地板而面临跌倒风险，这可能导致严重伤害。",
+      "normal_video_description": "",
+      "solution_for_person": "确保老年人在行走时得到协助，并提供支持以防止跌倒。",
+      "solution_for_hazard_source": "清除地板上任何潜在危险，如湿点或可能导致绊倒的物体。",
+      "solution_to_prevent_recurrence": "定期检查和维护地板以确保其干燥且无危险。"
+    }
+  }
+}

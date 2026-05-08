@@ -1,0 +1,40 @@
+{
+  "video_key": "UR_Fall_Dataset/fall-05-cam0",
+  "translations": {
+    "0": {
+      "risk_description": "视频中的年轻成年人走向学习室的椅子，然后突然摔倒在地上。这种行为偏离了年轻成年人正常的日常行为，即在学习室坐着或直立进行任务。",
+      "normal_video_description": "",
+      "solution_for_person": "应帮助该人站起来，并检查是否有受伤。",
+      "solution_for_hazard_source": "应检查椅子是否有缺陷或不稳定，这可能是导致摔倒的原因。",
+      "solution_to_prevent_recurrence": "在该学习室期间应监督该人，以防止再次跌倒，并在必要时加固或更换椅子。"
+    },
+    "1": {
+      "risk_description": "该人走进房间后突然摔倒在地上，表明失去平衡或不稳定。",
+      "normal_video_description": "一个人进入学习室，向前走，却意外摔倒在地。",
+      "solution_for_person": "确保穿合适的鞋子，以防止滑倒或失去平衡。",
+      "solution_for_hazard_source": "",
+      "solution_to_prevent_recurrence": ""
+    },
+    "2": {
+      "risk_description": "这位年轻成年人在行走时失去平衡，向后倒在地上，表明发生了明显的失衡事件，超出正常活动范围。",
+      "normal_video_description": "",
+      "solution_for_person": "该人应立即起身，检查受伤情况，并评估导致摔倒的环境危险因素。",
+      "solution_for_hazard_source": "移除或固定行走路径上可能导致绊倒的物品，确保地面没有障碍物。",
+      "solution_to_prevent_recurrence": "改善该区域的照明，清除走道上的杂物，如果地面光滑可考虑使用防滑地板或垫子。"
+    },
+    "3": {
+      "risk_description": "该人摔倒在地上，可能造成受伤风险，尤其对行动受限或正在康复的人更危险。",
+      "normal_video_description": "",
+      "solution_for_person": "确保该人了解周围环境，以避免绊倒或跌倒。",
+      "solution_for_hazard_source": "移除地面上的绊倒危险物，例如电缆或障碍物。",
+      "solution_to_prevent_recurrence": "练习平衡训练以提高稳定性和协调性。"
+    },
+    "4": {
+      "risk_description": "看到该人在办公室环境中行走时突然失去平衡，摔倒在地。若撞到硬表面可能导致轻微受伤，若碰到尖锐或重物则可能造成更严重的伤害。",
+      "normal_video_description": "视频显示一个人走进办公室后失去平衡，可能导致跌倒。",
+      "solution_for_person": "确保该人穿有良好抓地力的合适鞋子以防止滑倒，同时确保地面没有任何可能引起绊倒的障碍物。",
+      "solution_for_hazard_source": "",
+      "solution_to_prevent_recurrence": "定期检查办公室地面是否存在潜在危险并及时处理。对员工进行正确的行走技巧和安全通过办公室的培训。"
+    }
+  }
+}

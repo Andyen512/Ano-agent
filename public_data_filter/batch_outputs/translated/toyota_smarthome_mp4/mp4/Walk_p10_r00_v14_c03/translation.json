@@ -1,0 +1,40 @@
+{
+  "video_key": "toyota_smarthome_mp4/mp4/Walk_p10_r00_v14_c03",
+  "translations": {
+    "0": {
+      "risk_description": "这位老年人正在厨房里走路，看起来脚步不稳。他们还拿着一把椅子，这可能会增加跌倒的风险。",
+      "normal_video_description": "这位老年人正在厨房里走路，手里拿着一把椅子。他们看起来脚步不稳，走得很慢。厨房干净整洁，没有明显的绊倒危险。",
+      "solution_for_person": "护理人员应该帮助这位老年人找到一个安全的地方坐下休息。他们还应该检查厨房里是否有绊倒危险，并提供支持帮助老年人保持平衡。",
+      "solution_for_hazard_source": "护理人员应该确保厨房没有任何杂物或绊倒危险。他们还应该为老年人提供支持，帮助他们保持平衡。",
+      "solution_to_prevent_recurrence": "护理人员应该定期检查这位老年人的活动能力和平衡情况。他们还应该根据需要提供支持和帮助，以帮助预防跌倒。"
+    },
+    "1": {
+      "risk_description": "",
+      "normal_video_description": "一位老年人走进厨房，拿起一把红白相间的椅子，然后把它向前移动。",
+      "solution_for_person": "",
+      "solution_for_hazard_source": "",
+      "solution_to_prevent_recurrence": ""
+    },
+    "2": {
+      "risk_description": "",
+      "normal_video_description": "一位老年人走进现代厨房，走近一把椅子，然后站在它附近，没有任何不稳或危险的迹象。环境整洁，动作平静而受控。",
+      "solution_for_person": "",
+      "solution_for_hazard_source": "",
+      "solution_to_prevent_recurrence": ""
+    },
+    "3": {
+      "risk_description": "这位老年人正在柜台附近使用脚凳，如果他们失去平衡，就有跌倒的风险。",
+      "normal_video_description": "",
+      "solution_for_person": "确保这位老年人使用的是稳固且合适的脚凳，并提供监督。",
+      "solution_for_hazard_source": "在脚凳下面使用防滑垫，并确保该区域光线充足。",
+      "solution_to_prevent_recurrence": "固定脚凳并定期检查其稳定性以防止跌倒。"
+    },
+    "4": {
+      "risk_description": "这位老年人因为他们所站的不稳定的椅子而有跌倒的风险。这可能会导致严重伤害，尤其是考虑到他们的年龄。",
+      "normal_video_description": "可以看到一位老年人在现代厨房里走向一把椅子。他们似乎在与椅子的稳定性作斗争。",
+      "solution_for_person": "将椅子从厨房区域移走，以防止这个人使用它并降低跌倒的风险。",
+      "solution_for_hazard_source": "",
+      "solution_to_prevent_recurrence": "确保厨房里的所有家具都稳固安全，以防止事故。"
+    }
+  }
+}

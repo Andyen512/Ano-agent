@@ -1,0 +1,40 @@
+{
+  "video_key": "UR_Fall_Dataset/fall-14-cam1",
+  "translations": {
+    "0": {
+      "risk_description": "这位年轻人正在客厅进行高强度锻炼，这增加了跌倒或失去平衡的风险。该人穿着宽松的衣服且重心较高，进一步增加了不稳定的风险。",
+      "normal_video_description": "",
+      "solution_for_person": "该人应穿具有良好抓地力的合适运动鞋，并在更稳定的环境中进行锻炼，例如健身房或设有防滑地面的房间。",
+      "solution_for_hazard_source": "客厅地面应清除任何可能绊倒或导致该人失去平衡的障碍物或杂物。",
+      "solution_to_prevent_recurrence": "应鼓励该人在更安全的环境中进行锻炼，并穿合适的鞋子，以降低跌倒或受伤的风险。"
+    },
+    "1": {
+      "risk_description": "该人以坐姿躺在地板上，这可能导致起身困难或失去平衡，增加跌倒的风险。",
+      "normal_video_description": "可见一位年轻人躺在一个看起来像是书房或办公区域的地面上，周围有椅子和桌子。",
+      "solution_for_person": "确保该人坐在稳固的椅子上，而不是躺在地板上。",
+      "solution_for_hazard_source": "",
+      "solution_to_prevent_recurrence": "鼓励该人使用专为坐着设计的家具，而不是躺在地板上。"
+    },
+    "2": {
+      "risk_description": "",
+      "normal_video_description": "可见一位年轻人在办公环境中坐在椅子上。随后该人向前倾倒并向后摔倒在地板上，似乎失去平衡或绊倒。这是一个短暂的不稳定事件，但并未显示出超出正常活动或玩耍的明显、直接或现实危险。",
+      "solution_for_person": "",
+      "solution_for_hazard_source": "",
+      "solution_to_prevent_recurrence": ""
+    },
+    "3": {
+      "risk_description": "这名孩子正试图爬到椅子上，如果失去平衡则有跌倒的风险。",
+      "normal_video_description": "",
+      "solution_for_person": "确保对该孩子进行密切监护，并为其提供稳固的站立表面。",
+      "solution_for_hazard_source": "移除或固定椅子以防止孩子攀爬。",
+      "solution_to_prevent_recurrence": "教导孩子在尝试攀爬家具前请求帮助。"
+    },
+    "4": {
+      "risk_description": "可见该人在狭窄的表面上行走，这可能导致跌倒和潜在伤害。从他们开始行走到抵达表面尽头的整个过程中都存在风险。",
+      "normal_video_description": "",
+      "solution_for_person": "确保该人在狭窄表面上行走时有适当的支撑或帮助，以防止跌倒。",
+      "solution_for_hazard_source": "提供更宽或更稳固的行走表面，以降低跌倒风险。",
+      "solution_to_prevent_recurrence": "在有狭窄表面的区域实施安全措施，如扶手或防滑垫，以最大程度降低跌倒风险。"
+    }
+  }
+}

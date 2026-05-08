@@ -1,0 +1,40 @@
+{
+  "video_key": "web_h264/dailymotion__x9o9vdq",
+  "translations": {
+    "0": {
+      "risk_description": "画面中可以看到一位年轻人正走向躺在地上的人，后者看起来处于弱势位置。年轻人的行为暗示他可能在尝试帮助或检查躺在地上的人，但如果不够谨慎，情况可能会升级。",
+      "normal_video_description": "",
+      "solution_for_person": "年轻人应缓慢、小心地接近躺在地上的人，先检查是否有受伤或痛苦的迹象，再尝试提供帮助。",
+      "solution_for_hazard_source": "视频中没有显示明显的危险，但年轻人应留意周围环境，注意庭院中潜在的障碍物或绊倒危险。",
+      "solution_to_prevent_recurrence": "建议年轻人接受基本急救和应急响应技术的培训，以便更有效地处理此类情况。还应鼓励他们与现场其他人沟通，确保在这种情形下不单独一人。"
+    },
+    "1": {
+      "risk_description": "有一个人躺在硬化区域边缘的地面上，存在有人被其绊倒而跌倒的风险。",
+      "normal_video_description": "两名年轻人位于车道区域。其中一人走开，而另一人走近躺在硬化区域边缘的地面上的那个人。",
+      "solution_for_person": "躺在地上的人应移动到更安全、远离行人交通的位置。",
+      "solution_for_hazard_source": "确保该区域没有可能导致绊倒或跌倒的障碍物。",
+      "solution_to_prevent_recurrence": "定期检查室外区域是否存在潜在的绊倒危险，保持人行道畅通。"
+    },
+    "2": {
+      "risk_description": "一个年轻人走在铺好的路径上突然失去平衡跌倒在地，这是一次明显的失稳事件，超出了正常活动范围。",
+      "normal_video_description": "",
+      "solution_for_person": "该人应立即起身，检查是否有受伤，必要时就医。",
+      "solution_for_hazard_source": "检查路面是否有不平整、碎石或其他潜在绊倒危险，并将其移除或修复。",
+      "solution_to_prevent_recurrence": "确保步行路径维护良好、无障碍，以防止今后发生类似事故。"
+    },
+    "3": {
+      "risk_description": "穿深色衣服的人跌倒后躺在地面上，如果无法自行站起或存在进一步受伤的风险，可能会造成危害。",
+      "normal_video_description": "",
+      "solution_for_person": "该人应确保能够安全站起，若无法自行站起则应寻求帮助。",
+      "solution_for_hazard_source": "确保通道无障碍，以防止将来跌倒。",
+      "solution_to_prevent_recurrence": "清理通道并保证视野清晰，防止绊倒或跌倒。"
+    },
+    "4": {
+      "risk_description": "画面中可以看到一位年轻人走下台阶后跌倒在地，这可能导致严重伤害。",
+      "normal_video_description": "视频显示一位年轻人走下房子外面的台阶后跌倒在地。",
+      "solution_for_person": "确保年轻人在走下台阶时小心谨慎，若有扶手请使用。",
+      "solution_for_hazard_source": "",
+      "solution_to_prevent_recurrence": "在台阶上安装扶手，以提供支撑并降低跌倒风险。"
+    }
+  }
+}

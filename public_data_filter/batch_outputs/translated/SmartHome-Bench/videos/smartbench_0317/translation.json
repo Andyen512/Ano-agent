@@ -1,0 +1,40 @@
+{
+  "video_key": "SmartHome-Bench/videos/smartbench_0317",
+  "translations": {
+    "0": {
+      "risk_description": "",
+      "normal_video_description": "在院子里可以看到一只黑熊，它在和垃圾桶互动。熊似乎在翻找垃圾，把垃圾桶弄倒，导致一些物品掉落。随后，熊离开垃圾桶，朝一棵树走去。视频以蓝屏结束。",
+      "solution_for_person": "",
+      "solution_for_hazard_source": "",
+      "solution_to_prevent_recurrence": ""
+    },
+    "1": {
+      "risk_description": "熊正在住宅院的垃圾桶附近活动，若有其他生物在场，可能会导致自身或他人的碰撞或挤压伤害。",
+      "normal_video_description": "可以看到一只熊爬上栅栏，掀翻垃圾桶，并在后院的垃圾桶里翻找东西。",
+      "solution_for_person": "",
+      "solution_for_hazard_source": "",
+      "solution_to_prevent_recurrence": ""
+    },
+    "2": {
+      "risk_description": "一只熊闯入住家院子，猛烈掀翻一只大型垃圾桶，对熊自身造成严重的碰撞或挤压伤害风险，并可能导致财产损失。",
+      "normal_video_description": "",
+      "solution_for_person": "",
+      "solution_for_hazard_source": "使用防熊盖或锁具固定垃圾桶，防止熊进入。",
+      "solution_to_prevent_recurrence": "安装防熊垃圾桶或将垃圾桶移至更安全的区域。"
+    },
+    "3": {
+      "risk_description": "熊正在和垃圾桶互动，可能会导致垃圾桶被压碎或翻倒，若附近有宠物或幼童，可能会造成危险。",
+      "normal_video_description": "",
+      "solution_for_person": "",
+      "solution_for_hazard_source": "用束带或锁具固定垃圾桶，防止其轻易被翻倒。",
+      "solution_to_prevent_recurrence": "安装防熊垃圾桶，以阻止野生动物进入垃圾桶。"
+    },
+    "4": {
+      "risk_description": "",
+      "normal_video_description": "视频显示后院有一个篮球架、一个垃圾桶和一个蓝色回收箱。一只黑狗在院子里玩耍，围着这些物体走来走去。",
+      "solution_for_person": "",
+      "solution_for_hazard_source": "",
+      "solution_to_prevent_recurrence": ""
+    }
+  }
+}

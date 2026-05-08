@@ -1,0 +1,40 @@
+{
+  "video_key": "web_h264/bilibili__BV1Jb411972w",
+  "translations": {
+    "0": {
+      "risk_description": "看到这位青年在客厅里精力充沛地跳跃玩耍，可能导致跌倒或失衡。",
+      "normal_video_description": "",
+      "solution_for_person": "确保该青年在监督下活动，并提供适龄玩具，以降低跌倒风险。",
+      "solution_for_hazard_source": "清除客厅中的绊倒危险物，例如电缆或小物件。",
+      "solution_to_prevent_recurrence": "建立规律性的休息安排，并为该青年提供安全的游戏区域，以减少跌倒的可能性。"
+    },
+    "1": {
+      "risk_description": "孩子正在靠近电源插座使用吹风机时，插座起火，存在触电或火灾伤害的风险。",
+      "normal_video_description": "孩子在客厅靠近电源插座使用吹风机吹干头发时，插座突然起火。成人迅速响应，扑灭火源并拔掉设备插头。",
+      "solution_for_person": "孩子在使用电气设备时应避免在插座附近无人看管，并确保设备不使用时拔掉电源。",
+      "solution_for_hazard_source": "检查电源插座是否有磨损或损坏，任何损坏的电线或插座应立即更换。",
+      "solution_to_prevent_recurrence": "定期检查电气设备和插座是否有磨损或损坏，必要时予以更换。向孩子教育在水中使用电器的危险，以及不使用时拔掉电源的重要性。"
+    },
+    "2": {
+      "risk_description": "吹风机放在地上点燃，导致突发起火并迅速蔓延。情况迅速升级，需要立即切断电源并扑灭火焰。",
+      "normal_video_description": "",
+      "solution_for_person": "立即拔掉设备插头或切断电源以制止火灾。",
+      "solution_for_hazard_source": "将吹风机从地面移开，确保不在潮湿环境中或靠近水使用。",
+      "solution_to_prevent_recurrence": "定期检查并更换老旧电气设备，避免在潮湿条件下使用。"
+    },
+    "3": {
+      "risk_description": "视频显示孩子在客厅时电气设备起火，造成严重的烧伤或触电风险。",
+      "normal_video_description": "",
+      "solution_for_person": "确保儿童在使用电器时受到密切监督，并教导他们识别并避免潜在危险。",
+      "solution_for_hazard_source": "及时更换老化或损坏的电线和电器，以防止过热和火灾。",
+      "solution_to_prevent_recurrence": "定期检查电器和电线是否有损坏，并向家人普及安全用电常识。"
+    },
+    "4": {
+      "risk_description": "孩子有从楼梯跌落的危险，可能导致严重伤害。",
+      "normal_video_description": "",
+      "solution_for_person": "确保孩子在楼梯附近受到监督，且不单独留在楼梯旁，以防跌倒。",
+      "solution_for_hazard_source": "在楼梯上安装婴儿门或防护栏，以防止孩子未经看管进入楼梯。",
+      "solution_to_prevent_recurrence": "定期检查楼梯是否存在潜在危险，并及时处理，以保障孩子的安全。"
+    }
+  }
+}

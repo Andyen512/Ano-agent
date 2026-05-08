@@ -1,0 +1,40 @@
+{
+  "video_key": "labimag/dataset/chute17/cam6",
+  "translations": {
+    "0": {
+      "risk_description": "视频中可见这位年轻人尝试坐在椅子上，但失去平衡摔倒在地上。这种行为偏离了正常日常的坐椅动作，可能导致受伤风险。",
+      "normal_video_description": "",
+      "solution_for_person": "应帮助此人寻找更稳定的座位选择，例如办公椅或带软垫的凳子。",
+      "solution_for_hazard_source": "危险来源是椅子，它的设计不具备稳定性。应当提供更稳定的座位选择。",
+      "solution_to_prevent_recurrence": "应提醒此人采用正确的坐姿技巧，在尝试坐在可能不稳定的椅子上时要小心。应定期检查以确保可用的座位选择安全且适合使用。"
+    },
+    "1": {
+      "risk_description": "穿红色衬衫的人失去平衡向前倒在茶几上，可能会因撞击桌面或其上的物品而受伤。",
+      "normal_video_description": "一名穿红色衬衫的人进入客厅，坐在沙发上，然后向前倒在茶几上，促使其他人聚集并提供帮助。",
+      "solution_for_person": "避免可能导致失衡的突然动作或行为，特别是在靠近可能在跌倒时造成伤害的家具时。",
+      "solution_for_hazard_source": "移除或固定茶几上的物品，以减少跌倒时的受伤风险。",
+      "solution_to_prevent_recurrence": "确保客厅的行走路径畅通且地面稳固，以降低跌倒的可能性。"
+    },
+    "2": {
+      "risk_description": "",
+      "normal_video_description": "视频显示一群成年人在客厅里。一个人走到沙发前坐下，然后站起来移动茶几。另一个人进入场景并开始捡起地上的物品。这些动作看起来是正常的日常活动，没有危险或风险的迹象。",
+      "solution_for_person": "",
+      "solution_for_hazard_source": "",
+      "solution_to_prevent_recurrence": ""
+    },
+    "3": {
+      "risk_description": "画面中可见一位中年成人跪在茶几附近弯腰，这可能因地面散落的物品而导致跌倒或受伤。",
+      "normal_video_description": "",
+      "solution_for_person": "确保该成人注意周围环境，并保持地面无障碍物，以防绊倒。",
+      "solution_for_hazard_source": "清除地面上任何可能导致绊倒或跌倒的物品。",
+      "solution_to_prevent_recurrence": "定期清洁和整理客厅，以减少危险。"
+    },
+    "4": {
+      "risk_description": "穿红色衬衫的人因在地板上的姿势而有跌倒或导致不稳定的风险，可能导致受伤。",
+      "normal_video_description": "视频显示客厅里一名穿红色衬衫的人躺在地板上，另一名穿米色夹克的人站在旁边。",
+      "solution_for_person": "帮助穿红色衬衫的人站起来，并确保他们在继续任何活动前保持稳定。",
+      "solution_for_hazard_source": "",
+      "solution_to_prevent_recurrence": "确保该区域没有障碍物和绊倒危险，以降低跌倒风险。"
+    }
+  }
+}

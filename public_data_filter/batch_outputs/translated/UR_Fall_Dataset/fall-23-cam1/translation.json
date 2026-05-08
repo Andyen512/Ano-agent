@@ -1,0 +1,40 @@
+{
+  "video_key": "UR_Fall_Dataset/fall-23-cam1",
+  "translations": {
+    "0": {
+      "risk_description": "看到年轻人在地板上摔倒和滚动，这有可能造成伤害。",
+      "normal_video_description": "视频显示一位年轻人在客厅，但没有提供具体行为。",
+      "solution_for_person": "确保年轻人在客厅活动时受到监督和支持，以防止摔倒。",
+      "solution_for_hazard_source": "移除客厅地板上的绊倒危险物，如电线或杂物。",
+      "solution_to_prevent_recurrence": "在客厅安装扶手或抓杆，以便年轻人在行走或活动时获得支撑。"
+    },
+    "1": {
+      "risk_description": "这个人以坐姿躺在地板上，存在摔倒或无法快速站起的风险，可能导致受伤。",
+      "normal_video_description": "视频显示一个人躺在似乎是办公室或书房的地面上，周围环绕着椅子和桌子。",
+      "solution_for_person": "确保这个人在这个环境中坐在椅子上，而不是躺在地板上。",
+      "solution_for_hazard_source": "",
+      "solution_to_prevent_recurrence": "向这个人普及在办公室/书房环境中躺在地板上的风险，并鼓励使用座椅家具。"
+    },
+    "2": {
+      "risk_description": "这个人失去平衡向后倒在地板上，这表明发生了超出正常活动的明显不稳定事件。",
+      "normal_video_description": "",
+      "solution_for_person": "这个人应该立即起身检查受伤情况，然后小心地坐或站立以恢复稳定。",
+      "solution_for_hazard_source": "确保地板上没有障碍物，并提供更好的照明以防止类似的摔倒。",
+      "solution_to_prevent_recurrence": "鼓励这个人在移动时更加小心，并考虑使用防滑鞋。"
+    },
+    "3": {
+      "risk_description": "这个人正在地板上做后弯或翻滚动作，这可能会导致摔倒或滚到意外位置，可能对行动不便或平衡感较差的年轻人造成伤害。",
+      "normal_video_description": "",
+      "solution_for_person": "确保这个人在柔软稳定的表面上翻滚，必要时提供支撑。",
+      "solution_for_hazard_source": "移除附近可能干扰动作的障碍物。",
+      "solution_to_prevent_recurrence": "在受控环境中练习这个动作，并确保有适当的监督。"
+    },
+    "4": {
+      "risk_description": "看到这个人摔倒在地上，可能导致严重伤害。这次摔倒似乎是意外，如果更好地注意周围环境就可以预防。",
+      "normal_video_description": "视频显示一个人在办公环境中行走，然后突然摔倒在地。",
+      "solution_for_person": "确保这个人意识到周围环境和该区域的潜在危险，以防止摔倒。",
+      "solution_for_hazard_source": "",
+      "solution_to_prevent_recurrence": "从这个人行走的区域移除绊倒危险物或障碍物。"
+    }
+  }
+}

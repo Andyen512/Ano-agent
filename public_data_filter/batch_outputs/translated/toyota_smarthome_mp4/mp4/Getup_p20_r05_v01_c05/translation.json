@@ -1,0 +1,40 @@
+{
+  "video_key": "toyota_smarthome_mp4/mp4/Getup_p20_r05_v01_c05",
+  "translations": {
+    "0": {
+      "risk_description": "视频中可以看到此人弯腰伸手去拿地板上的东西，这可能会导致他们失去平衡而摔倒。此外，此人穿着拖鞋，拖鞋可能无法提供足够的支撑和抓地力。",
+      "normal_video_description": "",
+      "solution_for_person": "应鼓励此人穿具有良好抓地力和支撑力的适当鞋类，以降低摔倒风险。还应提醒他们在客厅走动时不要着急，慢慢来。",
+      "solution_for_hazard_source": "风险的来源是地板，可能湿滑或不平整。应鼓励此人在必要时清理地板上的溢出物或杂物，并使用防滑垫。",
+      "solution_to_prevent_recurrence": "应提醒此人在客厅走动时要小心，在弯腰捡地板上的东西时要慢慢来。还应鼓励他们向护理人员或家庭成员报告任何跌倒或险些跌倒的情况，以便解决问题并防止将来再次发生。"
+    },
+    "1": {
+      "risk_description": "正常视频描述",
+      "normal_video_description": "此人在客厅弯腰靠近一个低矮的茶几，如果在伸手或起身时失去平衡，可能会导致摔倒。",
+      "solution_for_person": "一个人在客厅弯腰靠近一个低矮的茶几。",
+      "solution_for_hazard_source": "确保此人在弯腰时保持稳定的姿势，避免在低矮家具附近突然动作。",
+      "solution_to_prevent_recurrence": "将茶几略微抬高，以降低弯腰过度的风险。"
+    },
+    "2": {
+      "risk_description": "",
+      "normal_video_description": "鼓励此人在够取低处物品时使用脚凳。",
+      "solution_for_person": "",
+      "solution_for_hazard_source": "",
+      "solution_to_prevent_recurrence": ""
+    },
+    "3": {
+      "risk_description": "一位老年人坐在客厅的绿色沙发上，然后站起来走开。场景中包括电视、茶几和落地灯，没有可见的危险或危险活动。",
+      "normal_video_description": "",
+      "solution_for_person": "老年人正试图从低矮的沙发上站起来，由于不稳定可能会存在摔倒风险。",
+      "solution_for_hazard_source": "确保老年人在起身时有支撑，如椅子或扶手杆。",
+      "solution_to_prevent_recurrence": "提供缓冲台阶或脚凳来辅助从沙发上起身。"
+    },
+    "4": {
+      "risk_description": "",
+      "normal_video_description": "使用坐面更高的沙发或在附近添加支撑性家具以帮助起身。",
+      "solution_for_person": "",
+      "solution_for_hazard_source": "",
+      "solution_to_prevent_recurrence": ""
+    }
+  }
+}

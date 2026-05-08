@@ -1,0 +1,40 @@
+{
+  "video_key": "web_h264/2311801569321330",
+  "translations": {
+    "0": {
+      "risk_description": "可以看到这位年轻人朝镜头跑来，然后摔倒在台阶上，可能导致受伤。",
+      "normal_video_description": "",
+      "solution_for_person": "应帮助此人起身并检查是否有受伤。",
+      "solution_for_hazard_source": "应使台阶更加稳固安全，以防止跌倒。",
+      "solution_to_prevent_recurrence": "应提醒此人在下台阶时要小心并使用扶手支撑。"
+    },
+    "1": {
+      "risk_description": "视频显示多人在上、下门廊或车道时失去平衡并摔倒，可能导致瘀伤、扭伤或骨折等伤害。",
+      "normal_video_description": "视频展示了不同户外环境中，人们在上下台阶或走向门廊时跌倒的情形。",
+      "solution_for_person": "在不平或光滑的地面上行走时，个人应保持警惕，穿具有良好抓地力的适当鞋子，并注意周围环境以防跌倒。",
+      "solution_for_hazard_source": "确保人行道和车道无障碍物、保养良好且无冰或水，以降低滑倒风险。",
+      "solution_to_prevent_recurrence": "在台阶上安装扶手，在人行道上使用防滑垫或防滑涂层，并鼓励人们在潜在危险区域慢行。"
+    },
+    "2": {
+      "risk_description": "视频显示多人室外台阶和人行道上失去平衡并跌倒，表明因不稳定导致受伤的明显风险。",
+      "normal_video_description": "",
+      "solution_for_person": "此人应立即停止活动，检查是否受伤，并在必要时寻求医疗帮助。",
+      "solution_for_hazard_source": "应对环境进行检查，查找可能导致绊倒或跌倒的危险因素，如不平表面、光滑条件或障碍物。",
+      "solution_to_prevent_recurrence": "实施安全措施，如安装扶手、改善照明并确保地面无杂物，以防止将来跌倒。"
+    },
+    "3": {
+      "risk_description": "视频显示人们在各种表面上滑倒和跌倒，可能造成受伤风险，尤其对行动不便或平衡有障碍者更甚。",
+      "normal_video_description": "",
+      "solution_for_person": "确保人们在潜在光滑的表面上行走时保持警惕，并在下楼梯时考虑使用扶手或支撑。",
+      "solution_for_hazard_source": "改善照明并清除人行道上的杂物或危险物品，以降低滑倒风险。",
+      "solution_to_prevent_recurrence": "定期检查和维护人行道和楼梯的清洁和稳固，并提供足够的照明以提高能见度。"
+    },
+    "4": {
+      "risk_description": "视频显示一名年轻人在门廊台阶上跑下来并摔倒，可能导致严重伤害。安全摄像头捕捉到了这一跌倒，突显出潜在严重后果。",
+      "normal_video_description": "",
+      "solution_for_person": "确保门廊台阶保养良好且无危险，以防止跌倒。",
+      "solution_for_hazard_source": "在门廊台阶上安装扶手，以提供支撑并降低跌倒风险。",
+      "solution_to_prevent_recurrence": "定期检查和修理门廊台阶，以确保其使用安全。"
+    }
+  }
+}

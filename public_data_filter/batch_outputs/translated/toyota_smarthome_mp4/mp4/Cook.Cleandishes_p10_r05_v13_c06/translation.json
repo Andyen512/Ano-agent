@@ -1,0 +1,40 @@
+{
+  "video_key": "toyota_smarthome_mp4/mp4/Cook.Cleandishes_p10_r05_v13_c06",
+  "translations": {
+    "0": {
+      "risk_description": "",
+      "normal_video_description": "视频显示一位老年人在现代化厨房里准备食物。厨房光线充足，展示了各种电器和厨具。这位老人似乎专注于任务，没有任何风险或危险的迹象。",
+      "solution_for_person": "",
+      "solution_for_hazard_source": "",
+      "solution_to_prevent_recurrence": ""
+    },
+    "1": {
+      "risk_description": "",
+      "normal_video_description": "一位老年人站在厨房里，操作台上的咖啡机。厨房是现代化风格，配有白色橱柜、炉灶，背景中有一台电视在播放节目。这位老人似乎在准备饮料。",
+      "solution_for_person": "",
+      "solution_for_hazard_source": "",
+      "solution_to_prevent_recurrence": ""
+    },
+    "2": {
+      "risk_description": "",
+      "normal_video_description": "一位老年人站在现代化厨房里，似乎在柜台准备食物或饮料。环境明亮且整洁，没有可见的危险或异常活动。",
+      "solution_for_person": "",
+      "solution_for_hazard_source": "",
+      "solution_to_prevent_recurrence": ""
+    },
+    "3": {
+      "risk_description": "",
+      "normal_video_description": "视频显示一位老年人在厨房的柜台准备东西。背景中有电视开着，厨房看起来光线充足且整洁。",
+      "solution_for_person": "",
+      "solution_for_hazard_source": "",
+      "solution_to_prevent_recurrence": ""
+    },
+    "4": {
+      "risk_description": "",
+      "normal_video_description": "视频显示一位穿着绿色衬衫的老年人在厨房柜台站着，似乎在准备东西。环境是现代化的，背景中有电视播放节目。",
+      "solution_for_person": "",
+      "solution_for_hazard_source": "",
+      "solution_to_prevent_recurrence": ""
+    }
+  }
+}

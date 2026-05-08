@@ -1,0 +1,40 @@
+{
+  "video_key": "toyota_smarthome_mp4/mp4/Sitdown_p11_r00_v01_c04",
+  "translations": {
+    "0": {
+      "risk_description": "老年人在弯腰从地板上捡东西时有跌倒风险。",
+      "normal_video_description": "老年人在客厅从地板上捡东西，然后坐到沙发上。",
+      "solution_for_person": "护理人员应协助老年人捡东西以防止跌倒。",
+      "solution_for_hazard_source": "护理人员应确保地板没有绊倒危险，并在老年人需要帮助时提供支持。",
+      "solution_to_prevent_recurrence": "护理人员应定期检查老年人的居家环境，排除潜在危险，并采取措施预防跌倒，如安装扶手和防滑垫。"
+    },
+    "1": {
+      "risk_description": "",
+      "normal_video_description": "一位老年人站在绿色组合沙发旁边，然后坐下。房间光线充足，附近有植物和白色咖啡桌。",
+      "solution_for_person": "",
+      "solution_for_hazard_source": "",
+      "solution_to_prevent_recurrence": ""
+    },
+    "2": {
+      "risk_description": "",
+      "normal_video_description": "一位老年人在客厅站在绿色组合沙发旁边，然后慢慢坐到沙发上。环境宁静温馨，没有明显的危险或危险动作。",
+      "solution_for_person": "",
+      "solution_for_hazard_source": "",
+      "solution_to_prevent_recurrence": ""
+    },
+    "3": {
+      "risk_description": "老年人似乎正在弯腰并托着腰部，这可能表明不适或疼痛，可能会增加跌倒的风险。",
+      "normal_video_description": "",
+      "solution_for_person": "老年人应该坐在沙发上以避免进一步劳损或潜在的跌倒。",
+      "solution_for_hazard_source": "确保客厅没有绊倒危险，例如地板上的散落物品。",
+      "solution_to_prevent_recurrence": "使用支撑性坐垫，确保区域光线充足，以预防未来跌倒。"
+    },
+    "4": {
+      "risk_description": "老年人在沙发旁站立时有跌倒风险，可能导致严重伤害。潜在后果包括剧烈疼痛、长期功能障碍，甚至可能需要紧急医疗救治。",
+      "normal_video_description": "",
+      "solution_for_person": "在老年人尝试站起之前，确保他们已坐在沙发上。",
+      "solution_for_hazard_source": "",
+      "solution_to_prevent_recurrence": "在帮助老年人从沙发上站起时，提供支持和协助。"
+    }
+  }
+}

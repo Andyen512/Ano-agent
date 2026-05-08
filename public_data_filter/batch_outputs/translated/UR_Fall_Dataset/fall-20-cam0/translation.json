@@ -1,0 +1,40 @@
+{
+  "video_key": "UR_Fall_Dataset/fall-20-cam0",
+  "translations": {
+    "0": {
+      "risk_description": "这位年轻人坐在椅子上时突然摔到地上，可能导致受伤。",
+      "normal_video_description": "",
+      "solution_for_person": "应帮助该人坐起并检查是否有受伤。",
+      "solution_for_hazard_source": "应检查椅子的稳定性以及是否存在潜在危险。",
+      "solution_to_prevent_recurrence": "应提醒该人缓慢而小心地坐起，以避免以后再摔倒。"
+    },
+    "1": {
+      "risk_description": "可以看到这位年轻人先坐在椅子上，然后站起来摔倒在地上。这种行为可能引发跌倒，导致潜在伤害。",
+      "normal_video_description": "一位年轻人在自习室里坐着，然后站起来摔倒在地上。",
+      "solution_for_person": "这位年轻人应避免从坐姿突然动作，以防止跌倒。",
+      "solution_for_hazard_source": "",
+      "solution_to_prevent_recurrence": "确保这位年轻人坐姿正确并小心移动，以降低跌倒风险。"
+    },
+    "2": {
+      "risk_description": "",
+      "normal_video_description": "一位年轻人在自习室里坐着时失去平衡摔倒在地上，随后站起并走动。该动作看似轻微踉跄，而非危险事件。",
+      "solution_for_person": "",
+      "solution_for_hazard_source": "",
+      "solution_to_prevent_recurrence": ""
+    },
+    "3": {
+      "risk_description": "这位年轻人从椅子上摔到地上，可能造成受伤风险，尤其是当其行动受限或正在康复时。",
+      "normal_video_description": "",
+      "solution_for_person": "确保这位年轻人坐得稳妥，并在其试图站立或移动时提供帮助。",
+      "solution_for_hazard_source": "清除绊倒危险，确保家具摆放合理，防止跌倒。",
+      "solution_to_prevent_recurrence": "在椅子下使用防滑垫，确保地面无障碍物。"
+    },
+    "4": {
+      "risk_description": "这个人正在椅子上进行危险动作，可能导致跌倒和潜在受伤。该动作涉及从椅子上跳下，增加失去平衡和摔倒的风险。",
+      "normal_video_description": "视频显示一个人在办公环境中试图从椅子上跳下进行危险动作，可能导致跌倒和潜在受伤。",
+      "solution_for_person": "避免在不稳固的家具（如椅子）上进行高风险动作。",
+      "solution_for_hazard_source": "",
+      "solution_to_prevent_recurrence": "在进行任何体育活动前，确保所有家具稳固可靠。"
+    }
+  }
+}

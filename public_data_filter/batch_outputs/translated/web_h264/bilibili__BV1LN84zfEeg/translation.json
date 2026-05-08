@@ -1,0 +1,40 @@
+{
+  "video_key": "web_h264/bilibili__BV1LN84zfEeg",
+  "translations": {
+    "0": {
+      "risk_description": "孩子在骑小型自行车时摔下来，导致手臂受伤。",
+      "normal_video_description": "",
+      "solution_for_person": "应检查孩子是否有受伤，并在必要时提供急救。",
+      "solution_for_hazard_source": "应将小型自行车从客厅移走，以防止进一步的事故。",
+      "solution_to_prevent_recurrence": "孩子在骑自行车时应受到监督，并配备适当的安全装备，如头盔和护肘。"
+    },
+    "1": {
+      "risk_description": "孩子在旋转门附近玩三轮车，存在碰撞或被旋转机构卡住的风险。",
+      "normal_video_description": "看到孩子在旋转门附近玩三轮车，导致孩子被困的事件发生。",
+      "solution_for_person": "当孩子靠近旋转门时，应密切监督，并教导他们不要在这些区域玩耍或逗留。",
+      "solution_for_hazard_source": "安装安全屏障或标志以防止儿童在无人监督时接近旋转门。",
+      "solution_to_prevent_recurrence": "教育家长和监护人了解旋转门的危险以及监督的重要性。"
+    },
+    "2": {
+      "risk_description": "孩子在骑玩具车通过旋转门时，手臂被门机构卡住并摔倒，造成明显的挤压伤。",
+      "normal_video_description": "",
+      "solution_for_person": "立即停止旋转门，使用紧急释放工具解救被卡住的肢体。",
+      "solution_for_hazard_source": "在旋转门上安装安全传感器或紧急停止按钮以防止夹伤。",
+      "solution_to_prevent_recurrence": "确保儿童在使用旋转门时始终受到监督，并教育他们不要在门内玩耍或停留。"
+    },
+    "3": {
+      "risk_description": "孩子被困在旋转门和门框之间，由于门的运动和孩子有限的逃脱能力，存在受伤风险。",
+      "normal_video_description": "",
+      "solution_for_person": "当儿童靠近旋转门时，应始终监督以防止事故。",
+      "solution_for_hazard_source": "在旋转门上安装安全传感器或警报，以便在检测到障碍物时发出警报。",
+      "solution_to_prevent_recurrence": "教育家庭了解旋转门的危险性，并在他们靠近此类门时始终监督儿童。"
+    },
+    "4": {
+      "risk_description": "看到一个孩子从阳台上摔下来，可能导致严重伤害甚至死亡。这是一个需要立即关注的高风险情况。",
+      "normal_video_description": "",
+      "solution_for_person": "确保孩子安全地回到室内，远离阳台，以防止进一步坠落的风险。",
+      "solution_for_hazard_source": "安装安全屏障或栏杆在阳台上，以防止将来坠落。",
+      "solution_to_prevent_recurrence": "定期检查和维护阳台的安全设施，确保它们处于良好状态并正常运行。"
+    }
+  }
+}

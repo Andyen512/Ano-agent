@@ -1,0 +1,40 @@
+{
+  "video_key": "UR_Fall_Dataset/adl-01-cam0",
+  "translations": {
+    "0": {
+      "risk_description": "视频中的年轻人正在弯腰伸手去拿地上的东西，如果失去平衡，可能会导致跌倒或不稳定。由于该年轻人独自在房间里，如果摔倒没有人能够帮助他们，风险进一步增加。",
+      "normal_video_description": "",
+      "solution_for_person": "应提醒年轻人在伸手去拿地上的物品时要小心，并让人陪同以防跌倒。",
+      "solution_for_hazard_source": "危险源是地板，地板可能湿滑或不平，可能导致跌倒。",
+      "solution_to_prevent_recurrence": "应鼓励年轻人在伸手去拿地上的物品时使用脚凳或其他支撑物，并让人陪同以防跌倒。定期维护地板以确保其清洁且无危险也有助于防止跌倒。"
+    },
+    "1": {
+      "risk_description": "一个人弯腰从地板上捡起物品，如果他们在伸手或站起时失去平衡，可能会导致跌倒。",
+      "normal_video_description": "一个人走进客厅，弯腰从地板上捡起物品，然后站起来。",
+      "solution_for_person": "确保捡东西时保持稳定姿势，避免突然动作。",
+      "solution_for_hazard_source": "",
+      "solution_to_prevent_recurrence": "鼓励弯腰捡东西时弯曲膝盖并保持背部挺直。"
+    },
+    "2": {
+      "risk_description": "",
+      "normal_video_description": "一个年轻人走进客厅，走过地板，然后蹲下检查或捡起地上的物品。动作平静且受控，没有不稳定、危险或不寻常行为的迹象。",
+      "solution_for_person": "",
+      "solution_for_hazard_source": "",
+      "solution_to_prevent_recurrence": ""
+    },
+    "3": {
+      "risk_description": "这个人看起来正在蹲下，如果失去平衡可能会增加跌倒或受伤的风险，特别是对于行动能力或稳定性有限的人。",
+      "normal_video_description": "",
+      "solution_for_person": "确保蹲下时有稳定的支撑，考虑使用椅子或凳子以获得更好的支撑。",
+      "solution_for_hazard_source": "清除地板上的障碍物和绊倒危险以降低跌倒风险。",
+      "solution_to_prevent_recurrence": "练习安全移动技巧，确保环境没有潜在危险以防止未来跌倒。"
+    },
+    "4": {
+      "risk_description": "这个人正在弯腰捡东西，如果不小心可能会导致跌倒。由于可能滑倒或失去平衡，此动作有受伤风险。",
+      "normal_video_description": "",
+      "solution_for_person": "确保这个人穿着有良好抓地力的合适鞋子，并注意周围环境以避免绊倒危险。",
+      "solution_for_hazard_source": "",
+      "solution_to_prevent_recurrence": "鼓励弯腰捡东西时保持正确姿势并慢慢进行以降低跌倒风险。"
+    }
+  }
+}

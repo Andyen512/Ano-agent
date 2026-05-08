@@ -1,0 +1,40 @@
+{
+  "video_key": "web_h264/bilibili__BV1ws411w7kY",
+  "translations": {
+    "0": {
+      "risk_description": "可以看到这位年轻人正在和狗一起跳跃玩耍，这可能导致摔倒和受伤。房间凌乱，这增加了绊倒或摔倒的风险。",
+      "normal_video_description": "",
+      "solution_for_person": "对方在和狗玩耍时应有人监督，以防摔倒受伤。还应鼓励他们在更安全的区域玩耍，例如指定的游戏室或室外。",
+      "solution_for_hazard_source": "应清理凌乱房间的绊倒危险，并对狗进行训练，使其安全玩耍。",
+      "solution_to_prevent_recurrence": "应教导对方安全玩耍，并定期清洁和整理房间，以降低摔倒和受伤的风险。"
+    },
+    "1": {
+      "risk_description": "视频显示一辆电动滑板车在充电时起火并爆炸，带来烧伤、火灾和吸入有毒烟雾的风险。",
+      "normal_video_description": "当电动滑板车在充电时起火并爆炸时，一家人正待在客厅里。",
+      "solution_for_person": "切勿在易燃材料附近或通风不良的封闭空间内为电器充电。",
+      "solution_for_hazard_source": "确保按照制造商说明使用和充电电器，避免过度充电，并使用通过认证的产品。",
+      "solution_to_prevent_recurrence": "购买质量合格的电器，避免过度充电，并将电器存放在远离易燃材料的地方。"
+    },
+    "2": {
+      "risk_description": "客厅中正在充电的电动滑板车突然冒烟，随后在明亮的闪光和火焰中爆炸，构成住宅空间的直接火灾危险。",
+      "normal_video_description": "",
+      "solution_for_person": "立即撤离现场并拨打紧急服务电话。",
+      "solution_for_hazard_source": "将设备从充电区域移走并安全处置。",
+      "solution_to_prevent_recurrence": "只使用经认证的充电设备，避免在室内为易燃设备充电。"
+    },
+    "3": {
+      "risk_description": "视频显示一辆电动滑板车在客厅起火，对儿童构成重大风险，因为他们可能离火源更近，且逃离能力较差。",
+      "normal_video_description": "",
+      "solution_for_person": "确保儿童远离潜在火灾危险，并在此类事故发生时对其进行密切监护。",
+      "solution_for_hazard_source": "移除或更换有故障的电器，并在充电时确保良好的通风。",
+      "solution_to_prevent_recurrence": "进行安全充电教育，定期检查电器是否有磨损或损坏迹象。"
+    },
+    "4": {
+      "risk_description": "视频显示一个人在客厅，由于环境凌乱和潜在的绊倒危险，存在摔倒或失去平衡的风险。",
+      "normal_video_description": "视频显示一个人在客厅，周围散落着各种物品。",
+      "solution_for_person": "确保该区域干净整洁，排除绊倒危险，以降低摔倒风险。",
+      "solution_for_hazard_source": "",
+      "solution_to_prevent_recurrence": "定期清理杂物，保持环境安全，防止摔倒。"
+    }
+  }
+}

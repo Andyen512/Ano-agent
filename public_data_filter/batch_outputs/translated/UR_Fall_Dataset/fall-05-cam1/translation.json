@@ -1,0 +1,40 @@
+{
+  "video_key": "UR_Fall_Dataset/fall-05-cam1",
+  "translations": {
+    "0": {
+      "risk_description": "可以看到这位年轻人向后倒在地板上，这可能会造成伤害。",
+      "normal_video_description": "视频显示一位年轻人在客厅里走动，但突然失去平衡，向后倒在地板上。",
+      "solution_for_person": "确保年轻人在客厅走动时有监督和支撑，以防止跌倒。",
+      "solution_for_hazard_source": "清除客厅地板上的绊倒危险或障碍物，以降低跌倒风险。",
+      "solution_to_prevent_recurrence": "鼓励年轻人在客厅里缓慢而小心地移动，并在需要时提供支撑。"
+    },
+    "1": {
+      "risk_description": "可以看到此人倒在地板上，这会带来冲击导致受伤的风险。",
+      "normal_video_description": "一个人进入房间，动作很快，然后倒在地板上。",
+      "solution_for_person": "避免可能导致失去平衡的突然动作或行为。",
+      "solution_for_hazard_source": "",
+      "solution_to_prevent_recurrence": "确保行走路径畅通，并清除地板上的绊倒危险。"
+    },
+    "2": {
+      "risk_description": "一个人进入场景后立即向后倒在地板上，表明失去平衡或身体不稳。这是一起明显的超出正常活动的身体意外。",
+      "normal_video_description": "",
+      "solution_for_person": "此人应小心起身，检查是否有受伤，并评估跌倒的原因。",
+      "solution_for_hazard_source": "检查地板上是否有障碍物或光滑表面可能导致跌倒。",
+      "solution_to_prevent_recurrence": "确保地板没有障碍物且防滑，以防止将来跌倒。"
+    },
+    "3": {
+      "risk_description": "此人正在进行后空翻，如果落地不稳可能导致摔倒，带来受伤风险。",
+      "normal_video_description": "",
+      "solution_for_person": "确保此人有一个安全的落地区域，并考虑在较柔软的表面上练习。",
+      "solution_for_hazard_source": "使用垫子或柔软表面来缓冲可能的跌落。",
+      "solution_to_prevent_recurrence": "在受控环境并在适当监督下练习，以尽量减少受伤风险。"
+    },
+    "4": {
+      "risk_description": "可以看到此人向后倒在地板上，坚硬的地板及可能与周围物体的碰撞可能导致严重伤害。",
+      "normal_video_description": "",
+      "solution_for_person": "确保此人穿着抓地力良好的适当鞋类，以防止在光滑表面滑倒。",
+      "solution_for_hazard_source": "清除此人行走区域中潜在的绊倒危险或障碍物。",
+      "solution_to_prevent_recurrence": "对地板进行定期维护检查，确保其状态良好且无杂物。"
+    }
+  }
+}

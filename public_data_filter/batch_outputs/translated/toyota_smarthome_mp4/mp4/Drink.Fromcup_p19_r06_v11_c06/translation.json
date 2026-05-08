@@ -1,0 +1,40 @@
+{
+  "video_key": "toyota_smarthome_mp4/mp4/Drink.Fromcup_p19_r06_v11_c06",
+  "translations": {
+    "0": {
+      "risk_description": "",
+      "normal_video_description": "视频显示一位老人站在现代厨房的柜台前阅读一本书。厨房光线充足，中心有一个大岛台，后方是餐厅区域。此人看起来专注于书本，现场没有可见的危险或风险。",
+      "solution_for_person": "",
+      "solution_for_hazard_source": "",
+      "solution_to_prevent_recurrence": ""
+    },
+    "1": {
+      "risk_description": "",
+      "normal_video_description": "一位穿橙色衬衫的老人站在厨房岛台上，手里拿着一个杯子，似乎正在准备或食用某物。厨房是现代化的，可以看到电器，后方还有一株植物。",
+      "solution_for_person": "",
+      "solution_for_hazard_source": "",
+      "solution_to_prevent_recurrence": ""
+    },
+    "2": {
+      "risk_description": "",
+      "normal_video_description": "一位老人站在厨房岛台前，手持杯子饮用，并看着一本书或笔记本。场景宁静，展示的是现代厨房中的日常活动。",
+      "solution_for_person": "",
+      "solution_for_hazard_source": "",
+      "solution_to_prevent_recurrence": ""
+    },
+    "3": {
+      "risk_description": "",
+      "normal_video_description": "一位老人站在现代厨房里，手持杯子，看着柜台上的一本书或平板电脑。厨房光线充足，配有现代电器和装饰。",
+      "solution_for_person": "",
+      "solution_for_hazard_source": "",
+      "solution_to_prevent_recurrence": ""
+    },
+    "4": {
+      "risk_description": "",
+      "normal_video_description": "视频显示一位老人坐在厨房柜台前阅读一本书。现场没有可见的风险或潜在危险。",
+      "solution_for_person": "",
+      "solution_for_hazard_source": "",
+      "solution_to_prevent_recurrence": ""
+    }
+  }
+}

@@ -1,0 +1,40 @@
+{
+  "video_key": "labimag/dataset/chute08/cam4",
+  "translations": {
+    "0": {
+      "risk_description": "可以看到这位年轻人走向地板上的白色物体，看起来像是床垫或类似物品。当他们靠近该物体时，失去平衡倒在上面，导致他们在地板上处于易受伤害的姿势。这种行为偏离了正常的日常行走活动，如果当事人无法自行站起或没有帮助，可能会导致受伤。",
+      "normal_video_description": "",
+      "solution_for_person": "应帮助此人从地板上站起，并检查是否有受伤。还应建议他们在接近不熟悉的物体时更加小心。",
+      "solution_for_hazard_source": "应重新安排实验室布局，消除潜在的绊倒危险，并确保所有物体稳固放置，以防跌倒。",
+      "solution_to_prevent_recurrence": "应提醒此人在接近不熟悉的物体时更加小心，并在感觉不稳时请求帮助。实验室应定期检查潜在危险并及时处理。"
+    },
+    "1": {
+      "risk_description": "有一个人面朝下躺在房间中间的床垫上，房间标有网格线，可能会因网格线或周围设备而导致绊倒危险。",
+      "normal_video_description": "多位人员在实验室环境中走动，其中一人面朝下躺在房间中心的床垫上。",
+      "solution_for_person": "确保此人了解周围环境，避免在有潜在绊倒危险的区域面朝下躺卧。",
+      "solution_for_hazard_source": "移除或明确标记地板上的网格线，以降低绊倒风险。",
+      "solution_to_prevent_recurrence": "对房间内的所有人员进行布局和潜在危险的安全简报。"
+    },
+    "2": {
+      "risk_description": "",
+      "normal_video_description": "视频显示一位穿红色衬衫的人走进房间，躺在床垫上，然后起身。另一位穿黑色衬衫的人也在房间内走动，并与桌上的物品互动。房间看起来像学习或办公空间，周围散落着各种物品和设备。",
+      "solution_for_person": "",
+      "solution_for_hazard_source": "",
+      "solution_to_prevent_recurrence": ""
+    },
+    "3": {
+      "risk_description": "穿红色衬衫的人跌倒在地板上，可能会造成受伤风险，尤其对行动不便或平衡有问题的人更为危险。",
+      "normal_video_description": "",
+      "solution_for_person": "确保此人了解周围环境并谨慎行动，以避免跌倒。",
+      "solution_for_hazard_source": "移除地板上的任何障碍物或绊倒危险，以降低跌倒风险。",
+      "solution_to_prevent_recurrence": "实施安全措施，如防滑地板或更好的照明，以提高能见度和稳定性。"
+    },
+    "4": {
+      "risk_description": "穿红色衬衫的人在房间里走动后倒在桌子上，可能导致严重伤害。此行为因长期影响或需要紧急医疗护理的潜在可能性而存在严重后果的风险。",
+      "normal_video_description": "",
+      "solution_for_person": "确保此人在穿越房间前了解周围环境及潜在危险。如果看起来不稳或头晕，应提供帮助。",
+      "solution_for_hazard_source": "移除地板上的任何障碍物或绊倒危险，以降低跌倒风险。",
+      "solution_to_prevent_recurrence": "鼓励此人慢慢、小心行走，特别是在穿过有家具或其他物体的房间时。"
+    }
+  }
+}

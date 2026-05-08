@@ -1,0 +1,40 @@
+{
+  "video_key": "web_h264/youtube__NcbUNQmgQ40",
+  "translations": {
+    "0": {
+      "risk_description": "视频显示两名年轻成年人在夜间的一个院子里发生身体冲突。其中一人戴着口罩，似乎在攻击另一人。冲突导致其中一人倒地。",
+      "normal_video_description": "视频显示两名年轻成年人在夜间的一个院子里发生身体冲突。其中一人戴着口罩，似乎在攻击另一人。冲突",
+      "solution_for_person": "涉及冲突的人员应就所受伤势寻求医疗救治。护理人员或目击者应介入制止打斗，并确保双方安全。",
+      "solution_for_hazard_source": "参与冲突的人员应被分开并防止进一步冲突。应检查环境是否存在可能导致冲突的潜在危险。",
+      "solution_to_prevent_recurrence": "参与冲突的人员应接受咨询或治疗，以解决可能导致冲突的潜在问题。应监测环境中的潜在触发因素或危险，以防未来再次发生冲突。"
+    },
+    "1": {
+      "risk_description": "多名个人在停有汽车的停车场快速奔跑和移动，增加了碰撞或被车辆撞击的风险。",
+      "normal_video_description": "视频显示夜间停车场场景，有数人在周围走动，附近停有汽车。",
+      "solution_for_person": "行人应减速并留意周围环境，避免撞到车辆或彼此。",
+      "solution_for_hazard_source": "驾驶员应保持警惕，在该区域让行人先行。",
+      "solution_to_prevent_recurrence": "在停车场安装更好的照明和标识，以提高能见度和安全意识。"
+    },
+    "2": {
+      "risk_description": "视频显示多名个人在门廊上进行身体冲突，包括推搡、挤压和激烈动作。此行为明显超出正常活动，属于可能造成身体伤害的直接人际冲突。",
+      "normal_video_description": "",
+      "solution_for_person": "当事人应立即停止身体冲突并分开，以防止受伤。",
+      "solution_for_hazard_source": "环境（门廊）并非危险来源，但确保该区域安全以防止冲突升级仍然重要。",
+      "solution_to_prevent_recurrence": "实施冲突解决策略，若行为持续，应寻求专业帮助。"
+    },
+    "3": {
+      "risk_description": "视频显示两名个人之间的身体冲突，可能对周围的人（包括儿童或老年人等弱势群体）造成伤害风险。",
+      "normal_video_description": "",
+      "solution_for_person": "确保个人采用冲突解决策略或寻求调解，以避免身体冲突。",
+      "solution_for_hazard_source": "安装监控摄像头以记录事件，并考虑雇用安保人员来处理冲突。",
+      "solution_to_prevent_recurrence": "开展冲突解决培训，制定明确的行为准则，以防止未来冲突。"
+    },
+    "4": {
+      "risk_description": "视频显示一个人在夜间位于阳台上，存在因高度导致的坠落风险。该人的动作并不清晰，但场景表明可能发生事故。",
+      "normal_video_description": "",
+      "solution_for_person": "确保该人了解夜间在阳台上的风险，并采取必要防护措施，如使用扶手或不倚靠栏杆。",
+      "solution_for_hazard_source": "在阳台上安装安全屏障或护栏以防止坠落。",
+      "solution_to_prevent_recurrence": "向个人宣传夜间阳台的危险，鼓励他们避免冒险行为。"
+    }
+  }
+}

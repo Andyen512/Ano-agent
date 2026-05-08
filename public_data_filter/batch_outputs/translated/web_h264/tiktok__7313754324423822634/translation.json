@@ -1,0 +1,40 @@
+{
+  "video_key": "web_h264/tiktok__7313754324423822634",
+  "translations": {
+    "0": {
+      "risk_description": "老年人站在阳台上，这是一个高风险的跌倒区域。该人没有使用任何扶手或安全设备，增加了跌倒的风险。",
+      "normal_video_description": "",
+      "solution_for_person": "护理人员应确保老年人在阳台上时使用扶手并佩戴适当的安全设备。",
+      "solution_for_hazard_source": "护理人员应确保阳台维护良好，没有任何绊倒危险物。",
+      "solution_to_prevent_recurrence": "护理人员应定期检查老年人，并确保他们在阳台上时使用安全设备。他们还应考虑安装安全设施，如扶手或警报器，以防止跌倒。"
+    },
+    "1": {
+      "risk_description": "老年人站在一个有扶手的狭窄楼梯上，但他们的姿势和动作表明不稳定，可能会导致跌倒。",
+      "normal_video_description": "看到一位老年人站在阳台楼梯上，似乎处于不稳定的位置。",
+      "solution_for_person": "确保老年人正确使用扶手并在楼梯上谨慎行走。",
+      "solution_for_hazard_source": "",
+      "solution_to_prevent_recurrence": "在楼梯上安装防滑垫并确保充足的照明。"
+    },
+    "2": {
+      "risk_description": "一位老年人在阳台台阶上行走时失去平衡并摔倒，表明现场存在明显的不稳定风险。",
+      "normal_video_description": "",
+      "solution_for_person": "应立即检查伤势，并在需要时寻求医疗帮助。",
+      "solution_for_hazard_source": "确保阳台台阶畅通无阻，必要时提供更好的照明或扶手。",
+      "solution_to_prevent_recurrence": "安装防滑垫或提高台阶的稳定性以防止未来跌倒。"
+    },
+    "3": {
+      "risk_description": "看到老年人靠近栏杆，如果失去平衡或滑倒则有跌倒风险。",
+      "normal_video_description": "",
+      "solution_for_person": "确保老年人在阳台上活动时握住栏杆以获得支撑。",
+      "solution_for_hazard_source": "安装额外的安全栏杆或屏障以防止从阳台跌落。",
+      "solution_to_prevent_recurrence": "定期检查栏杆的稳定性，并确保该区域没有绊倒危险物。"
+    },
+    "4": {
+      "risk_description": "儿童有从阳台跌落的风险，这可能导致严重伤害甚至死亡。",
+      "normal_video_description": "",
+      "solution_for_person": "确保儿童受到监督，切勿让其在阳台上无人看管以防止跌落。",
+      "solution_for_hazard_source": "在阳台周围安装坚固的栏杆或屏障以防止跌落。",
+      "solution_to_prevent_recurrence": "定期检查阳台的安全设施，确保它们状况良好以防止未来事故。"
+    }
+  }
+}

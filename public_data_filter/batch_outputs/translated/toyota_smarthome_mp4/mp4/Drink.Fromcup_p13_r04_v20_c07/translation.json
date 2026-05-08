@@ -1,0 +1,40 @@
+{
+  "video_key": "toyota_smarthome_mp4/mp4/Drink.Fromcup_p13_r04_v20_c07",
+  "translations": {
+    "0": {
+      "risk_description": "这个人站在椅子上，看起来不太稳定，可能会导致跌倒和潜在伤害。",
+      "normal_video_description": "",
+      "solution_for_person": "让一个人帮助这个人安全地坐下来，并确保他们稳定。",
+      "solution_for_hazard_source": "把椅子从餐厅移走，以防止进一步的不稳定性。",
+      "solution_to_prevent_recurrence": "确保椅子仅用于其预期用途，不要用于站立或平衡。"
+    },
+    "1": {
+      "risk_description": "这个人拿着一个深色的杯子，看起来正在喝它。如果杯子里的物质摄入后可能有害，则存在中毒或意外摄入的风险。",
+      "normal_video_description": "一个人站在用餐区，手里拿着杯子正在喝东西。",
+      "solution_for_person": "在饮用前确保杯子里的内容物可以安全饮用。",
+      "solution_for_hazard_source": "",
+      "solution_to_prevent_recurrence": "在喝之前确认杯子里的内容物。"
+    },
+    "2": {
+      "risk_description": "",
+      "normal_video_description": "一个年轻人站在厨房里，手里拿着一个深色的杯子正在喝东西。这个人站在柜台附近，背景中可以看到炉灶。这个场景描述的是日常活动，没有明显的风险或异常行为。",
+      "solution_for_person": "",
+      "solution_for_hazard_source": "",
+      "solution_to_prevent_recurrence": ""
+    },
+    "3": {
+      "risk_description": "这个人拿着一把刀靠近嘴边，这可能会带来意外摄入或伤害的风险，特别是对于反应可能较慢的老年人来说。",
+      "normal_video_description": "",
+      "solution_for_person": "确保刀在不用时安全存放或放在稳定的表面上。",
+      "solution_for_hazard_source": "将锋利物品放在够不到的地方，或使用刀架来固定它们。",
+      "solution_to_prevent_recurrence": "始终监督锋利物品的处理，并在不用时确保它们被安全存放。"
+    },
+    "4": {
+      "risk_description": "",
+      "normal_video_description": "一个中年人坐在桌旁，手里拿着一个杯子和一个香烟。这个场景看起来是在餐厅，背景中可以看到一扇门和一扇窗户。",
+      "solution_for_person": "",
+      "solution_for_hazard_source": "",
+      "solution_to_prevent_recurrence": ""
+    }
+  }
+}

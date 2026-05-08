@@ -1,0 +1,40 @@
+{
+  "video_key": "toyota_smarthome_mp4/mp4/Laydown_p09_r00_v02_c05",
+  "translations": {
+    "0": {
+      "risk_description": "这个年轻人躺在沙发上，腿垂在侧面，如果突然移动或沙发倾斜可能会导致摔倒。",
+      "normal_video_description": "",
+      "solution_for_person": "应该鼓励这个人坐直，避免躺在沙发上腿垂在侧面，以降低摔倒风险。",
+      "solution_for_hazard_source": "应检查沙发的稳定性，并清除任何潜在危险，防止沙发倾斜。",
+      "solution_to_prevent_recurrence": "应提醒这个人坐直，避免躺在沙发上腿垂在侧面，以防止未来摔倒。应定期检查沙发确保其稳定性并清除潜在危险。"
+    },
+    "1": {
+      "risk_description": "这个人躺在沙发上，腿抬高，这可能导致失去平衡和摔倒，可能造成伤害。",
+      "normal_video_description": "一个人在客厅看电视，然后躺在沙发上，腿抬高。",
+      "solution_for_person": "躺在沙发上时，确保脚平放在地面上以保持稳定。",
+      "solution_for_hazard_source": "",
+      "solution_to_prevent_recurrence": "使用较低的表面或避免躺下时抬高腿。"
+    },
+    "2": {
+      "risk_description": "",
+      "normal_video_description": "一个年轻人在客厅的绿色沙发上放松看电视。这个人变换姿势，舒适地躺在沙发上，电视在背景中继续播放。",
+      "solution_for_person": "",
+      "solution_for_hazard_source": "",
+      "solution_to_prevent_recurrence": ""
+    },
+    "3": {
+      "risk_description": "这个人斜靠在沙发上，脚放在茶几上，如果移动或失去平衡可能会导致摔倒。",
+      "normal_video_description": "",
+      "solution_for_person": "确保这个人坐得稳当，避免将脚放在茶几上以防止摔倒。",
+      "solution_for_hazard_source": "重新安排家具，防止这个人把脚放在桌上。",
+      "solution_to_prevent_recurrence": "使用脚凳而不是茶几来安全地抬高脚。"
+    },
+    "4": {
+      "risk_description": "",
+      "normal_video_description": "视频显示一个中年人在客厅的绿色沙发上躺着看电视。场景中没有可见的风险或危险。",
+      "solution_for_person": "",
+      "solution_for_hazard_source": "",
+      "solution_to_prevent_recurrence": ""
+    }
+  }
+}

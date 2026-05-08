@@ -1,0 +1,40 @@
+{
+  "video_key": "labimag/dataset/chute15/cam2",
+  "translations": {
+    "0": {
+      "risk_description": "视频中的年轻人走向沙发，然后突然摔倒。这种行为与正常的行走和坐在沙发上的日常活动不同，可能表明存在不稳定或潜在受伤的风险。",
+      "normal_video_description": "",
+      "solution_for_person": "应检查该人是否有受伤，并提供支撑以防止再次摔倒。",
+      "solution_for_hazard_source": "应找出摔倒的原因并加以处理，例如确保地面不滑、家具稳固。",
+      "solution_to_prevent_recurrence": "应监测该人的平衡或行动问题，并在必要时提供支持或帮助，以防止未来摔倒。"
+    },
+    "1": {
+      "risk_description": "穿红色衬衫的人以不正常的姿势躺在沙发上，随后滚落到地面，暗示有摔倒和潜在受伤的风险。",
+      "normal_video_description": "一个穿红色衬衫的人进入客厅，坐在沙发上，然后滚落到地面，随后另一个人进入房间。",
+      "solution_for_person": "确保正确的坐姿，避免以可能导致滚落的姿势躺在沙发上。",
+      "solution_for_hazard_source": "",
+      "solution_to_prevent_recurrence": ""
+    },
+    "2": {
+      "risk_description": "年轻人试图坐在沙发上但失去平衡，向后倒在地板上，这表明一次明显的失稳事件，超出了正常活动范围。",
+      "normal_video_description": "",
+      "solution_for_person": "该人应立即起身，检查是否有受伤，并在确保家具稳固前避免尝试坐在不稳定的家具上。",
+      "solution_for_hazard_source": "确保沙发稳固且位置恰当，以防止坐下时倾倒或滑落。",
+      "solution_to_prevent_recurrence": "建议个人在坐下前先评估家具的稳固性，必要时使用支撑。"
+    },
+    "3": {
+      "risk_description": "视频中的人从沙发上摔下来落在地板上，可能造成受伤风险，尤其对行动或平衡受限的人更危险。",
+      "normal_video_description": "",
+      "solution_for_person": "确保该人安全地起身，并在摔倒后检查是否有受伤。",
+      "solution_for_hazard_source": "移除或固定任何可能不稳或导致摔倒的家具。",
+      "solution_to_prevent_recurrence": "在家具边缘附近使用防滑垫或垫子，以防止未来摔倒。"
+    },
+    "4": {
+      "risk_description": "穿红色衬衫的人由于地面凌乱而面临摔倒风险，可能导致严重伤害。沙发和其他家具的存在会增加严重撞击的潜在可能。",
+      "normal_video_description": "视频显示一间客厅，里面有各种家具和凌乱的地板。一个人进入房间，坐在沙发上，然后摔倒在地上。另一个人进入房间并显得担忧。",
+      "solution_for_person": "确保沙发周围没有绊倒的危险物品，以降低摔倒风险。",
+      "solution_for_hazard_source": "",
+      "solution_to_prevent_recurrence": "定期清理地板，以最大程度减少摔倒的风险。"
+    }
+  }
+}

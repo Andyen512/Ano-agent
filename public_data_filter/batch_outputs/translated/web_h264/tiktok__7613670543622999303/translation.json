@@ -1,0 +1,40 @@
+{
+  "video_key": "web_h264/tiktok__7613670543622999303",
+  "translations": {
+    "0": {
+      "risk_description": "这位年轻人坐在办公室的地板上，周围散落着物品，似乎是从椅子上摔下来的。由于跌倒以及杂乱环境中可能进一步发生事故，这种情况存在受伤风险。",
+      "normal_video_description": "",
+      "solution_for_person": "确保对这位年轻人进行伤情检查，并提供帮助以安全地起身并转移到更安全的地点。提供支持以防止再次跌倒或事故。",
+      "solution_for_hazard_source": "清理这位年轻人周围的杂乱区域，确保办公室环境对所有人员安全且稳定。",
+      "solution_to_prevent_recurrence": "定期检查办公室潜在的危害，提供安全办公实践培训，并鼓励员工报告任何不安全的情况。"
+    },
+    "1": {
+      "risk_description": "这位妇女在推着装满物品的手推车时失去平衡，导致她摔倒并将物品洒在地板上。",
+      "normal_video_description": "一位妇女在办公室环境中推着装满各种物品的手推车，失去平衡后摔倒，物品洒在地板上。",
+      "solution_for_person": "推车时应确保握紧手推车并保持平衡。",
+      "solution_for_hazard_source": "",
+      "solution_to_prevent_recurrence": "应避免在手推车上装载过多物品，稳步推动以保持控制。"
+    },
+    "2": {
+      "risk_description": "一位年轻人在办公室环境中推购物车时失去平衡并跌倒，导致手推车翻倒，物品散落。由于失去稳定性及由此引发的事故，这种行为显然超出正常活动范围。",
+      "normal_video_description": "",
+      "solution_for_person": "应立即停止推车，恢复平衡，并在尝试捡起物品前确保安全。",
+      "solution_for_hazard_source": "购物车应采用更好的稳定性设计，以防止轻易倾倒。",
+      "solution_to_prevent_recurrence": "应建议采用更稳定的推车方式，例如保持直立而不是过度前倾。"
+    },
+    "3": {
+      "risk_description": "这位年轻人推着装载不稳固物品的手推车，导致跌倒和物品散落，可能造成绊倒危险或受伤风险。",
+      "normal_video_description": "",
+      "solution_for_person": "确保手推车装载稳固，保持匀速行驶以避免倾倒。",
+      "solution_for_hazard_source": "用绳索或容器固定手推车内的物品，以防洒落。",
+      "solution_to_prevent_recurrence": "对员工进行手推车安全操作培训，并确保定期维护手推车的稳定性。"
+    },
+    "4": {
+      "risk_description": "该人员在办公室环境中推着装有各种物品的手推车，导致跌倒并可能受伤。风险在于手推车的不稳定性以及掉落物品可能造成伤害。",
+      "normal_video_description": "在办公室场景中可以看到一个人推着装满各种物品的手推车。",
+      "solution_for_person": "在移动前确保手推车稳固安全，并考虑使用带有锁定功能的脚轮以防止意外移动。",
+      "solution_for_hazard_source": "",
+      "solution_to_prevent_recurrence": "定期检查手推车的稳定性，确保其安全使用以防止事故。"
+    }
+  }
+}

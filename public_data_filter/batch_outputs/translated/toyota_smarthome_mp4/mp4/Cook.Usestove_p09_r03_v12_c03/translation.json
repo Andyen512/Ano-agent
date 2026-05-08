@@ -1,0 +1,40 @@
+{
+  "video_key": "toyota_smarthome_mp4/mp4/Cook.Usestove_p09_r03_v12_c03",
+  "translations": {
+    "0": {
+      "risk_description": "",
+      "normal_video_description": "视频中显示一名中年人在厨房里操作厨房电器。该人似乎在进行常规的厨房活动，例如准备食物或清洁。视频中没有任何风险或危险的迹象。",
+      "solution_for_person": "",
+      "solution_for_hazard_source": "",
+      "solution_to_prevent_recurrence": ""
+    },
+    "1": {
+      "risk_description": "该人正在打开烤箱，烤箱可能装有热的食物或正在使用，存在烫伤风险。",
+      "normal_video_description": "一个人在厨房里打开烤箱。",
+      "solution_for_person": "打开烤箱前应确保其未在使用中，以免烫伤。",
+      "solution_for_hazard_source": "打开烤箱前应确认烤箱已关闭。",
+      "solution_to_prevent_recurrence": "每次打开烤箱前都应检查其状态。"
+    },
+    "2": {
+      "risk_description": "",
+      "normal_video_description": "在厨房里可以看到一位老年人在操作台与烤箱之间的通道站着，打开和关闭烤箱门。该人似乎在检查食物或调节烤箱设置，属于正常的烹饪活动。",
+      "solution_for_person": "",
+      "solution_for_hazard_source": "",
+      "solution_to_prevent_recurrence": ""
+    },
+    "3": {
+      "risk_description": "老年人弯腰伸入烤箱，这可能因姿势原因增加跌倒或拉伤的风险。",
+      "normal_video_description": "",
+      "solution_for_person": "应确保老年人使用踏凳安全地够到烤箱，避免过度弯腰。",
+      "solution_for_hazard_source": "安装可拉出的烤箱搁架，以减少弯腰的需要。",
+      "solution_to_prevent_recurrence": "使用踏凳，并考虑安装可拉出的烤箱搁架，以保持安全的姿势。"
+    },
+    "4": {
+      "risk_description": "该人正伸手进入烤箱，若电器绝缘不良或线路受损，可能存在触电风险；另外，若烤箱仍在工作，还存在高温表面或蒸汽导致的烫伤风险。",
+      "normal_video_description": "",
+      "solution_for_person": "打开烤箱前应确保其已关闭并已冷却，以防止烫伤或触电。",
+      "solution_for_hazard_source": "检查烤箱的线路和绝缘，确保其状态良好且未受损。",
+      "solution_to_prevent_recurrence": "在打开任何电器前务必先关闭电源并让其冷却，以防事故。"
+    }
+  }
+}

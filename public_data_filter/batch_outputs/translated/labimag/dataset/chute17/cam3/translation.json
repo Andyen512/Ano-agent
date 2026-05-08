@@ -1,0 +1,40 @@
+{
+  "video_key": "labimag/dataset/chute17/cam3",
+  "translations": {
+    "0": {
+      "risk_description": "视频中可以看到一位中年成年人在书房里四处走动，捡起地板上的物品并把它们放到桌子上。这位成年人似乎很匆忙，没有注意周围环境，这增加了绊倒或跌倒的风险。",
+      "normal_video_description": "视频显示书房里有桌子、椅子以及地板上的各种物品。一个人正在书房里四处走动，捡起地板上的物品并放到桌子上。这个人似乎很匆忙，没有注意周围环境。",
+      "solution_for_person": "此人应放慢脚步，更加留意周围环境，以降低跌倒的风险。",
+      "solution_for_hazard_source": "危险源是杂乱的地板，应该清理干净，以降低绊倒的风险。",
+      "solution_to_prevent_recurrence": "应提醒此人在书房走动时放慢脚步，更加留意周围环境，以防止风险再次发生。"
+    },
+    "1": {
+      "risk_description": "穿红衬衫的男子趴在地板上，头在咖啡桌下面，这可能导致他失去平衡而跌倒，可能造成伤害。",
+      "normal_video_description": "一名穿红衬衫的男子进入客厅，跪在沙发旁，然后趴在地上，头在咖啡桌下，导致物品散落。几个人随后进来开始捡起散落的物品，而该男子仍躺在地上。",
+      "solution_for_person": "该男子应避免趴在咖啡桌下，以防止跌倒。",
+      "solution_for_hazard_source": "咖啡桌应移动或固定，以防有人在下面时倾倒。",
+      "solution_to_prevent_recurrence": "确保家具的摆放方式不会让人能够躺在其下而不存在跌倒或受伤的风险。"
+    },
+    "2": {
+      "risk_description": "",
+      "normal_video_description": "视频显示一群成年人在客厅里。其中一人走向沙发，坐下后向前倒在咖啡桌上，导致物品散落在地板上。其他人进入房间，开始帮助捡起散落的物品。",
+      "solution_for_person": "",
+      "solution_for_hazard_source": "",
+      "solution_to_prevent_recurrence": ""
+    },
+    "3": {
+      "risk_description": "可以看到一位中年成年人跪在桌旁的地板上，周围散落着物体，若他们跌倒或物体被撞倒，可能会造成碰撞或挤压伤害。",
+      "normal_video_description": "",
+      "solution_for_person": "确保该成年人注意周围环境，密切留意散落的物体，以防止绊倒或挤压伤害。",
+      "solution_for_hazard_source": "清除地板上任何散落的物体，以降低碰撞或伤害的风险。",
+      "solution_to_prevent_recurrence": "整理客厅，保持通道畅通，确保物品安全存放，以防止以后再次发生事故。"
+    },
+    "4": {
+      "risk_description": "穿红衬衫的人因桌子不稳而有跌倒的风险，可能导致严重伤害。",
+      "normal_video_description": "",
+      "solution_for_person": "在坐下之前，确保桌子稳固安全。",
+      "solution_for_hazard_source": "移除可能导致桌子不稳的任何物体。",
+      "solution_to_prevent_recurrence": "定期检查家具的稳固性，确保其已正确固定。"
+    }
+  }
+}

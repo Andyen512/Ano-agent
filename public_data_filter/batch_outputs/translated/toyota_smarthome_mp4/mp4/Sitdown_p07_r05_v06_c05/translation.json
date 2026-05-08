@@ -1,0 +1,40 @@
+{
+  "video_key": "toyota_smarthome_mp4/mp4/Sitdown_p07_r05_v06_c05",
+  "translations": {
+    "0": {
+      "risk_description": "看到这位年轻人站在沙发上，而沙发并不是稳固的站立表面。这种行为增加了跌倒和受伤的风险。",
+      "normal_video_description": "这位年轻人坐在沙发上看电视并吃零食，这在客厅环境中是正常行为。",
+      "solution_for_person": "应提醒该人站在稳固的表面上，避免站在家具上。",
+      "solution_for_hazard_source": "应在沙发上加固额外的支撑或贴上警告标签，以防止站立。",
+      "solution_to_prevent_recurrence": "应当教育该人在客厅的安全行为，鼓励其在站立时使用地板或稳固的椅子。"
+    },
+    "1": {
+      "risk_description": "",
+      "normal_video_description": "一个人走进客厅，坐在沙发上，手里拿着东西进行互动。房间光线充足，摆放着典型的家具和装饰品。",
+      "solution_for_person": "",
+      "solution_for_hazard_source": "",
+      "solution_to_prevent_recurrence": ""
+    },
+    "2": {
+      "risk_description": "",
+      "normal_video_description": "看到一位年轻人在客厅里走动，最后坐在一张绿色沙发上。房间里摆放着电视、茶几和各种植物，此人进行正常的日常活动，没有任何危险或不稳定的迹象。",
+      "solution_for_person": "",
+      "solution_for_hazard_source": "",
+      "solution_to_prevent_recurrence": ""
+    },
+    "3": {
+      "risk_description": "这个人似乎在坐下时遇到困难，可能导致跌倒或不稳定，尤其是当其行动能力或平衡能力有限时。",
+      "normal_video_description": "",
+      "solution_for_person": "确保该人在坐下时有支撑，并考虑使用带扶手的椅子以便于转移。",
+      "solution_for_hazard_source": "布置家具以提供稳固的座位选项，并确保通道畅通，防止绊倒。",
+      "solution_to_prevent_recurrence": "使用额外的座位支撑，并确保客厅布局适合安全移动。"
+    },
+    "4": {
+      "risk_description": "孩子面临从沙发跌落的风险，可能导致严重伤害。沙发的高度以及孩子在上面的位置都会增加跌倒的潜在严重性。",
+      "normal_video_description": "视频显示一个孩子在客厅的沙发上玩耍。",
+      "solution_for_person": "确保孩子坐在或躺在沙发上，以防止跌落。",
+      "solution_for_hazard_source": "",
+      "solution_to_prevent_recurrence": "当孩子在沙发上时，提供成人监督以防止跌落。"
+    }
+  }
+}

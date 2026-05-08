@@ -1,0 +1,40 @@
+{
+  "video_key": "SmartHome-Bench/videos/smartbench_0628",
+  "translations": {
+    "0": {
+      "risk_description": "",
+      "normal_video_description": "视频显示一个人站在车库里，车库里停着两辆车。该男子穿着一件黑色衬衫和蓝色牛仔裤。车库门是开着的，这个人似乎在看着外面的东西。然后场景切换到一只狗的脸部特写，屏幕上显示\"ring.com\"的文字。然后视频显示一个人走向一扇门，屏幕上显示\"先生：离门远点！\"。该男子穿着一件黑色夹克和蓝色牛仔裤。然后视频显示一个人走向一辆车，屏幕上显示\"警报响起\"。该男子穿着一件黑色衬衫和蓝色牛仔裤。然后视频显示一个人走向一扇门，屏幕上显示\"ring.com\"。该男子穿着一件黑色衬衫和蓝色牛仔裤。然后视频显示一个人走向一辆车，屏幕上显示\"ring.com\"。",
+      "solution_for_person": "",
+      "solution_for_hazard_source": "",
+      "solution_to_prevent_recurrence": ""
+    },
+    "1": {
+      "risk_description": "一个人站在车库中间，两辆车紧挨着停放在两侧，如果车库门关闭或车辆意外移动，会有碰撞或被挤压的风险。",
+      "normal_video_description": "视频显示一个人站在车库里，两辆车紧挨着停放在两侧，当车库门打开时，其他人进入场景。",
+      "solution_for_person": "确保当车库门打开时，该人保持与两辆车和车库门的安全距离。",
+      "solution_for_hazard_source": "只有在安全的情况下才关闭车库门，确保没有人处于门或车辆的路径上。",
+      "solution_to_prevent_recurrence": "在车库门上安装运动传感器或安全警报，以防止当人员或车辆在附近时意外关闭。"
+    },
+    "2": {
+      "risk_description": "两个人靠近车库门，而一名居民站在里面，导致了一场对峙，其中一人被推，另一人被物理约束。情况升级到入侵者逃离该物业的程度，表明明显违反了安全和人身安全。",
+      "normal_video_description": "",
+      "solution_for_person": "居民应立即报警并待在车库或安全房间内，直到执法人员到达。",
+      "solution_for_hazard_source": "安装带有运动传感器和摄像头的安全系统，以阻止入侵者并为执法部门提供证据。",
+      "solution_to_prevent_recurrence": "考虑安装车库门锁或警报系统以防止未经授权的进入。"
+    },
+    "3": {
+      "risk_description": "视频显示车库中的个人之间发生对峙，可能会升级为肢体冲突，对附近任何人构成风险，包括弱势群体。",
+      "normal_video_description": "",
+      "solution_for_person": "确保所有个人保持冷静并清楚地沟通以缓和局势。",
+      "solution_for_hazard_source": "确保车库区域的安全以防止未经授权的进入并确保安全。",
+      "solution_to_prevent_recurrence": "安装安全摄像头和警报器以监控和阻止潜在的冲突。"
+    },
+    "4": {
+      "risk_description": "",
+      "normal_video_description": "视频显示一个人站在车库里，车库里停着两辆车。该人似乎在检查或修理车辆，没有任何迹象表明正在进行任何风险或危险活动。",
+      "solution_for_person": "",
+      "solution_for_hazard_source": "",
+      "solution_to_prevent_recurrence": ""
+    }
+  }
+}

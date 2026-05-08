@@ -1,0 +1,40 @@
+{
+  "video_key": "labimag/dataset/chute19/cam7",
+  "translations": {
+    "0": {
+      "risk_description": "视频中可以看到该人走向豆袋椅并倒向它，这可能会导致受伤或不稳定。",
+      "normal_video_description": "视频显示一个人在办公室走动，然后倒在豆袋椅上。办公室灯光充足，看起来是一个典型的工作空间，有桌子、电脑和办公用品。",
+      "solution_for_person": "人员在办公室走动时应更加小心，避免将物品或家具摆放成可能绊倒的危险。",
+      "solution_for_hazard_source": "办公室应定期检查潜在的绊倒危险，并进行必要的调整以防止事故。",
+      "solution_to_prevent_recurrence": "应提醒人员注意周围环境并采取必要的预防措施以避免事故。"
+    },
+    "1": {
+      "risk_description": "穿红衬衫的人躺在椅子旁边的地板上，这可能导致摔倒或起身困难，特别是当地板硬或光滑时。",
+      "normal_video_description": "一个穿红衬衫的人走进房间，房间中央有一把棕色椅子，他躺在椅子旁边然后站起。背景中其他人在桌前工作。",
+      "solution_for_person": "确保该人安全站起，避免以这种方式躺在地板上。",
+      "solution_for_hazard_source": "",
+      "solution_to_prevent_recurrence": ""
+    },
+    "2": {
+      "risk_description": "一名年轻人走进房间，绊倒地板上的小物体，向后跌倒在地。该动作明显超出正常活动，属于直接的身体失衡事件。",
+      "normal_video_description": "",
+      "solution_for_person": "该人应立即站起，检查是否受伤，并避免在有杂物或绊倒危险的地方行走。",
+      "solution_for_hazard_source": "将小物品从地板上移除，以防绊倒。",
+      "solution_to_prevent_recurrence": "保持通道畅通，确保房间光线充足以提高可视性。"
+    },
+    "3": {
+      "risk_description": "人员在尝试移动扶手椅时跌倒在地，这可能会导致行动不便或平衡问题的人受伤。",
+      "normal_video_description": "",
+      "solution_for_person": "确保该人注意周围环境，并考虑使用辅助工具来安全地移动重家具。",
+      "solution_for_hazard_source": "重新安排家具，创造更多空间，减少绊倒危险。",
+      "solution_to_prevent_recurrence": "提供安全搬动家具的培训，并确保居住区域光线充足以提高可视性。"
+    },
+    "4": {
+      "risk_description": "穿红衬衫的人在有标记线的地板上行走，标记线可能光滑或不稳定。他们没有注意脚步，被豆袋椅绊倒跌倒在地。这种行为因可能对地板造成硬碰硬冲击而有受伤风险。",
+      "normal_video_description": "",
+      "solution_for_person": "注意脚下，避免分心，在有标记线的房间里行走，以防止绊倒和跌倒。",
+      "solution_for_hazard_source": "移除地板标记线上的障碍物或危险，以降低绊倒风险。",
+      "solution_to_prevent_recurrence": "在有标记线的地板上行走时，要留意房间布局和潜在危险。"
+    }
+  }
+}

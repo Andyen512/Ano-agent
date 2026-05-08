@@ -1,0 +1,40 @@
+{
+  "video_key": "labimag/dataset/chute15/cam4",
+  "translations": {
+    "0": {
+      "risk_description": "视频中看到这位年轻人走过办公室，然后突然摔倒在地。这种行为偏离了正常的日常活动——走路和坐在办公桌前，且有受伤风险。",
+      "normal_video_description": "视频显示一间办公室，里面有几张桌子和椅子、一张沙发以及中间的一张咖啡桌。有几个人在桌子前工作，还有一位穿红色衬衫的男子在走动。",
+      "solution_for_person": "应当检查此人是否有受伤，并在必要时提供急救。还应建议其在办公室行走时保持小心，以避免再次跌倒。",
+      "solution_for_hazard_source": "应当评估办公室环境是否存在可能导致跌倒的潜在危险，例如松动的电缆或不平的地板。这些危险应及时处理，以防止将来跌倒。",
+      "solution_to_prevent_recurrence": "应鼓励此人定时休息并伸展身体，以降低跌倒风险。还应提醒其注意周围环境，并向办公室管理人员报告任何危险。"
+    },
+    "1": {
+      "risk_description": "这个人俯卧在地上（俯卧位），可能导致呼吸困难、活动受限或无法站起，存在窒息或长期不动的风险。",
+      "normal_video_description": "视频显示一间空房间，里面有桌子、沙发和咖啡桌。一个人进入，坐到沙发上，然后俯卧在地上，直到画面被遮挡。",
+      "solution_for_person": "应当轻轻将其翻身至侧卧或仰卧，以确保气道通畅并方便活动。",
+      "solution_for_hazard_source": "",
+      "solution_to_prevent_recurrence": "确保有监督并在发现有人俯卧在地上时及时干预。"
+    },
+    "2": {
+      "risk_description": "一个人进入房间，坐到沙发上，然后立即向前跌倒在地板上。这种突然失去平衡并撞击地面的行为构成了明显的跌倒风险。",
+      "normal_video_description": "",
+      "solution_for_person": "应当立即起身并检查是否有受伤。",
+      "solution_for_hazard_source": "确保沙发稳固，地板不滑。",
+      "solution_to_prevent_recurrence": "提高家具的稳固性，并确保地板防滑。"
+    },
+    "3": {
+      "risk_description": "穿红色衬衫的人跌倒在地板上，可能会造成受伤风险，尤其对行动不便或平衡问题的人更为危险。",
+      "normal_video_description": "",
+      "solution_for_person": "确保此人安全起身，并在跌倒后检查是否有受伤。",
+      "solution_for_hazard_source": "清除办公室地面上的障碍物或绊倒危险，以防止将来跌倒。",
+      "solution_to_prevent_recurrence": "实施安全检查，确保工作空间无障碍，并在必要时提供防滑鞋。"
+    },
+    "4": {
+      "risk_description": "穿红色衬衫的人被看到在房间里走动后跌倒在地，可能导致严重受伤。这种行为构成跌倒/不稳的风险。",
+      "normal_video_description": "",
+      "solution_for_person": "确保此人穿着具有良好抓地力的合适鞋，以防止滑倒和跌倒。",
+      "solution_for_hazard_source": "清除地面上潜在的绊倒危险，如电线或松散物品。",
+      "solution_to_prevent_recurrence": "鼓励此人慢慢小心行走，尤其是在光滑或湿滑的表面上。"
+    }
+  }
+}

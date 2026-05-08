@@ -1,0 +1,40 @@
+{
+  "video_key": "SmartHome-Bench/videos/smartbench_0059",
+  "translations": {
+    "0": {
+      "risk_description": "熊正在爬篱笆，这可能导致跌倒并造成潜在伤害。",
+      "normal_video_description": "熊正在爬篱笆，这在该熊出现在住宅区的行为中很不寻常。",
+      "solution_for_person": "",
+      "solution_for_hazard_source": "",
+      "solution_to_prevent_recurrence": ""
+    },
+    "1": {
+      "risk_description": "熊正在攀爬并倚靠在白色尖桩篱笆上，这可能导致它在失去平衡时跌倒或受伤。熊还靠近一辆汽车和其他物体，增加了碰撞或被碾压的风险。",
+      "normal_video_description": "夜间可以看到一只熊在围栏院子里走动，试图爬过围栏，并在覆盖物和停放的车辆附近探索。",
+      "solution_for_person": "",
+      "solution_for_hazard_source": "",
+      "solution_to_prevent_recurrence": "安装更高或更坚固的围栏，以防止动物攀爬并可能受伤。"
+    },
+    "2": {
+      "risk_description": "",
+      "normal_video_description": "一只黑熊在夜间穿过住宅院子，靠近白色尖桩篱笆，简短检查后离开。现场由监控摄像头捕捉，未显示危险或人类介入的迹象。",
+      "solution_for_person": "",
+      "solution_for_hazard_source": "",
+      "solution_to_prevent_recurrence": ""
+    },
+    "3": {
+      "risk_description": "熊在汽车和围栏附近徘徊，若有儿童或宠物在场，可能会造成碰撞或被碾压的潜在风险。",
+      "normal_video_description": "",
+      "solution_for_person": "",
+      "solution_for_hazard_source": "安装防熊围栏并固定任何诱因，以防止熊进入院子。",
+      "solution_to_prevent_recurrence": "使用感应灯和驱熊装置来阻止熊靠近物业。"
+    },
+    "4": {
+      "risk_description": "熊正试图翻越围栏，若误判高度或失去平衡，可能会导致跌倒或被碾压受伤。",
+      "normal_video_description": "",
+      "solution_for_person": "确保该区域安全，且在熊试图爬围栏时没有人在附近。",
+      "solution_for_hazard_source": "清除院子中任何潜在的食物来源或诱因，以阻止熊来访。",
+      "solution_to_prevent_recurrence": "安装更高或更安全的围栏，以防止以后发生类似事件。"
+    }
+  }
+}

@@ -1,0 +1,40 @@
+{
+  "video_key": "toyota_smarthome_mp4/mp4/Walk_p04_r04_v14_c07",
+  "translations": {
+    "0": {
+      "risk_description": "这位老年人被看到在厨房里跳舞，这可能会增加跌倒或失去平衡的风险。",
+      "normal_video_description": "视频显示一位老年人在厨房里，但他们没有跳舞或从事任何危险行为。",
+      "solution_for_person": "护理人员应确保老年人不单独留在厨房，并应在他们执行可能危及其安全的活动时提供帮助。",
+      "solution_for_hazard_source": "应通过清除任何绊倒危险、确保地面不滑并在需要时为老年人提供支撑来使厨房更安全。",
+      "solution_to_prevent_recurrence": "护理人员应定期查看老年人，确保他们不从事可能危及其安全的活动。必要时还应提供支持和帮助，以防止跌倒和其他事故。"
+    },
+    "1": {
+      "risk_description": "",
+      "normal_video_description": "一位老年人站在厨房里，在柜台旁，有两个杯子和一个电磁炉，正用手势示意。",
+      "solution_for_person": "",
+      "solution_for_hazard_source": "",
+      "solution_to_prevent_recurrence": ""
+    },
+    "2": {
+      "risk_description": "",
+      "normal_video_description": "一位老年人站在厨房里，手里拿着一个小物件并把它送到嘴边，可能是正在吃或品尝。场景看起来平静正常，没有明显的痛苦或危险迹象。",
+      "solution_for_person": "",
+      "solution_for_hazard_source": "",
+      "solution_to_prevent_recurrence": ""
+    },
+    "3": {
+      "risk_description": "老年人正伸手去够炉灶面，如果他们失去平衡或滑倒，可能会造成碰撞或受伤的风险。",
+      "normal_video_description": "",
+      "solution_for_person": "确保老年人保持稳固的握持，并与炉灶保持安全距离，以防止任何可能的滑倒或碰撞。",
+      "solution_for_hazard_source": "在炉灶附近放置防滑垫，以降低滑倒的风险。",
+      "solution_to_prevent_recurrence": "定期检查厨房地面的清洁情况，并确保老年人了解炉灶附近的潜在危险。"
+    },
+    "4": {
+      "risk_description": "该人被看到从杯子里摄入某物，这可能是一种如果处理不当会有中毒风险的物质。此风险出现在时间间隔 [0.0, 2.4] 秒内。",
+      "normal_video_description": "",
+      "solution_for_person": "确保该人只摄入安全且合适的物质，以防止中毒或意外摄入。",
+      "solution_for_hazard_source": "视频中未发现任何异常。",
+      "solution_to_prevent_recurrence": "监测该人对物质的摄入，并确保他们了解某些食物或饮料可能带来的潜在风险。"
+    }
+  }
+}

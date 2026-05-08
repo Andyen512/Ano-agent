@@ -1,0 +1,40 @@
+{
+  "video_key": "SmartHome-Bench/videos/smartbench_0744",
+  "translations": {
+    "0": {
+      "risk_description": "在院子里出现两只熊，这对屋子里的人来说是异常且潜在危险的情况。",
+      "normal_video_description": "",
+      "solution_for_person": "屋内的人应待在室内，避免外出，直到熊离开该区域。",
+      "solution_for_hazard_source": "熊是危险的源头，解决方案是保持安全距离并避免激怒它们。",
+      "solution_to_prevent_recurrence": "业主应采取措施防止熊进入院子，如固定垃圾桶并清除任何可能的食物来源。"
+    },
+    "1": {
+      "risk_description": "熊在夜晚的住宅院子里四处游荡，对该地区的任何人或宠物构成碰撞或压伤的风险。",
+      "normal_video_description": "夜间可以看到两只熊穿过积雪的院子，在雪中留下足迹。",
+      "solution_for_person": "在熊活动期间，避免在夜间出现在院子里。",
+      "solution_for_hazard_source": "封闭户外区域并清除诱因，以阻止熊靠近。",
+      "solution_to_prevent_recurrence": "安装运动感应灯或报警器以提醒熊的存在。"
+    },
+    "2": {
+      "risk_description": "",
+      "normal_video_description": "视频显示熊在夜间穿过积雪的院子，随后是白天一个人在一辆红色卡车旁的停车场的场景，最后是一张门廊的画面，一个人坐在椅子上。所有活动似乎都是正常的日常行为，没有任何明显的风险。",
+      "solution_for_person": "",
+      "solution_for_hazard_source": "",
+      "solution_to_prevent_recurrence": ""
+    },
+    "3": {
+      "risk_description": "视频显示一只狗在雪中奔跑，如果它意外遇到其他动物或物体，可能会造成碰撞或压伤的风险。",
+      "normal_video_description": "",
+      "solution_for_person": "确保狗系上牵引绳，以防止它冲入危险之中。",
+      "solution_for_hazard_source": "清除院子里的障碍物或危险物品，以降低受伤风险。",
+      "solution_to_prevent_recurrence": "安装运动感应灯或摄像头以监控院子，并在出现异常活动时提醒主人。"
+    },
+    "4": {
+      "risk_description": "",
+      "normal_video_description": "视频显示夜间两只狗在积雪的院子里玩耍的画面。视频中没有可见的风险或危险活动。",
+      "solution_for_person": "",
+      "solution_for_hazard_source": "",
+      "solution_to_prevent_recurrence": ""
+    }
+  }
+}

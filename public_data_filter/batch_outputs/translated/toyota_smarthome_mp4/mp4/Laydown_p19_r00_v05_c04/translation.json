@@ -1,0 +1,40 @@
+{
+  "video_key": "toyota_smarthome_mp4/mp4/Laydown_p19_r00_v05_c04",
+  "translations": {
+    "0": {
+      "risk_description": "这位老年人侧躺在沙发上，双腿悬在边缘，有从沙发上跌落的风险。",
+      "normal_video_description": "这位老年人先坐在沙发上，然后躺下，看起来在休息。",
+      "solution_for_person": "护理人员应帮助老年人安全地从沙发上起身并重新坐好。",
+      "solution_for_hazard_source": "沙发应配备扶手或安全栏杆以防止跌倒。",
+      "solution_to_prevent_recurrence": "应为老年人提供助行器或拐杖等辅助工具，以防止将来跌倒。"
+    },
+    "1": {
+      "risk_description": "",
+      "normal_video_description": "一位老年人坐在客厅的绿色组合沙发上，随后躺在沙发上。客厅里有一张摆着饮料和杂志的咖啡桌、大型盆栽和落地灯。",
+      "solution_for_person": "",
+      "solution_for_hazard_source": "",
+      "solution_to_prevent_recurrence": ""
+    },
+    "2": {
+      "risk_description": "",
+      "normal_video_description": "看到一位老年人从坐姿转变为躺在客厅的绿色组合沙发上。该人舒适地调整姿势，未出现不稳、跌倒或其他危险行为的迹象。环境看起来安全且符合一般家庭的布局。",
+      "solution_for_person": "",
+      "solution_for_hazard_source": "",
+      "solution_to_prevent_recurrence": ""
+    },
+    "3": {
+      "risk_description": "老年人躺在沙发上的姿势可能在无支撑的情况下起身时导致跌倒。",
+      "normal_video_description": "",
+      "solution_for_person": "确保老年人在从沙发起身时有支撑，例如椅子或他人帮助。",
+      "solution_for_hazard_source": "重新摆放家具，以提供更安全的起身和坐下通道。",
+      "solution_to_prevent_recurrence": "使用带垫子的支撑物或在旁边放置椅子，以帮助老年人安全地从坐姿过渡到站立。"
+    },
+    "4": {
+      "risk_description": "此人躺在沙发上处于易受伤的姿势，若翻身或移动体重可能会导致跌倒。这可能导致严重伤害，对老年人尤其危险。",
+      "normal_video_description": "",
+      "solution_for_person": "在允许其躺在沙发上之前，确保此人清醒且能够安全移动。如有需要，提供帮助以防止跌倒。",
+      "solution_for_hazard_source": "",
+      "solution_to_prevent_recurrence": "鼓励此人慢慢坐起并慢慢站立，以避免跌倒。在从沙发移动到家中其他区域时，考虑提供支撑或帮助。"
+    }
+  }
+}

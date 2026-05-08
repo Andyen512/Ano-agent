@@ -1,0 +1,40 @@
+{
+  "video_key": "labimag/dataset/chute13/cam6",
+  "translations": {
+    "0": {
+      "risk_description": "看到这位年轻人躺在地板上，这可能表明出现了跌倒或不稳定的状况。应当检查该人是否有受伤，并在安全的情况下帮助其站起。",
+      "normal_video_description": "视频显示一名年轻人走进客厅，躺在地板上，然后起身。客厅里摆放着沙发、茶几和一些椅子。房间里没有可见的危险。",
+      "solution_for_person": "应当检查该人是否有受伤，并在安全的情况下帮助其站起。",
+      "solution_for_hazard_source": "应当找出跌倒的原因并加以处理，以防止再次发生。",
+      "solution_to_prevent_recurrence": "应检查客厅是否存在绊倒危险，并保持地板干净、整洁，以降低跌倒风险。"
+    },
+    "1": {
+      "risk_description": "该人先躺在沙发上，然后又躺在软垫上，这两处都可能无法提供足够的支撑或稳定性，增加跌倒或受伤的风险。",
+      "normal_video_description": "视频显示一个人进入房间，先躺在沙发上，然后躺在软垫上，并与他人互动，似乎是在实验室或学习环境中。",
+      "solution_for_person": "在躺在可能不稳定的表面上时，应确保提供适当的支撑和监督。",
+      "solution_for_hazard_source": "确认沙发和软垫是否稳固且适合躺卧。",
+      "solution_to_prevent_recurrence": "对所有用于躺卧的表面进行安全检查，以确保其稳固可靠。"
+    },
+    "2": {
+      "risk_description": "",
+      "normal_video_description": "一名年轻人进入一间类似实验室的房间，走向沙发，然后跳到房间中央的床垫上。该人落在床垫上，翻了个身，随后起身离开。房间里摆放着桌子、电脑和科学仪器，暗示这是一个受控的测试或研究环境。",
+      "solution_for_person": "",
+      "solution_for_hazard_source": "",
+      "solution_to_prevent_recurrence": ""
+    },
+    "3": {
+      "risk_description": "可以看到这位年轻人先躺在沙发上，然后又躺在床垫上，如果在没有适当支撑的情况下尝试起身，可能会导致跌倒风险，尤其是行动不便或正在康复的情况下。",
+      "normal_video_description": "",
+      "solution_for_person": "确保年轻人在从躺卧姿势起身时使用有支撑的家具，以防止跌倒。",
+      "solution_for_hazard_source": "在床垫和沙发附近提供额外的支撑或稳定辅助工具，如枕头或稳固的椅子。",
+      "solution_to_prevent_recurrence": "放置防滑垫或坐垫，以在从躺卧转为站立时提供更好的支撑和稳定性。"
+    },
+    "4": {
+      "risk_description": "该人正躺在地板上的床垫上，如果他们移动或滚下床垫，可能会导致跌倒或不稳定的风险，可能造成伤害。",
+      "normal_video_description": "",
+      "solution_for_person": "确保床垫放置在稳固且水平的表面上，以防止任何跌倒或不稳定的风险。",
+      "solution_for_hazard_source": "",
+      "solution_to_prevent_recurrence": "将床垫放在稳固且水平的表面上，以防止跌倒或不稳定的风险。"
+    }
+  }
+}

@@ -1,0 +1,40 @@
+{
+  "video_key": "toyota_smarthome_mp4/mp4/Sitdown_p10_r04_v06_c04",
+  "translations": {
+    "0": {
+      "risk_description": "这位老年人正试图坐到沙发上，如果失去平衡或沙发不稳，可能会导致跌倒。",
+      "normal_video_description": "这位老年人正站在客厅里，试图坐到沙发上。",
+      "solution_for_person": "护理人员应协助老年人坐到沙发上，以确保其安全。",
+      "solution_for_hazard_source": "护理人员应检查沙发的稳定性，确保其稳固安全。",
+      "solution_to_prevent_recurrence": "护理人员应监测老年人的动作，必要时提供帮助，防止将来跌倒。"
+    },
+    "1": {
+      "risk_description": "",
+      "normal_video_description": "一位老年人正在客厅的茶几上整理物品，随后坐到绿色的分段式沙发上。场景显得平静且属于常见的家庭活动。",
+      "solution_for_person": "",
+      "solution_for_hazard_source": "",
+      "solution_to_prevent_recurrence": ""
+    },
+    "2": {
+      "risk_description": "",
+      "normal_video_description": "可以看到一位老年人正坐在客厅的绿色沙发上，动作缓慢而小心，最终安稳地坐好。",
+      "solution_for_person": "",
+      "solution_for_hazard_source": "",
+      "solution_to_prevent_recurrence": ""
+    },
+    "3": {
+      "risk_description": "这位老年人正站在茶几上，由于不稳，存在跌倒风险。",
+      "normal_video_description": "",
+      "solution_for_person": "这位老年人应从茶几上下来，以避免跌倒。",
+      "solution_for_hazard_source": "确保茶几表面没有障碍物，以提供稳固的支撑面。",
+      "solution_to_prevent_recurrence": "站立时使用稳固的表面，并保持客厅没有潜在的绊倒危险。"
+    },
+    "4": {
+      "risk_description": "此人有从沙发上跌落的风险，可能导致严重伤害。跌倒可能导致头部或身体受到强烈冲击，甚至引起长期功能障碍。",
+      "normal_video_description": "视频显示一位老年人坐在客厅的绿色沙发上，场景中没有可见的危险或风险。",
+      "solution_for_person": "确保该人在从沙发上站起时有适当的支撑，并考虑使用扶手杆或扶手提供帮助。",
+      "solution_for_hazard_source": "",
+      "solution_to_prevent_recurrence": "在沙发附近安装扶手杆或扶手，以便在站立或坐下时为个人提供额外支撑。"
+    }
+  }
+}

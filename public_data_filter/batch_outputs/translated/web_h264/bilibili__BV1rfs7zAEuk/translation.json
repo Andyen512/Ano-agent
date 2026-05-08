@@ -1,0 +1,40 @@
+{
+  "video_key": "web_h264/bilibili__BV1rfs7zAEuk",
+  "translations": {
+    "0": {
+      "risk_description": "这位年轻人正在狭窄的壁架上表演高风险平衡动作，可能会导致跌倒和潜在伤害。",
+      "normal_video_description": "",
+      "solution_for_person": "应建议此人在更安全的环境中表演此类活动，远离壁架和其他高风险区域。",
+      "solution_for_hazard_source": "危险源是狭窄的壁架本身，应该避免或用更安全的表面替换。",
+      "solution_to_prevent_recurrence": "应该教育此人了解高风险平衡动作的危险，并鼓励其参与更安全的活动。"
+    },
+    "1": {
+      "risk_description": "视频显示人们在地板和台阶上与3D视觉幻觉中的洞和裂隙互动，造成真实的跌倒风险。",
+      "normal_video_description": "视频展示了人们和动物在地板和台阶上与3D视觉幻觉互动的各种场景，创造出洞或裂隙的外观。",
+      "solution_for_person": "避免踏入或靠近设计成洞或裂隙形状的3D视觉幻觉。",
+      "solution_for_hazard_source": "移除或明确标记3D视觉幻觉以防止混淆。",
+      "solution_to_prevent_recurrence": "教育家庭成员关于3D幻觉的危险，并确保它们不会用在人们行走或站立的地方。"
+    },
+    "2": {
+      "risk_description": "",
+      "normal_video_description": "视频显示有人在地板和墙壁上绘制3D视觉幻觉画作，导致人们和宠物在踏上或观看这些绘画区域时感到惊讶。",
+      "solution_for_person": "",
+      "solution_for_hazard_source": "",
+      "solution_to_prevent_recurrence": ""
+    },
+    "3": {
+      "risk_description": "视频显示一位女性踏上一个看起来像是地板上洞的平台，造成跌倒危险。这对平衡和协调能力较弱的老年人构成重大伤害风险。",
+      "normal_video_description": "视频描绘了一系列场景，其中人们与一个看起来像是地板上洞的平台互动，创造出视觉上欺骗性和潜在危险的环境。",
+      "solution_for_person": "老年人应该在接近不寻常平台时保持谨慎，并确保在需要时获得支持或帮助。",
+      "solution_for_hazard_source": "应该检查并修复该平台以消除跌倒危险。",
+      "solution_to_prevent_recurrence": "在客厅区域安装安全栏杆或清晰标志以警告潜在危险。"
+    },
+    "4": {
+      "risk_description": "视频显示一个孩子站在阳台边缘，存在跌倒和潜在重伤的风险。孩子的行为无人监督，增加了发生事故的可能性。",
+      "normal_video_description": "",
+      "solution_for_person": "确保儿童在靠近阳台或任何其他高处时始终有人监督，以防止跌倒。",
+      "solution_for_hazard_source": "在阳台周围安装安全屏障或栏杆以防止意外跌落。",
+      "solution_to_prevent_recurrence": "定期检查和维护阳台结构以确保稳定性和安全性。"
+    }
+  }
+}

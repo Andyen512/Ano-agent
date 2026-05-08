@@ -1,0 +1,40 @@
+{
+  "video_key": "SmartHome-Bench/videos/smartbench_0027",
+  "translations": {
+    "0": {
+      "risk_description": "",
+      "normal_video_description": "视频显示一名年轻成人夜晚在停车场的两辆停放汽车之间行走。该人似乎很匆忙且未留意周围环境。然而，视频中未检测到任何风险或异常。",
+      "solution_for_person": "",
+      "solution_for_hazard_source": "",
+      "solution_to_prevent_recurrence": ""
+    },
+    "1": {
+      "risk_description": "此人正尝试在夜间打开一辆停放汽车的车门，如果车辆意外移动，可能会造成碰撞或挤压伤害风险。",
+      "normal_video_description": "一个人夜晚在车道上接近一辆停放的汽车，打开车门后离开。",
+      "solution_for_person": "在尝试打开车门之前，此人应确保车辆已挂入泊车档并已设置警报。",
+      "solution_for_hazard_source": "车辆应打开危险警示灯或明确标记，以表明该车未在使用中。",
+      "solution_to_prevent_recurrence": "在车道周围安装感应式照明灯，以提升夜间的可视性。"
+    },
+    "2": {
+      "risk_description": "夜间可见一人在两辆停放汽车之间行走，似乎正在与左侧车辆互动，这与可疑活动或盗窃行为相符合。",
+      "normal_video_description": "",
+      "solution_for_person": "",
+      "solution_for_hazard_source": "",
+      "solution_to_prevent_recurrence": ""
+    },
+    "3": {
+      "risk_description": "此人在两辆停放汽车之间行走，若其绊倒或被其中一辆车撞击，可能存在碰撞或挤压伤害的风险。",
+      "normal_video_description": "",
+      "solution_for_person": "在停放汽车之间行走时，此人应保持警惕，留意周围环境。",
+      "solution_for_hazard_source": "确保停车位标识清晰、光照充足，以降低事故风险。",
+      "solution_to_prevent_recurrence": "在停车区安装额外的照明和清晰的标识，以提升可视性和警觉性。"
+    },
+    "4": {
+      "risk_description": "",
+      "normal_video_description": "视频展示了一个夜间停车场的场景，成年人看到在两辆停放的汽车之间行走。该人似乎正在检查或与其中一辆汽车打开的车门附近的东西进行互动。场景中没有可见的风险或危险。",
+      "solution_for_person": "",
+      "solution_for_hazard_source": "",
+      "solution_to_prevent_recurrence": ""
+    }
+  }
+}

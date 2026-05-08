@@ -1,0 +1,40 @@
+{
+  "video_key": "SmartHome-Bench/videos/smartbench_1003",
+  "translations": {
+    "0": {
+      "risk_description": "老年人坐在门廊上，由于缺乏支撑和门廊的高度，存在跌倒的风险。",
+      "normal_video_description": "老年人坐在门廊上，没有跌倒的风险。",
+      "solution_for_person": "护理人员应确保老年人有适当的支撑，例如扶手或椅子，以防止跌倒。",
+      "solution_for_hazard_source": "护理人员应确保门廊没有任何绊倒危险，并且不让老年人无人看管。",
+      "solution_to_prevent_recurrence": "护理人员应定期查看老年人，确保他们有必要的支撑以防止跌倒。"
+    },
+    "1": {
+      "risk_description": "躺在门廊边缘附近地面上的人有从门廊掉落的风险，可能导致严重伤害。",
+      "normal_video_description": "一位老年人正坐在门廊上的长椅上，而另一个人正躺在门廊边缘附近的地面上。",
+      "solution_for_person": "确保躺在地面上的人被移至离门廊边缘更安全的地点。",
+      "solution_for_hazard_source": "",
+      "solution_to_prevent_recurrence": "在门廊边缘安装安全栏杆或屏障以防止跌倒。"
+    },
+    "2": {
+      "risk_description": "一位坐在门廊长椅上的老年人失去平衡，向后倾倒，从门廊边缘掉落到下方的地面。跌倒看起来突然，导致该人躺在水泥台阶上，表明严重的失去稳定性。",
+      "normal_video_description": "",
+      "solution_for_person": "应立即检查该人是否受伤，特别是头部和背部，如有需要应寻求医疗帮助。",
+      "solution_for_hazard_source": "确保门廊栏杆牢固且足够高以防止跌倒，并考虑添加防滑垫或扶手以提高稳定性。",
+      "solution_to_prevent_recurrence": "实施安全措施，如安装抓握杆或确保座位区域稳固安全，以防止将来跌倒。"
+    },
+    "3": {
+      "risk_description": "老年人躺在阳台边缘附近的地面上，如果不借助适当支撑自行站起，则有跌倒的风险。",
+      "normal_video_description": "",
+      "solution_for_person": "确保老年人有支撑或帮助，以便安全地从地面站起。",
+      "solution_for_hazard_source": "在阳台边缘附近安装扶手或防滑垫，以防止跌倒。",
+      "solution_to_prevent_recurrence": "定期检查该区域是否存在潜在危险，并确保老年人有稳定安全的环境进行活动。"
+    },
+    "4": {
+      "risk_description": "",
+      "normal_video_description": "视频显示一个人坐在门廊的长椅上，似乎在用手进行某种活动。视频中未表现出明显的风险或危险情况。",
+      "solution_for_person": "",
+      "solution_for_hazard_source": "",
+      "solution_to_prevent_recurrence": ""
+    }
+  }
+}

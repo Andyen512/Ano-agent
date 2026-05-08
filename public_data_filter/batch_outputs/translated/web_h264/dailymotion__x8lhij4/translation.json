@@ -1,0 +1,40 @@
+{
+  "video_key": "web_h264/dailymotion__x8lhij4",
+  "translations": {
+    "0": {
+      "risk_description": "这位年轻人手持酒杯，似乎在打滑或失去平衡，可能导致跌倒并造成潜在伤害。",
+      "normal_video_description": "这位年轻人手持酒杯，在浴室里似乎在打滑或失去平衡。",
+      "solution_for_person": "应帮助此人站起来并抓住稳固的物体，以防止再次跌倒。",
+      "solution_for_hazard_source": "应将浴室地板擦干并做防滑处理，以防止将来跌倒。",
+      "solution_to_prevent_recurrence": "应建议此人在浴室里手持酒杯时更加小心，并在地板上使用防滑垫。"
+    },
+    "1": {
+      "risk_description": "此人倒在浴室地板上，有明显血迹，表明可能发生了跌倒或受伤，如不及时处理，可能导致进一步伤害。",
+      "normal_video_description": "视频展示了一个戏剧性的情节：一个人在浴室受伤，随后出现他人担忧并提供帮助的场景。",
+      "solution_for_person": "立即为受伤者寻求医疗救治。",
+      "solution_for_hazard_source": "确保浴室地板防滑且无障碍物，以防止跌倒。",
+      "solution_to_prevent_recurrence": "在浴室安装扶手杆和防滑垫。"
+    },
+    "2": {
+      "risk_description": "",
+      "normal_video_description": "视频展示了一个戏剧性的场景：一位女子躺在床上，表现出痛苦或不适。一名男子走进房间，神情担忧，随后场景切换到户外，几个人抬着担架上的一个人，暗示发生了紧急医疗情况。视频最后以该男子担忧的特写结束。",
+      "solution_for_person": "",
+      "solution_for_hazard_source": "",
+      "solution_to_prevent_recurrence": ""
+    },
+    "3": {
+      "risk_description": "可以看到此人倒在地板上，可能表示跌倒或坍塌，对可能行动不便或意识不足的年轻人构成受伤风险。",
+      "normal_video_description": "",
+      "solution_for_person": "确保对此人进行检查以确认是否受伤，并在需要时提供医疗帮助。",
+      "solution_for_hazard_source": "清除浴室中任何潜在危险，例如光滑表面，以防止将来跌倒。",
+      "solution_to_prevent_recurrence": "在浴室安装防滑垫和扶手杆等安全设施，以降低将来跌倒的风险。"
+    },
+    "4": {
+      "risk_description": "视频显示一个人倒在地板上，这表明他们可能已经跌倒，可能面临进一步受伤的风险。重要的是确保该人没有受伤，必要时提供适当的医疗护理。",
+      "normal_video_description": "视频显示一个人倒在地板上，这表明他们可能已经跌倒，可能面临进一步受伤的风险。重要的是确保该人没有受伤，必要时提供适当的医疗护理。",
+      "solution_for_person": "检查此人的健康状况并在必要时提供医疗护理。",
+      "solution_for_hazard_source": "未发现任何问题。",
+      "solution_to_prevent_recurrence": "确保该区域没有绊倒危险，且该人不会再有跌倒风险。"
+    }
+  }
+}

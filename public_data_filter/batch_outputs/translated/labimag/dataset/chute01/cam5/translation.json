@@ -1,0 +1,40 @@
+{
+  "video_key": "labimag/dataset/chute01/cam5",
+  "translations": {
+    "0": {
+      "risk_description": "中年成人在穿过房间时突然跌倒在地，若不及时处理可能导致受伤。",
+      "normal_video_description": "",
+      "solution_for_person": "需检查此人是否受伤，并在必要时帮助其站起。",
+      "solution_for_hazard_source": "应检查地面是否有障碍物或湿滑表面可能导致跌倒。",
+      "solution_to_prevent_recurrence": "应通过移除绊倒危险并确保地面清洁干燥来增强该区域的安全性。应定期检查以确保该区域保持安全可用。"
+    },
+    "1": {
+      "risk_description": "此人躺在房间中央的平面上，若缺乏适当支撑或表面不平可能导致跌倒。",
+      "normal_video_description": "视频显示一个教室场景，里面的人们进行各种活动，包括在课桌旁工作和在房间里走动。",
+      "solution_for_person": "确保此人躺在稳固、有缓冲且有适当支撑的表面上，以防滑倒或跌落。",
+      "solution_for_hazard_source": "验证中央表面在这种情况下设计为安全使用，且没有尖锐边缘或不平整区域。",
+      "solution_to_prevent_recurrence": "在允许人们躺下前，对中央区域进行安全检查，并在此类活动期间提供监督。"
+    },
+    "2": {
+      "risk_description": "",
+      "normal_video_description": "视频显示一个人走进房间，拿起一块黑色布料或衣物，然后躺在地板上的白色垫子上。其他人进入房间并观察。该环境看起来是实验室或办公室空间，配有桌子、椅子和设备。动作是刻意且受控的，没有危险或不稳定的迹象。",
+      "solution_for_person": "",
+      "solution_for_hazard_source": "",
+      "solution_to_prevent_recurrence": ""
+    },
+    "3": {
+      "risk_description": "这个人倒在垫子上，这对行动受限或平衡有问题的人可能值得关注。",
+      "normal_video_description": "",
+      "solution_for_person": "确保此人在进行体育活动时受到监督，以防止跌倒。",
+      "solution_for_hazard_source": "在体育活动期间如有需要，提供额外的支撑或稳定辅助设备。",
+      "solution_to_prevent_recurrence": "在受控环境中进行练习并配备适当的监督。"
+    },
+    "4": {
+      "risk_description": "这个人正在玩一种在地板上滑动的游戏，这可能导致跌倒和潜在伤害。",
+      "normal_video_description": "",
+      "solution_for_person": "确保对玩游戏的人提供适当的监督和指导，以防止跌倒和受伤。",
+      "solution_for_hazard_source": "",
+      "solution_to_prevent_recurrence": "提供安全玩耍技巧的培训，并确保活动区域没有可能导致绊倒或跌倒的障碍物。"
+    }
+  }
+}

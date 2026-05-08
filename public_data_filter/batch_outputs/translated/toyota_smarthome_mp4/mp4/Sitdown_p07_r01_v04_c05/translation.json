@@ -1,0 +1,40 @@
+{
+  "video_key": "toyota_smarthome_mp4/mp4/Sitdown_p07_r01_v04_c05",
+  "translations": {
+    "0": {
+      "risk_description": "年轻人弯腰去捡地上的东西，如果失去平衡，可能会导致跌倒或失衡。",
+      "normal_video_description": "",
+      "solution_for_person": "应提醒该人在弯腰捡地上的物品时要小心，如有必要应使用凳子或椅子以防止跌倒。",
+      "solution_for_hazard_source": "危险源是客厅缺乏适当的照明，这可能导致跌倒或失衡。",
+      "solution_to_prevent_recurrence": "应改善环境，添加适当的照明并确保地面没有绊倒危险。还应提醒该人在弯腰捡地上的物品时要小心。"
+    },
+    "1": {
+      "risk_description": "",
+      "normal_video_description": "一个人在客厅里站在沙发旁边，然后坐到沙发上。房间光线充足，摆放着典型的客厅家具和装饰。",
+      "solution_for_person": "",
+      "solution_for_hazard_source": "",
+      "solution_to_prevent_recurrence": ""
+    },
+    "2": {
+      "risk_description": "",
+      "normal_video_description": "在客厅里看到一位年轻人从站立姿势移动到坐绿色沙发上。环境整洁，能看到电视、植物和家具，个人的动作平静、受控，没有危险或失衡的迹象。",
+      "solution_for_person": "",
+      "solution_for_hazard_source": "",
+      "solution_to_prevent_recurrence": ""
+    },
+    "3": {
+      "risk_description": "孩子正在爬沙发，由于家具的高度和不稳固，存在跌倒风险。",
+      "normal_video_description": "",
+      "solution_for_person": "确保孩子得到密切看护，阻止其爬家具以防止跌倒。",
+      "solution_for_hazard_source": "用防滑垫固定沙发，或考虑使用儿童防护家具套。",
+      "solution_to_prevent_recurrence": "在沙发周围安装安全门或障碍物，防止无人看管时接近。"
+    },
+    "4": {
+      "risk_description": "此人由于姿势和家具的高度，有从沙发上跌倒的风险。这可能导致严重伤害。",
+      "normal_video_description": "",
+      "solution_for_person": "确保此人坐在地上或站在地上，而不是坐在沙发上，以避免跌倒风险。",
+      "solution_for_hazard_source": "",
+      "solution_to_prevent_recurrence": "为该人提供支撑或帮助，以帮助他们安全地从沙发上起身。"
+    }
+  }
+}

@@ -1,0 +1,40 @@
+{
+  "video_key": "web_h264/tiktok__7189711217840213290",
+  "translations": {
+    "0": {
+      "risk_description": "可以看到这个人摔倒并落在地上，如果没有适当的支撑或附近有坚硬表面，可能会导致受伤。",
+      "normal_video_description": "",
+      "solution_for_person": "确保检查此人的受伤情况，并提供支撑以防止再次摔倒。",
+      "solution_for_hazard_source": "检查院子里是否有任何可能导致摔倒的潜在危险，如不平的表面或障碍物。",
+      "solution_to_prevent_recurrence": "在院子里安装安全措施，如扶手或垫子，以降低摔倒风险。教导此人正确的步行技巧以及注意周围环境的重要性。"
+    },
+    "1": {
+      "risk_description": "",
+      "normal_video_description": "一个人在人行道上行走，绊倒后摔倒在地，然后坐起来。",
+      "solution_for_person": "",
+      "solution_for_hazard_source": "",
+      "solution_to_prevent_recurrence": ""
+    },
+    "2": {
+      "risk_description": "一个在人行道上行走的人失去平衡摔倒在地，这表明一个明显的失衡事件，超过了正常的日常活动。",
+      "normal_video_description": "",
+      "solution_for_person": "此人应立即检查伤势，并小心地站起来以避免进一步伤害。",
+      "solution_for_hazard_source": "检查人行道是否有不平的表面、碎片或其他可能导致摔倒的障碍物。",
+      "solution_to_prevent_recurrence": "改善人行道的状况，确保其没有危险以防止未来摔倒。"
+    },
+    "3": {
+      "risk_description": "这个人摔倒并落在地上，这可能会造成伤害风险，特别是对于行动受限或平衡有问题的人。",
+      "normal_video_description": "",
+      "solution_for_person": "此人应确保有稳定的行走表面，并考虑在需要时使用辅助设备。",
+      "solution_for_hazard_source": "应清除该区域的任何障碍物以防止绊倒。",
+      "solution_to_prevent_recurrence": "在院子里安装额外的照明或防滑表面以降低摔倒风险。"
+    },
+    "4": {
+      "risk_description": "此人正在狭窄的道路上行走并失去平衡，这可能导致摔倒并可能造成严重伤害。风险在整个视频中存在，因为可以看到此人在行走然后摔倒。",
+      "normal_video_description": "视频显示一个人在狭窄的道路上行走，然后失去平衡，这可能导致摔倒。",
+      "solution_for_person": "确保此人穿着具有良好抓地力的合适鞋子，并在狭窄道路上行走时考虑使用扶手或帮助。",
+      "solution_for_hazard_source": "",
+      "solution_to_prevent_recurrence": "鼓励此人在狭窄道路上更小心地行走，并在需要时考虑提供支持或指导。"
+    }
+  }
+}

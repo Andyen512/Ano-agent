@@ -1,0 +1,40 @@
+{
+  "video_key": "web_h264/youtube__fxLZ-Q__vAU",
+  "translations": {
+    "0": {
+      "risk_description": "可以看到这位年轻人站在一张不稳定的桌子上，似乎正在失去平衡。这种行为有很高的跌倒风险，可能导致受伤。",
+      "normal_video_description": "",
+      "solution_for_person": "应建议该人站在稳固的地面上，避免站在家具或其他不稳定的表面上。",
+      "solution_for_hazard_source": "应将桌子从阳台移除，以防止再次发生事故。",
+      "solution_to_prevent_recurrence": "应向该人普及保持平衡和避免危险行为的重要性，以防止未来事故。"
+    },
+    "1": {
+      "risk_description": "该人与桌上的盆栽互动后似乎失去平衡摔倒在地，可能导致受伤。",
+      "normal_video_description": "视频显示一个带有桌子和植物的室外露台区。一个人进入，走向一张桌子，触碰一盆盆栽，随后跌倒在地。",
+      "solution_for_person": "在处理高处物体时该人应小心，以避免突然失去平衡。",
+      "solution_for_hazard_source": "确保桌上的物品稳固，不易移动或倾倒。",
+      "solution_to_prevent_recurrence": "该人应在与桌上的物品互动前检查其稳定性。"
+    },
+    "2": {
+      "risk_description": "阳台上的人被蛇惊吓后失去平衡，向后跌出边缘。对意外出现的动物的突然反应导致明显的身体不稳并跌倒。",
+      "normal_video_description": "",
+      "solution_for_person": "该人应立即就医检查跌倒情况，并建议今后在接触野生动物时保持谨慎。",
+      "solution_for_hazard_source": "应由专业人员安全移除该区域的蛇，以防止再次遭遇。",
+      "solution_to_prevent_recurrence": "安装物理屏障或围栏，防止野生动物进入阳台区域。"
+    },
+    "3": {
+      "risk_description": "可以看到该人从桌子上跳下，这可能带来受伤风险，特别是对于身体控制或平衡能力较弱的老年人。",
+      "normal_video_description": "",
+      "solution_for_person": "确保该人了解风险，必要时考虑使用稳定辅助器具。",
+      "solution_for_hazard_source": "固定家具以防止倾倒或掉落。",
+      "solution_to_prevent_recurrence": "安装安全扶手，确保该区域没有可能导致跌倒的危险因素。"
+    },
+    "4": {
+      "risk_description": "该人站在窄边上，一旦失去平衡可能导致跌倒。这是高处坠落的潜在风险。",
+      "normal_video_description": "",
+      "solution_for_person": "确保该人穿有良好抓地力的合适鞋子，如果窄边足够高，存在显著跌倒风险，应考虑使用安全带。",
+      "solution_for_hazard_source": "在窄边处安装扶手或防护栏，以防止跌倒。",
+      "solution_to_prevent_recurrence": "定期检查阳台的结构问题，发现可能导致不稳的因素应及时处理。"
+    }
+  }
+}

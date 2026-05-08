@@ -1,0 +1,40 @@
+{
+  "video_key": "SmartHome-Bench/videos/smartbench_1002",
+  "translations": {
+    "0": {
+      "risk_description": "看到老人正费力地从地板上站起，这可能导致跌倒并造成潜在伤害。",
+      "normal_video_description": "",
+      "solution_for_person": "护理人员应帮助老人安全站起，并确保他们获得适当的支撑，以防止再次跌倒。",
+      "solution_for_hazard_source": "客厅地板可能存在绊倒危险，如电线或杂物，应清除以降低跌倒风险。",
+      "solution_to_prevent_recurrence": "定期检查客厅是否存在潜在危险，确保该区域光线充足且无绊倒危险。必要时鼓励老人使用辅助器具，如拐杖或助行器。"
+    },
+    "1": {
+      "risk_description": "老人弯腰从地板上捡东西，这可能导致跌倒或失去平衡，尤其是考虑到他们的年龄和姿势。",
+      "normal_video_description": "一位老人进入客厅，弯腰从地板上捡东西，其他人在旁观察。",
+      "solution_for_person": "老人在从地板上捡东西时应有人监督或帮助，以防跌倒。",
+      "solution_for_hazard_source": "确保常用物品放在伸手可及的高度，以减少弯腰的需要。",
+      "solution_to_prevent_recurrence": "在沙发附近安装扶手杆，并确保客厅照明良好，以帮助保持稳定。"
+    },
+    "2": {
+      "risk_description": "一位老人提着袋子失去平衡，在客厅摔倒在地板上，需要他人帮助站起。这表明明显的身体不稳和跌倒风险。",
+      "normal_video_description": "",
+      "solution_for_person": "应立即帮助该人站起并提供支撑，以防止二次跌倒。",
+      "solution_for_hazard_source": "确保地板没有障碍物，并为该人提供更好的照明或支撑。",
+      "solution_to_prevent_recurrence": "实施跌倒预防策略，如使用辅助器具、改善家居安全以及监测行动能力。"
+    },
+    "3": {
+      "risk_description": "看到老人跌倒并挣扎站起，可能导致受伤。附近有其他人也未必能及时提供帮助，从而增加受伤风险。",
+      "normal_video_description": "",
+      "solution_for_person": "确保老人得到支撑和帮助，安全站起，以防止再次跌倒。",
+      "solution_for_hazard_source": "清除客厅中的任何障碍物或绊倒危险，以降低跌倒风险。",
+      "solution_to_prevent_recurrence": "在客厅安装扶手杆或稳定辅助设施，并确保通道畅通，以防止未来事故。"
+    },
+    "4": {
+      "risk_description": "看到老人拄着拐杖行走，这可能增加跌倒和受伤的风险。",
+      "normal_video_description": "",
+      "solution_for_person": "确保老人在行走时得到适当的支撑和帮助，以降低跌倒风险。",
+      "solution_for_hazard_source": "清除老人行走路线上的任何绊倒危险或障碍物。",
+      "solution_to_prevent_recurrence": "鼓励在需要时使用助行器或其他行动辅助工具，并定期进行检查以评估是否需要额外的支撑。"
+    }
+  }
+}

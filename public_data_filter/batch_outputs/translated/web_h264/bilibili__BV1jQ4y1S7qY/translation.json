@@ -1,0 +1,40 @@
+{
+  "video_key": "web_h264/bilibili__BV1jQ4y1S7qY",
+  "translations": {
+    "0": {
+      "risk_description": "孩子正在客厅里玩球，客厅里有一张铺着毯子的床和一张上面放着物品的小桌子。孩子四处奔跑玩耍，可能导致摔倒或失去平衡。",
+      "normal_video_description": "",
+      "solution_for_person": "建议成年人在孩子玩耍时进行监督，以确保孩子的安全。",
+      "solution_for_hazard_source": "客厅应使用软垫或坐垫进行儿童防护，以防止跌倒。",
+      "solution_to_prevent_recurrence": "应教导孩子安全玩耍，并鼓励他们在设有适当安全措施的指定游戏区域玩耍。"
+    },
+    "1": {
+      "risk_description": "孩子正试图用塑料袋和报纸扑灭房间里的火灾，这是一种不恰当且不安全的方法。",
+      "normal_video_description": "两个孩子在一个凌乱的客厅里，床附近有火在燃烧。一个孩子正试图用家居用品灭火。",
+      "solution_for_person": "应监督孩子，并指示其立即撤离现场并拨打紧急服务电话。",
+      "solution_for_hazard_source": "应使用灭火器或联系紧急服务来正确扑灭火灾。",
+      "solution_to_prevent_recurrence": "在家中安装烟雾探测器和灭火器，并对孩子进行消防安全和应急程序的教育。"
+    },
+    "2": {
+      "risk_description": "房间内发生火灾，孩子正试图使用塑料桶和卫生纸等易燃材料进行灭火，这极大增加了危险，可能导致火势扩大或受伤。",
+      "normal_video_description": "",
+      "solution_for_person": "孩子应立即停止使用易燃材料，撤离到安全地点，然后呼叫成人帮助或消防部门。",
+      "solution_for_hazard_source": "火灾源应由经过培训的成年人使用适当的灭火设备扑灭，并对该区域进行通风和检查，以防进一步危险。",
+      "solution_to_prevent_recurrence": "父母应向孩子提供适当的消防安全教育，确保易燃材料安全存放，并在家里安装烟雾探测器和灭火器。"
+    },
+    "3": {
+      "risk_description": "视频显示孩子们使用易燃材料灭火，这大大增加了火势蔓延或造成伤害的风险。",
+      "normal_video_description": "",
+      "solution_for_person": "确保对儿童进行密切监督并进行消防安全教育，以防止他们使用不安全的方法灭火。",
+      "solution_for_hazard_source": "将易燃材料从火灾附近移除，并确保灭火器易于取用。",
+      "solution_to_prevent_recurrence": "对孩子们进行正确的消防安全措施教育，并确保家庭环境没有潜在的火灾隐患。"
+    },
+    "4": {
+      "risk_description": "视频显示一个人在卧室里有未被看管的火灾，如果不及时处理，可能导致严重烧伤甚至死亡。",
+      "normal_video_description": "",
+      "solution_for_person": "立即将此人从房间撤离并拨打紧急服务电话。",
+      "solution_for_hazard_source": "使用灭火器或其他适当手段扑灭火灾。",
+      "solution_to_prevent_recurrence": "确保所有电器在不使用时关闭，并将易燃材料远离热源。"
+    }
+  }
+}

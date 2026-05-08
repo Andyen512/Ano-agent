@@ -1,0 +1,40 @@
+{
+  "video_key": "SmartHome-Bench/videos/smartbench_0448",
+  "translations": {
+    "0": {
+      "risk_description": "",
+      "normal_video_description": "视频显示一个人在阳台上走上楼梯，手里拿着一个黑色物品。该人看起来身体健康，步伐正常。阳台上装饰有植物和灯串，周围散落着各种物品，如蓝色容器和红色物体。随后该人走出画面，视频结束。",
+      "solution_for_person": "",
+      "solution_for_hazard_source": "",
+      "solution_to_prevent_recurrence": ""
+    },
+    "1": {
+      "risk_description": "该人撑伞下楼梯，这可能会遮挡视线并影响平衡，增加绊倒或跌倒的风险。",
+      "normal_video_description": "一位老年人在户外楼梯上撑伞下行。",
+      "solution_for_person": "该人在下楼梯前应取下雨伞，以提高可视性和稳定性。",
+      "solution_for_hazard_source": "",
+      "solution_to_prevent_recurrence": "在楼梯上安装扶手，以提供额外支撑。"
+    },
+    "2": {
+      "risk_description": "一个人携带一根长的深色物体（形似步枪或大型工具）走上楼梯并进入阳台。该物体的持握方式暗示它可能是武器或危险工具，对安全构成潜在威胁。",
+      "normal_video_description": "",
+      "solution_for_person": "如果该物体不是合法的工具或武器，该人应立即妥善收好并离开现场。",
+      "solution_for_hazard_source": "应将该物体从该区域移除，以防止任何潜在伤害。",
+      "solution_to_prevent_recurrence": "实施安全措施，监控并控制对该物业的进入。"
+    },
+    "3": {
+      "risk_description": "老年人在栏杆附近使用吹叶机，这可能导致失控，对栏杆或自身造成伤害或损坏。",
+      "normal_video_description": "",
+      "solution_for_person": "确保老年人在使用吹叶机时佩戴防护装备，并与栏杆保持安全距离。",
+      "solution_for_hazard_source": "用绑带固定吹叶机，以防止意外抛出或造成伤害。",
+      "solution_to_prevent_recurrence": "将尖锐物品和工具放在栏杆够不到的地方，以防止意外接触或掉落。"
+    },
+    "4": {
+      "risk_description": "由于阳台门不稳定且环境杂乱，人员有从阳台坠落的风险，可能导致严重伤害。",
+      "normal_video_description": "",
+      "solution_for_person": "在离开阳台区域前，确保门已牢固关闭且保持稳固。",
+      "solution_for_hazard_source": "清除任何可能导致阳台不稳的杂物或物体。",
+      "solution_to_prevent_recurrence": "定期检查并维护阳台门及周边区域，以确保安全。"
+    }
+  }
+}

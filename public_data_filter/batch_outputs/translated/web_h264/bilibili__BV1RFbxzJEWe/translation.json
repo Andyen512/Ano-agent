@@ -1,0 +1,40 @@
+{
+  "video_key": "web_h264/bilibili__BV1RFbxzJEWe",
+  "translations": {
+    "0": {
+      "risk_description": "年轻人正在使用一把不稳定设计的游戏椅，这增加了跌倒和潜在受伤的风险。",
+      "normal_video_description": "",
+      "solution_for_person": "确保游戏椅放置在稳定的表面上，并考虑使用稳定性更好的椅子。",
+      "solution_for_hazard_source": "没有针对椅子的具体解决方案，但确保环境没有绊倒危险。",
+      "solution_to_prevent_recurrence": "定期检查椅子的稳定性，调整游戏设置以最大程度降低跌倒风险。"
+    },
+    "1": {
+      "risk_description": "吹风机冒火花并着火，造成烧伤和火灾蔓延的风险。",
+      "normal_video_description": "一名女子在美容院吹头发时，吹风机突然冒火花并着火。",
+      "solution_for_person": "立即停止使用吹风机并远离火源。",
+      "solution_for_hazard_source": "拔掉吹风机的电源插头。",
+      "solution_to_prevent_recurrence": "定期检查电气设备的损坏情况，并确保适当的维护。"
+    },
+    "2": {
+      "risk_description": "吹风机在使用时突然着火并爆炸，产生火花和火焰，构成即时火灾危险。",
+      "normal_video_description": "",
+      "solution_for_person": "立即停止使用设备，远离火源，并在安全的情况下使用灭火器或水来扑灭火焰。",
+      "solution_for_hazard_source": "更换故障的吹风机，并在使用前检查所有电气设备是否损坏。",
+      "solution_to_prevent_recurrence": "定期检查电线磨损情况，避免使用损坏的设备，不使用时拔掉电器插头。"
+    },
+    "3": {
+      "risk_description": "视频显示吹风机着火，造成严重的烧伤或火灾蔓延风险，特别是对于可能无法快速反应灭火的人。",
+      "normal_video_description": "",
+      "solution_for_person": "确保吹风机在存放前完全冷却，并远离易燃材料。",
+      "solution_for_hazard_source": "在通风良好的地方使用吹风机，使用后立即拔掉插头。",
+      "solution_to_prevent_recurrence": "每次使用前定期检查吹风机及其电线是否损坏。"
+    },
+    "4": {
+      "risk_description": "老年人坐在客厅的椅子上，由于椅子不稳定或人的平衡问题，存在跌倒的风险。",
+      "normal_video_description": "",
+      "solution_for_person": "确保椅子稳定，必要时提供支撑。",
+      "solution_for_hazard_source": "",
+      "solution_to_prevent_recurrence": "定期检查和维护家具以确保稳定性。"
+    }
+  }
+}

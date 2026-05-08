@@ -1,0 +1,40 @@
+{
+  "video_key": "SmartHome-Bench/videos/smartbench_0933",
+  "translations": {
+    "0": {
+      "risk_description": "这位年轻人正在走廊里奔跑，突然绊倒并摔倒，可能导致受伤。",
+      "normal_video_description": "",
+      "solution_for_person": "应帮助此人站起来并检查是否有受伤。",
+      "solution_for_hazard_source": "应检查走廊是否存在绊倒危险，例如松动的地毯或不平整的地板。",
+      "solution_to_prevent_recurrence": "此人在走廊奔跑时应更加小心，以避免绊倒危险。"
+    },
+    "1": {
+      "risk_description": "可以看到此人在走廊里跑动并蹲下，这可能导致跌倒或失去平衡，可能造成伤害。",
+      "normal_video_description": "一个人在光线充足的走廊里行走，然后跑动并蹲下，站起来后向镜头靠近。",
+      "solution_for_person": "此人应避免在走廊里跑动和蹲下，以防摔倒。",
+      "solution_for_hazard_source": "",
+      "solution_to_prevent_recurrence": "在走廊安装扶手或防滑地板，以降低跌倒风险。"
+    },
+    "2": {
+      "risk_description": "受试者在走廊奔跑时失去平衡并摔倒在地，这表明一个明显超出正常活动的失衡事件。",
+      "normal_video_description": "",
+      "solution_for_person": "此人应立即停止奔跑，恢复平衡，并在继续前进前检查是否受伤。",
+      "solution_for_hazard_source": "确保走廊无障碍物，地面防滑，以防止类似事故。",
+      "solution_to_prevent_recurrence": "鼓励在走廊中安全行动，避免在狭窄空间奔跑，以降低跌倒风险。"
+    },
+    "3": {
+      "risk_description": "此人似乎绊倒并摔倒，这对行动不便或平衡问题的人尤其令人担忧。",
+      "normal_video_description": "",
+      "solution_for_person": "确保此人注意周围环境，必要时考虑使用辅助设备。",
+      "solution_for_hazard_source": "改善照明并清除走廊中的绊倒危险物。",
+      "solution_to_prevent_recurrence": "沿走廊安装扶手，确保通道畅通。"
+    },
+    "4": {
+      "risk_description": "此人在走廊行走时突然失去平衡，可能导致摔倒并受伤。由于存在跌倒的可能性，尤其在不注意周围环境的情况下，风险是存在的。",
+      "normal_video_description": "",
+      "solution_for_person": "确保此人小心行走并注意周围环境，以避免绊倒或失去平衡。",
+      "solution_for_hazard_source": "",
+      "solution_to_prevent_recurrence": "鼓励此人缓慢而谨慎地行走，特别是在可能有危险（如湿滑地面或不平表面）的区域。"
+    }
+  }
+}

@@ -1,0 +1,40 @@
+{
+  "video_key": "labimag/dataset/chute03/cam7",
+  "translations": {
+    "0": {
+      "risk_description": "这位年轻人正躺在一个不稳定的大白色物体上，存在跌落并受伤的风险。",
+      "normal_video_description": "这位年轻人走向那个大白色物体，然后躺在上面。",
+      "solution_for_person": "应将此人移至更安全的地点，并提供支撑以防止跌倒。",
+      "solution_for_hazard_source": "应将该物体移出房间，以防止进一步的意外。",
+      "solution_to_prevent_recurrence": "在使用不稳定的物体时，应对此人进行监督并提供支撑。"
+    },
+    "1": {
+      "risk_description": "",
+      "normal_video_description": "一个人在一间墙壁上配有桌椅和图表的房间里躺在一个软垫物体上。另一个人在房间里走动。",
+      "solution_for_person": "",
+      "solution_for_hazard_source": "",
+      "solution_to_prevent_recurrence": ""
+    },
+    "2": {
+      "risk_description": "",
+      "normal_video_description": "一位年轻人走进房间，走向地板上的床垫并躺下。环境看似是书房或办公室，背景中有桌子和设备。该行为表现得平静且受控，没有表现出不稳定或危险的迹象。",
+      "solution_for_person": "",
+      "solution_for_hazard_source": "",
+      "solution_to_prevent_recurrence": ""
+    },
+    "3": {
+      "risk_description": "这位年轻人躺在一个用胶带固定的软垫表面，如果表面不稳定或胶带松开，可能导致跌倒的风险。",
+      "normal_video_description": "",
+      "solution_for_person": "在躺下之前，确保软垫表面稳固安全。",
+      "solution_for_hazard_source": "检查并加固固定胶带，防止其松动。",
+      "solution_to_prevent_recurrence": "定期检查固定胶带，确保表面保持稳固。"
+    },
+    "4": {
+      "risk_description": "此人正躺在办公室地板中央的床垫上，如果滚落或有人绊倒，可能导致跌倒。由于硬质地板表面以及可能突发的动作，这种情境存在受伤风险。",
+      "normal_video_description": "",
+      "solution_for_person": "确保床垫在地板上稳固放置，以防滚动或移动，并考虑在下方使用防护垫以缓冲可能的跌倒。",
+      "solution_for_hazard_source": "清除床垫周围的绊倒危险物，如电线或散落物品，以降低意外跌倒的风险。",
+      "solution_to_prevent_recurrence": "定期检查该区域是否存在地板或周围物体的变化，这些变化可能导致不稳定或绊倒危险。"
+    }
+  }
+}

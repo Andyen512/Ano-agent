@@ -1,0 +1,40 @@
+{
+  "video_key": "web_h264/bilibili__BV1JB4y1G7cN",
+  "translations": {
+    "0": {
+      "risk_description": "孩子在玩玩具时意外跌倒，可能导致受伤。",
+      "normal_video_description": "",
+      "solution_for_person": "确保孩子有人监督并提供适龄玩具，以防止意外。",
+      "solution_for_hazard_source": "把客厅里任何可能的危险物品，如尖锐物体或容易被误放的小物件清除掉。",
+      "solution_to_prevent_recurrence": "建立定期监督的常规，并确保居住空间已做儿童防护，以降低跌倒和受伤的风险。"
+    },
+    "1": {
+      "risk_description": "看到孩子嘴里含着筷子跌倒在地，这既有可能因跌倒受伤，也有可能因筷子造成窒息风险。",
+      "normal_video_description": "视频显示，在客厅里，孩子嘴里含着筷子跌倒在地。",
+      "solution_for_person": "确保孩子有人监督，并教会他们安全的饮食习惯，以防止窒息和跌倒。",
+      "solution_for_hazard_source": "",
+      "solution_to_prevent_recurrence": "教育孩子走路或玩耍时吃饭的危险，并确保他们在进餐时坐好。"
+    },
+    "2": {
+      "risk_description": "孩子一边端着碗，一边嘴里嚼着筷子行走，导致突然失去平衡而跌倒。这种行为结合了多种不稳定因素（持物、咀嚼），直接导致了事故。",
+      "normal_video_description": "",
+      "solution_for_person": "应立即阻止孩子在进食或持物时行走，护理人员应密切监督。",
+      "solution_for_hazard_source": "清除或固定可能在行走时被抓住的物品，并确保环境没有绊倒危险。",
+      "solution_to_prevent_recurrence": "教育孩子安全的饮食习惯以及持物或咀嚼餐具时行走的危险。"
+    },
+    "3": {
+      "risk_description": "孩子把筷子含在嘴里，存在窒息风险。如果孩子窒息或吞下筷子，可能导致严重伤害甚至死亡。",
+      "normal_video_description": "",
+      "solution_for_person": "确保孩子不把尖锐物体放入口中，并在进餐时密切监督。",
+      "solution_for_hazard_source": "将筷子等尖锐物品放在儿童够不到的地方，或使用儿童安全的餐具。",
+      "solution_to_prevent_recurrence": "教育孩子把东西放入口中的危险，并确保在进餐时持续监督。"
+    },
+    "4": {
+      "risk_description": "孩子在地板上玩玩具，可能会导致跌倒或绊倒。房间里还散落着各种物品，如果孩子爬上去可能会导致失衡。",
+      "normal_video_description": "视频显示，孩子在客厅里玩耍，周围散落着各种物品。",
+      "solution_for_person": "确保孩子在玩耍时有人监督，并提供安全玩耍区域的指导。把房间里任何潜在的危害清除掉。",
+      "solution_for_hazard_source": "",
+      "solution_to_prevent_recurrence": "定期清理房间，并把玩具放在指定区域存放，以减少杂乱和潜在危险。"
+    }
+  }
+}

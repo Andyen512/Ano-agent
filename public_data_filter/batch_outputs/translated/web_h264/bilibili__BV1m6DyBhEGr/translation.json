@@ -1,0 +1,40 @@
+{
+  "video_key": "web_h264/bilibili__BV1m6DyBhEGr",
+  "translations": {
+    "0": {
+      "risk_description": "可以看到一位年轻人在杂乱的厨房环境中跌倒并努力站起来。由于可能跌倒以及周围各种物品的存在，若该人在跌倒时撞到这些物品，可能造成伤害，因此这种情况存在受伤风险。",
+      "normal_video_description": "",
+      "solution_for_person": "确保厨房地面没有任何障碍物和滑溜物质。为这位年轻人提供支撑，帮助他们恢复平衡和稳定。",
+      "solution_for_hazard_source": "整理厨房空间，减少杂乱，确保所有物品安全稳妥地存放。",
+      "solution_to_prevent_recurrence": "定期检查厨房地面是否存在危险，并保持清洁整洁的环境，以减少跌倒风险。对这位年轻人进行厨房中保持平衡和稳定的正确技巧培训。"
+    },
+    "1": {
+      "risk_description": "老年人躺在杂乱的厨房地面上，努力想要站起，这会导致长时间无法移动并有潜在受伤风险。",
+      "normal_video_description": "可以看到一位老年人躺在杂物堆积的厨房地板上，尝试站起来，四周被各种家居用品包围。",
+      "solution_for_person": "确保老年人能够立即获得帮助或有人监护，以防止其长时间躺在地上。",
+      "solution_for_hazard_source": "清除杂物并确保厨房通道畅通，以降低绊倒危险。",
+      "solution_to_prevent_recurrence": "在厨房安装扶手杆和防滑垫，并定期检查老年人的活动能力和居住条件。"
+    },
+    "2": {
+      "risk_description": "可以看到老年人躺在地板上并艰难移动，表明发生了跌倒或失去平衡。站不起来且动作缓慢表明存在需要立即处理的重大身体风险。",
+      "normal_video_description": "",
+      "solution_for_person": "应立即提供帮助，使老年人站起并确保其安全。必要时应寻求医疗帮助。",
+      "solution_for_hazard_source": "确保居住区域没有障碍物，并提供充足的照明，以防止将来跌倒。",
+      "solution_to_prevent_recurrence": "在老年人经常活动的区域安装扶手杆或扶手。考虑使用助行器如拐杖或助行架以获得更好的稳定性。"
+    },
+    "3": {
+      "risk_description": "可以看到老年人跌倒并努力站起，由于其活动能力受限且从跌倒中恢复可能困难，存在受伤风险。",
+      "normal_video_description": "",
+      "solution_for_person": "确保老年人在跌倒后附近有支撑或帮助，以帮助他们安全站起。",
+      "solution_for_hazard_source": "清除厨房中的任何障碍物或绊倒危险，防止将来跌倒。",
+      "solution_to_prevent_recurrence": "在厨房安装扶手杆或防滑垫，提供额外的稳定性与支撑。"
+    },
+    "4": {
+      "risk_description": "由于椅子位置不稳，孩子有从椅子上跌落的危险。这可能导致严重伤害。",
+      "normal_video_description": "",
+      "solution_for_person": "在无人看管之前，确保孩子坐得安稳且椅子稳固。",
+      "solution_for_hazard_source": "清除可能导致孩子从椅子上跌落的任何潜在危险或障碍物。",
+      "solution_to_prevent_recurrence": "定期检查和维护家具，确保其稳固和安全。"
+    }
+  }
+}

@@ -1,0 +1,40 @@
+{
+  "video_key": "web_h264/bilibili__BV1Ke411Q7ji",
+  "translations": {
+    "0": {
+      "risk_description": "视频显示一名儿童在教室内被同学欺负，这是一种人际冲突形式。",
+      "normal_video_description": "",
+      "solution_for_person": "应该为该儿童提供情感支持，并鼓励其向可信任的成人报告欺凌行为。",
+      "solution_for_hazard_source": "学校应该通过实施反欺凌政策和对教师与学生进行培训来解决欺凌问题。",
+      "solution_to_prevent_recurrence": "学校应该定期监测情况，并采取适当行动防止进一步的欺凌事件发生。"
+    },
+    "1": {
+      "risk_description": "一名年轻男子从高楼梯跳下，头部着地无法起身，地上有明显的血迹。",
+      "normal_video_description": "一名年轻男子从高楼梯跳下，头部着地无法起身，地上有明显的血迹。",
+      "solution_for_person": "",
+      "solution_for_hazard_source": "",
+      "solution_to_prevent_recurrence": ""
+    },
+    "2": {
+      "risk_description": "一名学生从高楼梯跳下并摔倒，导致严重伤害且无法站立。这种行为明显超出了正常嬉戏范畴，对身体构成直接严重的伤害。",
+      "normal_video_description": "",
+      "solution_for_person": "应立即寻求医疗救助，在没有专业人员指导的情况下不要试图移动伤者。",
+      "solution_for_hazard_source": "在楼梯上安装安全屏障或栏杆，以防止未经授权的进入和跌落。",
+      "solution_to_prevent_recurrence": "对学生进行关于高处跳跃危险的教育，并严格执行禁止此类行为的规定。"
+    },
+    "3": {
+      "risk_description": "视频中可见一名儿童从多段楼梯跳下，由于潜在的跌落和头部创伤风险，这会造成重大伤害隐患。",
+      "normal_video_description": "",
+      "solution_for_person": "家长和教师应密切监督儿童，防止他们进行跳楼梯等危险行为。",
+      "solution_for_hazard_source": "在楼梯上安装安全栏杆和防坠落措施，以防止儿童跳跃。",
+      "solution_to_prevent_recurrence": "教育儿童了解从楼梯跳下的危险，并在游戏时间严格执行监督。"
+    },
+    "4": {
+      "risk_description": "",
+      "normal_video_description": "视频显示一个教室场景，学生们进行各种活动，如阅读、写作和听老师讲课。",
+      "solution_for_person": "",
+      "solution_for_hazard_source": "",
+      "solution_to_prevent_recurrence": ""
+    }
+  }
+}

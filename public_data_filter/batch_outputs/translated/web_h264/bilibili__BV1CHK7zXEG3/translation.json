@@ -1,0 +1,40 @@
+{
+  "video_key": "web_h264/bilibili__BV1CHK7zXEG3",
+  "translations": {
+    "0": {
+      "risk_description": "看到这位老年人正在努力保持平衡在房间里走动，这可能导致跌倒和潜在伤害。",
+      "normal_video_description": "",
+      "solution_for_person": "确保老年人在房间里走动时有适当的支撑和帮助以防止跌倒。",
+      "solution_for_hazard_source": "清除任何绊倒危险物，确保地面没有杂物。",
+      "solution_to_prevent_recurrence": "在房间里安装扶手或抓杆，为老年人提供额外的支撑。"
+    },
+    "1": {
+      "risk_description": "这位老年人正在努力从地板上站起来，这存在跌倒和潜在伤害的风险。",
+      "normal_video_description": "看到一位老年人正在一个杂乱的卧室里试图从地板上站起来。",
+      "solution_for_person": "确保老年人在从地板上站起来时有帮助或适当的支撑。",
+      "solution_for_hazard_source": "清除或固定地板上的任何绊倒危险物。",
+      "solution_to_prevent_recurrence": "在床边安装抓杆，确保地面没有障碍物。"
+    },
+    "2": {
+      "risk_description": "这位老年人在杂乱的房间里失去平衡跌倒在地板上，努力想要站起来，这表明由于不稳定和环境危险，存在明显的受伤风险。",
+      "normal_video_description": "",
+      "solution_for_person": "这人应该立即呼救或使用行动辅助工具安全地站起来，并且应该有护理人员在场协助。",
+      "solution_for_hazard_source": "清除地面的杂物，移除像桶和电缆这样的绊倒危险物，并确保充足的光线。",
+      "solution_to_prevent_recurrence": "在床边安装抓杆，使用防滑垫，并考虑为紧急情况配备医疗警报系统。"
+    },
+    "3": {
+      "risk_description": "这位老年人正坐在地上尝试清洁地板，由于不稳定存在跌倒风险。",
+      "normal_video_description": "",
+      "solution_for_person": "确保这位老年人坐在稳固的表面上，并使用拖把或扫帚站着清洁以避免跌倒。",
+      "solution_for_hazard_source": "清除地面上的任何障碍物或绊倒危险物，以创造更安全的环境。",
+      "solution_to_prevent_recurrence": "为这位老年人提供稳定的椅子或凳子用于清洁，并确保地面没有任何可能导致绊倒的物品。"
+    },
+    "4": {
+      "risk_description": "",
+      "normal_video_description": "视频显示一个杂乱的厨房，各种物品散落各处，包括炉子、冰箱和其他电器。可以看到一个人在厨房里走动，但场景中没有明显的风险或危险。",
+      "solution_for_person": "",
+      "solution_for_hazard_source": "",
+      "solution_to_prevent_recurrence": ""
+    }
+  }
+}

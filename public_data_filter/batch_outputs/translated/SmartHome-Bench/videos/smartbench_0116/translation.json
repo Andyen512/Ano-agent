@@ -1,0 +1,40 @@
+{
+  "video_key": "SmartHome-Bench/videos/smartbench_0116",
+  "translations": {
+    "0": {
+      "risk_description": "",
+      "normal_video_description": "在夜间，有人看到一只熊在院子里四处走动，嗅探水桶和猫等物品。它显得很好奇，并没有造成任何伤害。",
+      "solution_for_person": "",
+      "solution_for_hazard_source": "",
+      "solution_to_prevent_recurrence": ""
+    },
+    "1": {
+      "risk_description": "熊靠近各种家居用品和一只猫，若熊受惊或变得具有攻击性，可能会导致碰撞或挤压伤害。",
+      "normal_video_description": "在夜间，一只熊出现在院子里，靠近各种物体和一只猫，旁边停着一辆车。",
+      "solution_for_person": "",
+      "solution_for_hazard_source": "",
+      "solution_to_prevent_recurrence": ""
+    },
+    "2": {
+      "risk_description": "",
+      "normal_video_description": "一只黑熊在夜间穿过院子，靠近混凝土露台区域，那里有一只猫。熊在地上和附近的物体周围嗅探后离开，对猫或财产没有表现出攻击性或危险。",
+      "solution_for_person": "",
+      "solution_for_hazard_source": "",
+      "solution_to_prevent_recurrence": ""
+    },
+    "3": {
+      "risk_description": "熊在院子里，周围有各种物体，可能对宠物或其他小动物造成碰撞或挤压伤害的风险。",
+      "normal_video_description": "",
+      "solution_for_person": "当熊在附近活动时，确保宠物留在室内或安全的区域。",
+      "solution_for_hazard_source": "将可能吸引野生动物的物品固定好，并把宠物关在安全的围栏内。",
+      "solution_to_prevent_recurrence": "安装感应灯或警报，以阻止野生动物进入院子。"
+    },
+    "4": {
+      "risk_description": "熊距离人很近，若熊突然移动或表现出攻击性，可能导致严重伤害。",
+      "normal_video_description": "在夜间，有人看到一只熊在户外四处走动，探索周围环境。",
+      "solution_for_person": "与熊保持安全距离，避免做出可能激怒它的突然动作。",
+      "solution_for_hazard_source": "",
+      "solution_to_prevent_recurrence": "与野生动物保持安全距离，尤其是熊，不要靠近它们。"
+    }
+  }
+}

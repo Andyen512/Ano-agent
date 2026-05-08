@@ -1,0 +1,40 @@
+{
+  "video_key": "toyota_smarthome_mp4/mp4/Cook.Usestove_p09_r02_v12_c03",
+  "translations": {
+    "0": {
+      "risk_description": "",
+      "normal_video_description": "视频显示一名中年人在厨房里将一个碗放入嵌入式烤箱。这人似乎在小心地处理碗，并确保其正确放置在烤箱中。厨房整洁有序，可见各种电器和餐具。然后此人关上烤箱门并退后，表明任务已安全完成。",
+      "solution_for_person": "",
+      "solution_for_hazard_source": "",
+      "solution_to_prevent_recurrence": ""
+    },
+    "1": {
+      "risk_description": "此人正在烤箱附近处理一个碗，如果烤箱很热或碗里装有热食，可能会导致烫伤。",
+      "normal_video_description": "一个人在厨房里将碗放入烤箱和从烤箱取出碗。",
+      "solution_for_person": "在处理烤箱附近的物品前，确保烤箱已冷却，必要时使用隔热手套。",
+      "solution_for_hazard_source": "在与烤箱互动之前，确认烤箱未在使用中或已冷却。",
+      "solution_to_prevent_recurrence": "在处理之前，始终检查烤箱温度和碗中物品的温度。"
+    },
+    "2": {
+      "risk_description": "",
+      "normal_video_description": "一名中年人在厨房里拿着一个白色碗，与嵌入式烤箱互动。他打开烤箱门，将碗放入，然后关门，执行常规烹饪任务，没有危险或不稳定的迹象。",
+      "solution_for_person": "",
+      "solution_for_hazard_source": "",
+      "solution_to_prevent_recurrence": ""
+    },
+    "3": {
+      "risk_description": "老年人在打开的烤箱附近处理菜肴，存在烫伤或溢洒造成伤害的风险。",
+      "normal_video_description": "",
+      "solution_for_person": "在处理菜肴前确保烤箱已关闭，并与烤箱开口保持安全距离。",
+      "solution_for_hazard_source": "不使用时将烤箱门牢固关闭，以防止意外接触高温表面。",
+      "solution_to_prevent_recurrence": "在烤箱附近处理菜肴时使用隔热手套或防烫垫，并确保在取出物品前烤箱已冷却。"
+    },
+    "4": {
+      "risk_description": "此人没有使用隔热手套就打开烤箱门，这可能导致烤箱内部高温造成的烫伤。",
+      "normal_video_description": "",
+      "solution_for_person": "打开烤箱门时，使用隔热手套或厚布保护双手。",
+      "solution_for_hazard_source": "",
+      "solution_to_prevent_recurrence": "处理热烤箱或电器时，始终使用防护装备。"
+    }
+  }
+}

@@ -1,0 +1,40 @@
+{
+  "video_key": "SmartHome-Bench/videos/smartbench_0189",
+  "translations": {
+    "0": {
+      "risk_description": "年轻人可以看到在走廊里奔跑，失去平衡，然后摔倒在地。这种行为偏离了正常的有控制的行走或跑步的日常活动。",
+      "normal_video_description": "",
+      "solution_for_person": "应该帮助这个人站起来，并检查是否有受伤。还应该建议他们在走廊里跑步或行走时要更加小心。",
+      "solution_for_hazard_source": "视频中没有发现特定的危险源。",
+      "solution_to_prevent_recurrence": "应该提醒这个人要注意周围环境，在走廊里以安全的速度行走或跑步，以防止将来摔倒。"
+    },
+    "1": {
+      "risk_description": "可以看到这个人在走廊里奔跑和蹲下，这可能导致摔倒或失去平衡，可能造成伤害。",
+      "normal_video_description": "视频显示一个人在走廊里行走，然后奔跑和蹲下后离开画面。",
+      "solution_for_person": "这个人应该避免在狭窄的走廊里奔跑和蹲下，以防止摔倒。",
+      "solution_for_hazard_source": "",
+      "solution_to_prevent_recurrence": "在走廊安装防滑地板并确保充足的照明，以减少绊倒危险。"
+    },
+    "2": {
+      "risk_description": "",
+      "normal_video_description": "一个年轻成年人走在酒店走廊里，短暂触碰墙壁，失去平衡摔倒在地，然后站起来走开。这种行为是一个轻微的自我纠正的踉跄，不构成重大风险异常。",
+      "solution_for_person": "",
+      "solution_for_hazard_source": "",
+      "solution_to_prevent_recurrence": ""
+    },
+    "3": {
+      "risk_description": "视频中的人似乎绊倒并摔倒，这对行动不便或平衡有问题的人来说可能特别令人担忧。",
+      "normal_video_description": "",
+      "solution_for_person": "确保这个人了解周围环境，必要时考虑使用辅助设备。",
+      "solution_for_hazard_source": "在走廊安装额外的照明或防滑地板，以降低跌倒风险。",
+      "solution_to_prevent_recurrence": "定期检查走廊是否有潜在危险，并保持通道畅通。"
+    },
+    "4": {
+      "risk_description": "这个人在走廊里奔跑并失去平衡，可能导致摔倒并造成伤害。在这个人奔跑的整个过程中都存在风险。",
+      "normal_video_description": "",
+      "solution_for_person": "确保这个人了解周围环境，并以安全的速度奔跑以避免失去平衡。",
+      "solution_for_hazard_source": "",
+      "solution_to_prevent_recurrence": "鼓励这个人以可控的速度奔跑，并注意周围环境以降低跌倒风险。"
+    }
+  }
+}

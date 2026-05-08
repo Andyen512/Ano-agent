@@ -1,0 +1,40 @@
+{
+  "video_key": "toyota_smarthome_mp4/mp4/Pour.Fromkettle_p19_r02_v14_c06",
+  "translations": {
+    "0": {
+      "risk_description": "老人站在椅子或凳子上伸手去够高架上的东西，这是一种潜在的跌倒危险。",
+      "normal_video_description": "老人站在厨房柜台旁准备饮品。",
+      "solution_for_person": "让老人坐下，并请他人帮忙取下物品。",
+      "solution_for_hazard_source": "将椅子或凳子搬离厨房，以防止再次跌倒。",
+      "solution_to_prevent_recurrence": "在厨房安装扶手或其他安全设施，以防将来跌倒。"
+    },
+    "1": {
+      "risk_description": "该人正在操作看起来像是厨房电器的设备，靠近炉灶，可能涉及高温表面或明火，存在烫伤风险。",
+      "normal_video_description": "一位老人在现代化厨房里，在炉灶区域附近操作厨房电器。",
+      "solution_for_person": "确保该人在不主动烹饪时保持与炉灶的安全距离，搬运热物品时使用隔热手套。",
+      "solution_for_hazard_source": "确认所有厨房电器工作正常，炉灶不使用时应关闭。",
+      "solution_to_prevent_recurrence": "在厨房里放置易于取用的灭火器，并确保该人了解应急程序。"
+    },
+    "2": {
+      "risk_description": "",
+      "normal_video_description": "老人站在厨房岛台旁，将瓶中的液体倒入杯中。环境是现代化的开放式起居空间，背景中可见电视和沙发。个人的动作平静而常规，没有表现出不稳定、危险或异常行为。",
+      "solution_for_person": "",
+      "solution_for_hazard_source": "",
+      "solution_to_prevent_recurrence": ""
+    },
+    "3": {
+      "risk_description": "老人在玻璃附近使用刀具，可能导致意外割伤。",
+      "normal_video_description": "",
+      "solution_for_person": "确保老人使用稳固的握持方式，并考虑使用带保护套的刀具。",
+      "solution_for_hazard_source": "将锋利物品放在够不到的地方，或使用专用砧板以降低风险。",
+      "solution_to_prevent_recurrence": "安全存放刀具，并提供正确刀具使用技巧的培训。"
+    },
+    "4": {
+      "risk_description": "",
+      "normal_video_description": "老人站在现代化厨房里，将壶中的水倒入杯中准备饮品。厨房光线充足，配备现代电器和家具。",
+      "solution_for_person": "",
+      "solution_for_hazard_source": "",
+      "solution_to_prevent_recurrence": ""
+    }
+  }
+}

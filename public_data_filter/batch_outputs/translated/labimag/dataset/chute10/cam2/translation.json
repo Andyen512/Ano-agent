@@ -1,0 +1,40 @@
+{
+  "video_key": "labimag/dataset/chute10/cam2",
+  "translations": {
+    "0": {
+      "risk_description": "视频中可见一名年轻人爬上一张用胶带固定在地面的床垫，这是一种不稳定且有风险的行为。随后该人从床垫上跌落，可能导致受伤。",
+      "normal_video_description": "",
+      "solution_for_person": "该人应受到监督，且不应被允许进行爬到不稳定表面等危险行为。",
+      "solution_for_hazard_source": "应将床垫从地面移除，并提供稳固的表面供该人坐或躺。",
+      "solution_to_prevent_recurrence": "应向该人普及参与危险行为的危害，并鼓励其从事安全、适当的活动。"
+    },
+    "1": {
+      "risk_description": "穿红衬衫的人员躺在一张未固定在地面的大软垫上，存在滑倒或滚落的风险，可能导致受伤。",
+      "normal_video_description": "一名穿红衬衫的人走进房间，躺在大软垫上，然后起身与另一个人互动。",
+      "solution_for_person": "在躺下之前，确保软垫已牢固固定在地面上。",
+      "solution_for_hazard_source": "将软垫固定在地面上以防止移动。",
+      "solution_to_prevent_recurrence": "使用前务必检查表面是否稳固。"
+    },
+    "2": {
+      "risk_description": "某人尝试跨过椅子时失去平衡，导致摔倒在床垫上。此行为因失控和摔倒而超出正常活动范围，显示出不稳定的风险。",
+      "normal_video_description": "",
+      "solution_for_person": "该人应避免跨过椅子之类的障碍物，以防止跌倒。",
+      "solution_for_hazard_source": "确保该区域没有可能导致绊倒或跌倒的障碍物。",
+      "solution_to_prevent_recurrence": "对个人进行安全移动教育，避免在潜在危险环境中进行冒险活动。"
+    },
+    "3": {
+      "risk_description": "穿红衬衫的人倒在床垫上，这对行动受限或平衡障碍者可能令人担忧。",
+      "normal_video_description": "",
+      "solution_for_person": "确保该人了解周围环境，必要时考虑提供额外支持。",
+      "solution_for_hazard_source": "将床垫固定好，防止其轻易倾倒。",
+      "solution_to_prevent_recurrence": "在床垫周围放置防滑垫或额外支撑，以降低跌倒风险。"
+    },
+    "4": {
+      "risk_description": "穿红衬衫的人在试图爬上床垫时面临跌倒或受伤的风险，床垫因放在地面上可能不稳。此行为可能导致严重伤害。",
+      "normal_video_description": "一名穿红衬衫的人进入办公区域并尝试爬上一张放在地面上的床垫，可能造成受伤风险。",
+      "solution_for_person": "在尝试爬上床垫前，确保床垫放在稳固且水平的表面上。",
+      "solution_for_hazard_source": "",
+      "solution_to_prevent_recurrence": "提供有关大型物体（如床垫）安全搬运和定位的正确培训。"
+    }
+  }
+}

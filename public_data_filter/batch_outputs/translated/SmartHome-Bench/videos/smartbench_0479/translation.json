@@ -1,0 +1,40 @@
+{
+  "video_key": "SmartHome-Bench/videos/smartbench_0479",
+  "translations": {
+    "0": {
+      "risk_description": "视频中的人似乎在与门搏斗，这可能导致不稳定，如果他们失去平衡或门倒塌，可能会造成潜在伤害。",
+      "normal_video_description": "",
+      "solution_for_person": "这个人应该寻求他人的帮助来处理门，或者考虑使用不同的入口进入棚屋。",
+      "solution_for_hazard_source": "门应该检查是否有任何损坏或不稳定，并在必要时进行维修或更换。",
+      "solution_to_prevent_recurrence": "应该对棚屋及其周围环境进行定期维护，以确保所有结构安全可靠。"
+    },
+    "1": {
+      "risk_description": "这个人正在金属门附近处理一个长而尖的物体（可能是工具或武器），这存在被尖锐端意外伤害的风险。此外，这个人似乎很匆忙，动作很快，增加了在不平坦的草地上绊倒或摔倒的风险。",
+      "normal_video_description": "看到一个人穿着橙色衬衫在夜间出现在棚屋外，与金属门互动并处理一个长物体，然后跑开。",
+      "solution_for_person": "这个人应该小心处理尖锐物体，确保尖端正对着自己和他人，并避免在使用时匆忙行事。",
+      "solution_for_hazard_source": "",
+      "solution_to_prevent_recurrence": "确保工具在不使用时安全存放，并且这个人要注意周围环境以避免绊倒危险。"
+    },
+    "2": {
+      "risk_description": "一个人正在用工具用力敲打棚屋门的栏杆，这是一种危险的财产损害行为，可能造成人身伤害。",
+      "normal_video_description": "",
+      "solution_for_person": "立即停止暴力行为，停止将工具用于破坏结构。",
+      "solution_for_hazard_source": "用锁固定棚屋门或加固结构以防止未经授权的进入。",
+      "solution_to_prevent_recurrence": "安装监控摄像头或警报系统以阻止未来的非法闯入企图。"
+    },
+    "3": {
+      "risk_description": "这个人正站在一个内部有火的小棚屋附近，存在烧伤或火灾相关伤害的风险，特别是如果他们直接接触到火焰或火花。",
+      "normal_video_description": "",
+      "solution_for_person": "与火保持安全距离，并确保棚屋通风良好以防止火势蔓延。",
+      "solution_for_hazard_source": "确保火势被控制并被监控，并在附近准备灭火器或水源以快速应对任何突发情况。",
+      "solution_to_prevent_recurrence": "在棚屋周围安装防火屏障，并定期检查院子里是否存在任何火灾隐患。"
+    },
+    "4": {
+      "risk_description": "",
+      "normal_video_description": "看到一个人在夜间出现在后院，打开一个小棚屋的门并向内张望。然后这个人关上门走开了。",
+      "solution_for_person": "",
+      "solution_for_hazard_source": "",
+      "solution_to_prevent_recurrence": ""
+    }
+  }
+}

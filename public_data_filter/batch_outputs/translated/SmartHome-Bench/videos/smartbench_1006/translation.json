@@ -1,0 +1,40 @@
+{
+  "video_key": "SmartHome-Bench/videos/smartbench_1006",
+  "translations": {
+    "0": {
+      "risk_description": "老年人手持一瓶酒，似乎正在饮用。这种行为有酒精中毒或意外摄入的风险，特别是如果该人有酒精滥用史或正在服用与酒精相互作用的药物。",
+      "normal_video_description": "",
+      "solution_for_person": "密切观察这位老年人，确保他们不喝完整瓶酒，如果他们出现痛苦或呼吸困难的迹象，应寻求医疗救助。",
+      "solution_for_hazard_source": "将酒瓶从这位老年人手中拿走，存放在安全的、够不到的地方。",
+      "solution_to_prevent_recurrence": "教育这位老年人了解饮酒的危害，以及如果出现任何不良影响寻求医疗救助的重要性。鼓励他们如果有酒精滥用史，可以寻求医疗专业人员或支持团体的帮助。"
+    },
+    "1": {
+      "risk_description": "穿浅色衬衫的男子下楼梯时显得不稳定，增加了跌倒的风险。他手持一个瓶子，可能是热源或含有危险物质，如果处理不当，有烫伤或意外摄入的风险。",
+      "normal_video_description": "一位穿黑衬衫的男子站在移动房屋门口，与另一位穿浅色衬衫、手持瓶子的男子交谈。穿浅色衬衫的男子手持瓶子下楼梯时显得不稳定。",
+      "solution_for_person": "该男子应小心下楼梯，使用扶手支撑，确保瓶子安全拿稳，防止溢出或掉落。",
+      "solution_for_hazard_source": "确保楼梯没有绊倒危险，瓶子贴有标签，不使用时妥善存放。",
+      "solution_to_prevent_recurrence": "监督可能危险物品的处理，特别是在楼梯附近，鼓励谨慎行动以防止跌倒。"
+    },
+    "2": {
+      "risk_description": "",
+      "normal_video_description": "一名男子走近一栋房子，一位老年人打开门迎接他。这位老年人随后拿着一个罐子离开门，第一名男子跟着他下楼梯。",
+      "solution_for_person": "",
+      "solution_for_hazard_source": "",
+      "solution_to_prevent_recurrence": ""
+    },
+    "3": {
+      "risk_description": "老年人手持瓶子，看起来不稳定，这可能增加跌倒或溢出的风险，可能导致受伤。",
+      "normal_video_description": "",
+      "solution_for_person": "确保老年人在移动时得到支撑或帮助，以防止跌倒。",
+      "solution_for_hazard_source": "清除院子里的绊倒危险，确保道路畅通。",
+      "solution_to_prevent_recurrence": "老年人在移动时，特别是手里拿着物品时，提供稳定的支撑。"
+    },
+    "4": {
+      "risk_description": "",
+      "normal_video_description": "两个人站在阳台上，其中一人手持饮料，似乎在与另一人交谈。手持饮料的男子在说话时似乎在用空着的手做手势。",
+      "solution_for_person": "",
+      "solution_for_hazard_source": "",
+      "solution_to_prevent_recurrence": ""
+    }
+  }
+}

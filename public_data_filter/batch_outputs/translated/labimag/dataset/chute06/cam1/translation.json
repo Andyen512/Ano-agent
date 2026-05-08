@@ -1,0 +1,40 @@
+{
+  "video_key": "labimag/dataset/chute06/cam1",
+  "translations": {
+    "0": {
+      "risk_description": "这名年轻人正躺在实验室环境中的一个软垫表面上，这不是安全的躺卧场所。随后该人起身走开，这可能导致绊倒或跌倒的风险。",
+      "normal_video_description": "",
+      "solution_for_person": "确保该年轻人只在安全适当的地方躺卧，如床铺或指定的休息区域。",
+      "solution_for_hazard_source": "清除实验室地面上的任何绊倒危险或障碍物，以降低跌倒风险。",
+      "solution_to_prevent_recurrence": "教育该年轻人了解在安全场所躺卧的重要性，以及在不适当环境中躺卧的潜在风险。"
+    },
+    "1": {
+      "risk_description": "该人正躺在一张行军床上，看起来是在教室环境中，这可能不是为安全睡眠或躺卧设计的。行军床可能会翻倒或该人可能会滚落，导致跌倒。",
+      "normal_video_description": "视频显示一间教室中央有一张行军床。人们在房间里走动，一个人躺在行军床上，其他人在旁边观察。",
+      "solution_for_person": "确保行军床稳固并正确固定后再躺下。",
+      "solution_for_hazard_source": "验证行军床的稳定性，确保其放置在平坦、安全的表面上。",
+      "solution_to_prevent_recurrence": "监督行军床的使用，确保仅在安全、指定的区域使用。"
+    },
+    "2": {
+      "risk_description": "",
+      "normal_video_description": "一名年轻人走进房间，躺在地板上的床垫上，然后坐起来，而其他人在房间里走动。环境看起来是配有桌子和设备的实验室或学习区域。",
+      "solution_for_person": "",
+      "solution_for_hazard_source": "",
+      "solution_to_prevent_recurrence": ""
+    },
+    "3": {
+      "risk_description": "该人躺在一个升高的平台上，如果不借助支撑尝试起身，平台可能不稳定或带来跌倒风险。",
+      "normal_video_description": "",
+      "solution_for_person": "确保该人在尝试从平台上起身时有支撑或帮助。",
+      "solution_for_hazard_source": "固定平台或提供额外支撑以防止跌倒。",
+      "solution_to_prevent_recurrence": "使用稳定的家具或垫子来降低从高处表面跌落的风险。"
+    },
+    "4": {
+      "risk_description": "该人正在垫子上进行涉及跳跃和落地的体育活动。存在跌倒或失去平衡的风险，可能导致受伤。",
+      "normal_video_description": "",
+      "solution_for_person": "确保适当的监督，并提供安全技术指导以最大程度降低受伤风险。",
+      "solution_for_hazard_source": "",
+      "solution_to_prevent_recurrence": "提供安全体育活动的培训，确保区域没有可能导致绊倒或跌倒的障碍物。"
+    }
+  }
+}

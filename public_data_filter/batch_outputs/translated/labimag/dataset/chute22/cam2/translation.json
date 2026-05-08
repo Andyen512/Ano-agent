@@ -1,0 +1,40 @@
+{
+  "video_key": "labimag/dataset/chute22/cam2",
+  "translations": {
+    "0": {
+      "risk_description": "视频中可以看到这位年轻人搬动一把棕色扶手椅后倒在地板上，这可能导致受伤。跌倒似乎是因在搬动家具时失去稳定性或平衡而导致的。",
+      "normal_video_description": "视频显示一位年轻人在客厅搬动一把棕色扶手椅后倒在地板上。",
+      "solution_for_person": "在搬动重型家具时，人员应保持谨慎，确保脚站稳，以防跌倒。",
+      "solution_for_hazard_source": "对危险源没有具体的解决方案，但人员在搬动家具时应更加小心，以防止跌倒。",
+      "solution_to_prevent_recurrence": "人员应更加注意周围环境，在搬动重物时确保脚站稳，以防止将来跌倒。"
+    },
+    "1": {
+      "risk_description": "该人躺在地板上，姿势可能导致起身困难，增加站立时跌倒或拉伤的风险。",
+      "normal_video_description": "一个人走进车间，搬动椅子，坐下，然后躺在地板上再站起来。",
+      "solution_for_person": "确保该人认识到长时间躺在地板上的风险，并鼓励他们尽快起身。",
+      "solution_for_hazard_source": "",
+      "solution_to_prevent_recurrence": ""
+    },
+    "2": {
+      "risk_description": "该对象试图坐到扶手椅上，却失去平衡向后倒在地板上，表明明显失去稳定性并直接导致受伤风险。",
+      "normal_video_description": "",
+      "solution_for_person": "该人应立即起身，检查是否有受伤，并避免尝试坐在不稳定的家具或缺乏足够支撑的椅子上。",
+      "solution_for_hazard_source": "确保家具稳固且适合使用者的体型和体重。考虑使用带有靠背和扶手的椅子以获得更好的稳定性。",
+      "solution_to_prevent_recurrence": "教育个人正确的坐姿技巧以及使用稳固家具的重要性。定期检查和维护家具，确保其处于良好状态。"
+    },
+    "3": {
+      "risk_description": "该人从扶手椅上向后跌倒，这可能带来受伤风险，尤其是对行动不便或平衡有问题的人。",
+      "normal_video_description": "",
+      "solution_for_person": "确保该人受到监督，并考虑重新摆放家具以防止跌倒。",
+      "solution_for_hazard_source": "固定家具以防止倾倒，并确保行走通道畅通。",
+      "solution_to_prevent_recurrence": "在家具附近安装安全垫或防滑地板，并确保房间没有绊倒危险。"
+    },
+    "4": {
+      "risk_description": "视频中可以看到该人在房间里走动后坐到椅子上，如果失去平衡可能会导致跌倒。此风险在视频全程都存在，因为该人在房间里移动。",
+      "normal_video_description": "视频显示一个人在房间里走动后坐到椅子上。",
+      "solution_for_person": "确保该人在房间走动时有人监督或协助，以防止跌倒。",
+      "solution_for_hazard_source": "",
+      "solution_to_prevent_recurrence": "在椅子附近安装扶手或抓杆，为该人提供支撑和稳定性。"
+    }
+  }
+}

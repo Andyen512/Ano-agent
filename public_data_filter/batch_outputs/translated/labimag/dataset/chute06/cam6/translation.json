@@ -1,0 +1,40 @@
+{
+  "video_key": "labimag/dataset/chute06/cam6",
+  "translations": {
+    "0": {
+      "risk_description": "看到一名年轻人走向床垫，然后突然倒在上面，摔倒有受伤风险。",
+      "normal_video_description": "视频显示一名年轻人在一个房间内走动，地板上放着一个床垫，然后突然倒在上面。这个房间看起来像是书房或办公室，书桌和架子上有各种物品。",
+      "solution_for_person": "确保年轻人在房间内走动时有人监督和搀扶，以防摔倒。",
+      "solution_for_hazard_source": "未发现特定危险源。",
+      "solution_to_prevent_recurrence": "在床垫附近安装扶手或抓杆，以提供支撑并降低摔倒风险。"
+    },
+    "1": {
+      "risk_description": "此人躺在一个看似测试或实验装置的软垫表面，可能涉及突然的动作或设备启动，可能导致摔倒或失控。",
+      "normal_video_description": "两个人在实验室环境中互动，一人躺在连接设备的软垫表面上，另一人在房间内走动。",
+      "solution_for_person": "确保个人在使用设备前接受适当的安全培训或说明。",
+      "solution_for_hazard_source": "确保所有安全约束和监控系统运行正常且适合该活动。",
+      "solution_to_prevent_recurrence": "对实验设置进行安全审查，以识别和减轻潜在的稳定性风险。"
+    },
+    "2": {
+      "risk_description": "",
+      "normal_video_description": "一个人走进房间，躺在地板上的床垫上，然后当另一个人进入房间时起身。环境看起来像是实验室或学习区域，有设备和家具。",
+      "solution_for_person": "",
+      "solution_for_hazard_source": "",
+      "solution_to_prevent_recurrence": ""
+    },
+    "3": {
+      "risk_description": "年轻人躺在地板上的床垫上，床垫可能不稳定，有摔倒风险，特别是如果他们试图移动或翻身。",
+      "normal_video_description": "",
+      "solution_for_person": "确保床垫放在稳定的表面上，并在需要移动时提供支撑。",
+      "solution_for_hazard_source": "固定床垫以防止移动或倾斜。",
+      "solution_to_prevent_recurrence": "使用稳定平坦的表面躺下，确保移动时有适当的监督。"
+    },
+    "4": {
+      "risk_description": "一个人躺在房间中央的床上，如果他们突然移动可能会有摔倒或不稳定风险，可能导致严重伤害。",
+      "normal_video_description": "",
+      "solution_for_person": "在从床上移动此人之前，确保他们稳定且安全。",
+      "solution_for_hazard_source": "",
+      "solution_to_prevent_recurrence": "确保床放置在安全位置，移动时有人监督。"
+    }
+  }
+}

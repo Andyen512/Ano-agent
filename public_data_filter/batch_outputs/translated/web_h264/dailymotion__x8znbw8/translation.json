@@ -1,0 +1,40 @@
+{
+  "video_key": "web_h264/dailymotion__x8znbw8",
+  "translations": {
+    "0": {
+      "risk_description": "孩子在家具上攀爬并玩耍可能造成跌倒或受伤的物品。",
+      "normal_video_description": "孩子在安全且有监督的环境中玩耍和探索周围环境。",
+      "solution_for_person": "需要成人监督以防止跌倒和受伤。",
+      "solution_for_hazard_source": "确保家具稳固安全，并移除任何可能造成跌倒或受伤的物品。",
+      "solution_to_prevent_recurrence": "安装安全门，固定家具，并提供成人监督以防止跌倒和受伤。"
+    },
+    "1": {
+      "risk_description": "孩子站在小蹦床上，存在跌落受伤的风险。",
+      "normal_video_description": "视频显示各个孩子在房屋和院子里进行不同活动，其中一些场景涉及潜在的安全风险。",
+      "solution_for_person": "密切监督孩子，确保他们不要无人看管地在蹦床上玩耍。",
+      "solution_for_hazard_source": "将蹦床从客厅移走或固定好以防止倾倒。",
+      "solution_to_prevent_recurrence": "教育孩子不要在不稳定的表面玩耍的危险，并提供更安全的替代游戏方式。"
+    },
+    "2": {
+      "risk_description": "",
+      "normal_video_description": "视频显示一个婴儿坐在宠物床上，随后是孩子们在室内外玩耍的各种片段，包括爬行、行走以及与玩具和宠物互动。",
+      "solution_for_person": "",
+      "solution_for_hazard_source": "",
+      "solution_to_prevent_recurrence": ""
+    },
+    "3": {
+      "risk_description": "看到孩子在家具上攀爬和玩耍，如果失去平衡则有跌倒或受伤的风险。",
+      "normal_video_description": "",
+      "solution_for_person": "确保孩子在家具附近玩耍时有监督，并教导他们不要攀爬不稳定的物体。",
+      "solution_for_hazard_source": "移除或固定孩子可能攀爬的任何不稳定家具。",
+      "solution_to_prevent_recurrence": "在家具周围安装安全门，确保游戏区域没有可攀爬的物品。"
+    },
+    "4": {
+      "risk_description": "看到孩子在家具上攀爬并玩耍可能导致跌倒或不稳定的物品，这可能造成严重伤害。",
+      "normal_video_description": "",
+      "solution_for_person": "确保孩子始终有人监督，并移除他们可触及范围内的任何不稳定或危险物品。",
+      "solution_for_hazard_source": "固定家具和物品以防止它们倾倒。",
+      "solution_to_prevent_recurrence": "提供适合年龄的玩具和活动，促进安全玩耍和探索。"
+    }
+  }
+}

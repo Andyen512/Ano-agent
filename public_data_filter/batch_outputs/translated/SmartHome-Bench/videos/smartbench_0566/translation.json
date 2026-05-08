@@ -1,0 +1,40 @@
+{
+  "video_key": "SmartHome-Bench/videos/smartbench_0566",
+  "translations": {
+    "0": {
+      "risk_description": "",
+      "normal_video_description": "看到一个人在调整自行车座，然后拿起一块白布走开。场景设置在一个阳台上，背景是一座砖砌建筑。",
+      "solution_for_person": "",
+      "solution_for_hazard_source": "",
+      "solution_to_prevent_recurrence": ""
+    },
+    "1": {
+      "risk_description": "",
+      "normal_video_description": "一个骑自行车的人被另一个人接近，那人问他在做什么，并质疑他是否试图偷自行车。骑车的人下车跑走了。",
+      "solution_for_person": "",
+      "solution_for_hazard_source": "",
+      "solution_to_prevent_recurrence": ""
+    },
+    "2": {
+      "risk_description": "看到一个人试图剪断自行车锁，这是一个明显的盗窃行为。这种行为涉及故意拿走属于他人的财产，超出了正常活动范围。",
+      "normal_video_description": "",
+      "solution_for_person": "",
+      "solution_for_hazard_source": "",
+      "solution_to_prevent_recurrence": "安装更安全的锁，并考虑使用更难剪断或移除的自行车架。"
+    },
+    "3": {
+      "risk_description": "这个人正在与镜头外的人互动，这可能会升级为对抗。如果这个人变得具有攻击性或存在误解，就会构成风险。",
+      "normal_video_description": "",
+      "solution_for_person": "这个人应该保持冷静，避免身体对抗。",
+      "solution_for_hazard_source": "镜头外的人应该确保沟通清晰且不带威胁性。",
+      "solution_to_prevent_recurrence": "双方应建立清晰的沟通以避免误解。"
+    },
+    "4": {
+      "risk_description": "这个人正试图偷自行车，这可能导致与车主或执法部门发生对抗，可能造成人身伤害或法律后果。",
+      "normal_video_description": "看到一个人试图从门廊偷自行车，这可能导致与车主或执法部门发生对抗。",
+      "solution_for_person": "接近这个人并要求他停止；如果他拒绝，报警。",
+      "solution_for_hazard_source": "",
+      "solution_to_prevent_recurrence": "在该区域安装监控摄像头或动作感应灯以阻止盗窃。"
+    }
+  }
+}

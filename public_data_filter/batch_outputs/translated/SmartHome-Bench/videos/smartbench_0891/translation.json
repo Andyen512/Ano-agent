@@ -1,0 +1,40 @@
+{
+  "video_key": "SmartHome-Bench/videos/smartbench_0891",
+  "translations": {
+    "0": {
+      "risk_description": "一个人在夜间院子里两辆停放的汽车之间奔跑，如果失去控制或绊倒，可能会导致碰撞或受伤。",
+      "normal_video_description": "",
+      "solution_for_person": "这个人在夜间院子里走动时应该更加小心，以避免潜在的事故。",
+      "solution_for_hazard_source": "在这种情况下没有具体的安全隐患，但这个人应该更加注意周围环境。",
+      "solution_to_prevent_recurrence": "这个人在夜间院子里行走时应该更加注意周围环境并缓慢移动，以降低事故风险。"
+    },
+    "1": {
+      "risk_description": "",
+      "normal_video_description": "视频显示夜间车道场景，有几辆停放的车辆。一个人走向中间车辆，打开驾驶座侧门，似乎在检查或与车辆互动，而背景中另一辆车正在驶离。",
+      "solution_for_person": "",
+      "solution_for_hazard_source": "",
+      "solution_to_prevent_recurrence": ""
+    },
+    "2": {
+      "risk_description": "一个人被看到在夜间接近停放的车辆，打开一辆皮卡的驾驶座侧门，并进入车辆。这种行为表明可能存在车辆盗窃或未经授权的车辆访问。",
+      "normal_video_description": "",
+      "solution_for_person": "",
+      "solution_for_hazard_source": "",
+      "solution_to_prevent_recurrence": "安装监控摄像头、使用车辆报警器，并将车辆停放在光线充足的地方，以阻止潜在的小偷。"
+    },
+    "3": {
+      "risk_description": "一个人在停放的汽车之间行走，如果绊倒或被车辆撞击，可能会造成碰撞或挤压伤害。",
+      "normal_video_description": "",
+      "solution_for_person": "这个人应该保持谨慎并注意周围环境，以避免绊倒或被车辆撞击。",
+      "solution_for_hazard_source": "确保停放的车辆位置安全，最大限度地减少碰撞或挤压伤害的风险。",
+      "solution_to_prevent_recurrence": "在停放的车辆附近安装额外的照明设备或反光标记，以提高可见性。"
+    },
+    "4": {
+      "risk_description": "",
+      "normal_video_description": "视频显示夜间停车场场景，有两辆停放的汽车，一辆黑色和一辆银色。没有观察到车辆或人员之间的明显动作或互动。",
+      "solution_for_person": "",
+      "solution_for_hazard_source": "",
+      "solution_to_prevent_recurrence": ""
+    }
+  }
+}

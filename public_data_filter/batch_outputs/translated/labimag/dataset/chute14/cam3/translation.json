@@ -1,0 +1,40 @@
+{
+  "video_key": "labimag/dataset/chute14/cam3",
+  "translations": {
+    "0": {
+      "risk_description": "视频中的年轻人躺在地板上的床垫上，这不是安全的休息或睡觉的地方。这种行为可能导致跌倒和受伤。",
+      "normal_video_description": "",
+      "solution_for_person": "应鼓励该人睡在安全稳固的表面上，例如床或沙发。",
+      "solution_for_hazard_source": "床垫应从地板上搬走，放在稳固的表面上。",
+      "solution_to_prevent_recurrence": "应对该人进行教育，使其认识到在安全稳固的表面上睡觉的重要性，以防止跌倒和受伤。"
+    },
+    "1": {
+      "risk_description": "穿红衬衫的人躺在放在地板上的床垫上，如果床垫不稳或在移动时失去平衡，可能会导致跌倒。",
+      "normal_video_description": "视频显示一间配有各种家具和设备的房间。一位穿红衬衫的人在房间里走动，坐在沙发上，然后躺在地板上的床垫上。房间里还有其他几个人。",
+      "solution_for_person": "在躺上床垫之前，确保床垫已牢固固定且稳固。",
+      "solution_for_hazard_source": "将床垫固定在地板上，防止其移动。",
+      "solution_to_prevent_recurrence": "使用前务必检查床垫的稳定性。"
+    },
+    "2": {
+      "risk_description": "",
+      "normal_video_description": "视频显示一个人在客厅环境中从沙发上跳下，落在地板上的床垫上。另一人进入房间并观察该活动。该行为看起来是玩耍且受控的，没有受伤或不稳定的迹象。",
+      "solution_for_person": "",
+      "solution_for_hazard_source": "",
+      "solution_to_prevent_recurrence": ""
+    },
+    "3": {
+      "risk_description": "穿红衬衫的人躺在沙发附近的地板上，如果他们站立不稳地起身，可能会有跌倒风险。此外，房间内有多人也可能导致绊倒或碰撞风险。",
+      "normal_video_description": "",
+      "solution_for_person": "通过提供帮助或使用稳固的物体来帮助穿红衬衫的人安全站起。",
+      "solution_for_hazard_source": "清理地面上的障碍物，以减少绊倒或跌倒的风险。",
+      "solution_to_prevent_recurrence": "保持客厅整洁，确保在有人走动时有足够的监督。"
+    },
+    "4": {
+      "risk_description": "穿红衬衫的人试图跳到放在地板上的床垫上，这可能导致跌倒和潜在伤害。",
+      "normal_video_description": "可以看到一位穿红衬衫的人试图跳到地板上的床垫上，而另一位穿绿衬衫的人在一旁观察。",
+      "solution_for_person": "在尝试跳上床垫之前，确保床垫已正确固定且稳固。",
+      "solution_for_hazard_source": "",
+      "solution_to_prevent_recurrence": "在进行涉及跳跃或高冲击动作的体育活动时，提供适当的培训和监督。"
+    }
+  }
+}

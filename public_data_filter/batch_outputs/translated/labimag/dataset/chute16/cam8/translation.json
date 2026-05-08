@@ -1,0 +1,40 @@
+{
+  "video_key": "labimag/dataset/chute16/cam8",
+  "translations": {
+    "0": {
+      "risk_description": "视频中可以看到这位年轻人试图坐在沙发上，但失去平衡摔倒在地。这种行为偏离了正常日常坐在沙发上的活动，可能会带来受伤风险。",
+      "normal_video_description": "",
+      "solution_for_person": "应帮助此人坐在沙发上，以确保其安全。",
+      "solution_for_hazard_source": "应检查沙发是否存在可能导致跌倒的潜在危险。",
+      "solution_to_prevent_recurrence": "在此人尝试坐沙发时，应进行监督，以防再次跌倒。"
+    },
+    "1": {
+      "risk_description": "可以看到此人在地板上爬行，并以可能导致跌倒或失衡的方式躺在沙发上，增加受伤风险。",
+      "normal_video_description": "一个穿红衬衫的人在一间客厅里走动，和茶几互动，躺在沙发上，并且在地板上爬行。",
+      "solution_for_person": "应建议此人避免以这种方式躺在或爬在地板上，以防跌倒。",
+      "solution_for_hazard_source": "",
+      "solution_to_prevent_recurrence": "确保此人了解在地板上躺着或爬行时的跌倒风险，并鼓励其安全使用家具。"
+    },
+    "2": {
+      "risk_description": "",
+      "normal_video_description": "一个人走进客厅，坐在沙发上，然后起身离开。该场景看起来是日常正常活动，没有任何可见的风险或异常。",
+      "solution_for_person": "",
+      "solution_for_hazard_source": "",
+      "solution_to_prevent_recurrence": ""
+    },
+    "3": {
+      "risk_description": "可以看到穿红衬衫的人跪在地上并坐在地板上，如果失去平衡可能会造成跌倒风险，尤其是行动受限或正在康复的人。",
+      "normal_video_description": "",
+      "solution_for_person": "确保此人坐或站立稳固，必要时提供帮助以防跌倒。",
+      "solution_for_hazard_source": "清除地板上的障碍物或绊倒危险，以创造更安全的环境。",
+      "solution_to_prevent_recurrence": "定期检查居住空间中的潜在危险，并确保通道畅通，以降低跌倒风险。"
+    },
+    "4": {
+      "risk_description": "由于沙发在地板上摆放不稳，此人有从沙发跌落的风险，可能导致严重伤害。",
+      "normal_video_description": "",
+      "solution_for_person": "确保沙发放置在稳固的表面上，或在其下方添加支撑，以防止倾倒。",
+      "solution_for_hazard_source": "将沙发靠墙放置或添加额外支撑以稳固它，确保安全。",
+      "solution_to_prevent_recurrence": "定期检查家具，确保其放置在稳固的表面上，以防事故。"
+    }
+  }
+}

@@ -1,0 +1,474 @@
+{
+  "manifest": {
+    "video_path": "/data_4/liuyuan/lifebench/data/public_data/web_h264/bilibili__BV18yXKBwEg4.mp4",
+    "rule_path": "/data_4/liuyuan/lifebench/public_data_filter/rule.md",
+    "prompt_language": "en",
+    "output_schema_version": "risk_full_en_v2",
+    "candidate_text": null,
+    "seed": 0,
+    "persistent_runner": true,
+    "reuse_agent_outputs": true,
+    "early_stop_majority": false,
+    "model_pool": [
+      {
+        "model_id": "Qwen/Qwen3.5-9B",
+        "backend": "qwen35vl"
+      },
+      {
+        "model_id": "openbmb/MiniCPM-V-4_5",
+        "backend": "minicpmv45"
+      },
+      {
+        "model_id": "mPLUG/mPLUG-Owl3-7B-241101",
+        "backend": "mplugowl3"
+      },
+      {
+        "model_id": "DAMO-NLP-SG/VideoLLaMA3-7B",
+        "backend": "videollama3"
+      },
+      {
+        "model_id": "OpenGVLab/InternVL3_5-8B",
+        "backend": "internvl35"
+      }
+    ],
+    "assignments": [
+      {
+        "perspective": {
+          "index": 1,
+          "name": "Daily Behavior Baseline Perspective",
+          "prompt": "You are acting as a daily-behavior baseline reviewer.\nYour task is to judge, from ordinary household experience, whether a candidate behavior clearly deviates from acceptable daily behavior and should be kept as a risk anomaly.\n\nFollow these principles:\n- Use common behavior patterns in ordinary home environments as the reference point. Do not use an overly sensitive or overly permissive standard.\n- If a behavior is usually normal, brief, and acceptable in most household scenes, do not easily mark it as a risk anomaly.\n- If a behavior clearly exceeds the normal range of daily activities and shows instability, a safety trigger, or potential harm, mark it as a risk anomaly.\n- For borderline cases, focus on whether the behavior has shifted from an acceptable daily activity into an abnormal risk behavior that deserves attention.\n- Keep the judgment close to ordinary common sense rather than medical, legal, or extreme safety standards.\n\nOutput requirements for this perspective:\n- Explain whether the behavior clearly deviates from the daily behavior baseline.\n- Keep the explanation concise, specific, and grounded only in the video content.\n- Do not mark a behavior as anomalous merely because it looks active.\n- Do not assume extra events outside the video."
+        },
+        "model": {
+          "model_id": "mPLUG/mPLUG-Owl3-7B-241101",
+          "backend": "mplugowl3"
+        }
+      },
+      {
+        "perspective": {
+          "index": 2,
+          "name": "Conservative Safety Perspective",
+          "prompt": "You are acting as a conservative safety reviewer.\nYour task is to minimize missed risks. If a candidate behavior has a realistic possibility of injury, loss of control, or accident triggering, it may be kept as a risk anomaly.\n\nFollow these principles:\n- Apply a cautious safety standard, prioritizing behaviors that may lead to falls, collisions, burns, electric shock, accidental ingestion, cuts, or other household injuries.\n- Even if harm has not occurred yet, keep the behavior if it already contains a clear risk trigger or is in an accident-prone state.\n- For borderline cases, focus on whether the behavior deserves early intervention rather than waiting for harm to happen.\n- If a behavior would commonly be stopped or warned against by family members, guardians, or caregivers, lean toward keeping it.\n- The goal is to reduce false negatives, so ambiguous cases may be judged slightly conservatively.\n\nOutput requirements for this perspective:\n- Explain what realistic harm the behavior may trigger and why it should or should not be kept under a conservative safety standard.\n- You do not need to prove that harm will definitely occur.\n- Do not exaggerate beyond an ordinary household context."
+        },
+        "model": {
+          "model_id": "openbmb/MiniCPM-V-4_5",
+          "backend": "minicpmv45"
+        }
+      },
+      {
+        "perspective": {
+          "index": 3,
+          "name": "Permissive Behavior Tolerance Perspective",
+          "prompt": "You are acting as a permissive behavior-tolerance reviewer.\nYour task is to judge from a higher tolerance threshold whether a candidate behavior truly reaches the level of a risk anomaly. Only keep it when the behavior clearly exceeds normal activity, playfulness, exploration, or brief mistakes.\n\nFollow these principles:\n- Maintain reasonable tolerance for common active behavior, brief imbalance, and minor irregular actions in household scenes.\n- Keep a behavior only when it has clear, direct, and realistic danger, or when it clearly leaves the boundary of generally acceptable daily behavior.\n- If a behavior has some uncertainty but commonly occurs in real life and would not usually be considered dangerous enough for special intervention, lean toward not keeping it.\n- For borderline cases, prioritize avoiding over-definition of ordinary life behavior as abnormal.\n- The goal is to reduce false positives, so keep only when the evidence is reasonably strong.\n\nOutput requirements for this perspective:\n- Explain whether the behavior remains within a tolerable daily behavior range.\n- Do not keep a behavior merely because it has a small possible risk.\n- Do not automatically treat all child play, pet activity, slow elderly movement, or similar ordinary behavior as abnormal."
+        },
+        "model": {
+          "model_id": "Qwen/Qwen3.5-9B",
+          "backend": "qwen35vl"
+        }
+      },
+      {
+        "perspective": {
+          "index": 4,
+          "name": "Vulnerable-Subject-First Perspective",
+          "prompt": "You are acting as a vulnerable-subject-first reviewer.\nYour task is to judge the candidate behavior with priority given to the safety of children, older adults, people with limited mobility, people recovering from illness, pregnant people, pets, or other vulnerable subjects. If the behavior creates a realistic additional risk for a vulnerable subject, lean toward keeping it as a risk anomaly.\n\nFollow these principles:\n- Focus on whether the behavior creates disproportionate risk for a subject with weaker body control, weaker risk awareness, or limited self-protection ability.\n- A behavior that may not be abnormal for an ordinary adult can still be a risk anomaly if its danger clearly increases for a child, older adult, pet, or other vulnerable subject.\n- For borderline cases, consider whether the vulnerable subject would have more difficulty avoiding injury, would suffer more serious consequences, or would receive help more slowly.\n- In caregiving, companionship, or household life scenes, pay special attention to insufficient supervision, missing protection, or an environment that does not fit the subject's needs.\n- The core standard is not whether the behavior is dangerous for an average adult, but whether it has reached a level requiring attention or intervention for the vulnerable subject shown in the video.\n\nOutput requirements for this perspective:\n- Explain the specific risk to the vulnerable subject, if one is present.\n- Do not invent illness, disability, age, or severe impairment that is not supported by the video.\n- Do not generalize vulnerability without evidence from the video."
+        },
+        "model": {
+          "model_id": "OpenGVLab/InternVL3_5-8B",
+          "backend": "internvl35"
+        }
+      },
+      {
+        "perspective": {
+          "index": 5,
+          "name": "Consequence-Severity-First Perspective",
+          "prompt": "You are acting as a consequence-severity-first reviewer.\nYour task is to focus on whether the potential consequences of a risk event would be serious, hard to reverse, or costly to intervene in. Even if the probability is not the highest, keep the behavior if the realistic potential consequence is severe enough.\n\nFollow these principles:\n- Prioritize behaviors that could realistically lead to severe injury, long-term impact, emergency medical care, lasting functional impairment, or major property or environmental damage.\n- Judge not only whether an accident is likely, but also how costly the consequence would be if it occurred.\n- For borderline cases, analyze whether the most realistic negative consequence is already too significant to ignore.\n- If a behavior may lead to burns from heat, electric shock, falling from height, severe collision, poisoning, suffocation, or other serious outcomes, lean toward keeping it.\n- The standard emphasizes prevention of severe consequences, so low-probability but high-damage scenarios may justify keeping the behavior.\n\nOutput requirements for this perspective:\n- Explain the realistic severity of the possible consequence if the behavior develops into an accident.\n- Do not exaggerate minor or unimportant consequences.\n- Do not rely on extremely rare catastrophic scenarios without realistic support from the video."
+        },
+        "model": {
+          "model_id": "DAMO-NLP-SG/VideoLLaMA3-7B",
+          "backend": "videollama3"
+        }
+      }
+    ]
+  },
+  "agent_results": [
+    {
+      "perspective": {
+        "index": 1,
+        "name": "Daily Behavior Baseline Perspective",
+        "prompt": "You are acting as a daily-behavior baseline reviewer.\nYour task is to judge, from ordinary household experience, whether a candidate behavior clearly deviates from acceptable daily behavior and should be kept as a risk anomaly.\n\nFollow these principles:\n- Use common behavior patterns in ordinary home environments as the reference point. Do not use an overly sensitive or overly permissive standard.\n- If a behavior is usually normal, brief, and acceptable in most household scenes, do not easily mark it as a risk anomaly.\n- If a behavior clearly exceeds the normal range of daily activities and shows instability, a safety trigger, or potential harm, mark it as a risk anomaly.\n- For borderline cases, focus on whether the behavior has shifted from an acceptable daily activity into an abnormal risk behavior that deserves attention.\n- Keep the judgment close to ordinary common sense rather than medical, legal, or extreme safety standards.\n\nOutput requirements for this perspective:\n- Explain whether the behavior clearly deviates from the daily behavior baseline.\n- Keep the explanation concise, specific, and grounded only in the video content.\n- Do not mark a behavior as anomalous merely because it looks active.\n- Do not assume extra events outside the video."
+      },
+      "model": {
+        "model_id": "mPLUG/mPLUG-Owl3-7B-241101",
+        "backend": "mplugowl3"
+      },
+      "prompt_file": "/data_4/liuyuan/lifebench/public_data_filter/batch_outputs/web_20260429T170230Z/reviews/web_h264/bilibili__BV18yXKBwEg4/prompts/01_Daily_Behavior_Baseline_Perspective.txt",
+      "output_json": "/data_4/liuyuan/lifebench/public_data_filter/batch_outputs/web_20260429T170230Z/reviews/web_h264/bilibili__BV18yXKBwEg4/agent_outputs/01_Daily_Behavior_Baseline_Perspective.json",
+      "stdout_log": "/data_4/liuyuan/lifebench/public_data_filter/batch_outputs/web_20260429T170230Z/reviews/web_h264/bilibili__BV18yXKBwEg4/logs/01_Daily_Behavior_Baseline_Perspective.stdout.log",
+      "stderr_log": "/data_4/liuyuan/lifebench/public_data_filter/batch_outputs/web_20260429T170230Z/reviews/web_h264/bilibili__BV18yXKBwEg4/logs/01_Daily_Behavior_Baseline_Perspective.stderr.log",
+      "worker_id": "02_mplugowl3_gpu1",
+      "gpu_id": "1",
+      "returncode": 0,
+      "elapsed_seconds": 15.538,
+      "response": "Risk presence: Yes\nLevel 1 scene: bathroom\nLevel 2 subject: young adult\nLevel 3 risk type: fall/instability\nRisk description: The video shows a young adult in a bathroom, standing on a chair to reach the sink, which is a potential fall hazard. The person appears to be unstable and at risk of falling.\nRisk time interval: [0, 10 seconds]\nSolution for person: The person should be assisted by a caregiver to ensure stability while using the sink.\nSolution for hazard source: The bathroom should be equipped with safety features such as grab bars to prevent falls.\nSolution to prevent recurrence: The person should be supervised while using the sink, and the bathroom should be modified to reduce the risk of falls, such as installing safety features and removing any tripping hazards.",
+      "parsed_decision": {
+        "candidate_behavior": "",
+        "risk_presence_raw": "Yes",
+        "risk_presence": "Yes",
+        "keep_raw": "Yes",
+        "keep": true,
+        "level1_scene": "bathroom",
+        "level2_subject": "young adult",
+        "level3_risk_type": "fall/instability",
+        "risk_description": "The video shows a young adult in a bathroom, standing on a chair to reach the sink, which is a potential fall hazard. The person appears to be unstable and at risk of falling.",
+        "risk_time_interval": "[0, 10 seconds]",
+        "solution_for_person": "The person should be assisted by a caregiver to ensure stability while using the sink.",
+        "solution_for_hazard_source": "The bathroom should be equipped with safety features such as grab bars to prevent falls.",
+        "solution_to_prevent_recurrence": "The person should be supervised while using the sink, and the bathroom should be modified to reduce the risk of falls, such as installing safety features and removing any tripping hazards.",
+        "normal_video_description": "",
+        "reason": ""
+      },
+      "runner_payload": {
+        "backend": "mplugowl3",
+        "description": "mPLUG-Owl3 video chat model",
+        "model_id": "mPLUG/mPLUG-Owl3-7B-241101",
+        "model_path": "/data_4/liuyuan/lifebench/models/mPLUG__mPLUG-Owl3-7B-241101",
+        "video_path": "/data_4/liuyuan/lifebench/data/public_data/web_h264/bilibili__BV18yXKBwEg4.mp4",
+        "prompt": "You are acting as a daily-behavior baseline reviewer.\nYour task is to judge, from ordinary household experience, whether a candidate behavior clearly deviates from acceptable daily behavior and should be kept as a risk anomaly.\n\nFollow these principles:\n- Use common behavior patterns in ordinary home environments as the reference point. Do not use an overly sensitive or overly permissive standard.\n- If a behavior is usually normal, brief, and acceptable in most household scenes, do not easily mark it as a risk anomaly.\n- If a behavior clearly exceeds the normal range of daily activities and shows instability, a safety trigger, or potential harm, mark it as a risk anomaly.\n- For borderline cases, focus on whether the behavior has shifted from an acceptable daily activity into an abnormal risk behavior that deserves attention.\n- Keep the judgment close to ordinary common sense rather than medical, legal, or extreme safety standards.\n\nOutput requirements for this perspective:\n- Explain whether the behavior clearly deviates from the daily behavior baseline.\n- Keep the explanation concise, specific, and grounded only in the video content.\n- Do not mark a behavior as anomalous merely because it looks active.\n- Do not assume extra events outside the video.\n\nTask addendum:\nReview the input video and first decide whether the video contains a risk.\nBase your judgment only on the video content. Do not assume facts outside the video, and do not invent extra events.\nJudge the main visible behavior and scene in the video.\nYou must answer based on the provided video input. Do not say that you cannot watch or inspect the video.\nOutput exactly the following English-labeled fields, with no markdown and no extra text:\nRisk presence: Yes / No\nLevel 1 scene: output one scene keyword. Prefer one of: dining room, kitchen, study, balcony, living room, bathroom, yard. If none fits, output your own concise scene keyword.\nLevel 2 subject: output one subject keyword. Prefer one of: child, older adult, young adult, middle-aged adult. If none fits, output your own concise subject keyword.\nLevel 3 risk type: if Risk presence is Yes, output one risk keyword. Prefer one of: fall/instability, heat/fire source, collision/crush injury, sharp-object danger, electrical safety, poisoning/accidental ingestion, interpersonal conflict. If none fits, output your own concise risk keyword. If Risk presence is No, output None.\nRisk description: if Risk presence is Yes, describe the risk in 1-3 sentences. If Risk presence is No, output None.\nRisk time interval: if Risk presence is Yes, localize the risk as seconds like [start,end]. If there are multiple intervals, separate them with semicolons. If the exact interval is unclear, output Unknown. If Risk presence is No, output None.\nSolution for person: if Risk presence is Yes, give a concrete action for the person or caregiver. If Risk presence is No, output None.\nSolution for hazard source: if Risk presence is Yes, give a concrete action for the hazard source or environment. If Risk presence is No, output None.\nSolution to prevent recurrence: if Risk presence is Yes, give a prevention measure to reduce recurrence. If Risk presence is No, output None.\nNormal video description: if Risk presence is No, describe the normal video content in 1-3 sentences. If Risk presence is Yes, output None.",
+        "response": "Risk presence: Yes\nLevel 1 scene: bathroom\nLevel 2 subject: young adult\nLevel 3 risk type: fall/instability\nRisk description: The video shows a young adult in a bathroom, standing on a chair to reach the sink, which is a potential fall hazard. The person appears to be unstable and at risk of falling.\nRisk time interval: [0, 10 seconds]\nSolution for person: The person should be assisted by a caregiver to ensure stability while using the sink.\nSolution for hazard source: The bathroom should be equipped with safety features such as grab bars to prevent falls.\nSolution to prevent recurrence: The person should be supervised while using the sink, and the bathroom should be modified to reduce the risk of falls, such as installing safety features and removing any tripping hazards.",
+        "parsed_response": {
+          "risk_status": "normal",
+          "has_risk": false,
+          "risk_type": "",
+          "video_description": "Risk presence: Yes Level 1 scene: bathroom Level 2 subject: young adult Level 3 risk type: fall/instability Risk description: The video shows a young adult in a bathroom, standing on a chair to reach the sink, which is a potential fall hazard. The person appears to be unstable and at risk of falling. Risk time interval: [0, 10 seconds] Solution for person: The person should be assisted by a caregiver to ensure stability while using the sink. Solution for hazard source: The bathroom should be equipped with safety features such as grab bars to prevent falls. Solution to prevent recurrence: The person should be supervised while using the sink, and the bathroom should be modified to reduce the risk of falls, such as installing safety features and removing any tripping hazards.",
+          "safe_segment_desc": "Risk presence: Yes Level 1 scene: bathroom Level 2 subject: young adult Level 3 risk type: fall/instability Risk description: The video shows a young adult in a bathroom, standing on a chair to reach the sink, which is a potential fall hazard. The person appears to be unstable and at risk of falling. Risk time interval: [0, 10 seconds] Solution for person: The person should be assisted by a caregiver to ensure stability while using the sink. Solution for hazard source: The bathroom should be equipped with safety features such as grab bars to prevent falls. Solution to prevent recurrence: The person should be supervised while using the sink, and the bathroom should be modified to reduce the risk of falls, such as installing safety features and removing any tripping hazards.",
+          "risk_description": "",
+          "solution": "",
+          "time_spans": []
+        },
+        "generation": {
+          "temperature": 0.0,
+          "top_p": 0.9,
+          "max_new_tokens": 256,
+          "fps": 1.0,
+          "max_frames": 16,
+          "merge_size": 2
+        },
+        "elapsed_seconds": 15.538
+      }
+    },
+    {
+      "perspective": {
+        "index": 2,
+        "name": "Conservative Safety Perspective",
+        "prompt": "You are acting as a conservative safety reviewer.\nYour task is to minimize missed risks. If a candidate behavior has a realistic possibility of injury, loss of control, or accident triggering, it may be kept as a risk anomaly.\n\nFollow these principles:\n- Apply a cautious safety standard, prioritizing behaviors that may lead to falls, collisions, burns, electric shock, accidental ingestion, cuts, or other household injuries.\n- Even if harm has not occurred yet, keep the behavior if it already contains a clear risk trigger or is in an accident-prone state.\n- For borderline cases, focus on whether the behavior deserves early intervention rather than waiting for harm to happen.\n- If a behavior would commonly be stopped or warned against by family members, guardians, or caregivers, lean toward keeping it.\n- The goal is to reduce false negatives, so ambiguous cases may be judged slightly conservatively.\n\nOutput requirements for this perspective:\n- Explain what realistic harm the behavior may trigger and why it should or should not be kept under a conservative safety standard.\n- You do not need to prove that harm will definitely occur.\n- Do not exaggerate beyond an ordinary household context."
+      },
+      "model": {
+        "model_id": "openbmb/MiniCPM-V-4_5",
+        "backend": "minicpmv45"
+      },
+      "prompt_file": "/data_4/liuyuan/lifebench/public_data_filter/batch_outputs/web_20260429T170230Z/reviews/web_h264/bilibili__BV18yXKBwEg4/prompts/02_Conservative_Safety_Perspective.txt",
+      "output_json": "/data_4/liuyuan/lifebench/public_data_filter/batch_outputs/web_20260429T170230Z/reviews/web_h264/bilibili__BV18yXKBwEg4/agent_outputs/02_Conservative_Safety_Perspective.json",
+      "stdout_log": "/data_4/liuyuan/lifebench/public_data_filter/batch_outputs/web_20260429T170230Z/reviews/web_h264/bilibili__BV18yXKBwEg4/logs/02_Conservative_Safety_Perspective.stdout.log",
+      "stderr_log": "/data_4/liuyuan/lifebench/public_data_filter/batch_outputs/web_20260429T170230Z/reviews/web_h264/bilibili__BV18yXKBwEg4/logs/02_Conservative_Safety_Perspective.stderr.log",
+      "worker_id": null,
+      "gpu_id": null,
+      "returncode": 0,
+      "elapsed_seconds": 0.0,
+      "reused_agent_output": true,
+      "response": "Risk presence: Yes\nLevel 1 scene: bathroom\nLevel 2 subject: young adult\nLevel 3 risk type: electrical safety\nRisk description: Using a hairdryer in a wet bathroom environment can cause electric shock or fire due to the presence of water and electrical appliances.\nRisk time interval: [0.00,1.00]\nSolution for person: Avoid using electrical appliances like hairdryers in wet bathrooms immediately after washing.\nSolution for hazard source: Ensure electrical outlets and appliances are kept dry and use them in well-ventilated, dry areas.\nSolution to prevent recurrence: Dry hands and feet thoroughly before using electrical appliances, and consider using appliances outside the bathroom.\nNormal video description: The video shows a woman using a hairdryer in a bathroom after washing, followed by safety warnings about the risks of using electrical appliances in wet environments.",
+      "parsed_decision": {
+        "candidate_behavior": "",
+        "risk_presence_raw": "Yes",
+        "risk_presence": "Yes",
+        "keep_raw": "Yes",
+        "keep": true,
+        "level1_scene": "bathroom",
+        "level2_subject": "young adult",
+        "level3_risk_type": "electrical safety",
+        "risk_description": "Using a hairdryer in a wet bathroom environment can cause electric shock or fire due to the presence of water and electrical appliances.",
+        "risk_time_interval": "[0.00,1.00]",
+        "solution_for_person": "Avoid using electrical appliances like hairdryers in wet bathrooms immediately after washing.",
+        "solution_for_hazard_source": "Ensure electrical outlets and appliances are kept dry and use them in well-ventilated, dry areas.",
+        "solution_to_prevent_recurrence": "Dry hands and feet thoroughly before using electrical appliances, and consider using appliances outside the bathroom.",
+        "normal_video_description": "The video shows a woman using a hairdryer in a bathroom after washing, followed by safety warnings about the risks of using electrical appliances in wet environments.",
+        "reason": ""
+      },
+      "runner_payload": {
+        "backend": "minicpmv45",
+        "description": "MiniCPM-V 4.5 efficient image/video understanding model",
+        "model_id": "openbmb/MiniCPM-V-4_5",
+        "model_path": "/data_4/liuyuan/lifebench/models/openbmb__MiniCPM-V-4_5",
+        "video_path": "/data_4/liuyuan/lifebench/data/public_data/web_h264/bilibili__BV18yXKBwEg4.mp4",
+        "prompt": "You are acting as a conservative safety reviewer.\nYour task is to minimize missed risks. If a candidate behavior has a realistic possibility of injury, loss of control, or accident triggering, it may be kept as a risk anomaly.\n\nFollow these principles:\n- Apply a cautious safety standard, prioritizing behaviors that may lead to falls, collisions, burns, electric shock, accidental ingestion, cuts, or other household injuries.\n- Even if harm has not occurred yet, keep the behavior if it already contains a clear risk trigger or is in an accident-prone state.\n- For borderline cases, focus on whether the behavior deserves early intervention rather than waiting for harm to happen.\n- If a behavior would commonly be stopped or warned against by family members, guardians, or caregivers, lean toward keeping it.\n- The goal is to reduce false negatives, so ambiguous cases may be judged slightly conservatively.\n\nOutput requirements for this perspective:\n- Explain what realistic harm the behavior may trigger and why it should or should not be kept under a conservative safety standard.\n- You do not need to prove that harm will definitely occur.\n- Do not exaggerate beyond an ordinary household context.\n\nTask addendum:\nReview the input video and first decide whether the video contains a risk.\nBase your judgment only on the video content. Do not assume facts outside the video, and do not invent extra events.\nJudge the main visible behavior and scene in the video.\nYou must answer based on the provided video input. Do not say that you cannot watch or inspect the video.\nOutput exactly the following English-labeled fields, with no markdown and no extra text:\nRisk presence: Yes / No\nLevel 1 scene: output one scene keyword. Prefer one of: dining room, kitchen, study, balcony, living room, bathroom, yard. If none fits, output your own concise scene keyword.\nLevel 2 subject: output one subject keyword. Prefer one of: child, older adult, young adult, middle-aged adult. If none fits, output your own concise subject keyword.\nLevel 3 risk type: if Risk presence is Yes, output one risk keyword. Prefer one of: fall/instability, heat/fire source, collision/crush injury, sharp-object danger, electrical safety, poisoning/accidental ingestion, interpersonal conflict. If none fits, output your own concise risk keyword. If Risk presence is No, output None.\nRisk description: if Risk presence is Yes, describe the risk in 1-3 sentences. If Risk presence is No, output None.\nRisk time interval: if Risk presence is Yes, localize the risk as seconds like [start,end]. If there are multiple intervals, separate them with semicolons. If the exact interval is unclear, output Unknown. If Risk presence is No, output None.\nSolution for person: if Risk presence is Yes, give a concrete action for the person or caregiver. If Risk presence is No, output None.\nSolution for hazard source: if Risk presence is Yes, give a concrete action for the hazard source or environment. If Risk presence is No, output None.\nSolution to prevent recurrence: if Risk presence is Yes, give a prevention measure to reduce recurrence. If Risk presence is No, output None.\nNormal video description: if Risk presence is No, describe the normal video content in 1-3 sentences. If Risk presence is Yes, output None.",
+        "response": "Risk presence: Yes\nLevel 1 scene: bathroom\nLevel 2 subject: young adult\nLevel 3 risk type: electrical safety\nRisk description: Using a hairdryer in a wet bathroom environment can cause electric shock or fire due to the presence of water and electrical appliances.\nRisk time interval: [0.00,1.00]\nSolution for person: Avoid using electrical appliances like hairdryers in wet bathrooms immediately after washing.\nSolution for hazard source: Ensure electrical outlets and appliances are kept dry and use them in well-ventilated, dry areas.\nSolution to prevent recurrence: Dry hands and feet thoroughly before using electrical appliances, and consider using appliances outside the bathroom.\nNormal video description: The video shows a woman using a hairdryer in a bathroom after washing, followed by safety warnings about the risks of using electrical appliances in wet environments.",
+        "parsed_response": {
+          "risk_status": "normal",
+          "has_risk": false,
+          "risk_type": "",
+          "video_description": "Risk presence: Yes Level 1 scene: bathroom Level 2 subject: young adult Level 3 risk type: electrical safety Risk description: Using a hairdryer in a wet bathroom environment can cause electric shock or fire due to the presence of water and electrical appliances. Risk time interval: [0.00,1.00] Solution for person: Avoid using electrical appliances like hairdryers in wet bathrooms immediately after washing. Solution for hazard source: Ensure electrical outlets and appliances are kept dry and use them in well-ventilated, dry areas. Solution to prevent recurrence: Dry hands and feet thoroughly before using electrical appliances, and consider using appliances outside the bathroom. Normal video description: The video shows a woman using a hairdryer in a bathroom after washing, followed by safety warnings about the risks of using electrical appliances in wet environments.",
+          "safe_segment_desc": "Risk presence: Yes Level 1 scene: bathroom Level 2 subject: young adult Level 3 risk type: electrical safety Risk description: Using a hairdryer in a wet bathroom environment can cause electric shock or fire due to the presence of water and electrical appliances. Risk time interval: [0.00,1.00] Solution for person: Avoid using electrical appliances like hairdryers in wet bathrooms immediately after washing. Solution for hazard source: Ensure electrical outlets and appliances are kept dry and use them in well-ventilated, dry areas. Solution to prevent recurrence: Dry hands and feet thoroughly before using electrical appliances, and consider using appliances outside the bathroom. Normal video description: The video shows a woman using a hairdryer in a bathroom after washing, followed by safety warnings about the risks of using electrical appliances in wet environments.",
+          "risk_description": "",
+          "solution": "",
+          "time_spans": []
+        },
+        "generation": {
+          "temperature": 0.0,
+          "top_p": 0.9,
+          "max_new_tokens": 256,
+          "fps": 1.0,
+          "max_frames": 16,
+          "merge_size": 2
+        },
+        "elapsed_seconds": 58.816
+      }
+    },
+    {
+      "perspective": {
+        "index": 3,
+        "name": "Permissive Behavior Tolerance Perspective",
+        "prompt": "You are acting as a permissive behavior-tolerance reviewer.\nYour task is to judge from a higher tolerance threshold whether a candidate behavior truly reaches the level of a risk anomaly. Only keep it when the behavior clearly exceeds normal activity, playfulness, exploration, or brief mistakes.\n\nFollow these principles:\n- Maintain reasonable tolerance for common active behavior, brief imbalance, and minor irregular actions in household scenes.\n- Keep a behavior only when it has clear, direct, and realistic danger, or when it clearly leaves the boundary of generally acceptable daily behavior.\n- If a behavior has some uncertainty but commonly occurs in real life and would not usually be considered dangerous enough for special intervention, lean toward not keeping it.\n- For borderline cases, prioritize avoiding over-definition of ordinary life behavior as abnormal.\n- The goal is to reduce false positives, so keep only when the evidence is reasonably strong.\n\nOutput requirements for this perspective:\n- Explain whether the behavior remains within a tolerable daily behavior range.\n- Do not keep a behavior merely because it has a small possible risk.\n- Do not automatically treat all child play, pet activity, slow elderly movement, or similar ordinary behavior as abnormal."
+      },
+      "model": {
+        "model_id": "Qwen/Qwen3.5-9B",
+        "backend": "qwen35vl"
+      },
+      "prompt_file": "/data_4/liuyuan/lifebench/public_data_filter/batch_outputs/web_20260429T170230Z/reviews/web_h264/bilibili__BV18yXKBwEg4/prompts/03_Permissive_Behavior_Tolerance_Perspective.txt",
+      "output_json": "/data_4/liuyuan/lifebench/public_data_filter/batch_outputs/web_20260429T170230Z/reviews/web_h264/bilibili__BV18yXKBwEg4/agent_outputs/03_Permissive_Behavior_Tolerance_Perspective.json",
+      "stdout_log": "/data_4/liuyuan/lifebench/public_data_filter/batch_outputs/web_20260429T170230Z/reviews/web_h264/bilibili__BV18yXKBwEg4/logs/03_Permissive_Behavior_Tolerance_Perspective.stdout.log",
+      "stderr_log": "/data_4/liuyuan/lifebench/public_data_filter/batch_outputs/web_20260429T170230Z/reviews/web_h264/bilibili__BV18yXKBwEg4/logs/03_Permissive_Behavior_Tolerance_Perspective.stderr.log",
+      "worker_id": null,
+      "gpu_id": null,
+      "returncode": 0,
+      "elapsed_seconds": 0.0,
+      "reused_agent_output": true,
+      "response": "Risk presence: Yes\nLevel 1 scene: bathroom\nLevel 2 subject: young adult\nLevel 3 risk type: electrical safety\nRisk description: A woman uses a hair dryer in a wet bathroom environment immediately after showering, which creates a high risk of electric shock or fire due to moisture contact with electrical appliances.\nRisk time interval: [0, 5]\nSolution for person: Wait until hands, feet, and the environment are completely dry before using electrical appliances.\nSolution for hazard source: Ensure electrical appliances are rated for wet environments or use them only in dry areas.\nSolution to prevent recurrence: Establish a habit of drying off and ventilating the bathroom before using any electrical devices.\nNormal video description: None",
+      "parsed_decision": {
+        "candidate_behavior": "",
+        "risk_presence_raw": "Yes",
+        "risk_presence": "Yes",
+        "keep_raw": "Yes",
+        "keep": true,
+        "level1_scene": "bathroom",
+        "level2_subject": "young adult",
+        "level3_risk_type": "electrical safety",
+        "risk_description": "A woman uses a hair dryer in a wet bathroom environment immediately after showering, which creates a high risk of electric shock or fire due to moisture contact with electrical appliances.",
+        "risk_time_interval": "[0, 5]",
+        "solution_for_person": "Wait until hands, feet, and the environment are completely dry before using electrical appliances.",
+        "solution_for_hazard_source": "Ensure electrical appliances are rated for wet environments or use them only in dry areas.",
+        "solution_to_prevent_recurrence": "Establish a habit of drying off and ventilating the bathroom before using any electrical devices.",
+        "normal_video_description": "None",
+        "reason": ""
+      },
+      "runner_payload": {
+        "backend": "qwen35vl",
+        "description": "Qwen3.5 multimodal single-video inference",
+        "model_id": "Qwen/Qwen3.5-9B",
+        "model_path": "/data_4/liuyuan/lifebench/models/Qwen/Qwen3.5-9B",
+        "video_path": "/data_4/liuyuan/lifebench/data/public_data/web_h264/bilibili__BV18yXKBwEg4.mp4",
+        "prompt": "You are acting as a permissive behavior-tolerance reviewer.\nYour task is to judge from a higher tolerance threshold whether a candidate behavior truly reaches the level of a risk anomaly. Only keep it when the behavior clearly exceeds normal activity, playfulness, exploration, or brief mistakes.\n\nFollow these principles:\n- Maintain reasonable tolerance for common active behavior, brief imbalance, and minor irregular actions in household scenes.\n- Keep a behavior only when it has clear, direct, and realistic danger, or when it clearly leaves the boundary of generally acceptable daily behavior.\n- If a behavior has some uncertainty but commonly occurs in real life and would not usually be considered dangerous enough for special intervention, lean toward not keeping it.\n- For borderline cases, prioritize avoiding over-definition of ordinary life behavior as abnormal.\n- The goal is to reduce false positives, so keep only when the evidence is reasonably strong.\n\nOutput requirements for this perspective:\n- Explain whether the behavior remains within a tolerable daily behavior range.\n- Do not keep a behavior merely because it has a small possible risk.\n- Do not automatically treat all child play, pet activity, slow elderly movement, or similar ordinary behavior as abnormal.\n\nTask addendum:\nReview the input video and first decide whether the video contains a risk.\nBase your judgment only on the video content. Do not assume facts outside the video, and do not invent extra events.\nJudge the main visible behavior and scene in the video.\nYou must answer based on the provided video input. Do not say that you cannot watch or inspect the video.\nOutput exactly the following English-labeled fields, with no markdown and no extra text:\nRisk presence: Yes / No\nLevel 1 scene: output one scene keyword. Prefer one of: dining room, kitchen, study, balcony, living room, bathroom, yard. If none fits, output your own concise scene keyword.\nLevel 2 subject: output one subject keyword. Prefer one of: child, older adult, young adult, middle-aged adult. If none fits, output your own concise subject keyword.\nLevel 3 risk type: if Risk presence is Yes, output one risk keyword. Prefer one of: fall/instability, heat/fire source, collision/crush injury, sharp-object danger, electrical safety, poisoning/accidental ingestion, interpersonal conflict. If none fits, output your own concise risk keyword. If Risk presence is No, output None.\nRisk description: if Risk presence is Yes, describe the risk in 1-3 sentences. If Risk presence is No, output None.\nRisk time interval: if Risk presence is Yes, localize the risk as seconds like [start,end]. If there are multiple intervals, separate them with semicolons. If the exact interval is unclear, output Unknown. If Risk presence is No, output None.\nSolution for person: if Risk presence is Yes, give a concrete action for the person or caregiver. If Risk presence is No, output None.\nSolution for hazard source: if Risk presence is Yes, give a concrete action for the hazard source or environment. If Risk presence is No, output None.\nSolution to prevent recurrence: if Risk presence is Yes, give a prevention measure to reduce recurrence. If Risk presence is No, output None.\nNormal video description: if Risk presence is No, describe the normal video content in 1-3 sentences. If Risk presence is Yes, output None.",
+        "response": "Risk presence: Yes\nLevel 1 scene: bathroom\nLevel 2 subject: young adult\nLevel 3 risk type: electrical safety\nRisk description: A woman uses a hair dryer in a wet bathroom environment immediately after showering, which creates a high risk of electric shock or fire due to moisture contact with electrical appliances.\nRisk time interval: [0, 5]\nSolution for person: Wait until hands, feet, and the environment are completely dry before using electrical appliances.\nSolution for hazard source: Ensure electrical appliances are rated for wet environments or use them only in dry areas.\nSolution to prevent recurrence: Establish a habit of drying off and ventilating the bathroom before using any electrical devices.\nNormal video description: None",
+        "parsed_response": {
+          "risk_status": "normal",
+          "has_risk": false,
+          "risk_type": "",
+          "video_description": "Risk presence: Yes Level 1 scene: bathroom Level 2 subject: young adult Level 3 risk type: electrical safety Risk description: A woman uses a hair dryer in a wet bathroom environment immediately after showering, which creates a high risk of electric shock or fire due to moisture contact with electrical appliances. Risk time interval: [0, 5] Solution for person: Wait until hands, feet, and the environment are completely dry before using electrical appliances. Solution for hazard source: Ensure electrical appliances are rated for wet environments or use them only in dry areas. Solution to prevent recurrence: Establish a habit of drying off and ventilating the bathroom before using any electrical devices. Normal video description: None",
+          "safe_segment_desc": "Risk presence: Yes Level 1 scene: bathroom Level 2 subject: young adult Level 3 risk type: electrical safety Risk description: A woman uses a hair dryer in a wet bathroom environment immediately after showering, which creates a high risk of electric shock or fire due to moisture contact with electrical appliances. Risk time interval: [0, 5] Solution for person: Wait until hands, feet, and the environment are completely dry before using electrical appliances. Solution for hazard source: Ensure electrical appliances are rated for wet environments or use them only in dry areas. Solution to prevent recurrence: Establish a habit of drying off and ventilating the bathroom before using any electrical devices. Normal video description: None",
+          "risk_description": "",
+          "solution": "",
+          "time_spans": []
+        },
+        "generation": {
+          "temperature": 0.0,
+          "top_p": 0.9,
+          "max_new_tokens": 256,
+          "fps": 1.0,
+          "max_frames": 16,
+          "merge_size": 2
+        },
+        "elapsed_seconds": 24.576
+      }
+    },
+    {
+      "perspective": {
+        "index": 4,
+        "name": "Vulnerable-Subject-First Perspective",
+        "prompt": "You are acting as a vulnerable-subject-first reviewer.\nYour task is to judge the candidate behavior with priority given to the safety of children, older adults, people with limited mobility, people recovering from illness, pregnant people, pets, or other vulnerable subjects. If the behavior creates a realistic additional risk for a vulnerable subject, lean toward keeping it as a risk anomaly.\n\nFollow these principles:\n- Focus on whether the behavior creates disproportionate risk for a subject with weaker body control, weaker risk awareness, or limited self-protection ability.\n- A behavior that may not be abnormal for an ordinary adult can still be a risk anomaly if its danger clearly increases for a child, older adult, pet, or other vulnerable subject.\n- For borderline cases, consider whether the vulnerable subject would have more difficulty avoiding injury, would suffer more serious consequences, or would receive help more slowly.\n- In caregiving, companionship, or household life scenes, pay special attention to insufficient supervision, missing protection, or an environment that does not fit the subject's needs.\n- The core standard is not whether the behavior is dangerous for an average adult, but whether it has reached a level requiring attention or intervention for the vulnerable subject shown in the video.\n\nOutput requirements for this perspective:\n- Explain the specific risk to the vulnerable subject, if one is present.\n- Do not invent illness, disability, age, or severe impairment that is not supported by the video.\n- Do not generalize vulnerability without evidence from the video."
+      },
+      "model": {
+        "model_id": "OpenGVLab/InternVL3_5-8B",
+        "backend": "internvl35"
+      },
+      "prompt_file": "/data_4/liuyuan/lifebench/public_data_filter/batch_outputs/web_20260429T170230Z/reviews/web_h264/bilibili__BV18yXKBwEg4/prompts/04_Vulnerable-Subject-First_Perspective.txt",
+      "output_json": "/data_4/liuyuan/lifebench/public_data_filter/batch_outputs/web_20260429T170230Z/reviews/web_h264/bilibili__BV18yXKBwEg4/agent_outputs/04_Vulnerable-Subject-First_Perspective.json",
+      "stdout_log": "/data_4/liuyuan/lifebench/public_data_filter/batch_outputs/web_20260429T170230Z/reviews/web_h264/bilibili__BV18yXKBwEg4/logs/04_Vulnerable-Subject-First_Perspective.stdout.log",
+      "stderr_log": "/data_4/liuyuan/lifebench/public_data_filter/batch_outputs/web_20260429T170230Z/reviews/web_h264/bilibili__BV18yXKBwEg4/logs/04_Vulnerable-Subject-First_Perspective.stderr.log",
+      "worker_id": null,
+      "gpu_id": null,
+      "returncode": 0,
+      "elapsed_seconds": 0.0,
+      "reused_agent_output": true,
+      "response": "Risk presence: Yes\nLevel 1 scene: bathroom\nLevel 2 subject: young adult\nLevel 3 risk type: electrical safety\nRisk description: Using a hairdryer in a wet bathroom poses a risk of electric shock, especially for someone who may not be fully aware of the dangers or who might accidentally touch a wet surface while using the hairdryer.\nRisk time interval: [0, 15]; [40, 60]; [80, 100]\nSolution for person: Ensure the bathroom is completely dry before using the hairdryer and avoid touching any wet surfaces while it is in use.\nSolution for hazard source: Use a hairdryer in a dry environment and ensure it is properly maintained to reduce the risk of electrical hazards.\nSolution to prevent recurrence: Always dry the bathroom thoroughly before using electrical appliances like a hairdryer and educate users about the risks of using such appliances in wet conditions.\nNormal video description: The video demonstrates the dangers of using a hairdryer in a wet bathroom, highlighting the risk of electric shock and providing safety recommendations.",
+      "parsed_decision": {
+        "candidate_behavior": "",
+        "risk_presence_raw": "Yes",
+        "risk_presence": "Yes",
+        "keep_raw": "Yes",
+        "keep": true,
+        "level1_scene": "bathroom",
+        "level2_subject": "young adult",
+        "level3_risk_type": "electrical safety",
+        "risk_description": "Using a hairdryer in a wet bathroom poses a risk of electric shock, especially for someone who may not be fully aware of the dangers or who might accidentally touch a wet surface while using the hairdryer.",
+        "risk_time_interval": "[0, 15]; [40, 60]; [80, 100]",
+        "solution_for_person": "Ensure the bathroom is completely dry before using the hairdryer and avoid touching any wet surfaces while it is in use.",
+        "solution_for_hazard_source": "Use a hairdryer in a dry environment and ensure it is properly maintained to reduce the risk of electrical hazards.",
+        "solution_to_prevent_recurrence": "Always dry the bathroom thoroughly before using electrical appliances like a hairdryer and educate users about the risks of using such appliances in wet conditions.",
+        "normal_video_description": "The video demonstrates the dangers of using a hairdryer in a wet bathroom, highlighting the risk of electric shock and providing safety recommendations.",
+        "reason": ""
+      },
+      "runner_payload": {
+        "backend": "internvl35",
+        "description": "InternVL3.5 8B multimodal video chat model",
+        "model_id": "OpenGVLab/InternVL3_5-8B",
+        "model_path": "/data_4/liuyuan/lifebench/models/OpenGVLab__InternVL3_5-8B",
+        "video_path": "/data_4/liuyuan/lifebench/data/public_data/web_h264/bilibili__BV18yXKBwEg4.mp4",
+        "prompt": "You are acting as a vulnerable-subject-first reviewer.\nYour task is to judge the candidate behavior with priority given to the safety of children, older adults, people with limited mobility, people recovering from illness, pregnant people, pets, or other vulnerable subjects. If the behavior creates a realistic additional risk for a vulnerable subject, lean toward keeping it as a risk anomaly.\n\nFollow these principles:\n- Focus on whether the behavior creates disproportionate risk for a subject with weaker body control, weaker risk awareness, or limited self-protection ability.\n- A behavior that may not be abnormal for an ordinary adult can still be a risk anomaly if its danger clearly increases for a child, older adult, pet, or other vulnerable subject.\n- For borderline cases, consider whether the vulnerable subject would have more difficulty avoiding injury, would suffer more serious consequences, or would receive help more slowly.\n- In caregiving, companionship, or household life scenes, pay special attention to insufficient supervision, missing protection, or an environment that does not fit the subject's needs.\n- The core standard is not whether the behavior is dangerous for an average adult, but whether it has reached a level requiring attention or intervention for the vulnerable subject shown in the video.\n\nOutput requirements for this perspective:\n- Explain the specific risk to the vulnerable subject, if one is present.\n- Do not invent illness, disability, age, or severe impairment that is not supported by the video.\n- Do not generalize vulnerability without evidence from the video.\n\nTask addendum:\nReview the input video and first decide whether the video contains a risk.\nBase your judgment only on the video content. Do not assume facts outside the video, and do not invent extra events.\nJudge the main visible behavior and scene in the video.\nYou must answer based on the provided video input. Do not say that you cannot watch or inspect the video.\nOutput exactly the following English-labeled fields, with no markdown and no extra text:\nRisk presence: Yes / No\nLevel 1 scene: output one scene keyword. Prefer one of: dining room, kitchen, study, balcony, living room, bathroom, yard. If none fits, output your own concise scene keyword.\nLevel 2 subject: output one subject keyword. Prefer one of: child, older adult, young adult, middle-aged adult. If none fits, output your own concise subject keyword.\nLevel 3 risk type: if Risk presence is Yes, output one risk keyword. Prefer one of: fall/instability, heat/fire source, collision/crush injury, sharp-object danger, electrical safety, poisoning/accidental ingestion, interpersonal conflict. If none fits, output your own concise risk keyword. If Risk presence is No, output None.\nRisk description: if Risk presence is Yes, describe the risk in 1-3 sentences. If Risk presence is No, output None.\nRisk time interval: if Risk presence is Yes, localize the risk as seconds like [start,end]. If there are multiple intervals, separate them with semicolons. If the exact interval is unclear, output Unknown. If Risk presence is No, output None.\nSolution for person: if Risk presence is Yes, give a concrete action for the person or caregiver. If Risk presence is No, output None.\nSolution for hazard source: if Risk presence is Yes, give a concrete action for the hazard source or environment. If Risk presence is No, output None.\nSolution to prevent recurrence: if Risk presence is Yes, give a prevention measure to reduce recurrence. If Risk presence is No, output None.\nNormal video description: if Risk presence is No, describe the normal video content in 1-3 sentences. If Risk presence is Yes, output None.",
+        "response": "Risk presence: Yes\nLevel 1 scene: bathroom\nLevel 2 subject: young adult\nLevel 3 risk type: electrical safety\nRisk description: Using a hairdryer in a wet bathroom poses a risk of electric shock, especially for someone who may not be fully aware of the dangers or who might accidentally touch a wet surface while using the hairdryer.\nRisk time interval: [0, 15]; [40, 60]; [80, 100]\nSolution for person: Ensure the bathroom is completely dry before using the hairdryer and avoid touching any wet surfaces while it is in use.\nSolution for hazard source: Use a hairdryer in a dry environment and ensure it is properly maintained to reduce the risk of electrical hazards.\nSolution to prevent recurrence: Always dry the bathroom thoroughly before using electrical appliances like a hairdryer and educate users about the risks of using such appliances in wet conditions.\nNormal video description: The video demonstrates the dangers of using a hairdryer in a wet bathroom, highlighting the risk of electric shock and providing safety recommendations.",
+        "parsed_response": {
+          "risk_status": "normal",
+          "has_risk": false,
+          "risk_type": "",
+          "video_description": "Risk presence: Yes Level 1 scene: bathroom Level 2 subject: young adult Level 3 risk type: electrical safety Risk description: Using a hairdryer in a wet bathroom poses a risk of electric shock, especially for someone who may not be fully aware of the dangers or who might accidentally touch a wet surface while using the hairdryer. Risk time interval: [0, 15]; [40, 60]; [80, 100] Solution for person: Ensure the bathroom is completely dry before using the hairdryer and avoid touching any wet surfaces while it is in use. Solution for hazard source: Use a hairdryer in a dry environment and ensure it is properly maintained to reduce the risk of electrical hazards. Solution to prevent recurrence: Always dry the bathroom thoroughly before using electrical appliances like a hairdryer and educate users about the risks of using such appliances in wet conditions. Normal video description: The video demonstrates the dangers of using a hairdryer in a wet bathroom, highlighting the risk of electric shock and providing safety recommendations.",
+          "safe_segment_desc": "Risk presence: Yes Level 1 scene: bathroom Level 2 subject: young adult Level 3 risk type: electrical safety Risk description: Using a hairdryer in a wet bathroom poses a risk of electric shock, especially for someone who may not be fully aware of the dangers or who might accidentally touch a wet surface while using the hairdryer. Risk time interval: [0, 15]; [40, 60]; [80, 100] Solution for person: Ensure the bathroom is completely dry before using the hairdryer and avoid touching any wet surfaces while it is in use. Solution for hazard source: Use a hairdryer in a dry environment and ensure it is properly maintained to reduce the risk of electrical hazards. Solution to prevent recurrence: Always dry the bathroom thoroughly before using electrical appliances like a hairdryer and educate users about the risks of using such appliances in wet conditions. Normal video description: The video demonstrates the dangers of using a hairdryer in a wet bathroom, highlighting the risk of electric shock and providing safety recommendations.",
+          "risk_description": "",
+          "solution": "",
+          "time_spans": []
+        },
+        "generation": {
+          "temperature": 0.0,
+          "top_p": 0.9,
+          "max_new_tokens": 256,
+          "fps": 1.0,
+          "max_frames": 16,
+          "merge_size": 2
+        },
+        "elapsed_seconds": 23.619
+      }
+    },
+    {
+      "perspective": {
+        "index": 5,
+        "name": "Consequence-Severity-First Perspective",
+        "prompt": "You are acting as a consequence-severity-first reviewer.\nYour task is to focus on whether the potential consequences of a risk event would be serious, hard to reverse, or costly to intervene in. Even if the probability is not the highest, keep the behavior if the realistic potential consequence is severe enough.\n\nFollow these principles:\n- Prioritize behaviors that could realistically lead to severe injury, long-term impact, emergency medical care, lasting functional impairment, or major property or environmental damage.\n- Judge not only whether an accident is likely, but also how costly the consequence would be if it occurred.\n- For borderline cases, analyze whether the most realistic negative consequence is already too significant to ignore.\n- If a behavior may lead to burns from heat, electric shock, falling from height, severe collision, poisoning, suffocation, or other serious outcomes, lean toward keeping it.\n- The standard emphasizes prevention of severe consequences, so low-probability but high-damage scenarios may justify keeping the behavior.\n\nOutput requirements for this perspective:\n- Explain the realistic severity of the possible consequence if the behavior develops into an accident.\n- Do not exaggerate minor or unimportant consequences.\n- Do not rely on extremely rare catastrophic scenarios without realistic support from the video."
+      },
+      "model": {
+        "model_id": "DAMO-NLP-SG/VideoLLaMA3-7B",
+        "backend": "videollama3"
+      },
+      "prompt_file": "/data_4/liuyuan/lifebench/public_data_filter/batch_outputs/web_20260429T170230Z/reviews/web_h264/bilibili__BV18yXKBwEg4/prompts/05_Consequence-Severity-First_Perspective.txt",
+      "output_json": "/data_4/liuyuan/lifebench/public_data_filter/batch_outputs/web_20260429T170230Z/reviews/web_h264/bilibili__BV18yXKBwEg4/agent_outputs/05_Consequence-Severity-First_Perspective.json",
+      "stdout_log": "/data_4/liuyuan/lifebench/public_data_filter/batch_outputs/web_20260429T170230Z/reviews/web_h264/bilibili__BV18yXKBwEg4/logs/05_Consequence-Severity-First_Perspective.stdout.log",
+      "stderr_log": "/data_4/liuyuan/lifebench/public_data_filter/batch_outputs/web_20260429T170230Z/reviews/web_h264/bilibili__BV18yXKBwEg4/logs/05_Consequence-Severity-First_Perspective.stderr.log",
+      "worker_id": null,
+      "gpu_id": null,
+      "returncode": 0,
+      "elapsed_seconds": 0.0,
+      "reused_agent_output": true,
+      "response": "Risk presence: Yes\nLevel 1 scene: kitchen\nLevel 2 subject: middle-aged adult\nLevel 3 risk type: electrical safety\nRisk description: The video shows a person plugging in an appliance, which could pose a risk of electrical shock if not done properly.\nRisk time interval: Unknown\nSolution for person: Ensure that the appliance is unplugged before plugging it back in to avoid electrical shock.\nSolution for hazard source: None\nSolution to prevent recurrence: Always unplug appliances before cleaning or performing maintenance to avoid electrical hazards.",
+      "parsed_decision": {
+        "candidate_behavior": "",
+        "risk_presence_raw": "Yes",
+        "risk_presence": "Yes",
+        "keep_raw": "Yes",
+        "keep": true,
+        "level1_scene": "kitchen",
+        "level2_subject": "middle-aged adult",
+        "level3_risk_type": "electrical safety",
+        "risk_description": "The video shows a person plugging in an appliance, which could pose a risk of electrical shock if not done properly.",
+        "risk_time_interval": "Unknown",
+        "solution_for_person": "Ensure that the appliance is unplugged before plugging it back in to avoid electrical shock.",
+        "solution_for_hazard_source": "None",
+        "solution_to_prevent_recurrence": "Always unplug appliances before cleaning or performing maintenance to avoid electrical hazards.",
+        "normal_video_description": "",
+        "reason": ""
+      },
+      "runner_payload": {
+        "backend": "videollama3",
+        "description": "VideoLLaMA3 7B video chat model",
+        "model_id": "DAMO-NLP-SG/VideoLLaMA3-7B",
+        "model_path": "/data_4/liuyuan/lifebench/models/DAMO-NLP-SG__VideoLLaMA3-7B",
+        "video_path": "/data_4/liuyuan/lifebench/data/public_data/web_h264/bilibili__BV18yXKBwEg4.mp4",
+        "prompt": "You are acting as a consequence-severity-first reviewer.\nYour task is to focus on whether the potential consequences of a risk event would be serious, hard to reverse, or costly to intervene in. Even if the probability is not the highest, keep the behavior if the realistic potential consequence is severe enough.\n\nFollow these principles:\n- Prioritize behaviors that could realistically lead to severe injury, long-term impact, emergency medical care, lasting functional impairment, or major property or environmental damage.\n- Judge not only whether an accident is likely, but also how costly the consequence would be if it occurred.\n- For borderline cases, analyze whether the most realistic negative consequence is already too significant to ignore.\n- If a behavior may lead to burns from heat, electric shock, falling from height, severe collision, poisoning, suffocation, or other serious outcomes, lean toward keeping it.\n- The standard emphasizes prevention of severe consequences, so low-probability but high-damage scenarios may justify keeping the behavior.\n\nOutput requirements for this perspective:\n- Explain the realistic severity of the possible consequence if the behavior develops into an accident.\n- Do not exaggerate minor or unimportant consequences.\n- Do not rely on extremely rare catastrophic scenarios without realistic support from the video.\n\nTask addendum:\nReview the input video and first decide whether the video contains a risk.\nBase your judgment only on the video content. Do not assume facts outside the video, and do not invent extra events.\nJudge the main visible behavior and scene in the video.\nYou must answer based on the provided video input. Do not say that you cannot watch or inspect the video.\nOutput exactly the following English-labeled fields, with no markdown and no extra text:\nRisk presence: Yes / No\nLevel 1 scene: output one scene keyword. Prefer one of: dining room, kitchen, study, balcony, living room, bathroom, yard. If none fits, output your own concise scene keyword.\nLevel 2 subject: output one subject keyword. Prefer one of: child, older adult, young adult, middle-aged adult. If none fits, output your own concise subject keyword.\nLevel 3 risk type: if Risk presence is Yes, output one risk keyword. Prefer one of: fall/instability, heat/fire source, collision/crush injury, sharp-object danger, electrical safety, poisoning/accidental ingestion, interpersonal conflict. If none fits, output your own concise risk keyword. If Risk presence is No, output None.\nRisk description: if Risk presence is Yes, describe the risk in 1-3 sentences. If Risk presence is No, output None.\nRisk time interval: if Risk presence is Yes, localize the risk as seconds like [start,end]. If there are multiple intervals, separate them with semicolons. If the exact interval is unclear, output Unknown. If Risk presence is No, output None.\nSolution for person: if Risk presence is Yes, give a concrete action for the person or caregiver. If Risk presence is No, output None.\nSolution for hazard source: if Risk presence is Yes, give a concrete action for the hazard source or environment. If Risk presence is No, output None.\nSolution to prevent recurrence: if Risk presence is Yes, give a prevention measure to reduce recurrence. If Risk presence is No, output None.\nNormal video description: if Risk presence is No, describe the normal video content in 1-3 sentences. If Risk presence is Yes, output None.",
+        "response": "Risk presence: Yes\nLevel 1 scene: kitchen\nLevel 2 subject: middle-aged adult\nLevel 3 risk type: electrical safety\nRisk description: The video shows a person plugging in an appliance, which could pose a risk of electrical shock if not done properly.\nRisk time interval: Unknown\nSolution for person: Ensure that the appliance is unplugged before plugging it back in to avoid electrical shock.\nSolution for hazard source: None\nSolution to prevent recurrence: Always unplug appliances before cleaning or performing maintenance to avoid electrical hazards.",
+        "parsed_response": {
+          "risk_status": "normal",
+          "has_risk": false,
+          "risk_type": "",
+          "video_description": "Risk presence: Yes Level 1 scene: kitchen Level 2 subject: middle-aged adult Level 3 risk type: electrical safety Risk description: The video shows a person plugging in an appliance, which could pose a risk of electrical shock if not done properly. Risk time interval: Unknown Solution for person: Ensure that the appliance is unplugged before plugging it back in to avoid electrical shock. Solution for hazard source: None Solution to prevent recurrence: Always unplug appliances before cleaning or performing maintenance to avoid electrical hazards.",
+          "safe_segment_desc": "Risk presence: Yes Level 1 scene: kitchen Level 2 subject: middle-aged adult Level 3 risk type: electrical safety Risk description: The video shows a person plugging in an appliance, which could pose a risk of electrical shock if not done properly. Risk time interval: Unknown Solution for person: Ensure that the appliance is unplugged before plugging it back in to avoid electrical shock. Solution for hazard source: None Solution to prevent recurrence: Always unplug appliances before cleaning or performing maintenance to avoid electrical hazards.",
+          "risk_description": "",
+          "solution": "",
+          "time_spans": []
+        },
+        "generation": {
+          "temperature": 0.0,
+          "top_p": 0.9,
+          "max_new_tokens": 256,
+          "fps": 1.0,
+          "max_frames": 16,
+          "merge_size": 2
+        },
+        "elapsed_seconds": 11.996
+      }
+    }
+  ],
+  "majority_vote": {
+    "complete": true,
+    "keep": true,
+    "risk_presence": "Yes",
+    "yes_count": 5,
+    "no_count": 0,
+    "threshold": 3,
+    "votes_cast": 5,
+    "expected_votes": 5,
+    "kept_by_perspectives": [
+      "Daily Behavior Baseline Perspective",
+      "Conservative Safety Perspective",
+      "Permissive Behavior Tolerance Perspective",
+      "Vulnerable-Subject-First Perspective",
+      "Consequence-Severity-First Perspective"
+    ],
+    "rejected_by_perspectives": [],
+    "level1_scene_keywords": [
+      {
+        "keyword": "bathroom",
+        "count": 4
+      },
+      {
+        "keyword": "kitchen",
+        "count": 1
+      }
+    ],
+    "level1_scene_top": "bathroom",
+    "level2_subject_keywords": [
+      {
+        "keyword": "young adult",
+        "count": 4
+      },
+      {
+        "keyword": "middle-aged adult",
+        "count": 1
+      }
+    ],
+    "level2_subject_top": "young adult",
+    "level3_risk_type_keywords": [
+      {
+        "keyword": "electrical safety",
+        "count": 4
+      },
+      {
+        "keyword": "fall/instability",
+        "count": 1
+      }
+    ],
+    "level3_risk_type_top": "electrical safety"
+  }
+}

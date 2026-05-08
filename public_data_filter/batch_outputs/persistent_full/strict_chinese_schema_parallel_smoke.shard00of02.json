@@ -1,0 +1,241 @@
+{
+  "manifest": {
+    "generated_at": "20260427T161121Z",
+    "reviews_root": "/data_4/liuyuan/lifebench/public_data_filter/batch_outputs/persistent_full/reviews",
+    "output_root": "/data_4/liuyuan/lifebench/public_data_filter/batch_outputs/persistent_full",
+    "output_stem": "strict_chinese_schema_parallel_smoke",
+    "effective_output_stem": "strict_chinese_schema_parallel_smoke.shard00of02",
+    "model_path": null,
+    "num_shards": 2,
+    "shard_index": 0,
+    "merged_from_shards": [],
+    "schema": {
+      "风险": [
+        "有",
+        "无"
+      ],
+      "Level 1 场景": [
+        "餐厅",
+        "厨房",
+        "书房",
+        "阳台",
+        "客厅",
+        "卫生间",
+        "庭院"
+      ],
+      "Level 2 主体": [
+        "儿童",
+        "老年人",
+        "年轻人",
+        "中年人"
+      ],
+      "Level 3 风险类型": [
+        "跌倒失稳",
+        "高温火源",
+        "碰撞砸伤",
+        "锐器危险",
+        "用电安全",
+        "中毒误食",
+        "人际冲突",
+        "无"
+      ],
+      "风险定位": "整数秒区间 [start,end]；多个用分号；无风险为 无；来源缺失为 未知"
+    }
+  },
+  "summary": {
+    "processed_videos": 3,
+    "risk_counts": {
+      "无": 3
+    },
+    "method_counts": {
+      "fallback": 3
+    },
+    "rows_with_validation_errors": 0
+  },
+  "results": [
+    {
+      "video_relpath": "Multiple_users_compound_event/data/p101/Cook_Sequence_Afternoon/00101_c5s0.mp4",
+      "video_path": "/data_4/liuyuan/lifebench/data/public_data/Multiple_users_compound_event/data/p101/Cook_Sequence_Afternoon/00101_c5s0.mp4",
+      "summary_json": "/data_4/liuyuan/lifebench/public_data_filter/batch_outputs/persistent_full/reviews/Multiple_users_compound_event/data/p101/Cook_Sequence_Afternoon/00101_c5s0/review_summary.repaired.json",
+      "风险": "无",
+      "Level 1 场景": "厨房",
+      "Level 2 主体": "中年人",
+      "Level 3 风险类型": "无",
+      "正常视频描述或风险描述": "The video shows a person in a white robe and blue slippers performing routine kitchen tasks such as washing dishes and preparing food. The person appears to be engaged in normal daily activities without any signs of distress or unusual behavior.",
+      "风险定位": "无",
+      "解决方案-对人": "无",
+      "解决方案-对危险源": "无",
+      "解决方案-防止危险复发": "无",
+      "formatted_text": "风险：无\n视频内容标注：\nLevel 1：场景：厨房\nLevel 2：主体：中年人\nLevel 3：风险类型：无\n正常视频描述或风险描述：The video shows a person in a white robe and blue slippers performing routine kitchen tasks such as washing dishes and preparing food. The person appears to be engaged in normal daily activities without any signs of distress or unusual behavior.\n风险定位：无\n解决方案：\n对人：无\n对危险源：无\n防止危险复发：无",
+      "extraction_method": "fallback",
+      "validation_errors": [],
+      "source_majority_vote": {
+        "complete": true,
+        "keep": false,
+        "risk_presence": "No",
+        "yes_count": 0,
+        "no_count": 5,
+        "threshold": 3,
+        "votes_cast": 5,
+        "expected_votes": 5,
+        "kept_by_perspectives": [],
+        "rejected_by_perspectives": [
+          "Daily Behavior Baseline Perspective",
+          "Conservative Safety Perspective",
+          "Permissive Behavior Tolerance Perspective",
+          "Vulnerable-Subject-First Perspective",
+          "Consequence-Severity-First Perspective"
+        ],
+        "normal_level1_scene_keywords": [
+          {
+            "keyword": "kitchen",
+            "count": 5
+          }
+        ],
+        "normal_level1_scene_top": "kitchen",
+        "normal_level2_subject_keywords": [
+          {
+            "keyword": "middle-aged adult",
+            "count": 3
+          },
+          {
+            "keyword": "older adult",
+            "count": 1
+          }
+        ],
+        "normal_level2_subject_top": "middle-aged adult",
+        "normal_video_descriptions": [
+          "The video shows a person in a white robe and blue slippers performing routine kitchen tasks such as washing dishes and preparing food. The person appears to be engaged in normal daily activities without any signs of distress or unusual behavior.",
+          "A person in a white robe, pink apron, and blue shoe covers moves around the kitchen, opening the dishwasher, handling items near the sink, and interacting with the stove area. The kitchen is well-lit with natural light, and various kitchen items are visible on the countertops.",
+          "An older adult wearing a white robe and blue shoe covers is seen in a kitchen preparing food at the counter and stove. The individual moves around the room normally, handling items and cooking without any signs of instability or danger.",
+          "The video shows a person in a white protective suit and blue shoe covers entering a kitchen, opening the dishwasher, and then moving around the kitchen to perform tasks at the sink and stove. The kitchen is well-lit and appears to be in use.",
+          "The video shows a person in a white protective suit and blue shoes standing in a kitchen, facing away from the camera. They appear to be engaged in some activity at the counter, possibly cleaning or preparing something. There is no visible risk or hazardous behavior in the scene."
+        ]
+      }
+    },
+    {
+      "video_relpath": "Multiple_users_compound_event/data/p101/Cook_Sequence_Afternoon/00101_c7s0.mp4",
+      "video_path": "/data_4/liuyuan/lifebench/data/public_data/Multiple_users_compound_event/data/p101/Cook_Sequence_Afternoon/00101_c7s0.mp4",
+      "summary_json": "/data_4/liuyuan/lifebench/public_data_filter/batch_outputs/persistent_full/reviews/Multiple_users_compound_event/data/p101/Cook_Sequence_Afternoon/00101_c7s0/review_summary.repaired.json",
+      "风险": "无",
+      "Level 1 场景": "厨房",
+      "Level 2 主体": "年轻人",
+      "Level 3 风险类型": "无",
+      "正常视频描述或风险描述": "The video shows a person in a white outfit and apron working in the kitchen. They are seen opening the refrigerator, taking out items, and then moving to the sink area to wash dishes. The person appears to be engaged in typical kitchen activities.",
+      "风险定位": "无",
+      "解决方案-对人": "无",
+      "解决方案-对危险源": "无",
+      "解决方案-防止危险复发": "无",
+      "formatted_text": "风险：无\n视频内容标注：\nLevel 1：场景：厨房\nLevel 2：主体：年轻人\nLevel 3：风险类型：无\n正常视频描述或风险描述：The video shows a person in a white outfit and apron working in the kitchen. They are seen opening the refrigerator, taking out items, and then moving to the sink area to wash dishes. The person appears to be engaged in typical kitchen activities.\n风险定位：无\n解决方案：\n对人：无\n对危险源：无\n防止危险复发：无",
+      "extraction_method": "fallback",
+      "validation_errors": [],
+      "source_majority_vote": {
+        "complete": true,
+        "keep": false,
+        "risk_presence": "No",
+        "yes_count": 0,
+        "no_count": 5,
+        "threshold": 3,
+        "votes_cast": 5,
+        "expected_votes": 5,
+        "kept_by_perspectives": [],
+        "rejected_by_perspectives": [
+          "Daily Behavior Baseline Perspective",
+          "Conservative Safety Perspective",
+          "Permissive Behavior Tolerance Perspective",
+          "Vulnerable-Subject-First Perspective",
+          "Consequence-Severity-First Perspective"
+        ],
+        "normal_level1_scene_keywords": [
+          {
+            "keyword": "kitchen",
+            "count": 5
+          }
+        ],
+        "normal_level1_scene_top": "kitchen",
+        "normal_level2_subject_keywords": [
+          {
+            "keyword": "young adult",
+            "count": 2
+          },
+          {
+            "keyword": "older adult",
+            "count": 1
+          },
+          {
+            "keyword": "middle-aged adult",
+            "count": 1
+          }
+        ],
+        "normal_level2_subject_top": "young adult",
+        "normal_video_descriptions": [
+          "The video shows a person in a white outfit and apron working in the kitchen. They are seen opening the refrigerator, taking out items, and then moving to the sink area to wash dishes. The person appears to be engaged in typical kitchen activities.",
+          "A person in a white robe and apron is seen opening the refrigerator, moving to the sink area, and working at the counter in a kitchen. Various kitchen items and a cardboard box are visible on the counters.",
+          "An older adult wearing a white outfit and an apron is standing in a kitchen, facing away from the camera. They are positioned near the sink and stove area, appearing to be engaged in routine household activities such as cooking or cleaning. The environment is a standard home kitchen with typical appliances and items visible on the counters.",
+          "The video shows a person in a kitchen wearing a white outfit and an apron. They open the refrigerator, retrieve items, and then move to the stove area to prepare food. The kitchen is well-lit and appears to be in regular use.",
+          "The video shows a person in white protective clothing cleaning and organizing a kitchen. There are no visible risks or hazards in the scene."
+        ]
+      }
+    },
+    {
+      "video_relpath": "Multiple_users_compound_event/data/p101/Cook_Sequence_Morning/00101_c6s0.mp4",
+      "video_path": "/data_4/liuyuan/lifebench/data/public_data/Multiple_users_compound_event/data/p101/Cook_Sequence_Morning/00101_c6s0.mp4",
+      "summary_json": "/data_4/liuyuan/lifebench/public_data_filter/batch_outputs/persistent_full/reviews/Multiple_users_compound_event/data/p101/Cook_Sequence_Morning/00101_c6s0/review_summary.repaired.json",
+      "风险": "无",
+      "Level 1 场景": "厨房",
+      "Level 2 主体": "年轻人",
+      "Level 3 风险类型": "无",
+      "正常视频描述或风险描述": "The video shows a person in a white hoodie and white pants standing at a kitchen sink, washing dishes. The kitchen appears to be cluttered with various items on the counter and floor. The person is focused on their task, and there are no signs of any risk or danger.",
+      "风险定位": "无",
+      "解决方案-对人": "无",
+      "解决方案-对危险源": "无",
+      "解决方案-防止危险复发": "无",
+      "formatted_text": "风险：无\n视频内容标注：\nLevel 1：场景：厨房\nLevel 2：主体：年轻人\nLevel 3：风险类型：无\n正常视频描述或风险描述：The video shows a person in a white hoodie and white pants standing at a kitchen sink, washing dishes. The kitchen appears to be cluttered with various items on the counter and floor. The person is focused on their task, and there are no signs of any risk or danger.\n风险定位：无\n解决方案：\n对人：无\n对危险源：无\n防止危险复发：无",
+      "extraction_method": "fallback",
+      "validation_errors": [],
+      "source_majority_vote": {
+        "complete": true,
+        "keep": false,
+        "risk_presence": "No",
+        "yes_count": 1,
+        "no_count": 4,
+        "threshold": 3,
+        "votes_cast": 5,
+        "expected_votes": 5,
+        "kept_by_perspectives": [
+          "Conservative Safety Perspective"
+        ],
+        "rejected_by_perspectives": [
+          "Daily Behavior Baseline Perspective",
+          "Permissive Behavior Tolerance Perspective",
+          "Vulnerable-Subject-First Perspective",
+          "Consequence-Severity-First Perspective"
+        ],
+        "normal_level1_scene_keywords": [
+          {
+            "keyword": "kitchen",
+            "count": 4
+          }
+        ],
+        "normal_level1_scene_top": "kitchen",
+        "normal_level2_subject_keywords": [
+          {
+            "keyword": "young adult",
+            "count": 2
+          },
+          {
+            "keyword": "middle-aged adult",
+            "count": 1
+          }
+        ],
+        "normal_level2_subject_top": "young adult",
+        "normal_video_descriptions": [
+          "The video shows a person in a white hoodie and white pants standing at a kitchen sink, washing dishes. The kitchen appears to be cluttered with various items on the counter and floor. The person is focused on their task, and there are no signs of any risk or danger.",
+          "A person in white clothing is standing at a kitchen sink, washing dishes and cleaning the area. The scene shows typical kitchen activity with various items on the counter and floor, but no dangerous or abnormal behavior is observed.",
+          "The video shows a kitchen with various items on the counter, including a bottle of soda, paper towels, and some plastic bags. A person in white clothing is seen moving around the kitchen, washing dishes at the sink. The environment appears to be a typical household kitchen with no apparent safety concerns.",
+          "The video shows a person in a white shirt and blue pants standing at a kitchen counter, washing dishes. The kitchen is equipped with various appliances and items on the counter, including a kettle, a toaster, and some food containers. The person appears to be engaged in routine kitchen activities without any apparent risks or hazards."
+        ]
+      }
+    }
+  ]
+}

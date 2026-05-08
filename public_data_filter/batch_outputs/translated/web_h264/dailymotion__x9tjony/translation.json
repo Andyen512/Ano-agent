@@ -1,0 +1,40 @@
+{
+  "video_key": "web_h264/dailymotion__x9tjony",
+  "translations": {
+    "0": {
+      "risk_description": "在倾盆大雨中，一个人在湿滑的街道上奔跑，增加了滑倒的风险。",
+      "normal_video_description": "",
+      "solution_for_person": "此人应放慢脚步，小心行走，以免在湿滑的地面上滑倒。",
+      "solution_for_hazard_source": "城市应确保街道维护良好，并在适当位置设置标志牌，提醒行人注意湿滑情况。",
+      "solution_to_prevent_recurrence": "城市应定期维护街道和人行道，防止雨水积聚，确保暴雨时排水顺畅。"
+    },
+    "1": {
+      "risk_description": "画面中可见一个人在湿滑的街道上滑倒并跌倒，存在因跌倒受伤的风险。",
+      "normal_video_description": "视频显示雨夜街道的场景，背景有露天座位区和钟楼，一个人在停放的汽车附近滑倒并跌倒。",
+      "solution_for_person": "避免在湿滑的表面上快速奔跑或行走，以免滑倒。",
+      "solution_for_hazard_source": "确保排水良好并及时清除街道积水，以降低滑倒危险。",
+      "solution_to_prevent_recurrence": "在湿滑地面上行走时，应穿防滑性能好的鞋子。"
+    },
+    "2": {
+      "risk_description": "",
+      "normal_video_description": "视频显示雨夜的城市街道，背景有星巴克露天座位区、钟楼，还有一人在雨中奔跑。一辆出租车驶过，尽管天气恶劣，整体环境看起来正常。",
+      "solution_for_person": "",
+      "solution_for_hazard_source": "",
+      "solution_to_prevent_recurrence": ""
+    },
+    "3": {
+      "risk_description": "画面中可见一个人在雨中奔跑，可能导致滑倒，尤其在湿滑路面上；此外，街道上有一辆汽车在行驶，存在碰撞风险。",
+      "normal_video_description": "视频显示雨夜场景，一人奔跑、汽车行驶，背景有星巴克和钟楼。",
+      "solution_for_person": "在湿滑地面上行走时，应小心并避免分心。",
+      "solution_for_hazard_source": "司机在湿滑条件下应减速并小心驾驶，以防事故。",
+      "solution_to_prevent_recurrence": "确保街道照明和排水良好，以降低滑倒危险，并在湿滑条件下严格执行限速。"
+    },
+    "4": {
+      "risk_description": "",
+      "normal_video_description": "视频显示夜间露天用餐区，桌椅上撑着雨伞，背景有钟楼的建筑，还有一人经过。",
+      "solution_for_person": "",
+      "solution_for_hazard_source": "",
+      "solution_to_prevent_recurrence": ""
+    }
+  }
+}

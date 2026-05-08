@@ -1,0 +1,40 @@
+{
+  "video_key": "labimag/dataset/chute11/cam2",
+  "translations": {
+    "0": {
+      "risk_description": "这位年轻人正在尝试在垫子上做一个体操动作，这不是一个在自习室里安全的行为。跌倒并受伤的风险很高。",
+      "normal_video_description": "这位年轻人正在尝试在自习室的垫子上做一个体操动作。",
+      "solution_for_person": "应当建议该人在更合适的环境中进行此类活动，例如健身房或专门的游乐区。",
+      "solution_for_hazard_source": "自习室应重新布置，移除任何潜在危险，例如尖锐物品或可能导致受伤的家具。",
+      "solution_to_prevent_recurrence": "应当对该人进行教育，说明在安全环境中进行体育活动的重要性，以及在不适宜的场所进行此类活动的潜在风险。"
+    },
+    "1": {
+      "risk_description": "此人正趴在用胶带固定的大型软垫物体上，这可能无法提供足够的支撑，或会意外移动，从而增加跌落受伤的风险。",
+      "normal_video_description": "一个人走进工作室，靠近一个用胶带固定的大型软垫物体，并在他人注视下趴在其上。",
+      "solution_for_person": "在趴上去之前，要确保软垫物体已正确固定且稳固，必要时使用额外支撑。",
+      "solution_for_hazard_source": "检查软垫物体的稳定性和固定方式，防止其移动。",
+      "solution_to_prevent_recurrence": "使用前对软垫物体进行稳定性测试，确保其已牢固固定在地面上。"
+    },
+    "2": {
+      "risk_description": "",
+      "normal_video_description": "一个年轻人走进一个地板上铺有大白色垫子的房间，跳到垫子上，然后站起来。房间看起来像是自习室或实验室，墙上有各种物品，桌上也有。",
+      "solution_for_person": "",
+      "solution_for_hazard_source": "",
+      "solution_to_prevent_recurrence": ""
+    },
+    "3": {
+      "risk_description": "此人躺在地板上的床垫上，床垫可能不稳，对行动不便或平衡有问题的人来说有跌倒风险。",
+      "normal_video_description": "",
+      "solution_for_person": "躺下之前要确保床垫得到稳固支撑且保持稳定。",
+      "solution_for_hazard_source": "用额外支撑加固床垫，以防倾覆。",
+      "solution_to_prevent_recurrence": "今后使用更稳固的表面或平台来躺卧。"
+    },
+    "4": {
+      "risk_description": "此人正躺在一个大型充气物体上，如果它突然放气或此人滚落，可能会导致受伤。若此人快速移动，也有与周围物体碰撞的风险。",
+      "normal_video_description": "有人走进办公空间，躺在大房间中央的一个大型充气物体上。",
+      "solution_for_person": "在躺上充气物体之前，要确保它安全稳固。移动时要小心，以免跌落。",
+      "solution_for_hazard_source": "",
+      "solution_to_prevent_recurrence": "定期检查充气物体是否有磨损或损坏迹象，以防出现放气或不稳定。"
+    }
+  }
+}

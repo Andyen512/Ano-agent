@@ -1,0 +1,40 @@
+{
+  "video_key": "web_h264/儿童玩具车在家自燃冒烟，孩子被吓一直在哭，妈妈在厕所不知情。#监控下的一幕 #注意安全",
+  "translations": {
+    "0": {
+      "risk_description": "孩子正在玩一个会冒烟的玩具，这可能是一个潜在的火灾隐患。孩子还在房间里四处走动，增加了跌倒或撞到物体的风险。",
+      "normal_video_description": "",
+      "solution_for_person": "在孩子玩玩具时，成人监督是必要的，以确保孩子的安全。",
+      "solution_for_hazard_source": "会冒烟的玩具应该从孩子的游戏区域移除，以降低火灾风险。",
+      "solution_to_prevent_recurrence": "孩子在玩会冒烟的玩具时应该受到监督，游戏区域应该没有潜在危险品。"
+    },
+    "1": {
+      "risk_description": "一辆玩具车在客厅里冒烟，存在火灾或吸入有毒烟雾的风险。",
+      "normal_video_description": "一个孩子在客厅里玩一辆突然开始冒烟的玩具车。",
+      "solution_for_person": "应该立即把孩子从冒烟的玩具车旁边移开。",
+      "solution_for_hazard_source": "应该关闭并拔掉冒烟的玩具车的电源，以停止冒烟。",
+      "solution_to_prevent_recurrence": "确保所有电动玩具定期检查安全状况，不使用时放在儿童接触不到的地方。"
+    },
+    "2": {
+      "risk_description": "客厅里的一辆玩具车正在冒烟，表明存在潜在的火灾隐患。孩子就在附近，直接面临烧伤或吸入烟雾的危险。",
+      "normal_video_description": "",
+      "solution_for_person": "孩子和其他人员应该立即撤离房间并拨打紧急电话。",
+      "solution_for_hazard_source": "应该扑灭冒烟的玩具车并将其从该区域移走，以防止进一步燃烧。",
+      "solution_to_prevent_recurrence": "确保所有电子玩具按照制造商的指南使用，使用时不要无人看管。定期检查玩具是否有磨损或损坏的迹象。"
+    },
+    "3": {
+      "risk_description": "孩子正在玩一辆正在冒烟的玩具车，存在火灾隐患。",
+      "normal_video_description": "",
+      "solution_for_person": "看护者在孩子玩玩具时应该密切监督，并确保立即移除任何有故障的玩具。",
+      "solution_for_hazard_source": "移除或更换有故障的玩具车以防止火灾隐患。",
+      "solution_to_prevent_recurrence": "定期检查玩具是否有任何损坏或故障的迹象，确保儿童远离可能有危险的物品。"
+    },
+    "4": {
+      "risk_description": "孩子正在一个低矮的障碍物附近玩耍，如果他们爬过去，可能会面临跌倒的风险。地板上也有潜在的绊倒危险。",
+      "normal_video_description": "视频显示一个孩子在客厅里在一个低矮的障碍物附近玩耍。可以看到孩子在障碍物附近跑来跑去玩耍。",
+      "solution_for_person": "确保孩子受到监督并远离低矮的障碍物，防止他们爬过去。",
+      "solution_for_hazard_source": "移除障碍物附近地板上的绊倒危险物，以降低跌倒风险。",
+      "solution_to_prevent_recurrence": "安装更高的障碍物或门，以防止孩子进入障碍物另一侧的区域。"
+    }
+  }
+}

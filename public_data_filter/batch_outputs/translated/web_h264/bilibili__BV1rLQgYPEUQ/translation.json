@@ -1,0 +1,40 @@
+{
+  "video_key": "web_h264/bilibili__BV1rLQgYPEUQ",
+  "translations": {
+    "0": {
+      "risk_description": "穿条纹衬衫的年轻人试图与狗互动时倒地。如果倒在坚硬的地面或与狗发生碰撞，可能会造成伤害。",
+      "normal_video_description": "",
+      "solution_for_person": "在与狗互动时应该更加小心，确保站稳以避免摔倒。",
+      "solution_for_hazard_source": "当人与狗互动时，应该让狗保持安全距离，以防止意外碰撞。",
+      "solution_to_prevent_recurrence": "在与狗互动时，应该更加注意周围环境和狗的行为，以防止未来发生类似事件。"
+    },
+    "1": {
+      "risk_description": "一个人被大量狗包围并可能被挤压在密闭空间里，存在被踩踏或被动物伤害的风险。",
+      "normal_video_description": "视频显示一群人和狗在室内游乐区，一些狗躺着，一些狗站着或走动。发生了一起一个人被许多狗包围的事件，导致混乱局面。",
+      "solution_for_person": "当狗处于高能量状态时，保持安全距离以避免被包围。",
+      "solution_for_hazard_source": "密切监督狗之间的互动，确保有足够的空间以防止过度拥挤。",
+      "solution_to_prevent_recurrence": "实施有组织的玩耍时间，明确界限和监督，以管理狗的行为并防止过度拥挤。"
+    },
+    "2": {
+      "risk_description": "",
+      "normal_video_description": "视频显示一群人和许多狗在一个宽敞的室内区域。狗们四处奔跑、跳跃，以玩耍的方式相互互动并与人互动。人们站着、走动，并弯腰与狗互动。这个场景看起来像是狗咖啡馆或类似的环境，允许狗自由走动和社交。视频中没有可见的危险或风险迹象。",
+      "solution_for_person": "",
+      "solution_for_hazard_source": "",
+      "solution_to_prevent_recurrence": ""
+    },
+    "3": {
+      "risk_description": "年轻人被多只狗包围，可能导致碰撞或挤压伤害，特别是如果狗过度兴奋或具有攻击性。",
+      "normal_video_description": "",
+      "solution_for_person": "应该保持冷静，并尝试使用牵引绳或屏障来控制狗，防止过度拥挤。",
+      "solution_for_hazard_source": "环境应确保没有狗可以吞食的小物体，区域应足够宽敞以防止过度拥挤。",
+      "solution_to_prevent_recurrence": "实施更好的监督和培训来管理狗的兴奋程度，确保互动区域安全。"
+    },
+    "4": {
+      "risk_description": "",
+      "normal_video_description": "视频显示一群不同品种和体型的狗在室内环境中，可能是在宠物美容或日托设施。它们之间以及与人互动，包括一个躺在地板上被狗包围的人。",
+      "solution_for_person": "",
+      "solution_for_hazard_source": "",
+      "solution_to_prevent_recurrence": ""
+    }
+  }
+}

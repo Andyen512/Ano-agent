@@ -1,0 +1,40 @@
+{
+  "video_key": "toyota_smarthome_mp4/mp4/Makecoffee.Pourwater_p09_r00_v14_c06",
+  "translations": {
+    "0": {
+      "risk_description": "视频中的人正在伸手够高处的架子，如果失去平衡或脚踩不稳，可能会导致跌倒或失去稳定。",
+      "normal_video_description": "",
+      "solution_for_person": "需要够高处的架子时，应该使用踏脚凳或请人帮助，以避免跌倒的风险。",
+      "solution_for_hazard_source": "厨房应当整理有序，尽量减少够高处的需求，必要的物品应放在容易取到的位置。",
+      "solution_to_prevent_recurrence": "应提醒人们在够高处的架子时使用合适的安全措施，例如使用踏脚凳或请人帮助。应定期进行安全检查，确保厨房整洁且对所有使用者安全。"
+    },
+    "1": {
+      "risk_description": "该人正俯身于厨房岛台上，向放在高处的电脑主机伸手。这种姿势会增加失去平衡和跌倒的风险，可能导致受伤。",
+      "normal_video_description": "有一个人位于厨房中，正在与放在厨房岛台附近高处的电脑主机互动。",
+      "solution_for_person": "在向上伸手时，应保持稳定的站姿，避免俯身在岛台上。",
+      "solution_for_hazard_source": "为减少人站在岛台上伸手够高的需求，电脑主机应放置在更低、更易取的高度。",
+      "solution_to_prevent_recurrence": "确保高处的架子仅用于放置不需要在低处站立时伸手够取的物品。"
+    },
+    "2": {
+      "risk_description": "",
+      "normal_video_description": "一位中年成年人正站在现代厨房里，似乎在操作台烹饪或准备食物。环境干净明亮，没有明显的危险或不安全行为。",
+      "solution_for_person": "",
+      "solution_for_hazard_source": "",
+      "solution_to_prevent_recurrence": ""
+    },
+    "3": {
+      "risk_description": "有人在操作台附近使用尖锐物品，这可能会造成割伤或受伤风险，尤其是对于可能灵活性下降或反应较慢的老年人。",
+      "normal_video_description": "",
+      "solution_for_person": "确保该人使用正确的操作技巧，并在可能的情况下考虑使用更安全的替代品。",
+      "solution_for_hazard_source": "尖锐物品在不使用时应当安全存放，以防意外接触。",
+      "solution_to_prevent_recurrence": "实施安全措施，如使用砧板，并在不主动使用尖锐物品时将其放在够不到的地方。"
+    },
+    "4": {
+      "risk_description": "",
+      "normal_video_description": "一个男人正站在现代厨房里，搅拌炉子上锅里的东西。他似乎在烹饪，偶尔看向墙上挂着的电视屏幕。",
+      "solution_for_person": "",
+      "solution_for_hazard_source": "",
+      "solution_to_prevent_recurrence": ""
+    }
+  }
+}

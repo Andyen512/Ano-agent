@@ -1,0 +1,40 @@
+{
+  "video_key": "toyota_smarthome_mp4/mp4/Getup_p06_r01_v26_c01",
+  "translations": {
+    "0": {
+      "risk_description": "老年人因餐厅地面的凌乱和湿滑而存在跌倒风险。",
+      "normal_video_description": "老年人坐在餐厅的桌旁，一边吃饭一边看书。",
+      "solution_for_person": "护理人员应帮助老年人清理地面并排除潜在危险。",
+      "solution_for_hazard_source": "护理人员应确保地面清洁干燥，任何溢出或潮湿处应立即擦拭干净。",
+      "solution_to_prevent_recurrence": "护理人员应定期检查地面是否存在危险，并采取措施防止再次跌倒。"
+    },
+    "1": {
+      "risk_description": "老年人正从桌旁的椅子上站起，这可能增加失去平衡和跌倒的风险，尤其是椅子不稳或该人有行动障碍时。",
+      "normal_video_description": "老年人在学习区的桌旁坐着，然后从椅子上站起来。",
+      "solution_for_person": "站起前确保椅子稳固，并考虑在起身时使用扶手或他人协助。",
+      "solution_for_hazard_source": "",
+      "solution_to_prevent_recurrence": "在座位附近安装扶手杆，并确保地面没有绊倒的危险。"
+    },
+    "2": {
+      "risk_description": "",
+      "normal_video_description": "老年人在书房里坐在桌旁翻看文件，然后站起来离开。该行为正常，没有风险。",
+      "solution_for_person": "",
+      "solution_for_hazard_source": "",
+      "solution_to_prevent_recurrence": ""
+    },
+    "3": {
+      "risk_description": "老年人靠在椅背上，这可能导致椅子倾斜，造成跌倒或不稳。",
+      "normal_video_description": "",
+      "solution_for_person": "老年人应确保坐姿稳固，避免过度向后靠。",
+      "solution_for_hazard_source": "椅子应稳固安全，防止倾斜。",
+      "solution_to_prevent_recurrence": "使用底座更宽或带有额外稳定装置的椅子，以防止倾斜。"
+    },
+    "4": {
+      "risk_description": "",
+      "normal_video_description": "老年人坐在餐厅的桌旁，在纸上写字。环境看起来安全，没有明显的危险或风险。",
+      "solution_for_person": "",
+      "solution_for_hazard_source": "",
+      "solution_to_prevent_recurrence": ""
+    }
+  }
+}

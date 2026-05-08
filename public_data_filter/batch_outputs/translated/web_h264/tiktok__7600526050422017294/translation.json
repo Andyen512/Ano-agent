@@ -1,0 +1,40 @@
+{
+  "video_key": "web_h264/tiktok__7600526050422017294",
+  "translations": {
+    "0": {
+      "risk_description": "这个孩子正在地板上爬，看起来不稳定，可能导致摔倒。",
+      "normal_video_description": "",
+      "solution_for_person": "看护者应密切关注孩子并在必要时提供支撑，帮助他们保持平衡。",
+      "solution_for_hazard_source": "地板应保持清洁，没有任何可能导致孩子绊倒或失去平衡的障碍物。",
+      "solution_to_prevent_recurrence": "看护者应教导孩子如何安全爬行，并在必要时提供支撑以防止摔倒。"
+    },
+    "1": {
+      "risk_description": "可以看到孩子在硬木地板上爬、站、跌倒，这存在跌倒受伤的风险。",
+      "normal_video_description": "在客厅环境中，可以看到一名幼儿在木地板上爬、站、跌倒。",
+      "solution_for_person": "密切监督孩子并确保他们穿着合适的鞋子，以降低滑倒的风险。",
+      "solution_for_hazard_source": "",
+      "solution_to_prevent_recurrence": "在孩子经常爬或站的地方放置柔软的玩耍垫或地毯，以缓冲可能的跌倒。"
+    },
+    "2": {
+      "risk_description": "",
+      "normal_video_description": "一个穿着碎花上衣和白色短裤的幼儿在客厅的木地板上走路、踉跄并跌倒，孩子很快站起来继续在房间里走动。",
+      "solution_for_person": "",
+      "solution_for_hazard_source": "",
+      "solution_to_prevent_recurrence": ""
+    },
+    "3": {
+      "risk_description": "孩子在硬地板上摔倒，如果撞到头部或其他身体部位，可能会增加受伤的风险。",
+      "normal_video_description": "",
+      "solution_for_person": "确保孩子得到密切监督，并提供柔软的表面（如地毯）供其跌倒时使用。",
+      "solution_for_hazard_source": "在孩子玩耍的区域增加更多的缓冲或柔软表面，以减轻跌倒的冲击。",
+      "solution_to_prevent_recurrence": "教导孩子如何安全地在跌倒后站起来，并确保游戏区域没有绊倒危险。"
+    },
+    "4": {
+      "risk_description": "孩子在地毯上行走，然后摔到地板上，可能导致轻微的伤害，如瘀伤或擦伤。但如果孩子从更高的地方或碰到硬物摔倒，可能会导致更严重的后果。",
+      "normal_video_description": "视频显示一名幼儿在地毯上行走，然后摔到地板上。",
+      "solution_for_person": "看护者应留意孩子的动作，必要时提供支撑，以防止跌倒。",
+      "solution_for_hazard_source": "",
+      "solution_to_prevent_recurrence": "确保孩子在行走时受到监督并得到适当支撑，以降低跌倒的风险。"
+    }
+  }
+}

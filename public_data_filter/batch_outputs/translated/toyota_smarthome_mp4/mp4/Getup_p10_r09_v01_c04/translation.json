@@ -1,0 +1,40 @@
+{
+  "video_key": "toyota_smarthome_mp4/mp4/Getup_p10_r09_v01_c04",
+  "translations": {
+    "0": {
+      "risk_description": "老年人弯腰趴在桌子上，这可能会增加跌倒或不稳的风险。",
+      "normal_video_description": "老年人在客厅的绿色沙发上坐着看书。然后他们弯腰趴在桌子上，可能是要捡东西或调整物品。",
+      "solution_for_person": "确保老年人在移动或弯腰趴在家具上时有适当的支撑和帮助。",
+      "solution_for_hazard_source": "移除客厅地板上任何可能导致绊倒的危险物品或障碍物。",
+      "solution_to_prevent_recurrence": "定期检查客厅是否存在潜在危险，并确保老年人在需要时得到适当的支撑和帮助。"
+    },
+    "1": {
+      "risk_description": "",
+      "normal_video_description": "一位老年人坐在客厅的绿色组合沙发上，然后站起来弯腰从咖啡桌附近的地板上捡东西。",
+      "solution_for_person": "",
+      "solution_for_hazard_source": "",
+      "solution_to_prevent_recurrence": ""
+    },
+    "2": {
+      "risk_description": "",
+      "normal_video_description": "一位老年人坐在客厅的绿色沙发上，调整衣服，然后向前倾身去够地板上的物品。这个场景描绘的是日常活动，看不出明显的危险或不稳定的迹象。",
+      "solution_for_person": "",
+      "solution_for_hazard_source": "",
+      "solution_to_prevent_recurrence": ""
+    },
+    "3": {
+      "risk_description": "老年人弯腰趴在沙发和咖啡桌上，这可能会增加跌倒的风险，因为可能存在不稳定或行动受限的情况。",
+      "normal_video_description": "",
+      "solution_for_person": "确保老年人在弯腰时有支撑或稳定的表面可以依靠。",
+      "solution_for_hazard_source": "清理沙发和桌子周围的区域，以提供更多空间和稳定性。",
+      "solution_to_prevent_recurrence": "在经常需要弯腰的区域放置防滑垫或垫子，以降低跌倒风险。"
+    },
+    "4": {
+      "risk_description": "老年人弯腰从地板上捡东西，如果不小心可能会导致跌倒。跌倒可能导致严重伤害，尤其是对老年人来说。",
+      "normal_video_description": "可以看到一位老年人在客厅环境中弯腰从地板上捡东西。",
+      "solution_for_person": "在从地板上捡东西之前，确保该人具有良好的平衡感和支撑。",
+      "solution_for_hazard_source": "",
+      "solution_to_prevent_recurrence": "鼓励在容易跌倒的区域使用辅助设备，如扶手杆或防滑垫。"
+    }
+  }
+}

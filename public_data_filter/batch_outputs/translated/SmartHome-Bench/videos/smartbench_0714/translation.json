@@ -1,0 +1,40 @@
+{
+  "video_key": "SmartHome-Bench/videos/smartbench_0714",
+  "translations": {
+    "0": {
+      "risk_description": "这位年轻人手里拿着一个箱子，似乎很匆忙，这增加了在阳台上绊倒或失去平衡的风险。",
+      "normal_video_description": "",
+      "solution_for_person": "这位年轻人应该慢慢来，确保在阳台上走动前站稳脚跟。",
+      "solution_for_hazard_source": "应检查阳台地面是否有潜在危险，例如湿滑处或松动的木板，可能会导致摔倒。",
+      "solution_to_prevent_recurrence": "应提醒这位年轻人在阳台走动时保持警惕，任何潜在危险都应及时处理，以防再发生事故。"
+    },
+    "1": {
+      "risk_description": "这位年轻人在狭窄的阳台上拿着多件物品并带着一个小孩，增加了绊倒、失去平衡或跌倒的风险。",
+      "normal_video_description": "一位年轻人带着一个箱子和一个小孩走在狭窄的阳台上，放下箱子，打开它，然后迅速离开画面。",
+      "solution_for_person": "该人应确保一次不要携带过多物品，并牢牢抱住小孩以保持平衡。",
+      "solution_for_hazard_source": "",
+      "solution_to_prevent_recurrence": "该人不应在阳台等狭窄表面上同时携带多件物品和小孩。"
+    },
+    "2": {
+      "risk_description": "",
+      "normal_video_description": "一位年轻人在夜间拿着一个箱子和一个袋子走在户外走廊。一个小孩短暂跑过她身边，随后她继续朝镜头走来并离开画面。",
+      "solution_for_person": "",
+      "solution_for_hazard_source": "",
+      "solution_to_prevent_recurrence": ""
+    },
+    "3": {
+      "risk_description": "孩子在阳台上奔跑，存在跌倒或碰撞物体的风险，尤其是在玩具和婴儿车在场的情况下。",
+      "normal_video_description": "",
+      "solution_for_person": "确保孩子得到密切监督，并远离阳台边缘。",
+      "solution_for_hazard_source": "清除或固定阳台上松散的物品和玩具，以防止绊倒或碰撞。",
+      "solution_to_prevent_recurrence": "在阳台边缘安装安全门或防护栏，并在孩子在此区域时定期监督。"
+    },
+    "4": {
+      "risk_description": "该人背着孩子，如果不慎可能导致摔倒。特别令人担忧的是，他们正走在狭窄的走廊里，活动空间有限。",
+      "normal_video_description": "一个人在狭窄的走廊里背着孩子行走，似乎很匆忙，可能没有密切注意周围环境。",
+      "solution_for_person": "确保背着孩子的人在走廊行走时保持步伐稳定、平衡良好。他们还应注意可能使其失足的任何障碍物或不平整表面。",
+      "solution_for_hazard_source": "",
+      "solution_to_prevent_recurrence": "鼓励该人在背孩子时采用正确的搬运方式，如膝盖弯曲并将孩子贴近身体。同时要注意周围环境，避免潜在危险的区域。"
+    }
+  }
+}

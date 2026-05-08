@@ -1,0 +1,40 @@
+{
+  "video_key": "toyota_smarthome_mp4/mp4/Drink.Fromcup_p19_r04_v12_c06",
+  "translations": {
+    "0": {
+      "risk_description": "这位老年人站在椅子上够顶层的架子，这是一个潜在的跌倒危险。厨房的操作台上堆满了各种物品，这也可能导致不稳定。",
+      "normal_video_description": "这位老年人站在厨房里，在操作台上准备食物。厨房是现代化的，照明良好，中央有一个大岛台。背景中有一台电视，操作台上有一株植物。",
+      "solution_for_person": "让护理人员或家庭成员帮助这位老年人够到顶层架子上的物品，或者提供一个有适当支撑和平衡的脚凳。",
+      "solution_for_hazard_source": "清理厨房操作台上的杂物，以减少绊倒或失去平衡的风险。",
+      "solution_to_prevent_recurrence": "定期检查这位老年人的生活环境的稳定性，并根据需要提供支持，以防止跌倒和受伤。"
+    },
+    "1": {
+      "risk_description": "一个人在点燃的炉灶上端锅，如果火焰太高或锅被意外碰倒，会造成烧伤风险。",
+      "normal_video_description": "一位老年人在现代化的厨房里做饭，穿着橙色衬衫，在点燃的炉灶上搅拌锅里的食物。",
+      "solution_for_person": "确保火焰保持在安全水平，并与锅保持安全距离以避免烧伤。",
+      "solution_for_hazard_source": "验证炉灶的火焰高度是否适合锅的尺寸和内容物。",
+      "solution_to_prevent_recurrence": "始终监控明火，并使易燃物品远离炉灶。"
+    },
+    "2": {
+      "risk_description": "",
+      "normal_video_description": "一位老年人站在现代化的厨房里，手里拿着一个红色杯子，正在饮用，同时站在有锅的炉灶附近。环境看起来是安全的，活动是正常的日常家庭行为。",
+      "solution_for_person": "",
+      "solution_for_hazard_source": "",
+      "solution_to_prevent_recurrence": ""
+    },
+    "3": {
+      "risk_description": "老年人拿着一个红色物体靠近炉灶上的锅，如果这是一个尖锐物体或者他们在活跃热源附近操作不当，可能会带来风险。",
+      "normal_video_description": "",
+      "solution_for_person": "确保老年人在处理锅或任何靠近炉灶的尖锐物体时使用隔热手套或布。",
+      "solution_for_hazard_source": "将尖锐物体和烹饪用具在不用时安全存放，以防止意外接触。",
+      "solution_to_prevent_recurrence": "在烹饪时监督老年人，确保他们有适当的工具和防护装备，以最大限度地降低风险。"
+    },
+    "4": {
+      "risk_description": "",
+      "normal_video_description": "一位老年人站在现代化的厨房里，手里拿着一个红色杯子，一边在炉灶上做饭一边喝东西。厨房配备了当代电器，外观干净整洁。",
+      "solution_for_person": "",
+      "solution_for_hazard_source": "",
+      "solution_to_prevent_recurrence": ""
+    }
+  }
+}

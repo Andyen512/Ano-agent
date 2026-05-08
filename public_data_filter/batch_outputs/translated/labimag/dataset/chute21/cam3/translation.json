@@ -1,0 +1,40 @@
+{
+  "video_key": "labimag/dataset/chute21/cam3",
+  "translations": {
+    "0": {
+      "risk_description": "视频中看到这位年轻成年人走过房间，然后突然摔倒在地。这种行为与正常日常的行走和坐在椅子上的活动不同，可能导致受伤。",
+      "normal_video_description": "视频显示一名年轻成年人走过房间，然后突然摔倒在地。",
+      "solution_for_person": "应帮助此人正确坐在椅子上，以防止跌倒。",
+      "solution_for_hazard_source": "应使地面更稳固安全，以防止滑倒和跌倒。",
+      "solution_to_prevent_recurrence": "应监测并帮助此人在行走和坐下时防止跌倒。"
+    },
+    "1": {
+      "risk_description": "看到穿红色衬衫的人俯卧在地上，这存在跌倒或无法站起的受伤风险。",
+      "normal_video_description": "视频显示一个配有各种家具和设备的房间。一名穿红色衬衫的人进入房间，坐在椅子上，随后俯卧在地上，旁边还有另一个人站着。",
+      "solution_for_person": "确保此人在房间内移动时受到监督和帮助，以防止跌倒。",
+      "solution_for_hazard_source": "",
+      "solution_to_prevent_recurrence": "保持地面无障碍物，确保穿着合适的鞋子，以降低滑倒或绊倒的风险。"
+    },
+    "2": {
+      "risk_description": "一名穿红色衬衫的人走进房间，坐在椅子上，然后突然向后倒在地上。这种从坐姿突然失去平衡并跌倒表示一次明显的不稳定事件。",
+      "normal_video_description": "",
+      "solution_for_person": "应立即检查此人是否受伤，特别是头部和背部，并在必要时寻求医疗帮助。",
+      "solution_for_hazard_source": "确保椅子稳固且状况良好，并考虑在地面放置垫子或软垫，以防跌倒。",
+      "solution_to_prevent_recurrence": "鼓励此人在坐下和站立时保持谨慎，并确保环境没有绊倒危险。"
+    },
+    "3": {
+      "risk_description": "穿红色衬衫的人摔倒在地，这可能导致受伤风险，特别是对行动不便或平衡问题的人。",
+      "normal_video_description": "",
+      "solution_for_person": "确保此人了解周围环境，并采取措施防止滑倒或绊倒。",
+      "solution_for_hazard_source": "清除地面上任何可能的绊倒危险，如电缆或小物品。",
+      "solution_to_prevent_recurrence": "进行平衡练习，确保居住区域光线充足且无障碍物。"
+    },
+    "4": {
+      "risk_description": "穿红色衬衫的人在有地面标记线的房间里走动，这可能是绊倒危险。他们绊倒并跌倒，表明因地面不稳而有受伤风险。",
+      "normal_video_description": "",
+      "solution_for_person": "确保地面没有任何障碍物或绊倒危险，以防止跌倒。",
+      "solution_for_hazard_source": "清除地面上可能导致绊倒的物体或标记。",
+      "solution_to_prevent_recurrence": "定期检查房间是否存在潜在危险并及时处理。"
+    }
+  }
+}

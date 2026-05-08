@@ -1,0 +1,40 @@
+{
+  "video_key": "web_h264/bilibili__BV18usse3Emo",
+  "translations": {
+    "0": {
+      "risk_description": "孩子在水边玩耍，存在潜在的跌落危险。孩子没有穿戴任何安全防护装备，且附近没有成年人监护。",
+      "normal_video_description": "",
+      "solution_for_person": "在水边玩耍时，应提供成人监护以确保孩子的安全。",
+      "solution_for_hazard_source": "应在水边安装护栏或围栏等防护设施，以防跌落。",
+      "solution_to_prevent_recurrence": "应定期进行安全检查，确保儿童在危险区域玩耍时必须有成人监护。"
+    },
+    "1": {
+      "risk_description": "孩子们在水体边缘玩耍，存在掉入水中或在不平的混凝土表面失去平衡的风险。",
+      "normal_video_description": "孩子们在水体附近玩耍，其中一个孩子在水中，其他人在混凝土边缘。",
+      "solution_for_person": "应密切监督儿童，并让他们与水边保持安全距离。",
+      "solution_for_hazard_source": "安装护栏或警示标志，防止儿童在无人看管的情况下靠近水边。",
+      "solution_to_prevent_recurrence": "教育儿童关于在水体附近玩耍的危险，并严格执行安全规则。"
+    },
+    "2": {
+      "risk_description": "看到一个孩子站在池塘边，随后跌入水中，造成明显的溺水危险。这种行为明显超出正常玩耍的范围，因为直接掉入深水中。",
+      "normal_video_description": "",
+      "solution_for_person": "成年人或看护者必须立即介入，将孩子从水中拉出并确保其安全。",
+      "solution_for_hazard_source": "水体应设有围栏或覆盖，以防止儿童在无人看管时进入。",
+      "solution_to_prevent_recurrence": "父母和监护人应在任何水源附近严格监督儿童，并教育他们水的危险性。"
+    },
+    "3": {
+      "risk_description": "孩子靠近水边，存在跌入水中的风险，尤其是在无人看管的情况下。",
+      "normal_video_description": "",
+      "solution_for_person": "确保在水边时对儿童进行持续监护，防止其跌入水中。",
+      "solution_for_hazard_source": "安装护栏或围栏以阻止进入水边。",
+      "solution_to_prevent_recurrence": "当儿童靠近水体时，应加强安全意识与监护，防止事故发生。"
+    },
+    "4": {
+      "risk_description": "孩子在水边玩耍，存在跌入水中的风险，同时也可能因地面不平而导致失衡。",
+      "normal_video_description": "视频显示一个孩子在成人附近的水边玩耍。",
+      "solution_for_person": "确保对儿童进行监护，并让其与水边保持安全距离。",
+      "solution_for_hazard_source": "",
+      "solution_to_prevent_recurrence": "在水边周围安装围栏或护栏，以防止儿童意外跌入水中。"
+    }
+  }
+}

@@ -1,0 +1,40 @@
+{
+  "video_key": "SmartHome-Bench/videos/smartbench_0067",
+  "translations": {
+    "0": {
+      "risk_description": "这位年轻人坐在放在人行道上的躺椅的扶手上，椅子不稳，容易倾倒，可能导致该人摔倒并受伤。",
+      "normal_video_description": "",
+      "solution_for_person": "应建议此人坐在更稳固的地方，如屋内或使用专为户外设计的其他座椅。",
+      "solution_for_hazard_source": "应将椅子从人行道上移走，放置在更合适的位置，以防止进一步的不稳和可能的跌倒。",
+      "solution_to_prevent_recurrence": "应教育此人坐在稳固座椅的重要性以及坐在不稳表面上的潜在危险，并应对环境进行监测，及时发现其他可能导致跌倒或受伤的隐患。"
+    },
+    "1": {
+      "risk_description": "某人正坐在一把被推向街道的躺椅上，存在从椅子上摔下或被过往车辆撞到的风险。",
+      "normal_video_description": "视频显示一个住宅区，车道上有两辆停放的卡车。有人坐在一把被沿人行道推入街道的躺椅上。",
+      "solution_for_person": "在躺椅被移动时，尤其在街道附近时，人不应坐在上面。",
+      "solution_for_hazard_source": "不应以这种方式把躺椅推入街道。",
+      "solution_to_prevent_recurrence": "确保重型家具的移动方式不会导致倾倒或对行人或车辆造成危险。"
+    },
+    "2": {
+      "risk_description": "某人正坐在一把失控滚下人行道并冲进街道的大扶手椅上，表明其稳定性严重下降，跌倒或碰撞的风险很高。",
+      "normal_video_description": "",
+      "solution_for_person": "此人应立即固定椅子或离开椅子，以防止继续失控移动并造成伤害。",
+      "solution_for_hazard_source": "应将扶手椅移至稳固位置或固定，以防止其滚动。",
+      "solution_to_prevent_recurrence": "确保大型、不稳固的家具不要留在可能滚动或倾倒的区域，尤其是靠近道路或人行道的地方。"
+    },
+    "3": {
+      "risk_description": "老人正坐在人行道上的躺椅中，如果他们尝试移动或椅子倾倒，都存在跌倒风险。",
+      "normal_video_description": "",
+      "solution_for_person": "老人应确保椅子稳固，并考虑转移到更安全的位置，如车道或车库。",
+      "solution_for_hazard_source": "将躺椅移走或固定，以防止在人行道上倾倒。",
+      "solution_to_prevent_recurrence": "将躺椅放置在稳固的室内位置，或如果用于户外，则确保其已固定。"
+    },
+    "4": {
+      "risk_description": "滑板骑行者由于滑板本身不稳以及车道表面不平整，有摔倒风险，可能导致严重伤害。",
+      "normal_video_description": "",
+      "solution_for_person": "确保滑板稳固，骑行者佩戴头盔和护膝等防护装备。",
+      "solution_for_hazard_source": "清除车道上的障碍物或不平整表面，使滑板运动更安全。",
+      "solution_to_prevent_recurrence": "定期检查滑板是否有损坏或磨损，这些可能导致不稳定。"
+    }
+  }
+}

@@ -1,0 +1,40 @@
+{
+  "video_key": "toyota_smarthome_mp4/mp4/Drink.Fromcan_p03_r05_v07_c05",
+  "translations": {
+    "0": {
+      "risk_description": "",
+      "normal_video_description": "视频中，一个年轻人坐在客厅的绿色沙发上，看电视。这个人看起来很放松，正专注于屏幕上的内容。客厅光线充足，沙发前有一张白色咖啡桌，旁边有一个放在边桌上的盆栽。整体氛围宁静舒适。",
+      "solution_for_person": "",
+      "solution_for_hazard_source": "",
+      "solution_to_prevent_recurrence": ""
+    },
+    "1": {
+      "risk_description": "",
+      "normal_video_description": "一个年轻人坐在客厅的沙发上，看电视，偶尔伸手去拿咖啡桌上的物品。房间光线充足，看起来很整洁。",
+      "solution_for_person": "",
+      "solution_for_hazard_source": "",
+      "solution_to_prevent_recurrence": ""
+    },
+    "2": {
+      "risk_description": "",
+      "normal_video_description": "一个年轻人坐在客厅的绿色沙发上，看电视，并与咖啡桌上的物品互动。场景展示了日常家庭活动，没有明显危险或异常行为的迹象。",
+      "solution_for_person": "",
+      "solution_for_hazard_source": "",
+      "solution_to_prevent_recurrence": ""
+    },
+    "3": {
+      "risk_description": "",
+      "normal_video_description": "一个人坐在客厅的绿色沙发上，看电视，并与咖啡桌上的物品互动。房间光线充足，似乎是一个典型的客厅空间。",
+      "solution_for_person": "",
+      "solution_for_hazard_source": "",
+      "solution_to_prevent_recurrence": ""
+    },
+    "4": {
+      "risk_description": "",
+      "normal_video_description": "一名男子坐在客厅的绿色沙发上，看电视。他看起来很放松，正专注于屏幕上的内容。",
+      "solution_for_person": "",
+      "solution_for_hazard_source": "",
+      "solution_to_prevent_recurrence": ""
+    }
+  }
+}

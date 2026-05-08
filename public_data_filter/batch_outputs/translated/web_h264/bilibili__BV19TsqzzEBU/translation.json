@@ -1,0 +1,40 @@
+{
+  "video_key": "web_h264/bilibili__BV19TsqzzEBU",
+  "translations": {
+    "0": {
+      "risk_description": "视频显示一名年轻人与另一个人发生肢体冲突，这是一种明显的人际冲突风险。该行为偏离了年轻人正常的日常行为，后者通常以和平互动和社交为特征。",
+      "normal_video_description": "视频显示一名年轻人与另一个人发生肢体冲突，这是一种明显的人际冲突风险。该行为偏离了年轻人正常的日常行为，后者通常以和平互动和社交为特征。",
+      "solution_for_person": "发生冲突的人员应与另一方分开，以防止冲突进一步升级。",
+      "solution_for_hazard_source": "应监测环境以确保不再发生事故，并应解决导致冲突的任何潜在问题。",
+      "solution_to_prevent_recurrence": "应实施定期沟通和冲突解决培训，以减少未来事件发生的可能性。"
+    },
+    "1": {
+      "risk_description": "电吹风在使用过程中起火，对儿童构成烧伤和烟雾吸入风险。",
+      "normal_video_description": "视频显示一名妇女在儿童身上使用电吹风时突然起火，导致紧急救援。",
+      "solution_for_person": "立即停止使用电吹风，并将儿童远离热源。",
+      "solution_for_hazard_source": "立即拔掉电吹风插头，并确保在使用前由专业人员进行检查。",
+      "solution_to_prevent_recurrence": "使用具有自动关闭功能的电吹风，并在使用过程中不要无人看管。"
+    },
+    "2": {
+      "risk_description": "电吹风在使用过程中突然起火并冒烟，对儿童造成即时火灾危险。当火花落在儿童衣服上时，情况升级，表明存在直接且真实的危险。",
+      "normal_video_description": "",
+      "solution_for_person": "立即停止使用电吹风，移开儿童，并扑灭任何火焰或烟雾。",
+      "solution_for_hazard_source": "拔掉电吹风插头并检查是否有损坏或故障。",
+      "solution_to_prevent_recurrence": "用新的安全电器更换电吹风，并确保定期维护电气设备。"
+    },
+    "3": {
+      "risk_description": "电吹风在使用过程中起火，对儿童构成严重的烧伤或火灾蔓延风险。",
+      "normal_video_description": "",
+      "solution_for_person": "看护者应立即停止使用电吹风，并远离儿童以防止任何潜在的烧伤。",
+      "solution_for_hazard_source": "应检查电吹风并进行维修或更换，以确保未来不会造成火灾风险。",
+      "solution_to_prevent_recurrence": "确保电吹风和其他电器在安全环境中使用，远离易燃材料和儿童。"
+    },
+    "4": {
+      "risk_description": "由于儿童位置不稳定且成人试图在他们身上绑绳子，孩子有从椅子上摔下来的风险，这可能导致失去平衡。",
+      "normal_video_description": "",
+      "solution_for_person": "确保儿童在椅子上安全就座，并有适当的支撑和监督以防止跌倒。",
+      "solution_for_hazard_source": "移除任何可能导致儿童在椅子上坐着时失去平衡的潜在危险或障碍物。",
+      "solution_to_prevent_recurrence": "提供适合年龄的活动和监督，以最大限度地减少类似情况下的跌倒风险。"
+    }
+  }
+}

@@ -1,0 +1,40 @@
+{
+  "video_key": "UR_Fall_Dataset/fall-07-cam1",
+  "translations": {
+    "0": {
+      "risk_description": "视频中的年轻人正在客厅里走动，突然摔倒在地，提示存在不稳或失去平衡的风险。",
+      "normal_video_description": "",
+      "solution_for_person": "应让护理人员协助该人，以确保其不受伤害并防止再次跌倒。",
+      "solution_for_hazard_source": "危险源是客厅地板，可能光滑或不平，导致该人失去平衡。",
+      "solution_to_prevent_recurrence": "护理人员应确保客厅地板清洁且无任何可能导致该人绊倒或滑倒的障碍物，并协助该人在客厅走动时保持平衡和稳定。"
+    },
+    "1": {
+      "risk_description": "该人失去平衡摔倒在地，可能导致受伤。",
+      "normal_video_description": "一个穿蓝色衬衫的人在有家具的房间里走动，失去平衡，摔倒在地。",
+      "solution_for_person": "避免可能导致失去平衡的突然动作或干扰。",
+      "solution_for_hazard_source": "",
+      "solution_to_prevent_recurrence": "确保地面没有绊倒危险，并保持对周围环境的警觉。"
+    },
+    "2": {
+      "risk_description": "该人失去平衡向后倒在地板上，表明发生了超出正常活动的明显不稳事件。",
+      "normal_video_description": "",
+      "solution_for_person": "该人应立即站起并检查是否受伤，如疼痛或不适持续，应考虑就医。",
+      "solution_for_hazard_source": "确保地面无障碍物并提供更好的照明，以防止类似事件再次发生。",
+      "solution_to_prevent_recurrence": "鼓励该人在移动时更加小心，并考虑安装防滑垫或改善地面条件。"
+    },
+    "3": {
+      "risk_description": "视频中该人做了一个翻转，落地姿势不稳，可能导致受伤风险，尤其是对行动受限或平衡有问题的人。",
+      "normal_video_description": "",
+      "solution_for_person": "确保该区域无障碍物，并提供柔软的着陆表面（如垫子），以降低受伤风险。",
+      "solution_for_hazard_source": "移除可能在翻转时导致绊倒或碰撞的附近家具或物品。",
+      "solution_to_prevent_recurrence": "在宽敞且柔软的地面上练习，并考虑有监督以确保安全着陆。"
+    },
+    "4": {
+      "risk_description": "视频中该人在狭窄的表面上行走并失去平衡，可能导致跌倒。由于表面不稳且该人移动，存在此风险。",
+      "normal_video_description": "",
+      "solution_for_person": "确保该人行走在稳定且宽阔的表面上，以防止跌倒。",
+      "solution_for_hazard_source": "移除可能引起不稳的任何障碍物或不平坦的表面。",
+      "solution_to_prevent_recurrence": "提供在狭窄或不稳定表面上安全行走的培训。"
+    }
+  }
+}

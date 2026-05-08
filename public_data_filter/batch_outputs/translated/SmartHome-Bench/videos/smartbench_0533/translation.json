@@ -1,0 +1,40 @@
+{
+  "video_key": "SmartHome-Bench/videos/smartbench_0533",
+  "translations": {
+    "0": {
+      "risk_description": "此人站在狭窄的阳台边缘，这不是一个安全的地方。他们有跌倒或失去平衡的风险。",
+      "normal_video_description": "",
+      "solution_for_person": "应鼓励此人移动到更安全的位置，例如屋内或更宽的阳台上。",
+      "solution_for_hazard_source": "应将阳台边缘加宽或安装安全护栏以防止跌落。",
+      "solution_to_prevent_recurrence": "应提醒此人注意安全的重要性，并鼓励他们以后避免站在狭窄的边缘。"
+    },
+    "1": {
+      "risk_description": "此人夜间站在狭窄的木制门廊上，开着门并拿着宠物笼，这可能导致失去平衡并跌倒。",
+      "normal_video_description": "有人在夜间站在门廊上，开门并与宠物笼互动，泛光灯摄像头的警报声响起。",
+      "solution_for_person": "确保门廊光线充足，避免站在边缘时搬运重物或不稳的物品。",
+      "solution_for_hazard_source": "在门廊台阶上安装防滑垫，并确保扶手牢固且在使用中。",
+      "solution_to_prevent_recurrence": "保持门廊区域整洁，并始终确保适当的照明。"
+    },
+    "2": {
+      "risk_description": "",
+      "normal_video_description": "在夜间可以看到一个人站在阳台上，弯腰从地板上捡起带框的图片。捡起物品后，他站起来并走下楼梯离开。这个场景看似日常活动，没有明显的危险或异常行为。",
+      "solution_for_person": "",
+      "solution_for_hazard_source": "",
+      "solution_to_prevent_recurrence": ""
+    },
+    "3": {
+      "risk_description": "此人在狭窄的阳台上搬运大型物品，可能导致跌倒或失去平衡，尤其在他们滑倒或绊倒时。",
+      "normal_video_description": "",
+      "solution_for_person": "确保此人穿着防滑鞋，并小心搬运物品以防止绊倒。",
+      "solution_for_hazard_source": "通过移除绊倒隐患并确保阳台护栏牢固来确保该区域安全。",
+      "solution_to_prevent_recurrence": "安装额外的安全设施，如防滑垫，并确保阳台整洁无杂物。"
+    },
+    "4": {
+      "risk_description": "此人站在阳台的狭窄边缘上，存在显著的跌倒风险。该人的位置和边缘的高度表明，跌倒可能导致严重伤害甚至死亡。",
+      "normal_video_description": "",
+      "solution_for_person": "确保此人安全地坐在或站在远离阳台边缘的稳固表面上，以防止任何跌倒风险。",
+      "solution_for_hazard_source": "在阳台边缘安装栏杆或护栏以防止跌落。",
+      "solution_to_prevent_recurrence": "定期检查阳台是否有结构问题或可能导致事故的隐患。"
+    }
+  }
+}

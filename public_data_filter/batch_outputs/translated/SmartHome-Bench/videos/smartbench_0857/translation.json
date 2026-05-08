@@ -1,0 +1,40 @@
+{
+  "video_key": "SmartHome-Bench/videos/smartbench_0857",
+  "translations": {
+    "0": {
+      "risk_description": "",
+      "normal_video_description": "一名年轻人在夜晚的院子里与垃圾桶互动。这个人似乎在翻找垃圾桶，可能在寻找什么东西拿走。场景以黑白方式拍摄，灯光昏暗，背景中可见一些远处的灯光。这个人穿着夹克，耳朵上有一个标签。视频中没有显示任何痛苦或危险的迹象。",
+      "solution_for_person": "",
+      "solution_for_hazard_source": "",
+      "solution_to_prevent_recurrence": ""
+    },
+    "1": {
+      "risk_description": "熊正在翻找垃圾桶，这可能导致它被困在垃圾桶之间或盖子下面而受伤。",
+      "normal_video_description": "一只熊在夜晚接近并检查一排垃圾桶，用爪子打开并翻找垃圾桶。",
+      "solution_for_person": "",
+      "solution_for_hazard_source": "",
+      "solution_to_prevent_recurrence": ""
+    },
+    "2": {
+      "risk_description": "",
+      "normal_video_description": "夜晚可见一只野生动物，可能是熊，在翻找垃圾桶。这只动物在垃圾桶周围活动，闻嗅并寻找食物，最终离开了该区域。",
+      "solution_for_person": "",
+      "solution_for_hazard_source": "",
+      "solution_to_prevent_recurrence": ""
+    },
+    "3": {
+      "risk_description": "狗正在翻找垃圾桶，这可能导致它被尖锐物体伤害或被重物压伤。",
+      "normal_video_description": "",
+      "solution_for_person": "确保垃圾桶安全且宠物够不到，以防止它们翻找。",
+      "solution_for_hazard_source": "使用防宠物垃圾桶或用宠物无法打开的盖子固定垃圾桶。",
+      "solution_to_prevent_recurrence": "安装屏障或宠物门，在垃圾处理时将宠物远离垃圾区域。"
+    },
+    "4": {
+      "risk_description": "孩子正在攀爬垃圾桶，这可能导致坠落并受伤。",
+      "normal_video_description": "",
+      "solution_for_person": "确保孩子受到监督，不允许攀爬垃圾桶等不稳定物体。",
+      "solution_for_hazard_source": "将垃圾桶从阳台移走或固定好，防止孩子攀爬。",
+      "solution_to_prevent_recurrence": "在阳台周围安装安全屏障或门，防止孩子无人监督时进入。"
+    }
+  }
+}
