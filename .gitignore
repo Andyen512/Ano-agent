@@ -1,15 +1,22 @@
-# Large data directories
+# Large data directories (exclude most)
 data/
 public_data/
 outputs/
 models/
 .vendor/
 
+# Exception: annotation app data (includes database)
+!annotation/public_video_annot/data/
+# Exclude large .db files but include compressed SQL export
+annotation/public_video_annot/data/*.db
+annotation/public_video_annot/data/*.db.backup*
+!annotation/public_video_annot/data/*.sql.gz
+
 # Large batch output files (>50MB)
 public_data_filter/batch_outputs/persistent_full/*.json
 public_data_filter/batch_outputs/persistent_full/*.jsonl
 
-# Database files
+# Database files (exclude others)
 *.db
 *.db.backup*
 
