@@ -1,0 +1,35 @@
+# Large data directories
+data/
+public_data/
+outputs/
+models/
+.vendor/
+
+# Large batch output files (>50MB)
+public_data_filter/batch_outputs/persistent_full/*.json
+public_data_filter/batch_outputs/persistent_full/*.jsonl
+
+# Database files
+*.db
+*.db.backup*
+
+# Python cache
+__pycache__/
+*.pyc
+*.pyo
+
+# Virtual environment
+venv/
+.venv/
+
+# IDE
+.idea/
+.vscode/
+
+# Logs
+*.log
+*.log.*
+
+# Temporary files
+.tmp/
+*.tmp
