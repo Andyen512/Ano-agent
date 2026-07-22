@@ -1,0 +1,293 @@
+#!/bin/bash
+# ============================================================================
+# gen_all_gt.sh - 生成全部 5 个评测维度的 GT JSON 文件
+#
+# 用法:
+#   ./gen_all_gt.sh                          # 处理全部视频
+#   ./gen_all_gt.sh web_h264                 # 只处理 path 以 web_h264/ 开头的视频
+#   ./gen_all_gt.sh web_h264 gpt-5.4         # 指定子集 + 模型
+#   ./gen_all_gt.sh "" gpt-5.4               # 全部视频 + 指定模型
+#
+# 流程:
+#   1. 过滤 GT（可选）
+#   2. 扩充短描述（< 40 字则调用 LLM 润色）
+#   3. grounding / planning / perception（并行）
+#   4. cognition（依赖 perception）
+#   5. summarization（依赖 perception + cognition）
+# ============================================================================
+
+set -euo pipefail
+
+SCRIPT_DIR="$(cd "$(dirname "$0")" && pwd)"
+GT_RELEASE="/home/caiqingyuan/code/lifebench/data/annotation/real_gt_release.txt"
+API_HOST="grsai.dakka.com.cn"
+API_KEY="sk-61b3d67ad37b4b49aae67f3c0303faf6"
+MODEL="${2:-gpt-5.4}"
+FILTER_PREFIX="${1:-}"
+MIN_DESC_LENGTH=40
+
+PERCEPTION_OUT="${SCRIPT_DIR}/perception/perception_gt.json"
+COGNITION_OUT="${SCRIPT_DIR}/cognition/cognition_gt.json"
+GROUNDING_OUT="${SCRIPT_DIR}/grounding/grounding_gt.json"
+PLANNING_OUT="${SCRIPT_DIR}/planning/planning_gt.json"
+SUMMARIZATION_OUT="${SCRIPT_DIR}/summarization/summarization_gt.json"
+
+echo "============================================"
+echo " LifeBench GT Generation Pipeline"
+echo "============================================"
+echo "GT source:  ${GT_RELEASE}"
+echo "Model:      ${MODEL}"
+echo "API host:   ${API_HOST}"
+
+if [ -n "$FILTER_PREFIX" ]; then
+    FILTERED_GT="/tmp/lifebench_filtered_gt_$$.txt"
+    grep "^${FILTER_PREFIX}" "$GT_RELEASE" | grep -v "^${FILTER_PREFIX}_segments/" > "$FILTERED_GT" || {
+        echo "ERROR: No entries matching '${FILTER_PREFIX}'"
+        exit 1
+    }
+    GT_FILE="$FILTERED_GT"
+    echo "Filter:     path starts with '${FILTER_PREFIX}'"
+else
+    GT_FILE="$GT_RELEASE"
+    echo "Filter:     none (all entries)"
+fi
+echo "Total lines: $(wc -l < "$GT_FILE")"
+echo "============================================"
+echo ""
+
+mkdir -p "${SCRIPT_DIR}/perception" "${SCRIPT_DIR}/cognition" \
+         "${SCRIPT_DIR}/grounding" "${SCRIPT_DIR}/planning" \
+         "${SCRIPT_DIR}/summarization"
+
+# ==================== Step 0: 扩充短描述 ====================
+EXPANDED_GT="/tmp/lifebench_expanded_gt_$$.txt"
+
+echo ">>> [$(date '+%H:%M:%S')] Step 0: Expanding short descriptions (threshold: < ${MIN_DESC_LENGTH} chars)"
+echo ""
+
+python3 - "$GT_FILE" "$EXPANDED_GT" "$API_HOST" "$API_KEY" "$MODEL" "$MIN_DESC_LENGTH" << 'PYEOF'
+import sys, re, json, http.client
+
+gt_file = sys.argv[1]
+expanded_file = sys.argv[2]
+api_host = sys.argv[3]
+api_key = sys.argv[4]
+model = sys.argv[5]
+min_len = int(sys.argv[6])
+
+def call_llm(prompt):
+    conn = http.client.HTTPSConnection(api_host, timeout=60)
+    payload = json.dumps({
+        "model": model, "stream": False,
+        "messages": [{"role": "user", "content": prompt}],
+        "temperature": 0.3,
+    })
+    headers = {"Authorization": f"Bearer {api_key}", "Content-Type": "application/json"}
+    conn.request("POST", "/v1/chat/completions", payload, headers)
+    resp = json.loads(conn.getresponse().read().decode("utf-8"))
+    content = resp["choices"][0]["message"]["content"].strip()
+    if content.startswith("```"):
+        content = re.sub(r"^```(?:json)?\s*", "", content)
+        content = re.sub(r"\s*```$", "", content)
+    return content
+
+def clean_desc(text):
+    return re.sub(r"^\[(?:Abnormal Result|Safe Action|Abnormal Sign)\](?:\[[^\]]*\])?\s*", "", text).strip()
+
+def extract_prefix(text):
+    """Extract the [Abnormal Result][time] or [Safe Action] prefix"""
+    m = re.match(r"(\[(?:Abnormal Result|Safe Action|Abnormal Sign)\](?:\[[^\]]*\])?\s*)", text)
+    return m.group(1) if m else ""
+
+total = 0
+filled = 0    # 空描述有solution → LLM生成
+polished = 0  # 短描述 → LLM润色
+skipped = 0   # 空描述 + 空solution → 跳过
+
+with open(gt_file, 'r') as fin, open(expanded_file, 'w') as fout:
+    for line in fin:
+        line = line.rstrip('\n')
+        total += 1
+        if not line.strip():
+            fout.write('\n')
+            continue
+
+        parts = line.split('\t')
+        if len(parts) < 4:
+            fout.write(line + '\n')
+            continue
+
+        prefix = extract_prefix(parts[3]) if len(parts) > 3 else ""
+        desc = clean_desc(parts[3]) if len(parts) > 3 else ""
+        solution = parts[4] if len(parts) > 4 else ""
+
+        if len(desc) >= min_len:
+            fout.write(line + '\n')
+            continue
+
+        # 空描述 + 空 solution → 无法生成，跳过
+        if not desc and not solution:
+            skipped += 1
+            fout.write(line + '\n')
+            continue
+
+        # Build prompt
+        if not desc:
+            prompt = (
+                "你是视频描述生成助手。下面是一段视频异常事件的解决方案文本，"
+                "请根据解决方案推断视频中发生了什么事，生成一段简明的视频描述。\n\n"
+                f"解决方案:\n{solution}\n\n"
+                "规则:\n"
+                "1. 只描述实际发生的事件或明显的风险场景，不要编造未出现的事物\n"
+                "2. 用一段通顺的中文描述，30-80字为宜\n"
+                "3. 只输出描述文本，不要加任何前缀、标签或解释"
+            )
+        else:
+            prompt = (
+                "你是视频描述润色助手。请将下面的视频描述润色得更通顺流畅。\n\n"
+                f"原始描述:\n{desc}\n\n"
+                "规则:\n"
+                "1. 绝对不能增加原文中没有出现的物品、人物或含义\n"
+                "2. 不能改变原始句意\n"
+                "3. 只能将句子润色得更通顺、自然、流畅\n"
+                "4. 只输出润色后的描述文本，不要加任何前缀、标签或解释"
+            )
+
+        try:
+            new_desc = call_llm(prompt)
+            parts[3] = prefix + new_desc
+            if not desc:
+                filled += 1
+            else:
+                polished += 1
+            if total % 20 == 0:
+                print(f"  已处理 {total} 行, 润色 {polished}, 空描述填补 {filled}, 跳过 {skipped}")
+        except Exception as e:
+            print(f"  [{total}] LLM 失败(保留原文): {e}")
+
+        fout.write('\t'.join(parts) + '\n')
+
+print(f"")
+print(f"描述扩充完成: 共 {total} 行, 润色 {polished} 条, 空描述填补 {filled} 条, 跳过(空desc+空sol) {skipped} 条")
+PYEOF
+
+# 使用扩充后的 GT
+GT_FILE="$EXPANDED_GT"
+echo "<<< [$(date '+%H:%M:%S')] Done: description expansion -> ${GT_FILE%%.txt}_expanded.txt"
+echo ""
+
+# ==================== Python config patcher ====================
+patch_and_run() {
+    local step_name=$1
+    local step_dir=$2
+    local output_json=$3
+    shift 3
+    local extra_replacements=("$@")
+
+    local src_py="${step_dir}/gen_${step_name}_gt.py"
+    local tmp_py="/tmp/gen_${step_name}_gt_$$.py"
+
+    if [ ! -f "$src_py" ]; then
+        echo "WARN: ${src_py} not found, skipping ${step_name}"
+        return 0
+    fi
+
+    echo ">>> [$(date '+%H:%M:%S')] Starting: ${step_name}"
+
+    python3 - "$src_py" "$tmp_py" "$GT_FILE" "$MODEL" "$output_json" "${extra_replacements[@]}" << 'PYEOF'
+import sys, re
+
+src = sys.argv[1]
+dst = sys.argv[2]
+gt_file = sys.argv[3]
+model = sys.argv[4]
+output_json = sys.argv[5]
+extra = sys.argv[6:]
+
+with open(src, 'r') as f:
+    content = f.read()
+
+content = re.sub(
+    r'GT_TSV\s*=\s*Path\(["\']([^"\']+)["\']\)',
+    f'GT_TSV = Path("{gt_file}")',
+    content
+)
+
+content = re.sub(
+    r'MODEL\s*=\s*["\'][^"\']+["\']',
+    f'MODEL = "{model}"',
+    content
+)
+
+content = re.sub(
+    r'OUTPUT_JSON\s*=\s*Path\(["\'][^"\']+["\']\)',
+    f'OUTPUT_JSON = Path("{output_json}")',
+    content
+)
+
+if 'PERCEPTION_JSON' in content and len(extra) >= 1:
+    content = re.sub(
+        r'PERCEPTION_JSON\s*=\s*Path\(["\'][^"\']+["\']\)',
+        f'PERCEPTION_JSON = Path("{extra[0]}")',
+        content
+    )
+
+if 'COGNITION_JSON' in content:
+    cog_path = extra[1] if len(extra) >= 2 else (extra[0] if len(extra) >= 1 else output_json)
+    content = re.sub(
+        r'COGNITION_JSON\s*=\s*Path\(["\'][^"\']+["\']\)',
+        f'COGNITION_JSON = Path("{cog_path}")',
+        content
+    )
+
+with open(dst, 'w') as f:
+    f.write(content)
+print(f"Patched config written to {dst}")
+PYEOF
+
+    python3 "$tmp_py"
+    local rc=$?
+    rm -f "$tmp_py"
+
+    if [ $rc -ne 0 ]; then
+        echo "ERROR: ${step_name} failed with exit code ${rc}"
+        exit $rc
+    fi
+    echo "<<< [$(date '+%H:%M:%S')] Done: ${step_name} -> ${output_json}"
+    echo ""
+}
+# ==================================================================
+
+# ==================== GT Generation Steps ====================
+
+# Step 1: Grounding (无 LLM，独立)
+patch_and_run "grounding" "${SCRIPT_DIR}/grounding" "$GROUNDING_OUT"
+
+# Step 2: Planning (无 LLM，独立)
+patch_and_run "planning" "${SCRIPT_DIR}/planning" "$PLANNING_OUT"
+
+# Step 3: Perception (LLM，独立)
+patch_and_run "perception" "${SCRIPT_DIR}/perception" "$PERCEPTION_OUT"
+
+# Step 4: Cognition (LLM，依赖 perception)
+patch_and_run "cognition" "${SCRIPT_DIR}/cognition" "$COGNITION_OUT" "$PERCEPTION_OUT"
+
+# Step 5: Summarization (LLM，依赖 perception + cognition)
+patch_and_run "summarization" "${SCRIPT_DIR}/summarization" "$SUMMARIZATION_OUT" "$PERCEPTION_OUT" "$COGNITION_OUT"
+
+# ==================== 摘要 ====================
+echo "============================================"
+echo " All GT generation complete!"
+echo "============================================"
+for name in grounding planning perception cognition summarization; do
+    json_var="${name^^}_OUT"
+    json_path="${!json_var}"
+    if [ -f "$json_path" ]; then
+        count=$(python3 -c "import json; d=json.load(open('${json_path}')); print(len(d) if isinstance(d,list) else len(d))")
+        echo "  ${name}: ${json_path} (${count} entries)"
+    else
+        echo "  ${name}: MISSING"
+    fi
+done
+
+rm -f "/tmp/lifebench_filtered_gt_$$.txt" "/tmp/lifebench_expanded_gt_$$.txt"

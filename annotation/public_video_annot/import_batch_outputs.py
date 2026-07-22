@@ -35,9 +35,16 @@ def first_nonempty(values: list[str]) -> str:
 def video_key_from_path(video_path: str) -> str:
     path = Path(video_path).resolve()
     try:
-        return str(path.relative_to(PUBLIC_DATA_ROOT.resolve()))
+        rel = str(path.relative_to(PUBLIC_DATA_ROOT.resolve()))
     except ValueError:
         return path.name
+    # 处理 seg_video 目录下的视频
+    if rel.startswith("seg_video/"):
+        rel = rel.replace("seg_video/", "", 1)
+        # web_h264 目录下的视频映射到 web_h264_segments 数据集
+        if rel.startswith("web_h264/"):
+            rel = "web_h264_segments/" + rel[9:]
+    return rel
 
 
 def site_and_id(video_key: str) -> tuple[str, str]:
@@ -256,8 +263,8 @@ def import_predictions(batch_outputs: Path, db_path: Path) -> dict[str, int]:
         ).fetchall()
     }
 
-    repaired = {p.parent: p for p in sorted(batch_outputs.glob("*/reviews/**/review_summary.repaired.json"))}
-    raw = {p.parent: p for p in sorted(batch_outputs.glob("*/reviews/**/review_summary.json"))}
+    repaired = {p.parent: p for p in sorted(batch_outputs.glob("**/review_summary.repaired.json"))}
+    raw = {p.parent: p for p in sorted(batch_outputs.glob("**/review_summary.json"))}
     summaries = [repaired.get(parent) or raw[parent] for parent in sorted(set(repaired) | set(raw))]
 
     summary_imported = 0

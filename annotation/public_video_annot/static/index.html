@@ -15,20 +15,47 @@
       </div>
       <div class="controls">
         <span id="current-user" class="user-chip"></span>
+        <input type="text" id="search" placeholder="搜索视频名..." />
+        <select id="video-type">
+          <option value="">全部类型</option>
+          <option value="generated">生成视频</option>
+          <option value="real">真实视频</option>
+        </select>
         <select id="dataset"></select>
+        <select id="risk-subtype-filter" style="display:none">
+          <option value="">全部</option>
+          <option value="abnormal">异常行为</option>
+          <option value="risk_only">风险前兆</option>
+          <option value="abnormal_transition">异常转前兆</option>
+        </select>
         <select id="status">
           <option value="pending">待我标注</option>
+          <option value="need_trim">需要裁剪</option>
+          <option value="trimmed">已裁切</option>
           <option value="problem">模型分歧优先</option>
           <option value="annotated">已标注</option>
           <option value="">全部</option>
           <option value="risk">模型判定有风险</option>
           <option value="normal">模型判定无风险</option>
+          <option value="skipped">已跳过</option>
+        </select>
+        <select id="sort-by" style="display:none">
+          <option value="">默认排序</option>
+          <option value="score_asc">分数从低到高</option>
+          <option value="score_desc">分数从高到低</option>
+        </select>
+        <select id="duration-filter">
+          <option value="">全部时长</option>
+          <option value="short">≤1分钟</option>
+          <option value="long">&gt;1分钟</option>
         </select>
         <button id="reload">刷新</button>
+        <button id="stats-btn" class="secondary">数据统计</button>
         <button id="export">导出</button>
         <button id="batch-trim" class="batch-trim-btn">批量裁切</button>
         <button id="manage-users" class="secondary" style="font-size:12px;padding:4px 8px">管理用户</button>
         <button id="logout" class="secondary" style="font-size:12px;padding:4px 8px">退出</button>
+        <button id="git-backup" class="secondary" style="font-size:12px;padding:4px 8px;display:none">Git备份</button>
       </div>
     </header>
     <main>
@@ -40,6 +67,6 @@
 
       </div>
     </main>
-    <script src="/static/app.js"></script>
+    <script src="/static/app.js?v=20260625v2"></script>
   </body>
 </html>

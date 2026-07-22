@@ -1,0 +1,89 @@
+<!doctype html>
+<html lang="zh-CN">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>LifeBench 标注 - 注册</title>
+    <style>
+      * { box-sizing: border-box; margin: 0; padding: 0; }
+      body { font-family: Arial, "Microsoft YaHei", sans-serif; background: #f6f7f9; display: flex; justify-content: center; align-items: center; min-height: 100vh; }
+      .login-card { background: #fff; padding: 40px; border-radius: 12px; box-shadow: 0 2px 12px rgba(0,0,0,0.08); width: 100%; max-width: 360px; }
+      h1 { font-size: 22px; color: #1f2933; margin-bottom: 8px; text-align: center; }
+      p.subtitle { font-size: 13px; color: #64748b; text-align: center; margin-bottom: 24px; }
+      label { display: block; font-size: 13px; color: #475569; margin-bottom: 6px; }
+      input { width: 100%; padding: 10px 12px; border: 1px solid #cbd5e1; border-radius: 6px; font-size: 14px; margin-bottom: 16px; }
+      input:focus { outline: none; border-color: #0f766e; }
+      button { width: 100%; padding: 10px; background: #0f766e; color: #fff; border: none; border-radius: 6px; font-size: 14px; cursor: pointer; }
+      button:hover { background: #0d6560; }
+      button:disabled { opacity: 0.6; cursor: not-allowed; }
+      .error { color: #dc2626; font-size: 13px; text-align: center; margin-bottom: 12px; display: none; }
+      .success { color: #16a34a; font-size: 13px; text-align: center; margin-bottom: 12px; display: none; }
+      .hint { font-size: 12px; color: #94a3b8; margin-top: -12px; margin-bottom: 16px; }
+    </style>
+  </head>
+  <body>
+    <div class="login-card">
+      <h1>LifeBench 标注</h1>
+      <p class="subtitle">注册新账号</p>
+      <div id="error" class="error"></div>
+      <div id="success" class="success"></div>
+      <form id="register-form">
+        <label for="username">用户名</label>
+        <input type="text" id="username" name="username" autocomplete="username" autofocus />
+        <p class="hint">请使用姓名全拼作为账号名（如：zhangsan）</p>
+        <label for="password">密码</label>
+        <input type="password" id="password" name="password" autocomplete="new-password" />
+        <label for="password2">确认密码</label>
+        <input type="password" id="password2" name="password2" autocomplete="new-password" />
+        <button type="submit" id="btn">注册</button>
+        <p style="text-align:center;margin-top:12px;font-size:13px;color:#64748b">已有账号？<a href="/login" style="color:#0f766e;text-decoration:none">登录</a></p>
+      </form>
+    </div>
+    <script>
+      const form = document.getElementById("register-form");
+      const errorEl = document.getElementById("error");
+      const successEl = document.getElementById("success");
+      const btn = document.getElementById("btn");
+
+      form.addEventListener("submit", async (e) => {
+        e.preventDefault();
+        errorEl.style.display = "none";
+        successEl.style.display = "none";
+
+        const username = document.getElementById("username").value.trim();
+        const password = document.getElementById("password").value;
+        const password2 = document.getElementById("password2").value;
+
+        if (!username) { errorEl.textContent = "请输入用户名"; errorEl.style.display = "block"; return; }
+        if (!password) { errorEl.textContent = "请输入密码"; errorEl.style.display = "block"; return; }
+        if (password !== password2) { errorEl.textContent = "两次密码不一致"; errorEl.style.display = "block"; return; }
+        if (password.length < 6) { errorEl.textContent = "密码至少6位"; errorEl.style.display = "block"; return; }
+
+        btn.disabled = true;
+        btn.textContent = "注册中...";
+        try {
+          const res = await fetch("/api/register", {
+            method: "POST",
+            headers: { "Content-Type": "application/json" },
+            body: JSON.stringify({ username, password }),
+          });
+          const data = await res.json();
+          if (res.ok) {
+            successEl.textContent = "注册成功，正在跳转...";
+            successEl.style.display = "block";
+            setTimeout(() => { window.location.href = "/"; }, 1000);
+          } else {
+            errorEl.textContent = data.error || "注册失败";
+            errorEl.style.display = "block";
+          }
+        } catch (err) {
+          errorEl.textContent = "网络错误";
+          errorEl.style.display = "block";
+        } finally {
+          btn.disabled = false;
+          btn.textContent = "注册";
+        }
+      });
+    </script>
+  </body>
+</html>

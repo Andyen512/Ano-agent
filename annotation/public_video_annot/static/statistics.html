@@ -1,0 +1,411 @@
+<!doctype html>
+<html lang="zh-CN">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>LifeBench 数据统计</title>
+    <script src="https://cdn.jsdelivr.net/npm/chart.js@4.4.1/dist/chart.umd.min.js"></script>
+    <style>
+      * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+      }
+      body {
+        font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+        background: #f5f5f5;
+        color: #333;
+        padding: 20px;
+      }
+      .header {
+        background: #fff;
+        padding: 16px 24px;
+        border-radius: 8px;
+        margin-bottom: 20px;
+        box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+      }
+      .header h1 {
+        font-size: 24px;
+        color: #1a1a1a;
+      }
+      .back-btn {
+        padding: 8px 16px;
+        background: #6b7280;
+        color: #fff;
+        border: none;
+        border-radius: 6px;
+        cursor: pointer;
+        font-size: 14px;
+      }
+      .back-btn:hover {
+        background: #4b5563;
+      }
+      .controls {
+        background: #fff;
+        padding: 16px 24px;
+        border-radius: 8px;
+        margin-bottom: 20px;
+        box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+        display: flex;
+        gap: 16px;
+        align-items: center;
+        flex-wrap: wrap;
+      }
+      .controls label {
+        font-size: 14px;
+        color: #555;
+      }
+      .controls select {
+        padding: 8px 12px;
+        border: 1px solid #ddd;
+        border-radius: 6px;
+        font-size: 14px;
+        background: #fff;
+      }
+      .controls select:focus {
+        outline: none;
+        border-color: #3b82f6;
+      }
+      .chart-type-toggle {
+        display: flex;
+        gap: 4px;
+        background: #f3f4f6;
+        padding: 4px;
+        border-radius: 6px;
+      }
+      .chart-type-btn {
+        padding: 6px 12px;
+        border: none;
+        background: transparent;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 13px;
+        color: #6b7280;
+      }
+      .chart-type-btn.active {
+        background: #fff;
+        color: #1a1a1a;
+        box-shadow: 0 1px 2px rgba(0,0,0,0.1);
+      }
+      .charts-container {
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(500px, 1fr));
+        gap: 20px;
+      }
+      .chart-card {
+        background: #fff;
+        padding: 20px;
+        border-radius: 8px;
+        box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+      }
+      .chart-card h3 {
+        font-size: 16px;
+        color: #1a1a1a;
+        margin-bottom: 16px;
+        padding-bottom: 8px;
+        border-bottom: 2px solid #e5e7eb;
+      }
+      .chart-wrapper {
+        position: relative;
+        height: 350px;
+      }
+      .loading {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 200px;
+        color: #6b7280;
+      }
+      .legend-note {
+        font-size: 12px;
+        color: #6b7280;
+        margin-top: 8px;
+        text-align: center;
+      }
+      .stats-summary {
+        background: #fff;
+        padding: 16px 24px;
+        border-radius: 8px;
+        margin-bottom: 20px;
+        box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+        display: flex;
+        gap: 24px;
+        flex-wrap: wrap;
+      }
+      .stat-item {
+        text-align: center;
+      }
+      .stat-value {
+        font-size: 28px;
+        font-weight: bold;
+        color: #3b82f6;
+      }
+      .stat-label {
+        font-size: 12px;
+        color: #6b7280;
+        margin-top: 4px;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="header">
+      <h1>LifeBench 数据统计</h1>
+      <button class="back-btn" onclick="window.location.href='/'">返回标注页面</button>
+    </div>
+    
+    <div class="stats-summary" id="stats-summary">
+      <div class="stat-item">
+        <div class="stat-value" id="total-count">-</div>
+        <div class="stat-label">总视频数</div>
+      </div>
+      <div class="stat-item">
+        <div class="stat-value" id="annotated-count">-</div>
+        <div class="stat-label">已标注数</div>
+      </div>
+      <div class="stat-item">
+        <div class="stat-value" id="dataset-count">-</div>
+        <div class="stat-label">数据集数</div>
+      </div>
+    </div>
+    
+    <div class="controls">
+      <label>数据集:</label>
+      <select id="dataset-filter">
+        <option value="">全部数据集</option>
+      </select>
+      
+      <label>图表类型:</label>
+      <div class="chart-type-toggle">
+        <button class="chart-type-btn active" data-type="bar" onclick="setChartType('bar')">柱状图</button>
+        <button class="chart-type-btn" data-type="pie" onclick="setChartType('pie')">饼图</button>
+      </div>
+      
+      <label>数据来源:</label>
+      <select id="source-filter">
+        <option value="human">人工标注</option>
+        <option value="model">模型预测</option>
+      </select>
+      
+      <button onclick="loadStatistics()" style="padding: 8px 16px; background: #3b82f6; color: #fff; border: none; border-radius: 6px; cursor: pointer;">刷新数据</button>
+    </div>
+    
+    <div class="charts-container" id="charts-container">
+      <div class="loading">加载中...</div>
+    </div>
+    
+    <script>
+      let currentChartType = 'bar';
+      let statisticsData = null;
+      let charts = {};
+      
+      const FIELD_LABELS = {
+        risk: '风险判定',
+        risk_subtype: '风险类别',
+        level1_scene: '场景 (Level 1)',
+        level2_subject: '主体 (Level 2)',
+        level3_risk_type: '风险类型 (Level 3)'
+      };
+      
+      const LABEL_MAP = {
+        risk: { Yes: '有风险', No: '无风险' },
+        risk_subtype: { abnormal: '异常行为', risk_only: '仅有异常前兆' },
+        level1_scene: { 'dining room': '餐厅', 'kitchen': '厨房', 'study': '书房', 'balcony': '阳台', 'living room': '客厅', 'bathroom': '浴室', 'bedroom': '卧室', 'yard': '院子' },
+        level2_subject: { child: '儿童', 'older adult': '老年人', 'young adult': '年轻人', 'middle-aged adult': '中年人', all: '所有人' },
+        level3_risk_type: { 'fall/instability': '跌倒/不稳', 'heat/fire source': '热源/火灾', 'collision/crush injury': '碰撞/挤压伤', 'sharp-object danger': '锐器危险', 'electrical safety': '电气安全', 'poisoning/accidental ingestion': '中毒/误食', 'interpersonal conflict': '人际冲突', 'animal attack/biosecurity risk': '动物攻击/生物安全风险', 'stranger theft': '陌生人偷盗', 'None': '无' }
+      };
+      
+      const COLORS = [
+        '#3b82f6', '#ef4444', '#10b981', '#f59e0b', '#8b5cf6',
+        '#ec4899', '#06b6d4', '#84cc16', '#f97316', '#6366f1',
+        '#14b8a6', '#e11d48', '#0ea5e9', '#a855f7', '#22c55e'
+      ];
+      
+      function toChinese(field, value) {
+        return LABEL_MAP[field]?.[value] || value || '-';
+      }
+      
+      function setChartType(type) {
+        currentChartType = type;
+        document.querySelectorAll('.chart-type-btn').forEach(btn => {
+          btn.classList.toggle('active', btn.dataset.type === type);
+        });
+        if (statisticsData) {
+          renderCharts();
+        }
+      }
+      
+      async function loadStatistics() {
+        try {
+          const [statsRes, distRes] = await Promise.all([
+            fetch('/api/stats'),
+            fetch('/api/stats/distribution')
+          ]);
+          
+          const stats = await statsRes.json();
+          statisticsData = await distRes.json();
+          
+          document.getElementById('total-count').textContent = stats.total || 0;
+          document.getElementById('annotated-count').textContent = stats.annotated || 0;
+          document.getElementById('dataset-count').textContent = statisticsData.datasets?.length || 0;
+          
+          const datasetSelect = document.getElementById('dataset-filter');
+          const currentDataset = datasetSelect.value;
+          datasetSelect.innerHTML = '<option value="">全部数据集</option>' + 
+            (statisticsData.datasets || []).map(d => `<option value="${d}" ${d === currentDataset ? 'selected' : ''}>${d}</option>`).join('');
+          
+          renderCharts();
+        } catch (e) {
+          console.error('Failed to load statistics:', e);
+          document.getElementById('charts-container').innerHTML = '<div class="loading">加载失败，请重试</div>';
+        }
+      }
+      
+      function renderCharts() {
+        if (!statisticsData) return;
+        
+        const container = document.getElementById('charts-container');
+        const datasetFilter = document.getElementById('dataset-filter').value;
+        const sourceFilter = document.getElementById('source-filter').value;
+        
+        const fields = Object.keys(statisticsData.fields || {});
+        
+        container.innerHTML = fields.map(field => `
+          <div class="chart-card">
+            <h3>${FIELD_LABELS[field] || field}</h3>
+            <div class="chart-wrapper">
+              <canvas id="chart-${field}"></canvas>
+            </div>
+            <div class="legend-note">点击图例可显示/隐藏对应类别</div>
+          </div>
+        `).join('');
+        
+        fields.forEach(field => {
+          renderChart(field, datasetFilter, sourceFilter);
+        });
+      }
+      
+      function renderChart(field, datasetFilter, sourceFilter) {
+        const ctx = document.getElementById(`chart-${field}`)?.getContext('2d');
+        if (!ctx) return;
+        
+        if (charts[field]) {
+          charts[field].destroy();
+        }
+        
+        const fieldData = statisticsData.fields[field];
+        if (!fieldData) return;
+        
+        const labels = fieldData.labels || [];
+        const dataSource = sourceFilter === 'human' ? fieldData.human : fieldData.model;
+        
+        let datasets = [];
+        
+        if (datasetFilter) {
+          const counts = labels.map(label => dataSource[datasetFilter]?.[label] || 0);
+          datasets = [{
+            label: datasetFilter,
+            data: counts,
+            backgroundColor: currentChartType === 'pie' ? COLORS.slice(0, labels.length) : COLORS[0],
+            borderColor: currentChartType === 'pie' ? '#fff' : COLORS[0],
+            borderWidth: currentChartType === 'pie' ? 2 : 1
+          }];
+        } else if (currentChartType === 'pie') {
+          // 饼图模式：合并所有数据集的数据
+          const mergedCounts = labels.map(label => {
+            let total = 0;
+            (statisticsData.datasets || []).forEach(ds => {
+              total += dataSource[ds]?.[label] || 0;
+            });
+            return total;
+          });
+          datasets = [{
+            label: '全部数据集',
+            data: mergedCounts,
+            backgroundColor: COLORS.slice(0, labels.length),
+            borderColor: '#fff',
+            borderWidth: 2
+          }];
+        } else {
+          // 柱状图模式：每个数据集单独显示
+          const datasetsList = statisticsData.datasets || [];
+          datasets = datasetsList.map((ds, idx) => ({
+            label: ds,
+            data: labels.map(label => dataSource[ds]?.[label] || 0),
+            backgroundColor: COLORS[idx % COLORS.length],
+            borderColor: COLORS[idx % COLORS.length],
+            borderWidth: 1
+          }));
+        }
+        
+        const displayLabels = labels.map(l => toChinese(field, l));
+        
+        const config = {
+          type: currentChartType,
+          data: {
+            labels: displayLabels,
+            datasets: datasets
+          },
+          options: {
+            responsive: true,
+            maintainAspectRatio: false,
+            plugins: {
+              legend: {
+                display: true,
+                position: currentChartType === 'pie' ? 'right' : 'top',
+                labels: {
+                  font: { size: 12 },
+                  padding: 12
+                }
+              },
+              tooltip: {
+                callbacks: {
+                  label: function(context) {
+                    const label = context.dataset.label || '';
+                    const value = context.parsed.y || context.parsed || 0;
+                    const total = context.dataset.data.reduce((a, b) => a + b, 0);
+                    const pct = total > 0 ? ((value / total) * 100).toFixed(1) : 0;
+                    return `${label}: ${value} (${pct}%)`;
+                  }
+                }
+              }
+            },
+            scales: currentChartType === 'bar' ? {
+              x: {
+                ticks: {
+                  font: { size: 11 },
+                  maxRotation: 45
+                }
+              },
+              y: {
+                beginAtZero: true,
+                ticks: {
+                  font: { size: 11 }
+                }
+              }
+            } : undefined
+          }
+        };
+        
+        if (currentChartType === 'pie' && datasets.length > 1) {
+          config.options.plugins.tooltip.callbacks.label = function(context) {
+            const label = context.label || '';
+            const value = context.parsed || 0;
+            const total = context.dataset.data.reduce((a, b) => a + b, 0);
+            const pct = total > 0 ? ((value / total) * 100).toFixed(1) : 0;
+            return `${context.dataset.label} - ${label}: ${value} (${pct}%)`;
+          };
+        }
+        
+        charts[field] = new Chart(ctx, config);
+      }
+      
+      document.getElementById('dataset-filter').addEventListener('change', renderCharts);
+      document.getElementById('source-filter').addEventListener('change', renderCharts);
+      
+      loadStatistics();
+    </script>
+  </body>
+</html>

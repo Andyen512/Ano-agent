@@ -1,5 +1,6 @@
 # Large data directories (exclude most)
 data/
+public_data
 public_data/
 outputs/
 models/
@@ -12,9 +13,12 @@ annotation/public_video_annot/data/*.db
 annotation/public_video_annot/data/*.db.backup*
 !annotation/public_video_annot/data/*.sql.gz
 
-# Large batch output files (>50MB)
-public_data_filter/batch_outputs/persistent_full/*.json
-public_data_filter/batch_outputs/persistent_full/*.jsonl
+# Exclude video data from annotation dirs
+annotation/public_video_annot/missing_normal_videos/
+annotation/public_video_annot/missing_score_videos/
+
+# Large batch output directories
+public_data_filter/batch_outputs/
 
 # Database files (exclude others)
 *.db
@@ -36,7 +40,28 @@ venv/
 # Logs
 *.log
 *.log.*
+nohup.out
+logs/
+worker_logs/
 
 # Temporary files
 .tmp/
 *.tmp
+
+# Large archives
+*.zip
+*.tar
+*.tar.gz
+
+# Self-clone
+Ano-agent/
+
+# Symlinks to external data/models
+bert-base-uncased
+
+# External model repos
+code/
+
+# Large individual files
+app.db.before_cleanup
+convert_log.txt
