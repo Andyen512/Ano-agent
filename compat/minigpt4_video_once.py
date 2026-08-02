@@ -77,6 +77,9 @@ def prepare_cfg(temp_dir: Path, mistral_dir: Path, ckpt_path: Path) -> Path:
     config = yaml.safe_load(template_path.read_text(encoding="utf-8"))
     config["model"]["llama_model"] = str(mistral_dir)
     config["model"]["ckpt"] = str(ckpt_path)
+    # Keep the vision tower on GPU. The language model is loaded in FP16 and
+    # sharded across the two GPUs exposed to each worker.
+    config["model"]["low_resource"] = False
     output_path = temp_dir / "mistral_local_test_config.yaml"
     output_path.write_text(yaml.safe_dump(config, sort_keys=False), encoding="utf-8")
     return output_path
@@ -138,6 +141,19 @@ class MiniGPT4VideoSession:
             lora_alpha=16,
         )
         self.model, self.vis_processor, *_ = init_model(self.args)
+        # device_map="auto" applies to the language model. Keep the vision
+        # path and projection layers on the first GPU of this worker.
+        vision_device = torch.device("cuda:0")
+        for module in (
+            self.model.visual_encoder,
+            self.model.ln_vision,
+            self.model.llama_proj,
+        ):
+            module.to(vision_device)
+        # The checkpoint mixes FP32 positional parameters with FP16 convolution
+        # weights; normalize the vision tower before video encoding.
+        self.model.visual_encoder.half()
+        self.model.ln_vision.half()
 
     def _extract_video_info(self, video_path: str, max_images_length: int) -> tuple[int, float]:
         capture = self.cv2.VideoCapture(video_path)
@@ -174,7 +190,7 @@ class MiniGPT4VideoSession:
     def generate(self, video_path: str, prompt: str, temperature: float, max_new_tokens: int, max_frames: int) -> str:
         setup_seeds(50)
         prepared_images, prepared_instruction = self._prepare_input(video_path, prompt, max_frames)
-        prepared_images = prepared_images.unsqueeze(0)
+        prepared_images = prepared_images.unsqueeze(0).to(dtype=torch.float16)
         conv = self.conv_template.copy()
         conv.append_message(conv.roles[0], prepared_instruction)
         conv.append_message(conv.roles[1], None)

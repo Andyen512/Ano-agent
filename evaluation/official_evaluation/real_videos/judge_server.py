@@ -3,12 +3,14 @@
 import argparse
 import json
 import sys
+import threading
 import torch
 from flask import Flask, request, Response, stream_with_context
 
 app = Flask(__name__)
 model = None
 tokenizer = None
+inference_lock = threading.Lock()
 
 
 @app.route("/v1/chat/completions", methods=["POST"])
@@ -21,21 +23,27 @@ def chat_completions():
 
     prompt = f"{system_content}\n\n{user_content}" if system_content else user_content
 
-    inputs = tokenizer.apply_chat_template(
-        [{"role": "system", "content": "你是一个评分助手。请直接输出JSON，不要思考。"},
-         {"role": "user", "content": prompt}],
-        tokenize=True, add_generation_prompt=True,
-        return_tensors="pt"
-    ).to(model.device)
+    # A single model instance must not execute overlapping CUDA generations.
+    # Waitress serves requests concurrently, while Qwen's generation cache is
+    # not safe for concurrent mutation.
+    with inference_lock:
+        inputs = tokenizer.apply_chat_template(
+            [{"role": "system", "content": "你是一个评分助手。请直接输出JSON，不要思考。"},
+             {"role": "user", "content": prompt}],
+            tokenize=True, add_generation_prompt=True, enable_thinking=False,
+            return_tensors="pt"
+        ).to(model.device)
+        attention_mask = torch.ones_like(inputs, dtype=torch.long)
 
-    with torch.no_grad():
-        outputs = model.generate(
-            inputs,
-            max_new_tokens=512,
-            temperature=0.0,
-            do_sample=False,
-            pad_token_id=tokenizer.eos_token_id,
-        )
+        with torch.no_grad():
+            outputs = model.generate(
+                input_ids=inputs,
+                attention_mask=attention_mask,
+                max_new_tokens=128,
+                temperature=0.0,
+                do_sample=False,
+                pad_token_id=tokenizer.eos_token_id,
+            )
 
     response = tokenizer.decode(outputs[0][inputs.shape[1]:], skip_special_tokens=True)
     resp_json = {

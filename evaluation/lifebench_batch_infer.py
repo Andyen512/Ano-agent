@@ -111,7 +111,10 @@ class Tarsier2Session:
         ensure_backend_on_path(backend)
 
         tarsier_vendor = PROJECT_ROOT / ".vendor" / "tarsier_flashattn"
-        if tarsier_vendor.exists():
+        if (
+            os.environ.get("LIFEBENCH_TARSIER_ATTN_IMPLEMENTATION", "eager") == "flash_attention_2"
+            and tarsier_vendor.exists()
+        ):
             vendor_path = str(tarsier_vendor)
             if vendor_path not in sys.path:
                 sys.path.insert(0, vendor_path)
@@ -120,10 +123,8 @@ class Tarsier2Session:
         from tasks.utils import load_model_and_processor
         import yaml
 
-        if not module_available("flash_attn"):
-            raise RuntimeError("Tarsier2 inference requires flash_attn, but it is not installed.")
-
         data_config = yaml.safe_load(Path(args.tarsier_config).read_text(encoding="utf-8"))
+        data_config["max_pixels"] = int(os.environ.get("LIFEBENCH_TARSIER_MAX_PIXELS", "50176"))
         self.model, self.processor = load_model_and_processor(str(model_path), data_config=data_config)
         self.process_one = process_one
         self.args = args

@@ -2,7 +2,7 @@
 
 将视频分为三类：
 1. `normal`：无异常事件，无明显风险征兆
-2. `risk_only`：尚未发生异常，但存在明显风险征兆
+2. `risk_only`：尚未确认发生异常后果或伤害，但存在明显风险源或危险行为，人员或物体可以处于风险暴露状态
 3. `abnormal`：已经发生异常事件
 
 输出字段：
@@ -13,11 +13,12 @@
 | `risk_type` | string | 风险类别，必须从以下类别中选择：`跌倒失稳`、`动物攻击`、`碰撞砸伤`、`用电安全`、`高温火源`、`人际冲突`、`中毒误食`、`锐器危险`、`陌生盗窃/入侵`、`溺水`、`自然灾害`。normal 时为空字符串 |
 | `risk_sources` | list[string] | 视频中的风险源列表，如 `["刀具", "灶台明火", "宠物狗"]`。normal 时为空数组 |
 | `abnormal_actions` | list[string] | 已发生或明显的异常行为，如 `["摔倒", "撞击", "攀爬", "滑倒", "靠近", "伸手触碰"]`。normal 时为空数组 |
-| `affected_objects` | list[string] | 受影响的人员，必须从以下选项中选择：`儿童`、`年轻人`、`中年人`、`老年人`、`所有人`。normal 时为空数组 |
+| `affected_objects` | list[string] | 已受到影响或处于风险暴露中的人员/对象。人员必须从以下选项中选择：`儿童`、`年轻人`、`中年人`、`老年人`、`所有人`；也可以填写视频中明确受威胁的物体或设施。normal 时为空数组 |
 
 类别条件规则：
 - `normal`：`risk_type` 为空字符串，`risk_sources`、`abnormal_actions`、`affected_objects` 为空数组
-- `risk_only` 和 `abnormal`：上述字段均为必填
+- `risk_only`：必须存在明显风险源或危险行为，但没有确认发生伤害、碰撞、破坏等异常后果；如果人员或物体处于风险暴露中，应填写 `affected_objects`
+- `abnormal`：已经确认发生异常事件或异常后果；上述字段均为必填
 
 输出格式：
 
@@ -48,7 +49,7 @@
   "risk_status": "risk_only",
   "risk_type": "高温火源",
   "risk_sources": ["灶台", "锅具"],
-  "abnormal_actions": ["靠近高温区域", "伸手触碰"],
+  "abnormal_actions": ["火源持续暴露", "无人看管"],
   "affected_objects": ["儿童"]
 }
 ```

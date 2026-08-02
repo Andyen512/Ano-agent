@@ -32,6 +32,7 @@ from evaluation.common import (
     start_time_error,
     end_time_error,
     duration_error,
+    span_union_length,
     merge_spans,
 )
 
@@ -88,6 +89,12 @@ def build_parser() -> argparse.ArgumentParser:
                    help="Multiple base URLs dispatched round-robin.")
     p.add_argument("--workers", type=int, default=8, help="Parallel workers for evaluation.")
     p.add_argument("--resume", action="store_true", help="Reuse compatible per-prediction caches.")
+    p.add_argument("--skip-temporal", action="store_true",
+                   help="Exclude temporal-grounding metrics and recompute overall from "
+                        "perception/cognition/intervention only.")
+    p.add_argument("--risk-status-filter", default="",
+                   help="Comma-separated GT risk_status values to keep (e.g. abnormal,risk_only). "
+                        "Empty means no filtering.")
     return p
 
 
@@ -179,6 +186,7 @@ def evaluate_one_prediction(
     parsed_pred: dict[str, Any],
     raw_response: str,
     judge: Any,
+    skip_temporal: bool = False,
 ) -> dict[str, Any]:
     is_normal = gt.risk_status == RISK_STATUS_NO_ANOMALY
     gt_status = gt.risk_status
@@ -353,12 +361,21 @@ def evaluate_one_prediction(
         if isinstance((pred_time_spans or []), list)
     ])
 
+    gt_duration = max(span_union_length(gt_time_spans), 1.0) if gt_time_spans else 1.0
+
     if is_normal:
         has_pred_time_spans = bool(pred_time_spans)
         iou_score = 0.0 if has_pred_time_spans else 1.0
         start_err = 0.0
         end_err = 0.0
         dur_err = 0.0
+    elif gt_time_spans and not pred_time_spans:
+        # A missing prediction has no temporal alignment and must not receive
+        # perfect endpoint or duration scores merely because its error is undefined.
+        iou_score = 0.0
+        start_err = gt_duration
+        end_err = gt_duration
+        dur_err = gt_duration
     else:
         iou_score = time_iou(gt_time_spans, pred_time_spans) if gt_time_spans else (
             1.0 if not pred_time_spans else 0.0
@@ -366,6 +383,18 @@ def evaluate_one_prediction(
         start_err = start_time_error(gt_time_spans, pred_time_spans)
         end_err = end_time_error(gt_time_spans, pred_time_spans)
         dur_err = duration_error(gt_time_spans, pred_time_spans)
+
+    time_iou_score = round(5.0 * iou_score, 3)
+    start_time_score = round(max(0.0, 5.0 * (1.0 - start_err / gt_duration)), 3)
+    end_time_score = round(max(0.0, 5.0 * (1.0 - end_err / gt_duration)), 3)
+    duration_score = round(max(0.0, 5.0 * (1.0 - dur_err / gt_duration)), 3)
+    temporal_grounding_score = round(
+        0.25 * time_iou_score
+        + 0.25 * start_time_score
+        + 0.25 * end_time_score
+        + 0.25 * duration_score,
+        3,
+    )
 
     # ── Planning ────────────────────────────────────────────────
     pred_solutions = parse_prediction_solution(parsed_pred)
@@ -421,7 +450,7 @@ def evaluate_one_prediction(
         overall = round(
             (0.5 * perception + 0.5 * cognition) * 100.0, 3
         )
-        temporal = iou_score
+        temporal = temporal_grounding_score / 5.0
         intervention = _norm(solution_score)
     else:
         perception = (
@@ -437,48 +466,66 @@ def evaluate_one_prediction(
             + 0.25 * _norm(factual_boundary_score)
             + 0.25 * _norm(causal_chain_score)
         )
-        temporal = iou_score
+        temporal = temporal_grounding_score / 5.0
         intervention = _norm(solution_score)
         overall = round(
             (0.25 * perception + 0.25 * cognition
              + 0.25 * temporal + 0.25 * intervention) * 100.0,
             3,
         )
+    if skip_temporal:
+        if is_normal:
+            overall = round((0.5 * perception + 0.5 * cognition) * 100.0, 3)
+        else:
+            overall = round(
+                ((0.25 * perception + 0.25 * cognition + 0.25 * intervention) / 0.75) * 100.0,
+                3,
+            )
     category_scores = {
         "perception": round(perception * 100.0, 3),
         "cognition": round(cognition * 100.0, 3),
-        "temporal_grounding": round(temporal * 100.0, 3),
         "intervention_planning": round(intervention * 100.0, 3),
     }
+    if not skip_temporal:
+        category_scores["temporal_grounding"] = round(temporal * 100.0, 3)
+
+    metrics = {
+        # Perception
+        "risk_status_accuracy": round(5.0 * risk_status_acc, 3),
+        "risk_type_accuracy": round(5.0 * risk_type_acc, 3),
+        "risk_source_recognition_score": round(risk_source_score, 3),
+        "abnormal_action_recognition_score": round(abnormal_action_score, 3),
+        "affected_object_recognition_score": round(affected_object_score, 3),
+        # Cognition
+        "risk_description_score": round(risk_desc_score, 3),
+        "consequence_understanding_score": round(conseq_score, 3),
+        "factual_boundary_error_score": round(factual_boundary_score, 3),
+        "causal_chain_understanding_score": round(causal_chain_score, 3),
+        # Planning
+        "solution_score": solution_score,
+        "person_solution_score": round(person_sol_score, 3),
+        "hazard_solution_score": round(hazard_sol_score, 3),
+        "overall_solution_score": round(overall_sol_score, 3),
+        # Overall
+        "overall_score": overall,
+    }
+    if not skip_temporal:
+        metrics.update({
+            "time_iou": round(iou_score, 4),
+            "time_iou_score": time_iou_score,
+            "start_time_error": round(start_err, 3),
+            "end_time_error": round(end_err, 3),
+            "duration_error": round(dur_err, 3),
+            "start_time_score": start_time_score,
+            "end_time_score": end_time_score,
+            "duration_score": duration_score,
+            "temporal_grounding_score": temporal_grounding_score,
+        })
 
     return {
         "video_id": gt.video_id,
         "risk_status": gt_status,
-        "metrics": {
-            # Perception
-            "risk_status_accuracy": round(5.0 * risk_status_acc, 3),
-            "risk_type_accuracy": round(5.0 * risk_type_acc, 3),
-            "risk_source_recognition_score": round(risk_source_score, 3),
-            "abnormal_action_recognition_score": round(abnormal_action_score, 3),
-            "affected_object_recognition_score": round(affected_object_score, 3),
-            # Cognition
-            "risk_description_score": round(risk_desc_score, 3),
-            "consequence_understanding_score": round(conseq_score, 3),
-            "factual_boundary_error_score": round(factual_boundary_score, 3),
-            "causal_chain_understanding_score": round(causal_chain_score, 3),
-            # Temporal
-            "time_iou": round(iou_score, 4),
-            "start_time_error": round(start_err, 3),
-            "end_time_error": round(end_err, 3),
-            "duration_error": round(dur_err, 3),
-            # Planning
-            "solution_score": solution_score,
-            "person_solution_score": round(person_sol_score, 3),
-            "hazard_solution_score": round(hazard_sol_score, 3),
-            "overall_solution_score": round(overall_sol_score, 3),
-            # Overall
-            "overall_score": overall,
-        },
+        "metrics": metrics,
         "category_scores": category_scores,
         "ground_truth": gt.perception,
     }
@@ -563,10 +610,19 @@ def main() -> int:
 
         matched_pairs.append((gt_by_video[gt_video_id], payload, parsed))
 
+    if args.risk_status_filter:
+        allowed_statuses = {s.strip() for s in args.risk_status_filter.split(",") if s.strip()}
+        if allowed_statuses:
+            filtered = [p for p in matched_pairs if p[0].risk_status in allowed_statuses]
+            print(f"  Risk-status filter {sorted(allowed_statuses)}: "
+                  f"{len(matched_pairs)} -> {len(filtered)} remaining")
+            matched_pairs = filtered
+
     print(f"  Matched: {len(matched_pairs)}, unmatched: {unmatched}, parse_fail: {parse_fail}, dup_skipped: {len(seen_videos) - len(matched_pairs) - parse_fail}")
 
     output_dir = args.output_dir
     ensure_dir(output_dir)
+    partial_path = output_dir / "per_video_scores.partial.json"
 
     # Build judge signature for caching
     judge_signature = {
@@ -581,7 +637,32 @@ def main() -> int:
     ]
 
     progress_lock = threading.Lock()
-    progress: dict[str, int] = {"total": len(per_video_inputs), "completed": 0, "cache_hits": 0}
+    cached_results: list[dict[str, Any]] = []
+    cached_keys: set[tuple[str, str]] = set()
+    if args.resume and partial_path.exists():
+        try:
+            loaded_partial = json.loads(partial_path.read_text(encoding="utf-8"))
+            if isinstance(loaded_partial, list):
+                cached_results = [item for item in loaded_partial if isinstance(item, dict)]
+                cached_keys = {
+                    (str(item.get("model_id", "")), str(item.get("video_id", "")))
+                    for item in cached_results
+                }
+        except (OSError, json.JSONDecodeError):
+            cached_results = []
+            cached_keys = set()
+
+    if cached_keys:
+        per_video_inputs = [
+            item for item in per_video_inputs
+            if (str(item[1].get("model_id", "")), str(item[0].video_id)) not in cached_keys
+        ]
+
+    progress: dict[str, int] = {
+        "total": len(matched_pairs),
+        "completed": len(cached_results),
+        "cache_hits": len(cached_results),
+    }
     thread_local = threading.local()
 
     def evaluate_one(item: tuple[RealVideoGT, dict[str, Any], dict[str, Any]]) -> dict[str, Any]:
@@ -600,18 +681,30 @@ def main() -> int:
                 args.judge_api_key, judge_base_url,
             )
 
-        result = evaluate_one_prediction(gt, parsed_pred, raw_response, thread_local.judge)
+        result = evaluate_one_prediction(gt, parsed_pred, raw_response, thread_local.judge,
+                                         skip_temporal=args.skip_temporal)
         result["model_id"] = model_id
         result["backend"] = payload.get("backend", "")
 
         with progress_lock:
             progress["completed"] += 1
+            cached_results.append(result)
+            write_json_atomic(partial_path, cached_results)
+            print(
+                f"[eval progress] {progress['completed']}/{progress['total']} videos completed",
+                flush=True,
+            )
         return result
 
-    print(f"Evaluating {len(per_video_inputs)} predictions with {args.workers} workers ...")
+    print(
+        f"Evaluating {len(per_video_inputs)} predictions with {args.workers} workers "
+        f"({len(cached_results)} already cached) ...",
+        flush=True,
+    )
     with ThreadPoolExecutor(max_workers=args.workers) as executor:
         results = list(executor.map(evaluate_one, per_video_inputs))
 
+    results = cached_results
     results.sort(key=lambda r: (r.get("model_id", ""), r.get("video_id", "")))
 
     # Summarize
@@ -623,6 +716,8 @@ def main() -> int:
         "judge_mode": effective_judge_mode,
         "gt_dir": str(args.gt_dir),
         "predictions_root": str(args.predictions_root),
+        "skip_temporal": args.skip_temporal,
+        "risk_status_filter": args.risk_status_filter,
         "total_gt_entries": len(gt_by_video),
         "total_predictions_evaluated": len(results),
         "model_summary": model_summary,

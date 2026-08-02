@@ -18,13 +18,14 @@ from model_snapshot import is_model_snapshot_complete
 PROJECT_ROOT = Path(__file__).resolve().parent.parent
 MODELS_ROOT = PROJECT_ROOT / "models"
 DATA_ROOT = PROJECT_ROOT / "data"
+PROMPTS_DIR = Path(__file__).resolve().parent / "scripts" / "prompts"
 RESULTS_ROOT = PROJECT_ROOT / "outputs" / "benchmark_inference"
 STATUS_ROOT = RESULTS_ROOT / "status"
 LOG_ROOT = RESULTS_ROOT / "logs"
 EVALUATION_SCRIPT = Path(__file__).resolve().parent / "evaluate_outputs.py"
 EVALUATION_OUTPUT_DIR = PROJECT_ROOT / "outputs" / "evaluation" / "latest"
 EVALUATION_STATUS_PATH = RESULTS_ROOT / "evaluation_status.json"
-PROMPT_FILE = DATA_ROOT / "infer_prompt_structured.txt"
+PROMPT_FILE = PROMPTS_DIR / "infer_prompt_structured.txt"
 
 TERMINAL_STATES = {"completed"}
 

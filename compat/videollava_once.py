@@ -48,6 +48,15 @@ def install_transformers_compat() -> None:
         modeling_opt._make_causal_mask = AttentionMaskConverter._make_causal_mask
 
 
+def install_torchvision_compat() -> None:
+    # pytorchvideo 0.1.5 imports this module name, which was removed from
+    # torchvision 0.18 while the underlying functional API stayed compatible.
+    if "torchvision.transforms.functional_tensor" not in sys.modules:
+        import torchvision.transforms.functional as functional
+
+        sys.modules["torchvision.transforms.functional_tensor"] = functional
+
+
 def build_parser() -> argparse.ArgumentParser:
     parser = argparse.ArgumentParser()
     parser.add_argument("--model-path", required=True)
@@ -63,6 +72,7 @@ class VideoLlavaSession:
     def __init__(self, model_path: str, model_base: str | None = None) -> None:
         install_safe_transformers_registration()
         install_transformers_compat()
+        install_torchvision_compat()
         sys.path.insert(0, str(VIDEO_LLAVA_ROOT))
 
         from videollava.constants import (

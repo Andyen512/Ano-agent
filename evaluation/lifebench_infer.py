@@ -666,7 +666,10 @@ def run_tarsier2(model_path: Path, args: argparse.Namespace, prompt: str) -> str
     ensure_backend_on_path(backend)
 
     tarsier_vendor = PROJECT_ROOT / ".vendor" / "tarsier_flashattn"
-    if tarsier_vendor.exists():
+    if (
+        os.environ.get("LIFEBENCH_TARSIER_ATTN_IMPLEMENTATION", "eager") == "flash_attention_2"
+        and tarsier_vendor.exists()
+    ):
         vendor_path = str(tarsier_vendor)
         if vendor_path not in sys.path:
             sys.path.insert(0, vendor_path)
@@ -674,13 +677,12 @@ def run_tarsier2(model_path: Path, args: argparse.Namespace, prompt: str) -> str
     from tasks.inference_quick_start import process_one
     from tasks.utils import load_model_and_processor
 
-    if not module_available("flash_attn"):
-        raise RuntimeError("Tarsier2 inference in this checkout requires the flash_attn package, but it is not installed.")
-
-    frame_budget = max(1, min(args.max_frames, 32))
+    tarsier_frame_limit = int(os.environ.get("LIFEBENCH_TARSIER_MAX_FRAMES", "32"))
+    frame_budget = max(1, min(args.max_frames, tarsier_frame_limit, 32))
     data_config = yaml.safe_load(Path(args.tarsier_config).read_text(encoding="utf-8"))
     data_config["n_frames"] = frame_budget
     data_config["max_n_frames"] = frame_budget
+    data_config["max_pixels"] = int(os.environ.get("LIFEBENCH_TARSIER_MAX_PIXELS", "50176"))
     video_sampling_strategy = dict(data_config.get("video_sampling_strategy") or {})
     video_sampling_strategy["use_multi_images_for_video"] = False
     data_config["video_sampling_strategy"] = video_sampling_strategy
@@ -1191,8 +1193,23 @@ def load_internvl_model(model_path: Path, args: argparse.Namespace):
         "trust_remote_code": True,
         "use_flash_attn": args.use_flash_attn,
     }
+    model_parallel = os.environ.get("LIFEBENCH_INTERNVL35_MODEL_PARALLEL") == "1"
+    if model_parallel:
+        load_kwargs["device_map"] = "auto"
+        load_kwargs["low_cpu_mem_usage"] = True
     model = AutoModel.from_pretrained(str(model_path), **load_kwargs).eval()
-    model = model.to(target_device)
+    # InternVL falls back to eager Qwen attention when flash-attn is absent.
+    # PyTorch SDPA keeps the 32-frame path memory-efficient without a CUDA toolkit.
+    if not args.use_flash_attn:
+        language_model = getattr(model, "language_model", None)
+        if language_model is not None and hasattr(language_model, "config"):
+            language_model.config._attn_implementation = "sdpa"
+        if hasattr(model.config, "llm_config"):
+            model.config.llm_config._attn_implementation = "sdpa"
+    if not model_parallel:
+        model = model.to(target_device)
+    else:
+        target_device = next(model.parameters()).device
     return model, tokenizer, target_device
 
 

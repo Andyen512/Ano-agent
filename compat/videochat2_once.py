@@ -14,6 +14,7 @@ ASK_ANYTHING_ROOT = PROJECT_ROOT / "code" / "Ask-Anything" / "video_chat2"
 VENDOR_COMMON = PROJECT_ROOT / ".vendor" / "common"
 HF_CACHE = PROJECT_ROOT / "models" / ".hf_cache"
 HF_HOME = PROJECT_ROOT / "models" / ".hf_home"
+HF_HUB_CACHE = HF_HOME / "hub"
 PROJECT_TMP = PROJECT_ROOT / ".tmp"
 
 
@@ -32,8 +33,12 @@ def build_parser() -> argparse.ArgumentParser:
 
 def prepare_env() -> None:
     os.environ["HF_HOME"] = str(HF_HOME)
-    os.environ["HF_HUB_CACHE"] = str(HF_CACHE)
-    os.environ["TRANSFORMERS_CACHE"] = str(HF_CACHE)
+    os.environ["HF_HUB_CACHE"] = str(HF_HUB_CACHE)
+    os.environ["TRANSFORMERS_CACHE"] = str(HF_HUB_CACHE)
+    # transformers is imported before this compatibility layer, so update its
+    # already-initialized cache default as well.
+    import transformers.utils.hub as transformers_hub
+    transformers_hub.TRANSFORMERS_CACHE = str(HF_HUB_CACHE)
     PROJECT_TMP.mkdir(parents=True, exist_ok=True)
     os.environ.setdefault("TMPDIR", str(PROJECT_TMP))
     os.environ.setdefault("TMP", str(PROJECT_TMP))
@@ -122,21 +127,13 @@ def get_prompt(conv) -> str:
     return ret
 
 
-def get_prompt2(conv) -> str:
+def get_prompt(conv) -> str:
     ret = conv.system + conv.sep
-    count = 0
     for role, message in conv.messages:
-        count += 1
-        if count == len(conv.messages):
-            if message:
-                ret += role + " " + message
-            else:
-                ret += role
+        if message:
+            ret += role + ": " + message + conv.sep
         else:
-            if message:
-                ret += role + " " + message + " " + conv.sep
-            else:
-                ret += role
+            ret += role + ":"
     return ret
 
 
@@ -157,23 +154,43 @@ class VideoChat2Session:
         resolved_model_path = Path(model_path).expanduser().resolve()
         compat_dir = build_compat_model_dir(resolved_model_path)
         vit_module = load_vit_module(compat_dir)
+        device_map = {
+            "vision_encoder": 0,
+            "vision_layernorm": 0,
+            "qformer": 0,
+            "query_tokens": 0,
+            "extra_query_tokens": 0,
+            "mistral_model": 1,
+            "mistral_proj": 1,
+        }
 
-        self.model = AutoModel.from_pretrained(str(compat_dir), trust_remote_code=True, low_cpu_mem_usage=False).to("cuda:0")
+        self.model = AutoModel.from_pretrained(
+            str(compat_dir),
+            trust_remote_code=True,
+            low_cpu_mem_usage=True,
+            device_map=device_map,
+        )
+        pos_embed_device = self.model.vision_encoder.encoder.pos_embed.device
         self.model.vision_encoder.encoder.pos_embed = vit_module.get_sinusoid_encoding_table(
             n_position=(resolution // 16) ** 2 * num_segments,
             d_hid=self.model.vision_encoder.encoder.pos_embed.shape[-1],
             cur_frame=num_segments,
-        )
+        ).to(pos_embed_device)
+
+    def _device_for(self, module) -> str:
+        return str(next(module.parameters()).device)
 
     def get_context_emb(self, conv, img_list):
         import torch
 
-        prompt = get_prompt2(conv)
+        prompt = get_prompt(conv)
         prompt_segs = prompt.split("<VideoHere>") if "<VideoHere>" in prompt else prompt.split("<ImageHere>")
         assert len(prompt_segs) == len(img_list) + 1, "Unmatched numbers of placeholders and embeddings."
+        embed_device = self._device_for(self.model.mistral_model.model.embed_tokens)
+        img_list = [img.to(embed_device) for img in img_list]
         with torch.no_grad():
             seg_tokens = [
-                self.model.mistral_tokenizer(seg, return_tensors="pt", add_special_tokens=index == 0).to("cuda:0").input_ids
+                self.model.mistral_tokenizer(seg, return_tensors="pt", add_special_tokens=index == 0).to(embed_device).input_ids
                 for index, seg in enumerate(prompt_segs)
             ]
             seg_embs = [self.model.mistral_model.model.embed_tokens(seg_t) for seg_t in seg_tokens]
@@ -209,7 +226,8 @@ class VideoChat2Session:
             hd_num=self.hd_num,
         )
         t, c, h, w = video.shape
-        video = video.reshape(1, t, c, h, w).to("cuda:0")
+        vision_device = self._device_for(self.model.vision_encoder)
+        video = video.reshape(1, t, c, h, w).to(vision_device)
 
         import torch
 
@@ -217,8 +235,8 @@ class VideoChat2Session:
             video_emb, _, _ = self.model.encode_img(video, [""])
         video_list = [video_emb[0]]
 
-        chat = type("ChatState", (), {"system": "", "roles": ("[INST]", "[/INST]"), "messages": [], "sep": ""})()
-        chat.messages.append([chat.roles[0], "<Video><VideoHere></Video> [/INST]"])
+        chat = type("ChatState", (), {"system": "", "roles": ("Human", "Assistant"), "messages": [], "sep": "###"})()
+        chat.messages.append([chat.roles[0], "<Video><VideoHere></Video>\n"])
         ask(prompt, chat)
         return self.answer(chat, video_list, max_new_tokens, temperature > 0, temperature)
 

@@ -55,13 +55,19 @@ if ! [[ "$MAX_RETRIES" =~ ^[0-9]+$ && "$RETRY_DELAY" =~ ^[0-9]+$ ]]; then
     exit 1
 fi
 
-# 解析公共参数（--videos-dir, --output-dir, --prompts-dir, --model-keys）
+# 解析公共参数（--videos-dir, --output-dir, --prompts-dir, --model-keys,
+# --inference-mode, --chunk-index, --total-chunks, --gpu-index）
 COMMON_ARGS=()
 USER_KEYS=()
+TARGET_GPU=""
 while [[ $# -gt 0 ]]; do
     case "$1" in
-        --videos-dir|--output-dir|--prompts-dir)
+        --videos-dir|--output-dir|--prompts-dir|--inference-mode|--chunk-index|--total-chunks)
             COMMON_ARGS+=("$1" "$2")
+            shift 2
+            ;;
+        --gpu-index)
+            TARGET_GPU="$2"
             shift 2
             ;;
         --model-keys)
@@ -72,11 +78,31 @@ while [[ $# -gt 0 ]]; do
             done
             ;;
         *)
-            echo "Usage: $0 [--videos-dir DIR] [--output-dir DIR] [--prompts-dir DIR] [--model-keys KEY...]"
+             echo "Usage: $0 [--videos-dir DIR] [--output-dir DIR] [--prompts-dir DIR] [--model-keys KEY...] [--inference-mode independent|sequential|single] [--chunk-index N --total-chunks N] [--gpu-index N]"
             exit 1
             ;;
     esac
 done
+
+CHUNK_INDEX=""
+TOTAL_CHUNKS=""
+for ((arg_i = 0; arg_i < ${#COMMON_ARGS[@]}; arg_i += 2)); do
+    case "${COMMON_ARGS[arg_i]}" in
+        --chunk-index) CHUNK_INDEX="${COMMON_ARGS[arg_i + 1]}" ;;
+        --total-chunks) TOTAL_CHUNKS="${COMMON_ARGS[arg_i + 1]}" ;;
+    esac
+done
+if [ -n "$CHUNK_INDEX" ] || [ -n "$TOTAL_CHUNKS" ]; then
+    if ! [[ "$CHUNK_INDEX" =~ ^[0-9]+$ && "$TOTAL_CHUNKS" =~ ^[1-9][0-9]*$ ]] || \
+        [ "$CHUNK_INDEX" -ge "$TOTAL_CHUNKS" ]; then
+        echo "--chunk-index must be in [0, --total-chunks), and --total-chunks must be positive" >&2
+        exit 1
+    fi
+fi
+if [ -n "$TARGET_GPU" ] && ! [[ "$TARGET_GPU" =~ ^[0-9]+$ && "$TARGET_GPU" -lt "$NUM_GPUS" ]]; then
+    echo "--gpu-index must be an integer in [0, ${NUM_GPUS})" >&2
+    exit 1
+fi
 
 echo "============================================"
 echo " LifeBench 8-GPU Parallel Inference"
@@ -103,6 +129,7 @@ for ((gpu = 0; gpu < NUM_GPUS; gpu++)); do
 done
 
 gpu=0
+[ -n "$TARGET_GPU" ] && gpu="$TARGET_GPU"
 for key in "${EFFECTIVE_KEYS[@]}"; do
     ASSIGN[gpu]="${ASSIGN[gpu]} $key"
     gpu=$(( (gpu + 1) % NUM_GPUS ))
@@ -153,6 +180,9 @@ cleanup_workers() {
 trap cleanup_workers INT TERM
 
 for ((gpu = 0; gpu < NUM_GPUS; gpu++)); do
+    if [ -n "$TARGET_GPU" ] && [ "$gpu" -ne "$TARGET_GPU" ]; then
+        continue
+    fi
     keys="${ASSIGN[gpu]}"
     if [ -z "$keys" ]; then
         continue

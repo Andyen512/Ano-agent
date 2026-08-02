@@ -295,6 +295,48 @@ def match_prediction_to_gt(
     if prediction_filename_stem in gt_by_video_id:
         return prediction_filename_stem
 
+    # Generated videos are stored as
+    # generated_videos/<status>/<scene>/<subject>/<risk>/<description>/<generator>/<file>,
+    # while their released GT uses the status component immediately before the file.
+    # Resolve that layout from the full prediction path before falling back to an
+    # ambiguous basename match.
+    if prediction_video_path:
+        path_parts = Path(prediction_video_path).parts
+        try:
+            generated_index = path_parts.index("generated_videos")
+        except ValueError:
+            generated_index = -1
+        if generated_index >= 0:
+            generated_parts = list(path_parts[generated_index + 1:])
+            if len(generated_parts) >= 3 and generated_parts[0] in {
+                "normal", "risk_only", "abnormal",
+            }:
+                status = generated_parts[0]
+                generated_id = "/".join(
+                    [
+                        "generated_videos",
+                        *generated_parts[1:-1],
+                        status,
+                        generated_parts[-1].removesuffix(Path(generated_parts[-1]).suffix),
+                    ]
+                )
+                if generated_id in gt_by_video_id:
+                    return generated_id
+
+                # Some generated GT entries use a different description path
+                # while retaining the same generator, status, and file name.
+                # Use that combination only when it identifies one GT entry.
+                basename_index = gt_by_basename or _build_basename_index(gt_by_video_id)
+                generator = generated_parts[-2]
+                filename = generated_parts[-1].removesuffix(Path(generated_parts[-1]).suffix)
+                candidates = [
+                    candidate
+                    for candidate in basename_index.get(filename, [])
+                    if candidate.endswith(f"/{generator}/{status}/{filename}")
+                ]
+                if len(candidates) == 1:
+                    return candidates[0]
+
     if gt_by_basename is None:
         gt_by_basename = _build_basename_index(gt_by_video_id)
 
@@ -416,6 +458,24 @@ def _normalize_prediction_keys(pred: dict[str, Any]) -> dict[str, Any]:
             ]
         else:
             result["causal_chain"] = []
+
+    if "time_spans" in result:
+        raw_spans = result["time_spans"]
+        normalized_spans: list[list[float]] = []
+        if isinstance(raw_spans, list):
+            for item in raw_spans:
+                if isinstance(item, dict):
+                    start = item.get("start", item.get("start_second"))
+                    end = item.get("end", item.get("end_second"))
+                elif isinstance(item, (list, tuple)) and len(item) >= 2:
+                    start, end = item[0], item[1]
+                else:
+                    continue
+                try:
+                    normalized_spans.append([float(start), float(end)])
+                except (TypeError, ValueError):
+                    continue
+        result["time_spans"] = normalized_spans
     return result
 
 

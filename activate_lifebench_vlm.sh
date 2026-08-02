@@ -7,6 +7,7 @@ else
     for candidate in \
         "/workspace/anaconda3/envs/lifebench-vlm" \
         "/data_4/liuyuan/anaconda3/envs/lifebench-vlm" \
+        "$HOME/data/caiqingyuan/env/lifebench-vlm" \
         "$HOME/miniconda3/envs/lifebench-vlm" \
         "$HOME/anaconda3/envs/lifebench-vlm" \
         "/opt/conda/envs/lifebench-vlm"
@@ -29,7 +30,7 @@ else
     _ACTIVATE_SCRIPT_PATH="$0"
 fi
 _ACTIVATE_SCRIPT_DIR="$(CDPATH= cd -- "$(dirname -- "$_ACTIVATE_SCRIPT_PATH")" && pwd)"
-PROJECT_TMP_DIR="$_ACTIVATE_SCRIPT_DIR/.tmp"
+PROJECT_TMP_DIR="${LIFEBENCH_TMPDIR:-$HOME/data/caiqingyuan/env}"
 SHIM_LIB="$ENV_ROOT/lib/libittnotify.so"
 
 export PATH="$ENV_ROOT/bin:$PATH"
